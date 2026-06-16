@@ -1,5 +1,12 @@
 # Adding tools / ecosystem in https://github.com/ome/ngff/pull/529
 
+- name: Core
+
+  packages:
+    - repo: ome/ngff
+    - repo: ome/ngff-spec
+
+
 - name: Zarr viewers
 
   packages:
@@ -99,3 +106,14 @@
     - repo: clbarnes/zarr-convention-thumbnails
     - repo: researchobject/ro-crate
     - repo: mlcommons/BioCroissant
+
+
+- name: Other tools (to curate)
+  packages:
+    - repo: BioImageTools/capability-manifest
+    - repo: mehta-lab/VisCy
+    - repo: khanlab/zarrnii
+    - repo: chourroutm/organ-masker-lite
+    - repo: biopb/biopb
+    - repo: mapmanager/cloudscope
+    - repo: mahmoodlab/TRIDENT
