@@ -30,7 +30,7 @@ jobs:
 
       - name: Generate status page
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: uv run make_status.py
 
       - name: Commit and push if changed
