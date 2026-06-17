@@ -1,4 +1,4 @@
-generated_at: '2026-06-17T09:42:25.440388Z'
+generated_at: '2026-06-17T09:56:05.747709Z'
 sections:
 - name: Core
   packages:
@@ -433,7 +433,7 @@ sections:
     repo_info:
       created_at: '2012-05-14T16:26:17Z'
       description: Visualize, share and annotate your large 3D images online
-      open_issues: 344
+      open_issues: 343
       size: 847418
       stargazers_count: 175
       topics:
@@ -1262,7 +1262,7 @@ sections:
       created_at: '2018-09-26T17:35:34Z'
       description: Brain Imaging Data Structure (BIDS) Specification
       open_issues: 371
-      size: 21944
+      size: 22075
       stargazers_count: 358
       topics:
       - bids
@@ -1713,10 +1713,10 @@ sections:
   packages:
   - last_commit:
       author: btbest
-      date: '2026-06-16'
-      sha: f4667ad19a9144189fa75da41d2e467ef2603cee
+      date: '2026-06-17'
+      sha: 2641186af005dff561b71279a5ec84a9143b1afd
       status: SUCCESS
-      url: https://github.com/ilastik/clearscale/commit/f4667ad19a9144189fa75da41d2e467ef2603cee
+      url: https://github.com/ilastik/clearscale/commit/2641186af005dff561b71279a5ec84a9143b1afd
     name: clearscale
     repo: ilastik/clearscale
     repo_info:
@@ -1726,7 +1726,7 @@ sections:
       size: 171
       stargazers_count: 3
       topics: []
-      updated_at: '2026-06-17T07:12:49Z'
+      updated_at: '2026-06-17T09:45:56Z'
     user: ilastik
     workflow_run_status: SUCCESS
   - last_commit:
@@ -4662,7 +4662,7 @@ sections:
       description: Multi-Dimensional Visualization (MDV) is an open-source toolkit
         for analyzing and visualizing spatial and molecular datasets. Code licensed
         under GPL-3.0; example spatial data under CC0 1.0.
-      open_issues: 41
+      open_issues: 42
       size: 410934
       stargazers_count: 37
       topics: []
