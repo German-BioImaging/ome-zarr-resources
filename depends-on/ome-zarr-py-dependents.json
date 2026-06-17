@@ -1,0 +1,3523 @@
+{
+    "all_public_dependent_repos": [
+        {
+            "name": "AA-Turner/top-pypi-sdists-full",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/9087854?s=40&v=4",
+            "owner": "AA-Turner",
+            "repo_name": "top-pypi-sdists-full"
+        },
+        {
+            "name": "AIhealth-noh/PathCLAST",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/150212956?s=40&v=4",
+            "owner": "AIhealth-noh",
+            "repo_name": "PathCLAST"
+        },
+        {
+            "name": "AllenCell/EMT_image_analysis",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/61852480?s=40&v=4",
+            "owner": "AllenCell",
+            "repo_name": "EMT_image_analysis"
+        },
+        {
+            "name": "AllenCell/benchmarking_representations",
+            "stars": 6,
+            "img": "https://avatars.githubusercontent.com/u/61852480?s=40&v=4",
+            "owner": "AllenCell",
+            "repo_name": "benchmarking_representations"
+        },
+        {
+            "name": "AllenCell/cyto-dl",
+            "stars": 31,
+            "img": "https://avatars.githubusercontent.com/u/61852480?s=40&v=4",
+            "owner": "AllenCell",
+            "repo_name": "cyto-dl"
+        },
+        {
+            "name": "AllenCell/nuc-morph-analysis",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/61852480?s=40&v=4",
+            "owner": "AllenCell",
+            "repo_name": "nuc-morph-analysis"
+        },
+        {
+            "name": "AllenCellModeling/aicsimageprocessing",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/26283721?s=40&v=4",
+            "owner": "AllenCellModeling",
+            "repo_name": "aicsimageprocessing"
+        },
+        {
+            "name": "AllenCellModeling/pointcloudutils",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/26283721?s=40&v=4",
+            "owner": "AllenCellModeling",
+            "repo_name": "pointcloudutils"
+        },
+        {
+            "name": "AllenInstitute/neuroglancer_formatting_scripts",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/1848392?s=40&v=4",
+            "owner": "AllenInstitute",
+            "repo_name": "neuroglancer_formatting_scripts"
+        },
+        {
+            "name": "AllenInstitute/sptx_ccf_registration",
+            "stars": 5,
+            "img": "https://avatars.githubusercontent.com/u/1848392?s=40&v=4",
+            "owner": "AllenInstitute",
+            "repo_name": "sptx_ccf_registration"
+        },
+        {
+            "name": "AllenNeuralDynamics/aind-hcr-data-transformation",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "aind-hcr-data-transformation"
+        },
+        {
+            "name": "AllenNeuralDynamics/aind-ibl-ephys-alignment-preprocessing",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "aind-ibl-ephys-alignment-preprocessing"
+        },
+        {
+            "name": "AllenNeuralDynamics/aind-large-scale-prediction",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "aind-large-scale-prediction"
+        },
+        {
+            "name": "AllenNeuralDynamics/aind-morphology-utils",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "aind-morphology-utils"
+        },
+        {
+            "name": "AllenNeuralDynamics/aind-octo-data-loaders",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "aind-octo-data-loaders"
+        },
+        {
+            "name": "AllenNeuralDynamics/aind-registration_evaluation",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "aind-registration_evaluation"
+        },
+        {
+            "name": "AllenNeuralDynamics/aind-smartspim-ccf-registration",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "aind-smartspim-ccf-registration"
+        },
+        {
+            "name": "AllenNeuralDynamics/aind-smartspim-data-transformation",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "aind-smartspim-data-transformation"
+        },
+        {
+            "name": "AllenNeuralDynamics/aind-smartspim-stitch",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "aind-smartspim-stitch"
+        },
+        {
+            "name": "AllenNeuralDynamics/aind-smartspim-transform-utils",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "aind-smartspim-transform-utils"
+        },
+        {
+            "name": "AllenNeuralDynamics/aind-zarr-utils",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "aind-zarr-utils"
+        },
+        {
+            "name": "AllenNeuralDynamics/diSpim-UI",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "diSpim-UI"
+        },
+        {
+            "name": "AllenNeuralDynamics/neuron-tracing-utils",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+            "owner": "AllenNeuralDynamics",
+            "repo_name": "neuron-tracing-utils"
+        },
+        {
+            "name": "Arshim28/Least-To-Most-Prompting",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/98533618?s=40&v=4",
+            "owner": "Arshim28",
+            "repo_name": "Least-To-Most-Prompting"
+        },
+        {
+            "name": "Arshim28/Sustainability_Project",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/98533618?s=40&v=4",
+            "owner": "Arshim28",
+            "repo_name": "Sustainability_Project"
+        },
+        {
+            "name": "Arthur-Champain/CSI-Thesis-2025",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/168719198?s=40&v=4",
+            "owner": "Arthur-Champain",
+            "repo_name": "CSI-Thesis-2025"
+        },
+        {
+            "name": "AugustHoeg/PyHPC",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/190094429?s=40&v=4",
+            "owner": "AugustHoeg",
+            "repo_name": "PyHPC"
+        },
+        {
+            "name": "AugustinBouquillard/trackmol",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/76499675?s=40&v=4",
+            "owner": "AugustinBouquillard",
+            "repo_name": "trackmol"
+        },
+        {
+            "name": "BBKing49/m2ST",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/37020928?s=40&v=4",
+            "owner": "BBKing49",
+            "repo_name": "m2ST"
+        },
+        {
+            "name": "BCV-Uniandes/SpaRED",
+            "stars": 13,
+            "img": "https://avatars.githubusercontent.com/u/29465132?s=40&v=4",
+            "owner": "BCV-Uniandes",
+            "repo_name": "SpaRED"
+        },
+        {
+            "name": "BMCV/giatools",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/24603562?s=40&v=4",
+            "owner": "BMCV",
+            "repo_name": "giatools"
+        },
+        {
+            "name": "BioImage-Archive/bia-explorer",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/81562117?s=40&v=4",
+            "owner": "BioImage-Archive",
+            "repo_name": "bia-explorer"
+        },
+        {
+            "name": "BioImageTools/ome-zarr-examples",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/150247792?s=40&v=4",
+            "owner": "BioImageTools",
+            "repo_name": "ome-zarr-examples"
+        },
+        {
+            "name": "BioImageTools/ome-zarr-image-analysis-nextflow",
+            "stars": 21,
+            "img": "https://avatars.githubusercontent.com/u/150247792?s=40&v=4",
+            "owner": "BioImageTools",
+            "repo_name": "ome-zarr-image-analysis-nextflow"
+        },
+        {
+            "name": "BioinfoTongLI/ImageTileProcessor",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/9748580?s=40&v=4",
+            "owner": "BioinfoTongLI",
+            "repo_name": "ImageTileProcessor"
+        },
+        {
+            "name": "BioinfoTongLI/spatial_annot",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/9748580?s=40&v=4",
+            "owner": "BioinfoTongLI",
+            "repo_name": "spatial_annot"
+        },
+        {
+            "name": "BioinfoTongLI/workflow-registration",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/9748580?s=40&v=4",
+            "owner": "BioinfoTongLI",
+            "repo_name": "workflow-registration"
+        },
+        {
+            "name": "BrainSharer/pipeline",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/94365405?s=40&v=4",
+            "owner": "BrainSharer",
+            "repo_name": "pipeline"
+        },
+        {
+            "name": "CBI-PITT/BrAinPI",
+            "stars": 5,
+            "img": "https://avatars.githubusercontent.com/u/94080246?s=40&v=4",
+            "owner": "CBI-PITT",
+            "repo_name": "BrAinPI"
+        },
+        {
+            "name": "Carboneinerte/Pynda_ssc",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/133698954?s=40&v=4",
+            "owner": "Carboneinerte",
+            "repo_name": "Pynda_ssc"
+        },
+        {
+            "name": "CarlWHY-28/Feature-Extraction-for-Spatial-Transcriptomics-Tissue-Images-via-BiGAN",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/131143301?s=40&v=4",
+            "owner": "CarlWHY-28",
+            "repo_name": "Feature-Extraction-for-Spatial-Transcriptomics-Tissue-Images-via-BiGAN"
+        },
+        {
+            "name": "CiiM-Bioinformatics-group/SegDecon",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/56263313?s=40&v=4",
+            "owner": "CiiM-Bioinformatics-group",
+            "repo_name": "SegDecon"
+        },
+        {
+            "name": "Claptar/spatialMPFC",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/43670295?s=40&v=4",
+            "owner": "Claptar",
+            "repo_name": "spatialMPFC"
+        },
+        {
+            "name": "Dmytro0202/sopa",
+            "stars": 8,
+            "img": "https://avatars.githubusercontent.com/u/198183528?s=40&v=4",
+            "owner": "Dmytro0202",
+            "repo_name": "sopa"
+        },
+        {
+            "name": "EPFL-Center-for-Imaging/image-analysis-field-guide",
+            "stars": 8,
+            "img": "https://avatars.githubusercontent.com/u/150429133?s=40&v=4",
+            "owner": "EPFL-Center-for-Imaging",
+            "repo_name": "image-analysis-field-guide"
+        },
+        {
+            "name": "EPFL-Center-for-Imaging/ome2glancer",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/150429133?s=40&v=4",
+            "owner": "EPFL-Center-for-Imaging",
+            "repo_name": "ome2glancer"
+        },
+        {
+            "name": "ElementoLab/utag",
+            "stars": 44,
+            "img": "https://avatars.githubusercontent.com/u/8961570?s=40&v=4",
+            "owner": "ElementoLab",
+            "repo_name": "utag"
+        },
+        {
+            "name": "Em134/bioinfo",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/42593461?s=40&v=4",
+            "owner": "Em134",
+            "repo_name": "bioinfo"
+        },
+        {
+            "name": "Euro-BioImaging/ZarrSeg",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/125282051?s=40&v=4",
+            "owner": "Euro-BioImaging",
+            "repo_name": "ZarrSeg"
+        },
+        {
+            "name": "FNLCR-DMAP/scimap",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/51838481?s=40&v=4",
+            "owner": "FNLCR-DMAP",
+            "repo_name": "scimap"
+        },
+        {
+            "name": "FrancisCrickInstitute/OmeSliCC",
+            "stars": 7,
+            "img": "https://avatars.githubusercontent.com/u/1823146?s=40&v=4",
+            "owner": "FrancisCrickInstitute",
+            "repo_name": "OmeSliCC"
+        },
+        {
+            "name": "FrancisCrickInstitute/napari-isbem",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/1823146?s=40&v=4",
+            "owner": "FrancisCrickInstitute",
+            "repo_name": "napari-isbem"
+        },
+        {
+            "name": "Genentech/spex_backend",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/3913764?s=40&v=4",
+            "owner": "Genentech",
+            "repo_name": "spex_backend"
+        },
+        {
+            "name": "Genentech/spex_ms_job_manager",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/3913764?s=40&v=4",
+            "owner": "Genentech",
+            "repo_name": "spex_ms_job_manager"
+        },
+        {
+            "name": "HKU-MedAI/MorphoNet",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/91587870?s=40&v=4",
+            "owner": "HKU-MedAI",
+            "repo_name": "MorphoNet"
+        },
+        {
+            "name": "Harshavardhan-BV/dotfiles",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/50325160?s=40&v=4",
+            "owner": "Harshavardhan-BV",
+            "repo_name": "dotfiles"
+        },
+        {
+            "name": "HieronymusEsteban/meniscus_segmentation_napari",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/22372192?s=40&v=4",
+            "owner": "HieronymusEsteban",
+            "repo_name": "meniscus_segmentation_napari"
+        },
+        {
+            "name": "Hosseinfatho/BioVisLLM",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/156163704?s=40&v=4",
+            "owner": "Hosseinfatho",
+            "repo_name": "BioVisLLM"
+        },
+        {
+            "name": "Hosseinfatho/POV",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/156163704?s=40&v=4",
+            "owner": "Hosseinfatho",
+            "repo_name": "POV"
+        },
+        {
+            "name": "IAmPara0x/czii-8th-solution",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/67608276?s=40&v=4",
+            "owner": "IAmPara0x",
+            "repo_name": "czii-8th-solution"
+        },
+        {
+            "name": "IdanSeg/Annotatability_transfer",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/157921450?s=40&v=4",
+            "owner": "IdanSeg",
+            "repo_name": "Annotatability_transfer"
+        },
+        {
+            "name": "ImperialCollegeLondon/ReCoDe-spatial-transcriptomics",
+            "stars": 6,
+            "img": "https://avatars.githubusercontent.com/u/1220306?s=40&v=4",
+            "owner": "ImperialCollegeLondon",
+            "repo_name": "ReCoDe-spatial-transcriptomics"
+        },
+        {
+            "name": "IntegratedPathologyUnit-ICR/c-pmat",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/151917763?s=40&v=4",
+            "owner": "IntegratedPathologyUnit-ICR",
+            "repo_name": "c-pmat"
+        },
+        {
+            "name": "Jhko725/desmin-sarcomere-interior",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/47238341?s=40&v=4",
+            "owner": "Jhko725",
+            "repo_name": "desmin-sarcomere-interior"
+        },
+        {
+            "name": "JosephMonaghan/viu_chem",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/121056411?s=40&v=4",
+            "owner": "JosephMonaghan",
+            "repo_name": "viu_chem"
+        },
+        {
+            "name": "KoehlerLab/Cellpose_germlineNuclei",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/151152129?s=40&v=4",
+            "owner": "KoehlerLab",
+            "repo_name": "Cellpose_germlineNuclei"
+        },
+        {
+            "name": "LFO3/HDM_Legionella_Project",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/138797529?s=40&v=4",
+            "owner": "LFO3",
+            "repo_name": "HDM_Legionella_Project"
+        },
+        {
+            "name": "LIOMLab/liom-toolkit",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/112567690?s=40&v=4",
+            "owner": "LIOMLab",
+            "repo_name": "liom-toolkit"
+        },
+        {
+            "name": "Lyn4ever29/pipy_server",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/25952589?s=40&v=4",
+            "owner": "Lyn4ever29",
+            "repo_name": "pipy_server"
+        },
+        {
+            "name": "MMV-Lab/AL_BioMed_img_seg",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/85467623?s=40&v=4",
+            "owner": "MMV-Lab",
+            "repo_name": "AL_BioMed_img_seg"
+        },
+        {
+            "name": "MMV-Lab/mmv_h4tracks",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/85467623?s=40&v=4",
+            "owner": "MMV-Lab",
+            "repo_name": "mmv_h4tracks"
+        },
+        {
+            "name": "MaksHess/compress_visiscope_timelapse",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/44779484?s=40&v=4",
+            "owner": "MaksHess",
+            "repo_name": "compress_visiscope_timelapse"
+        },
+        {
+            "name": "MannLabs/scPortrait",
+            "stars": 110,
+            "img": "https://avatars.githubusercontent.com/u/46714192?s=40&v=4",
+            "owner": "MannLabs",
+            "repo_name": "scPortrait"
+        },
+        {
+            "name": "MedICL-VU/LightMyCells",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/61335329?s=40&v=4",
+            "owner": "MedICL-VU",
+            "repo_name": "LightMyCells"
+        },
+        {
+            "name": "Mengxicici/codex_spatial",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/99297858?s=40&v=4",
+            "owner": "Mengxicici",
+            "repo_name": "codex_spatial"
+        },
+        {
+            "name": "Mengxicici/streamlit_for_infinite_TierCluster",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/99297858?s=40&v=4",
+            "owner": "Mengxicici",
+            "repo_name": "streamlit_for_infinite_TierCluster"
+        },
+        {
+            "name": "MercaderLabAnatomy/napari-tmidas",
+            "stars": 17,
+            "img": "https://avatars.githubusercontent.com/u/79163442?s=40&v=4",
+            "owner": "MercaderLabAnatomy",
+            "repo_name": "napari-tmidas"
+        },
+        {
+            "name": "MetaCell/cyroet-neuroglancer",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/10982870?s=40&v=4",
+            "owner": "MetaCell",
+            "repo_name": "cyroet-neuroglancer"
+        },
+        {
+            "name": "MillerBrainObservatory/LBM-Suite2p-Python",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/158508605?s=40&v=4",
+            "owner": "MillerBrainObservatory",
+            "repo_name": "LBM-Suite2p-Python"
+        },
+        {
+            "name": "MillerBrainObservatory/mbo_utilities",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/158508605?s=40&v=4",
+            "owner": "MillerBrainObservatory",
+            "repo_name": "mbo_utilities"
+        },
+        {
+            "name": "MonsieurMeta/EcoPath",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/126700306?s=40&v=4",
+            "owner": "MonsieurMeta",
+            "repo_name": "EcoPath"
+        },
+        {
+            "name": "MunskyGroup/AngelFISH",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/8493210?s=40&v=4",
+            "owner": "MunskyGroup",
+            "repo_name": "AngelFISH"
+        },
+        {
+            "name": "OleksiiKovalov/Cells-calculator",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/26844170?s=40&v=4",
+            "owner": "OleksiiKovalov",
+            "repo_name": "Cells-calculator"
+        },
+        {
+            "name": "PelenJiang/HistoSST",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/32063980?s=40&v=4",
+            "owner": "PelenJiang",
+            "repo_name": "HistoSST"
+        },
+        {
+            "name": "PhysiCell-Tools/python-loader",
+            "stars": 9,
+            "img": "https://avatars.githubusercontent.com/u/54858643?s=40&v=4",
+            "owner": "PhysiCell-Tools",
+            "repo_name": "python-loader"
+        },
+        {
+            "name": "QI2lab/opm-processing-v2",
+            "stars": 7,
+            "img": "https://avatars.githubusercontent.com/u/55715320?s=40&v=4",
+            "owner": "QI2lab",
+            "repo_name": "opm-processing-v2"
+        },
+        {
+            "name": "Rafael-Silva-Oliveira/EzML",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/70116258?s=40&v=4",
+            "owner": "Rafael-Silva-Oliveira",
+            "repo_name": "EzML"
+        },
+        {
+            "name": "Rafael-Silva-Oliveira/STNav",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/70116258?s=40&v=4",
+            "owner": "Rafael-Silva-Oliveira",
+            "repo_name": "STNav"
+        },
+        {
+            "name": "RamiAlBel/Course-material-Introduction-to-Scientific-Computing",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/202953285?s=40&v=4",
+            "owner": "RamiAlBel",
+            "repo_name": "Course-material-Introduction-to-Scientific-Computing"
+        },
+        {
+            "name": "Riandanis/Spatial_Integration_GSI",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/30224311?s=40&v=4",
+            "owner": "Riandanis",
+            "repo_name": "Spatial_Integration_GSI"
+        },
+        {
+            "name": "SamOliveiraLab/partaker-v2",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/119514177?s=40&v=4",
+            "owner": "SamOliveiraLab",
+            "repo_name": "partaker-v2"
+        },
+        {
+            "name": "ScheWann/Loom",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/92758590?s=40&v=4",
+            "owner": "ScheWann",
+            "repo_name": "Loom"
+        },
+        {
+            "name": "SecondBook5/AutoImmuneML",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/42758438?s=40&v=4",
+            "owner": "SecondBook5",
+            "repo_name": "AutoImmuneML"
+        },
+        {
+            "name": "Single-molecule-Biophysics-UOW/TIRF_tools",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/62413581?s=40&v=4",
+            "owner": "Single-molecule-Biophysics-UOW",
+            "repo_name": "TIRF_tools"
+        },
+        {
+            "name": "SlipknotTN/kaggle_cryo_et",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/10343467?s=40&v=4",
+            "owner": "SlipknotTN",
+            "repo_name": "kaggle_cryo_et"
+        },
+        {
+            "name": "Susanxuan/SCMBench",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/86114621?s=40&v=4",
+            "owner": "Susanxuan",
+            "repo_name": "SCMBench"
+        },
+        {
+            "name": "Swida-Alba/visual-behavior",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/53813482?s=40&v=4",
+            "owner": "Swida-Alba",
+            "repo_name": "visual-behavior"
+        },
+        {
+            "name": "Tatsuya0720/Kaggle-CZII2024",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/47269204?s=40&v=4",
+            "owner": "Tatsuya0720",
+            "repo_name": "Kaggle-CZII2024"
+        },
+        {
+            "name": "Taylor-CCB-Group/MDV",
+            "stars": 37,
+            "img": "https://avatars.githubusercontent.com/u/58420042?s=40&v=4",
+            "owner": "Taylor-CCB-Group",
+            "repo_name": "MDV"
+        },
+        {
+            "name": "Taylor-CCB-Group/SpatialData.js",
+            "stars": 7,
+            "img": "https://avatars.githubusercontent.com/u/58420042?s=40&v=4",
+            "owner": "Taylor-CCB-Group",
+            "repo_name": "SpatialData.js"
+        },
+        {
+            "name": "Thdz2196/md5",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/178288976?s=40&v=4",
+            "owner": "Thdz2196",
+            "repo_name": "md5"
+        },
+        {
+            "name": "TheDeanLab/clearex",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/109111760?s=40&v=4",
+            "owner": "TheDeanLab",
+            "repo_name": "clearex"
+        },
+        {
+            "name": "TheJacksonLaboratory/activelearning",
+            "stars": 8,
+            "img": "https://avatars.githubusercontent.com/u/19977120?s=40&v=4",
+            "owner": "TheJacksonLaboratory",
+            "repo_name": "activelearning"
+        },
+        {
+            "name": "TheLeeLab/pyRASP",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/61599529?s=40&v=4",
+            "owner": "TheLeeLab",
+            "repo_name": "pyRASP"
+        },
+        {
+            "name": "UFISH-Team/U-FISH",
+            "stars": 34,
+            "img": "https://avatars.githubusercontent.com/u/144716463?s=40&v=4",
+            "owner": "UFISH-Team",
+            "repo_name": "U-FISH"
+        },
+        {
+            "name": "Vincent-Therrien/easy-st",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/54718865?s=40&v=4",
+            "owner": "Vincent-Therrien",
+            "repo_name": "easy-st"
+        },
+        {
+            "name": "VirginiaLeombruni/xenium-project",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/187456497?s=40&v=4",
+            "owner": "VirginiaLeombruni",
+            "repo_name": "xenium-project"
+        },
+        {
+            "name": "YeoLab/containers",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/2112324?s=40&v=4",
+            "owner": "YeoLab",
+            "repo_name": "containers"
+        },
+        {
+            "name": "Yu-AnChen/quick-look",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/17751400?s=40&v=4",
+            "owner": "Yu-AnChen",
+            "repo_name": "quick-look"
+        },
+        {
+            "name": "abailoni/cellpose-training-gui",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/16247286?s=40&v=4",
+            "owner": "abailoni",
+            "repo_name": "cellpose-training-gui"
+        },
+        {
+            "name": "abailoni/segmentation_spacem",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/16247286?s=40&v=4",
+            "owner": "abailoni",
+            "repo_name": "segmentation_spacem"
+        },
+        {
+            "name": "abrar-rashid/kidney-grader",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/67344311?s=40&v=4",
+            "owner": "abrar-rashid",
+            "repo_name": "kidney-grader"
+        },
+        {
+            "name": "adanog/CryTox_Colocalization",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/96137621?s=40&v=4",
+            "owner": "adanog",
+            "repo_name": "CryTox_Colocalization"
+        },
+        {
+            "name": "alpera12/ADiaOCS",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/200010580?s=40&v=4",
+            "owner": "alpera12",
+            "repo_name": "ADiaOCS"
+        },
+        {
+            "name": "alphavector/all",
+            "stars": 6,
+            "img": "https://avatars.githubusercontent.com/u/11805788?s=40&v=4",
+            "owner": "alphavector",
+            "repo_name": "all"
+        },
+        {
+            "name": "archana1998/LEIA",
+            "stars": 7,
+            "img": "https://avatars.githubusercontent.com/u/24663984?s=40&v=4",
+            "owner": "archana1998",
+            "repo_name": "LEIA"
+        },
+        {
+            "name": "atlasxomics/ATX_snap",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/75449635?s=40&v=4",
+            "owner": "atlasxomics",
+            "repo_name": "ATX_snap"
+        },
+        {
+            "name": "axelalmet/SenID",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/10396553?s=40&v=4",
+            "owner": "axelalmet",
+            "repo_name": "SenID"
+        },
+        {
+            "name": "axelalmet/flowsig",
+            "stars": 87,
+            "img": "https://avatars.githubusercontent.com/u/10396553?s=40&v=4",
+            "owner": "axelalmet",
+            "repo_name": "flowsig"
+        },
+        {
+            "name": "bgruening/example_zarr",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/469983?s=40&v=4",
+            "owner": "bgruening",
+            "repo_name": "example_zarr"
+        },
+        {
+            "name": "bilalahmed15/AI-Setter",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/58539283?s=40&v=4",
+            "owner": "bilalahmed15",
+            "repo_name": "AI-Setter"
+        },
+        {
+            "name": "bioio-devs/bioio-ome-zarr",
+            "stars": 10,
+            "img": "https://avatars.githubusercontent.com/u/111142641?s=40&v=4",
+            "owner": "bioio-devs",
+            "repo_name": "bioio-ome-zarr"
+        },
+        {
+            "name": "biopb/biopb",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/200485764?s=40&v=4",
+            "owner": "biopb",
+            "repo_name": "biopb"
+        },
+        {
+            "name": "biopb/biopb-mcp",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/200485764?s=40&v=4",
+            "owner": "biopb",
+            "repo_name": "biopb-mcp"
+        },
+        {
+            "name": "bioshape-analysis/blog",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/175166205?s=40&v=4",
+            "owner": "bioshape-analysis",
+            "repo_name": "blog"
+        },
+        {
+            "name": "brunomingoti/Cell_Segmentation",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/77982950?s=40&v=4",
+            "owner": "brunomingoti",
+            "repo_name": "Cell_Segmentation"
+        },
+        {
+            "name": "bryanbarcelona/BioPixel",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/131413239?s=40&v=4",
+            "owner": "bryanbarcelona",
+            "repo_name": "BioPixel"
+        },
+        {
+            "name": "ccp-volume-em/muvis-align",
+            "stars": 6,
+            "img": "https://avatars.githubusercontent.com/u/242277908?s=40&v=4",
+            "owner": "ccp-volume-em",
+            "repo_name": "muvis-align"
+        },
+        {
+            "name": "cellcanvas/cellcanvas-core",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/160146426?s=40&v=4",
+            "owner": "cellcanvas",
+            "repo_name": "cellcanvas-core"
+        },
+        {
+            "name": "cellgeni/cells2visium",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/34610939?s=40&v=4",
+            "owner": "cellgeni",
+            "repo_name": "cells2visium"
+        },
+        {
+            "name": "chanzuckerberg/cryoet-data-portal-backend",
+            "stars": 7,
+            "img": "https://avatars.githubusercontent.com/u/19917299?s=40&v=4",
+            "owner": "chanzuckerberg",
+            "repo_name": "cryoet-data-portal-backend"
+        },
+        {
+            "name": "chanzuckerberg/cryoet-data-portal-neuroglancer",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/19917299?s=40&v=4",
+            "owner": "chanzuckerberg",
+            "repo_name": "cryoet-data-portal-neuroglancer"
+        },
+        {
+            "name": "cjmielke/spatial_pathology_ML",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/5335944?s=40&v=4",
+            "owner": "cjmielke",
+            "repo_name": "spatial_pathology_ML"
+        },
+        {
+            "name": "ckolluru/3D-MUSE-acquire",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/8373968?s=40&v=4",
+            "owner": "ckolluru",
+            "repo_name": "3D-MUSE-acquire"
+        },
+        {
+            "name": "cns-iu/hra-cell-embeddings",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/10944420?s=40&v=4",
+            "owner": "cns-iu",
+            "repo_name": "hra-cell-embeddings"
+        },
+        {
+            "name": "codynhanpham/MERFISH_Analysis_Pipeline",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/87593612?s=40&v=4",
+            "owner": "codynhanpham",
+            "repo_name": "MERFISH_Analysis_Pipeline"
+        },
+        {
+            "name": "compbioNJU/CellReasoner",
+            "stars": 10,
+            "img": "https://avatars.githubusercontent.com/u/59276844?s=40&v=4",
+            "owner": "compbioNJU",
+            "repo_name": "CellReasoner"
+        },
+        {
+            "name": "copick/copick",
+            "stars": 33,
+            "img": "https://avatars.githubusercontent.com/u/175745953?s=40&v=4",
+            "owner": "copick",
+            "repo_name": "copick"
+        },
+        {
+            "name": "copick/copick-torch",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/175745953?s=40&v=4",
+            "owner": "copick",
+            "repo_name": "copick-torch"
+        },
+        {
+            "name": "copick/napari-copick",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/175745953?s=40&v=4",
+            "owner": "copick",
+            "repo_name": "napari-copick"
+        },
+        {
+            "name": "czbiohub-sf/biahub",
+            "stars": 13,
+            "img": "https://avatars.githubusercontent.com/u/28747162?s=40&v=4",
+            "owner": "czbiohub-sf",
+            "repo_name": "biahub"
+        },
+        {
+            "name": "czbiohub-sf/compmicro-biautils-env",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/28747162?s=40&v=4",
+            "owner": "czbiohub-sf",
+            "repo_name": "compmicro-biautils-env"
+        },
+        {
+            "name": "czbiohub-sf/compmicro-ndutils-env",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/28747162?s=40&v=4",
+            "owner": "czbiohub-sf",
+            "repo_name": "compmicro-ndutils-env"
+        },
+        {
+            "name": "czbiohub-sf/iohub",
+            "stars": 53,
+            "img": "https://avatars.githubusercontent.com/u/28747162?s=40&v=4",
+            "owner": "czbiohub-sf",
+            "repo_name": "iohub"
+        },
+        {
+            "name": "czbiohub-sf/python-fish-sorter",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/28747162?s=40&v=4",
+            "owner": "czbiohub-sf",
+            "repo_name": "python-fish-sorter"
+        },
+        {
+            "name": "danial-ahmad1/trace_ca",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/143212428?s=40&v=4",
+            "owner": "danial-ahmad1",
+            "repo_name": "trace_ca"
+        },
+        {
+            "name": "datavil/cellestial",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/181806351?s=40&v=4",
+            "owner": "datavil",
+            "repo_name": "cellestial"
+        },
+        {
+            "name": "dertrotl/geneGATer",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/79972154?s=40&v=4",
+            "owner": "dertrotl",
+            "repo_name": "geneGATer"
+        },
+        {
+            "name": "dlmanrique/ST_Diffusion",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/60222741?s=40&v=4",
+            "owner": "dlmanrique",
+            "repo_name": "ST_Diffusion"
+        },
+        {
+            "name": "dv-bt/MicroCorrelate",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/83511952?s=40&v=4",
+            "owner": "dv-bt",
+            "repo_name": "MicroCorrelate"
+        },
+        {
+            "name": "ehgus/ht-data-ome-zarr-benchmark",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/18534737?s=40&v=4",
+            "owner": "ehgus",
+            "repo_name": "ht-data-ome-zarr-benchmark"
+        },
+        {
+            "name": "elixir-europe-training/ELIXIR-SCO-spatial-omics",
+            "stars": 48,
+            "img": "https://avatars.githubusercontent.com/u/114221126?s=40&v=4",
+            "owner": "elixir-europe-training",
+            "repo_name": "ELIXIR-SCO-spatial-omics"
+        },
+        {
+            "name": "elmbeech/physicelldataloader",
+            "stars": 11,
+            "img": "https://avatars.githubusercontent.com/u/154283?s=40&v=4",
+            "owner": "elmbeech",
+            "repo_name": "physicelldataloader"
+        },
+        {
+            "name": "fish-quant/autofish-analysis",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/60177180?s=40&v=4",
+            "owner": "fish-quant",
+            "repo_name": "autofish-analysis"
+        },
+        {
+            "name": "fmi-faim/faim-ipa",
+            "stars": 20,
+            "img": "https://avatars.githubusercontent.com/u/15688784?s=40&v=4",
+            "owner": "fmi-faim",
+            "repo_name": "faim-ipa"
+        },
+        {
+            "name": "fractal-napari-plugins-collection/napari-ome-zarr-navigator",
+            "stars": 9,
+            "img": "https://avatars.githubusercontent.com/u/87814402?s=40&v=4",
+            "owner": "fractal-napari-plugins-collection",
+            "repo_name": "napari-ome-zarr-navigator"
+        },
+        {
+            "name": "grinic/nextflow-basics",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/45073015?s=40&v=4",
+            "owner": "grinic",
+            "repo_name": "nextflow-basics"
+        },
+        {
+            "name": "grinic/pymif",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/45073015?s=40&v=4",
+            "owner": "grinic",
+            "repo_name": "pymif"
+        },
+        {
+            "name": "haniffalab/webatlas-pipeline",
+            "stars": 70,
+            "img": "https://avatars.githubusercontent.com/u/44367631?s=40&v=4",
+            "owner": "haniffalab",
+            "repo_name": "webatlas-pipeline"
+        },
+        {
+            "name": "harrlol/gutinstinct",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/87460010?s=40&v=4",
+            "owner": "harrlol",
+            "repo_name": "gutinstinct"
+        },
+        {
+            "name": "heeler/cellspot",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/300365?s=40&v=4",
+            "owner": "heeler",
+            "repo_name": "cellspot"
+        },
+        {
+            "name": "hejDMC/napari-dmc-brainmap",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/95924079?s=40&v=4",
+            "owner": "hejDMC",
+            "repo_name": "napari-dmc-brainmap"
+        },
+        {
+            "name": "heussner/coexist",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/60997181?s=40&v=4",
+            "owner": "heussner",
+            "repo_name": "coexist"
+        },
+        {
+            "name": "hms-dbmi/tissue-map-tools",
+            "stars": 18,
+            "img": "https://avatars.githubusercontent.com/u/5939932?s=40&v=4",
+            "owner": "hms-dbmi",
+            "repo_name": "tissue-map-tools"
+        },
+        {
+            "name": "hrlblab/AFM_kidney_cells",
+            "stars": 5,
+            "img": "https://avatars.githubusercontent.com/u/63868183?s=40&v=4",
+            "owner": "hrlblab",
+            "repo_name": "AFM_kidney_cells"
+        },
+        {
+            "name": "hubmapconsortium/portal-containers",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/44688968?s=40&v=4",
+            "owner": "hubmapconsortium",
+            "repo_name": "portal-containers"
+        },
+        {
+            "name": "hubmapconsortium/salmon-rnaseq",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/44688968?s=40&v=4",
+            "owner": "hubmapconsortium",
+            "repo_name": "salmon-rnaseq"
+        },
+        {
+            "name": "hubmapconsortium/sprm",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/44688968?s=40&v=4",
+            "owner": "hubmapconsortium",
+            "repo_name": "sprm"
+        },
+        {
+            "name": "hubmapconsortium/user-templates-api",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/44688968?s=40&v=4",
+            "owner": "hubmapconsortium",
+            "repo_name": "user-templates-api"
+        },
+        {
+            "name": "hubmapconsortium/xenium-pipeline",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/44688968?s=40&v=4",
+            "owner": "hubmapconsortium",
+            "repo_name": "xenium-pipeline"
+        },
+        {
+            "name": "hyoungjungyi/2025_ijcai",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/108853298?s=40&v=4",
+            "owner": "hyoungjungyi",
+            "repo_name": "2025_ijcai"
+        },
+        {
+            "name": "ianjoshi/mender-reproduction",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/55448380?s=40&v=4",
+            "owner": "ianjoshi",
+            "repo_name": "mender-reproduction"
+        },
+        {
+            "name": "id-f/ovarian_can",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/31929580?s=40&v=4",
+            "owner": "id-f",
+            "repo_name": "ovarian_can"
+        },
+        {
+            "name": "inkarkapen/MapMySections",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/34486047?s=40&v=4",
+            "owner": "inkarkapen",
+            "repo_name": "MapMySections"
+        },
+        {
+            "name": "joechanlab/Xenium_lung_NE_Plasticity_2024",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/173485754?s=40&v=4",
+            "owner": "joechanlab",
+            "repo_name": "Xenium_lung_NE_Plasticity_2024"
+        },
+        {
+            "name": "joshlawrimore/iDISCO-Prep",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/86373443?s=40&v=4",
+            "owner": "joshlawrimore",
+            "repo_name": "iDISCO-Prep"
+        },
+        {
+            "name": "khanlab/SPIMprep-deps",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/25446504?s=40&v=4",
+            "owner": "khanlab",
+            "repo_name": "SPIMprep-deps"
+        },
+        {
+            "name": "khanlab/SPIMquant-deps",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/25446504?s=40&v=4",
+            "owner": "khanlab",
+            "repo_name": "SPIMquant-deps"
+        },
+        {
+            "name": "khanlab/cvpl_tools",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/25446504?s=40&v=4",
+            "owner": "khanlab",
+            "repo_name": "cvpl_tools"
+        },
+        {
+            "name": "khanlab/zarrnii",
+            "stars": 11,
+            "img": "https://avatars.githubusercontent.com/u/25446504?s=40&v=4",
+            "owner": "khanlab",
+            "repo_name": "zarrnii"
+        },
+        {
+            "name": "khersameesh24/spatialxe-example-dataset",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/58815690?s=40&v=4",
+            "owner": "khersameesh24",
+            "repo_name": "spatialxe-example-dataset"
+        },
+        {
+            "name": "kikuroki/Cells-calculator",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/60813531?s=40&v=4",
+            "owner": "kikuroki",
+            "repo_name": "Cells-calculator"
+        },
+        {
+            "name": "labsyspharm/scimap",
+            "stars": 112,
+            "img": "https://avatars.githubusercontent.com/u/47149595?s=40&v=4",
+            "owner": "labsyspharm",
+            "repo_name": "scimap"
+        },
+        {
+            "name": "latchbio/latch-eval-tools",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/78336304?s=40&v=4",
+            "owner": "latchbio",
+            "repo_name": "latch-eval-tools"
+        },
+        {
+            "name": "latchbio/latch-plots-faas",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/78336304?s=40&v=4",
+            "owner": "latchbio",
+            "repo_name": "latch-plots-faas"
+        },
+        {
+            "name": "leogolds/ConfluentFUCCI",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/43808545?s=40&v=4",
+            "owner": "leogolds",
+            "repo_name": "ConfluentFUCCI"
+        },
+        {
+            "name": "leukemia-kispi/operetta-compose",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/82564743?s=40&v=4",
+            "owner": "leukemia-kispi",
+            "repo_name": "operetta-compose"
+        },
+        {
+            "name": "linum-uqam/linumpy",
+            "stars": 5,
+            "img": "https://avatars.githubusercontent.com/u/78177776?s=40&v=4",
+            "owner": "linum-uqam",
+            "repo_name": "linumpy"
+        },
+        {
+            "name": "m-albert/fractal-ome-zarr-hcs-stitching",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/12528388?s=40&v=4",
+            "owner": "m-albert",
+            "repo_name": "fractal-ome-zarr-hcs-stitching"
+        },
+        {
+            "name": "malteborggrewe/docker-sc",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/51407084?s=40&v=4",
+            "owner": "malteborggrewe",
+            "repo_name": "docker-sc"
+        },
+        {
+            "name": "marouane53/retinal-phenotyper",
+            "stars": 10,
+            "img": "https://avatars.githubusercontent.com/u/2603080?s=40&v=4",
+            "owner": "marouane53",
+            "repo_name": "retinal-phenotyper"
+        },
+        {
+            "name": "matteo-cadoni/TB_VIZ",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/119929174?s=40&v=4",
+            "owner": "matteo-cadoni",
+            "repo_name": "TB_VIZ"
+        },
+        {
+            "name": "mehta-lab/waveorder",
+            "stars": 44,
+            "img": "https://avatars.githubusercontent.com/u/49008068?s=40&v=4",
+            "owner": "mehta-lab",
+            "repo_name": "waveorder"
+        },
+        {
+            "name": "michalsko20/Evaluation-of-Feature-Ranking-Influence-on-Breast-Cancer-Classification-Performance",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/116587237?s=40&v=4",
+            "owner": "michalsko20",
+            "repo_name": "Evaluation-of-Feature-Ranking-Influence-on-Breast-Cancer-Classification-Performance"
+        },
+        {
+            "name": "mjoppich/PICASO",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/1136125?s=40&v=4",
+            "owner": "mjoppich",
+            "repo_name": "PICASO"
+        },
+        {
+            "name": "mmachm/travelling_salesman",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/5347625?s=40&v=4",
+            "owner": "mmachm",
+            "repo_name": "travelling_salesman"
+        },
+        {
+            "name": "multiview-stitcher/multiview-stitcher",
+            "stars": 118,
+            "img": "https://avatars.githubusercontent.com/u/147655714?s=40&v=4",
+            "owner": "multiview-stitcher",
+            "repo_name": "multiview-stitcher"
+        },
+        {
+            "name": "nadeemlab/smprofiler",
+            "stars": 23,
+            "img": "https://avatars.githubusercontent.com/u/82060114?s=40&v=4",
+            "owner": "nadeemlab",
+            "repo_name": "smprofiler"
+        },
+        {
+            "name": "napari/napari-metadata",
+            "stars": 13,
+            "img": "https://avatars.githubusercontent.com/u/39813916?s=40&v=4",
+            "owner": "napari",
+            "repo_name": "napari-metadata"
+        },
+        {
+            "name": "naultran/Tutorials_and_Workshops",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/5539340?s=40&v=4",
+            "owner": "naultran",
+            "repo_name": "Tutorials_and_Workshops"
+        },
+        {
+            "name": "ncats/multiplex-analysis-web-apps",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/1771365?s=40&v=4",
+            "owner": "ncats",
+            "repo_name": "multiplex-analysis-web-apps"
+        },
+        {
+            "name": "neurodata/brainlit",
+            "stars": 29,
+            "img": "https://avatars.githubusercontent.com/u/13474594?s=40&v=4",
+            "owner": "neurodata",
+            "repo_name": "brainlit"
+        },
+        {
+            "name": "neurogenetics/ADRD_Brain_Aging",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/40368648?s=40&v=4",
+            "owner": "neurogenetics",
+            "repo_name": "ADRD_Brain_Aging"
+        },
+        {
+            "name": "noahbruderer/morphosnaker",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/55708616?s=40&v=4",
+            "owner": "noahbruderer",
+            "repo_name": "morphosnaker"
+        },
+        {
+            "name": "ome/napari-ome-zarr",
+            "stars": 52,
+            "img": "https://avatars.githubusercontent.com/u/1831717?s=40&v=4",
+            "owner": "ome",
+            "repo_name": "napari-ome-zarr"
+        },
+        {
+            "name": "ome/omero-cli-zarr",
+            "stars": 22,
+            "img": "https://avatars.githubusercontent.com/u/1831717?s=40&v=4",
+            "owner": "ome",
+            "repo_name": "omero-cli-zarr"
+        },
+        {
+            "name": "opp1231/mosaic_test_will_it_fit",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/133399276?s=40&v=4",
+            "owner": "opp1231",
+            "repo_name": "mosaic_test_will_it_fit"
+        },
+        {
+            "name": "pathology-data-mining/Mussel",
+            "stars": 7,
+            "img": "https://avatars.githubusercontent.com/u/151247831?s=40&v=4",
+            "owner": "pathology-data-mining",
+            "repo_name": "Mussel"
+        },
+        {
+            "name": "pelkmanslab/APx_fractal_task_collection",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/2421254?s=40&v=4",
+            "owner": "pelkmanslab",
+            "repo_name": "APx_fractal_task_collection"
+        },
+        {
+            "name": "pkosurilab/BellaVista",
+            "stars": 7,
+            "img": "https://avatars.githubusercontent.com/u/93301855?s=40&v=4",
+            "owner": "pkosurilab",
+            "repo_name": "BellaVista"
+        },
+        {
+            "name": "printorgans/dreader",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/169549359?s=40&v=4",
+            "owner": "printorgans",
+            "repo_name": "dreader"
+        },
+        {
+            "name": "prism-oncology/novae",
+            "stars": 130,
+            "img": "https://avatars.githubusercontent.com/u/273068181?s=40&v=4",
+            "owner": "prism-oncology",
+            "repo_name": "novae"
+        },
+        {
+            "name": "prism-oncology/sopa",
+            "stars": 281,
+            "img": "https://avatars.githubusercontent.com/u/273068181?s=40&v=4",
+            "owner": "prism-oncology",
+            "repo_name": "sopa"
+        },
+        {
+            "name": "rajewsky-lab/openst",
+            "stars": 113,
+            "img": "https://avatars.githubusercontent.com/u/17617158?s=40&v=4",
+            "owner": "rajewsky-lab",
+            "repo_name": "openst"
+        },
+        {
+            "name": "rendeirolab/LazySlide",
+            "stars": 300,
+            "img": "https://avatars.githubusercontent.com/u/97199893?s=40&v=4",
+            "owner": "rendeirolab",
+            "repo_name": "LazySlide"
+        },
+        {
+            "name": "rendeirolab/wsidata",
+            "stars": 27,
+            "img": "https://avatars.githubusercontent.com/u/97199893?s=40&v=4",
+            "owner": "rendeirolab",
+            "repo_name": "wsidata"
+        },
+        {
+            "name": "robinsonlabuzh/pasta",
+            "stars": 12,
+            "img": "https://avatars.githubusercontent.com/u/8254628?s=40&v=4",
+            "owner": "robinsonlabuzh",
+            "repo_name": "pasta"
+        },
+        {
+            "name": "roihezkiyahu/mga",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/84621564?s=40&v=4",
+            "owner": "roihezkiyahu",
+            "repo_name": "mga"
+        },
+        {
+            "name": "royerlab/dexp",
+            "stars": 33,
+            "img": "https://avatars.githubusercontent.com/u/39425075?s=40&v=4",
+            "owner": "royerlab",
+            "repo_name": "dexp"
+        },
+        {
+            "name": "royerlab/napari-chatgpt",
+            "stars": 296,
+            "img": "https://avatars.githubusercontent.com/u/39425075?s=40&v=4",
+            "owner": "royerlab",
+            "repo_name": "napari-chatgpt"
+        },
+        {
+            "name": "royerlab/ultrack",
+            "stars": 178,
+            "img": "https://avatars.githubusercontent.com/u/39425075?s=40&v=4",
+            "owner": "royerlab",
+            "repo_name": "ultrack"
+        },
+        {
+            "name": "saeyslab/harpy",
+            "stars": 68,
+            "img": "https://avatars.githubusercontent.com/u/18485264?s=40&v=4",
+            "owner": "saeyslab",
+            "repo_name": "harpy"
+        },
+        {
+            "name": "saezlab/MINA",
+            "stars": 4,
+            "img": "https://avatars.githubusercontent.com/u/9979042?s=40&v=4",
+            "owner": "saezlab",
+            "repo_name": "MINA"
+        },
+        {
+            "name": "saezlab/annnet",
+            "stars": 10,
+            "img": "https://avatars.githubusercontent.com/u/9979042?s=40&v=4",
+            "owner": "saezlab",
+            "repo_name": "annnet"
+        },
+        {
+            "name": "sagar87/spatialproteomics",
+            "stars": 44,
+            "img": "https://avatars.githubusercontent.com/u/7542594?s=40&v=4",
+            "owner": "sagar87",
+            "repo_name": "spatialproteomics"
+        },
+        {
+            "name": "sam650095/cells",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/81734861?s=40&v=4",
+            "owner": "sam650095",
+            "repo_name": "cells"
+        },
+        {
+            "name": "sburkitt/gold_id",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/20115046?s=40&v=4",
+            "owner": "sburkitt",
+            "repo_name": "gold_id"
+        },
+        {
+            "name": "scOpenLab/MultimodalRegistration",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/164319317?s=40&v=4",
+            "owner": "scOpenLab",
+            "repo_name": "MultimodalRegistration"
+        },
+        {
+            "name": "schienstockd/cecelia",
+            "stars": 33,
+            "img": "https://avatars.githubusercontent.com/u/56576608?s=40&v=4",
+            "owner": "schienstockd",
+            "repo_name": "cecelia"
+        },
+        {
+            "name": "sfabrizio/screen_reader_mqtt",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/4541773?s=40&v=4",
+            "owner": "sfabrizio",
+            "repo_name": "screen_reader_mqtt"
+        },
+        {
+            "name": "shaoqiuh0627/stock_dash",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/43967953?s=40&v=4",
+            "owner": "shaoqiuh0627",
+            "repo_name": "stock_dash"
+        },
+        {
+            "name": "sslim-aidrug/PathCLAST",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/213740069?s=40&v=4",
+            "owner": "sslim-aidrug",
+            "repo_name": "PathCLAST"
+        },
+        {
+            "name": "sunni426/nova-networks",
+            "stars": 6,
+            "img": "https://avatars.githubusercontent.com/u/85393645?s=40&v=4",
+            "owner": "sunni426",
+            "repo_name": "nova-networks"
+        },
+        {
+            "name": "theislab/interscale",
+            "stars": 10,
+            "img": "https://avatars.githubusercontent.com/u/22319415?s=40&v=4",
+            "owner": "theislab",
+            "repo_name": "interscale"
+        },
+        {
+            "name": "tianxin-wang/BMCS4575-Final-Project",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/114761210?s=40&v=4",
+            "owner": "tianxin-wang",
+            "repo_name": "BMCS4575-Final-Project"
+        },
+        {
+            "name": "tony-zhelonkin/scbio-docker",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/68032701?s=40&v=4",
+            "owner": "tony-zhelonkin",
+            "repo_name": "scbio-docker"
+        },
+        {
+            "name": "trigubov/DW_data_science_ls1",
+            "stars": 1,
+            "img": "https://avatars.githubusercontent.com/u/119864850?s=40&v=4",
+            "owner": "trigubov",
+            "repo_name": "DW_data_science_ls1"
+        },
+        {
+            "name": "uermel/mrc2omezarr",
+            "stars": 3,
+            "img": "https://avatars.githubusercontent.com/u/6641113?s=40&v=4",
+            "owner": "uermel",
+            "repo_name": "mrc2omezarr"
+        },
+        {
+            "name": "uermel/remotebrain",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/6641113?s=40&v=4",
+            "owner": "uermel",
+            "repo_name": "remotebrain"
+        },
+        {
+            "name": "vadori/cytoark",
+            "stars": 22,
+            "img": "https://avatars.githubusercontent.com/u/36676465?s=40&v=4",
+            "owner": "vadori",
+            "repo_name": "cytoark"
+        },
+        {
+            "name": "vandeplaslab/image2image-io",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/49405574?s=40&v=4",
+            "owner": "vandeplaslab",
+            "repo_name": "image2image-io"
+        },
+        {
+            "name": "voronlab/kibalnyk-2024-ankrd11",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/157840971?s=40&v=4",
+            "owner": "voronlab",
+            "repo_name": "kibalnyk-2024-ankrd11"
+        },
+        {
+            "name": "wulinteousa2-hash/napari-chat-assistant",
+            "stars": 5,
+            "img": "https://avatars.githubusercontent.com/u/259734585?s=40&v=4",
+            "owner": "wulinteousa2-hash",
+            "repo_name": "napari-chat-assistant"
+        },
+        {
+            "name": "wustl-cig/Measurement-domain-KL-divergence",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/39937140?s=40&v=4",
+            "owner": "wustl-cig",
+            "repo_name": "Measurement-domain-KL-divergence"
+        },
+        {
+            "name": "wwYinYin/HESpotEx",
+            "stars": 2,
+            "img": "https://avatars.githubusercontent.com/u/127206500?s=40&v=4",
+            "owner": "wwYinYin",
+            "repo_name": "HESpotEx"
+        },
+        {
+            "name": "yaroslav-vorobyov/SF_DST",
+            "stars": 5,
+            "img": "https://avatars.githubusercontent.com/u/105922478?s=40&v=4",
+            "owner": "yaroslav-vorobyov",
+            "repo_name": "SF_DST"
+        },
+        {
+            "name": "yezhenqing/spatial-live",
+            "stars": 9,
+            "img": "https://avatars.githubusercontent.com/u/101293368?s=40&v=4",
+            "owner": "yezhenqing",
+            "repo_name": "spatial-live"
+        },
+        {
+            "name": "ylabjp/ylab-common-scripts",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/130951562?s=40&v=4",
+            "owner": "ylabjp",
+            "repo_name": "ylab-common-scripts"
+        },
+        {
+            "name": "zhangzq2406/scIDPMs",
+            "stars": 0,
+            "img": "https://avatars.githubusercontent.com/u/172886338?s=40&v=4",
+            "owner": "zhangzq2406",
+            "repo_name": "scIDPMs"
+        }
+    ],
+    "total_dependents_number": 365,
+    "public_dependents_number": 249,
+    "private_dependents_number": 116,
+    "public_dependents_stars": 3001,
+    "badges": {
+        "total_doc_url": "[![Generated by github-dependents-info](https://img.shields.io/static/v1?label=Used%20by&message=365&color=informational&logo=slickpic)](https://github.com/nvuillam/github-dependents-info)",
+        "total": "[![Generated by github-dependents-info](https://img.shields.io/static/v1?label=Used%20by&message=365&color=informational&logo=slickpic)](https://github.com/ome/ome-zarr-py/network/dependents)",
+        "public": "[![Generated by github-dependents-info](https://img.shields.io/static/v1?label=Used%20by%20(public)&message=249&color=informational&logo=slickpic)](https://github.com/ome/ome-zarr-py/network/dependents)",
+        "private": "[![Generated by github-dependents-info](https://img.shields.io/static/v1?label=Used%20by%20(private)&message=116&color=informational&logo=slickpic)](https://github.com/ome/ome-zarr-py/network/dependents)",
+        "stars": "[![Generated by github-dependents-info](https://img.shields.io/static/v1?label=Used%20by%20(stars)&message=3001&color=informational&logo=slickpic)](https://github.com/ome/ome-zarr-py/network/dependents)"
+    },
+    "llm_summary": null,
+    "packages": [
+        [
+            {
+                "id": null,
+                "name": "ome/ome-zarr-py",
+                "url": "https://github.com/ome/ome-zarr-py/network/dependents",
+                "public_dependent_stars": 3001,
+                "public_dependents": [
+                    {
+                        "name": "AA-Turner/top-pypi-sdists-full",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/9087854?s=40&v=4",
+                        "owner": "AA-Turner",
+                        "repo_name": "top-pypi-sdists-full"
+                    },
+                    {
+                        "name": "AIhealth-noh/PathCLAST",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/150212956?s=40&v=4",
+                        "owner": "AIhealth-noh",
+                        "repo_name": "PathCLAST"
+                    },
+                    {
+                        "name": "AllenCell/EMT_image_analysis",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/61852480?s=40&v=4",
+                        "owner": "AllenCell",
+                        "repo_name": "EMT_image_analysis"
+                    },
+                    {
+                        "name": "AllenCell/benchmarking_representations",
+                        "stars": 6,
+                        "img": "https://avatars.githubusercontent.com/u/61852480?s=40&v=4",
+                        "owner": "AllenCell",
+                        "repo_name": "benchmarking_representations"
+                    },
+                    {
+                        "name": "AllenCell/cyto-dl",
+                        "stars": 31,
+                        "img": "https://avatars.githubusercontent.com/u/61852480?s=40&v=4",
+                        "owner": "AllenCell",
+                        "repo_name": "cyto-dl"
+                    },
+                    {
+                        "name": "AllenCell/nuc-morph-analysis",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/61852480?s=40&v=4",
+                        "owner": "AllenCell",
+                        "repo_name": "nuc-morph-analysis"
+                    },
+                    {
+                        "name": "AllenCellModeling/aicsimageprocessing",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/26283721?s=40&v=4",
+                        "owner": "AllenCellModeling",
+                        "repo_name": "aicsimageprocessing"
+                    },
+                    {
+                        "name": "AllenCellModeling/pointcloudutils",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/26283721?s=40&v=4",
+                        "owner": "AllenCellModeling",
+                        "repo_name": "pointcloudutils"
+                    },
+                    {
+                        "name": "AllenInstitute/neuroglancer_formatting_scripts",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/1848392?s=40&v=4",
+                        "owner": "AllenInstitute",
+                        "repo_name": "neuroglancer_formatting_scripts"
+                    },
+                    {
+                        "name": "AllenInstitute/sptx_ccf_registration",
+                        "stars": 5,
+                        "img": "https://avatars.githubusercontent.com/u/1848392?s=40&v=4",
+                        "owner": "AllenInstitute",
+                        "repo_name": "sptx_ccf_registration"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/aind-hcr-data-transformation",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "aind-hcr-data-transformation"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/aind-ibl-ephys-alignment-preprocessing",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "aind-ibl-ephys-alignment-preprocessing"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/aind-large-scale-prediction",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "aind-large-scale-prediction"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/aind-morphology-utils",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "aind-morphology-utils"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/aind-octo-data-loaders",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "aind-octo-data-loaders"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/aind-registration_evaluation",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "aind-registration_evaluation"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/aind-smartspim-ccf-registration",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "aind-smartspim-ccf-registration"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/aind-smartspim-data-transformation",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "aind-smartspim-data-transformation"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/aind-smartspim-stitch",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "aind-smartspim-stitch"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/aind-smartspim-transform-utils",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "aind-smartspim-transform-utils"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/aind-zarr-utils",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "aind-zarr-utils"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/diSpim-UI",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "diSpim-UI"
+                    },
+                    {
+                        "name": "AllenNeuralDynamics/neuron-tracing-utils",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/95304558?s=40&v=4",
+                        "owner": "AllenNeuralDynamics",
+                        "repo_name": "neuron-tracing-utils"
+                    },
+                    {
+                        "name": "Arshim28/Least-To-Most-Prompting",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/98533618?s=40&v=4",
+                        "owner": "Arshim28",
+                        "repo_name": "Least-To-Most-Prompting"
+                    },
+                    {
+                        "name": "Arshim28/Sustainability_Project",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/98533618?s=40&v=4",
+                        "owner": "Arshim28",
+                        "repo_name": "Sustainability_Project"
+                    },
+                    {
+                        "name": "Arthur-Champain/CSI-Thesis-2025",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/168719198?s=40&v=4",
+                        "owner": "Arthur-Champain",
+                        "repo_name": "CSI-Thesis-2025"
+                    },
+                    {
+                        "name": "AugustHoeg/PyHPC",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/190094429?s=40&v=4",
+                        "owner": "AugustHoeg",
+                        "repo_name": "PyHPC"
+                    },
+                    {
+                        "name": "AugustinBouquillard/trackmol",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/76499675?s=40&v=4",
+                        "owner": "AugustinBouquillard",
+                        "repo_name": "trackmol"
+                    },
+                    {
+                        "name": "BBKing49/m2ST",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/37020928?s=40&v=4",
+                        "owner": "BBKing49",
+                        "repo_name": "m2ST"
+                    },
+                    {
+                        "name": "BCV-Uniandes/SpaRED",
+                        "stars": 13,
+                        "img": "https://avatars.githubusercontent.com/u/29465132?s=40&v=4",
+                        "owner": "BCV-Uniandes",
+                        "repo_name": "SpaRED"
+                    },
+                    {
+                        "name": "BMCV/giatools",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/24603562?s=40&v=4",
+                        "owner": "BMCV",
+                        "repo_name": "giatools"
+                    },
+                    {
+                        "name": "BioImage-Archive/bia-explorer",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/81562117?s=40&v=4",
+                        "owner": "BioImage-Archive",
+                        "repo_name": "bia-explorer"
+                    },
+                    {
+                        "name": "BioImageTools/ome-zarr-examples",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/150247792?s=40&v=4",
+                        "owner": "BioImageTools",
+                        "repo_name": "ome-zarr-examples"
+                    },
+                    {
+                        "name": "BioImageTools/ome-zarr-image-analysis-nextflow",
+                        "stars": 21,
+                        "img": "https://avatars.githubusercontent.com/u/150247792?s=40&v=4",
+                        "owner": "BioImageTools",
+                        "repo_name": "ome-zarr-image-analysis-nextflow"
+                    },
+                    {
+                        "name": "BioinfoTongLI/ImageTileProcessor",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/9748580?s=40&v=4",
+                        "owner": "BioinfoTongLI",
+                        "repo_name": "ImageTileProcessor"
+                    },
+                    {
+                        "name": "BioinfoTongLI/spatial_annot",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/9748580?s=40&v=4",
+                        "owner": "BioinfoTongLI",
+                        "repo_name": "spatial_annot"
+                    },
+                    {
+                        "name": "BioinfoTongLI/workflow-registration",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/9748580?s=40&v=4",
+                        "owner": "BioinfoTongLI",
+                        "repo_name": "workflow-registration"
+                    },
+                    {
+                        "name": "BrainSharer/pipeline",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/94365405?s=40&v=4",
+                        "owner": "BrainSharer",
+                        "repo_name": "pipeline"
+                    },
+                    {
+                        "name": "CBI-PITT/BrAinPI",
+                        "stars": 5,
+                        "img": "https://avatars.githubusercontent.com/u/94080246?s=40&v=4",
+                        "owner": "CBI-PITT",
+                        "repo_name": "BrAinPI"
+                    },
+                    {
+                        "name": "Carboneinerte/Pynda_ssc",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/133698954?s=40&v=4",
+                        "owner": "Carboneinerte",
+                        "repo_name": "Pynda_ssc"
+                    },
+                    {
+                        "name": "CarlWHY-28/Feature-Extraction-for-Spatial-Transcriptomics-Tissue-Images-via-BiGAN",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/131143301?s=40&v=4",
+                        "owner": "CarlWHY-28",
+                        "repo_name": "Feature-Extraction-for-Spatial-Transcriptomics-Tissue-Images-via-BiGAN"
+                    },
+                    {
+                        "name": "CiiM-Bioinformatics-group/SegDecon",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/56263313?s=40&v=4",
+                        "owner": "CiiM-Bioinformatics-group",
+                        "repo_name": "SegDecon"
+                    },
+                    {
+                        "name": "Claptar/spatialMPFC",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/43670295?s=40&v=4",
+                        "owner": "Claptar",
+                        "repo_name": "spatialMPFC"
+                    },
+                    {
+                        "name": "Dmytro0202/sopa",
+                        "stars": 8,
+                        "img": "https://avatars.githubusercontent.com/u/198183528?s=40&v=4",
+                        "owner": "Dmytro0202",
+                        "repo_name": "sopa"
+                    },
+                    {
+                        "name": "EPFL-Center-for-Imaging/image-analysis-field-guide",
+                        "stars": 8,
+                        "img": "https://avatars.githubusercontent.com/u/150429133?s=40&v=4",
+                        "owner": "EPFL-Center-for-Imaging",
+                        "repo_name": "image-analysis-field-guide"
+                    },
+                    {
+                        "name": "EPFL-Center-for-Imaging/ome2glancer",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/150429133?s=40&v=4",
+                        "owner": "EPFL-Center-for-Imaging",
+                        "repo_name": "ome2glancer"
+                    },
+                    {
+                        "name": "ElementoLab/utag",
+                        "stars": 44,
+                        "img": "https://avatars.githubusercontent.com/u/8961570?s=40&v=4",
+                        "owner": "ElementoLab",
+                        "repo_name": "utag"
+                    },
+                    {
+                        "name": "Em134/bioinfo",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/42593461?s=40&v=4",
+                        "owner": "Em134",
+                        "repo_name": "bioinfo"
+                    },
+                    {
+                        "name": "Euro-BioImaging/ZarrSeg",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/125282051?s=40&v=4",
+                        "owner": "Euro-BioImaging",
+                        "repo_name": "ZarrSeg"
+                    },
+                    {
+                        "name": "FNLCR-DMAP/scimap",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/51838481?s=40&v=4",
+                        "owner": "FNLCR-DMAP",
+                        "repo_name": "scimap"
+                    },
+                    {
+                        "name": "FrancisCrickInstitute/OmeSliCC",
+                        "stars": 7,
+                        "img": "https://avatars.githubusercontent.com/u/1823146?s=40&v=4",
+                        "owner": "FrancisCrickInstitute",
+                        "repo_name": "OmeSliCC"
+                    },
+                    {
+                        "name": "FrancisCrickInstitute/napari-isbem",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/1823146?s=40&v=4",
+                        "owner": "FrancisCrickInstitute",
+                        "repo_name": "napari-isbem"
+                    },
+                    {
+                        "name": "Genentech/spex_backend",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/3913764?s=40&v=4",
+                        "owner": "Genentech",
+                        "repo_name": "spex_backend"
+                    },
+                    {
+                        "name": "Genentech/spex_ms_job_manager",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/3913764?s=40&v=4",
+                        "owner": "Genentech",
+                        "repo_name": "spex_ms_job_manager"
+                    },
+                    {
+                        "name": "HKU-MedAI/MorphoNet",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/91587870?s=40&v=4",
+                        "owner": "HKU-MedAI",
+                        "repo_name": "MorphoNet"
+                    },
+                    {
+                        "name": "Harshavardhan-BV/dotfiles",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/50325160?s=40&v=4",
+                        "owner": "Harshavardhan-BV",
+                        "repo_name": "dotfiles"
+                    },
+                    {
+                        "name": "HieronymusEsteban/meniscus_segmentation_napari",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/22372192?s=40&v=4",
+                        "owner": "HieronymusEsteban",
+                        "repo_name": "meniscus_segmentation_napari"
+                    },
+                    {
+                        "name": "Hosseinfatho/BioVisLLM",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/156163704?s=40&v=4",
+                        "owner": "Hosseinfatho",
+                        "repo_name": "BioVisLLM"
+                    },
+                    {
+                        "name": "Hosseinfatho/POV",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/156163704?s=40&v=4",
+                        "owner": "Hosseinfatho",
+                        "repo_name": "POV"
+                    },
+                    {
+                        "name": "IAmPara0x/czii-8th-solution",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/67608276?s=40&v=4",
+                        "owner": "IAmPara0x",
+                        "repo_name": "czii-8th-solution"
+                    },
+                    {
+                        "name": "IdanSeg/Annotatability_transfer",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/157921450?s=40&v=4",
+                        "owner": "IdanSeg",
+                        "repo_name": "Annotatability_transfer"
+                    },
+                    {
+                        "name": "ImperialCollegeLondon/ReCoDe-spatial-transcriptomics",
+                        "stars": 6,
+                        "img": "https://avatars.githubusercontent.com/u/1220306?s=40&v=4",
+                        "owner": "ImperialCollegeLondon",
+                        "repo_name": "ReCoDe-spatial-transcriptomics"
+                    },
+                    {
+                        "name": "IntegratedPathologyUnit-ICR/c-pmat",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/151917763?s=40&v=4",
+                        "owner": "IntegratedPathologyUnit-ICR",
+                        "repo_name": "c-pmat"
+                    },
+                    {
+                        "name": "Jhko725/desmin-sarcomere-interior",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/47238341?s=40&v=4",
+                        "owner": "Jhko725",
+                        "repo_name": "desmin-sarcomere-interior"
+                    },
+                    {
+                        "name": "JosephMonaghan/viu_chem",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/121056411?s=40&v=4",
+                        "owner": "JosephMonaghan",
+                        "repo_name": "viu_chem"
+                    },
+                    {
+                        "name": "KoehlerLab/Cellpose_germlineNuclei",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/151152129?s=40&v=4",
+                        "owner": "KoehlerLab",
+                        "repo_name": "Cellpose_germlineNuclei"
+                    },
+                    {
+                        "name": "LFO3/HDM_Legionella_Project",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/138797529?s=40&v=4",
+                        "owner": "LFO3",
+                        "repo_name": "HDM_Legionella_Project"
+                    },
+                    {
+                        "name": "LIOMLab/liom-toolkit",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/112567690?s=40&v=4",
+                        "owner": "LIOMLab",
+                        "repo_name": "liom-toolkit"
+                    },
+                    {
+                        "name": "Lyn4ever29/pipy_server",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/25952589?s=40&v=4",
+                        "owner": "Lyn4ever29",
+                        "repo_name": "pipy_server"
+                    },
+                    {
+                        "name": "MMV-Lab/AL_BioMed_img_seg",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/85467623?s=40&v=4",
+                        "owner": "MMV-Lab",
+                        "repo_name": "AL_BioMed_img_seg"
+                    },
+                    {
+                        "name": "MMV-Lab/mmv_h4tracks",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/85467623?s=40&v=4",
+                        "owner": "MMV-Lab",
+                        "repo_name": "mmv_h4tracks"
+                    },
+                    {
+                        "name": "MaksHess/compress_visiscope_timelapse",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/44779484?s=40&v=4",
+                        "owner": "MaksHess",
+                        "repo_name": "compress_visiscope_timelapse"
+                    },
+                    {
+                        "name": "MannLabs/scPortrait",
+                        "stars": 110,
+                        "img": "https://avatars.githubusercontent.com/u/46714192?s=40&v=4",
+                        "owner": "MannLabs",
+                        "repo_name": "scPortrait"
+                    },
+                    {
+                        "name": "MedICL-VU/LightMyCells",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/61335329?s=40&v=4",
+                        "owner": "MedICL-VU",
+                        "repo_name": "LightMyCells"
+                    },
+                    {
+                        "name": "Mengxicici/codex_spatial",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/99297858?s=40&v=4",
+                        "owner": "Mengxicici",
+                        "repo_name": "codex_spatial"
+                    },
+                    {
+                        "name": "Mengxicici/streamlit_for_infinite_TierCluster",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/99297858?s=40&v=4",
+                        "owner": "Mengxicici",
+                        "repo_name": "streamlit_for_infinite_TierCluster"
+                    },
+                    {
+                        "name": "MercaderLabAnatomy/napari-tmidas",
+                        "stars": 17,
+                        "img": "https://avatars.githubusercontent.com/u/79163442?s=40&v=4",
+                        "owner": "MercaderLabAnatomy",
+                        "repo_name": "napari-tmidas"
+                    },
+                    {
+                        "name": "MetaCell/cyroet-neuroglancer",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/10982870?s=40&v=4",
+                        "owner": "MetaCell",
+                        "repo_name": "cyroet-neuroglancer"
+                    },
+                    {
+                        "name": "MillerBrainObservatory/LBM-Suite2p-Python",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/158508605?s=40&v=4",
+                        "owner": "MillerBrainObservatory",
+                        "repo_name": "LBM-Suite2p-Python"
+                    },
+                    {
+                        "name": "MillerBrainObservatory/mbo_utilities",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/158508605?s=40&v=4",
+                        "owner": "MillerBrainObservatory",
+                        "repo_name": "mbo_utilities"
+                    },
+                    {
+                        "name": "MonsieurMeta/EcoPath",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/126700306?s=40&v=4",
+                        "owner": "MonsieurMeta",
+                        "repo_name": "EcoPath"
+                    },
+                    {
+                        "name": "MunskyGroup/AngelFISH",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/8493210?s=40&v=4",
+                        "owner": "MunskyGroup",
+                        "repo_name": "AngelFISH"
+                    },
+                    {
+                        "name": "OleksiiKovalov/Cells-calculator",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/26844170?s=40&v=4",
+                        "owner": "OleksiiKovalov",
+                        "repo_name": "Cells-calculator"
+                    },
+                    {
+                        "name": "PelenJiang/HistoSST",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/32063980?s=40&v=4",
+                        "owner": "PelenJiang",
+                        "repo_name": "HistoSST"
+                    },
+                    {
+                        "name": "PhysiCell-Tools/python-loader",
+                        "stars": 9,
+                        "img": "https://avatars.githubusercontent.com/u/54858643?s=40&v=4",
+                        "owner": "PhysiCell-Tools",
+                        "repo_name": "python-loader"
+                    },
+                    {
+                        "name": "QI2lab/opm-processing-v2",
+                        "stars": 7,
+                        "img": "https://avatars.githubusercontent.com/u/55715320?s=40&v=4",
+                        "owner": "QI2lab",
+                        "repo_name": "opm-processing-v2"
+                    },
+                    {
+                        "name": "Rafael-Silva-Oliveira/EzML",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/70116258?s=40&v=4",
+                        "owner": "Rafael-Silva-Oliveira",
+                        "repo_name": "EzML"
+                    },
+                    {
+                        "name": "Rafael-Silva-Oliveira/STNav",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/70116258?s=40&v=4",
+                        "owner": "Rafael-Silva-Oliveira",
+                        "repo_name": "STNav"
+                    },
+                    {
+                        "name": "RamiAlBel/Course-material-Introduction-to-Scientific-Computing",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/202953285?s=40&v=4",
+                        "owner": "RamiAlBel",
+                        "repo_name": "Course-material-Introduction-to-Scientific-Computing"
+                    },
+                    {
+                        "name": "Riandanis/Spatial_Integration_GSI",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/30224311?s=40&v=4",
+                        "owner": "Riandanis",
+                        "repo_name": "Spatial_Integration_GSI"
+                    },
+                    {
+                        "name": "SamOliveiraLab/partaker-v2",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/119514177?s=40&v=4",
+                        "owner": "SamOliveiraLab",
+                        "repo_name": "partaker-v2"
+                    },
+                    {
+                        "name": "ScheWann/Loom",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/92758590?s=40&v=4",
+                        "owner": "ScheWann",
+                        "repo_name": "Loom"
+                    },
+                    {
+                        "name": "SecondBook5/AutoImmuneML",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/42758438?s=40&v=4",
+                        "owner": "SecondBook5",
+                        "repo_name": "AutoImmuneML"
+                    },
+                    {
+                        "name": "Single-molecule-Biophysics-UOW/TIRF_tools",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/62413581?s=40&v=4",
+                        "owner": "Single-molecule-Biophysics-UOW",
+                        "repo_name": "TIRF_tools"
+                    },
+                    {
+                        "name": "SlipknotTN/kaggle_cryo_et",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/10343467?s=40&v=4",
+                        "owner": "SlipknotTN",
+                        "repo_name": "kaggle_cryo_et"
+                    },
+                    {
+                        "name": "Susanxuan/SCMBench",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/86114621?s=40&v=4",
+                        "owner": "Susanxuan",
+                        "repo_name": "SCMBench"
+                    },
+                    {
+                        "name": "Swida-Alba/visual-behavior",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/53813482?s=40&v=4",
+                        "owner": "Swida-Alba",
+                        "repo_name": "visual-behavior"
+                    },
+                    {
+                        "name": "Tatsuya0720/Kaggle-CZII2024",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/47269204?s=40&v=4",
+                        "owner": "Tatsuya0720",
+                        "repo_name": "Kaggle-CZII2024"
+                    },
+                    {
+                        "name": "Taylor-CCB-Group/MDV",
+                        "stars": 37,
+                        "img": "https://avatars.githubusercontent.com/u/58420042?s=40&v=4",
+                        "owner": "Taylor-CCB-Group",
+                        "repo_name": "MDV"
+                    },
+                    {
+                        "name": "Taylor-CCB-Group/SpatialData.js",
+                        "stars": 7,
+                        "img": "https://avatars.githubusercontent.com/u/58420042?s=40&v=4",
+                        "owner": "Taylor-CCB-Group",
+                        "repo_name": "SpatialData.js"
+                    },
+                    {
+                        "name": "Thdz2196/md5",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/178288976?s=40&v=4",
+                        "owner": "Thdz2196",
+                        "repo_name": "md5"
+                    },
+                    {
+                        "name": "TheDeanLab/clearex",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/109111760?s=40&v=4",
+                        "owner": "TheDeanLab",
+                        "repo_name": "clearex"
+                    },
+                    {
+                        "name": "TheJacksonLaboratory/activelearning",
+                        "stars": 8,
+                        "img": "https://avatars.githubusercontent.com/u/19977120?s=40&v=4",
+                        "owner": "TheJacksonLaboratory",
+                        "repo_name": "activelearning"
+                    },
+                    {
+                        "name": "TheLeeLab/pyRASP",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/61599529?s=40&v=4",
+                        "owner": "TheLeeLab",
+                        "repo_name": "pyRASP"
+                    },
+                    {
+                        "name": "UFISH-Team/U-FISH",
+                        "stars": 34,
+                        "img": "https://avatars.githubusercontent.com/u/144716463?s=40&v=4",
+                        "owner": "UFISH-Team",
+                        "repo_name": "U-FISH"
+                    },
+                    {
+                        "name": "Vincent-Therrien/easy-st",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/54718865?s=40&v=4",
+                        "owner": "Vincent-Therrien",
+                        "repo_name": "easy-st"
+                    },
+                    {
+                        "name": "VirginiaLeombruni/xenium-project",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/187456497?s=40&v=4",
+                        "owner": "VirginiaLeombruni",
+                        "repo_name": "xenium-project"
+                    },
+                    {
+                        "name": "YeoLab/containers",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/2112324?s=40&v=4",
+                        "owner": "YeoLab",
+                        "repo_name": "containers"
+                    },
+                    {
+                        "name": "Yu-AnChen/quick-look",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/17751400?s=40&v=4",
+                        "owner": "Yu-AnChen",
+                        "repo_name": "quick-look"
+                    },
+                    {
+                        "name": "abailoni/cellpose-training-gui",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/16247286?s=40&v=4",
+                        "owner": "abailoni",
+                        "repo_name": "cellpose-training-gui"
+                    },
+                    {
+                        "name": "abailoni/segmentation_spacem",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/16247286?s=40&v=4",
+                        "owner": "abailoni",
+                        "repo_name": "segmentation_spacem"
+                    },
+                    {
+                        "name": "abrar-rashid/kidney-grader",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/67344311?s=40&v=4",
+                        "owner": "abrar-rashid",
+                        "repo_name": "kidney-grader"
+                    },
+                    {
+                        "name": "adanog/CryTox_Colocalization",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/96137621?s=40&v=4",
+                        "owner": "adanog",
+                        "repo_name": "CryTox_Colocalization"
+                    },
+                    {
+                        "name": "alpera12/ADiaOCS",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/200010580?s=40&v=4",
+                        "owner": "alpera12",
+                        "repo_name": "ADiaOCS"
+                    },
+                    {
+                        "name": "alphavector/all",
+                        "stars": 6,
+                        "img": "https://avatars.githubusercontent.com/u/11805788?s=40&v=4",
+                        "owner": "alphavector",
+                        "repo_name": "all"
+                    },
+                    {
+                        "name": "archana1998/LEIA",
+                        "stars": 7,
+                        "img": "https://avatars.githubusercontent.com/u/24663984?s=40&v=4",
+                        "owner": "archana1998",
+                        "repo_name": "LEIA"
+                    },
+                    {
+                        "name": "atlasxomics/ATX_snap",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/75449635?s=40&v=4",
+                        "owner": "atlasxomics",
+                        "repo_name": "ATX_snap"
+                    },
+                    {
+                        "name": "axelalmet/SenID",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/10396553?s=40&v=4",
+                        "owner": "axelalmet",
+                        "repo_name": "SenID"
+                    },
+                    {
+                        "name": "axelalmet/flowsig",
+                        "stars": 87,
+                        "img": "https://avatars.githubusercontent.com/u/10396553?s=40&v=4",
+                        "owner": "axelalmet",
+                        "repo_name": "flowsig"
+                    },
+                    {
+                        "name": "bgruening/example_zarr",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/469983?s=40&v=4",
+                        "owner": "bgruening",
+                        "repo_name": "example_zarr"
+                    },
+                    {
+                        "name": "bilalahmed15/AI-Setter",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/58539283?s=40&v=4",
+                        "owner": "bilalahmed15",
+                        "repo_name": "AI-Setter"
+                    },
+                    {
+                        "name": "bioio-devs/bioio-ome-zarr",
+                        "stars": 10,
+                        "img": "https://avatars.githubusercontent.com/u/111142641?s=40&v=4",
+                        "owner": "bioio-devs",
+                        "repo_name": "bioio-ome-zarr"
+                    },
+                    {
+                        "name": "biopb/biopb",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/200485764?s=40&v=4",
+                        "owner": "biopb",
+                        "repo_name": "biopb"
+                    },
+                    {
+                        "name": "biopb/biopb-mcp",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/200485764?s=40&v=4",
+                        "owner": "biopb",
+                        "repo_name": "biopb-mcp"
+                    },
+                    {
+                        "name": "bioshape-analysis/blog",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/175166205?s=40&v=4",
+                        "owner": "bioshape-analysis",
+                        "repo_name": "blog"
+                    },
+                    {
+                        "name": "brunomingoti/Cell_Segmentation",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/77982950?s=40&v=4",
+                        "owner": "brunomingoti",
+                        "repo_name": "Cell_Segmentation"
+                    },
+                    {
+                        "name": "bryanbarcelona/BioPixel",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/131413239?s=40&v=4",
+                        "owner": "bryanbarcelona",
+                        "repo_name": "BioPixel"
+                    },
+                    {
+                        "name": "ccp-volume-em/muvis-align",
+                        "stars": 6,
+                        "img": "https://avatars.githubusercontent.com/u/242277908?s=40&v=4",
+                        "owner": "ccp-volume-em",
+                        "repo_name": "muvis-align"
+                    },
+                    {
+                        "name": "cellcanvas/cellcanvas-core",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/160146426?s=40&v=4",
+                        "owner": "cellcanvas",
+                        "repo_name": "cellcanvas-core"
+                    },
+                    {
+                        "name": "cellgeni/cells2visium",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/34610939?s=40&v=4",
+                        "owner": "cellgeni",
+                        "repo_name": "cells2visium"
+                    },
+                    {
+                        "name": "chanzuckerberg/cryoet-data-portal-backend",
+                        "stars": 7,
+                        "img": "https://avatars.githubusercontent.com/u/19917299?s=40&v=4",
+                        "owner": "chanzuckerberg",
+                        "repo_name": "cryoet-data-portal-backend"
+                    },
+                    {
+                        "name": "chanzuckerberg/cryoet-data-portal-neuroglancer",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/19917299?s=40&v=4",
+                        "owner": "chanzuckerberg",
+                        "repo_name": "cryoet-data-portal-neuroglancer"
+                    },
+                    {
+                        "name": "cjmielke/spatial_pathology_ML",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/5335944?s=40&v=4",
+                        "owner": "cjmielke",
+                        "repo_name": "spatial_pathology_ML"
+                    },
+                    {
+                        "name": "ckolluru/3D-MUSE-acquire",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/8373968?s=40&v=4",
+                        "owner": "ckolluru",
+                        "repo_name": "3D-MUSE-acquire"
+                    },
+                    {
+                        "name": "cns-iu/hra-cell-embeddings",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/10944420?s=40&v=4",
+                        "owner": "cns-iu",
+                        "repo_name": "hra-cell-embeddings"
+                    },
+                    {
+                        "name": "codynhanpham/MERFISH_Analysis_Pipeline",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/87593612?s=40&v=4",
+                        "owner": "codynhanpham",
+                        "repo_name": "MERFISH_Analysis_Pipeline"
+                    },
+                    {
+                        "name": "compbioNJU/CellReasoner",
+                        "stars": 10,
+                        "img": "https://avatars.githubusercontent.com/u/59276844?s=40&v=4",
+                        "owner": "compbioNJU",
+                        "repo_name": "CellReasoner"
+                    },
+                    {
+                        "name": "copick/copick",
+                        "stars": 33,
+                        "img": "https://avatars.githubusercontent.com/u/175745953?s=40&v=4",
+                        "owner": "copick",
+                        "repo_name": "copick"
+                    },
+                    {
+                        "name": "copick/copick-torch",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/175745953?s=40&v=4",
+                        "owner": "copick",
+                        "repo_name": "copick-torch"
+                    },
+                    {
+                        "name": "copick/napari-copick",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/175745953?s=40&v=4",
+                        "owner": "copick",
+                        "repo_name": "napari-copick"
+                    },
+                    {
+                        "name": "czbiohub-sf/biahub",
+                        "stars": 13,
+                        "img": "https://avatars.githubusercontent.com/u/28747162?s=40&v=4",
+                        "owner": "czbiohub-sf",
+                        "repo_name": "biahub"
+                    },
+                    {
+                        "name": "czbiohub-sf/compmicro-biautils-env",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/28747162?s=40&v=4",
+                        "owner": "czbiohub-sf",
+                        "repo_name": "compmicro-biautils-env"
+                    },
+                    {
+                        "name": "czbiohub-sf/compmicro-ndutils-env",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/28747162?s=40&v=4",
+                        "owner": "czbiohub-sf",
+                        "repo_name": "compmicro-ndutils-env"
+                    },
+                    {
+                        "name": "czbiohub-sf/iohub",
+                        "stars": 53,
+                        "img": "https://avatars.githubusercontent.com/u/28747162?s=40&v=4",
+                        "owner": "czbiohub-sf",
+                        "repo_name": "iohub"
+                    },
+                    {
+                        "name": "czbiohub-sf/python-fish-sorter",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/28747162?s=40&v=4",
+                        "owner": "czbiohub-sf",
+                        "repo_name": "python-fish-sorter"
+                    },
+                    {
+                        "name": "danial-ahmad1/trace_ca",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/143212428?s=40&v=4",
+                        "owner": "danial-ahmad1",
+                        "repo_name": "trace_ca"
+                    },
+                    {
+                        "name": "datavil/cellestial",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/181806351?s=40&v=4",
+                        "owner": "datavil",
+                        "repo_name": "cellestial"
+                    },
+                    {
+                        "name": "dertrotl/geneGATer",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/79972154?s=40&v=4",
+                        "owner": "dertrotl",
+                        "repo_name": "geneGATer"
+                    },
+                    {
+                        "name": "dlmanrique/ST_Diffusion",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/60222741?s=40&v=4",
+                        "owner": "dlmanrique",
+                        "repo_name": "ST_Diffusion"
+                    },
+                    {
+                        "name": "dv-bt/MicroCorrelate",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/83511952?s=40&v=4",
+                        "owner": "dv-bt",
+                        "repo_name": "MicroCorrelate"
+                    },
+                    {
+                        "name": "ehgus/ht-data-ome-zarr-benchmark",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/18534737?s=40&v=4",
+                        "owner": "ehgus",
+                        "repo_name": "ht-data-ome-zarr-benchmark"
+                    },
+                    {
+                        "name": "elixir-europe-training/ELIXIR-SCO-spatial-omics",
+                        "stars": 48,
+                        "img": "https://avatars.githubusercontent.com/u/114221126?s=40&v=4",
+                        "owner": "elixir-europe-training",
+                        "repo_name": "ELIXIR-SCO-spatial-omics"
+                    },
+                    {
+                        "name": "elmbeech/physicelldataloader",
+                        "stars": 11,
+                        "img": "https://avatars.githubusercontent.com/u/154283?s=40&v=4",
+                        "owner": "elmbeech",
+                        "repo_name": "physicelldataloader"
+                    },
+                    {
+                        "name": "fish-quant/autofish-analysis",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/60177180?s=40&v=4",
+                        "owner": "fish-quant",
+                        "repo_name": "autofish-analysis"
+                    },
+                    {
+                        "name": "fmi-faim/faim-ipa",
+                        "stars": 20,
+                        "img": "https://avatars.githubusercontent.com/u/15688784?s=40&v=4",
+                        "owner": "fmi-faim",
+                        "repo_name": "faim-ipa"
+                    },
+                    {
+                        "name": "fractal-napari-plugins-collection/napari-ome-zarr-navigator",
+                        "stars": 9,
+                        "img": "https://avatars.githubusercontent.com/u/87814402?s=40&v=4",
+                        "owner": "fractal-napari-plugins-collection",
+                        "repo_name": "napari-ome-zarr-navigator"
+                    },
+                    {
+                        "name": "grinic/nextflow-basics",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/45073015?s=40&v=4",
+                        "owner": "grinic",
+                        "repo_name": "nextflow-basics"
+                    },
+                    {
+                        "name": "grinic/pymif",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/45073015?s=40&v=4",
+                        "owner": "grinic",
+                        "repo_name": "pymif"
+                    },
+                    {
+                        "name": "haniffalab/webatlas-pipeline",
+                        "stars": 70,
+                        "img": "https://avatars.githubusercontent.com/u/44367631?s=40&v=4",
+                        "owner": "haniffalab",
+                        "repo_name": "webatlas-pipeline"
+                    },
+                    {
+                        "name": "harrlol/gutinstinct",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/87460010?s=40&v=4",
+                        "owner": "harrlol",
+                        "repo_name": "gutinstinct"
+                    },
+                    {
+                        "name": "heeler/cellspot",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/300365?s=40&v=4",
+                        "owner": "heeler",
+                        "repo_name": "cellspot"
+                    },
+                    {
+                        "name": "hejDMC/napari-dmc-brainmap",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/95924079?s=40&v=4",
+                        "owner": "hejDMC",
+                        "repo_name": "napari-dmc-brainmap"
+                    },
+                    {
+                        "name": "heussner/coexist",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/60997181?s=40&v=4",
+                        "owner": "heussner",
+                        "repo_name": "coexist"
+                    },
+                    {
+                        "name": "hms-dbmi/tissue-map-tools",
+                        "stars": 18,
+                        "img": "https://avatars.githubusercontent.com/u/5939932?s=40&v=4",
+                        "owner": "hms-dbmi",
+                        "repo_name": "tissue-map-tools"
+                    },
+                    {
+                        "name": "hrlblab/AFM_kidney_cells",
+                        "stars": 5,
+                        "img": "https://avatars.githubusercontent.com/u/63868183?s=40&v=4",
+                        "owner": "hrlblab",
+                        "repo_name": "AFM_kidney_cells"
+                    },
+                    {
+                        "name": "hubmapconsortium/portal-containers",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/44688968?s=40&v=4",
+                        "owner": "hubmapconsortium",
+                        "repo_name": "portal-containers"
+                    },
+                    {
+                        "name": "hubmapconsortium/salmon-rnaseq",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/44688968?s=40&v=4",
+                        "owner": "hubmapconsortium",
+                        "repo_name": "salmon-rnaseq"
+                    },
+                    {
+                        "name": "hubmapconsortium/sprm",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/44688968?s=40&v=4",
+                        "owner": "hubmapconsortium",
+                        "repo_name": "sprm"
+                    },
+                    {
+                        "name": "hubmapconsortium/user-templates-api",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/44688968?s=40&v=4",
+                        "owner": "hubmapconsortium",
+                        "repo_name": "user-templates-api"
+                    },
+                    {
+                        "name": "hubmapconsortium/xenium-pipeline",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/44688968?s=40&v=4",
+                        "owner": "hubmapconsortium",
+                        "repo_name": "xenium-pipeline"
+                    },
+                    {
+                        "name": "hyoungjungyi/2025_ijcai",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/108853298?s=40&v=4",
+                        "owner": "hyoungjungyi",
+                        "repo_name": "2025_ijcai"
+                    },
+                    {
+                        "name": "ianjoshi/mender-reproduction",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/55448380?s=40&v=4",
+                        "owner": "ianjoshi",
+                        "repo_name": "mender-reproduction"
+                    },
+                    {
+                        "name": "id-f/ovarian_can",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/31929580?s=40&v=4",
+                        "owner": "id-f",
+                        "repo_name": "ovarian_can"
+                    },
+                    {
+                        "name": "inkarkapen/MapMySections",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/34486047?s=40&v=4",
+                        "owner": "inkarkapen",
+                        "repo_name": "MapMySections"
+                    },
+                    {
+                        "name": "joechanlab/Xenium_lung_NE_Plasticity_2024",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/173485754?s=40&v=4",
+                        "owner": "joechanlab",
+                        "repo_name": "Xenium_lung_NE_Plasticity_2024"
+                    },
+                    {
+                        "name": "joshlawrimore/iDISCO-Prep",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/86373443?s=40&v=4",
+                        "owner": "joshlawrimore",
+                        "repo_name": "iDISCO-Prep"
+                    },
+                    {
+                        "name": "khanlab/SPIMprep-deps",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/25446504?s=40&v=4",
+                        "owner": "khanlab",
+                        "repo_name": "SPIMprep-deps"
+                    },
+                    {
+                        "name": "khanlab/SPIMquant-deps",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/25446504?s=40&v=4",
+                        "owner": "khanlab",
+                        "repo_name": "SPIMquant-deps"
+                    },
+                    {
+                        "name": "khanlab/cvpl_tools",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/25446504?s=40&v=4",
+                        "owner": "khanlab",
+                        "repo_name": "cvpl_tools"
+                    },
+                    {
+                        "name": "khanlab/zarrnii",
+                        "stars": 11,
+                        "img": "https://avatars.githubusercontent.com/u/25446504?s=40&v=4",
+                        "owner": "khanlab",
+                        "repo_name": "zarrnii"
+                    },
+                    {
+                        "name": "khersameesh24/spatialxe-example-dataset",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/58815690?s=40&v=4",
+                        "owner": "khersameesh24",
+                        "repo_name": "spatialxe-example-dataset"
+                    },
+                    {
+                        "name": "kikuroki/Cells-calculator",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/60813531?s=40&v=4",
+                        "owner": "kikuroki",
+                        "repo_name": "Cells-calculator"
+                    },
+                    {
+                        "name": "labsyspharm/scimap",
+                        "stars": 112,
+                        "img": "https://avatars.githubusercontent.com/u/47149595?s=40&v=4",
+                        "owner": "labsyspharm",
+                        "repo_name": "scimap"
+                    },
+                    {
+                        "name": "latchbio/latch-eval-tools",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/78336304?s=40&v=4",
+                        "owner": "latchbio",
+                        "repo_name": "latch-eval-tools"
+                    },
+                    {
+                        "name": "latchbio/latch-plots-faas",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/78336304?s=40&v=4",
+                        "owner": "latchbio",
+                        "repo_name": "latch-plots-faas"
+                    },
+                    {
+                        "name": "leogolds/ConfluentFUCCI",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/43808545?s=40&v=4",
+                        "owner": "leogolds",
+                        "repo_name": "ConfluentFUCCI"
+                    },
+                    {
+                        "name": "leukemia-kispi/operetta-compose",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/82564743?s=40&v=4",
+                        "owner": "leukemia-kispi",
+                        "repo_name": "operetta-compose"
+                    },
+                    {
+                        "name": "linum-uqam/linumpy",
+                        "stars": 5,
+                        "img": "https://avatars.githubusercontent.com/u/78177776?s=40&v=4",
+                        "owner": "linum-uqam",
+                        "repo_name": "linumpy"
+                    },
+                    {
+                        "name": "m-albert/fractal-ome-zarr-hcs-stitching",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/12528388?s=40&v=4",
+                        "owner": "m-albert",
+                        "repo_name": "fractal-ome-zarr-hcs-stitching"
+                    },
+                    {
+                        "name": "malteborggrewe/docker-sc",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/51407084?s=40&v=4",
+                        "owner": "malteborggrewe",
+                        "repo_name": "docker-sc"
+                    },
+                    {
+                        "name": "marouane53/retinal-phenotyper",
+                        "stars": 10,
+                        "img": "https://avatars.githubusercontent.com/u/2603080?s=40&v=4",
+                        "owner": "marouane53",
+                        "repo_name": "retinal-phenotyper"
+                    },
+                    {
+                        "name": "matteo-cadoni/TB_VIZ",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/119929174?s=40&v=4",
+                        "owner": "matteo-cadoni",
+                        "repo_name": "TB_VIZ"
+                    },
+                    {
+                        "name": "mehta-lab/waveorder",
+                        "stars": 44,
+                        "img": "https://avatars.githubusercontent.com/u/49008068?s=40&v=4",
+                        "owner": "mehta-lab",
+                        "repo_name": "waveorder"
+                    },
+                    {
+                        "name": "michalsko20/Evaluation-of-Feature-Ranking-Influence-on-Breast-Cancer-Classification-Performance",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/116587237?s=40&v=4",
+                        "owner": "michalsko20",
+                        "repo_name": "Evaluation-of-Feature-Ranking-Influence-on-Breast-Cancer-Classification-Performance"
+                    },
+                    {
+                        "name": "mjoppich/PICASO",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/1136125?s=40&v=4",
+                        "owner": "mjoppich",
+                        "repo_name": "PICASO"
+                    },
+                    {
+                        "name": "mmachm/travelling_salesman",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/5347625?s=40&v=4",
+                        "owner": "mmachm",
+                        "repo_name": "travelling_salesman"
+                    },
+                    {
+                        "name": "multiview-stitcher/multiview-stitcher",
+                        "stars": 118,
+                        "img": "https://avatars.githubusercontent.com/u/147655714?s=40&v=4",
+                        "owner": "multiview-stitcher",
+                        "repo_name": "multiview-stitcher"
+                    },
+                    {
+                        "name": "nadeemlab/smprofiler",
+                        "stars": 23,
+                        "img": "https://avatars.githubusercontent.com/u/82060114?s=40&v=4",
+                        "owner": "nadeemlab",
+                        "repo_name": "smprofiler"
+                    },
+                    {
+                        "name": "napari/napari-metadata",
+                        "stars": 13,
+                        "img": "https://avatars.githubusercontent.com/u/39813916?s=40&v=4",
+                        "owner": "napari",
+                        "repo_name": "napari-metadata"
+                    },
+                    {
+                        "name": "naultran/Tutorials_and_Workshops",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/5539340?s=40&v=4",
+                        "owner": "naultran",
+                        "repo_name": "Tutorials_and_Workshops"
+                    },
+                    {
+                        "name": "ncats/multiplex-analysis-web-apps",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/1771365?s=40&v=4",
+                        "owner": "ncats",
+                        "repo_name": "multiplex-analysis-web-apps"
+                    },
+                    {
+                        "name": "neurodata/brainlit",
+                        "stars": 29,
+                        "img": "https://avatars.githubusercontent.com/u/13474594?s=40&v=4",
+                        "owner": "neurodata",
+                        "repo_name": "brainlit"
+                    },
+                    {
+                        "name": "neurogenetics/ADRD_Brain_Aging",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/40368648?s=40&v=4",
+                        "owner": "neurogenetics",
+                        "repo_name": "ADRD_Brain_Aging"
+                    },
+                    {
+                        "name": "noahbruderer/morphosnaker",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/55708616?s=40&v=4",
+                        "owner": "noahbruderer",
+                        "repo_name": "morphosnaker"
+                    },
+                    {
+                        "name": "ome/napari-ome-zarr",
+                        "stars": 52,
+                        "img": "https://avatars.githubusercontent.com/u/1831717?s=40&v=4",
+                        "owner": "ome",
+                        "repo_name": "napari-ome-zarr"
+                    },
+                    {
+                        "name": "ome/omero-cli-zarr",
+                        "stars": 22,
+                        "img": "https://avatars.githubusercontent.com/u/1831717?s=40&v=4",
+                        "owner": "ome",
+                        "repo_name": "omero-cli-zarr"
+                    },
+                    {
+                        "name": "opp1231/mosaic_test_will_it_fit",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/133399276?s=40&v=4",
+                        "owner": "opp1231",
+                        "repo_name": "mosaic_test_will_it_fit"
+                    },
+                    {
+                        "name": "pathology-data-mining/Mussel",
+                        "stars": 7,
+                        "img": "https://avatars.githubusercontent.com/u/151247831?s=40&v=4",
+                        "owner": "pathology-data-mining",
+                        "repo_name": "Mussel"
+                    },
+                    {
+                        "name": "pelkmanslab/APx_fractal_task_collection",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/2421254?s=40&v=4",
+                        "owner": "pelkmanslab",
+                        "repo_name": "APx_fractal_task_collection"
+                    },
+                    {
+                        "name": "pkosurilab/BellaVista",
+                        "stars": 7,
+                        "img": "https://avatars.githubusercontent.com/u/93301855?s=40&v=4",
+                        "owner": "pkosurilab",
+                        "repo_name": "BellaVista"
+                    },
+                    {
+                        "name": "printorgans/dreader",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/169549359?s=40&v=4",
+                        "owner": "printorgans",
+                        "repo_name": "dreader"
+                    },
+                    {
+                        "name": "prism-oncology/novae",
+                        "stars": 130,
+                        "img": "https://avatars.githubusercontent.com/u/273068181?s=40&v=4",
+                        "owner": "prism-oncology",
+                        "repo_name": "novae"
+                    },
+                    {
+                        "name": "prism-oncology/sopa",
+                        "stars": 281,
+                        "img": "https://avatars.githubusercontent.com/u/273068181?s=40&v=4",
+                        "owner": "prism-oncology",
+                        "repo_name": "sopa"
+                    },
+                    {
+                        "name": "rajewsky-lab/openst",
+                        "stars": 113,
+                        "img": "https://avatars.githubusercontent.com/u/17617158?s=40&v=4",
+                        "owner": "rajewsky-lab",
+                        "repo_name": "openst"
+                    },
+                    {
+                        "name": "rendeirolab/LazySlide",
+                        "stars": 300,
+                        "img": "https://avatars.githubusercontent.com/u/97199893?s=40&v=4",
+                        "owner": "rendeirolab",
+                        "repo_name": "LazySlide"
+                    },
+                    {
+                        "name": "rendeirolab/wsidata",
+                        "stars": 27,
+                        "img": "https://avatars.githubusercontent.com/u/97199893?s=40&v=4",
+                        "owner": "rendeirolab",
+                        "repo_name": "wsidata"
+                    },
+                    {
+                        "name": "robinsonlabuzh/pasta",
+                        "stars": 12,
+                        "img": "https://avatars.githubusercontent.com/u/8254628?s=40&v=4",
+                        "owner": "robinsonlabuzh",
+                        "repo_name": "pasta"
+                    },
+                    {
+                        "name": "roihezkiyahu/mga",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/84621564?s=40&v=4",
+                        "owner": "roihezkiyahu",
+                        "repo_name": "mga"
+                    },
+                    {
+                        "name": "royerlab/dexp",
+                        "stars": 33,
+                        "img": "https://avatars.githubusercontent.com/u/39425075?s=40&v=4",
+                        "owner": "royerlab",
+                        "repo_name": "dexp"
+                    },
+                    {
+                        "name": "royerlab/napari-chatgpt",
+                        "stars": 296,
+                        "img": "https://avatars.githubusercontent.com/u/39425075?s=40&v=4",
+                        "owner": "royerlab",
+                        "repo_name": "napari-chatgpt"
+                    },
+                    {
+                        "name": "royerlab/ultrack",
+                        "stars": 178,
+                        "img": "https://avatars.githubusercontent.com/u/39425075?s=40&v=4",
+                        "owner": "royerlab",
+                        "repo_name": "ultrack"
+                    },
+                    {
+                        "name": "saeyslab/harpy",
+                        "stars": 68,
+                        "img": "https://avatars.githubusercontent.com/u/18485264?s=40&v=4",
+                        "owner": "saeyslab",
+                        "repo_name": "harpy"
+                    },
+                    {
+                        "name": "saezlab/MINA",
+                        "stars": 4,
+                        "img": "https://avatars.githubusercontent.com/u/9979042?s=40&v=4",
+                        "owner": "saezlab",
+                        "repo_name": "MINA"
+                    },
+                    {
+                        "name": "saezlab/annnet",
+                        "stars": 10,
+                        "img": "https://avatars.githubusercontent.com/u/9979042?s=40&v=4",
+                        "owner": "saezlab",
+                        "repo_name": "annnet"
+                    },
+                    {
+                        "name": "sagar87/spatialproteomics",
+                        "stars": 44,
+                        "img": "https://avatars.githubusercontent.com/u/7542594?s=40&v=4",
+                        "owner": "sagar87",
+                        "repo_name": "spatialproteomics"
+                    },
+                    {
+                        "name": "sam650095/cells",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/81734861?s=40&v=4",
+                        "owner": "sam650095",
+                        "repo_name": "cells"
+                    },
+                    {
+                        "name": "sburkitt/gold_id",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/20115046?s=40&v=4",
+                        "owner": "sburkitt",
+                        "repo_name": "gold_id"
+                    },
+                    {
+                        "name": "scOpenLab/MultimodalRegistration",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/164319317?s=40&v=4",
+                        "owner": "scOpenLab",
+                        "repo_name": "MultimodalRegistration"
+                    },
+                    {
+                        "name": "schienstockd/cecelia",
+                        "stars": 33,
+                        "img": "https://avatars.githubusercontent.com/u/56576608?s=40&v=4",
+                        "owner": "schienstockd",
+                        "repo_name": "cecelia"
+                    },
+                    {
+                        "name": "sfabrizio/screen_reader_mqtt",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/4541773?s=40&v=4",
+                        "owner": "sfabrizio",
+                        "repo_name": "screen_reader_mqtt"
+                    },
+                    {
+                        "name": "shaoqiuh0627/stock_dash",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/43967953?s=40&v=4",
+                        "owner": "shaoqiuh0627",
+                        "repo_name": "stock_dash"
+                    },
+                    {
+                        "name": "sslim-aidrug/PathCLAST",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/213740069?s=40&v=4",
+                        "owner": "sslim-aidrug",
+                        "repo_name": "PathCLAST"
+                    },
+                    {
+                        "name": "sunni426/nova-networks",
+                        "stars": 6,
+                        "img": "https://avatars.githubusercontent.com/u/85393645?s=40&v=4",
+                        "owner": "sunni426",
+                        "repo_name": "nova-networks"
+                    },
+                    {
+                        "name": "theislab/interscale",
+                        "stars": 10,
+                        "img": "https://avatars.githubusercontent.com/u/22319415?s=40&v=4",
+                        "owner": "theislab",
+                        "repo_name": "interscale"
+                    },
+                    {
+                        "name": "tianxin-wang/BMCS4575-Final-Project",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/114761210?s=40&v=4",
+                        "owner": "tianxin-wang",
+                        "repo_name": "BMCS4575-Final-Project"
+                    },
+                    {
+                        "name": "tony-zhelonkin/scbio-docker",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/68032701?s=40&v=4",
+                        "owner": "tony-zhelonkin",
+                        "repo_name": "scbio-docker"
+                    },
+                    {
+                        "name": "trigubov/DW_data_science_ls1",
+                        "stars": 1,
+                        "img": "https://avatars.githubusercontent.com/u/119864850?s=40&v=4",
+                        "owner": "trigubov",
+                        "repo_name": "DW_data_science_ls1"
+                    },
+                    {
+                        "name": "uermel/mrc2omezarr",
+                        "stars": 3,
+                        "img": "https://avatars.githubusercontent.com/u/6641113?s=40&v=4",
+                        "owner": "uermel",
+                        "repo_name": "mrc2omezarr"
+                    },
+                    {
+                        "name": "uermel/remotebrain",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/6641113?s=40&v=4",
+                        "owner": "uermel",
+                        "repo_name": "remotebrain"
+                    },
+                    {
+                        "name": "vadori/cytoark",
+                        "stars": 22,
+                        "img": "https://avatars.githubusercontent.com/u/36676465?s=40&v=4",
+                        "owner": "vadori",
+                        "repo_name": "cytoark"
+                    },
+                    {
+                        "name": "vandeplaslab/image2image-io",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/49405574?s=40&v=4",
+                        "owner": "vandeplaslab",
+                        "repo_name": "image2image-io"
+                    },
+                    {
+                        "name": "voronlab/kibalnyk-2024-ankrd11",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/157840971?s=40&v=4",
+                        "owner": "voronlab",
+                        "repo_name": "kibalnyk-2024-ankrd11"
+                    },
+                    {
+                        "name": "wulinteousa2-hash/napari-chat-assistant",
+                        "stars": 5,
+                        "img": "https://avatars.githubusercontent.com/u/259734585?s=40&v=4",
+                        "owner": "wulinteousa2-hash",
+                        "repo_name": "napari-chat-assistant"
+                    },
+                    {
+                        "name": "wustl-cig/Measurement-domain-KL-divergence",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/39937140?s=40&v=4",
+                        "owner": "wustl-cig",
+                        "repo_name": "Measurement-domain-KL-divergence"
+                    },
+                    {
+                        "name": "wwYinYin/HESpotEx",
+                        "stars": 2,
+                        "img": "https://avatars.githubusercontent.com/u/127206500?s=40&v=4",
+                        "owner": "wwYinYin",
+                        "repo_name": "HESpotEx"
+                    },
+                    {
+                        "name": "yaroslav-vorobyov/SF_DST",
+                        "stars": 5,
+                        "img": "https://avatars.githubusercontent.com/u/105922478?s=40&v=4",
+                        "owner": "yaroslav-vorobyov",
+                        "repo_name": "SF_DST"
+                    },
+                    {
+                        "name": "yezhenqing/spatial-live",
+                        "stars": 9,
+                        "img": "https://avatars.githubusercontent.com/u/101293368?s=40&v=4",
+                        "owner": "yezhenqing",
+                        "repo_name": "spatial-live"
+                    },
+                    {
+                        "name": "ylabjp/ylab-common-scripts",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/130951562?s=40&v=4",
+                        "owner": "ylabjp",
+                        "repo_name": "ylab-common-scripts"
+                    },
+                    {
+                        "name": "zhangzq2406/scIDPMs",
+                        "stars": 0,
+                        "img": "https://avatars.githubusercontent.com/u/172886338?s=40&v=4",
+                        "owner": "zhangzq2406",
+                        "repo_name": "scIDPMs"
+                    }
+                ],
+                "public_dependents_number": 249,
+                "private_dependents_number": 116,
+                "total_dependents_number": 365,
+                "badges": {
+                    "total": "[![Generated by github-dependents-info](https://img.shields.io/static/v1?label=Used%20by&message=365&color=informational&logo=slickpic)](https://github.com/ome/ome-zarr-py/network/dependents)",
+                    "public": "[![Generated by github-dependents-info](https://img.shields.io/static/v1?label=Used%20by%20(public)&message=249&color=informational&logo=slickpic)](https://github.com/ome/ome-zarr-py/network/dependents)",
+                    "private": "[![Generated by github-dependents-info](https://img.shields.io/static/v1?label=Used%20by%20(private)&message=116&color=informational&logo=slickpic)](https://github.com/ome/ome-zarr-py/network/dependents)",
+                    "stars": "[![Generated by github-dependents-info](https://img.shields.io/static/v1?label=Used%20by%20(stars)&message=3001&color=informational&logo=slickpic)](https://github.com/ome/ome-zarr-py/network/dependents)"
+                }
+            }
+        ]
+    ]
+}
