@@ -1,9 +1,57 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-06-17T07:50:34+00:00",
+  "generated": "2026-06-18T08:21:39+00:00",
   "recent_days": 10,
-  "total_commits": 1001,
+  "total_commits": 1010,
   "commits": [
+    {
+      "commit_date": "2026-06-17T21:02:20.000+01:00",
+      "author": "nelsmedina",
+      "repository": "StructuralNeurobiologyLab/MOSS",
+      "commit_url": "https://github.com/StructuralNeurobiologyLab/MOSS/commit/c1c04b7bc68867a6e0f2bd9550cbf96dbb933f1f"
+    },
+    {
+      "commit_date": "2026-06-17T16:21:29.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/6ff5f5935957248bb0c98b579b1e93a867836715"
+    },
+    {
+      "commit_date": "2026-06-17T12:46:49.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/2dea5a78427f141bbd9b64ca28bacec6116a95e5"
+    },
+    {
+      "commit_date": "2026-06-17T11:47:55.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/cf53c0c614b23776fb531c5414f6b10a3eebf580"
+    },
+    {
+      "commit_date": "2026-06-17T10:20:23.000+02:00",
+      "author": "akhanf",
+      "repository": "khanlab/SPIMquant",
+      "commit_url": "https://github.com/khanlab/SPIMquant/commit/b2f7008f18708fd58320cbdd253a0150aae8943a"
+    },
+    {
+      "commit_date": "2026-06-17T06:51:02.000-03:00",
+      "author": "lubianat",
+      "repository": "lubianat/ome-zarr-resources",
+      "commit_url": "https://github.com/lubianat/ome-zarr-resources/commit/39c74bb4d4642d6bb0a9d950d2a425a3d5fbf9dd"
+    },
+    {
+      "commit_date": "2026-06-17T06:35:07.000-03:00",
+      "author": "lubianat",
+      "repository": "lubianat/ome-zarr-resources",
+      "commit_url": "https://github.com/lubianat/ome-zarr-resources/commit/586db2e5d91e1ad63d1e445ec3e553ef2e490253"
+    },
+    {
+      "commit_date": "2026-06-17T01:31:28.000Z",
+      "author": "yunchiuuu",
+      "repository": "Slice-Girlz/3DSegStuff",
+      "commit_url": "https://github.com/Slice-Girlz/3DSegStuff/commit/caf1e4ae1518ed921a85185d813b66b675e6b708"
+    },
     {
       "commit_date": "2026-06-16T15:47:13.000-03:00",
       "author": "lubianat",
@@ -27,6 +75,12 @@
       "author": "LDeakin",
       "repository": "MaterialsPhysicsANU/anu_ctlab_io",
       "commit_url": "https://github.com/MaterialsPhysicsANU/anu_ctlab_io/commit/cf8bd18852d6cd3b622c8407da00a8569f6b7aa2"
+    },
+    {
+      "commit_date": "2026-06-16T10:24:51.000-04:00",
+      "author": "allison-truhlar",
+      "repository": "JaneliaSciComp/fileglancer",
+      "commit_url": "https://github.com/JaneliaSciComp/fileglancer/commit/2c24e01cde828127d0911e7136715e69203aab45"
     },
     {
       "commit_date": "2026-06-16T10:17:44.000-04:00",
