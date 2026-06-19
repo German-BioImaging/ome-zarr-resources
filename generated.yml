@@ -1,4 +1,4 @@
-generated_at: '2026-06-19T08:41:02.873377Z'
+generated_at: '2026-06-19T10:19:20.705465Z'
 sections:
 - name: Core
   packages:
@@ -202,7 +202,7 @@ sections:
       created_at: '2023-10-03T14:19:28Z'
       description: Loading and handling microscopy data in blender
       open_issues: 29
-      size: 52718
+      size: 52732
       stargazers_count: 156
       topics:
       - blender
@@ -433,8 +433,8 @@ sections:
     repo_info:
       created_at: '2012-05-14T16:26:17Z'
       description: Visualize, share and annotate your large 3D images online
-      open_issues: 343
-      size: 845803
+      open_issues: 344
+      size: 845847
       stargazers_count: 176
       topics:
       - connectomics
@@ -1930,10 +1930,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: assadiab
-      date: '2026-06-18'
-      sha: 2f17e59753259387ed40d3986042f1f8f7f3e543
+      date: '2026-06-19'
+      sha: 2a112611467d972a1b824377b425b37cf05ac952
       status: null
-      url: https://github.com/assadiab/Interactive_Zarr_Explorer/commit/2f17e59753259387ed40d3986042f1f8f7f3e543
+      url: https://github.com/assadiab/Interactive_Zarr_Explorer/commit/2a112611467d972a1b824377b425b37cf05ac952
     name: Viewer_interactif
     repo: assadiab/Viewer_interactif
     repo_info:
@@ -1950,7 +1950,7 @@ sections:
       - scientific-visualization
       - viewer
       - zarr
-      updated_at: '2026-06-18T22:07:24Z'
+      updated_at: '2026-06-19T09:24:57Z'
     user: assadiab
     workflow_run_status: NO_WORKFLOWS
   - last_commit:
@@ -4681,7 +4681,7 @@ sections:
       description: Multi-Dimensional Visualization (MDV) is an open-source toolkit
         for analyzing and visualizing spatial and molecular datasets. Code licensed
         under GPL-3.0; example spatial data under CC0 1.0.
-      open_issues: 42
+      open_issues: 43
       size: 410929
       stargazers_count: 37
       topics: []
@@ -4690,20 +4690,20 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: xinaesthete
-      date: '2026-06-18'
-      sha: e20648df7ba22b869949b684ab70348978eb8774
+      date: '2026-06-19'
+      sha: 72e87a15f858bb99e6c56c91fe96b3459e7a939d
       status: SUCCESS
-      url: https://github.com/Taylor-CCB-Group/SpatialData.js/commit/e20648df7ba22b869949b684ab70348978eb8774
+      url: https://github.com/Taylor-CCB-Group/SpatialData.js/commit/72e87a15f858bb99e6c56c91fe96b3459e7a939d
     name: SpatialData.js
     repo: Taylor-CCB-Group/SpatialData.js
     repo_info:
       created_at: '2025-10-07T09:01:52Z'
       description: A library for interfacing with SpatialData stores in TS/JS
-      open_issues: 9
-      size: 1825
+      open_issues: 8
+      size: 1857
       stargazers_count: 7
       topics: []
-      updated_at: '2026-06-18T14:49:08Z'
+      updated_at: '2026-06-19T10:09:35Z'
     user: Taylor-CCB-Group
     workflow_run_status: SUCCESS
   - last_commit:
@@ -6934,10 +6934,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: Mr-Milk
-      date: '2026-06-14'
-      sha: 7bd351aef8292ee03e2517fbb6bc63e5c74aa297
-      status: SUCCESS
-      url: https://github.com/rendeirolab/LazySlide/commit/7bd351aef8292ee03e2517fbb6bc63e5c74aa297
+      date: '2026-06-19'
+      sha: 2c643f634a2992fdd656186c457c1b98bc9443c2
+      status: PENDING
+      url: https://github.com/rendeirolab/LazySlide/commit/2c643f634a2992fdd656186c457c1b98bc9443c2
     last_release:
       date: '2026-05-30'
       tag_name: v0.11.1
@@ -6947,13 +6947,13 @@ sections:
     repo_info:
       created_at: '2023-11-20T15:07:45Z'
       description: Accessible and interoperable whole slide image analysis
-      open_issues: 15
+      open_issues: 13
       size: 115674
       stargazers_count: 301
       topics:
       - deep-learning
       - digital-pathology
-      updated_at: '2026-06-18T01:42:14Z'
+      updated_at: '2026-06-19T10:13:17Z'
     user: rendeirolab
     workflow_run_status: FAILURE
   - last_commit:
@@ -7707,7 +7707,7 @@ sections:
       topics: []
       updated_at: '2026-06-16T06:40:26Z'
     user: ylabjp
-    workflow_run_status: NO_WORKFLOWS
+    workflow_run_status: SUCCESS
   - last_commit:
       author: zhangzq2406
       date: '2024-09-27'
