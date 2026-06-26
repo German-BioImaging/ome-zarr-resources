@@ -1,9 +1,63 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-06-25T05:15:56+00:00",
+  "generated": "2026-06-26T05:38:05+00:00",
   "recent_days": 10,
-  "total_commits": 1096,
+  "total_commits": 1107,
   "commits": [
+    {
+      "commit_date": "2026-06-25T23:06:04.000Z",
+      "author": "github-actions[bot]",
+      "repository": "source-cooperative/zarr-viewer",
+      "commit_url": "https://github.com/source-cooperative/zarr-viewer/commit/dda6dc724a1839247530846b5af784be4800e161"
+    },
+    {
+      "commit_date": "2026-06-25T19:09:53.000+01:00",
+      "author": "simaopseixas",
+      "repository": "simaopseixas/alm-file-converter",
+      "commit_url": "https://github.com/simaopseixas/alm-file-converter/commit/598df9e737124e20203f22b6bc1019965446d4ed"
+    },
+    {
+      "commit_date": "2026-06-25T18:28:43.000+01:00",
+      "author": "simaopseixas",
+      "repository": "simaopseixas/alm-file-converter",
+      "commit_url": "https://github.com/simaopseixas/alm-file-converter/commit/c142419ca3e4b0b2ffde4b49204dd7fea173084e"
+    },
+    {
+      "commit_date": "2026-06-25T17:18:04.000-07:00",
+      "author": "aelefebv",
+      "repository": "aelefebv/lucida",
+      "commit_url": "https://github.com/aelefebv/lucida/commit/edc595f9cbe8fb4a203b8eea0330f815b077c774"
+    },
+    {
+      "commit_date": "2026-06-25T14:50:58.000+01:00",
+      "author": "sbesson",
+      "repository": "glencoesoftware/NGFF-Converter",
+      "commit_url": "https://github.com/glencoesoftware/NGFF-Converter/commit/bfe216da61c8fe08c363d03a6a975b03913c3874"
+    },
+    {
+      "commit_date": "2026-06-25T14:12:33.000-07:00",
+      "author": "peter-grotz",
+      "repository": "peter-grotz/aind-exaspim-ccf-registration",
+      "commit_url": "https://github.com/peter-grotz/aind-exaspim-ccf-registration/commit/f9660f15e897602445e0b11a8ab3f35b031305b0"
+    },
+    {
+      "commit_date": "2026-06-25T11:38:24.000+02:00",
+      "author": "m-albert",
+      "repository": "multiview-stitcher/multiview-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/5aa3149c10d4529eac47e155cbf8cf3544291873"
+    },
+    {
+      "commit_date": "2026-06-24T22:21:15.000-07:00",
+      "author": "aelefebv",
+      "repository": "aelefebv/lucida",
+      "commit_url": "https://github.com/aelefebv/lucida/commit/8ceab1b19b8b6c83816cd1d699c503eee01d143e"
+    },
+    {
+      "commit_date": "2026-06-24T17:20:45.000+01:00",
+      "author": "will-moore",
+      "repository": "IDR/idr-notebooks",
+      "commit_url": "https://github.com/IDR/idr-notebooks/commit/e5efbda84fbbd0194fdf67026490810ea8001479"
+    },
     {
       "commit_date": "2026-06-24T16:52:51.000-07:00",
       "author": "ferrinm",
@@ -29,6 +83,12 @@
       "commit_url": "https://github.com/bioio-devs/bioio-conversion/commit/052c08ef9af7243e861c528d4ddae8dcaec9bc9e"
     },
     {
+      "commit_date": "2026-06-24T09:26:05.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/c202d92852940f4e1b4c0528abea2ede49ef8341"
+    },
+    {
       "commit_date": "2026-06-24T08:57:13.000+02:00",
       "author": "lguerard",
       "repository": "imcf/patchworks",
@@ -39,6 +99,12 @@
       "author": "lguerard",
       "repository": "imcf/patchworks",
       "commit_url": "https://github.com/imcf/patchworks/commit/d9e869f43dbf92cd1ec1daf36618f594c12b8c3b"
+    },
+    {
+      "commit_date": "2026-06-24T07:39:34.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/9d887f9e222602b38afd4191aac593ee3d21772d"
     },
     {
       "commit_date": "2026-06-24T06:14:01.000-03:00",
