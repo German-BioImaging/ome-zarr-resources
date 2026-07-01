@@ -1,9 +1,21 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-01T05:54:32+00:00",
+  "generated": "2026-07-01T09:55:54+00:00",
   "recent_days": 10,
-  "total_commits": 1151,
+  "total_commits": 1154,
   "commits": [
+    {
+      "commit_date": "2026-07-01T09:51:17.000+02:00",
+      "author": "RAHoebe",
+      "repository": "Cellular-Imaging-Amsterdam-UMC/cideconvolve",
+      "commit_url": "https://github.com/Cellular-Imaging-Amsterdam-UMC/cideconvolve/commit/e6034da05f27e0434d6a31c8bf53e0da85dc87a5"
+    },
+    {
+      "commit_date": "2026-07-01T06:54:33.000-03:00",
+      "author": "lubianat",
+      "repository": "German-BioImaging/ome-zarr-resources",
+      "commit_url": "https://github.com/German-BioImaging/ome-zarr-resources/commit/dccab6ec9076737009463371f5eb7df9487a1fa8"
+    },
     {
       "commit_date": "2026-06-30T23:41:02.000+01:00",
       "author": "CraigMyles",
@@ -39,6 +51,12 @@
       "author": "ferrinm",
       "repository": "ferrinm/zarrmony",
       "commit_url": "https://github.com/ferrinm/zarrmony/commit/724697683630a3778e6d38c17d00135933769e18"
+    },
+    {
+      "commit_date": "2026-06-30T10:25:09.000-04:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/22bc9d7697174735b822f9e794d12e40aca15985"
     },
     {
       "commit_date": "2026-06-30T10:09:23.000-04:00",
