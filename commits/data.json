@@ -1,9 +1,81 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-06-30T05:17:39+00:00",
+  "generated": "2026-07-01T05:54:32+00:00",
   "recent_days": 10,
-  "total_commits": 1138,
+  "total_commits": 1151,
   "commits": [
+    {
+      "commit_date": "2026-06-30T23:41:02.000+01:00",
+      "author": "CraigMyles",
+      "repository": "CraigMyles/raw2features",
+      "commit_url": "https://github.com/CraigMyles/raw2features/commit/0e69deb4e7c371a03f899e6b9038447f17e9c530"
+    },
+    {
+      "commit_date": "2026-06-30T21:08:37.000+02:00",
+      "author": "giorgioangel",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/6c3f7771fb4afbc20147b812790bde7f81311e0b"
+    },
+    {
+      "commit_date": "2026-06-30T16:18:15.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/f11955e50e190282e993519634cc8082dd2f9b75"
+    },
+    {
+      "commit_date": "2026-06-30T16:17:56.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/4ca4900971b640d46d82d0998b9c7467fb1d6143"
+    },
+    {
+      "commit_date": "2026-06-30T16:01:57.000+02:00",
+      "author": "giorgioangel",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/4d7d77690fc2738e6e88ed6d46edee82b3c6863b"
+    },
+    {
+      "commit_date": "2026-06-30T15:54:38.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/724697683630a3778e6d38c17d00135933769e18"
+    },
+    {
+      "commit_date": "2026-06-30T10:09:23.000-04:00",
+      "author": "cornhundred",
+      "repository": "broadinstitute/celldega",
+      "commit_url": "https://github.com/broadinstitute/celldega/commit/70912a6610fe6b596c97d9b9f2f780fc7db797eb"
+    },
+    {
+      "commit_date": "2026-06-30T10:02:46.000-05:00",
+      "author": "SuperOptimizer",
+      "repository": "SuperOptimizer/fenix",
+      "commit_url": "https://github.com/SuperOptimizer/fenix/commit/8824f07ade2ab21e20d9ca8496280ca4ef1afde4"
+    },
+    {
+      "commit_date": "2026-06-30T09:12:24.000+02:00",
+      "author": "imagejan",
+      "repository": "conda-forge/bioio-ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/bioio-ome-zarr-feedstock/commit/cb689101d63996fc91aabf85ea81027cfd292384"
+    },
+    {
+      "commit_date": "2026-06-30T07:12:32.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/10d6c02754f462ae8df8f3944c185653726c17c5"
+    },
+    {
+      "commit_date": "2026-06-30T02:50:14.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/d9b16a4529df9f5e4cdacd6b590989eef3921dd9"
+    },
+    {
+      "commit_date": "2026-06-30T02:14:42.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/d128d35cef1f14121005de9618d6671c40f01c86"
+    },
     {
       "commit_date": "2026-06-29T23:14:28.000-04:00",
       "author": "cgoina",
@@ -45,6 +117,12 @@
       "author": "regro-cf-autotick-bot",
       "repository": "conda-forge/conda-forge-bot-data",
       "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/3273fccfb292284fddf816e16833c7d3862635e9"
+    },
+    {
+      "commit_date": "2026-06-29T13:39:18.000-04:00",
+      "author": "aganders3",
+      "repository": "aganders3/bovista",
+      "commit_url": "https://github.com/aganders3/bovista/commit/f5d7647115cf130607cca7a13865eac960b4e32d"
     },
     {
       "commit_date": "2026-06-29T00:01:30.000-07:00",
