@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OME-Zarr commits</title>
+    <style>
+      :root {
+        --bg: #14171a;
+        --panel: #181c20;
+        --ink: #d7dde2;
+        --dim: #6b757d;
+        --rule: #262c31;
+        --accent: #7fd1b9; /* zarr teal */
+        --sha: #b3a06a;
+        --new: #ffd700; /* gold for new repos */
+        --mono: ui-monospace, "SF Mono", "Cascadia Code", "JetBrains Mono",
+          Menlo, Consolas, monospace;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: var(--mono);
+        font-size: 14px;
+        line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
+      }
+      .wrap {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 40px 20px 80px;
+      }
+      header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid var(--rule);
+        flex-wrap: wrap;
+      }
+      h1 {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0;
+        letter-spacing: 0.02em;
+      }
+      h1 .q {
+        color: var(--accent);
+      }
+      .meta {
+        color: var(--dim);
+        font-size: 12px;
+      }
+      .meta a {
+        color: var(--dim);
+        text-decoration: none;
+        border-bottom: 1px dotted var(--rule);
+      }
+      .meta a:hover {
+        color: var(--ink);
+      }
+      .day {
+        margin-top: 30px;
+      }
+      .day-head {
+        color: var(--accent);
+        font-weight: 600;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+      }
+      .day-head .count {
+        color: var(--dim);
+        font-weight: 400;
+        font-size: 12px;
+      }
+      .repo {
+        padding: 3px 0;
+      }
+      .repo a.name {
+        color: var(--ink);
+        text-decoration: none;
+      }
+      .repo a.name:hover {
+        color: var(--accent);
+      }
+      .repo .tally {
+        color: var(--dim);
+      }
+      .shas {
+        display: inline;
+      }
+      .shas a {
+        color: var(--sha);
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+      }
+      .shas a:hover {
+        border-bottom-color: var(--sha);
+      }
+      .author {
+        color: var(--dim);
+      }
+      .new-indicator {
+        color: var(--new);
+        font-size: 12px;
+        margin-left: 4px;
+        cursor: help;
+        text-decoration: none;
+        border-bottom: 1px dotted var(--new);
+      }
+      .new-indicator:hover {
+        color: #fff;
+        border-bottom-color: #fff;
+      }
+      .empty,
+      .err {
+        color: var(--dim);
+        margin-top: 40px;
+      }
+      .err {
+        color: #d98a8a;
+      }
+      footer {
+        margin-top: 60px;
+        padding-top: 14px;
+        border-top: 1px solid var(--rule);
+        color: var(--dim);
+        font-size: 12px;
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        .day {
+          animation: fade 0.4s ease both;
+        }
+        @keyframes fade {
+          from {
+            opacity: 0;
+            transform: translateY(4px);
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>commits &middot; <span class="q">OME-Zarr</span></h1>
+        <span class="meta" id="meta">loading&hellip;</span>
+      </header>
+      <main id="log">
+        <p class="empty">Reading the log&hellip;</p>
+      </main>
+      <footer>
+        Aggregated from the
+        <a href="https://docs.github.com/en/rest/search/search#search-commits"
+          >GitHub commit search API</a
+        >, refreshed daily. 🆕 = repo not yet in the dashboard. Showing all commits, newest first.
+      </footer>
+    </div>
+
+    <script>
+      const log = document.getElementById("log");
+      const meta = document.getElementById("meta");
+
+      const esc = (s) =>
+        String(s).replace(
+          /[&<>"]/g,
+          (c) =>
+            ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])
+        );
+
+      const fmtDay = (iso) => {
+        const [y, m, d] = iso.split("-");
+        return `${d}/${m}`;
+      };
+
+      const sha = (url) => {
+        const m = /\/commit\/([0-9a-f]+)/i.exec(url || "");
+        return m ? m[1].slice(0, 6) : "commit";
+      };
+
+      // Parse dashboard.yml to extract known repositories
+      async function loadDashboardRepos() {
+        try {
+          const response = await fetch("../dashboard.yml", { cache: "no-cache" });
+
+          // parse also skip.yml
+          const skipResponse = await fetch("../to_skip.yml", { cache: "no-cache" });
+
+          if (!response.ok) return new Set();
+
+          const yamlText = await response.text();
+          const skipText = await skipResponse.text();
+
+          const totalText = yamlText + "\n" + skipText;
+          const repos = new Set();
+
+          // Simple YAML parsing for the repo structure
+          const lines = totalText.split('\n');
+          for (const line of lines) {
+            const match = line.match(/^\s*- repo:\s*(\S+)/);
+            if (match) {
+              repos.add(match[1]);
+            }
+          }
+
+          return repos;
+        } catch (e) {
+          console.warn("Couldn't load dashboard.yml:", e);
+          return new Set();
+        }
+      }
+
+      async function render(data) {
+        // Load known repositories from dashboard
+        const knownRepos = await loadDashboardRepos();
+
+        const gen = new Date(data.generated);
+        const total = data.total_commits ?? data.commits.length;
+
+        // Count new repos across ALL data (not just recent days)
+        let newRepoCount = 0;
+        const allRepos = new Set();
+        for (const c of data.commits) {
+          allRepos.add(c.repository);
+        }
+
+        for (const repo of allRepos) {
+          if (!knownRepos.has(repo)) {
+            newRepoCount++;
+          }
+        }
+
+        meta.innerHTML = `${total} commits total · ${newRepoCount > 0 ? newRepoCount + ' new repos · ' : ''}updated ${gen
+          .toISOString()
+          .slice(0, 16)
+          .replace("T", " ")} UTC`;
+
+        // Show ALL days — no cutoff
+        const byDay = new Map();
+        for (const c of data.commits) {
+          const dayKey = c.commit_date.slice(0, 10);
+          if (!byDay.has(dayKey)) byDay.set(dayKey, new Map());
+          const repos = byDay.get(dayKey);
+          if (!repos.has(c.repository)) repos.set(c.repository, []);
+          repos.get(c.repository).push(c);
+        }
+
+        if (!byDay.size) {
+          log.innerHTML = `<p class="empty">No commits found.</p>`;
+          return;
+        }
+
+        const days = [...byDay.entries()].sort((a, b) =>
+          a[0] < b[0] ? 1 : -1
+        );
+
+        log.innerHTML = days
+          .map(([day, repos]) => {
+            const repoList = [...repos.entries()].sort(
+              (a, b) => b[1].length - a[1].length
+            );
+            const dayTotal = repoList.reduce((n, r) => n + r[1].length, 0);
+            const rows = repoList
+              .map(([name, commits]) => {
+                const repoUrl = `https://github.com/${name}`;
+                const isNew = !knownRepos.has(name);
+                const newBadge = isNew
+                  ? ` <span class="new-indicator" title="New repository - not yet in dashboard.yml">✨🆕✨</span>`
+                  : '';
+                const links = commits
+                  .map(
+                    (c) =>
+                      `<a href="${esc(c.commit_url)}" title="${esc(
+                        c.author
+                      )}">${esc(sha(c.commit_url))}</a>`
+                  )
+                  .join(", ");
+                const n = commits.length;
+                const word = n === 1 ? "commit" : "commits";
+                return `<div class="repo">&bull; <a class="name" href="${esc(
+                  repoUrl
+                )}">${newBadge} ${esc(name)}</a> <span class="tally">(${n} ${word}: <span class="shas">${links}</span>)</span></div>`;
+              })
+              .join("");
+            return `<section class="day"><div class="day-head">${fmtDay(
+              day
+            )} <span class="count">${dayTotal} commits · ${
+              repoList.length
+            } repos</span></div>${rows}</section>`;
+          })
+          .join("");
+      }
+
+      // Load data and render
+      fetch("data.json", { cache: "no-cache" })
+        .then((r) => {
+          if (!r.ok) throw new Error(r.status);
+          return r.json();
+        })
+        .then(render)
+        .catch((e) => {
+          log.innerHTML = `<p class="err">Couldn't load data.json (${esc(
+            e.message
+          )}). It's written by the GitHub Action — check that the workflow has run.</p>`;
+          meta.textContent = "no data";
+        });
+    </script>
+  </body>
+</html>
