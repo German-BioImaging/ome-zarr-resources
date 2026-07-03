@@ -1,14 +1,212 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-01T09:55:54+00:00",
+  "generated": "2026-07-03T12:18:04+00:00",
   "recent_days": 10,
-  "total_commits": 1154,
+  "total_commits": 1188,
   "commits": [
+    {
+      "commit_date": "2026-07-03T15:52:07.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/e96549ed839f6c300b64b9d3a811f1820cbed7de"
+    },
+    {
+      "commit_date": "2026-07-02T15:58:16.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/3bb65ec1f5f95a641866a32d06a0bcc35816eb7d"
+    },
+    {
+      "commit_date": "2026-07-02T15:40:25.000+01:00",
+      "author": "djpbarry",
+      "repository": "FrancisCrickInstitute/CrosstalkPy",
+      "commit_url": "https://github.com/FrancisCrickInstitute/CrosstalkPy/commit/c553fc10fd89c7494824c87133d040bd0930bdf2"
+    },
+    {
+      "commit_date": "2026-07-02T15:17:35.000-05:00",
+      "author": "SuperOptimizer",
+      "repository": "SuperOptimizer/fenix",
+      "commit_url": "https://github.com/SuperOptimizer/fenix/commit/bd3ab3ec996216c989aca3fc7e12ff0aa8c8d130"
+    },
+    {
+      "commit_date": "2026-07-02T15:12:35.000-07:00",
+      "author": "aelefebv",
+      "repository": "aelefebv/lucida",
+      "commit_url": "https://github.com/aelefebv/lucida/commit/e698535e33ba837e57c5f3214e01e6418cd4e4b0"
+    },
+    {
+      "commit_date": "2026-07-02T14:37:40.000Z",
+      "author": "renovate[bot]",
+      "repository": "darosio/nima_io",
+      "commit_url": "https://github.com/darosio/nima_io/commit/028f2ecddd30f2f857471877ecac37d5f8044440"
+    },
+    {
+      "commit_date": "2026-07-02T14:32:30.000+02:00",
+      "author": "giorgioangel",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/24eb52ecffc6f5b5ebe465e0e235dd6b397228f2"
+    },
+    {
+      "commit_date": "2026-07-02T13:28:47.000+02:00",
+      "author": "Tom Schneider",
+      "repository": "tomic1/vsi-zarr-ingest",
+      "commit_url": "https://github.com/tomic1/vsi-zarr-ingest/commit/c0aab626a1cd957a781f0a6c38ef59a4ec4408cb"
+    },
+    {
+      "commit_date": "2026-07-02T12:53:31.000-07:00",
+      "author": "aelefebv",
+      "repository": "aelefebv/lucida",
+      "commit_url": "https://github.com/aelefebv/lucida/commit/b15907fb25c446df7fa9e4f5fc6e5806dc12bab0"
+    },
+    {
+      "commit_date": "2026-07-02T11:44:49.000-05:00",
+      "author": "theoreticalcereal",
+      "repository": "theoreticalcereal/deskew-gpu",
+      "commit_url": "https://github.com/theoreticalcereal/deskew-gpu/commit/ee2d79e3f66b5145efb79ad8e48ddcfac1be6f8d"
+    },
+    {
+      "commit_date": "2026-07-02T11:44:48.000-05:00",
+      "author": "theoreticalcereal",
+      "repository": "theoreticalcereal/deconvolution-gpu",
+      "commit_url": "https://github.com/theoreticalcereal/deconvolution-gpu/commit/4a09353150d1b08d2f4e953ee6a3ea8a7c591597"
+    },
+    {
+      "commit_date": "2026-07-02T11:38:22.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/napari-chunked-regionprops",
+      "commit_url": "https://github.com/imcf/napari-chunked-regionprops/commit/675e1b04cdb5f2444d4492c245c4f52fcc734e6c"
+    },
+    {
+      "commit_date": "2026-07-02T10:57:31.000-07:00",
+      "author": "aelefebv",
+      "repository": "aelefebv/lucida",
+      "commit_url": "https://github.com/aelefebv/lucida/commit/7870f0c36753aa11a3c89d3e24576685f76a7318"
+    },
+    {
+      "commit_date": "2026-07-02T10:12:34.000+01:00",
+      "author": "xinaesthete",
+      "repository": "Taylor-CCB-Group/SpatialData.js",
+      "commit_url": "https://github.com/Taylor-CCB-Group/SpatialData.js/commit/67987eec926844941a86cd4f814b2b38f63a6bfe"
+    },
+    {
+      "commit_date": "2026-07-02T10:00:48.000-03:00",
+      "author": "lubianat",
+      "repository": "German-BioImaging/ome-zarr-acknowledgments",
+      "commit_url": "https://github.com/German-BioImaging/ome-zarr-acknowledgments/commit/4b33189186bd18fa33d595cf9e1547751b6dab9f"
+    },
+    {
+      "commit_date": "2026-07-02T07:46:44.000-04:00",
+      "author": "dmp2",
+      "repository": "dmp2/wsi-tissue-pipeline",
+      "commit_url": "https://github.com/dmp2/wsi-tissue-pipeline/commit/638c6ef19ac97458f7a516c6097fca9c4b4a0f6d"
+    },
+    {
+      "commit_date": "2026-07-02T06:04:54.000-07:00",
+      "author": "aelefebv",
+      "repository": "aelefebv/lucida",
+      "commit_url": "https://github.com/aelefebv/lucida/commit/8d05451b437548fcede25e9d70380dcc7cb5e8da"
+    },
+    {
+      "commit_date": "2026-07-02T06:00:26.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/fac5a3edff1d7f450fd2ce939015456b87f058a9"
+    },
+    {
+      "commit_date": "2026-07-02T05:54:39.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/a9503df03c7bbbc792557aec62d8a7dacfde79b2"
+    },
+    {
+      "commit_date": "2026-07-02T05:45:45.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/d3bb15a449886d1ecf0398295de87801a4153f0e"
+    },
+    {
+      "commit_date": "2026-07-02T02:34:30.000-07:00",
+      "author": "aelefebv",
+      "repository": "aelefebv/lucida",
+      "commit_url": "https://github.com/aelefebv/lucida/commit/ab3c68f4c985658f8ac5c5599a8078ba73a1e49c"
+    },
+    {
+      "commit_date": "2026-07-02T02:03:35.000-04:00",
+      "author": "leoqi0112",
+      "repository": "leoqi0112/invasion-images",
+      "commit_url": "https://github.com/leoqi0112/invasion-images/commit/810fa17c169626027810995ba1dc7a48faf1c227"
+    },
+    {
+      "commit_date": "2026-07-01T18:12:25.000+01:00",
+      "author": "simaopseixas",
+      "repository": "simaopseixas/alm-file-converter",
+      "commit_url": "https://github.com/simaopseixas/alm-file-converter/commit/77ed4f0bd844bf50b9132c10f444802d8933e4e0"
+    },
+    {
+      "commit_date": "2026-07-01T16:55:36.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/af2660e8857ed0ccdfe9af56a9d58325d891d43d"
+    },
+    {
+      "commit_date": "2026-07-01T15:57:12.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/8fe7f205a74b50e45585f1dd3af2c041364c678e"
+    },
+    {
+      "commit_date": "2026-07-01T14:20:24.000-07:00",
+      "author": "jonmarrs",
+      "repository": "jonmarrs/vesuvius-autoresearch",
+      "commit_url": "https://github.com/jonmarrs/vesuvius-autoresearch/commit/11cebdc07db2c87a76f9aff9b7bf59f936e3f04a"
+    },
+    {
+      "commit_date": "2026-07-01T14:03:25.000+02:00",
+      "author": "jo-mueller",
+      "repository": "ome/ome-zarr-py",
+      "commit_url": "https://github.com/ome/ome-zarr-py/commit/b8979ad7a192a85792bb1d83c4461f97236a611b"
+    },
+    {
+      "commit_date": "2026-07-01T14:01:07.000+02:00",
+      "author": "jo-mueller",
+      "repository": "ome/ome-zarr-py",
+      "commit_url": "https://github.com/ome/ome-zarr-py/commit/363316b52a1a916074922577a395507023ff9940"
+    },
+    {
+      "commit_date": "2026-07-01T12:49:05.000-04:00",
+      "author": "sameeul",
+      "repository": "PolusAI/nyxus",
+      "commit_url": "https://github.com/PolusAI/nyxus/commit/61e7709a440fd7e7192debe4908dd6b6e94fc1ab"
+    },
+    {
+      "commit_date": "2026-07-01T12:46:06.000-04:00",
+      "author": "sameeul",
+      "repository": "PolusAI/nyxus",
+      "commit_url": "https://github.com/PolusAI/nyxus/commit/225b9b917103f79dc8d27ff7ce4c2390c60db3ae"
+    },
+    {
+      "commit_date": "2026-07-01T10:53:14.000-06:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/c7dd33780d2f49303ddbea7a23e4e55d499024a2"
+    },
     {
       "commit_date": "2026-07-01T09:51:17.000+02:00",
       "author": "RAHoebe",
       "repository": "Cellular-Imaging-Amsterdam-UMC/cideconvolve",
       "commit_url": "https://github.com/Cellular-Imaging-Amsterdam-UMC/cideconvolve/commit/e6034da05f27e0434d6a31c8bf53e0da85dc87a5"
+    },
+    {
+      "commit_date": "2026-07-01T08:47:03.000-06:00",
+      "author": "dependabot[bot]",
+      "repository": "WayScience/ome-arrow",
+      "commit_url": "https://github.com/WayScience/ome-arrow/commit/89e3c0438427ba84c136dabd4c63f8f1cfb6252c"
+    },
+    {
+      "commit_date": "2026-07-01T07:04:08.000-07:00",
+      "author": "d33bs",
+      "repository": "xqlsystems/duckdb-zarr",
+      "commit_url": "https://github.com/xqlsystems/duckdb-zarr/commit/ae3298fa19a783a932fa2a4a749421a5c76a943e"
     },
     {
       "commit_date": "2026-07-01T06:54:33.000-03:00",
@@ -21,6 +219,12 @@
       "author": "CraigMyles",
       "repository": "CraigMyles/raw2features",
       "commit_url": "https://github.com/CraigMyles/raw2features/commit/0e69deb4e7c371a03f899e6b9038447f17e9c530"
+    },
+    {
+      "commit_date": "2026-06-30T23:22:34.000-05:00",
+      "author": "bscott",
+      "repository": "bscott711/bioimaging",
+      "commit_url": "https://github.com/bscott711/bioimaging/commit/b3da7466b8d58c997cd2f296bbfa6f8e9037adfe"
     },
     {
       "commit_date": "2026-06-30T21:08:37.000+02:00",
