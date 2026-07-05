@@ -1,9 +1,21 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-04T02:01:34+00:00",
+  "generated": "2026-07-05T02:01:57+00:00",
   "recent_days": 10,
-  "total_commits": 1192,
+  "total_commits": 1194,
   "commits": [
+    {
+      "commit_date": "2026-07-04T18:23:32.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/7c460ba9341b474298e5509b1ac735b359c97c61"
+    },
+    {
+      "commit_date": "2026-07-04T18:20:15.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/da0908a3136b5bc8945ff8463db3438b51a9cde7"
+    },
     {
       "commit_date": "2026-07-03T17:37:14.000+01:00",
       "author": "will-moore",
