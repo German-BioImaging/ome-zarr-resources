@@ -1,14 +1,56 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-03T12:18:04+00:00",
+  "generated": "2026-07-06T02:02:02+00:00",
   "recent_days": 10,
-  "total_commits": 1188,
+  "total_commits": 1195,
   "commits": [
+    {
+      "commit_date": "2026-07-05T13:47:53.000-04:00",
+      "author": "pkharchenko",
+      "repository": "kharchenkolab/libzarr",
+      "commit_url": "https://github.com/kharchenkolab/libzarr/commit/a3900d81280c1084be49c520fed25927d3043b2c"
+    },
+    {
+      "commit_date": "2026-07-04T18:23:32.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/7c460ba9341b474298e5509b1ac735b359c97c61"
+    },
+    {
+      "commit_date": "2026-07-04T18:20:15.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/da0908a3136b5bc8945ff8463db3438b51a9cde7"
+    },
+    {
+      "commit_date": "2026-07-03T17:37:14.000+01:00",
+      "author": "will-moore",
+      "repository": "conda-forge/napari-ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/napari-ome-zarr-feedstock/commit/154433d5720f748ae261146cb72c136fa66700cf"
+    },
+    {
+      "commit_date": "2026-07-03T16:37:22.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/c4197c36260180235e906dd3836b1302dc761fe9"
+    },
     {
       "commit_date": "2026-07-03T15:52:07.000+10:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/e96549ed839f6c300b64b9d3a811f1820cbed7de"
+    },
+    {
+      "commit_date": "2026-07-03T12:00:41.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/6a2225061e2189e8ffd0ad51a4f0584e5d1d9bfb"
+    },
+    {
+      "commit_date": "2026-07-03T11:38:55.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/929ab67da3df9da149c7303e20772da2a6061ada"
     },
     {
       "commit_date": "2026-07-02T15:58:16.000-04:00",

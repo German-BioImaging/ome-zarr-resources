@@ -8,12 +8,143 @@
 # ///
 
 import os
+import sys
+import time
+import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Callable
 from yaml import load, dump, Loader
 import requests
 from tqdm import tqdm
+
+# Concurrency control for secondary rate limits
+# GitHub allows max 100 concurrent requests; we stay well below
+MAX_WORKERS = 4
+REQUEST_DELAY = 0.1  # seconds between requests per thread (avoid burst)
+_request_lock = threading.Lock()
+_last_request_time = 0.0
+
+
+def throttled_request(
+    session: requests.Session,
+    method: str,
+    url: str,
+    max_retries: int = 3,
+    **kwargs,
+) -> requests.Response:
+    """
+    Make a rate-limit-aware request with retry logic for secondary limits.
+    Implements exponential backoff on 403/429 responses.
+    """
+    global _last_request_time
+
+    for attempt in range(max_retries):
+        # Throttle requests to avoid secondary rate limits
+        with _request_lock:
+            now = time.time()
+            wait_time = REQUEST_DELAY - (now - _last_request_time)
+            if wait_time > 0:
+                time.sleep(wait_time)
+            _last_request_time = time.time()
+
+        resp = session.request(method, url, **kwargs)
+
+        # Check for secondary rate limit
+        if resp.status_code in (403, 429):
+            retry_after = resp.headers.get("Retry-After")
+            remaining = resp.headers.get("X-RateLimit-Remaining")
+
+            # Detect secondary rate limit (abuse detection)
+            is_secondary = False
+            try:
+                body = resp.json()
+                message = body.get("message", "").lower()
+                if "secondary" in message or "abuse" in message:
+                    is_secondary = True
+            except Exception:
+                pass
+
+            # Also secondary if we still have remaining primary quota
+            if remaining and int(remaining) > 0:
+                is_secondary = True
+
+            if is_secondary or retry_after:
+                if retry_after:
+                    wait = int(retry_after)
+                else:
+                    # Exponential backoff: 1s, 2s, 4s...
+                    wait = 2**attempt
+
+                print(
+                    f"[SECONDARY RATE LIMIT] {url} - "
+                    f"Retry-After: {retry_after or 'N/A'}, "
+                    f"attempt {attempt + 1}/{max_retries}, waiting {wait}s",
+                    file=sys.stderr,
+                )
+                print_rate_limit_info(resp, "secondary-limit")
+                time.sleep(wait)
+                continue
+
+        return resp
+
+    return resp  # Return last response after all retries exhausted
+
+
+def print_rate_limit_info(response: requests.Response, context: str = "") -> None:
+    """Print rate limit headers from a GitHub API response."""
+    # Primary rate limit headers
+    limit = response.headers.get("X-RateLimit-Limit", "?")
+    remaining = response.headers.get("X-RateLimit-Remaining", "?")
+    used = response.headers.get("X-RateLimit-Used", "?")
+    reset = response.headers.get("X-RateLimit-Reset", "?")
+    resource = response.headers.get("X-RateLimit-Resource", "?")
+
+    # Secondary rate limit header
+    retry_after = response.headers.get("Retry-After")
+
+    reset_time = ""
+    if reset and reset != "?":
+        try:
+            reset_dt = datetime.utcfromtimestamp(int(reset))
+            reset_time = f" (resets at {reset_dt.isoformat()}Z)"
+        except (ValueError, OSError):
+            pass
+
+    prefix = f"[{context}] " if context else ""
+    msg = (
+        f"{prefix}Rate limit: {used}/{limit} used, {remaining} remaining, "
+        f"resource={resource}{reset_time}"
+    )
+    if retry_after:
+        msg += f", Retry-After: {retry_after}s"
+
+    print(msg, file=sys.stderr)
+
+
+def check_response(
+    response: requests.Response, context: str, print_on_success: bool = False
+) -> bool:
+    """
+    Check response status and print rate limit info.
+    Returns True if response is OK, False otherwise.
+    Always prints rate limit info on failure; optionally on success.
+    """
+    if not response.ok:
+        print(f"[{context}] HTTP {response.status_code}: {response.reason}", file=sys.stderr)
+        print_rate_limit_info(response, context)
+
+        # Print response body for rate limit errors (useful debugging info)
+        if response.status_code in (403, 429):
+            try:
+                body = response.json()
+                print(f"[{context}] Response: {body.get('message', body)}", file=sys.stderr)
+            except Exception:
+                pass
+        return False
+    if print_on_success:
+        print_rate_limit_info(response, context)
+    return True
 
 with open("dashboard.yml") as f:
     config = load(f, Loader=Loader)
@@ -70,20 +201,26 @@ def fetch_workflow_runs_status(
     Fetch the status of the latest workflow runs for the default branch.
     Returns one of: SUCCESS, FAILURE, PENDING, NO_WORKFLOWS, or None if unknown.
     """
+    ctx = f"{owner}/{repo}"
+
     # Get the default branch name
-    repo_resp = session.get(f"https://api.github.com/repos/{owner}/{repo}")
-    if not repo_resp.ok:
+    repo_resp = throttled_request(
+        session, "GET", f"https://api.github.com/repos/{owner}/{repo}"
+    )
+    if not check_response(repo_resp, f"{ctx} repo"):
         return None
 
     default_branch = repo_resp.json().get("default_branch")
 
     # Get active workflows
     active_workflow_ids = set()
-    active_workflows_resp = session.get(
+    active_workflows_resp = throttled_request(
+        session,
+        "GET",
         f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
         params={"per_page": 100},
     )
-    if not active_workflows_resp.ok:
+    if not check_response(active_workflows_resp, f"{ctx} workflows"):
         return None
 
     workflows = active_workflows_resp.json().get("workflows", [])
@@ -96,11 +233,13 @@ def fetch_workflow_runs_status(
     if not active_workflow_ids:
         return "NO_WORKFLOWS"
 
-    resp = session.get(
+    resp = throttled_request(
+        session,
+        "GET",
         f"https://api.github.com/repos/{owner}/{repo}/actions/runs",
         params={"branch": default_branch, "per_page": 50},
     )
-    if not resp.ok:
+    if not check_response(resp, f"{ctx} runs"):
         return None
 
     runs = resp.json().get("workflow_runs", [])
@@ -145,14 +284,17 @@ def fetch_last_commit_info(
     """
     Fetch latest default-branch commit and its merged checks/status rollup via GraphQL.
     """
-    resp = session.post(
+    ctx = f"{owner}/{repo}"
+    resp = throttled_request(
+        session,
+        "POST",
         "https://api.github.com/graphql",
         json={
             "query": STATUS_ROLLUP_QUERY,
             "variables": {"owner": owner, "name": repo},
         },
     )
-    if not resp.ok:
+    if not check_response(resp, f"{ctx} graphql"):
         return None
     repo_data = (resp.json().get("data") or {}).get("repository") or {}
     branch_ref = repo_data.get("defaultBranchRef") or {}
@@ -177,9 +319,15 @@ def fetch_repo_info(owner: str, repo: str, session: requests.Session) -> Optiona
     """
     Fetch repository metadata from the GitHub API.
     """
-    resp = session.get(f"https://api.github.com/repos/{owner}/{repo}")
+    ctx = f"{owner}/{repo}"
+    resp = throttled_request(
+        session, "GET", f"https://api.github.com/repos/{owner}/{repo}"
+    )
     if resp.status_code == 404:
-        return
+        print(f"[{ctx}] Repository not found (404)", file=sys.stderr)
+        return None
+    if not check_response(resp, f"{ctx} repo-info"):
+        return None
     info = resp.json()
     return {
         "created_at": info.get("created_at"),
@@ -198,10 +346,16 @@ def fetch_last_release_info(
     """
     Fetch latest release from the GitHub API.
     """
-    releases_resp = session.get(
-        f"https://api.github.com/repos/{owner}/{repo}/releases", params={"per_page": 1}
+    ctx = f"{owner}/{repo}"
+    releases_resp = throttled_request(
+        session,
+        "GET",
+        f"https://api.github.com/repos/{owner}/{repo}/releases",
+        params={"per_page": 1},
     )
     if releases_resp.status_code == 404:
+        return None
+    if not check_response(releases_resp, f"{ctx} releases"):
         return None
 
     releases = releases_resp.json()
@@ -223,16 +377,23 @@ def fetch_disabled_inactive_workflows(
     """
     Return names/paths for workflows auto-disabled due to inactivity.
     """
+    ctx = f"{owner}/{repo}"
     page = 1
     disabled: List[str] = []
     while True:
-        resp = session.get(
+        resp = throttled_request(
+            session,
+            "GET",
             f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
             params={"per_page": 100, "page": page},
         )
         if resp.status_code in (403, 404):
+            if resp.status_code == 403:
+                print(f"[{ctx}] Forbidden fetching workflows", file=sys.stderr)
+                print_rate_limit_info(resp, f"{ctx} disabled-workflows")
             break
         if not resp.ok:
+            check_response(resp, f"{ctx} disabled-workflows")
             break
         data = resp.json() or {}
         workflows = data.get("workflows") or []
@@ -292,11 +453,42 @@ all_packages: List[dict] = []
 for section in config:
     all_packages.extend(section["packages"])
 
-with ThreadPoolExecutor(max_workers=4) as executor:
+print(f"Processing {len(all_packages)} packages with {MAX_WORKERS} workers...", file=sys.stderr)
+print(f"Request throttling: {REQUEST_DELAY}s minimum between requests", file=sys.stderr)
+
+with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
     futures = [executor.submit(process_package, package) for package in all_packages]
     for future in tqdm(as_completed(futures), total=len(futures)):
         # re-raise any worker exceptions
         future.result()
+
+# Print final rate limit status (covers both primary and some secondary info)
+print("\n=== Final Rate Limit Check ===", file=sys.stderr)
+final_resp = throttled_request(session, "GET", "https://api.github.com/rate_limit")
+if final_resp.ok:
+    rate_data = final_resp.json()
+    for resource_name, resource_info in rate_data.get("resources", {}).items():
+        limit = resource_info.get("limit", "?")
+        used = resource_info.get("used", "?")
+        remaining = resource_info.get("remaining", "?")
+        reset = resource_info.get("reset", 0)
+        reset_time = datetime.utcfromtimestamp(reset).isoformat() + "Z" if reset else "?"
+        print(
+            f"  {resource_name}: {used}/{limit} used, {remaining} remaining, resets {reset_time}",
+            file=sys.stderr,
+        )
+    # Note about secondary limits
+    print(
+        "\nNote: Secondary rate limits (abuse detection) are not queryable via API.",
+        file=sys.stderr,
+    )
+    print(
+        "If you see 403/429 with 'Retry-After' header above, you hit a secondary limit.",
+        file=sys.stderr,
+    )
+else:
+    print(f"Failed to fetch rate limit: HTTP {final_resp.status_code}", file=sys.stderr)
+    print_rate_limit_info(final_resp, "rate_limit")
 
 snapshot = {
     "generated_at": datetime.utcnow().isoformat() + "Z",
@@ -305,3 +497,5 @@ snapshot = {
 
 with open("generated.yml", "w") as generated_output:
     dump(snapshot, generated_output)
+
+print(f"\nWrote generated.yml with {len(all_packages)} packages.", file=sys.stderr)
