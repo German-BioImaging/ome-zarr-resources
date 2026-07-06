@@ -6,7 +6,7 @@ on:
       - master
   workflow_dispatch:
   schedule:
-    - cron: "0 4 * * *" # daily at 06:00 UTC
+    - cron: "0 4 * * 1" # daily at 06:00 UTC
 
 permissions:
   contents: write
