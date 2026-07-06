@@ -1,9 +1,15 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-05T02:01:57+00:00",
+  "generated": "2026-07-06T02:02:02+00:00",
   "recent_days": 10,
-  "total_commits": 1194,
+  "total_commits": 1195,
   "commits": [
+    {
+      "commit_date": "2026-07-05T13:47:53.000-04:00",
+      "author": "pkharchenko",
+      "repository": "kharchenkolab/libzarr",
+      "commit_url": "https://github.com/kharchenkolab/libzarr/commit/a3900d81280c1084be49c520fed25927d3043b2c"
+    },
     {
       "commit_date": "2026-07-04T18:23:32.000+10:00",
       "author": "schienstockd",
