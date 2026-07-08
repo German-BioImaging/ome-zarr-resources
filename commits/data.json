@@ -1,14 +1,80 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-07T02:01:57+00:00",
+  "generated": "2026-07-08T02:01:14+00:00",
   "recent_days": 10,
-  "total_commits": 1201,
+  "total_commits": 1213,
   "commits": [
+    {
+      "commit_date": "2026-07-07T20:06:05.000+02:00",
+      "author": "rensutheart",
+      "repository": "rensutheart/napari-vipp",
+      "commit_url": "https://github.com/rensutheart/napari-vipp/commit/a39ec4a8bed8efee1da83e6b1bc40a0431f36a06"
+    },
+    {
+      "commit_date": "2026-07-07T14:23:23.000+10:00",
+      "author": "bhuvad",
+      "repository": "BhuvaLab/bgnormR",
+      "commit_url": "https://github.com/BhuvaLab/bgnormR/commit/6135dca032394077a1b07b0821419f5c321ff221"
+    },
+    {
+      "commit_date": "2026-07-07T14:11:00.000+02:00",
+      "author": "ngff-zarr",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/54eaed4d2e4b23de93f68a3c15723fc14893244e"
+    },
+    {
+      "commit_date": "2026-07-07T13:24:45.000-07:00",
+      "author": "mhough",
+      "repository": "m9h/bsccm-jax",
+      "commit_url": "https://github.com/m9h/bsccm-jax/commit/24e323980873ff32e73d1a258f332e0d4446119b"
+    },
+    {
+      "commit_date": "2026-07-07T12:42:20.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/6bbb5435dd13cf056d93cc27e156f042c50303d5"
+    },
+    {
+      "commit_date": "2026-07-07T12:30:11.000-07:00",
+      "author": "waltermwaniki",
+      "repository": "AllenNeuralDynamics/voxel",
+      "commit_url": "https://github.com/AllenNeuralDynamics/voxel/commit/517a3616985ceecf137e96114fc693ffc5cf94ff"
+    },
+    {
+      "commit_date": "2026-07-07T11:56:49.000Z",
+      "author": "GaetanLepage",
+      "repository": "NixOS/nixpkgs",
+      "commit_url": "https://github.com/NixOS/nixpkgs/commit/d825df355fed4b67ca65b19935f28cc106e9e4af"
+    },
+    {
+      "commit_date": "2026-07-07T01:46:04.000-04:00",
+      "author": "hongquanli",
+      "repository": "hongquanli/record-zstack-viewer",
+      "commit_url": "https://github.com/hongquanli/record-zstack-viewer/commit/483aa45abfca7f0698bf013bc6fb304731cc47e8"
+    },
+    {
+      "commit_date": "2026-07-07T00:12:09.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/1cf73cf95dffb66ebe8522bfade15e8b2649dc2a"
+    },
+    {
+      "commit_date": "2026-07-06T17:12:04.000-04:00",
+      "author": "hongquanli",
+      "repository": "hongquanli/record-zstack-viewer",
+      "commit_url": "https://github.com/hongquanli/record-zstack-viewer/commit/6db7fe751848197ce919acdf8e0f74ae907cd390"
+    },
     {
       "commit_date": "2026-07-06T16:23:25.000+03:00",
       "author": "Uutotora",
       "repository": "Uutotora/cellseg1",
       "commit_url": "https://github.com/Uutotora/cellseg1/commit/218c85a4e9da56d182ddd80d09bc7e2694a59efe"
+    },
+    {
+      "commit_date": "2026-07-06T15:54:23.000+02:00",
+      "author": "RAHoebe",
+      "repository": "Cellular-Imaging-Amsterdam-UMC/cideconvolve",
+      "commit_url": "https://github.com/Cellular-Imaging-Amsterdam-UMC/cideconvolve/commit/1d7a4620337a7c82c6300ecf399ba9421ab8eeb8"
     },
     {
       "commit_date": "2026-07-06T14:25:56.000-07:00",
@@ -39,6 +105,12 @@
       "author": "amilworks",
       "repository": "amilworks/ultra",
       "commit_url": "https://github.com/amilworks/ultra/commit/59e28280f8bbc20b188863f2568807e36865d511"
+    },
+    {
+      "commit_date": "2026-07-06T00:51:30.000-04:00",
+      "author": "hongquanli",
+      "repository": "hongquanli/record-zstack-viewer",
+      "commit_url": "https://github.com/hongquanli/record-zstack-viewer/commit/f8a2a577daa35c406be0a12da54c3981d4d95c9a"
     },
     {
       "commit_date": "2026-07-05T13:47:53.000-04:00",
