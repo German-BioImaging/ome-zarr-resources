@@ -1,9 +1,63 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-08T02:01:14+00:00",
+  "generated": "2026-07-09T02:01:49+00:00",
   "recent_days": 10,
-  "total_commits": 1213,
+  "total_commits": 1224,
   "commits": [
+    {
+      "commit_date": "2026-07-09T00:56:15.000Z",
+      "author": "claude",
+      "repository": "FELIPEACASTRO/AIForge",
+      "commit_url": "https://github.com/FELIPEACASTRO/AIForge/commit/63124b5704c12bce2be208709c351bfb608cdfe0"
+    },
+    {
+      "commit_date": "2026-07-09T00:36:37.000Z",
+      "author": "claude",
+      "repository": "FELIPEACASTRO/AIForge",
+      "commit_url": "https://github.com/FELIPEACASTRO/AIForge/commit/f2321d9a381be25ee362891aed5b0451132e8b4c"
+    },
+    {
+      "commit_date": "2026-07-08T16:35:25.000-03:00",
+      "author": "lubianat",
+      "repository": "lubianat/oz_view",
+      "commit_url": "https://github.com/lubianat/oz_view/commit/36a93f6fef958ef849807c8b30cdeebcae1d8e4b"
+    },
+    {
+      "commit_date": "2026-07-08T13:58:45.000-05:00",
+      "author": "VerditeLabs",
+      "repository": "SuperOptimizer/3ddct",
+      "commit_url": "https://github.com/SuperOptimizer/3ddct/commit/849c03905fbdc1bcf820199ef54b01495d93a071"
+    },
+    {
+      "commit_date": "2026-07-08T12:49:38.000-07:00",
+      "author": "BrianWhitneyAI",
+      "repository": "bioio-devs/bioio-conversion",
+      "commit_url": "https://github.com/bioio-devs/bioio-conversion/commit/71b16a6f965778304a4d8e61a1923bac268d176c"
+    },
+    {
+      "commit_date": "2026-07-08T12:27:53.000+02:00",
+      "author": "m-albert",
+      "repository": "multiview-stitcher/multiview-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/9ef6c54f89ee7f7125a8a1adac72a640471d4a9f"
+    },
+    {
+      "commit_date": "2026-07-08T12:25:59.000-05:00",
+      "author": "theoreticalcereal",
+      "repository": "theoreticalcereal/deconvolution-gpu",
+      "commit_url": "https://github.com/theoreticalcereal/deconvolution-gpu/commit/363b7d518a16b86b3f433991f82e2666a7734b36"
+    },
+    {
+      "commit_date": "2026-07-08T10:56:16.000+02:00",
+      "author": "m-albert",
+      "repository": "multiview-stitcher/multiview-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/18230c1632552af99b07a43210c6da9e138b6bb2"
+    },
+    {
+      "commit_date": "2026-07-07T21:33:47.000-07:00",
+      "author": "mhough",
+      "repository": "m9h/bsccm-jax",
+      "commit_url": "https://github.com/m9h/bsccm-jax/commit/a145b9b904a1cb2a0741fc3d3abd2de8537af51a"
+    },
     {
       "commit_date": "2026-07-07T20:06:05.000+02:00",
       "author": "rensutheart",
@@ -41,10 +95,22 @@
       "commit_url": "https://github.com/AllenNeuralDynamics/voxel/commit/517a3616985ceecf137e96114fc693ffc5cf94ff"
     },
     {
+      "commit_date": "2026-07-07T12:16:13.000-05:00",
+      "author": "theoreticalcereal",
+      "repository": "theoreticalcereal/deskew-gpu",
+      "commit_url": "https://github.com/theoreticalcereal/deskew-gpu/commit/e3f77e94bd096ed372f087b614f271c48ea459e1"
+    },
+    {
       "commit_date": "2026-07-07T11:56:49.000Z",
       "author": "GaetanLepage",
       "repository": "NixOS/nixpkgs",
       "commit_url": "https://github.com/NixOS/nixpkgs/commit/d825df355fed4b67ca65b19935f28cc106e9e4af"
+    },
+    {
+      "commit_date": "2026-07-07T10:39:42.000-05:00",
+      "author": "theoreticalcereal",
+      "repository": "theoreticalcereal/neuroglancer",
+      "commit_url": "https://github.com/theoreticalcereal/neuroglancer/commit/b8a98ec0a84dff9e5411d7584f0d60f0d1d78370"
     },
     {
       "commit_date": "2026-07-07T01:46:04.000-04:00",
