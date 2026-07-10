@@ -1,9 +1,57 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-09T02:01:49+00:00",
+  "generated": "2026-07-10T02:01:39+00:00",
   "recent_days": 10,
-  "total_commits": 1224,
+  "total_commits": 1232,
   "commits": [
+    {
+      "commit_date": "2026-07-09T17:09:19.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/a552ca58a26146ffbe206ce66115528a98e9e7e8"
+    },
+    {
+      "commit_date": "2026-07-09T17:08:16.000-07:00",
+      "author": "mhough",
+      "repository": "m9h/bsccm-jax",
+      "commit_url": "https://github.com/m9h/bsccm-jax/commit/94a26f49bd02f3957e55ff731240170161ac3fbd"
+    },
+    {
+      "commit_date": "2026-07-09T16:44:50.000+02:00",
+      "author": "assadiab",
+      "repository": "assadiab/Interactive-Zarr-Explorer",
+      "commit_url": "https://github.com/assadiab/Interactive-Zarr-Explorer/commit/52cf75d0d0eb45e6a31c0ffe6b4e9cd3e9b820ad"
+    },
+    {
+      "commit_date": "2026-07-09T14:00:33.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/c25d84d1519c363b0b550397e6fb90e9800b268f"
+    },
+    {
+      "commit_date": "2026-07-09T12:06:56.000+02:00",
+      "author": "Tomatokeftes",
+      "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
+      "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/0210b0ed55199b81b7947e8313e48d82da933492"
+    },
+    {
+      "commit_date": "2026-07-09T06:48:05.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/dbb29691ad18ed22e96bbe2d703a3aa803a46e88"
+    },
+    {
+      "commit_date": "2026-07-09T06:47:52.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/00edc96d85997e986b3dfda8eab610b2da32b265"
+    },
+    {
+      "commit_date": "2026-07-09T06:47:41.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/3811591695d9de45ff96dbdd49f392206cd6ea7b"
+    },
     {
       "commit_date": "2026-07-09T00:56:15.000Z",
       "author": "claude",
