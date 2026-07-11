@@ -1,9 +1,21 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-10T02:01:39+00:00",
+  "generated": "2026-07-11T02:01:11+00:00",
   "recent_days": 10,
-  "total_commits": 1232,
+  "total_commits": 1238,
   "commits": [
+    {
+      "commit_date": "2026-07-10T14:10:00.000+02:00",
+      "author": "imagejan",
+      "repository": "conda-forge/bioio-conversion-feedstock",
+      "commit_url": "https://github.com/conda-forge/bioio-conversion-feedstock/commit/689d8dadf1937eee399d7b65d5f49f7efeb1e1dd"
+    },
+    {
+      "commit_date": "2026-07-10T03:30:16.000-07:00",
+      "author": "waltermwaniki",
+      "repository": "AllenNeuralDynamics/voxel",
+      "commit_url": "https://github.com/AllenNeuralDynamics/voxel/commit/51a019324d49ac3270c14ab1beb06f458985a65f"
+    },
     {
       "commit_date": "2026-07-09T17:09:19.000-04:00",
       "author": "maragall",
@@ -21,6 +33,12 @@
       "author": "assadiab",
       "repository": "assadiab/Interactive-Zarr-Explorer",
       "commit_url": "https://github.com/assadiab/Interactive-Zarr-Explorer/commit/52cf75d0d0eb45e6a31c0ffe6b4e9cd3e9b820ad"
+    },
+    {
+      "commit_date": "2026-07-09T16:10:37.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope",
+      "commit_url": "https://github.com/mapmanager/cloudscope/commit/c379da278995c25a1d8c1346bf859f7c00898d78"
     },
     {
       "commit_date": "2026-07-09T14:00:33.000-04:00",
@@ -53,6 +71,12 @@
       "commit_url": "https://github.com/maragall/SquidMIP/commit/3811591695d9de45ff96dbdd49f392206cd6ea7b"
     },
     {
+      "commit_date": "2026-07-09T02:16:54.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope",
+      "commit_url": "https://github.com/mapmanager/cloudscope/commit/819213b0b820ae1d20b203ab4d00e67b04dc0b22"
+    },
+    {
       "commit_date": "2026-07-09T00:56:15.000Z",
       "author": "claude",
       "repository": "FELIPEACASTRO/AIForge",
@@ -63,6 +87,18 @@
       "author": "claude",
       "repository": "FELIPEACASTRO/AIForge",
       "commit_url": "https://github.com/FELIPEACASTRO/AIForge/commit/f2321d9a381be25ee362891aed5b0451132e8b4c"
+    },
+    {
+      "commit_date": "2026-07-08T22:11:03.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope",
+      "commit_url": "https://github.com/mapmanager/cloudscope/commit/07e4b402d17a3a8e3b32b2247d723ae3239c6ee1"
+    },
+    {
+      "commit_date": "2026-07-08T21:26:35.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope",
+      "commit_url": "https://github.com/mapmanager/cloudscope/commit/a25afd1b998355b0c7ed6cf78b0c9f3fcd4cbf25"
     },
     {
       "commit_date": "2026-07-08T16:35:25.000-03:00",
