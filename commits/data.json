@@ -1,9 +1,15 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-11T02:01:11+00:00",
+  "generated": "2026-07-12T02:01:25+00:00",
   "recent_days": 10,
-  "total_commits": 1238,
+  "total_commits": 1239,
   "commits": [
+    {
+      "commit_date": "2026-07-11T12:55:15.000-05:00",
+      "author": "TimMonko",
+      "repository": "napari/napari",
+      "commit_url": "https://github.com/napari/napari/commit/55d3e7b01e053d87ddfd93d0d281f740d3f80e63"
+    },
     {
       "commit_date": "2026-07-10T14:10:00.000+02:00",
       "author": "imagejan",
