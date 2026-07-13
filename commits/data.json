@@ -1,9 +1,33 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-12T02:01:25+00:00",
+  "generated": "2026-07-13T02:01:22+00:00",
   "recent_days": 10,
-  "total_commits": 1239,
+  "total_commits": 1243,
   "commits": [
+    {
+      "commit_date": "2026-07-12T13:15:28.000+01:00",
+      "author": "xinaesthete",
+      "repository": "xinaesthete/tgpu-htj2k",
+      "commit_url": "https://github.com/xinaesthete/tgpu-htj2k/commit/d61b4b089438873e3a967831c4b49624bdf133a7"
+    },
+    {
+      "commit_date": "2026-07-12T12:53:15.000+02:00",
+      "author": "MPanknin",
+      "repository": "MPanknin/kiln-render",
+      "commit_url": "https://github.com/MPanknin/kiln-render/commit/28a43ff9ad98f161dfdf5d3d9073f416124571ac"
+    },
+    {
+      "commit_date": "2026-07-12T12:22:24.000+01:00",
+      "author": "xinaesthete",
+      "repository": "xinaesthete/tgpu-htj2k",
+      "commit_url": "https://github.com/xinaesthete/tgpu-htj2k/commit/577d40507240a7149f2d7bb644b9b7ce5014645c"
+    },
+    {
+      "commit_date": "2026-07-12T09:58:43.000-03:00",
+      "author": "josedacostafilho",
+      "repository": "kirchhausenlab/mirante4d",
+      "commit_url": "https://github.com/kirchhausenlab/mirante4d/commit/65af72c64a93d5d6a7e485564c7f6699f52a192e"
+    },
     {
       "commit_date": "2026-07-11T12:55:15.000-05:00",
       "author": "TimMonko",
