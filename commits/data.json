@@ -1,9 +1,297 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-06T02:02:02+00:00",
+  "generated": "2026-07-13T02:01:22+00:00",
   "recent_days": 10,
-  "total_commits": 1195,
+  "total_commits": 1243,
   "commits": [
+    {
+      "commit_date": "2026-07-12T13:15:28.000+01:00",
+      "author": "xinaesthete",
+      "repository": "xinaesthete/tgpu-htj2k",
+      "commit_url": "https://github.com/xinaesthete/tgpu-htj2k/commit/d61b4b089438873e3a967831c4b49624bdf133a7"
+    },
+    {
+      "commit_date": "2026-07-12T12:53:15.000+02:00",
+      "author": "MPanknin",
+      "repository": "MPanknin/kiln-render",
+      "commit_url": "https://github.com/MPanknin/kiln-render/commit/28a43ff9ad98f161dfdf5d3d9073f416124571ac"
+    },
+    {
+      "commit_date": "2026-07-12T12:22:24.000+01:00",
+      "author": "xinaesthete",
+      "repository": "xinaesthete/tgpu-htj2k",
+      "commit_url": "https://github.com/xinaesthete/tgpu-htj2k/commit/577d40507240a7149f2d7bb644b9b7ce5014645c"
+    },
+    {
+      "commit_date": "2026-07-12T09:58:43.000-03:00",
+      "author": "josedacostafilho",
+      "repository": "kirchhausenlab/mirante4d",
+      "commit_url": "https://github.com/kirchhausenlab/mirante4d/commit/65af72c64a93d5d6a7e485564c7f6699f52a192e"
+    },
+    {
+      "commit_date": "2026-07-11T12:55:15.000-05:00",
+      "author": "TimMonko",
+      "repository": "napari/napari",
+      "commit_url": "https://github.com/napari/napari/commit/55d3e7b01e053d87ddfd93d0d281f740d3f80e63"
+    },
+    {
+      "commit_date": "2026-07-10T14:10:00.000+02:00",
+      "author": "imagejan",
+      "repository": "conda-forge/bioio-conversion-feedstock",
+      "commit_url": "https://github.com/conda-forge/bioio-conversion-feedstock/commit/689d8dadf1937eee399d7b65d5f49f7efeb1e1dd"
+    },
+    {
+      "commit_date": "2026-07-10T03:30:16.000-07:00",
+      "author": "waltermwaniki",
+      "repository": "AllenNeuralDynamics/voxel",
+      "commit_url": "https://github.com/AllenNeuralDynamics/voxel/commit/51a019324d49ac3270c14ab1beb06f458985a65f"
+    },
+    {
+      "commit_date": "2026-07-09T17:09:19.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/a552ca58a26146ffbe206ce66115528a98e9e7e8"
+    },
+    {
+      "commit_date": "2026-07-09T17:08:16.000-07:00",
+      "author": "mhough",
+      "repository": "m9h/bsccm-jax",
+      "commit_url": "https://github.com/m9h/bsccm-jax/commit/94a26f49bd02f3957e55ff731240170161ac3fbd"
+    },
+    {
+      "commit_date": "2026-07-09T16:44:50.000+02:00",
+      "author": "assadiab",
+      "repository": "assadiab/Interactive-Zarr-Explorer",
+      "commit_url": "https://github.com/assadiab/Interactive-Zarr-Explorer/commit/52cf75d0d0eb45e6a31c0ffe6b4e9cd3e9b820ad"
+    },
+    {
+      "commit_date": "2026-07-09T16:10:37.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope",
+      "commit_url": "https://github.com/mapmanager/cloudscope/commit/c379da278995c25a1d8c1346bf859f7c00898d78"
+    },
+    {
+      "commit_date": "2026-07-09T14:00:33.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/c25d84d1519c363b0b550397e6fb90e9800b268f"
+    },
+    {
+      "commit_date": "2026-07-09T12:06:56.000+02:00",
+      "author": "Tomatokeftes",
+      "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
+      "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/0210b0ed55199b81b7947e8313e48d82da933492"
+    },
+    {
+      "commit_date": "2026-07-09T06:48:05.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/dbb29691ad18ed22e96bbe2d703a3aa803a46e88"
+    },
+    {
+      "commit_date": "2026-07-09T06:47:52.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/00edc96d85997e986b3dfda8eab610b2da32b265"
+    },
+    {
+      "commit_date": "2026-07-09T06:47:41.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/3811591695d9de45ff96dbdd49f392206cd6ea7b"
+    },
+    {
+      "commit_date": "2026-07-09T02:16:54.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope",
+      "commit_url": "https://github.com/mapmanager/cloudscope/commit/819213b0b820ae1d20b203ab4d00e67b04dc0b22"
+    },
+    {
+      "commit_date": "2026-07-09T00:56:15.000Z",
+      "author": "claude",
+      "repository": "FELIPEACASTRO/AIForge",
+      "commit_url": "https://github.com/FELIPEACASTRO/AIForge/commit/63124b5704c12bce2be208709c351bfb608cdfe0"
+    },
+    {
+      "commit_date": "2026-07-09T00:36:37.000Z",
+      "author": "claude",
+      "repository": "FELIPEACASTRO/AIForge",
+      "commit_url": "https://github.com/FELIPEACASTRO/AIForge/commit/f2321d9a381be25ee362891aed5b0451132e8b4c"
+    },
+    {
+      "commit_date": "2026-07-08T22:11:03.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope",
+      "commit_url": "https://github.com/mapmanager/cloudscope/commit/07e4b402d17a3a8e3b32b2247d723ae3239c6ee1"
+    },
+    {
+      "commit_date": "2026-07-08T21:26:35.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope",
+      "commit_url": "https://github.com/mapmanager/cloudscope/commit/a25afd1b998355b0c7ed6cf78b0c9f3fcd4cbf25"
+    },
+    {
+      "commit_date": "2026-07-08T16:35:25.000-03:00",
+      "author": "lubianat",
+      "repository": "lubianat/oz_view",
+      "commit_url": "https://github.com/lubianat/oz_view/commit/36a93f6fef958ef849807c8b30cdeebcae1d8e4b"
+    },
+    {
+      "commit_date": "2026-07-08T13:58:45.000-05:00",
+      "author": "VerditeLabs",
+      "repository": "SuperOptimizer/3ddct",
+      "commit_url": "https://github.com/SuperOptimizer/3ddct/commit/849c03905fbdc1bcf820199ef54b01495d93a071"
+    },
+    {
+      "commit_date": "2026-07-08T12:49:38.000-07:00",
+      "author": "BrianWhitneyAI",
+      "repository": "bioio-devs/bioio-conversion",
+      "commit_url": "https://github.com/bioio-devs/bioio-conversion/commit/71b16a6f965778304a4d8e61a1923bac268d176c"
+    },
+    {
+      "commit_date": "2026-07-08T12:27:53.000+02:00",
+      "author": "m-albert",
+      "repository": "multiview-stitcher/multiview-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/9ef6c54f89ee7f7125a8a1adac72a640471d4a9f"
+    },
+    {
+      "commit_date": "2026-07-08T12:25:59.000-05:00",
+      "author": "theoreticalcereal",
+      "repository": "theoreticalcereal/deconvolution-gpu",
+      "commit_url": "https://github.com/theoreticalcereal/deconvolution-gpu/commit/363b7d518a16b86b3f433991f82e2666a7734b36"
+    },
+    {
+      "commit_date": "2026-07-08T10:56:16.000+02:00",
+      "author": "m-albert",
+      "repository": "multiview-stitcher/multiview-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/18230c1632552af99b07a43210c6da9e138b6bb2"
+    },
+    {
+      "commit_date": "2026-07-07T21:33:47.000-07:00",
+      "author": "mhough",
+      "repository": "m9h/bsccm-jax",
+      "commit_url": "https://github.com/m9h/bsccm-jax/commit/a145b9b904a1cb2a0741fc3d3abd2de8537af51a"
+    },
+    {
+      "commit_date": "2026-07-07T20:06:05.000+02:00",
+      "author": "rensutheart",
+      "repository": "rensutheart/napari-vipp",
+      "commit_url": "https://github.com/rensutheart/napari-vipp/commit/a39ec4a8bed8efee1da83e6b1bc40a0431f36a06"
+    },
+    {
+      "commit_date": "2026-07-07T14:23:23.000+10:00",
+      "author": "bhuvad",
+      "repository": "BhuvaLab/bgnormR",
+      "commit_url": "https://github.com/BhuvaLab/bgnormR/commit/6135dca032394077a1b07b0821419f5c321ff221"
+    },
+    {
+      "commit_date": "2026-07-07T14:11:00.000+02:00",
+      "author": "ngff-zarr",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/54eaed4d2e4b23de93f68a3c15723fc14893244e"
+    },
+    {
+      "commit_date": "2026-07-07T13:24:45.000-07:00",
+      "author": "mhough",
+      "repository": "m9h/bsccm-jax",
+      "commit_url": "https://github.com/m9h/bsccm-jax/commit/24e323980873ff32e73d1a258f332e0d4446119b"
+    },
+    {
+      "commit_date": "2026-07-07T12:42:20.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/6bbb5435dd13cf056d93cc27e156f042c50303d5"
+    },
+    {
+      "commit_date": "2026-07-07T12:30:11.000-07:00",
+      "author": "waltermwaniki",
+      "repository": "AllenNeuralDynamics/voxel",
+      "commit_url": "https://github.com/AllenNeuralDynamics/voxel/commit/517a3616985ceecf137e96114fc693ffc5cf94ff"
+    },
+    {
+      "commit_date": "2026-07-07T12:16:13.000-05:00",
+      "author": "theoreticalcereal",
+      "repository": "theoreticalcereal/deskew-gpu",
+      "commit_url": "https://github.com/theoreticalcereal/deskew-gpu/commit/e3f77e94bd096ed372f087b614f271c48ea459e1"
+    },
+    {
+      "commit_date": "2026-07-07T11:56:49.000Z",
+      "author": "GaetanLepage",
+      "repository": "NixOS/nixpkgs",
+      "commit_url": "https://github.com/NixOS/nixpkgs/commit/d825df355fed4b67ca65b19935f28cc106e9e4af"
+    },
+    {
+      "commit_date": "2026-07-07T10:39:42.000-05:00",
+      "author": "theoreticalcereal",
+      "repository": "theoreticalcereal/neuroglancer",
+      "commit_url": "https://github.com/theoreticalcereal/neuroglancer/commit/b8a98ec0a84dff9e5411d7584f0d60f0d1d78370"
+    },
+    {
+      "commit_date": "2026-07-07T01:46:04.000-04:00",
+      "author": "hongquanli",
+      "repository": "hongquanli/record-zstack-viewer",
+      "commit_url": "https://github.com/hongquanli/record-zstack-viewer/commit/483aa45abfca7f0698bf013bc6fb304731cc47e8"
+    },
+    {
+      "commit_date": "2026-07-07T00:12:09.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/1cf73cf95dffb66ebe8522bfade15e8b2649dc2a"
+    },
+    {
+      "commit_date": "2026-07-06T17:12:04.000-04:00",
+      "author": "hongquanli",
+      "repository": "hongquanli/record-zstack-viewer",
+      "commit_url": "https://github.com/hongquanli/record-zstack-viewer/commit/6db7fe751848197ce919acdf8e0f74ae907cd390"
+    },
+    {
+      "commit_date": "2026-07-06T16:23:25.000+03:00",
+      "author": "Uutotora",
+      "repository": "Uutotora/cellseg1",
+      "commit_url": "https://github.com/Uutotora/cellseg1/commit/218c85a4e9da56d182ddd80d09bc7e2694a59efe"
+    },
+    {
+      "commit_date": "2026-07-06T15:54:23.000+02:00",
+      "author": "RAHoebe",
+      "repository": "Cellular-Imaging-Amsterdam-UMC/cideconvolve",
+      "commit_url": "https://github.com/Cellular-Imaging-Amsterdam-UMC/cideconvolve/commit/1d7a4620337a7c82c6300ecf399ba9421ab8eeb8"
+    },
+    {
+      "commit_date": "2026-07-06T14:25:56.000-07:00",
+      "author": "aelefebv",
+      "repository": "aelefebv/lucida",
+      "commit_url": "https://github.com/aelefebv/lucida/commit/82308519f18076d6e39aaadbc92dc907bd3c89a1"
+    },
+    {
+      "commit_date": "2026-07-06T14:03:44.000-07:00",
+      "author": "amilworks",
+      "repository": "amilworks/ultra",
+      "commit_url": "https://github.com/amilworks/ultra/commit/e43757351700c6d28dbd06b4114142851f014d47"
+    },
+    {
+      "commit_date": "2026-07-06T12:56:34.000-07:00",
+      "author": "tylere",
+      "repository": "source-cooperative/zarr-viewer",
+      "commit_url": "https://github.com/source-cooperative/zarr-viewer/commit/cf837180ac09541023e8da31caf72f77a763c8ce"
+    },
+    {
+      "commit_date": "2026-07-06T12:06:16.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/fbad0e6fd170a460c5dda2d628baa614ed34a493"
+    },
+    {
+      "commit_date": "2026-07-06T01:40:52.000-07:00",
+      "author": "amilworks",
+      "repository": "amilworks/ultra",
+      "commit_url": "https://github.com/amilworks/ultra/commit/59e28280f8bbc20b188863f2568807e36865d511"
+    },
+    {
+      "commit_date": "2026-07-06T00:51:30.000-04:00",
+      "author": "hongquanli",
+      "repository": "hongquanli/record-zstack-viewer",
+      "commit_url": "https://github.com/hongquanli/record-zstack-viewer/commit/f8a2a577daa35c406be0a12da54c3981d4d95c9a"
+    },
     {
       "commit_date": "2026-07-05T13:47:53.000-04:00",
       "author": "pkharchenko",
