@@ -1,9 +1,27 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-14T02:01:04+00:00",
+  "generated": "2026-07-15T02:00:41+00:00",
   "recent_days": 10,
-  "total_commits": 1249,
+  "total_commits": 1253,
   "commits": [
+    {
+      "commit_date": "2026-07-14T15:12:01.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/d7e3496b621c2887e618e32dcdf412aee6907c18"
+    },
+    {
+      "commit_date": "2026-07-14T00:16:40.000-07:00",
+      "author": "amilworks",
+      "repository": "amilworks/ultra",
+      "commit_url": "https://github.com/amilworks/ultra/commit/58878691c7a5899181b3ddb6cb5429e947cf6752"
+    },
+    {
+      "commit_date": "2026-07-13T23:40:56.000-07:00",
+      "author": "amilworks",
+      "repository": "amilworks/ultra",
+      "commit_url": "https://github.com/amilworks/ultra/commit/5ffec7148e8be9b41466af5bd0763cde3a7b0f19"
+    },
     {
       "commit_date": "2026-07-13T16:40:46.000+02:00",
       "author": "jluethi",
@@ -27,6 +45,12 @@
       "author": "d33bs",
       "repository": "xqlsystems/duckdb-zarr",
       "commit_url": "https://github.com/xqlsystems/duckdb-zarr/commit/3021bbb0fffd26411319365cada57a21076c2ccc"
+    },
+    {
+      "commit_date": "2026-07-13T09:21:05.000-07:00",
+      "author": "HERRY423",
+      "repository": "HERRY423/Histoweave",
+      "commit_url": "https://github.com/HERRY423/Histoweave/commit/5592d4080c5db1985ccbaf2d4a61cbe6c4684333"
     },
     {
       "commit_date": "2026-07-13T08:48:35.000-07:00",
