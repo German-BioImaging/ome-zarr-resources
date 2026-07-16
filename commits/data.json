@@ -1,9 +1,63 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-15T02:00:41+00:00",
+  "generated": "2026-07-16T02:01:05+00:00",
   "recent_days": 10,
-  "total_commits": 1253,
+  "total_commits": 1262,
   "commits": [
+    {
+      "commit_date": "2026-07-16T11:53:08.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/f11b7d99ba49e34e5ce5760ed2822705ef078e38"
+    },
+    {
+      "commit_date": "2026-07-16T09:59:24.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/17405a0d3669c81ff4808e4b72cc4a7162b11c53"
+    },
+    {
+      "commit_date": "2026-07-15T22:44:31.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/d438c497c05e70fe88dc9963115b603fe14fd89c"
+    },
+    {
+      "commit_date": "2026-07-15T16:52:02.000+02:00",
+      "author": "nvladimus",
+      "repository": "mesoSPIM/mesoSPIM-control",
+      "commit_url": "https://github.com/mesoSPIM/mesoSPIM-control/commit/d25ed4996cd1b1edf1b123ff68432e94dbaf2065"
+    },
+    {
+      "commit_date": "2026-07-15T14:45:24.000-07:00",
+      "author": "srivarra",
+      "repository": "czbiohub-sf/iohub",
+      "commit_url": "https://github.com/czbiohub-sf/iohub/commit/dc53e963e03d2e6aeb5f23cb4b9ae60a4bdb3bf0"
+    },
+    {
+      "commit_date": "2026-07-15T14:13:00.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/025f0a4037990d4b6d270f2e321bc4458ed38a76"
+    },
+    {
+      "commit_date": "2026-07-15T11:01:41.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/3aa969d247ef740b7534543ea6ae5431156763bf"
+    },
+    {
+      "commit_date": "2026-07-14T16:49:56.000-07:00",
+      "author": "alexvpickering",
+      "repository": "hms-dbmi-cellenics/ui",
+      "commit_url": "https://github.com/hms-dbmi-cellenics/ui/commit/98decd4de3918a32c2521e69647f6c359801ef97"
+    },
+    {
+      "commit_date": "2026-07-14T16:48:45.000-07:00",
+      "author": "alexvpickering",
+      "repository": "hms-dbmi-cellenics/pipeline",
+      "commit_url": "https://github.com/hms-dbmi-cellenics/pipeline/commit/1ba6152fa8ade8a5975a8514c119785036fbb6c0"
+    },
     {
       "commit_date": "2026-07-14T15:12:01.000+02:00",
       "author": "vboussot",
