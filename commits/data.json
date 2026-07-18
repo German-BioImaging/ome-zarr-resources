@@ -1,9 +1,57 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-17T02:01:11+00:00",
+  "generated": "2026-07-18T02:00:52+00:00",
   "recent_days": 10,
-  "total_commits": 1264,
+  "total_commits": 1272,
   "commits": [
+    {
+      "commit_date": "2026-07-17T21:55:05.000+02:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/a5fc34458e5dc465d2cec0a6ee45bae03d97a87e"
+    },
+    {
+      "commit_date": "2026-07-17T17:27:48.000+01:00",
+      "author": "CraigMyles",
+      "repository": "CraigMyles/raw2features",
+      "commit_url": "https://github.com/CraigMyles/raw2features/commit/6485cee7f2fce834d97850cdb74cfef43a21d61d"
+    },
+    {
+      "commit_date": "2026-07-17T13:35:06.000+01:00",
+      "author": "fhb",
+      "repository": "3DxN/omeZarrProcessingDemo",
+      "commit_url": "https://github.com/3DxN/omeZarrProcessingDemo/commit/a5f3605f99cbd07382bdc46a68d60b58509e02a1"
+    },
+    {
+      "commit_date": "2026-07-17T12:58:34.000+01:00",
+      "author": "fhb",
+      "repository": "3DxN/omeZarrProcessingDemo",
+      "commit_url": "https://github.com/3DxN/omeZarrProcessingDemo/commit/d3cbbe96eb10c055d8887f0d2741a1b8663b8267"
+    },
+    {
+      "commit_date": "2026-07-17T12:45:42.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/qupath-extension-tiles-to-pyramid",
+      "commit_url": "https://github.com/uw-loci/qupath-extension-tiles-to-pyramid/commit/3b7f2147b573397d7a2a5fe0970d14c31eaf0d40"
+    },
+    {
+      "commit_date": "2026-07-17T04:37:11.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/qupath-extension-tiles-to-pyramid",
+      "commit_url": "https://github.com/uw-loci/qupath-extension-tiles-to-pyramid/commit/b9bf05a54ee56a18fa6669564001b77c732cac51"
+    },
+    {
+      "commit_date": "2026-07-17T00:49:05.000Z",
+      "author": "dockerhub-toolshed",
+      "repository": "BioContainers/multi-package-containers",
+      "commit_url": "https://github.com/BioContainers/multi-package-containers/commit/326bda0e0ebd03faa4082a20c8f92b854bc0caaa"
+    },
+    {
+      "commit_date": "2026-07-16T21:45:50.000-05:00",
+      "author": "Anton Zhelonkin",
+      "repository": "tony-zhelonkin/mito-morphology",
+      "commit_url": "https://github.com/tony-zhelonkin/mito-morphology/commit/66cc26f34adcf515e59e4845222d3a32c1983df4"
+    },
     {
       "commit_date": "2026-07-16T19:02:04.000-05:00",
       "author": "MichaelSNelson",
