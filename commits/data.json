@@ -1,14 +1,56 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-19T02:01:45+00:00",
+  "generated": "2026-07-20T03:00:40+00:00",
   "recent_days": 10,
-  "total_commits": 1276,
+  "total_commits": 1284,
   "commits": [
+    {
+      "commit_date": "2026-07-20T12:22:11.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/ab7cd57194dba5c03e6b1331fd4001bae3eb0a0f"
+    },
+    {
+      "commit_date": "2026-07-19T23:03:45.000+02:00",
+      "author": "dariarom94",
+      "repository": "openproblems-bio/task_ist_preprocessing",
+      "commit_url": "https://github.com/openproblems-bio/task_ist_preprocessing/commit/e5dea5da576888918305e58f68735c6ab046b66f"
+    },
+    {
+      "commit_date": "2026-07-19T18:41:14.000-07:00",
+      "author": "nicost",
+      "repository": "micro-manager/micro-manager",
+      "commit_url": "https://github.com/micro-manager/micro-manager/commit/a25c3b1ff1321f9b67fb7019851cd3c5754730ac"
+    },
+    {
+      "commit_date": "2026-07-19T14:21:37.000-07:00",
+      "author": "nicost",
+      "repository": "micro-manager/micro-manager",
+      "commit_url": "https://github.com/micro-manager/micro-manager/commit/3e53e60c89129e8c0e4e6e93ef157aee0422d77e"
+    },
+    {
+      "commit_date": "2026-07-19T09:38:16.000+02:00",
+      "author": "MalloryWittwer",
+      "repository": "EPFL-Center-for-Imaging/awesome-scientific-image-analysis",
+      "commit_url": "https://github.com/EPFL-Center-for-Imaging/awesome-scientific-image-analysis/commit/89f0cb7dae942eb034b90d2d513a0207a9039aae"
+    },
     {
       "commit_date": "2026-07-18T18:33:30.000+08:00",
       "author": "changlabntu",
       "repository": "changlabntu/IsoScopeXX",
       "commit_url": "https://github.com/changlabntu/IsoScopeXX/commit/938d10aa131b11b9cf5a62f23a54456e98c3f352"
+    },
+    {
+      "commit_date": "2026-07-18T16:32:53.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/1741c734f957fcec9153936d63131e72921ffdfe"
+    },
+    {
+      "commit_date": "2026-07-18T14:57:53.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/15e979d53e7d46d8959d96039b52d60e845ceba3"
     },
     {
       "commit_date": "2026-07-18T11:58:43.000-05:00",
@@ -21,6 +63,12 @@
       "author": "ash9241",
       "repository": "ash9241/inkdx",
       "commit_url": "https://github.com/ash9241/inkdx/commit/53867d76464ec7cc00fdb08224ce32ef1ec81e5e"
+    },
+    {
+      "commit_date": "2026-07-18T03:15:53.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/926ac22bae3b7c28c5b7161691976c9de7fc52a5"
     },
     {
       "commit_date": "2026-07-18T01:10:02.000-04:00",
