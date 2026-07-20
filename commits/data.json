@@ -1,9 +1,195 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-15T02:00:41+00:00",
+  "generated": "2026-07-20T03:00:40+00:00",
   "recent_days": 10,
-  "total_commits": 1253,
+  "total_commits": 1284,
   "commits": [
+    {
+      "commit_date": "2026-07-20T12:22:11.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/ab7cd57194dba5c03e6b1331fd4001bae3eb0a0f"
+    },
+    {
+      "commit_date": "2026-07-19T23:03:45.000+02:00",
+      "author": "dariarom94",
+      "repository": "openproblems-bio/task_ist_preprocessing",
+      "commit_url": "https://github.com/openproblems-bio/task_ist_preprocessing/commit/e5dea5da576888918305e58f68735c6ab046b66f"
+    },
+    {
+      "commit_date": "2026-07-19T18:41:14.000-07:00",
+      "author": "nicost",
+      "repository": "micro-manager/micro-manager",
+      "commit_url": "https://github.com/micro-manager/micro-manager/commit/a25c3b1ff1321f9b67fb7019851cd3c5754730ac"
+    },
+    {
+      "commit_date": "2026-07-19T14:21:37.000-07:00",
+      "author": "nicost",
+      "repository": "micro-manager/micro-manager",
+      "commit_url": "https://github.com/micro-manager/micro-manager/commit/3e53e60c89129e8c0e4e6e93ef157aee0422d77e"
+    },
+    {
+      "commit_date": "2026-07-19T09:38:16.000+02:00",
+      "author": "MalloryWittwer",
+      "repository": "EPFL-Center-for-Imaging/awesome-scientific-image-analysis",
+      "commit_url": "https://github.com/EPFL-Center-for-Imaging/awesome-scientific-image-analysis/commit/89f0cb7dae942eb034b90d2d513a0207a9039aae"
+    },
+    {
+      "commit_date": "2026-07-18T18:33:30.000+08:00",
+      "author": "changlabntu",
+      "repository": "changlabntu/IsoScopeXX",
+      "commit_url": "https://github.com/changlabntu/IsoScopeXX/commit/938d10aa131b11b9cf5a62f23a54456e98c3f352"
+    },
+    {
+      "commit_date": "2026-07-18T16:32:53.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/1741c734f957fcec9153936d63131e72921ffdfe"
+    },
+    {
+      "commit_date": "2026-07-18T14:57:53.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/15e979d53e7d46d8959d96039b52d60e845ceba3"
+    },
+    {
+      "commit_date": "2026-07-18T11:58:43.000-05:00",
+      "author": "ash9241",
+      "repository": "ash9241/inkdx",
+      "commit_url": "https://github.com/ash9241/inkdx/commit/5e5c02c131f69ac5594e799ec3f63eb5f28c280f"
+    },
+    {
+      "commit_date": "2026-07-18T11:44:56.000-05:00",
+      "author": "ash9241",
+      "repository": "ash9241/inkdx",
+      "commit_url": "https://github.com/ash9241/inkdx/commit/53867d76464ec7cc00fdb08224ce32ef1ec81e5e"
+    },
+    {
+      "commit_date": "2026-07-18T03:15:53.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/926ac22bae3b7c28c5b7161691976c9de7fc52a5"
+    },
+    {
+      "commit_date": "2026-07-18T01:10:02.000-04:00",
+      "author": "cgoina",
+      "repository": "JaneliaSciComp/easifish-spots-tools",
+      "commit_url": "https://github.com/JaneliaSciComp/easifish-spots-tools/commit/bfad0163400453e85675dd52e3bc8b6dd311cb22"
+    },
+    {
+      "commit_date": "2026-07-17T21:55:05.000+02:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/a5fc34458e5dc465d2cec0a6ee45bae03d97a87e"
+    },
+    {
+      "commit_date": "2026-07-17T17:27:48.000+01:00",
+      "author": "CraigMyles",
+      "repository": "CraigMyles/raw2features",
+      "commit_url": "https://github.com/CraigMyles/raw2features/commit/6485cee7f2fce834d97850cdb74cfef43a21d61d"
+    },
+    {
+      "commit_date": "2026-07-17T13:35:06.000+01:00",
+      "author": "fhb",
+      "repository": "3DxN/omeZarrProcessingDemo",
+      "commit_url": "https://github.com/3DxN/omeZarrProcessingDemo/commit/a5f3605f99cbd07382bdc46a68d60b58509e02a1"
+    },
+    {
+      "commit_date": "2026-07-17T12:58:34.000+01:00",
+      "author": "fhb",
+      "repository": "3DxN/omeZarrProcessingDemo",
+      "commit_url": "https://github.com/3DxN/omeZarrProcessingDemo/commit/d3cbbe96eb10c055d8887f0d2741a1b8663b8267"
+    },
+    {
+      "commit_date": "2026-07-17T12:45:42.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/qupath-extension-tiles-to-pyramid",
+      "commit_url": "https://github.com/uw-loci/qupath-extension-tiles-to-pyramid/commit/3b7f2147b573397d7a2a5fe0970d14c31eaf0d40"
+    },
+    {
+      "commit_date": "2026-07-17T04:37:11.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/qupath-extension-tiles-to-pyramid",
+      "commit_url": "https://github.com/uw-loci/qupath-extension-tiles-to-pyramid/commit/b9bf05a54ee56a18fa6669564001b77c732cac51"
+    },
+    {
+      "commit_date": "2026-07-17T00:49:05.000Z",
+      "author": "dockerhub-toolshed",
+      "repository": "BioContainers/multi-package-containers",
+      "commit_url": "https://github.com/BioContainers/multi-package-containers/commit/326bda0e0ebd03faa4082a20c8f92b854bc0caaa"
+    },
+    {
+      "commit_date": "2026-07-16T21:45:50.000-05:00",
+      "author": "Anton Zhelonkin",
+      "repository": "tony-zhelonkin/mito-morphology",
+      "commit_url": "https://github.com/tony-zhelonkin/mito-morphology/commit/66cc26f34adcf515e59e4845222d3a32c1983df4"
+    },
+    {
+      "commit_date": "2026-07-16T19:02:04.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/qupath-extension-tiles-to-pyramid",
+      "commit_url": "https://github.com/uw-loci/qupath-extension-tiles-to-pyramid/commit/32d8bdb632f88147043a30e7a3dbfb18611be0d9"
+    },
+    {
+      "commit_date": "2026-07-16T17:41:36.000+02:00",
+      "author": "m-albert",
+      "repository": "multiview-stitcher/multiview-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/3233f58869e65d3764bdcb6ef453aaa1f839d0f6"
+    },
+    {
+      "commit_date": "2026-07-16T11:53:08.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/f11b7d99ba49e34e5ce5760ed2822705ef078e38"
+    },
+    {
+      "commit_date": "2026-07-16T09:59:24.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/17405a0d3669c81ff4808e4b72cc4a7162b11c53"
+    },
+    {
+      "commit_date": "2026-07-15T22:44:31.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/d438c497c05e70fe88dc9963115b603fe14fd89c"
+    },
+    {
+      "commit_date": "2026-07-15T16:52:02.000+02:00",
+      "author": "nvladimus",
+      "repository": "mesoSPIM/mesoSPIM-control",
+      "commit_url": "https://github.com/mesoSPIM/mesoSPIM-control/commit/d25ed4996cd1b1edf1b123ff68432e94dbaf2065"
+    },
+    {
+      "commit_date": "2026-07-15T14:45:24.000-07:00",
+      "author": "srivarra",
+      "repository": "czbiohub-sf/iohub",
+      "commit_url": "https://github.com/czbiohub-sf/iohub/commit/dc53e963e03d2e6aeb5f23cb4b9ae60a4bdb3bf0"
+    },
+    {
+      "commit_date": "2026-07-15T14:13:00.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/025f0a4037990d4b6d270f2e321bc4458ed38a76"
+    },
+    {
+      "commit_date": "2026-07-15T11:01:41.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/3aa969d247ef740b7534543ea6ae5431156763bf"
+    },
+    {
+      "commit_date": "2026-07-14T16:49:56.000-07:00",
+      "author": "alexvpickering",
+      "repository": "hms-dbmi-cellenics/ui",
+      "commit_url": "https://github.com/hms-dbmi-cellenics/ui/commit/98decd4de3918a32c2521e69647f6c359801ef97"
+    },
+    {
+      "commit_date": "2026-07-14T16:48:45.000-07:00",
+      "author": "alexvpickering",
+      "repository": "hms-dbmi-cellenics/pipeline",
+      "commit_url": "https://github.com/hms-dbmi-cellenics/pipeline/commit/1ba6152fa8ade8a5975a8514c119785036fbb6c0"
+    },
     {
       "commit_date": "2026-07-14T15:12:01.000+02:00",
       "author": "vboussot",
