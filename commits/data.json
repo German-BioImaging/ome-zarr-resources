@@ -1,14 +1,128 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-21T02:01:04+00:00",
+  "generated": "2026-07-22T02:01:05+00:00",
   "recent_days": 10,
-  "total_commits": 1292,
+  "total_commits": 1311,
   "commits": [
+    {
+      "commit_date": "2026-07-22T11:42:51.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/d4d7321212d567395fa330c1e304cfb6ebfd6e69"
+    },
+    {
+      "commit_date": "2026-07-21T18:27:02.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/24a49205d694287391ef61ce1e689789fb5552aa"
+    },
+    {
+      "commit_date": "2026-07-21T16:31:33.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/8f67e17105101ad564c05bf963eacf5ca73e1be8"
+    },
+    {
+      "commit_date": "2026-07-21T16:08:36.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/2f53940d0d16ef6d85ee6b3e2522c96480542119"
+    },
+    {
+      "commit_date": "2026-07-21T16:06:36.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/ea209d36c43056bf71ad94d49a69adf57c9741e5"
+    },
+    {
+      "commit_date": "2026-07-21T15:49:09.000+02:00",
+      "author": "sebi06",
+      "repository": "sebi06/czitools",
+      "commit_url": "https://github.com/sebi06/czitools/commit/71edec97b31d29732ac08eb559d2ffb8fa62ca42"
+    },
+    {
+      "commit_date": "2026-07-21T15:04:07.000-04:00",
+      "author": "trissim",
+      "repository": "OpenHCSDev/PolyStore",
+      "commit_url": "https://github.com/OpenHCSDev/PolyStore/commit/1e48d43fd001d03c3c740cd31f1bf1968c148410"
+    },
+    {
+      "commit_date": "2026-07-21T15:00:37.000+02:00",
+      "author": "sebi06",
+      "repository": "sebi06/czitools",
+      "commit_url": "https://github.com/sebi06/czitools/commit/3050518a81abdca40f5a64f1b0f1623477a2a064"
+    },
+    {
+      "commit_date": "2026-07-21T14:53:07.000+02:00",
+      "author": "jo-mueller",
+      "repository": "multiview-stitcher/napari-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/napari-stitcher/commit/25c7a04f0a3115f7a1cc06a7fadce1416ccb8eb6"
+    },
+    {
+      "commit_date": "2026-07-21T14:27:03.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/7621911611424f1d56896a9a6c9b98b166de9d20"
+    },
+    {
+      "commit_date": "2026-07-21T13:46:30.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/47d5e9514a18605c819dd86832328d918c9c4b61"
+    },
+    {
+      "commit_date": "2026-07-21T13:41:58.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/176d679ac695574396c4e7cc6676b81fe186f33d"
+    },
+    {
+      "commit_date": "2026-07-21T11:49:04.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/83f7739093cdad87565a4c32a7d3de398eceecb1"
+    },
+    {
+      "commit_date": "2026-07-21T11:17:37.000+02:00",
+      "author": "m-albert",
+      "repository": "multiview-stitcher/multiview-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/202a51ba68e87a7a667709bb911055bda9bed4b0"
+    },
+    {
+      "commit_date": "2026-07-21T10:33:18.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/da8de4f0b32a1d9399f110faa431c8aa177ef773"
+    },
     {
       "commit_date": "2026-07-21T02:35:23.000+07:00",
       "author": "tuannm3812",
       "repository": "tuannm3812/kaggle-biohub-cell-tracking-during-development",
       "commit_url": "https://github.com/tuannm3812/kaggle-biohub-cell-tracking-during-development/commit/b1bff4c28bfefa19b0c2b367c2ec8069e5c01ed3"
+    },
+    {
+      "commit_date": "2026-07-21T00:46:16.000Z",
+      "author": "claude",
+      "repository": "ylabjp/ylab-common-scripts",
+      "commit_url": "https://github.com/ylabjp/ylab-common-scripts/commit/33f6749ec97cd38a9adc02dad5856239504fea9b"
+    },
+    {
+      "commit_date": "2026-07-21T00:03:49.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/80b0664b3200a0b43c85dbea7fd1ef2722406fec"
+    },
+    {
+      "commit_date": "2026-07-20T23:55:48.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/04ae84df8665a242516703896c1d3eada76730e4"
+    },
+    {
+      "commit_date": "2026-07-20T23:47:18.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidMIP",
+      "commit_url": "https://github.com/maragall/SquidMIP/commit/4146ed50131e503712df92099627730348161d6d"
     },
     {
       "commit_date": "2026-07-20T17:50:56.000+02:00",
