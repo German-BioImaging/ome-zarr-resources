@@ -1,9 +1,45 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-25T02:01:11+00:00",
+  "generated": "2026-07-26T02:01:30+00:00",
   "recent_days": 10,
-  "total_commits": 1354,
+  "total_commits": 1360,
   "commits": [
+    {
+      "commit_date": "2026-07-25T22:57:28.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/e1d50d4ad36ff3e08f04101b5fd6f1ad9f673af6"
+    },
+    {
+      "commit_date": "2026-07-25T22:15:53.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/4a4fd495d0b8373da914c5dfc48ed2e78ba848b7"
+    },
+    {
+      "commit_date": "2026-07-25T22:13:41.000+02:00",
+      "author": "imagejan",
+      "repository": "conda-forge/bioio-ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/bioio-ome-zarr-feedstock/commit/3a20904c96c9f8c2c86644658bb0e3f902459734"
+    },
+    {
+      "commit_date": "2026-07-25T20:13:49.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/62a4cdf55fc29b16c0a1207222eaa8f774ea8b0b"
+    },
+    {
+      "commit_date": "2026-07-25T13:17:30.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/flamingo-stitcher",
+      "commit_url": "https://github.com/uw-loci/flamingo-stitcher/commit/5435e51c43f97349a099a6cd6fc38c69502fddc5"
+    },
+    {
+      "commit_date": "2026-07-25T01:11:37.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ome-zarr-rfc4-validation",
+      "commit_url": "https://github.com/fideus-labs/ome-zarr-rfc4-validation/commit/eedafcac1b66670ae70a82a022b076b3416951a8"
+    },
     {
       "commit_date": "2026-07-24T23:15:03.000+02:00",
       "author": "regro-cf-autotick-bot",
