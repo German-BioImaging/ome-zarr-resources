@@ -1,9 +1,69 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-27T02:01:41+00:00",
+  "generated": "2026-07-28T02:00:48+00:00",
   "recent_days": 10,
-  "total_commits": 1361,
+  "total_commits": 1371,
   "commits": [
+    {
+      "commit_date": "2026-07-27T15:02:51.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/73c245ad673ba5aa3c4facfb0ce62331e44fd2ad"
+    },
+    {
+      "commit_date": "2026-07-27T14:57:48.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/fe0c459358080164ce0dfa05593fbcce81969995"
+    },
+    {
+      "commit_date": "2026-07-27T14:21:20.000-04:00",
+      "author": "SamanthaKraft",
+      "repository": "Pennsieve/processor_tiff_zarr_converter",
+      "commit_url": "https://github.com/Pennsieve/processor_tiff_zarr_converter/commit/c3f711931db4b58b22330d9ad0b42ae4e252ba34"
+    },
+    {
+      "commit_date": "2026-07-27T14:08:07.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/cfac007d1988dd616e0ba7098ffce2212bacb40b"
+    },
+    {
+      "commit_date": "2026-07-27T13:38:53.000-04:00",
+      "author": "SamanthaKraft",
+      "repository": "Pennsieve/Zarr-Thumbnail-Processor",
+      "commit_url": "https://github.com/Pennsieve/Zarr-Thumbnail-Processor/commit/4b39d53178c853a9bd5812d13daa3392babbcddc"
+    },
+    {
+      "commit_date": "2026-07-27T13:36:11.000-04:00",
+      "author": "SamanthaKraft",
+      "repository": "Pennsieve/Zarr-Thumbnail-Processor",
+      "commit_url": "https://github.com/Pennsieve/Zarr-Thumbnail-Processor/commit/b1b23c8998d3d75626e718b9603c20513313e319"
+    },
+    {
+      "commit_date": "2026-07-27T11:09:52.000+02:00",
+      "author": "jhennies",
+      "repository": "embl-ic/squirrel",
+      "commit_url": "https://github.com/embl-ic/squirrel/commit/86e132289a34f29c95f797c64aa5cbe6dcbc702e"
+    },
+    {
+      "commit_date": "2026-07-27T11:09:04.000+02:00",
+      "author": "jhennies",
+      "repository": "embl-ic/squirrel",
+      "commit_url": "https://github.com/embl-ic/squirrel/commit/7d5166d4618cdac55836802996357e25c4d759e8"
+    },
+    {
+      "commit_date": "2026-07-27T10:43:49.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/shrimPy",
+      "commit_url": "https://github.com/czbiohub-sf/shrimPy/commit/825379862eae0362d468131ff756ba1b5a61475b"
+    },
+    {
+      "commit_date": "2026-07-27T10:40:05.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/3da3d0b4e7e45567a98e720a3b1e15275c19758f"
+    },
     {
       "commit_date": "2026-07-26T20:43:32.000+02:00",
       "author": "m-albert",
