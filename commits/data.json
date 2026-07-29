@@ -1,9 +1,63 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-28T02:00:48+00:00",
+  "generated": "2026-07-29T02:01:05+00:00",
   "recent_days": 10,
-  "total_commits": 1371,
+  "total_commits": 1380,
   "commits": [
+    {
+      "commit_date": "2026-07-28T23:05:41.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/minflux-viewer",
+      "commit_url": "https://github.com/embl-ic/minflux-viewer/commit/120a29ad06588ffe5a928734b240dd66f709b627"
+    },
+    {
+      "commit_date": "2026-07-28T23:05:02.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/minflux-viewer",
+      "commit_url": "https://github.com/embl-ic/minflux-viewer/commit/e76812b878ca57f36c11b17677f485c9a71f9d20"
+    },
+    {
+      "commit_date": "2026-07-28T18:35:37.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/04c3269d60a6c0f47a72160e8d074bd1b374cd87"
+    },
+    {
+      "commit_date": "2026-07-28T18:18:05.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/60ff860a0a48a10387b04f19758698a21bd7ff09"
+    },
+    {
+      "commit_date": "2026-07-28T18:02:31.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/8b7358980185678566491e494af8d5a3c369434e"
+    },
+    {
+      "commit_date": "2026-07-28T16:29:42.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/1cc59b83d65fc254ff630043bfea6e8c2b16a06c"
+    },
+    {
+      "commit_date": "2026-07-28T16:14:39.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/d15c1ae24f89c65013b57edc8668c49e6210d06a"
+    },
+    {
+      "commit_date": "2026-07-28T15:43:26.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/43044d1b4cb537a57635f29bfedec5ccc8a402f6"
+    },
+    {
+      "commit_date": "2026-07-28T15:18:16.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/f65aa04b14215997ca23f596fda7261496a0e9f0"
+    },
     {
       "commit_date": "2026-07-27T15:02:51.000+02:00",
       "author": "lguerard",
