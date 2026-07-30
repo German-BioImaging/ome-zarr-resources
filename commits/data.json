@@ -1,9 +1,57 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-29T02:01:05+00:00",
+  "generated": "2026-07-30T02:00:48+00:00",
   "recent_days": 10,
-  "total_commits": 1380,
+  "total_commits": 1390,
   "commits": [
+    {
+      "commit_date": "2026-07-29T18:00:26.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/cb8bc07450c7e7e84e612104e12ece4e64e29a3e"
+    },
+    {
+      "commit_date": "2026-07-29T18:00:26.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/5f98238569ad96cbe59221bb83635fca5d0aff3d"
+    },
+    {
+      "commit_date": "2026-07-29T18:00:26.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/a206ed692aa609da9c4b118411ebd6268e489c14"
+    },
+    {
+      "commit_date": "2026-07-29T16:25:59.000-07:00",
+      "author": "peter-grotz",
+      "repository": "peter-grotz/aind-exaspim-mask-fusion",
+      "commit_url": "https://github.com/peter-grotz/aind-exaspim-mask-fusion/commit/3fdb66cc8ad55e066c5e10bacd25fd90caddc0c0"
+    },
+    {
+      "commit_date": "2026-07-29T15:58:10.000+05:30",
+      "author": "ashfaq-9393",
+      "repository": "ashfaq-9393/vsi-ome-zarr-converter",
+      "commit_url": "https://github.com/ashfaq-9393/vsi-ome-zarr-converter/commit/52252cd634ba7b9f23c87098986640169a677909"
+    },
+    {
+      "commit_date": "2026-07-29T15:35:03.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/e35d0bf687076995b7c1e081de988310d5ef2ba0"
+    },
+    {
+      "commit_date": "2026-07-29T11:44:29.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/9df82fe8fcde010edca719c2c5d401a0f3c998fb"
+    },
+    {
+      "commit_date": "2026-07-29T10:09:05.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/b5ec7af91fce439b33e0592c43c80c481a204997"
+    },
     {
       "commit_date": "2026-07-28T23:05:41.000+02:00",
       "author": "hzqfox",
@@ -57,6 +105,18 @@
       "author": "vboussot",
       "repository": "fideus-labs/KonfAI",
       "commit_url": "https://github.com/fideus-labs/KonfAI/commit/f65aa04b14215997ca23f596fda7261496a0e9f0"
+    },
+    {
+      "commit_date": "2026-07-28T12:37:09.000-04:00",
+      "author": "dmp2",
+      "repository": "dmp2/ad-resilience",
+      "commit_url": "https://github.com/dmp2/ad-resilience/commit/6f68f6601ede2aa7cf57491915ed29caa788e6ad"
+    },
+    {
+      "commit_date": "2026-07-27T22:32:09.000-07:00",
+      "author": "jsschwrz",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/8ee046c7c826a283319203c97119835b91e9b65b"
     },
     {
       "commit_date": "2026-07-27T15:02:51.000+02:00",
