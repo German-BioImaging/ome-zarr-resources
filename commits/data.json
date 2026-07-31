@@ -1,9 +1,39 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-30T02:00:48+00:00",
+  "generated": "2026-07-31T02:01:24+00:00",
   "recent_days": 10,
-  "total_commits": 1390,
+  "total_commits": 1395,
   "commits": [
+    {
+      "commit_date": "2026-07-30T19:25:13.000-04:00",
+      "author": "tkakar",
+      "repository": "vitessce/vitessce-python",
+      "commit_url": "https://github.com/vitessce/vitessce-python/commit/0296da9fe79934e756f837d16ae76f7cabdcc889"
+    },
+    {
+      "commit_date": "2026-07-30T17:33:01.000+02:00",
+      "author": "Tomatokeftes",
+      "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
+      "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/2d0851a8c85df7888eec3afdc659c353d761772e"
+    },
+    {
+      "commit_date": "2026-07-30T08:35:52.000+02:00",
+      "author": "imagejan",
+      "repository": "conda-forge/bioio-conversion-feedstock",
+      "commit_url": "https://github.com/conda-forge/bioio-conversion-feedstock/commit/aceb36f251249d23239593fe923e5c57c93e292c"
+    },
+    {
+      "commit_date": "2026-07-30T08:35:03.000+02:00",
+      "author": "lorenzocerrone",
+      "repository": "BioVisionCenter/ngio",
+      "commit_url": "https://github.com/BioVisionCenter/ngio/commit/be4c68185292c416911920d1f12692c7110118ee"
+    },
+    {
+      "commit_date": "2026-07-30T02:07:10.000-07:00",
+      "author": "andythai",
+      "repository": "UCI-XuLab/blood-vessel-processing",
+      "commit_url": "https://github.com/UCI-XuLab/blood-vessel-processing/commit/554593cf2d967a26688131c4d2a4ab0e61104a04"
+    },
     {
       "commit_date": "2026-07-29T18:00:26.000+02:00",
       "author": "vboussot",
