@@ -1,9 +1,21 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-31T02:01:24+00:00",
+  "generated": "2026-08-01T02:01:17+00:00",
   "recent_days": 10,
-  "total_commits": 1395,
+  "total_commits": 1399,
   "commits": [
+    {
+      "commit_date": "2026-07-31T12:37:15.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/bb3cce0d60f24340c7335efa96ae9b3b345cb11e"
+    },
+    {
+      "commit_date": "2026-07-30T23:19:34.000+02:00",
+      "author": "Tomatokeftes",
+      "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
+      "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/0ef2263e981cd91427bb284563c596ce0f572f75"
+    },
     {
       "commit_date": "2026-07-30T19:25:13.000-04:00",
       "author": "tkakar",
@@ -15,6 +27,18 @@
       "author": "Tomatokeftes",
       "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
       "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/2d0851a8c85df7888eec3afdc659c353d761772e"
+    },
+    {
+      "commit_date": "2026-07-30T14:55:22.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/0f074ee4635f957dced993c3a8ca9772c0499da4"
+    },
+    {
+      "commit_date": "2026-07-30T10:49:55.000+01:00",
+      "author": "sbesson",
+      "repository": "glencoesoftware/omero-zarr-pixel-buffer",
+      "commit_url": "https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/81d1fc77a567880beca299efd4f48ce12cb9f070"
     },
     {
       "commit_date": "2026-07-30T08:35:52.000+02:00",
