@@ -1,9 +1,309 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-07-27T02:01:41+00:00",
+  "generated": "2026-08-03T02:01:15+00:00",
   "recent_days": 10,
-  "total_commits": 1361,
+  "total_commits": 1411,
   "commits": [
+    {
+      "commit_date": "2026-08-03T03:23:04.000+02:00",
+      "author": "Barnabas_Nemeth",
+      "repository": "Barnabas-Nemeth/barna-utils",
+      "commit_url": "https://github.com/Barnabas-Nemeth/barna-utils/commit/33d7b97ce348d0f9832677fb6c1ba0fd8c1f596d"
+    },
+    {
+      "commit_date": "2026-08-03T02:02:40.000+02:00",
+      "author": "Barnabas_Nemeth",
+      "repository": "Barnabas-Nemeth/barna-utils",
+      "commit_url": "https://github.com/Barnabas-Nemeth/barna-utils/commit/d8e207b5cefb7faa0362499a0165cb231a00ad89"
+    },
+    {
+      "commit_date": "2026-08-02T15:57:33.000+05:30",
+      "author": "atultiwari",
+      "repository": "atultiwari/awesome-ai-pathology",
+      "commit_url": "https://github.com/atultiwari/awesome-ai-pathology/commit/a98181530b17c42d7060f0cd06866f279588f76f"
+    },
+    {
+      "commit_date": "2026-08-01T16:56:52.000+05:30",
+      "author": "TausiqVarma",
+      "repository": "TausiqVarma/j",
+      "commit_url": "https://github.com/TausiqVarma/j/commit/95950921bf921dc9dc6dc993530f8315aede17ed"
+    },
+    {
+      "commit_date": "2026-08-01T12:30:18.000+01:00",
+      "author": "xinaesthete",
+      "repository": "xinaesthete/tgpu-htj2k",
+      "commit_url": "https://github.com/xinaesthete/tgpu-htj2k/commit/2c2c16ca105e1a285da69fe6abc2ceb22007ad3c"
+    },
+    {
+      "commit_date": "2026-08-01T11:11:03.000+05:45",
+      "author": "Apekshya Kandel",
+      "repository": "Apekchhya/bioimage-metadata-explorer",
+      "commit_url": "https://github.com/Apekchhya/bioimage-metadata-explorer/commit/ccceb33c85f779f69f2b96b55d39867945784eb8"
+    },
+    {
+      "commit_date": "2026-08-01T10:44:22.000-06:00",
+      "author": "dependabot[bot]",
+      "repository": "WayScience/ome-arrow",
+      "commit_url": "https://github.com/WayScience/ome-arrow/commit/0f2a87c3d21efbceedeb8b360a77e5fc1975b4ad"
+    },
+    {
+      "commit_date": "2026-08-01T00:11:19.000-07:00",
+      "author": "kennethjyang",
+      "repository": "kennethjyang/pinpoint-v",
+      "commit_url": "https://github.com/kennethjyang/pinpoint-v/commit/043073d36700fe0309d730bda5d209b6da13c434"
+    },
+    {
+      "commit_date": "2026-07-31T18:03:49.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/bf4568650523aef232325cac3c343397ae97e966"
+    },
+    {
+      "commit_date": "2026-07-31T16:43:33.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/2e236f24fed10f9a138db92698dc480e350278a0"
+    },
+    {
+      "commit_date": "2026-07-31T16:43:24.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/d39d57a31419cd4c0d91d80f39a26c7ff5183876"
+    },
+    {
+      "commit_date": "2026-07-31T14:15:53.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/d98b5823bc0257ab43646a8606fd745863219f2f"
+    },
+    {
+      "commit_date": "2026-07-31T12:37:15.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/bb3cce0d60f24340c7335efa96ae9b3b345cb11e"
+    },
+    {
+      "commit_date": "2026-07-30T23:19:34.000+02:00",
+      "author": "Tomatokeftes",
+      "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
+      "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/0ef2263e981cd91427bb284563c596ce0f572f75"
+    },
+    {
+      "commit_date": "2026-07-30T19:25:13.000-04:00",
+      "author": "tkakar",
+      "repository": "vitessce/vitessce-python",
+      "commit_url": "https://github.com/vitessce/vitessce-python/commit/0296da9fe79934e756f837d16ae76f7cabdcc889"
+    },
+    {
+      "commit_date": "2026-07-30T17:33:01.000+02:00",
+      "author": "Tomatokeftes",
+      "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
+      "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/2d0851a8c85df7888eec3afdc659c353d761772e"
+    },
+    {
+      "commit_date": "2026-07-30T14:55:22.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/0f074ee4635f957dced993c3a8ca9772c0499da4"
+    },
+    {
+      "commit_date": "2026-07-30T10:49:55.000+01:00",
+      "author": "sbesson",
+      "repository": "glencoesoftware/omero-zarr-pixel-buffer",
+      "commit_url": "https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/81d1fc77a567880beca299efd4f48ce12cb9f070"
+    },
+    {
+      "commit_date": "2026-07-30T08:35:52.000+02:00",
+      "author": "imagejan",
+      "repository": "conda-forge/bioio-conversion-feedstock",
+      "commit_url": "https://github.com/conda-forge/bioio-conversion-feedstock/commit/aceb36f251249d23239593fe923e5c57c93e292c"
+    },
+    {
+      "commit_date": "2026-07-30T08:35:03.000+02:00",
+      "author": "lorenzocerrone",
+      "repository": "BioVisionCenter/ngio",
+      "commit_url": "https://github.com/BioVisionCenter/ngio/commit/be4c68185292c416911920d1f12692c7110118ee"
+    },
+    {
+      "commit_date": "2026-07-30T02:07:10.000-07:00",
+      "author": "andythai",
+      "repository": "UCI-XuLab/blood-vessel-processing",
+      "commit_url": "https://github.com/UCI-XuLab/blood-vessel-processing/commit/554593cf2d967a26688131c4d2a4ab0e61104a04"
+    },
+    {
+      "commit_date": "2026-07-29T18:00:26.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/cb8bc07450c7e7e84e612104e12ece4e64e29a3e"
+    },
+    {
+      "commit_date": "2026-07-29T18:00:26.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/5f98238569ad96cbe59221bb83635fca5d0aff3d"
+    },
+    {
+      "commit_date": "2026-07-29T18:00:26.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/a206ed692aa609da9c4b118411ebd6268e489c14"
+    },
+    {
+      "commit_date": "2026-07-29T16:25:59.000-07:00",
+      "author": "peter-grotz",
+      "repository": "peter-grotz/aind-exaspim-mask-fusion",
+      "commit_url": "https://github.com/peter-grotz/aind-exaspim-mask-fusion/commit/3fdb66cc8ad55e066c5e10bacd25fd90caddc0c0"
+    },
+    {
+      "commit_date": "2026-07-29T15:58:10.000+05:30",
+      "author": "ashfaq-9393",
+      "repository": "ashfaq-9393/vsi-ome-zarr-converter",
+      "commit_url": "https://github.com/ashfaq-9393/vsi-ome-zarr-converter/commit/52252cd634ba7b9f23c87098986640169a677909"
+    },
+    {
+      "commit_date": "2026-07-29T15:35:03.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/e35d0bf687076995b7c1e081de988310d5ef2ba0"
+    },
+    {
+      "commit_date": "2026-07-29T11:44:29.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/9df82fe8fcde010edca719c2c5d401a0f3c998fb"
+    },
+    {
+      "commit_date": "2026-07-29T10:09:05.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/b5ec7af91fce439b33e0592c43c80c481a204997"
+    },
+    {
+      "commit_date": "2026-07-28T23:05:41.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/minflux-viewer",
+      "commit_url": "https://github.com/embl-ic/minflux-viewer/commit/120a29ad06588ffe5a928734b240dd66f709b627"
+    },
+    {
+      "commit_date": "2026-07-28T23:05:02.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/minflux-viewer",
+      "commit_url": "https://github.com/embl-ic/minflux-viewer/commit/e76812b878ca57f36c11b17677f485c9a71f9d20"
+    },
+    {
+      "commit_date": "2026-07-28T18:35:37.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/04c3269d60a6c0f47a72160e8d074bd1b374cd87"
+    },
+    {
+      "commit_date": "2026-07-28T18:18:05.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/60ff860a0a48a10387b04f19758698a21bd7ff09"
+    },
+    {
+      "commit_date": "2026-07-28T18:02:31.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/8b7358980185678566491e494af8d5a3c369434e"
+    },
+    {
+      "commit_date": "2026-07-28T16:29:42.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/1cc59b83d65fc254ff630043bfea6e8c2b16a06c"
+    },
+    {
+      "commit_date": "2026-07-28T16:14:39.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/d15c1ae24f89c65013b57edc8668c49e6210d06a"
+    },
+    {
+      "commit_date": "2026-07-28T15:43:26.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/43044d1b4cb537a57635f29bfedec5ccc8a402f6"
+    },
+    {
+      "commit_date": "2026-07-28T15:18:16.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/f65aa04b14215997ca23f596fda7261496a0e9f0"
+    },
+    {
+      "commit_date": "2026-07-28T12:37:09.000-04:00",
+      "author": "dmp2",
+      "repository": "dmp2/ad-resilience",
+      "commit_url": "https://github.com/dmp2/ad-resilience/commit/6f68f6601ede2aa7cf57491915ed29caa788e6ad"
+    },
+    {
+      "commit_date": "2026-07-27T22:32:09.000-07:00",
+      "author": "jsschwrz",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/8ee046c7c826a283319203c97119835b91e9b65b"
+    },
+    {
+      "commit_date": "2026-07-27T15:02:51.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/73c245ad673ba5aa3c4facfb0ce62331e44fd2ad"
+    },
+    {
+      "commit_date": "2026-07-27T14:57:48.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/fe0c459358080164ce0dfa05593fbcce81969995"
+    },
+    {
+      "commit_date": "2026-07-27T14:21:20.000-04:00",
+      "author": "SamanthaKraft",
+      "repository": "Pennsieve/processor_tiff_zarr_converter",
+      "commit_url": "https://github.com/Pennsieve/processor_tiff_zarr_converter/commit/c3f711931db4b58b22330d9ad0b42ae4e252ba34"
+    },
+    {
+      "commit_date": "2026-07-27T14:08:07.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/cfac007d1988dd616e0ba7098ffce2212bacb40b"
+    },
+    {
+      "commit_date": "2026-07-27T13:38:53.000-04:00",
+      "author": "SamanthaKraft",
+      "repository": "Pennsieve/Zarr-Thumbnail-Processor",
+      "commit_url": "https://github.com/Pennsieve/Zarr-Thumbnail-Processor/commit/4b39d53178c853a9bd5812d13daa3392babbcddc"
+    },
+    {
+      "commit_date": "2026-07-27T13:36:11.000-04:00",
+      "author": "SamanthaKraft",
+      "repository": "Pennsieve/Zarr-Thumbnail-Processor",
+      "commit_url": "https://github.com/Pennsieve/Zarr-Thumbnail-Processor/commit/b1b23c8998d3d75626e718b9603c20513313e319"
+    },
+    {
+      "commit_date": "2026-07-27T11:09:52.000+02:00",
+      "author": "jhennies",
+      "repository": "embl-ic/squirrel",
+      "commit_url": "https://github.com/embl-ic/squirrel/commit/86e132289a34f29c95f797c64aa5cbe6dcbc702e"
+    },
+    {
+      "commit_date": "2026-07-27T11:09:04.000+02:00",
+      "author": "jhennies",
+      "repository": "embl-ic/squirrel",
+      "commit_url": "https://github.com/embl-ic/squirrel/commit/7d5166d4618cdac55836802996357e25c4d759e8"
+    },
+    {
+      "commit_date": "2026-07-27T10:43:49.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/shrimPy",
+      "commit_url": "https://github.com/czbiohub-sf/shrimPy/commit/825379862eae0362d468131ff756ba1b5a61475b"
+    },
+    {
+      "commit_date": "2026-07-27T10:40:05.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/3da3d0b4e7e45567a98e720a3b1e15275c19758f"
+    },
     {
       "commit_date": "2026-07-26T20:43:32.000+02:00",
       "author": "m-albert",
