@@ -1,9 +1,27 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-02T02:01:17+00:00",
+  "generated": "2026-08-03T02:01:15+00:00",
   "recent_days": 10,
-  "total_commits": 1408,
+  "total_commits": 1411,
   "commits": [
+    {
+      "commit_date": "2026-08-03T03:23:04.000+02:00",
+      "author": "Barnabas_Nemeth",
+      "repository": "Barnabas-Nemeth/barna-utils",
+      "commit_url": "https://github.com/Barnabas-Nemeth/barna-utils/commit/33d7b97ce348d0f9832677fb6c1ba0fd8c1f596d"
+    },
+    {
+      "commit_date": "2026-08-03T02:02:40.000+02:00",
+      "author": "Barnabas_Nemeth",
+      "repository": "Barnabas-Nemeth/barna-utils",
+      "commit_url": "https://github.com/Barnabas-Nemeth/barna-utils/commit/d8e207b5cefb7faa0362499a0165cb231a00ad89"
+    },
+    {
+      "commit_date": "2026-08-02T15:57:33.000+05:30",
+      "author": "atultiwari",
+      "repository": "atultiwari/awesome-ai-pathology",
+      "commit_url": "https://github.com/atultiwari/awesome-ai-pathology/commit/a98181530b17c42d7060f0cd06866f279588f76f"
+    },
     {
       "commit_date": "2026-08-01T16:56:52.000+05:30",
       "author": "TausiqVarma",
