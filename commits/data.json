@@ -1,9 +1,81 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-03T02:01:15+00:00",
+  "generated": "2026-08-04T02:00:44+00:00",
   "recent_days": 10,
-  "total_commits": 1411,
+  "total_commits": 1424,
   "commits": [
+    {
+      "commit_date": "2026-08-04T10:18:52.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/9f44b2e935ed33f2812a02b26ad5b7cda37db97d"
+    },
+    {
+      "commit_date": "2026-08-03T17:50:56.000+02:00",
+      "author": "ketang99",
+      "repository": "CCI-GU-Sweden/napari-atlas-cci",
+      "commit_url": "https://github.com/CCI-GU-Sweden/napari-atlas-cci/commit/840e06327f5ac5d3a00d524d6bea1c642e101681"
+    },
+    {
+      "commit_date": "2026-08-03T17:09:51.000-07:00",
+      "author": "github-actions[bot]",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/7ef422f404f80ce8f00a5953c2a9472c8afc200b"
+    },
+    {
+      "commit_date": "2026-08-03T17:07:27.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/879480101c28ccb0ad5d6193bf48382f0c867e5c"
+    },
+    {
+      "commit_date": "2026-08-03T16:59:42.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/f1ba32269b471c0ef41a6d4a8d79eb43b62b84cf"
+    },
+    {
+      "commit_date": "2026-08-03T16:48:58.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/f16b93fd06db2fa605e5dbfecbce9403bb006df2"
+    },
+    {
+      "commit_date": "2026-08-03T16:48:32.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/68bb9038ddfa0a26e819de46826ec669bec6499b"
+    },
+    {
+      "commit_date": "2026-08-03T15:10:27.000+10:00",
+      "author": "JurgenKriel",
+      "repository": "JurgenKriel/macro_candi",
+      "commit_url": "https://github.com/JurgenKriel/macro_candi/commit/d2b2976b72820bc9d23f27ef12be8d8127f79def"
+    },
+    {
+      "commit_date": "2026-08-03T13:57:46.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/f32733534b771c3d7c1d281548786286d31e1da9"
+    },
+    {
+      "commit_date": "2026-08-03T13:24:52.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/b77e74a5203ff2c15d906b82c00a363aa8d7ed1d"
+    },
+    {
+      "commit_date": "2026-08-03T12:06:42.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/14c0c9d11a8f821b9e09b680c7124623a0ac2c64"
+    },
+    {
+      "commit_date": "2026-08-03T10:54:35.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/e0dcfc8c49a75c7c5f9c2bbbd2ee7d765dc3076d"
+    },
     {
       "commit_date": "2026-08-03T03:23:04.000+02:00",
       "author": "Barnabas_Nemeth",
@@ -15,6 +87,12 @@
       "author": "Barnabas_Nemeth",
       "repository": "Barnabas-Nemeth/barna-utils",
       "commit_url": "https://github.com/Barnabas-Nemeth/barna-utils/commit/d8e207b5cefb7faa0362499a0165cb231a00ad89"
+    },
+    {
+      "commit_date": "2026-08-02T23:21:28.000-06:00",
+      "author": "Jesus-przrd",
+      "repository": "Jesus-przrd/Gunflint-specimen-tour",
+      "commit_url": "https://github.com/Jesus-przrd/Gunflint-specimen-tour/commit/e4abb9853f975bcac5506e4082249a7b530acd7c"
     },
     {
       "commit_date": "2026-08-02T15:57:33.000+05:30",
