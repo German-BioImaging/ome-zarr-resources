@@ -1,14 +1,80 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-04T02:00:44+00:00",
+  "generated": "2026-08-05T02:00:37+00:00",
   "recent_days": 10,
-  "total_commits": 1424,
+  "total_commits": 1435,
   "commits": [
+    {
+      "commit_date": "2026-08-04T22:55:25.000+01:00",
+      "author": "CraigMyles",
+      "repository": "CraigMyles/raw2features",
+      "commit_url": "https://github.com/CraigMyles/raw2features/commit/cc363d64c0741061c15c79edd311ec7eaf8b9959"
+    },
+    {
+      "commit_date": "2026-08-04T18:12:24.000+02:00",
+      "author": "Bullo27",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/1493da4f93a340a9f447cf8e3a531c5e34b5731e"
+    },
+    {
+      "commit_date": "2026-08-04T17:39:21.000+02:00",
+      "author": "sceriff0",
+      "repository": "sceriff0/mirage",
+      "commit_url": "https://github.com/sceriff0/mirage/commit/e4b332a26476bce2ae767bc5af19731c75f335f5"
+    },
+    {
+      "commit_date": "2026-08-04T17:23:11.000+02:00",
+      "author": "sceriff0",
+      "repository": "sceriff0/mirage",
+      "commit_url": "https://github.com/sceriff0/mirage/commit/6786390e3eaf2050b0977f4dad4390f196dd41c0"
+    },
+    {
+      "commit_date": "2026-08-04T16:11:54.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/4e472a148cab2ee563f8890fd538f1f6d0e4f5de"
+    },
+    {
+      "commit_date": "2026-08-04T15:12:17.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/836e1aa62608170f3b872eec67945de86331edd6"
+    },
+    {
+      "commit_date": "2026-08-04T14:04:01.000-07:00",
+      "author": "alxmrs",
+      "repository": "xqlsystems/duckdb-zarr",
+      "commit_url": "https://github.com/xqlsystems/duckdb-zarr/commit/46fd7329cca6f6ee5d1ee4f493e9ff3ca6a84db7"
+    },
+    {
+      "commit_date": "2026-08-04T10:49:36.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/696ccf8bab67bb9cf20cc0dd6469c92a63cd1ff2"
+    },
     {
       "commit_date": "2026-08-04T10:18:52.000+10:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/9f44b2e935ed33f2812a02b26ad5b7cda37db97d"
+    },
+    {
+      "commit_date": "2026-08-03T21:44:51.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/nd-image-codecs",
+      "commit_url": "https://github.com/fideus-labs/nd-image-codecs/commit/fea549cba5c01f0dd58b44f7976ab48c7a84e8db"
+    },
+    {
+      "commit_date": "2026-08-03T21:24:20.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/nd-image-codecs",
+      "commit_url": "https://github.com/fideus-labs/nd-image-codecs/commit/226a6d88d6dd82b8df96cfb80156ac56fb9c87f2"
+    },
+    {
+      "commit_date": "2026-08-03T21:10:13.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/nd-image-codecs",
+      "commit_url": "https://github.com/fideus-labs/nd-image-codecs/commit/d73c624ca4edaf9c0391af7ab7c80f492cdd50d9"
     },
     {
       "commit_date": "2026-08-03T17:50:56.000+02:00",
