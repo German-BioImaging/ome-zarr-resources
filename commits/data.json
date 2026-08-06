@@ -1,9 +1,51 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-05T02:00:37+00:00",
+  "generated": "2026-08-06T02:00:56+00:00",
   "recent_days": 10,
-  "total_commits": 1435,
+  "total_commits": 1445,
   "commits": [
+    {
+      "commit_date": "2026-08-05T20:52:21.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/d7bb92ea0d15ae20e1522c69dd04407d21d37e60"
+    },
+    {
+      "commit_date": "2026-08-05T17:34:35.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/2389202a8576773e3bcd3c5be45875a245a789a5"
+    },
+    {
+      "commit_date": "2026-08-05T16:47:37.000-05:00",
+      "author": "TimMonko",
+      "repository": "ndev-kit/ndevio",
+      "commit_url": "https://github.com/ndev-kit/ndevio/commit/8b97128da08e9850d520ce2c0f553ee71d9e0a14"
+    },
+    {
+      "commit_date": "2026-08-05T12:51:03.000-07:00",
+      "author": "github-actions[bot]",
+      "repository": "czimaginginstitute/zarr-particle-tools",
+      "commit_url": "https://github.com/czimaginginstitute/zarr-particle-tools/commit/18d48b432edf84612954488eeb871deb41a266b0"
+    },
+    {
+      "commit_date": "2026-08-05T11:40:10.000-07:00",
+      "author": "daniel-ji",
+      "repository": "czimaginginstitute/zarr-particle-tools",
+      "commit_url": "https://github.com/czimaginginstitute/zarr-particle-tools/commit/c1be48ae69795ef306d541d04f803555cb9355ac"
+    },
+    {
+      "commit_date": "2026-08-05T11:38:49.000-07:00",
+      "author": "daniel-ji",
+      "repository": "czimaginginstitute/zarr-particle-tools",
+      "commit_url": "https://github.com/czimaginginstitute/zarr-particle-tools/commit/1cc611e70401000896c17d978c0d89dcece0ef5e"
+    },
+    {
+      "commit_date": "2026-08-05T10:05:35.000+02:00",
+      "author": "lorenzocerrone",
+      "repository": "fractal-analytics-platform/fractal-uzh-converters",
+      "commit_url": "https://github.com/fractal-analytics-platform/fractal-uzh-converters/commit/f39cb1d27d7c158a8abdc24cbb5d0dca563269b8"
+    },
     {
       "commit_date": "2026-08-04T22:55:25.000+01:00",
       "author": "CraigMyles",
@@ -57,6 +99,24 @@
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/9f44b2e935ed33f2812a02b26ad5b7cda37db97d"
+    },
+    {
+      "commit_date": "2026-08-04T03:07:19.000-04:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr",
+      "commit_url": "https://github.com/EinarOlafsson/spacr/commit/d5fc8bf7640c9772aa18fec2c1dcdddb6caa1841"
+    },
+    {
+      "commit_date": "2026-08-04T02:19:50.000-04:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr",
+      "commit_url": "https://github.com/EinarOlafsson/spacr/commit/5a248071c8ee5594147eaccac25873aa55daae97"
+    },
+    {
+      "commit_date": "2026-08-04T00:57:29.000-04:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr",
+      "commit_url": "https://github.com/EinarOlafsson/spacr/commit/3a931f7a91c2ebd2a3d5dc3f969b6b93743c306f"
     },
     {
       "commit_date": "2026-08-03T21:44:51.000-04:00",
