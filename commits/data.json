@@ -1,9 +1,93 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-07T02:01:59+00:00",
+  "generated": "2026-08-08T01:58:50+00:00",
   "recent_days": 10,
-  "total_commits": 1463,
+  "total_commits": 1480,
   "commits": [
+    {
+      "commit_date": "2026-08-08T01:55:29.000+02:00",
+      "author": "benedictemarty",
+      "repository": "benedictemarty/xarray",
+      "commit_url": "https://github.com/benedictemarty/xarray/commit/4151c5cd98c5591d2f677642e0843803d15b3fd3"
+    },
+    {
+      "commit_date": "2026-08-07T21:56:47.000-04:00",
+      "author": "emir-radkevich",
+      "repository": "emir-radkevich/PathoLytica",
+      "commit_url": "https://github.com/emir-radkevich/PathoLytica/commit/b817b2a0895d285063b806560e5d102efeb1cc71"
+    },
+    {
+      "commit_date": "2026-08-07T18:52:44.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/b5c0bd299cd2299f581ba0ab66e87a2e842d1423"
+    },
+    {
+      "commit_date": "2026-08-07T17:56:35.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/68129031a61e2d3e3dd8cb4b10574523e2f03953"
+    },
+    {
+      "commit_date": "2026-08-07T16:42:00.000+01:00",
+      "author": "dependabot[bot]",
+      "repository": "ome-zarr-models/ome-zarr-book",
+      "commit_url": "https://github.com/ome-zarr-models/ome-zarr-book/commit/39a78e6ae712b922ade060bc27866a4b1cea8be9"
+    },
+    {
+      "commit_date": "2026-08-07T12:55:44.000+01:00",
+      "author": "AlexBecalick",
+      "repository": "AlexBecalick/napari-spatialomics-viewer",
+      "commit_url": "https://github.com/AlexBecalick/napari-spatialomics-viewer/commit/c8425a95b68d81069c09735f32386a399046fdbf"
+    },
+    {
+      "commit_date": "2026-08-07T12:40:37.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/7bb1b988c738c675b1c629f79aa4c2c981f74100"
+    },
+    {
+      "commit_date": "2026-08-07T00:50:29.000-07:00",
+      "author": "droumis",
+      "repository": "droumis/viz-large-neuro",
+      "commit_url": "https://github.com/droumis/viz-large-neuro/commit/2ea8fe5c3e9d0bd414ff053cf07d21333d42c6bc"
+    },
+    {
+      "commit_date": "2026-08-07T00:07:51.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/Flamingo_Control",
+      "commit_url": "https://github.com/uw-loci/Flamingo_Control/commit/0439ab58dba4bf9f038e698fad1aec5c55521926"
+    },
+    {
+      "commit_date": "2026-08-06T22:56:55.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/af13462a45d8682da0432572e6f12de59205d08b"
+    },
+    {
+      "commit_date": "2026-08-06T22:54:15.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/d594b25d2bef00dd09d0fb8a238a3b46f9030a98"
+    },
+    {
+      "commit_date": "2026-08-06T22:53:00.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/e361662b2a9662240d0b45fc7183bed8d5a89254"
+    },
+    {
+      "commit_date": "2026-08-06T22:51:57.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/2168de65633b24cd255f5f1bc74cb57b1219a915"
+    },
+    {
+      "commit_date": "2026-08-06T21:26:29.000+02:00",
+      "author": "m-albert",
+      "repository": "multiview-stitcher/multiview-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/9d48397b457d839f9984261b3a6d22f273b90e95"
+    },
     {
       "commit_date": "2026-08-06T18:34:02.000+05:00",
       "author": "Asmakhan427",
@@ -15,6 +99,18 @@
       "author": "shntnu",
       "repository": "shntnu/duckdb-zarr-cellpainting-demo",
       "commit_url": "https://github.com/shntnu/duckdb-zarr-cellpainting-demo/commit/b2bad7f978fd587120793b911e4af6f48ccdfcd1"
+    },
+    {
+      "commit_date": "2026-08-06T17:09:06.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/d972afba8122ca9b097e7b6cf28d8700644596b7"
+    },
+    {
+      "commit_date": "2026-08-06T16:59:18.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/aed76051eb84c71cceb1409a6b59c90fdee3971a"
     },
     {
       "commit_date": "2026-08-06T16:04:17.000+02:00",
@@ -33,6 +129,12 @@
       "author": "maragall",
       "repository": "maragall/SquidXplorer",
       "commit_url": "https://github.com/maragall/SquidXplorer/commit/ac3778259689a396723341134cb17761e17f1c4f"
+    },
+    {
+      "commit_date": "2026-08-06T11:21:38.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/9a2353d52a98f24ac2c81a685f389f5a17475135"
     },
     {
       "commit_date": "2026-08-06T10:11:07.000+02:00",
