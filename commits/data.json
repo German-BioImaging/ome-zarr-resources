@@ -1,9 +1,513 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-03T02:01:15+00:00",
+  "generated": "2026-08-10T01:59:12+00:00",
   "recent_days": 10,
-  "total_commits": 1411,
+  "total_commits": 1496,
   "commits": [
+    {
+      "commit_date": "2026-08-09T15:16:11.000-07:00",
+      "author": "stebo85",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/97042c30ea952b8a384e8a2d0edb624b944f1ea4"
+    },
+    {
+      "commit_date": "2026-08-09T15:15:25.000-07:00",
+      "author": "stebo85",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/69e7da11a8f9b1acfae34cd979abbfbe6d3c9e46"
+    },
+    {
+      "commit_date": "2026-08-09T13:29:09.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/cedbd0a93802ec5759b894c8337f2157a6ae0de3"
+    },
+    {
+      "commit_date": "2026-08-08T18:47:36.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/951f304f3c892e6ef2a7146137333b3ea9ba0949"
+    },
+    {
+      "commit_date": "2026-08-08T18:01:55.000-07:00",
+      "author": "daniel-ji",
+      "repository": "czimaginginstitute/zarr-particle-tools",
+      "commit_url": "https://github.com/czimaginginstitute/zarr-particle-tools/commit/f541f53574ff61f93be746b58620c725e052f69f"
+    },
+    {
+      "commit_date": "2026-08-08T17:36:40.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/18c5503c7a54b981f91051404e436aaeb56d91e5"
+    },
+    {
+      "commit_date": "2026-08-08T17:21:00.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/14bcda63e435e5d7f215cbe11964cb9c8a35ea84"
+    },
+    {
+      "commit_date": "2026-08-08T17:10:26.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/6ba57b03e2871a6e0acdeae8e532b8be46be92f8"
+    },
+    {
+      "commit_date": "2026-08-08T17:10:10.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/e91c70ee15b40fb1b6cade9fb33f0f7e99a6e3e8"
+    },
+    {
+      "commit_date": "2026-08-08T17:09:07.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/befae69c392d183e96f13ab4ecc9795fcd8a82c8"
+    },
+    {
+      "commit_date": "2026-08-08T14:25:35.000+02:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPRimaging-Acquisition",
+      "commit_url": "https://github.com/lednicky-t/LSPRimaging-Acquisition/commit/f96f4ee9085e4763091a71ff03f6871d92dc0a12"
+    },
+    {
+      "commit_date": "2026-08-08T13:46:56.000-05:00",
+      "author": "gitbamboo42",
+      "repository": "gitbamboo42/cytos",
+      "commit_url": "https://github.com/gitbamboo42/cytos/commit/4db06e956f3734ef8293f976e29d556c8bcd19de"
+    },
+    {
+      "commit_date": "2026-08-08T13:28:21.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/5ed199a11d721f1d1846768b613eaa1f24d39ed7"
+    },
+    {
+      "commit_date": "2026-08-08T11:59:50.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/f01ac372aeb2ce6c063a40bd0c30107527153ddd"
+    },
+    {
+      "commit_date": "2026-08-08T11:34:25.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/31c7bd11fcc508bb06c275613fa15d6211eb2526"
+    },
+    {
+      "commit_date": "2026-08-08T11:02:32.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/aee366c9cb5c3976ce5846001efbcb008cb426d4"
+    },
+    {
+      "commit_date": "2026-08-08T01:55:29.000+02:00",
+      "author": "benedictemarty",
+      "repository": "benedictemarty/xarray",
+      "commit_url": "https://github.com/benedictemarty/xarray/commit/4151c5cd98c5591d2f677642e0843803d15b3fd3"
+    },
+    {
+      "commit_date": "2026-08-07T21:56:47.000-04:00",
+      "author": "emir-radkevich",
+      "repository": "emir-radkevich/PathoLytica",
+      "commit_url": "https://github.com/emir-radkevich/PathoLytica/commit/b817b2a0895d285063b806560e5d102efeb1cc71"
+    },
+    {
+      "commit_date": "2026-08-07T18:52:44.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/b5c0bd299cd2299f581ba0ab66e87a2e842d1423"
+    },
+    {
+      "commit_date": "2026-08-07T17:56:35.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/68129031a61e2d3e3dd8cb4b10574523e2f03953"
+    },
+    {
+      "commit_date": "2026-08-07T16:42:00.000+01:00",
+      "author": "dependabot[bot]",
+      "repository": "ome-zarr-models/ome-zarr-book",
+      "commit_url": "https://github.com/ome-zarr-models/ome-zarr-book/commit/39a78e6ae712b922ade060bc27866a4b1cea8be9"
+    },
+    {
+      "commit_date": "2026-08-07T12:55:44.000+01:00",
+      "author": "AlexBecalick",
+      "repository": "AlexBecalick/napari-spatialomics-viewer",
+      "commit_url": "https://github.com/AlexBecalick/napari-spatialomics-viewer/commit/c8425a95b68d81069c09735f32386a399046fdbf"
+    },
+    {
+      "commit_date": "2026-08-07T12:40:37.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/7bb1b988c738c675b1c629f79aa4c2c981f74100"
+    },
+    {
+      "commit_date": "2026-08-07T00:50:29.000-07:00",
+      "author": "droumis",
+      "repository": "droumis/viz-large-neuro",
+      "commit_url": "https://github.com/droumis/viz-large-neuro/commit/2ea8fe5c3e9d0bd414ff053cf07d21333d42c6bc"
+    },
+    {
+      "commit_date": "2026-08-07T00:07:51.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/Flamingo_Control",
+      "commit_url": "https://github.com/uw-loci/Flamingo_Control/commit/0439ab58dba4bf9f038e698fad1aec5c55521926"
+    },
+    {
+      "commit_date": "2026-08-06T22:56:55.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/af13462a45d8682da0432572e6f12de59205d08b"
+    },
+    {
+      "commit_date": "2026-08-06T22:54:15.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/d594b25d2bef00dd09d0fb8a238a3b46f9030a98"
+    },
+    {
+      "commit_date": "2026-08-06T22:53:00.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/e361662b2a9662240d0b45fc7183bed8d5a89254"
+    },
+    {
+      "commit_date": "2026-08-06T22:51:57.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/2168de65633b24cd255f5f1bc74cb57b1219a915"
+    },
+    {
+      "commit_date": "2026-08-06T21:26:29.000+02:00",
+      "author": "m-albert",
+      "repository": "multiview-stitcher/multiview-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/9d48397b457d839f9984261b3a6d22f273b90e95"
+    },
+    {
+      "commit_date": "2026-08-06T18:34:02.000+05:00",
+      "author": "Asmakhan427",
+      "repository": "Somiyakhan10/Mitochondrial-Segmentation-with-Vision-Transformers",
+      "commit_url": "https://github.com/Somiyakhan10/Mitochondrial-Segmentation-with-Vision-Transformers/commit/96a3d5abc9d8d160d662e7d4908387c586376fdf"
+    },
+    {
+      "commit_date": "2026-08-06T17:37:54.000-04:00",
+      "author": "shntnu",
+      "repository": "shntnu/duckdb-zarr-cellpainting-demo",
+      "commit_url": "https://github.com/shntnu/duckdb-zarr-cellpainting-demo/commit/b2bad7f978fd587120793b911e4af6f48ccdfcd1"
+    },
+    {
+      "commit_date": "2026-08-06T17:09:06.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/d972afba8122ca9b097e7b6cf28d8700644596b7"
+    },
+    {
+      "commit_date": "2026-08-06T16:59:18.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/aed76051eb84c71cceb1409a6b59c90fdee3971a"
+    },
+    {
+      "commit_date": "2026-08-06T16:04:17.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/77365009ea95f26274f12dbd86d0856a0357c273"
+    },
+    {
+      "commit_date": "2026-08-06T15:31:43.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/ab78eb70613b11ecd041653f16adadbf26beda1c"
+    },
+    {
+      "commit_date": "2026-08-06T12:04:54.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/ac3778259689a396723341134cb17761e17f1c4f"
+    },
+    {
+      "commit_date": "2026-08-06T11:21:38.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/9a2353d52a98f24ac2c81a685f389f5a17475135"
+    },
+    {
+      "commit_date": "2026-08-06T10:11:07.000+02:00",
+      "author": "daggermaster3000",
+      "repository": "daggermaster3000/ARGUS",
+      "commit_url": "https://github.com/daggermaster3000/ARGUS/commit/61df8effb7a3d0f64dc6274e24599ee070d88658"
+    },
+    {
+      "commit_date": "2026-08-06T04:27:03.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/10a99f8cbf4494dbe4faa14300605935275bfada"
+    },
+    {
+      "commit_date": "2026-08-06T02:49:45.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/f0609a1f4067c508bd3ee0f5240b1e5d58eb4826"
+    },
+    {
+      "commit_date": "2026-08-06T02:03:09.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/351605975e1ee33ea606386573f03c464e8abfb0"
+    },
+    {
+      "commit_date": "2026-08-06T01:11:16.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/af04bbace7e6bed68ec614b442436e3b27812796"
+    },
+    {
+      "commit_date": "2026-08-06T00:54:29.000+02:00",
+      "author": "m-albert",
+      "repository": "multiview-stitcher/multiview-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/336e674d87806dabfeef39e5e2f659032936ae77"
+    },
+    {
+      "commit_date": "2026-08-06T00:47:07.000-05:00",
+      "author": "gitbamboo42",
+      "repository": "gitbamboo42/cytos",
+      "commit_url": "https://github.com/gitbamboo42/cytos/commit/313fbaaf5edf76c990ec49cb237c15cbfd4084a0"
+    },
+    {
+      "commit_date": "2026-08-06T00:29:19.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/b77063dfb529806f01e9ccae5d9275fa18c0cbf0"
+    },
+    {
+      "commit_date": "2026-08-05T22:23:41.000-05:00",
+      "author": "gitbamboo42",
+      "repository": "gitbamboo42/cytos",
+      "commit_url": "https://github.com/gitbamboo42/cytos/commit/325696419295ecd31db4686ec8fa7bd792aa8fa7"
+    },
+    {
+      "commit_date": "2026-08-05T20:52:21.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/d7bb92ea0d15ae20e1522c69dd04407d21d37e60"
+    },
+    {
+      "commit_date": "2026-08-05T18:46:52.000+02:00",
+      "author": "m-albert",
+      "repository": "multiview-stitcher/multiview-stitcher",
+      "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/8f7bcf2bd6385a9977c849f849f59699374007c1"
+    },
+    {
+      "commit_date": "2026-08-05T18:27:47.000-04:00",
+      "author": "chourroutm",
+      "repository": "chourroutm/ome-zarr-tools",
+      "commit_url": "https://github.com/chourroutm/ome-zarr-tools/commit/f14b79b31a1b20ad5e75009e83fb5fc67a574bd7"
+    },
+    {
+      "commit_date": "2026-08-05T17:34:35.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/2389202a8576773e3bcd3c5be45875a245a789a5"
+    },
+    {
+      "commit_date": "2026-08-05T16:47:37.000-05:00",
+      "author": "TimMonko",
+      "repository": "ndev-kit/ndevio",
+      "commit_url": "https://github.com/ndev-kit/ndevio/commit/8b97128da08e9850d520ce2c0f553ee71d9e0a14"
+    },
+    {
+      "commit_date": "2026-08-05T13:13:18.000-04:00",
+      "author": "chourroutm",
+      "repository": "chourroutm/ome-zarr-tools",
+      "commit_url": "https://github.com/chourroutm/ome-zarr-tools/commit/5b33cdc8b01142d6d95fb446453e7f16458e9720"
+    },
+    {
+      "commit_date": "2026-08-05T12:51:03.000-07:00",
+      "author": "github-actions[bot]",
+      "repository": "czimaginginstitute/zarr-particle-tools",
+      "commit_url": "https://github.com/czimaginginstitute/zarr-particle-tools/commit/18d48b432edf84612954488eeb871deb41a266b0"
+    },
+    {
+      "commit_date": "2026-08-05T11:40:10.000-07:00",
+      "author": "daniel-ji",
+      "repository": "czimaginginstitute/zarr-particle-tools",
+      "commit_url": "https://github.com/czimaginginstitute/zarr-particle-tools/commit/c1be48ae69795ef306d541d04f803555cb9355ac"
+    },
+    {
+      "commit_date": "2026-08-05T11:38:49.000-07:00",
+      "author": "daniel-ji",
+      "repository": "czimaginginstitute/zarr-particle-tools",
+      "commit_url": "https://github.com/czimaginginstitute/zarr-particle-tools/commit/1cc611e70401000896c17d978c0d89dcece0ef5e"
+    },
+    {
+      "commit_date": "2026-08-05T10:05:35.000+02:00",
+      "author": "lorenzocerrone",
+      "repository": "fractal-analytics-platform/fractal-uzh-converters",
+      "commit_url": "https://github.com/fractal-analytics-platform/fractal-uzh-converters/commit/f39cb1d27d7c158a8abdc24cbb5d0dca563269b8"
+    },
+    {
+      "commit_date": "2026-08-05T03:19:24.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/ba2c0d505b41629cde38a87e80c59220b21c8b34"
+    },
+    {
+      "commit_date": "2026-08-04T22:55:25.000+01:00",
+      "author": "CraigMyles",
+      "repository": "CraigMyles/raw2features",
+      "commit_url": "https://github.com/CraigMyles/raw2features/commit/cc363d64c0741061c15c79edd311ec7eaf8b9959"
+    },
+    {
+      "commit_date": "2026-08-04T18:12:24.000+02:00",
+      "author": "Bullo27",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/1493da4f93a340a9f447cf8e3a531c5e34b5731e"
+    },
+    {
+      "commit_date": "2026-08-04T17:39:21.000+02:00",
+      "author": "sceriff0",
+      "repository": "sceriff0/mirage",
+      "commit_url": "https://github.com/sceriff0/mirage/commit/e4b332a26476bce2ae767bc5af19731c75f335f5"
+    },
+    {
+      "commit_date": "2026-08-04T17:23:11.000+02:00",
+      "author": "sceriff0",
+      "repository": "sceriff0/mirage",
+      "commit_url": "https://github.com/sceriff0/mirage/commit/6786390e3eaf2050b0977f4dad4390f196dd41c0"
+    },
+    {
+      "commit_date": "2026-08-04T16:11:54.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/4e472a148cab2ee563f8890fd538f1f6d0e4f5de"
+    },
+    {
+      "commit_date": "2026-08-04T15:12:17.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/836e1aa62608170f3b872eec67945de86331edd6"
+    },
+    {
+      "commit_date": "2026-08-04T14:04:01.000-07:00",
+      "author": "alxmrs",
+      "repository": "xqlsystems/duckdb-zarr",
+      "commit_url": "https://github.com/xqlsystems/duckdb-zarr/commit/46fd7329cca6f6ee5d1ee4f493e9ff3ca6a84db7"
+    },
+    {
+      "commit_date": "2026-08-04T10:49:36.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/696ccf8bab67bb9cf20cc0dd6469c92a63cd1ff2"
+    },
+    {
+      "commit_date": "2026-08-04T10:18:52.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/9f44b2e935ed33f2812a02b26ad5b7cda37db97d"
+    },
+    {
+      "commit_date": "2026-08-04T03:07:19.000-04:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr",
+      "commit_url": "https://github.com/EinarOlafsson/spacr/commit/d5fc8bf7640c9772aa18fec2c1dcdddb6caa1841"
+    },
+    {
+      "commit_date": "2026-08-04T02:19:50.000-04:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr",
+      "commit_url": "https://github.com/EinarOlafsson/spacr/commit/5a248071c8ee5594147eaccac25873aa55daae97"
+    },
+    {
+      "commit_date": "2026-08-04T00:57:29.000-04:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr",
+      "commit_url": "https://github.com/EinarOlafsson/spacr/commit/3a931f7a91c2ebd2a3d5dc3f969b6b93743c306f"
+    },
+    {
+      "commit_date": "2026-08-03T21:44:51.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/nd-image-codecs",
+      "commit_url": "https://github.com/fideus-labs/nd-image-codecs/commit/fea549cba5c01f0dd58b44f7976ab48c7a84e8db"
+    },
+    {
+      "commit_date": "2026-08-03T21:24:20.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/nd-image-codecs",
+      "commit_url": "https://github.com/fideus-labs/nd-image-codecs/commit/226a6d88d6dd82b8df96cfb80156ac56fb9c87f2"
+    },
+    {
+      "commit_date": "2026-08-03T21:10:13.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/nd-image-codecs",
+      "commit_url": "https://github.com/fideus-labs/nd-image-codecs/commit/d73c624ca4edaf9c0391af7ab7c80f492cdd50d9"
+    },
+    {
+      "commit_date": "2026-08-03T17:50:56.000+02:00",
+      "author": "ketang99",
+      "repository": "CCI-GU-Sweden/napari-atlas-cci",
+      "commit_url": "https://github.com/CCI-GU-Sweden/napari-atlas-cci/commit/840e06327f5ac5d3a00d524d6bea1c642e101681"
+    },
+    {
+      "commit_date": "2026-08-03T17:09:51.000-07:00",
+      "author": "github-actions[bot]",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/7ef422f404f80ce8f00a5953c2a9472c8afc200b"
+    },
+    {
+      "commit_date": "2026-08-03T17:07:27.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/879480101c28ccb0ad5d6193bf48382f0c867e5c"
+    },
+    {
+      "commit_date": "2026-08-03T16:59:42.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/f1ba32269b471c0ef41a6d4a8d79eb43b62b84cf"
+    },
+    {
+      "commit_date": "2026-08-03T16:48:58.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/f16b93fd06db2fa605e5dbfecbce9403bb006df2"
+    },
+    {
+      "commit_date": "2026-08-03T16:48:32.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/68bb9038ddfa0a26e819de46826ec669bec6499b"
+    },
+    {
+      "commit_date": "2026-08-03T15:10:27.000+10:00",
+      "author": "JurgenKriel",
+      "repository": "JurgenKriel/macro_candi",
+      "commit_url": "https://github.com/JurgenKriel/macro_candi/commit/d2b2976b72820bc9d23f27ef12be8d8127f79def"
+    },
+    {
+      "commit_date": "2026-08-03T13:57:46.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/f32733534b771c3d7c1d281548786286d31e1da9"
+    },
+    {
+      "commit_date": "2026-08-03T13:24:52.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/b77e74a5203ff2c15d906b82c00a363aa8d7ed1d"
+    },
+    {
+      "commit_date": "2026-08-03T12:06:42.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/14c0c9d11a8f821b9e09b680c7124623a0ac2c64"
+    },
+    {
+      "commit_date": "2026-08-03T10:54:35.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/e0dcfc8c49a75c7c5f9c2bbbd2ee7d765dc3076d"
+    },
     {
       "commit_date": "2026-08-03T03:23:04.000+02:00",
       "author": "Barnabas_Nemeth",
@@ -15,6 +519,12 @@
       "author": "Barnabas_Nemeth",
       "repository": "Barnabas-Nemeth/barna-utils",
       "commit_url": "https://github.com/Barnabas-Nemeth/barna-utils/commit/d8e207b5cefb7faa0362499a0165cb231a00ad89"
+    },
+    {
+      "commit_date": "2026-08-02T23:21:28.000-06:00",
+      "author": "Jesus-przrd",
+      "repository": "Jesus-przrd/Gunflint-specimen-tour",
+      "commit_url": "https://github.com/Jesus-przrd/Gunflint-specimen-tour/commit/e4abb9853f975bcac5506e4082249a7b530acd7c"
     },
     {
       "commit_date": "2026-08-02T15:57:33.000+05:30",
