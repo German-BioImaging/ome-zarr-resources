@@ -1,9 +1,27 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-09T01:58:56+00:00",
+  "generated": "2026-08-10T01:59:12+00:00",
   "recent_days": 10,
-  "total_commits": 1493,
+  "total_commits": 1496,
   "commits": [
+    {
+      "commit_date": "2026-08-09T15:16:11.000-07:00",
+      "author": "stebo85",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/97042c30ea952b8a384e8a2d0edb624b944f1ea4"
+    },
+    {
+      "commit_date": "2026-08-09T15:15:25.000-07:00",
+      "author": "stebo85",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/69e7da11a8f9b1acfae34cd979abbfbe6d3c9e46"
+    },
+    {
+      "commit_date": "2026-08-09T13:29:09.000+01:00",
+      "author": "bjc25-eng",
+      "repository": "bjc25-eng/KT3-Organoid-Analyzer",
+      "commit_url": "https://github.com/bjc25-eng/KT3-Organoid-Analyzer/commit/cedbd0a93802ec5759b894c8337f2157a6ae0de3"
+    },
     {
       "commit_date": "2026-08-08T18:47:36.000+01:00",
       "author": "bjc25-eng",
