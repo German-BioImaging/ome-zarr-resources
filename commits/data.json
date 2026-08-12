@@ -1,9 +1,87 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-11T01:59:12+00:00",
+  "generated": "2026-08-12T01:59:32+00:00",
   "recent_days": 10,
-  "total_commits": 1503,
+  "total_commits": 1520,
   "commits": [
+    {
+      "commit_date": "2026-08-11T20:51:12.000+01:00",
+      "author": "alessandrofelder",
+      "repository": "neuroinformatics-unit/course-large-array-data",
+      "commit_url": "https://github.com/neuroinformatics-unit/course-large-array-data/commit/612162051e8154f304666bfe98ee21e1eb4be712"
+    },
+    {
+      "commit_date": "2026-08-11T20:22:01.000+03:00",
+      "author": "BiologyTools",
+      "repository": "BiologyTools/Zarr.NET",
+      "commit_url": "https://github.com/BiologyTools/Zarr.NET/commit/00e516f0e22003eae349cbe6df8b71e95dc10e6b"
+    },
+    {
+      "commit_date": "2026-08-11T16:33:02.000+02:00",
+      "author": "leoschwarz",
+      "repository": "fgcz/depiction",
+      "commit_url": "https://github.com/fgcz/depiction/commit/017f2bdef4009aa234360731677b0da0b2a588f3"
+    },
+    {
+      "commit_date": "2026-08-11T16:08:55.000-06:00",
+      "author": "odfalik",
+      "repository": "Strand-AI/strand-sdk-python",
+      "commit_url": "https://github.com/Strand-AI/strand-sdk-python/commit/7dbe351255e4c87f4d837b2fb31d75aef891a5c3"
+    },
+    {
+      "commit_date": "2026-08-11T15:05:47.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/d37d62dd92cab61efe649cbb292feb50eb3ad4d7"
+    },
+    {
+      "commit_date": "2026-08-11T14:57:05.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/66344bc5d427d07d4a5addd540b65212827ea962"
+    },
+    {
+      "commit_date": "2026-08-11T14:54:28.000+02:00",
+      "author": "leclercsimon74",
+      "repository": "CCI-GU-Sweden/napari-atlas-cci",
+      "commit_url": "https://github.com/CCI-GU-Sweden/napari-atlas-cci/commit/ad0c8164567062cb7adad96cad39dff5eb5007cf"
+    },
+    {
+      "commit_date": "2026-08-11T14:53:51.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/4a45ff4321add893c110aacf06fd19c2d61937de"
+    },
+    {
+      "commit_date": "2026-08-11T14:49:40.000-05:00",
+      "author": "Ahmet Nazim Sahin",
+      "repository": "ahmetnazim/Napari-Biozarr-Sam",
+      "commit_url": "https://github.com/ahmetnazim/Napari-Biozarr-Sam/commit/8ce0364154dac9a17d0d94c98ae0cd9819f9d56a"
+    },
+    {
+      "commit_date": "2026-08-11T13:02:40.000+01:00",
+      "author": "gouttegd",
+      "repository": "gouttegd/yamf-playground",
+      "commit_url": "https://github.com/gouttegd/yamf-playground/commit/fae4b201d378e975d91ee1c34c81fe633d622160"
+    },
+    {
+      "commit_date": "2026-08-11T12:37:19.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/2940dfba12695ca5f3b7bf3da4aff001de74fb99"
+    },
+    {
+      "commit_date": "2026-08-11T03:35:27.000-07:00",
+      "author": "warbol",
+      "repository": "focolab/decant",
+      "commit_url": "https://github.com/focolab/decant/commit/7a43b8f3dddb6a42973d4555e8832ac22e491a84"
+    },
+    {
+      "commit_date": "2026-08-10T23:50:51.000-05:00",
+      "author": "gitbamboo42",
+      "repository": "gitbamboo42/cytos",
+      "commit_url": "https://github.com/gitbamboo42/cytos/commit/c66f7edf0c4a8785aacf836dd084f1635ac0e651"
+    },
     {
       "commit_date": "2026-08-10T18:56:07.000+01:00",
       "author": "gouttegd",
@@ -11,10 +89,34 @@
       "commit_url": "https://github.com/gouttegd/yamf-playground/commit/78dc4fefbb076c7316f81b1bc35827ccbf4df9f9"
     },
     {
+      "commit_date": "2026-08-10T18:09:49.000-07:00",
+      "author": "aelefebv",
+      "repository": "aelefebv/lucida",
+      "commit_url": "https://github.com/aelefebv/lucida/commit/65a36ca4c652a7007ea570560390290164e7fa29"
+    },
+    {
+      "commit_date": "2026-08-10T17:50:13.000+01:00",
+      "author": "K-Meech",
+      "repository": "neuroinformatics-unit/course-large-array-data",
+      "commit_url": "https://github.com/neuroinformatics-unit/course-large-array-data/commit/bc9485314e6b8c9ca568c24587a60dea2dfad86b"
+    },
+    {
       "commit_date": "2026-08-10T15:21:02.000+10:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/383ea3eac62bcf5ddf1feb482e5e6df504f23b87"
+    },
+    {
+      "commit_date": "2026-08-10T14:35:56.000+01:00",
+      "author": "K-Meech",
+      "repository": "neuroinformatics-unit/course-large-array-data",
+      "commit_url": "https://github.com/neuroinformatics-unit/course-large-array-data/commit/3bb128e2f87c089470e7b50241aa582f0243308b"
+    },
+    {
+      "commit_date": "2026-08-10T06:23:39.000-05:00",
+      "author": "gitbamboo42",
+      "repository": "gitbamboo42/cytos",
+      "commit_url": "https://github.com/gitbamboo42/cytos/commit/1513e5c0f3081902e529f36fda5c09cfa6a1a056"
     },
     {
       "commit_date": "2026-08-10T00:22:12.000+02:00",
