@@ -1,9 +1,45 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-13T01:59:24+00:00",
+  "generated": "2026-08-14T01:59:41+00:00",
   "recent_days": 10,
-  "total_commits": 1536,
+  "total_commits": 1542,
   "commits": [
+    {
+      "commit_date": "2026-08-13T18:02:15.000+01:00",
+      "author": "gouttegd",
+      "repository": "gouttegd/yamf-playground",
+      "commit_url": "https://github.com/gouttegd/yamf-playground/commit/c33f13e15d7cd6e2e57d4b0054ed52110ed13479"
+    },
+    {
+      "commit_date": "2026-08-13T13:23:39.000+02:00",
+      "author": "nilsmechtel",
+      "repository": "bioimage-io/bioimage.io",
+      "commit_url": "https://github.com/bioimage-io/bioimage.io/commit/99c85e7750b61dd93a0abd3ab44e3c6ca9b7aecb"
+    },
+    {
+      "commit_date": "2026-08-13T12:03:46.000+02:00",
+      "author": "nilsmechtel",
+      "repository": "aicell-lab/bioengine",
+      "commit_url": "https://github.com/aicell-lab/bioengine/commit/15ac88c8775fba933d3d095e6c033b3ad814a5b2"
+    },
+    {
+      "commit_date": "2026-08-13T10:58:13.000-07:00",
+      "author": "tayllatheodoro",
+      "repository": "czbiohub-sf/biahub",
+      "commit_url": "https://github.com/czbiohub-sf/biahub/commit/5c3baa21aa7a9121ecbe9427f5ac4900cf424181"
+    },
+    {
+      "commit_date": "2026-08-13T10:29:48.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/cf8cd3f4ef4f787388f51b5cef2f4b6f9c0a9a0d"
+    },
+    {
+      "commit_date": "2026-08-13T09:24:08.000+05:30",
+      "author": "TausiqVarma",
+      "repository": "TausiqVarma/omezarr-research",
+      "commit_url": "https://github.com/TausiqVarma/omezarr-research/commit/1d433126cca025126a81763a7e4d259b9f75d399"
+    },
     {
       "commit_date": "2026-08-13T01:49:14.000+02:00",
       "author": "regro-cf-autotick-bot",
