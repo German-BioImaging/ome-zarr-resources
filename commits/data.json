@@ -1,9 +1,51 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-14T01:59:41+00:00",
+  "generated": "2026-08-15T01:50:49+00:00",
   "recent_days": 10,
-  "total_commits": 1542,
+  "total_commits": 1549,
   "commits": [
+    {
+      "commit_date": "2026-08-14T16:56:06.000-07:00",
+      "author": "andythai",
+      "repository": "UCI-XuLab/blood-vessel-processing",
+      "commit_url": "https://github.com/UCI-XuLab/blood-vessel-processing/commit/52abb9f62846d1478bf79f22d3ae7600ba8290a5"
+    },
+    {
+      "commit_date": "2026-08-14T16:01:42.000-07:00",
+      "author": "odfalik",
+      "repository": "Strand-AI/strand-sdk-python",
+      "commit_url": "https://github.com/Strand-AI/strand-sdk-python/commit/b52a49cccc6240509c96cdc69e9608f12e128ec6"
+    },
+    {
+      "commit_date": "2026-08-14T16:01:42.000-07:00",
+      "author": "odfalik",
+      "repository": "Strand-AI/strand-sdk-r",
+      "commit_url": "https://github.com/Strand-AI/strand-sdk-r/commit/947f45035204ac3df12270c1e910de357887a433"
+    },
+    {
+      "commit_date": "2026-08-14T14:09:54.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/biahub",
+      "commit_url": "https://github.com/czbiohub-sf/biahub/commit/433605bddd6dd342e17f891a131fc638fb30ed97"
+    },
+    {
+      "commit_date": "2026-08-14T13:07:53.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/c5539703788fa487e2d36a3e2e97692f214a4c81"
+    },
+    {
+      "commit_date": "2026-08-14T12:09:47.000+01:00",
+      "author": "gouttegd",
+      "repository": "gouttegd/yamf-playground",
+      "commit_url": "https://github.com/gouttegd/yamf-playground/commit/1b723369aeff24fc1e90d3f33c0bfadf70cca2a0"
+    },
+    {
+      "commit_date": "2026-08-14T09:39:32.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/e234e1df4855cfa295c812aa717904e5d36b9f61"
+    },
     {
       "commit_date": "2026-08-13T18:02:15.000+01:00",
       "author": "gouttegd",
