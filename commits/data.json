@@ -1,9 +1,129 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-17T01:53:14+00:00",
+  "generated": "2026-08-18T01:51:04+00:00",
   "recent_days": 10,
-  "total_commits": 1559,
+  "total_commits": 1579,
   "commits": [
+    {
+      "commit_date": "2026-08-18T00:42:26.000+02:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/db5c2b524eacd0c4f213caee0f67c4707d0f4dc8"
+    },
+    {
+      "commit_date": "2026-08-17T20:05:27.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/ca6f97d25e2bd2f8ab46ccfbe098117addeefa7e"
+    },
+    {
+      "commit_date": "2026-08-17T18:00:08.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/326fa6cfe8a9e3ea71e2a159ba6cecb084a64d09"
+    },
+    {
+      "commit_date": "2026-08-17T17:59:00.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/9ca39bff186f1fe72c0acdcf4a50b01adbdb3d62"
+    },
+    {
+      "commit_date": "2026-08-17T16:55:11.000+02:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/cb19b2b9123456ee143725f92dd9adcb867dbcaa"
+    },
+    {
+      "commit_date": "2026-08-17T16:11:11.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/9b5d93b15fad806572a736b3086a0480153cfa5e"
+    },
+    {
+      "commit_date": "2026-08-17T15:38:08.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/f60d4fa9f088ac0517f3305ebbf93ba89bee495a"
+    },
+    {
+      "commit_date": "2026-08-17T14:24:24.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/4576d747643c9909817a9bcd6b429b482ecfa4e5"
+    },
+    {
+      "commit_date": "2026-08-17T14:16:01.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/biahub",
+      "commit_url": "https://github.com/czbiohub-sf/biahub/commit/2b5d4e83056f9b5a3bb88d9811d5313623ba8b67"
+    },
+    {
+      "commit_date": "2026-08-17T13:55:55.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/605536babbf8798ee83af95b62b470d34fa646e6"
+    },
+    {
+      "commit_date": "2026-08-17T12:53:15.000+01:00",
+      "author": "will-moore",
+      "repository": "conda-forge/napari-ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/napari-ome-zarr-feedstock/commit/ec54f42ccee5942c7ee7c6e359e8facf11948489"
+    },
+    {
+      "commit_date": "2026-08-17T12:17:00.000+02:00",
+      "author": "oleksiievetsno",
+      "repository": "oleksiievetsno/scapecontrol",
+      "commit_url": "https://github.com/oleksiievetsno/scapecontrol/commit/3ed531d7805fd62a89c541db4d3b1bcc11c4486c"
+    },
+    {
+      "commit_date": "2026-08-17T12:16:32.000+02:00",
+      "author": "oleksiievetsno",
+      "repository": "oleksiievetsno/scapecontrol",
+      "commit_url": "https://github.com/oleksiievetsno/scapecontrol/commit/db3b5eb3b2bccdc7c3f251e8f6056a26e4d06fb7"
+    },
+    {
+      "commit_date": "2026-08-17T11:53:29.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/8b207f6c43ed4933ecd2e813142a75f0c0870a64"
+    },
+    {
+      "commit_date": "2026-08-17T11:51:34.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/3a64f26bc7868bc7bdc0bf7282f7ff7fb01a160a"
+    },
+    {
+      "commit_date": "2026-08-17T11:21:59.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/a464faec147e6762793c25f18d88b4729673c9d6"
+    },
+    {
+      "commit_date": "2026-08-17T10:17:07.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/5094bf69b0aed3864d963e88562d80e6d05f41ff"
+    },
+    {
+      "commit_date": "2026-08-17T09:48:18.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/157af2691e3030ef2f9a3fe7694ea0808cc17d0d"
+    },
+    {
+      "commit_date": "2026-08-17T09:08:17.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/5c47ca20b86da30f98cfee7d49f9e895d97c7ff8"
+    },
+    {
+      "commit_date": "2026-08-16T23:33:22.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/72c33177bf74e31a3c601572a720f20e5609840a"
+    },
     {
       "commit_date": "2026-08-16T22:42:29.000+02:00",
       "author": "regro-cf-autotick-bot",
