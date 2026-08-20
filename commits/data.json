@@ -1,9 +1,69 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-19T01:52:26+00:00",
+  "generated": "2026-08-20T01:51:33+00:00",
   "recent_days": 10,
-  "total_commits": 1604,
+  "total_commits": 1615,
   "commits": [
+    {
+      "commit_date": "2026-08-20T10:12:33.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/dd1651b231df583b2965ed52a4718b3d26802060"
+    },
+    {
+      "commit_date": "2026-08-20T01:44:20.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/c4aa6b45c7088323df3206159b0c61b071f41468"
+    },
+    {
+      "commit_date": "2026-08-20T00:36:22.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/61687007647ebcd33408d47902fd2125fdd7be74"
+    },
+    {
+      "commit_date": "2026-08-20T00:16:22.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/30cced91132bb1de63191717018b49d585ca9ee5"
+    },
+    {
+      "commit_date": "2026-08-19T22:41:55.000Z",
+      "author": "renovate[bot]",
+      "repository": "darosio/nima_io",
+      "commit_url": "https://github.com/darosio/nima_io/commit/2019f1ba469b011543f58ad4d7347d0bc69249b9"
+    },
+    {
+      "commit_date": "2026-08-19T16:59:31.000+01:00",
+      "author": "sbesson",
+      "repository": "glencoesoftware/NGFF-Converter",
+      "commit_url": "https://github.com/glencoesoftware/NGFF-Converter/commit/09c3ae635530b1d99a15c0c95a4b33781a883c5c"
+    },
+    {
+      "commit_date": "2026-08-19T15:29:26.000+10:00",
+      "author": "rtubelleza",
+      "repository": "rtubelleza/bioio-qptiff",
+      "commit_url": "https://github.com/rtubelleza/bioio-qptiff/commit/23e46aaa39a3d9c2adcce33d20fe691e1fc75d2a"
+    },
+    {
+      "commit_date": "2026-08-19T14:13:53.000+02:00",
+      "author": "MaksHess",
+      "repository": "MaksHess/convert-ls1-datasets",
+      "commit_url": "https://github.com/MaksHess/convert-ls1-datasets/commit/c1b5445427dae95bc13b286778c03d86cf847373"
+    },
+    {
+      "commit_date": "2026-08-19T13:32:03.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/biahub",
+      "commit_url": "https://github.com/czbiohub-sf/biahub/commit/47d01af2b9fd27674ccc0311ed440546b999f9b7"
+    },
+    {
+      "commit_date": "2026-08-19T13:15:15.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/flamingo-stitcher",
+      "commit_url": "https://github.com/uw-loci/flamingo-stitcher/commit/aab2484e07dcf159482c37536ddd730d9e3d6aaa"
+    },
     {
       "commit_date": "2026-08-19T01:11:26.000+02:00",
       "author": "lednicky-t",
@@ -21,6 +81,12 @@
       "author": "vboussot",
       "repository": "fideus-labs/KonfAI",
       "commit_url": "https://github.com/fideus-labs/KonfAI/commit/a7e7090d0ff3ebfa46a7f2d3c5b9aa0ef47ba0cc"
+    },
+    {
+      "commit_date": "2026-08-18T21:05:43.000-04:00",
+      "author": "psadil",
+      "repository": "psadil/bidslake",
+      "commit_url": "https://github.com/psadil/bidslake/commit/c1908fc7ef6580c06cd88c009011134f7b61655b"
     },
     {
       "commit_date": "2026-08-18T20:13:39.000-04:00",
