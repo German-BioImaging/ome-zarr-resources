@@ -1,14 +1,134 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-20T01:51:33+00:00",
+  "generated": "2026-08-21T01:54:45+00:00",
   "recent_days": 10,
-  "total_commits": 1615,
+  "total_commits": 1637,
   "commits": [
+    {
+      "commit_date": "2026-08-20T19:35:05.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/118d4d679d0fb146f6828bff4003a6d4411adabf"
+    },
+    {
+      "commit_date": "2026-08-20T19:28:44.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage-LabViewer",
+      "commit_url": "https://github.com/a-r-d/PureJsImage-LabViewer/commit/19a2ef213c27a9197f0617aca649e3ea9a08fddf"
+    },
+    {
+      "commit_date": "2026-08-20T17:23:58.000+02:00",
+      "author": "michelle-elias",
+      "repository": "matthiaskoenig/slideviz",
+      "commit_url": "https://github.com/matthiaskoenig/slideviz/commit/33e493d7762c4660b2c22f055a0d2a378dafc8b9"
+    },
+    {
+      "commit_date": "2026-08-20T17:16:51.000+01:00",
+      "author": "SanjaJasek",
+      "repository": "SanjaJasek/tiff_to_OME-zarr",
+      "commit_url": "https://github.com/SanjaJasek/tiff_to_OME-zarr/commit/1876d39bb8d163fd97c4f9777b7bc1fffc830224"
+    },
+    {
+      "commit_date": "2026-08-20T17:12:31.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/37bc0de5f7ca5ba0007079c6736fd34a41ce313b"
+    },
+    {
+      "commit_date": "2026-08-20T16:18:04.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/819ef243cee9d746bae6d7c3f4eda91b1ed31a17"
+    },
+    {
+      "commit_date": "2026-08-20T15:47:56.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/c9cdb03a446a9956e036ea22e69247240886ed6f"
+    },
+    {
+      "commit_date": "2026-08-20T14:56:53.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/53eda3798fd9b7e6f93fa9082724b3218c1ed789"
+    },
+    {
+      "commit_date": "2026-08-20T13:53:06.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/ba09881a8ac34563055461042ce7e00c061712c6"
+    },
+    {
+      "commit_date": "2026-08-20T13:02:11.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/59010d6005144bdc69346a5096cc93634a172e98"
+    },
+    {
+      "commit_date": "2026-08-20T12:28:13.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/0bc3ba7e71ba1094124c74843354825e533204a9"
+    },
+    {
+      "commit_date": "2026-08-20T12:10:37.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/1c2ec0b972864d658dda76480b7dedecbcb6a68c"
+    },
+    {
+      "commit_date": "2026-08-20T11:51:44.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/29d1573210ec1e1da697126995dad6001788a201"
+    },
+    {
+      "commit_date": "2026-08-20T11:45:43.000-04:00",
+      "author": "yuriyzubov",
+      "repository": "yuriyzubov/cellmap-utils",
+      "commit_url": "https://github.com/yuriyzubov/cellmap-utils/commit/ccb5a21704878c979c0d50642273f30ee254b837"
+    },
+    {
+      "commit_date": "2026-08-20T11:15:42.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/6463dfbcda981ba450acc302c5ef334262074c5f"
+    },
+    {
+      "commit_date": "2026-08-20T11:08:46.000-04:00",
+      "author": "yuriyzubov",
+      "repository": "yuriyzubov/cellmap-utils",
+      "commit_url": "https://github.com/yuriyzubov/cellmap-utils/commit/9d2734f8ee9b1a2315e8b1c1aea7eeb3b250f013"
+    },
+    {
+      "commit_date": "2026-08-20T10:46:03.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/48c1f671d64dfac728b264ae4ebcdba2833d22c9"
+    },
+    {
+      "commit_date": "2026-08-20T10:43:15.000+02:00",
+      "author": "imagejan",
+      "repository": "conda-forge/bioio-ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/bioio-ome-zarr-feedstock/commit/f2df54198b135d5d549d4df01183889efab0f838"
+    },
+    {
+      "commit_date": "2026-08-20T10:30:29.000+02:00",
+      "author": "m-albert",
+      "repository": "bsse-scf/ome-zarr-portal",
+      "commit_url": "https://github.com/bsse-scf/ome-zarr-portal/commit/c19e59444abfe3131f96b3ee512b9aea0e304ac7"
+    },
     {
       "commit_date": "2026-08-20T10:12:33.000+10:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/dd1651b231df583b2965ed52a4718b3d26802060"
+    },
+    {
+      "commit_date": "2026-08-20T08:43:24.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/db25e1cbdfef6353c46378f06877b1794ecc0aee"
     },
     {
       "commit_date": "2026-08-20T01:44:20.000+02:00",
@@ -33,6 +153,18 @@
       "author": "renovate[bot]",
       "repository": "darosio/nima_io",
       "commit_url": "https://github.com/darosio/nima_io/commit/2019f1ba469b011543f58ad4d7347d0bc69249b9"
+    },
+    {
+      "commit_date": "2026-08-19T22:05:54.000-05:00",
+      "author": "gitbamboo42",
+      "repository": "gitbamboo42/cytos",
+      "commit_url": "https://github.com/gitbamboo42/cytos/commit/697dd5acfdcab7df0a7e466d8a09439069eff72f"
+    },
+    {
+      "commit_date": "2026-08-19T21:31:19.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/b9fac92dd9f8679b3eaf1980dca73aed73079552"
     },
     {
       "commit_date": "2026-08-19T16:59:31.000+01:00",
