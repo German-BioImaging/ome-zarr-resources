@@ -1,9 +1,105 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-21T01:54:45+00:00",
+  "generated": "2026-08-22T01:51:07+00:00",
   "recent_days": 10,
-  "total_commits": 1637,
+  "total_commits": 1654,
   "commits": [
+    {
+      "commit_date": "2026-08-21T15:30:49.000+02:00",
+      "author": "lorenzocerrone",
+      "repository": "BioVisionCenter/ngio",
+      "commit_url": "https://github.com/BioVisionCenter/ngio/commit/a083e289a69a82472ba2acdb9f2ab9fd5e9f5228"
+    },
+    {
+      "commit_date": "2026-08-21T15:14:04.000-04:00",
+      "author": "chourroutm",
+      "repository": "chourroutm/ome-zarr-tools",
+      "commit_url": "https://github.com/chourroutm/ome-zarr-tools/commit/5ace3ca667757aeba0a809a0cb5da00cccda0d53"
+    },
+    {
+      "commit_date": "2026-08-21T14:28:15.000+01:00",
+      "author": "SanjaJasek",
+      "repository": "SanjaJasek/tiff_to_OME-zarr",
+      "commit_url": "https://github.com/SanjaJasek/tiff_to_OME-zarr/commit/7b35d6547004b592ec84872f41de24a28d752c73"
+    },
+    {
+      "commit_date": "2026-08-21T14:20:08.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/96dfc2dfc5c9cb0ab066e5297eaa58187c26196b"
+    },
+    {
+      "commit_date": "2026-08-21T12:17:38.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/7c018e917528fda1ee54899666664519a796958a"
+    },
+    {
+      "commit_date": "2026-08-21T11:07:50.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/75b7e8b796aed81864e8095e315e8ed954e18f7d"
+    },
+    {
+      "commit_date": "2026-08-21T09:06:49.000Z",
+      "author": "aschampion",
+      "repository": "e11bio/prepipe-containers",
+      "commit_url": "https://github.com/e11bio/prepipe-containers/commit/382e3c03248944ea88da50c43c30faca22ad74f7"
+    },
+    {
+      "commit_date": "2026-08-21T08:49:38.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/337dc0f9b51cac9d5164a32a89f4307b4f9e3644"
+    },
+    {
+      "commit_date": "2026-08-21T08:00:37.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/ca2b1537087ab3cf1e68fcd0f896fbae55c3d20a"
+    },
+    {
+      "commit_date": "2026-08-21T01:00:20.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/de8ec469e97a6e94366be7bd89790482265a009a"
+    },
+    {
+      "commit_date": "2026-08-21T00:52:51.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/acqstore",
+      "commit_url": "https://github.com/mapmanager/acqstore/commit/0c24afa4f5f2bcdedfb73e3540966124791d3f35"
+    },
+    {
+      "commit_date": "2026-08-21T00:38:48.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/04715342120b97c3c84d8fe6d82ababc1020834f"
+    },
+    {
+      "commit_date": "2026-08-21T00:36:53.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/acqstore",
+      "commit_url": "https://github.com/mapmanager/acqstore/commit/e3459f4f8962a82eff95093e5373972239be269f"
+    },
+    {
+      "commit_date": "2026-08-21T00:15:28.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage-LabViewer",
+      "commit_url": "https://github.com/a-r-d/PureJsImage-LabViewer/commit/e8b65cbbad34bbfbaeb34e8b9d1a8b4e82a6af63"
+    },
+    {
+      "commit_date": "2026-08-20T23:38:12.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/20721b473543065b6e785c2d9e9f79313ac2f700"
+    },
+    {
+      "commit_date": "2026-08-20T23:23:02.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/00cec973be269554a5afbdaed482c36a26a5c229"
+    },
     {
       "commit_date": "2026-08-20T19:35:05.000-04:00",
       "author": "cudmore",
@@ -15,6 +111,12 @@
       "author": "a-r-d",
       "repository": "a-r-d/PureJsImage-LabViewer",
       "commit_url": "https://github.com/a-r-d/PureJsImage-LabViewer/commit/19a2ef213c27a9197f0617aca649e3ea9a08fddf"
+    },
+    {
+      "commit_date": "2026-08-20T17:52:13.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/nd-image-codecs",
+      "commit_url": "https://github.com/fideus-labs/nd-image-codecs/commit/4445a13f3d1b699949cbd8906571359ff6881701"
     },
     {
       "commit_date": "2026-08-20T17:23:58.000+02:00",
