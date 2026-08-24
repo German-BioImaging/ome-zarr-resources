@@ -1,9 +1,597 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-17T01:53:14+00:00",
+  "generated": "2026-08-24T01:54:36+00:00",
   "recent_days": 10,
-  "total_commits": 1559,
+  "total_commits": 1657,
   "commits": [
+    {
+      "commit_date": "2026-08-23T19:35:44.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/c500b5484ecf0370f2602fb1eb323efe356b0c65"
+    },
+    {
+      "commit_date": "2026-08-23T19:31:40.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/4b75c4fae2625db033c52435d60986edb769c6cd"
+    },
+    {
+      "commit_date": "2026-08-23T11:56:26.000-04:00",
+      "author": "Anand Kadumberi",
+      "repository": "anandpreshob/ai-medical-imaging-book",
+      "commit_url": "https://github.com/anandpreshob/ai-medical-imaging-book/commit/a9aa6af00b7a197f8c45c184f3ad5c89dd422fb1"
+    },
+    {
+      "commit_date": "2026-08-21T15:30:49.000+02:00",
+      "author": "lorenzocerrone",
+      "repository": "BioVisionCenter/ngio",
+      "commit_url": "https://github.com/BioVisionCenter/ngio/commit/a083e289a69a82472ba2acdb9f2ab9fd5e9f5228"
+    },
+    {
+      "commit_date": "2026-08-21T15:14:04.000-04:00",
+      "author": "chourroutm",
+      "repository": "chourroutm/ome-zarr-tools",
+      "commit_url": "https://github.com/chourroutm/ome-zarr-tools/commit/5ace3ca667757aeba0a809a0cb5da00cccda0d53"
+    },
+    {
+      "commit_date": "2026-08-21T14:28:15.000+01:00",
+      "author": "SanjaJasek",
+      "repository": "SanjaJasek/tiff_to_OME-zarr",
+      "commit_url": "https://github.com/SanjaJasek/tiff_to_OME-zarr/commit/7b35d6547004b592ec84872f41de24a28d752c73"
+    },
+    {
+      "commit_date": "2026-08-21T14:20:08.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/96dfc2dfc5c9cb0ab066e5297eaa58187c26196b"
+    },
+    {
+      "commit_date": "2026-08-21T12:17:38.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/7c018e917528fda1ee54899666664519a796958a"
+    },
+    {
+      "commit_date": "2026-08-21T11:07:50.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/75b7e8b796aed81864e8095e315e8ed954e18f7d"
+    },
+    {
+      "commit_date": "2026-08-21T09:06:49.000Z",
+      "author": "aschampion",
+      "repository": "e11bio/prepipe-containers",
+      "commit_url": "https://github.com/e11bio/prepipe-containers/commit/382e3c03248944ea88da50c43c30faca22ad74f7"
+    },
+    {
+      "commit_date": "2026-08-21T08:49:38.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/337dc0f9b51cac9d5164a32a89f4307b4f9e3644"
+    },
+    {
+      "commit_date": "2026-08-21T08:00:37.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/ca2b1537087ab3cf1e68fcd0f896fbae55c3d20a"
+    },
+    {
+      "commit_date": "2026-08-21T01:00:20.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/de8ec469e97a6e94366be7bd89790482265a009a"
+    },
+    {
+      "commit_date": "2026-08-21T00:52:51.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/acqstore",
+      "commit_url": "https://github.com/mapmanager/acqstore/commit/0c24afa4f5f2bcdedfb73e3540966124791d3f35"
+    },
+    {
+      "commit_date": "2026-08-21T00:38:48.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/04715342120b97c3c84d8fe6d82ababc1020834f"
+    },
+    {
+      "commit_date": "2026-08-21T00:36:53.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/acqstore",
+      "commit_url": "https://github.com/mapmanager/acqstore/commit/e3459f4f8962a82eff95093e5373972239be269f"
+    },
+    {
+      "commit_date": "2026-08-21T00:15:28.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage-LabViewer",
+      "commit_url": "https://github.com/a-r-d/PureJsImage-LabViewer/commit/e8b65cbbad34bbfbaeb34e8b9d1a8b4e82a6af63"
+    },
+    {
+      "commit_date": "2026-08-20T23:38:12.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/20721b473543065b6e785c2d9e9f79313ac2f700"
+    },
+    {
+      "commit_date": "2026-08-20T23:23:02.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/00cec973be269554a5afbdaed482c36a26a5c229"
+    },
+    {
+      "commit_date": "2026-08-20T19:35:05.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/118d4d679d0fb146f6828bff4003a6d4411adabf"
+    },
+    {
+      "commit_date": "2026-08-20T19:28:44.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage-LabViewer",
+      "commit_url": "https://github.com/a-r-d/PureJsImage-LabViewer/commit/19a2ef213c27a9197f0617aca649e3ea9a08fddf"
+    },
+    {
+      "commit_date": "2026-08-20T17:52:13.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/nd-image-codecs",
+      "commit_url": "https://github.com/fideus-labs/nd-image-codecs/commit/4445a13f3d1b699949cbd8906571359ff6881701"
+    },
+    {
+      "commit_date": "2026-08-20T17:23:58.000+02:00",
+      "author": "michelle-elias",
+      "repository": "matthiaskoenig/slideviz",
+      "commit_url": "https://github.com/matthiaskoenig/slideviz/commit/33e493d7762c4660b2c22f055a0d2a378dafc8b9"
+    },
+    {
+      "commit_date": "2026-08-20T17:16:51.000+01:00",
+      "author": "SanjaJasek",
+      "repository": "SanjaJasek/tiff_to_OME-zarr",
+      "commit_url": "https://github.com/SanjaJasek/tiff_to_OME-zarr/commit/1876d39bb8d163fd97c4f9777b7bc1fffc830224"
+    },
+    {
+      "commit_date": "2026-08-20T17:12:31.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/37bc0de5f7ca5ba0007079c6736fd34a41ce313b"
+    },
+    {
+      "commit_date": "2026-08-20T16:18:04.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/819ef243cee9d746bae6d7c3f4eda91b1ed31a17"
+    },
+    {
+      "commit_date": "2026-08-20T15:47:56.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/c9cdb03a446a9956e036ea22e69247240886ed6f"
+    },
+    {
+      "commit_date": "2026-08-20T14:56:53.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/53eda3798fd9b7e6f93fa9082724b3218c1ed789"
+    },
+    {
+      "commit_date": "2026-08-20T13:53:06.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/ba09881a8ac34563055461042ce7e00c061712c6"
+    },
+    {
+      "commit_date": "2026-08-20T13:02:11.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/59010d6005144bdc69346a5096cc93634a172e98"
+    },
+    {
+      "commit_date": "2026-08-20T12:28:13.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/0bc3ba7e71ba1094124c74843354825e533204a9"
+    },
+    {
+      "commit_date": "2026-08-20T12:10:37.000-04:00",
+      "author": "maragall",
+      "repository": "maragall/SquidXplorer",
+      "commit_url": "https://github.com/maragall/SquidXplorer/commit/1c2ec0b972864d658dda76480b7dedecbcb6a68c"
+    },
+    {
+      "commit_date": "2026-08-20T11:51:44.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/29d1573210ec1e1da697126995dad6001788a201"
+    },
+    {
+      "commit_date": "2026-08-20T11:45:43.000-04:00",
+      "author": "yuriyzubov",
+      "repository": "yuriyzubov/cellmap-utils",
+      "commit_url": "https://github.com/yuriyzubov/cellmap-utils/commit/ccb5a21704878c979c0d50642273f30ee254b837"
+    },
+    {
+      "commit_date": "2026-08-20T11:15:42.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/6463dfbcda981ba450acc302c5ef334262074c5f"
+    },
+    {
+      "commit_date": "2026-08-20T11:08:46.000-04:00",
+      "author": "yuriyzubov",
+      "repository": "yuriyzubov/cellmap-utils",
+      "commit_url": "https://github.com/yuriyzubov/cellmap-utils/commit/9d2734f8ee9b1a2315e8b1c1aea7eeb3b250f013"
+    },
+    {
+      "commit_date": "2026-08-20T10:46:03.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/48c1f671d64dfac728b264ae4ebcdba2833d22c9"
+    },
+    {
+      "commit_date": "2026-08-20T10:43:15.000+02:00",
+      "author": "imagejan",
+      "repository": "conda-forge/bioio-ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/bioio-ome-zarr-feedstock/commit/f2df54198b135d5d549d4df01183889efab0f838"
+    },
+    {
+      "commit_date": "2026-08-20T10:30:29.000+02:00",
+      "author": "m-albert",
+      "repository": "bsse-scf/ome-zarr-portal",
+      "commit_url": "https://github.com/bsse-scf/ome-zarr-portal/commit/c19e59444abfe3131f96b3ee512b9aea0e304ac7"
+    },
+    {
+      "commit_date": "2026-08-20T10:12:33.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/dd1651b231df583b2965ed52a4718b3d26802060"
+    },
+    {
+      "commit_date": "2026-08-20T08:43:24.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/db25e1cbdfef6353c46378f06877b1794ecc0aee"
+    },
+    {
+      "commit_date": "2026-08-20T01:44:20.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/c4aa6b45c7088323df3206159b0c61b071f41468"
+    },
+    {
+      "commit_date": "2026-08-20T00:36:22.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/61687007647ebcd33408d47902fd2125fdd7be74"
+    },
+    {
+      "commit_date": "2026-08-20T00:16:22.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/30cced91132bb1de63191717018b49d585ca9ee5"
+    },
+    {
+      "commit_date": "2026-08-19T22:41:55.000Z",
+      "author": "renovate[bot]",
+      "repository": "darosio/nima_io",
+      "commit_url": "https://github.com/darosio/nima_io/commit/2019f1ba469b011543f58ad4d7347d0bc69249b9"
+    },
+    {
+      "commit_date": "2026-08-19T22:05:54.000-05:00",
+      "author": "gitbamboo42",
+      "repository": "gitbamboo42/cytos",
+      "commit_url": "https://github.com/gitbamboo42/cytos/commit/697dd5acfdcab7df0a7e466d8a09439069eff72f"
+    },
+    {
+      "commit_date": "2026-08-19T21:31:19.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/b9fac92dd9f8679b3eaf1980dca73aed73079552"
+    },
+    {
+      "commit_date": "2026-08-19T16:59:31.000+01:00",
+      "author": "sbesson",
+      "repository": "glencoesoftware/NGFF-Converter",
+      "commit_url": "https://github.com/glencoesoftware/NGFF-Converter/commit/09c3ae635530b1d99a15c0c95a4b33781a883c5c"
+    },
+    {
+      "commit_date": "2026-08-19T15:29:26.000+10:00",
+      "author": "rtubelleza",
+      "repository": "rtubelleza/bioio-qptiff",
+      "commit_url": "https://github.com/rtubelleza/bioio-qptiff/commit/23e46aaa39a3d9c2adcce33d20fe691e1fc75d2a"
+    },
+    {
+      "commit_date": "2026-08-19T14:13:53.000+02:00",
+      "author": "MaksHess",
+      "repository": "MaksHess/convert-ls1-datasets",
+      "commit_url": "https://github.com/MaksHess/convert-ls1-datasets/commit/c1b5445427dae95bc13b286778c03d86cf847373"
+    },
+    {
+      "commit_date": "2026-08-19T13:32:03.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/biahub",
+      "commit_url": "https://github.com/czbiohub-sf/biahub/commit/47d01af2b9fd27674ccc0311ed440546b999f9b7"
+    },
+    {
+      "commit_date": "2026-08-19T13:15:15.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/flamingo-stitcher",
+      "commit_url": "https://github.com/uw-loci/flamingo-stitcher/commit/aab2484e07dcf159482c37536ddd730d9e3d6aaa"
+    },
+    {
+      "commit_date": "2026-08-19T01:11:26.000+02:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/5e9db751a89179441738ec6ae986c0ca159835e4"
+    },
+    {
+      "commit_date": "2026-08-18T23:41:08.000+02:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/99f5b3817324adc71883076f0e5a6044f2bfcd61"
+    },
+    {
+      "commit_date": "2026-08-18T23:31:13.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/a7e7090d0ff3ebfa46a7f2d3c5b9aa0ef47ba0cc"
+    },
+    {
+      "commit_date": "2026-08-18T21:05:43.000-04:00",
+      "author": "psadil",
+      "repository": "psadil/bidslake",
+      "commit_url": "https://github.com/psadil/bidslake/commit/c1908fc7ef6580c06cd88c009011134f7b61655b"
+    },
+    {
+      "commit_date": "2026-08-18T20:13:39.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/87d4c0333d09b1ded03d840d5517b2fc8783e182"
+    },
+    {
+      "commit_date": "2026-08-18T20:12:10.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/9eae00fecd135b1e6f37aa38940ebd156405cdbd"
+    },
+    {
+      "commit_date": "2026-08-18T17:08:28.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/37d3b603df190b28aa7a47b2ff3164ce7e13847b"
+    },
+    {
+      "commit_date": "2026-08-18T15:56:22.000+01:00",
+      "author": "will-moore",
+      "repository": "ome/ome-zarr-py",
+      "commit_url": "https://github.com/ome/ome-zarr-py/commit/025e83da618ec9e74f4b41f05814fce07b029356"
+    },
+    {
+      "commit_date": "2026-08-18T15:54:15.000+02:00",
+      "author": "assadiab",
+      "repository": "assadiab/Interactive-Zarr-Explorer",
+      "commit_url": "https://github.com/assadiab/Interactive-Zarr-Explorer/commit/41ae4cac6516dce91c58d205be82c71048d0292c"
+    },
+    {
+      "commit_date": "2026-08-18T15:42:35.000+02:00",
+      "author": "assadiab",
+      "repository": "assadiab/Interactive-Zarr-Explorer",
+      "commit_url": "https://github.com/assadiab/Interactive-Zarr-Explorer/commit/9b4757fc420622693f23f6e2d3610fe712dc9fb0"
+    },
+    {
+      "commit_date": "2026-08-18T14:47:05.000+02:00",
+      "author": "MaksHess",
+      "repository": "MaksHess/convert-ls1-datasets",
+      "commit_url": "https://github.com/MaksHess/convert-ls1-datasets/commit/ba8af5e8878cb1c26f39dda9b4c1219fba797f01"
+    },
+    {
+      "commit_date": "2026-08-18T13:44:00.000+01:00",
+      "author": "TomNicholas",
+      "repository": "TomNicholas/icechunk-datacollections",
+      "commit_url": "https://github.com/TomNicholas/icechunk-datacollections/commit/4fdf7ac2f757c603de77ed4fc5eb4e0c766a4bbf"
+    },
+    {
+      "commit_date": "2026-08-18T13:14:42.000-07:00",
+      "author": "github-actions[bot]",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/c6b4038f18e022e8f876cbf285a612a7e6448477"
+    },
+    {
+      "commit_date": "2026-08-18T13:12:52.000-07:00",
+      "author": "uermel",
+      "repository": "uermel/chimerax-ome-zarr",
+      "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/02b6c7b78486764ed817d89e1703c67f1bfe8c7f"
+    },
+    {
+      "commit_date": "2026-08-18T13:11:53.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/9abb21a67c562aec6810b1287977c136bdee350f"
+    },
+    {
+      "commit_date": "2026-08-18T11:17:26.000+02:00",
+      "author": "oleksiievetsno",
+      "repository": "oleksiievetsno/scapecontrol",
+      "commit_url": "https://github.com/oleksiievetsno/scapecontrol/commit/29ac263b6b39a53baec6ae3b751c2cd46e8c602c"
+    },
+    {
+      "commit_date": "2026-08-18T10:44:29.000+01:00",
+      "author": "TomNicholas",
+      "repository": "TomNicholas/icechunk-datacollections",
+      "commit_url": "https://github.com/TomNicholas/icechunk-datacollections/commit/14b8497d34aeb486cf54fc959e93a01bbc294bba"
+    },
+    {
+      "commit_date": "2026-08-18T10:39:18.000+02:00",
+      "author": "hendrikschilling",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/7a2a84d36cfe50037c7bbf79f11a39f5d37637eb"
+    },
+    {
+      "commit_date": "2026-08-18T10:38:55.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/e2e328733c532482781bf8a98587d68559727406"
+    },
+    {
+      "commit_date": "2026-08-18T10:17:45.000-04:00",
+      "author": "psadil",
+      "repository": "psadil/bidslake",
+      "commit_url": "https://github.com/psadil/bidslake/commit/5d9a13bc1345492b08685f998076721103b211a7"
+    },
+    {
+      "commit_date": "2026-08-18T10:12:19.000+01:00",
+      "author": "TomNicholas",
+      "repository": "TomNicholas/icechunk-datacollections",
+      "commit_url": "https://github.com/TomNicholas/icechunk-datacollections/commit/a3159c98523ababff6ea961260becf55f159507d"
+    },
+    {
+      "commit_date": "2026-08-18T09:56:33.000-04:00",
+      "author": "psadil",
+      "repository": "psadil/bidslake",
+      "commit_url": "https://github.com/psadil/bidslake/commit/0d448ef2b3d64d958b9b41d14667a9d595d695cc"
+    },
+    {
+      "commit_date": "2026-08-18T02:05:55.000+01:00",
+      "author": "TomNicholas",
+      "repository": "TomNicholas/icechunk-datacollections",
+      "commit_url": "https://github.com/TomNicholas/icechunk-datacollections/commit/3fddd8159a3d1620797cc9e08337264133ffad7e"
+    },
+    {
+      "commit_date": "2026-08-18T01:39:31.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/514d719f51e7db1da749944355f83f98b0a822e0"
+    },
+    {
+      "commit_date": "2026-08-18T00:42:26.000+02:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/db5c2b524eacd0c4f213caee0f67c4707d0f4dc8"
+    },
+    {
+      "commit_date": "2026-08-17T23:21:50.000-04:00",
+      "author": "Damian Arthur Paradis",
+      "repository": "dappalumbo91/FSOT-Genetics",
+      "commit_url": "https://github.com/dappalumbo91/FSOT-Genetics/commit/f8efe9ab5e26cb90a28e7dfe6b7b9b7bc7043c5b"
+    },
+    {
+      "commit_date": "2026-08-17T22:54:59.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/46490e09cc504b208c5a132a19f268c405e3e990"
+    },
+    {
+      "commit_date": "2026-08-17T20:05:27.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/ca6f97d25e2bd2f8ab46ccfbe098117addeefa7e"
+    },
+    {
+      "commit_date": "2026-08-17T18:00:08.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/326fa6cfe8a9e3ea71e2a159ba6cecb084a64d09"
+    },
+    {
+      "commit_date": "2026-08-17T17:59:00.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/9ca39bff186f1fe72c0acdcf4a50b01adbdb3d62"
+    },
+    {
+      "commit_date": "2026-08-17T16:55:11.000+02:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/cb19b2b9123456ee143725f92dd9adcb867dbcaa"
+    },
+    {
+      "commit_date": "2026-08-17T16:11:11.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/9b5d93b15fad806572a736b3086a0480153cfa5e"
+    },
+    {
+      "commit_date": "2026-08-17T15:38:08.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/f60d4fa9f088ac0517f3305ebbf93ba89bee495a"
+    },
+    {
+      "commit_date": "2026-08-17T14:24:24.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/4576d747643c9909817a9bcd6b429b482ecfa4e5"
+    },
+    {
+      "commit_date": "2026-08-17T14:16:01.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/biahub",
+      "commit_url": "https://github.com/czbiohub-sf/biahub/commit/2b5d4e83056f9b5a3bb88d9811d5313623ba8b67"
+    },
+    {
+      "commit_date": "2026-08-17T13:55:55.000+02:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/605536babbf8798ee83af95b62b470d34fa646e6"
+    },
+    {
+      "commit_date": "2026-08-17T12:53:15.000+01:00",
+      "author": "will-moore",
+      "repository": "conda-forge/napari-ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/napari-ome-zarr-feedstock/commit/ec54f42ccee5942c7ee7c6e359e8facf11948489"
+    },
+    {
+      "commit_date": "2026-08-17T12:17:00.000+02:00",
+      "author": "oleksiievetsno",
+      "repository": "oleksiievetsno/scapecontrol",
+      "commit_url": "https://github.com/oleksiievetsno/scapecontrol/commit/3ed531d7805fd62a89c541db4d3b1bcc11c4486c"
+    },
+    {
+      "commit_date": "2026-08-17T12:16:32.000+02:00",
+      "author": "oleksiievetsno",
+      "repository": "oleksiievetsno/scapecontrol",
+      "commit_url": "https://github.com/oleksiievetsno/scapecontrol/commit/db3b5eb3b2bccdc7c3f251e8f6056a26e4d06fb7"
+    },
+    {
+      "commit_date": "2026-08-17T11:53:29.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/8b207f6c43ed4933ecd2e813142a75f0c0870a64"
+    },
+    {
+      "commit_date": "2026-08-17T11:51:34.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/3a64f26bc7868bc7bdc0bf7282f7ff7fb01a160a"
+    },
+    {
+      "commit_date": "2026-08-17T11:21:59.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/a464faec147e6762793c25f18d88b4729673c9d6"
+    },
+    {
+      "commit_date": "2026-08-17T10:17:07.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/5094bf69b0aed3864d963e88562d80e6d05f41ff"
+    },
+    {
+      "commit_date": "2026-08-17T09:48:18.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/157af2691e3030ef2f9a3fe7694ea0808cc17d0d"
+    },
+    {
+      "commit_date": "2026-08-17T09:08:17.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/5c47ca20b86da30f98cfee7d49f9e895d97c7ff8"
+    },
+    {
+      "commit_date": "2026-08-16T23:33:22.000-04:00",
+      "author": "a-r-d",
+      "repository": "a-r-d/PureJsImage",
+      "commit_url": "https://github.com/a-r-d/PureJsImage/commit/72c33177bf74e31a3c601572a720f20e5609840a"
+    },
     {
       "commit_date": "2026-08-16T22:42:29.000+02:00",
       "author": "regro-cf-autotick-bot",
