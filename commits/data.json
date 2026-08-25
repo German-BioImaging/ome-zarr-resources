@@ -1,9 +1,75 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-24T01:54:36+00:00",
+  "generated": "2026-08-25T01:52:06+00:00",
   "recent_days": 10,
-  "total_commits": 1657,
+  "total_commits": 1669,
   "commits": [
+    {
+      "commit_date": "2026-08-25T09:50:08.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/3e4d8d5181ea5af9ef45557744e00f20197834c9"
+    },
+    {
+      "commit_date": "2026-08-24T22:40:48.000+02:00",
+      "author": "Tomatokeftes",
+      "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
+      "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/dc14d0c670db782b791ef2248844daaab291c0e7"
+    },
+    {
+      "commit_date": "2026-08-24T19:17:57.000+02:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/1cf80f6ddedfbc8b0fca257adf568f5d18efad3c"
+    },
+    {
+      "commit_date": "2026-08-24T18:07:04.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/10a2a0e7a1b9d61661e03ae6ea40672c444bcceb"
+    },
+    {
+      "commit_date": "2026-08-24T15:27:05.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/e3cdf58669e1fdcd39d9aef6519a4a2743377405"
+    },
+    {
+      "commit_date": "2026-08-24T13:10:12.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/9af93e5fc6d8d47edbcc8f46c439232bb71f9a7b"
+    },
+    {
+      "commit_date": "2026-08-24T11:17:21.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/254ec1e5c7bbdfa01b6693dc911f2d4001c5fd14"
+    },
+    {
+      "commit_date": "2026-08-24T09:35:44.000-04:00",
+      "author": "bendichter",
+      "repository": "dandi/example-notebooks",
+      "commit_url": "https://github.com/dandi/example-notebooks/commit/86268039695669a216b0a1959c9812b5e94c2eb5"
+    },
+    {
+      "commit_date": "2026-08-24T09:19:14.000+02:00",
+      "author": "hotzenklotz",
+      "repository": "scalableminds/webknossos",
+      "commit_url": "https://github.com/scalableminds/webknossos/commit/c5db5de21bd91ba3e619758bc04e350739cdac12"
+    },
+    {
+      "commit_date": "2026-08-24T02:46:33.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/5e8ed6008ac0a86e0bc8a78f851144a852db4455"
+    },
+    {
+      "commit_date": "2026-08-23T22:51:40.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/2d956cb2ac82a1ad1724b064a4a87e56c47774ed"
+    },
     {
       "commit_date": "2026-08-23T19:35:44.000+01:00",
       "author": "Ron Finn",
@@ -21,6 +87,12 @@
       "author": "Anand Kadumberi",
       "repository": "anandpreshob/ai-medical-imaging-book",
       "commit_url": "https://github.com/anandpreshob/ai-medical-imaging-book/commit/a9aa6af00b7a197f8c45c184f3ad5c89dd422fb1"
+    },
+    {
+      "commit_date": "2026-08-23T02:09:44.000-04:00",
+      "author": "bendichter",
+      "repository": "dandi/example-notebooks",
+      "commit_url": "https://github.com/dandi/example-notebooks/commit/d513a66e199a6cb19b5d6b4bca1b7032a2156e45"
     },
     {
       "commit_date": "2026-08-21T15:30:49.000+02:00",
