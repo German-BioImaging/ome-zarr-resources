@@ -1,9 +1,63 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-25T01:52:06+00:00",
+  "generated": "2026-08-26T01:54:44+00:00",
   "recent_days": 10,
-  "total_commits": 1669,
+  "total_commits": 1683,
   "commits": [
+    {
+      "commit_date": "2026-08-25T20:43:15.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/31a9f9e294603bc4bb928a1fb124ba6ecf49d9e7"
+    },
+    {
+      "commit_date": "2026-08-25T18:21:58.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/minflux-viewer",
+      "commit_url": "https://github.com/embl-ic/minflux-viewer/commit/b13c1b854f7437e7999fef2fee7e4fde5e5e20cc"
+    },
+    {
+      "commit_date": "2026-08-25T17:23:03.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/acqstore",
+      "commit_url": "https://github.com/mapmanager/acqstore/commit/d2ef99a1c3bbdfcb07e79e1902e3524d6077dd5d"
+    },
+    {
+      "commit_date": "2026-08-25T16:24:14.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/acqstore",
+      "commit_url": "https://github.com/mapmanager/acqstore/commit/c078d0c0acba7b7f5baed81033218a202e0f4c44"
+    },
+    {
+      "commit_date": "2026-08-25T14:58:21.000+05:30",
+      "author": "TausiqVarma",
+      "repository": "TausiqVarma/plugins-napari-fiji",
+      "commit_url": "https://github.com/TausiqVarma/plugins-napari-fiji/commit/c60c911506b1f46db83b05e2d7aa761714101c8f"
+    },
+    {
+      "commit_date": "2026-08-25T13:38:56.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/fc1dcd6bfa44444c8d820b660456498023ca2681"
+    },
+    {
+      "commit_date": "2026-08-25T12:52:03.000+02:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/d6d52afa21f269b3507aac83268364995a9e74ad"
+    },
+    {
+      "commit_date": "2026-08-25T11:41:41.000+01:00",
+      "author": "sea-shunned",
+      "repository": "FrancisCrickInstitute/aiod_utils",
+      "commit_url": "https://github.com/FrancisCrickInstitute/aiod_utils/commit/5089ec89b715f407dbdd6f3ac9084f7a5d4c78eb"
+    },
+    {
+      "commit_date": "2026-08-25T10:03:50.000Z",
+      "author": "Highneighbour",
+      "repository": "iamdflame/vesuvius-ruled",
+      "commit_url": "https://github.com/iamdflame/vesuvius-ruled/commit/bf525ade198a087b0a85570726462ed3e23defcd"
+    },
     {
       "commit_date": "2026-08-25T09:50:08.000+10:00",
       "author": "schienstockd",
@@ -11,10 +65,40 @@
       "commit_url": "https://github.com/schienstockd/cecelia/commit/3e4d8d5181ea5af9ef45557744e00f20197834c9"
     },
     {
+      "commit_date": "2026-08-25T09:46:05.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/f94ee1735635facea2e1b20cd7b51417b289c1fe"
+    },
+    {
+      "commit_date": "2026-08-25T08:15:20.000-03:00",
+      "author": "lubianat",
+      "repository": "ome/ngff",
+      "commit_url": "https://github.com/ome/ngff/commit/946b213170bf6110234f708ae9782fbd8ba6e849"
+    },
+    {
+      "commit_date": "2026-08-25T06:14:14.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/2c7bfd145a77eb681692057b089e6f365c6393d5"
+    },
+    {
       "commit_date": "2026-08-24T22:40:48.000+02:00",
       "author": "Tomatokeftes",
       "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
       "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/dc14d0c670db782b791ef2248844daaab291c0e7"
+    },
+    {
+      "commit_date": "2026-08-24T21:29:12.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/mapmanager-web-components",
+      "commit_url": "https://github.com/mapmanager/mapmanager-web-components/commit/4e93800ab44e63ed0aa42292dd921fb84b54ac2d"
+    },
+    {
+      "commit_date": "2026-08-24T20:49:57.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/d9ea31cf16b29ee8543d7fe33617b5ac14be1a14"
     },
     {
       "commit_date": "2026-08-24T19:17:57.000+02:00",
