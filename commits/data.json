@@ -1,9 +1,105 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-27T02:58:46+00:00",
+  "generated": "2026-08-28T03:59:48+00:00",
   "recent_days": 10,
-  "total_commits": 1718,
+  "total_commits": 1739,
   "commits": [
+    {
+      "commit_date": "2026-08-28T11:47:14.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/1c07cfb07610ce72777aab83cc872eb93d72d3ae"
+    },
+    {
+      "commit_date": "2026-08-28T11:35:29.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/a6f479e08db3831187719e7f4e7fdc7224123e04"
+    },
+    {
+      "commit_date": "2026-08-27T16:43:23.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/296443c44850532fe244552634610dfbbcbfc66e"
+    },
+    {
+      "commit_date": "2026-08-27T16:25:35.000+02:00",
+      "author": "felixS27",
+      "repository": "felixS27/nf-deconvolution",
+      "commit_url": "https://github.com/felixS27/nf-deconvolution/commit/517101cb41fc640a437bfdab8aa07f7d1b94478c"
+    },
+    {
+      "commit_date": "2026-08-27T15:39:46.000-04:00",
+      "author": "SamanthaKraft",
+      "repository": "Pennsieve/asset-workflow-script",
+      "commit_url": "https://github.com/Pennsieve/asset-workflow-script/commit/436a522ff2b9c23a51463d5f94ed81942f0c1dbd"
+    },
+    {
+      "commit_date": "2026-08-27T15:39:10.000-07:00",
+      "author": "dyf",
+      "repository": "AllenNeuralDynamics/package-brain-atlas-assets",
+      "commit_url": "https://github.com/AllenNeuralDynamics/package-brain-atlas-assets/commit/96aeced309766b085eaaaac3c4590e7a3ee54d5a"
+    },
+    {
+      "commit_date": "2026-08-27T15:38:56.000-04:00",
+      "author": "SamanthaKraft",
+      "repository": "Pennsieve/asset-workflow-script",
+      "commit_url": "https://github.com/Pennsieve/asset-workflow-script/commit/41770243ae4dbe27db047cf8efca833f69f69a14"
+    },
+    {
+      "commit_date": "2026-08-27T15:31:48.000+02:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/83d9d18b646bc801e12534cad9b4ed22ead6ce95"
+    },
+    {
+      "commit_date": "2026-08-27T15:27:13.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/4280c62b1ed1f609e2ac93a4b27e3416f9b0b873"
+    },
+    {
+      "commit_date": "2026-08-27T15:12:36.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/minflux-viewer",
+      "commit_url": "https://github.com/embl-ic/minflux-viewer/commit/74f1e1dbd318632dee0c846a2aa8aab4c7bd4483"
+    },
+    {
+      "commit_date": "2026-08-27T14:52:03.000+10:00",
+      "author": "pengowray",
+      "repository": "pengowray/qubero",
+      "commit_url": "https://github.com/pengowray/qubero/commit/60a96d5ef0f05d1e08c6f289d1007f02c0a2c260"
+    },
+    {
+      "commit_date": "2026-08-27T14:36:48.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/4311345942474ee7215f0dcb27513ad192a7ea7f"
+    },
+    {
+      "commit_date": "2026-08-27T13:30:12.000-05:00",
+      "author": "kabilar",
+      "repository": "bids-standard/bids-specification",
+      "commit_url": "https://github.com/bids-standard/bids-specification/commit/654fd0ca6b64336e342484f08f60afbb7c7b2ff1"
+    },
+    {
+      "commit_date": "2026-08-27T12:45:33.000+02:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/57caf8afec902dd99fff62b2bc37100f14e5f1f3"
+    },
+    {
+      "commit_date": "2026-08-27T12:12:20.000+02:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/494d98585363ac8d9b2e7264d657bdd8936c325c"
+    },
+    {
+      "commit_date": "2026-08-27T11:57:18.000-04:00",
+      "author": "eminorhan",
+      "repository": "AI-HHMI/mia-evals",
+      "commit_url": "https://github.com/AI-HHMI/mia-evals/commit/18d9040b3eebd69d1b8b282e14bcdde2f3a1ee05"
+    },
     {
       "commit_date": "2026-08-27T11:53:07.000+10:00",
       "author": "pengowray",
@@ -15,6 +111,36 @@
       "author": "pengowray",
       "repository": "pengowray/qubero",
       "commit_url": "https://github.com/pengowray/qubero/commit/33da62fe8dd1c6800d196aea3bbdf843d4bad8d0"
+    },
+    {
+      "commit_date": "2026-08-27T11:27:50.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/0380d5fa371195f761e6e043cffc5d5e0628d9fc"
+    },
+    {
+      "commit_date": "2026-08-27T11:27:23.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/87d25a6561636035b84169cb3c48d3dba324a0eb"
+    },
+    {
+      "commit_date": "2026-08-27T11:27:03.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/17397069c93c546387148ccb63b7fadb50adc095"
+    },
+    {
+      "commit_date": "2026-08-27T11:25:29.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/144b418d818e9afa13c57f4e149a711613236930"
+    },
+    {
+      "commit_date": "2026-08-27T11:20:53.000-04:00",
+      "author": "matthewhirschey",
+      "repository": "heurekalabsco/heurekaskills",
+      "commit_url": "https://github.com/heurekalabsco/heurekaskills/commit/b5501d8b92c1985b674a6ffde415840ecbdf6929"
     },
     {
       "commit_date": "2026-08-26T17:57:46.000+02:00",
