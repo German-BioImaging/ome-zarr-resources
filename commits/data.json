@@ -1,9 +1,75 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-28T03:59:48+00:00",
+  "generated": "2026-08-29T01:25:50+00:00",
   "recent_days": 10,
-  "total_commits": 1739,
+  "total_commits": 1754,
   "commits": [
+    {
+      "commit_date": "2026-08-29T00:29:28.000+10:00",
+      "author": "pengowray",
+      "repository": "pengowray/qubero",
+      "commit_url": "https://github.com/pengowray/qubero/commit/20bdda97052d9614efd8b7cb885572fbcae010e5"
+    },
+    {
+      "commit_date": "2026-08-29T00:15:07.000+10:00",
+      "author": "pengowray",
+      "repository": "pengowray/qubero",
+      "commit_url": "https://github.com/pengowray/qubero/commit/77d1947ef9d1ee5ef3ca29283ddb526e77690c40"
+    },
+    {
+      "commit_date": "2026-08-28T23:44:18.000+10:00",
+      "author": "pengowray",
+      "repository": "pengowray/qubero",
+      "commit_url": "https://github.com/pengowray/qubero/commit/488bc169fe0f3e9cc96eb5d9460a2b7690935e6c"
+    },
+    {
+      "commit_date": "2026-08-28T20:39:42.000+02:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/63c0048ffaec194a6877f6b7236f23a83cb45f37"
+    },
+    {
+      "commit_date": "2026-08-28T20:21:28.000-04:00",
+      "author": "FIrgolitsch",
+      "repository": "LIOMLab/liom-toolkit",
+      "commit_url": "https://github.com/LIOMLab/liom-toolkit/commit/e9bd6a25ec76ee2a6b9f83f78fe6cecabd6fd68c"
+    },
+    {
+      "commit_date": "2026-08-28T20:18:56.000+02:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/9fc8dadf8ef2a1d2b1d8b6685bec84eae0a4d2a6"
+    },
+    {
+      "commit_date": "2026-08-28T20:17:40.000+02:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/e4dfb0a0f0c98333a802a42f8af26ece917b86c0"
+    },
+    {
+      "commit_date": "2026-08-28T19:59:46.000-04:00",
+      "author": "FIrgolitsch",
+      "repository": "LIOMLab/liom-toolkit",
+      "commit_url": "https://github.com/LIOMLab/liom-toolkit/commit/a51b1bb33f0a0f8d7796fc304bd00b02e8cbff07"
+    },
+    {
+      "commit_date": "2026-08-28T16:42:43.000-04:00",
+      "author": "FIrgolitsch",
+      "repository": "LIOMLab/liom-toolkit",
+      "commit_url": "https://github.com/LIOMLab/liom-toolkit/commit/6c7156edc860b136ede896481c483d7e7b959916"
+    },
+    {
+      "commit_date": "2026-08-28T14:16:38.000-07:00",
+      "author": "jonmarrs",
+      "repository": "jonmarrs/vesuvius-autoresearch",
+      "commit_url": "https://github.com/jonmarrs/vesuvius-autoresearch/commit/d646dc6e68eafee892b28cee86c7951bb3c6365b"
+    },
+    {
+      "commit_date": "2026-08-28T14:10:28.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/e2e620c19719685231eec03a68e03f5c90be82b3"
+    },
     {
       "commit_date": "2026-08-28T11:47:14.000+10:00",
       "author": "schienstockd",
@@ -15,6 +81,30 @@
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/a6f479e08db3831187719e7f4e7fdc7224123e04"
+    },
+    {
+      "commit_date": "2026-08-28T10:50:57.000+02:00",
+      "author": "felixS27",
+      "repository": "felixS27/nf-deconvolution",
+      "commit_url": "https://github.com/felixS27/nf-deconvolution/commit/4a3cdf53b8fce9abacd029bbd8e0276b7d4b92f2"
+    },
+    {
+      "commit_date": "2026-08-28T10:50:01.000+02:00",
+      "author": "felixS27",
+      "repository": "felixS27/nf-deconvolution",
+      "commit_url": "https://github.com/felixS27/nf-deconvolution/commit/d20c0737f13c08cd92ca99fa4fbabbf77f3eb6c9"
+    },
+    {
+      "commit_date": "2026-08-28T01:35:24.000-04:00",
+      "author": "FIrgolitsch",
+      "repository": "LIOMLab/liom-toolkit",
+      "commit_url": "https://github.com/LIOMLab/liom-toolkit/commit/5777cb6c0bc60f81ca5e10b4efb40a49490e80cb"
+    },
+    {
+      "commit_date": "2026-08-28T00:11:35.000-04:00",
+      "author": "FIrgolitsch",
+      "repository": "LIOMLab/liom-toolkit",
+      "commit_url": "https://github.com/LIOMLab/liom-toolkit/commit/6fc65fd2865d046c053dd6bd3fb536434e101c1d"
     },
     {
       "commit_date": "2026-08-27T16:43:23.000-07:00",
