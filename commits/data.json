@@ -1,9 +1,69 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-08-31T01:40:41+00:00",
+  "generated": "2026-09-01T01:43:39+00:00",
   "recent_days": 10,
-  "total_commits": 1769,
+  "total_commits": 1782,
   "commits": [
+    {
+      "commit_date": "2026-08-31T17:04:08.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/nd-image-codecs",
+      "commit_url": "https://github.com/fideus-labs/nd-image-codecs/commit/62bfb27b080cc7870604e6903478e1eac507924b"
+    },
+    {
+      "commit_date": "2026-08-31T15:59:58.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/6a2f8174caab93ebdeee73c736ead80af83e7b47"
+    },
+    {
+      "commit_date": "2026-08-31T15:28:24.000+02:00",
+      "author": "sebi06",
+      "repository": "sebi06/czitools",
+      "commit_url": "https://github.com/sebi06/czitools/commit/14e8445fdb1078dd862ad02f363ba397f7297f88"
+    },
+    {
+      "commit_date": "2026-08-31T15:05:27.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/30af99960abba1ca7b8665dc82961bdc6988c674"
+    },
+    {
+      "commit_date": "2026-08-31T14:22:58.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/3a97d16095d42f947fb67221b7f061d65a683e54"
+    },
+    {
+      "commit_date": "2026-08-31T13:12:56.000+02:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/5827fe10a9becbd051490e8d1d42e206e7c1eb37"
+    },
+    {
+      "commit_date": "2026-08-31T12:45:08.000+02:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/53ef2f02f69fafa92468cccf9e622325a3808789"
+    },
+    {
+      "commit_date": "2026-08-31T10:12:31.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/1a5c974d4f7afcf2e5cf9afe91507a36e978f505"
+    },
+    {
+      "commit_date": "2026-08-31T09:31:08.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/e1624e4cc0ee80bd87966d65da33c232d7094c4d"
+    },
+    {
+      "commit_date": "2026-08-31T09:23:00.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/53e8591f6e40303f62b1d3c72eca050a9b2ea2d3"
+    },
     {
       "commit_date": "2026-08-30T21:23:10.000+02:00",
       "author": "NicoKiaru",
@@ -35,10 +95,22 @@
       "commit_url": "https://github.com/ronfinn/zarr-tree/commit/fa1c45fc3e530b818ebf8bec7f2e7bf1624f47cc"
     },
     {
+      "commit_date": "2026-08-30T18:04:43.000Z",
+      "author": "claude",
+      "repository": "winfrees/vtea-python",
+      "commit_url": "https://github.com/winfrees/vtea-python/commit/42ea42e7513b71940c0504395fef3ede1303974c"
+    },
+    {
       "commit_date": "2026-08-30T16:54:21.000-07:00",
       "author": "kephale",
       "repository": "uermel/chimerax-ome-zarr",
       "commit_url": "https://github.com/uermel/chimerax-ome-zarr/commit/98160c3009686fec507cd0fbfe039e07a50b4fe6"
+    },
+    {
+      "commit_date": "2026-08-30T16:06:38.000Z",
+      "author": "claude",
+      "repository": "ylabjp/ylab-common-scripts",
+      "commit_url": "https://github.com/ylabjp/ylab-common-scripts/commit/4a62ddd8ffebf99567134e4e5e3fff38ff3abfa2"
     },
     {
       "commit_date": "2026-08-30T15:22:24.000+09:00",
@@ -51,6 +123,12 @@
       "author": "myunghyunj",
       "repository": "myunghyunj/nd2wsi-viewer",
       "commit_url": "https://github.com/myunghyunj/nd2wsi-viewer/commit/220b7bd25632b97c395dc42b759fc490d696113c"
+    },
+    {
+      "commit_date": "2026-08-30T09:44:00.000-04:00",
+      "author": "PostPreAndCleft",
+      "repository": "PostPreAndCleft/zarr-crop",
+      "commit_url": "https://github.com/PostPreAndCleft/zarr-crop/commit/270411b383cc75c24913807f034ef76c98ded18d"
     },
     {
       "commit_date": "2026-08-29T23:57:36.000+01:00",
