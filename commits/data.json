@@ -1,9 +1,117 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-01T01:43:39+00:00",
+  "generated": "2026-09-02T01:40:24+00:00",
   "recent_days": 10,
-  "total_commits": 1782,
+  "total_commits": 1801,
   "commits": [
+    {
+      "commit_date": "2026-09-02T00:52:12.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/de5ea3c3bfb5f01e2ab469dbe56ebf5f01e15b64"
+    },
+    {
+      "commit_date": "2026-09-01T17:20:59.000+02:00",
+      "author": "jwindhager",
+      "repository": "TissUUmaps/TissUUmaps4",
+      "commit_url": "https://github.com/TissUUmaps/TissUUmaps4/commit/c8512ab7d1d592d1318e408ead0cf0b7c9b82de0"
+    },
+    {
+      "commit_date": "2026-09-01T17:13:54.000+01:00",
+      "author": "alex1075",
+      "repository": "FLIMKit/flimkit-zstack-explorer",
+      "commit_url": "https://github.com/FLIMKit/flimkit-zstack-explorer/commit/82c13223d14c623c2ce726ca0f3f831d69bbe7ec"
+    },
+    {
+      "commit_date": "2026-09-01T16:11:30.000Z",
+      "author": "claude",
+      "repository": "ylabjp/ylab-common-scripts",
+      "commit_url": "https://github.com/ylabjp/ylab-common-scripts/commit/3449b2642d8ab8ea4234581b32befd58a9ba553f"
+    },
+    {
+      "commit_date": "2026-09-01T15:24:44.000+01:00",
+      "author": "alex1075",
+      "repository": "FLIMKit/flimkit-zstack-explorer",
+      "commit_url": "https://github.com/FLIMKit/flimkit-zstack-explorer/commit/e46bf82fc7ab5a056e65ae2b6f27a9f38b85b754"
+    },
+    {
+      "commit_date": "2026-09-01T15:03:04.000+02:00",
+      "author": "LJatLIM",
+      "repository": "Laboratory-Imaging/limnd2",
+      "commit_url": "https://github.com/Laboratory-Imaging/limnd2/commit/a8d845ba7eaea2c31813f75944f9962b5716239a"
+    },
+    {
+      "commit_date": "2026-09-01T14:35:08.000+01:00",
+      "author": "sbesson",
+      "repository": "glencoesoftware/omero-zarr-pixel-buffer",
+      "commit_url": "https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/40d71f30016227cc95ef5eda927f219444c8b493"
+    },
+    {
+      "commit_date": "2026-09-01T12:51:11.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/723162a02e3a9772eef8b1bfd551fa7be586fc02"
+    },
+    {
+      "commit_date": "2026-09-01T11:48:00.000+09:00",
+      "author": "myunghyunj",
+      "repository": "myunghyunj/nd2wsi-viewer",
+      "commit_url": "https://github.com/myunghyunj/nd2wsi-viewer/commit/07521a37c1c43538c0f30c36082206f6f96654f7"
+    },
+    {
+      "commit_date": "2026-09-01T11:32:52.000+01:00",
+      "author": "alex1075",
+      "repository": "FLIMKit/FLIMKit",
+      "commit_url": "https://github.com/FLIMKit/FLIMKit/commit/2b6534eb997c0af52e83ae40471a77bc76905f2e"
+    },
+    {
+      "commit_date": "2026-09-01T11:17:50.000Z",
+      "author": "dependabot[bot]",
+      "repository": "WayScience/ome-arrow",
+      "commit_url": "https://github.com/WayScience/ome-arrow/commit/dc6927af0673651198f4e30987311841b0565693"
+    },
+    {
+      "commit_date": "2026-09-01T10:39:12.000+01:00",
+      "author": "alex1075",
+      "repository": "FLIMKit/FLIMKit",
+      "commit_url": "https://github.com/FLIMKit/FLIMKit/commit/e0c1158b2bde06df552e5abd3303f42685c06134"
+    },
+    {
+      "commit_date": "2026-09-01T10:30:43.000+01:00",
+      "author": "alex1075",
+      "repository": "FLIMKit/FLIMKit",
+      "commit_url": "https://github.com/FLIMKit/FLIMKit/commit/647953c31c50d74a0d7dc98670e99bb4d449b65a"
+    },
+    {
+      "commit_date": "2026-09-01T09:30:34.000+01:00",
+      "author": "alex1075",
+      "repository": "FLIMKit/flimkit-zstack-explorer",
+      "commit_url": "https://github.com/FLIMKit/flimkit-zstack-explorer/commit/4daf2d3dda0389babf24764cf29af6b5cf6393e5"
+    },
+    {
+      "commit_date": "2026-09-01T09:25:26.000-05:00",
+      "author": "kabilar",
+      "repository": "lincbrain/linc-convert",
+      "commit_url": "https://github.com/lincbrain/linc-convert/commit/41754912fc8a3822e8f2114ff0caa21960cece31"
+    },
+    {
+      "commit_date": "2026-09-01T09:23:01.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/475b99fca4fa5094f2bb2e4ba4f437cb841f88ba"
+    },
+    {
+      "commit_date": "2026-08-31T20:46:44.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/8f21d513b934de0520a184d80cd0fbc000ef5678"
+    },
+    {
+      "commit_date": "2026-08-31T20:42:15.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/6410ae45d3a6df82474f55ac43cf5b1c99cc2600"
+    },
     {
       "commit_date": "2026-08-31T17:04:08.000-04:00",
       "author": "thewtex",
@@ -21,6 +129,12 @@
       "author": "sebi06",
       "repository": "sebi06/czitools",
       "commit_url": "https://github.com/sebi06/czitools/commit/14e8445fdb1078dd862ad02f363ba397f7297f88"
+    },
+    {
+      "commit_date": "2026-08-31T15:08:44.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/906a3a3aed9d58deb555d50f2bb69153457b2802"
     },
     {
       "commit_date": "2026-08-31T15:05:27.000+02:00",
