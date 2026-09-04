@@ -1,9 +1,75 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-03T01:41:59+00:00",
+  "generated": "2026-09-04T01:34:07+00:00",
   "recent_days": 10,
-  "total_commits": 1825,
+  "total_commits": 1836,
   "commits": [
+    {
+      "commit_date": "2026-09-03T18:28:17.000+05:30",
+      "author": "sraorao",
+      "repository": "rao-genomics-lab/palms",
+      "commit_url": "https://github.com/rao-genomics-lab/palms/commit/d27e3d3b8cfe7bf82fba5ae4155521d18682dcdb"
+    },
+    {
+      "commit_date": "2026-09-03T17:54:40.000-07:00",
+      "author": "kevinjohncutler",
+      "repository": "kevinjohncutler/opencodecs",
+      "commit_url": "https://github.com/kevinjohncutler/opencodecs/commit/dd64fa26fa0c211fc117c729a4113ea20a715fbe"
+    },
+    {
+      "commit_date": "2026-09-03T16:09:13.000+01:00",
+      "author": "sea-shunned",
+      "repository": "FrancisCrickInstitute/aiod_napari",
+      "commit_url": "https://github.com/FrancisCrickInstitute/aiod_napari/commit/8c1735864bce73fc065fbd3b75f92680729a0c5f"
+    },
+    {
+      "commit_date": "2026-09-03T16:06:03.000+01:00",
+      "author": "sea-shunned",
+      "repository": "FrancisCrickInstitute/aiod_napari",
+      "commit_url": "https://github.com/FrancisCrickInstitute/aiod_napari/commit/83e374d2b87e33d76a7f6a61fe5e577874f7ae8d"
+    },
+    {
+      "commit_date": "2026-09-03T15:54:09.000+02:00",
+      "author": "TorecLuik",
+      "repository": "NL-BioImaging/NL-BIOMERO",
+      "commit_url": "https://github.com/NL-BioImaging/NL-BIOMERO/commit/a972dfa253d60c3e769050c11a085c4ee12e958e"
+    },
+    {
+      "commit_date": "2026-09-03T15:19:23.000-07:00",
+      "author": "uermel",
+      "repository": "chanzuckerberg/cryoet-data-portal-backend",
+      "commit_url": "https://github.com/chanzuckerberg/cryoet-data-portal-backend/commit/b07aa8b62cd4e174cbbeaa12fa14f0dc06a335ec"
+    },
+    {
+      "commit_date": "2026-09-03T14:12:05.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/opm-toolset",
+      "commit_url": "https://github.com/embl-ic/opm-toolset/commit/7a182b9f74762159af2941685eec3fe758db9ba5"
+    },
+    {
+      "commit_date": "2026-09-03T13:20:22.000-07:00",
+      "author": "mengda-meta",
+      "repository": "mengdaliu98/mdweaver",
+      "commit_url": "https://github.com/mengdaliu98/mdweaver/commit/4d66fac4e4095217546eee392a226fd584226cd8"
+    },
+    {
+      "commit_date": "2026-09-03T13:06:25.000-07:00",
+      "author": "kevinjohncutler",
+      "repository": "kevinjohncutler/opencodecs",
+      "commit_url": "https://github.com/kevinjohncutler/opencodecs/commit/7261c6a0b897d49c794bc38f5ee2cd7f06607672"
+    },
+    {
+      "commit_date": "2026-09-03T12:51:18.000-07:00",
+      "author": "kevinjohncutler",
+      "repository": "kevinjohncutler/opencodecs",
+      "commit_url": "https://github.com/kevinjohncutler/opencodecs/commit/9242495c9807b0ab56a6a5f5068100b7898bca92"
+    },
+    {
+      "commit_date": "2026-09-03T01:35:25.000+09:00",
+      "author": "ksugar",
+      "repository": "mastodon-sc/mastodon",
+      "commit_url": "https://github.com/mastodon-sc/mastodon/commit/7ad235411d0d6c1f1b12eded37866a518ad836d8"
+    },
     {
       "commit_date": "2026-09-02T18:44:46.000+01:00",
       "author": "dstansby",
