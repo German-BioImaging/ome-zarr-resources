@@ -1,9 +1,141 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-04T01:34:07+00:00",
+  "generated": "2026-09-05T01:33:23+00:00",
   "recent_days": 10,
-  "total_commits": 1836,
+  "total_commits": 1864,
   "commits": [
+    {
+      "commit_date": "2026-09-05T00:57:22.000+05:30",
+      "author": "Vaibhav20k",
+      "repository": "Vaibhav20k/BIOhub",
+      "commit_url": "https://github.com/Vaibhav20k/BIOhub/commit/4ee40fd74d386c07c667dce32840ad68b5e88121"
+    },
+    {
+      "commit_date": "2026-09-04T22:15:00.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/8dc2d7d7055bfcba1cb49508b08f0da5a190eec5"
+    },
+    {
+      "commit_date": "2026-09-04T21:33:44.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/cb13ad3b83ec0997ca9249a94242d4a9253cc8ff"
+    },
+    {
+      "commit_date": "2026-09-04T20:36:26.000Z",
+      "author": "balbasty",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/7c75463fa543c7a25fb9700c1c54dc1357d3b61e"
+    },
+    {
+      "commit_date": "2026-09-04T19:27:31.000Z",
+      "author": "balbasty",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/8385b06202518a23f82e071220d843ffbb44ad9b"
+    },
+    {
+      "commit_date": "2026-09-04T18:25:43.000+01:00",
+      "author": "jackyko1991",
+      "repository": "bpi-oxford/Histology-Collagen-Quantification",
+      "commit_url": "https://github.com/bpi-oxford/Histology-Collagen-Quantification/commit/5cfb649924b7e9c9ba84c19d0d306687d068bffe"
+    },
+    {
+      "commit_date": "2026-09-04T18:15:11.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/b7a3b9ee52f585427aa29d3d3d95ad8f498cf9d1"
+    },
+    {
+      "commit_date": "2026-09-04T17:41:32.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/9ba0212b4bc7c739a11b14505c90d11ca7060362"
+    },
+    {
+      "commit_date": "2026-09-04T17:14:56.000+02:00",
+      "author": "seankmartin",
+      "repository": "google/neuroglancer",
+      "commit_url": "https://github.com/google/neuroglancer/commit/2c0edc8440ee6338cfe44aef00f1f3999dfc525b"
+    },
+    {
+      "commit_date": "2026-09-04T16:37:44.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/b3238be5931b3b151535ff81fbb894fea02c299f"
+    },
+    {
+      "commit_date": "2026-09-04T16:22:55.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/82d45423bed6a8515fed36b214d79504c01ec1a2"
+    },
+    {
+      "commit_date": "2026-09-04T16:22:55.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/3dc5e430b0cd0905f68f56f4faced674f13fd641"
+    },
+    {
+      "commit_date": "2026-09-04T16:22:43.000Z",
+      "author": "balbasty",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/4c0738395a713826ba79c414d57cd9afba0425ab"
+    },
+    {
+      "commit_date": "2026-09-04T16:22:35.000Z",
+      "author": "balbasty",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/3504c86f63fa0a08ffafab354050f2399de58916"
+    },
+    {
+      "commit_date": "2026-09-04T16:22:26.000Z",
+      "author": "balbasty",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/c5fd3fa6137cd5a6b5b6103f338f156ec6ed1955"
+    },
+    {
+      "commit_date": "2026-09-04T16:04:33.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/e800c2ed09034e03231fec48a15e44650023a85d"
+    },
+    {
+      "commit_date": "2026-09-04T12:03:00.000+02:00",
+      "author": "LucaMarconato",
+      "repository": "scverse/sp-ops",
+      "commit_url": "https://github.com/scverse/sp-ops/commit/73723e368328a17a6951ebc2ffaeaf7f2c2465f3"
+    },
+    {
+      "commit_date": "2026-09-04T11:45:56.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/4265e8048233b2ac1c055fc87f788f73094030bc"
+    },
+    {
+      "commit_date": "2026-09-04T11:25:01.000+02:00",
+      "author": "rushin682",
+      "repository": "scverse/sp-ops",
+      "commit_url": "https://github.com/scverse/sp-ops/commit/a63dbbddd50701f8d432528f6ae1bda99ad57fa2"
+    },
+    {
+      "commit_date": "2026-09-04T11:05:17.000-07:00",
+      "author": "aelefebv",
+      "repository": "aelefebv/lucida",
+      "commit_url": "https://github.com/aelefebv/lucida/commit/e0eb435137960e7fc926d9064c893fbc189529f0"
+    },
+    {
+      "commit_date": "2026-09-04T10:57:58.000Z",
+      "author": "balbasty",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/24751d410c22700b5c909c9c320d7d984c4dbb5d"
+    },
+    {
+      "commit_date": "2026-09-03T19:05:23.000-07:00",
+      "author": "kevinjohncutler",
+      "repository": "kevinjohncutler/opencodecs",
+      "commit_url": "https://github.com/kevinjohncutler/opencodecs/commit/a097fa40438656400c6e10a749dbdd1b0820fb95"
+    },
     {
       "commit_date": "2026-09-03T18:28:17.000+05:30",
       "author": "sraorao",
@@ -11,10 +143,22 @@
       "commit_url": "https://github.com/rao-genomics-lab/palms/commit/d27e3d3b8cfe7bf82fba5ae4155521d18682dcdb"
     },
     {
+      "commit_date": "2026-09-03T18:13:15.000+01:00",
+      "author": "jackyko1991",
+      "repository": "bpi-oxford/Histology-Collagen-Quantification",
+      "commit_url": "https://github.com/bpi-oxford/Histology-Collagen-Quantification/commit/e08d7a09c78705eba359cda0e3eeaeb4a7a48294"
+    },
+    {
       "commit_date": "2026-09-03T17:54:40.000-07:00",
       "author": "kevinjohncutler",
       "repository": "kevinjohncutler/opencodecs",
       "commit_url": "https://github.com/kevinjohncutler/opencodecs/commit/dd64fa26fa0c211fc117c729a4113ea20a715fbe"
+    },
+    {
+      "commit_date": "2026-09-03T17:09:38.000+01:00",
+      "author": "sbesson",
+      "repository": "glencoesoftware/omero-label",
+      "commit_url": "https://github.com/glencoesoftware/omero-label/commit/a93d7673e1a3478a5230dd9c9e814644d2b20bdd"
     },
     {
       "commit_date": "2026-09-03T16:09:13.000+01:00",
@@ -63,6 +207,30 @@
       "author": "kevinjohncutler",
       "repository": "kevinjohncutler/opencodecs",
       "commit_url": "https://github.com/kevinjohncutler/opencodecs/commit/9242495c9807b0ab56a6a5f5068100b7898bca92"
+    },
+    {
+      "commit_date": "2026-09-03T09:57:36.000-04:00",
+      "author": "ianhi",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/2de3c7aec584ad3f21a67c2babf1145035611d2b"
+    },
+    {
+      "commit_date": "2026-09-03T08:42:57.000+02:00",
+      "author": "sceriff0",
+      "repository": "sceriff0/mirage",
+      "commit_url": "https://github.com/sceriff0/mirage/commit/bf611025dc9617acc983dfb600e601a3d3205f75"
+    },
+    {
+      "commit_date": "2026-09-03T08:15:27.000-04:00",
+      "author": "ianhi",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/3f31a1ceb9f7407325257871e4d51baf48642a56"
+    },
+    {
+      "commit_date": "2026-09-03T07:40:01.000+02:00",
+      "author": "sceriff0",
+      "repository": "sceriff0/mirage",
+      "commit_url": "https://github.com/sceriff0/mirage/commit/37f39fba6a4762cc709dcfd30c76be73f0450f00"
     },
     {
       "commit_date": "2026-09-03T01:35:25.000+09:00",
