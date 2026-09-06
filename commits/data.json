@@ -1,9 +1,39 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-05T01:33:23+00:00",
+  "generated": "2026-09-06T01:37:32+00:00",
   "recent_days": 10,
-  "total_commits": 1864,
+  "total_commits": 1869,
   "commits": [
+    {
+      "commit_date": "2026-09-05T15:13:53.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/4eccf12627e28685a241c41c29f267e8764be266"
+    },
+    {
+      "commit_date": "2026-09-05T14:38:44.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/b342f939b183b53316499617a517c6d9de1d69d4"
+    },
+    {
+      "commit_date": "2026-09-05T14:05:06.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/223b61f835dfad2b304cfd24eb9d6b9e9347cd29"
+    },
+    {
+      "commit_date": "2026-09-05T11:20:49.000-07:00",
+      "author": "antonrmolina",
+      "repository": "nucleus-eng/devnote-template",
+      "commit_url": "https://github.com/nucleus-eng/devnote-template/commit/d7b991017b26d8acb09365d406d7685b7c991558"
+    },
+    {
+      "commit_date": "2026-09-05T11:17:46.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/7388f546baa0f90e2ef5a278bd79451bd6dbdd63"
+    },
     {
       "commit_date": "2026-09-05T00:57:22.000+05:30",
       "author": "Vaibhav20k",
