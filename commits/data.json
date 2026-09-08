@@ -1,9 +1,51 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-07T01:40:48+00:00",
+  "generated": "2026-09-08T01:37:09+00:00",
   "recent_days": 10,
-  "total_commits": 1879,
+  "total_commits": 1886,
   "commits": [
+    {
+      "commit_date": "2026-09-07T16:45:12.000+02:00",
+      "author": "karellopez",
+      "repository": "karellopez/bidsval",
+      "commit_url": "https://github.com/karellopez/bidsval/commit/c4e0a4cacbe18e8c0c8beb8267a547b9573a1d9d"
+    },
+    {
+      "commit_date": "2026-09-07T16:29:03.000-04:00",
+      "author": "trissim",
+      "repository": "OpenHCSDev/PolyStore",
+      "commit_url": "https://github.com/OpenHCSDev/PolyStore/commit/259e86c31f858c9e0bd66dcedd1d8e6b7be99c40"
+    },
+    {
+      "commit_date": "2026-09-07T15:56:21.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/ac596e63614bf761cefe41a323d9808e6e2700f1"
+    },
+    {
+      "commit_date": "2026-09-07T15:20:56.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/9e24be88788dd9b9162fc945f0ee6003607e7367"
+    },
+    {
+      "commit_date": "2026-09-07T15:07:16.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/0a5b67dd3f464464eba8aff7a66deb0111cc4259"
+    },
+    {
+      "commit_date": "2026-09-07T12:56:46.000+02:00",
+      "author": "Tomatokeftes",
+      "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
+      "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/e4c0117d52e374e9783788fc2f7aa708bae5120f"
+    },
+    {
+      "commit_date": "2026-09-07T12:02:47.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/ca1432995e04e31c98a5eeb5b8f68dd225caab8b"
+    },
     {
       "commit_date": "2026-09-06T22:36:57.000Z",
       "author": "claude",
