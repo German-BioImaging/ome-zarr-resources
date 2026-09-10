@@ -9,9 +9,11 @@
 """Weekly cheap pass: stars + topics for the whole pool, pick the repos worth
 scanning daily (see make_status.py)."""
 
+import json
 import os
 from collections import Counter
 from datetime import datetime
+from pathlib import Path
 from typing import Dict, List
 
 import requests
@@ -27,6 +29,8 @@ MAINTAINED_TOPICS = [
     "ome-zarr",
 ]
 CORE_REPOS = ["ome/ngff", "ome/ngff-spec"]
+COMMITS_FILE = "commits/data.json"
+DISCOVERED_SECTION = "Discovered (OME-Zarr commits)"
 
 
 def load_repos(path: str) -> Dict[str, str]:
@@ -40,6 +44,23 @@ def load_repos(path: str) -> Dict[str, str]:
         for pkg in section.get("packages") or []:
             repos.setdefault(pkg["repo"].strip().lower(), section.get("name", "Other"))
     return repos
+
+
+def discovered_repos(path: str = COMMITS_FILE) -> Dict[str, str]:
+    """Repos the commit feed has seen mentioning OME-Zarr, as pool entries.
+
+    The feed (commits/fetch.py, refreshed daily) already archives every repo with
+    an OME-Zarr commit, so the pool can grow on its own: new repos only cost the
+    weekly stars query, and the daily deep scan is still capped at TARGET.
+    """
+    if not Path(path).exists():
+        return {}
+    commits = json.loads(Path(path).read_text()).get("commits", [])
+    return {
+        c["repository"].strip().lower(): DISCOVERED_SECTION
+        for c in commits
+        if c.get("repository") and "/" in c["repository"]
+    }
 
 
 def fetch_stars_and_topics(repos: List[str], session) -> Dict[str, dict]:
@@ -109,6 +130,13 @@ def demo() -> None:
         f.flush()
         assert load_repos(f.name) == {"ome/ngio": "A"}, "case-insensitive dedupe"
 
+    with tempfile.NamedTemporaryFile("w", suffix=".json") as f:
+        f.write('{"commits": [{"repository": "Foo/Bar"}, {"repository": "foo/bar"},'
+                ' {"repository": "junk"}, {}]}')
+        f.flush()
+        assert discovered_repos(f.name) == {"foo/bar": DISCOVERED_SECTION}
+    assert discovered_repos("does/not/exist.json") == {}
+
     info = {
         "ome/quiet": {"stars": 0, "topics": []},
         "x/tagged": {"stars": 1, "topics": ["ome-zarr-viewer"]},
@@ -125,6 +153,10 @@ def demo() -> None:
 
 def main() -> None:
     sections = load_repos("dashboard.yml")
+    curated = set(sections)
+    # Curated entries win, so a hand-placed repo keeps its section.
+    for slug, section in discovered_repos().items():
+        sections.setdefault(slug, section)
     for skipped in load_repos("to_skip.yml"):
         sections.pop(skipped, None)
     repos = list(sections)
@@ -137,7 +169,9 @@ def main() -> None:
         raise SystemExit("GITHUB_TOKEN is required (the GraphQL API needs auth)")
     session.headers["Authorization"] = f"Bearer {token}"
 
-    print(f"pool: {len(repos)} repos")
+    print(f"pool: {len(repos)} repos "
+          f"({len(curated & set(repos))} curated, "
+          f"{len(repos) - len(curated & set(repos))} from the commit feed)")
     info = fetch_stars_and_topics(repos, session)
     for slug, d in info.items():
         d["section"] = sections[slug]
@@ -151,6 +185,14 @@ def main() -> None:
     for tag in ["Core"] + MAINTAINED_TOPICS:
         print(f"  {tag}: {counts[tag]}")
     print(f"star cutoff: {packages[-1]['stars']} (lowest selected)")
+
+    # Worth a look: these came in from the commit feed, not from dashboard.yml.
+    # Off-topic ones (big monorepos that merely mention OME-Zarr) belong in to_skip.yml.
+    newcomers = [p for p in packages if p["repo"] not in curated]
+    if newcomers:
+        print(f"newly selected from the commit feed ({len(newcomers)}):")
+        for p in newcomers:
+            print(f"  {p['repo']} ({p['stars']}⭐)")
 
     now = datetime.utcnow().isoformat() + "Z"
     with open("selected.yml", "w") as f:

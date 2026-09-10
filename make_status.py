@@ -18,7 +18,6 @@ from yaml import load, dump, Loader
 import requests
 from tqdm import tqdm
 
-with open("selected.yml") as f:
 # Concurrency control for secondary rate limits
 # GitHub allows max 100 concurrent requests; we stay well below
 MAX_WORKERS = 4
@@ -49,7 +48,20 @@ def throttled_request(
                 time.sleep(wait_time)
             _last_request_time = time.time()
 
-        resp = session.request(method, url, **kwargs)
+        try:
+            resp = session.request(method, url, **kwargs)
+        except requests.RequestException as exc:
+            # A dropped connection killed whole runs before; retry like a 429.
+            if attempt == max_retries - 1:
+                raise
+            wait = 2**attempt
+            print(
+                f"[CONNECTION ERROR] {url} - {exc}, "
+                f"attempt {attempt + 1}/{max_retries}, waiting {wait}s",
+                file=sys.stderr,
+            )
+            time.sleep(wait)
+            continue
 
         # Check for secondary rate limit
         if resp.status_code in (403, 429):
@@ -147,7 +159,7 @@ def check_response(
         print_rate_limit_info(response, context)
     return True
 
-with open("dashboard.yml") as f:
+with open("selected.yml") as f:
     config = load(f, Loader=Loader)
 
 session = requests.Session()

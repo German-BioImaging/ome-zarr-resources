@@ -1,6 +1,6 @@
 ### OME-Zarr Resources Dashboard
 
-Status dashboard for OME-Zarr-related repos: <https://lubianat.github.io/ome-zarr-resources/>
+Status dashboard for OME-Zarr-related repos: <https://german-bioimaging.github.io/ome-zarr-resources/>
 
 Two runs, two costs:
 
