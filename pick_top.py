@@ -18,7 +18,7 @@ from typing import Dict, List
 
 import requests
 from tqdm import tqdm
-from yaml import dump, load, Loader
+from yaml import dump, safe_load
 
 TARGET = 100
 MAINTAINED_TOPICS = [
@@ -36,7 +36,7 @@ DISCOVERED_SECTION = "Discovered (OME-Zarr commits)"
 def load_repos(path: str) -> Dict[str, str]:
     """slug -> the curated section it sits in (kept for the 'legacy' view)."""
     with open(path) as f:
-        sections = load(f, Loader=Loader) or []
+        sections = safe_load(f) or []
     # GitHub slugs are case-insensitive; keep one entry per repo (first wins)
     # or the same repo shows up twice on the dashboard.
     repos: Dict[str, str] = {}
