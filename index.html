@@ -21,6 +21,13 @@
     <p id="generated-at" class="meta-cell"></p>
     <p id="total_count" class="meta-cell"></p>
     <div id="error" class="error-note" style="display:none;"></div>
+    <div id="view-switch">
+      <button type="button" data-view="all" class="active">All repos</button>
+      <button type="button" data-view="tags">By tag</button>
+      <button type="button" data-view="manual">Manual sections</button>
+      <button type="button" data-view="pool" id="pool-btn"
+        title="Only the selected repos get the daily deep scan (commits, releases, CI); the rest of the pool is refreshed weekly with star counts only.">Full pool</button>
+    </div>
     <div id="sections">
       <div class="section-card">
         <p class="meta-cell">Loading dashboard...</p>
@@ -373,11 +380,11 @@
         return tr;
       }
 
-      function buildSection(section) {
+      function buildSection(name, packages) {
         const card = document.createElement('div');
         card.className = 'section-card';
         const title = document.createElement('h2');
-        title.textContent = section.name || 'Section';
+        title.textContent = name;
         card.appendChild(title);
 
         const table = document.createElement('table');
@@ -385,7 +392,7 @@
         table.appendChild(buildHeader());
 
         const tbody = document.createElement('tbody');
-        (section.packages || []).forEach(pkg => {
+        packages.forEach(pkg => {
           tbody.appendChild(buildRow(pkg));
         });
         table.appendChild(tbody);
@@ -393,9 +400,121 @@
         return card;
       }
 
+      // A repo can carry several tags, so it shows up in several groups.
+      const TAG_ORDER = ['Core', 'ome-zarr-converter', 'ome-zarr-viewer',
+        'ome-zarr-writer', 'ome-zarr-reader', 'ome-zarr'];
+
+      function buildPoolTable(packages) {
+        const table = document.createElement('table');
+        table.className = 'repo-table';
+        const thead = document.createElement('thead');
+        const tr = document.createElement('tr');
+        ['Owner', 'Name', '⭐', 'Tags', 'Section', 'Tracked daily'].forEach(text => {
+          const th = document.createElement('th');
+          th.textContent = text;
+          tr.appendChild(th);
+        });
+        thead.appendChild(tr);
+        table.appendChild(thead);
+
+        const tbody = document.createElement('tbody');
+        packages.forEach(pkg => {
+          const [owner, name] = pkg.repo.split('/');
+          const row = document.createElement('tr');
+          [owner, null, String(pkg.stars ?? ''), (pkg.tags || []).join(', '),
+            pkg.section || '', pkg.selected ? '✅' : ''].forEach((text, i) => {
+            const td = document.createElement('td');
+            if (i === 1) {
+              const link = document.createElement('a');
+              link.href = 'https://github.com/' + pkg.repo;
+              link.target = '_blank';
+              link.textContent = name;
+              td.appendChild(link);
+            } else {
+              td.textContent = text;
+            }
+            row.appendChild(td);
+          });
+          tbody.appendChild(row);
+        });
+        table.appendChild(tbody);
+        return table;
+      }
+
+      let poolPackages = null;
+
+      async function renderPool() {
+        sectionsEl.innerHTML = '';
+        const note = document.createElement('p');
+        note.className = 'meta-cell';
+        note.textContent = 'Every repo in the pool, stars only, refreshed weekly. '
+          + 'The ✅ ones also get the daily deep scan (commits, releases, CI) — '
+          + 'that scan costs ~5 API calls per repo, so it is capped at the 100 '
+          + 'most relevant: all ome/* repos, all repos carrying a tracked tag, '
+          + 'then the most-starred.';
+        sectionsEl.appendChild(note);
+        if (!poolPackages) {
+          poolPackages = (await fetchYaml('pool.yml')).packages || [];
+        }
+        const card = document.createElement('div');
+        card.className = 'section-card';
+        card.appendChild(buildPoolTable(poolPackages));
+        sectionsEl.appendChild(card);
+        enhanceTables();
+      }
+
+      function slugify(name) {
+        return 'g-' + name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      }
+
+      // Jump links, so the tracked tags are visible even when a group is empty.
+      function buildNav(names, counts) {
+        const nav = document.createElement('div');
+        nav.className = 'group-nav';
+        names.forEach(name => {
+          const count = counts[name] || 0;
+          const link = document.createElement('a');
+          link.href = '#' + slugify(name);
+          link.textContent = name + ' (' + count + ')';
+          if (!count) link.className = 'empty-group';
+          nav.appendChild(link);
+        });
+        return nav;
+      }
+
+      function renderGroups(names, groupOf, packages) {
+        const counts = {};
+        names.forEach(name => { counts[name] = packages.filter(p => groupOf(p, name)).length; });
+        sectionsEl.appendChild(buildNav(names, counts));
+        names.forEach(name => {
+          if (!counts[name]) return;
+          const card = buildSection(name, packages.filter(p => groupOf(p, name)));
+          card.id = slugify(name);
+          sectionsEl.appendChild(card);
+        });
+      }
+
+      function renderView(view, packages) {
+        sectionsEl.innerHTML = '';
+        if (view === 'tags') {
+          renderGroups(TAG_ORDER, (p, tag) => (p.tags || []).includes(tag), packages);
+        } else if (view === 'manual') {
+          const names = [];
+          packages.forEach(p => {
+            if (p.section && !names.includes(p.section)) names.push(p.section);
+          });
+          renderGroups(names, (p, name) => p.section === name, packages);
+        } else if (view === 'pool') {
+          renderPool().catch(err => setError('Could not load pool.yml: ' + err.message));
+          return;
+        } else {
+          sectionsEl.appendChild(buildSection('All repos', packages));
+        }
+        enhanceTables();
+      }
+
       function render(data) {
         clearError();
-        sectionsEl.innerHTML = '';
         if (data.generated_at) {
           const d = new Date(data.generated_at);
           const formatted = Number.isNaN(d.getTime())
@@ -405,16 +524,30 @@
         } else {
           generatedAtEl.textContent = '';
         }
-        // Display total count of repos, summing all sections
-        const totalCount = (data.sections || []).reduce((sum, section) => {
-          const count = Array.isArray(section.packages) ? section.packages.length : 0;
-          return sum + count;
-        }, 0);
-        totalCountEl.textContent = 'Total repos: ' + totalCount;
-        (data.sections || []).forEach(section => {
-          sectionsEl.appendChild(buildSection(section));
+        const packages = (data.packages || []).slice().sort(
+          (a, b) => (b.repo_info?.stargazers_count || 0) - (a.repo_info?.stargazers_count || 0));
+
+        const poolCount = data.pool_count || packages.length;
+        totalCountEl.innerHTML = '';
+        totalCountEl.append('Deep-scanned daily: ' + packages.length + ' of ');
+        const poolLink = document.createElement('a');
+        poolLink.href = '#';
+        poolLink.textContent = poolCount + ' tracked repos';
+        poolLink.title = document.getElementById('pool-btn').title;
+        poolLink.addEventListener('click', ev => {
+          ev.preventDefault();
+          document.getElementById('pool-btn').click();
         });
-        enhanceTables();
+        totalCountEl.appendChild(poolLink);
+
+        document.querySelectorAll('#view-switch button').forEach(btn => {
+          btn.addEventListener('click', () => {
+            document.querySelectorAll('#view-switch button').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderView(btn.dataset.view, packages);
+          });
+        });
+        renderView('all', packages);
       }
 
       function enhanceTables() {
@@ -434,7 +567,7 @@
       async function loadDashboard() {
         try {
           const parsed = await fetchYaml('generated.yml');
-          if (!parsed || !parsed.sections) {
+          if (!parsed || !parsed.packages) {
             throw new Error('generated.yml is missing required fields');
           }
           render(parsed);

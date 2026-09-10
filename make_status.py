@@ -15,7 +15,7 @@ from yaml import load, dump, Loader
 import requests
 from tqdm import tqdm
 
-with open("dashboard.yml") as f:
+with open("selected.yml") as f:
     config = load(f, Loader=Loader)
 
 session = requests.Session()
@@ -288,9 +288,7 @@ def process_package(package: dict) -> None:
         package["disabled_workflows"] = disabled_workflows
 
 
-all_packages: List[dict] = []
-for section in config:
-    all_packages.extend(section["packages"])
+all_packages: List[dict] = config["packages"]
 
 with ThreadPoolExecutor(max_workers=4) as executor:
     futures = [executor.submit(process_package, package) for package in all_packages]
@@ -300,7 +298,8 @@ with ThreadPoolExecutor(max_workers=4) as executor:
 
 snapshot = {
     "generated_at": datetime.utcnow().isoformat() + "Z",
-    "sections": config,
+    "pool_count": config.get("pool_count", len(all_packages)),
+    "packages": all_packages,
 }
 
 with open("generated.yml", "w") as generated_output:
