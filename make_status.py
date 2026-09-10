@@ -160,7 +160,9 @@ def check_response(
     return True
 
 with open("selected.yml") as f:
-    config = load(f, Loader=Loader)
+    from yaml import safe_load
+
+    config = safe_load(f)
 
 session = requests.Session()
 session.headers.update(
