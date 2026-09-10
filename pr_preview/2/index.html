@@ -476,7 +476,12 @@
           const link = document.createElement('a');
           link.href = '#' + slugify(name);
           link.textContent = name + ' (' + count + ')';
-          if (!count) link.className = 'empty-group';
+          if (!count) {
+            link.className = 'empty-group';
+            link.removeAttribute('href');
+            link.setAttribute('aria-disabled', 'true');
+            link.tabIndex = -1;
+          }
           nav.appendChild(link);
         });
         return nav;
