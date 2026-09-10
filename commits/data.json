@@ -1,9 +1,81 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-09T01:37:21+00:00",
+  "generated": "2026-09-10T01:35:28+00:00",
   "recent_days": 10,
-  "total_commits": 1902,
+  "total_commits": 1914,
   "commits": [
+    {
+      "commit_date": "2026-09-09T17:01:08.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "imagej/list-of-update-sites",
+      "commit_url": "https://github.com/imagej/list-of-update-sites/commit/30ee3bf042088e2587d54f9dc8d2e69721e8f752"
+    },
+    {
+      "commit_date": "2026-09-09T15:37:08.000-03:00",
+      "author": "lubianat",
+      "repository": "lubianat/pre-draft-ome-xml-in-oz-rfc",
+      "commit_url": "https://github.com/lubianat/pre-draft-ome-xml-in-oz-rfc/commit/326b57495c28c304ce43ada64c5eb82ae6bc3240"
+    },
+    {
+      "commit_date": "2026-09-09T13:11:41.000Z",
+      "author": "sittingmongoose",
+      "repository": "sittingmongoose/Puppet-Master",
+      "commit_url": "https://github.com/sittingmongoose/Puppet-Master/commit/423549b29e65fc7bb00268440c5a0a7554a3a3b0"
+    },
+    {
+      "commit_date": "2026-09-09T13:06:56.000-07:00",
+      "author": "kevinjohncutler",
+      "repository": "kevinjohncutler/opencodecs",
+      "commit_url": "https://github.com/kevinjohncutler/opencodecs/commit/406bedffb4e57f0c20ebb860dda7367b6428f582"
+    },
+    {
+      "commit_date": "2026-09-09T13:06:30.000+02:00",
+      "author": "juliomateoslangerak",
+      "repository": "microscope-cockpit/cockpit",
+      "commit_url": "https://github.com/microscope-cockpit/cockpit/commit/8b2fa768fc32d91e18b826b6881a92031232aed6"
+    },
+    {
+      "commit_date": "2026-09-09T12:27:57.000-07:00",
+      "author": "dpshepherd",
+      "repository": "QI2lab/opm-processing-v2",
+      "commit_url": "https://github.com/QI2lab/opm-processing-v2/commit/b1b266926a509fa7bff5dbc4c047b84a0c36fb07"
+    },
+    {
+      "commit_date": "2026-09-09T11:58:39.000+09:00",
+      "author": "uekensp8",
+      "repository": "xrm-bl/ct-rec",
+      "commit_url": "https://github.com/xrm-bl/ct-rec/commit/5dab869b42894ff28801725f3fd9611b0e394d89"
+    },
+    {
+      "commit_date": "2026-09-09T10:55:50.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/508d36324a640e0459c05e6a285180c370a6db9a"
+    },
+    {
+      "commit_date": "2026-09-09T10:11:24.000-04:00",
+      "author": "stevevanhooser",
+      "repository": "VH-Lab/NDR-matlab",
+      "commit_url": "https://github.com/VH-Lab/NDR-matlab/commit/151ab327ec09e2cbff0b987ec2126dbc7a421d2b"
+    },
+    {
+      "commit_date": "2026-09-09T09:26:26.000-05:00",
+      "author": "EvanKrystofiak",
+      "repository": "EvanKrystofiak/pyclem3d",
+      "commit_url": "https://github.com/EvanKrystofiak/pyclem3d/commit/8c11b0a10141baa0f764315f5890f0b4300c5a4e"
+    },
+    {
+      "commit_date": "2026-09-09T09:24:14.000+01:00",
+      "author": "sbesson",
+      "repository": "glencoesoftware/omero-zarr-pixel-buffer",
+      "commit_url": "https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/fbc814c2041448b4a357381a926b09ade352ad02"
+    },
+    {
+      "commit_date": "2026-09-09T07:18:43.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/a1d2e2d6c2b1143b6da8b07615f616bfcd9ae926"
+    },
     {
       "commit_date": "2026-09-09T00:38:38.000+02:00",
       "author": "lednicky-t",
