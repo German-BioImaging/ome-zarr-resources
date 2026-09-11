@@ -48,7 +48,20 @@ def throttled_request(
                 time.sleep(wait_time)
             _last_request_time = time.time()
 
-        resp = session.request(method, url, **kwargs)
+        try:
+            resp = session.request(method, url, **kwargs)
+        except requests.RequestException as exc:
+            # A dropped connection killed whole runs before; retry like a 429.
+            if attempt == max_retries - 1:
+                raise
+            wait = 2**attempt
+            print(
+                f"[CONNECTION ERROR] {url} - {exc}, "
+                f"attempt {attempt + 1}/{max_retries}, waiting {wait}s",
+                file=sys.stderr,
+            )
+            time.sleep(wait)
+            continue
 
         # Check for secondary rate limit
         if resp.status_code in (403, 429):
@@ -146,8 +159,10 @@ def check_response(
         print_rate_limit_info(response, context)
     return True
 
-with open("dashboard.yml") as f:
-    config = load(f, Loader=Loader)
+with open("selected.yml") as f:
+    from yaml import safe_load
+
+    config = safe_load(f)
 
 session = requests.Session()
 session.headers.update(
@@ -449,9 +464,7 @@ def process_package(package: dict) -> None:
         package["disabled_workflows"] = disabled_workflows
 
 
-all_packages: List[dict] = []
-for section in config:
-    all_packages.extend(section["packages"])
+all_packages: List[dict] = config["packages"]
 
 print(f"Processing {len(all_packages)} packages with {MAX_WORKERS} workers...", file=sys.stderr)
 print(f"Request throttling: {REQUEST_DELAY}s minimum between requests", file=sys.stderr)
@@ -492,7 +505,8 @@ else:
 
 snapshot = {
     "generated_at": datetime.utcnow().isoformat() + "Z",
-    "sections": config,
+    "pool_count": config.get("pool_count", len(all_packages)),
+    "packages": all_packages,
 }
 
 with open("generated.yml", "w") as generated_output:
