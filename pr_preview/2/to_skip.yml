@@ -1,0 +1,42 @@
+- name: Relevant, but not tools/resources
+  packages:
+    - repo: CBI-PITT/peace_pipe_line_slurm
+    - repo: CBI-PITT/generate_peace_json
+    - repo: Slice-Girlz/3DSegStuff
+    - repo: SanjaJasek/EM_workflows
+    - repo: AugustHoeg/VoxelSR
+    - repo: ScrollPrize/villa
+    - repo: ome/EMBL-EBI-imaging-course-05-2023
+    - repo: fmi-faim/mozarrt
+    - repo: mittoalb/ccfalign
+    - repo: ScilifelabDataCentre/RDM-guidelines
+
+- name: Somewhat OME-Zarr perhaps, just skip for now
+  packages:
+    - repo: MaterialsPhysicsANU/anu_ctlab_io
+    - repo: pieper/SlicerLive
+    - repo: pieper/desktopia
+    - repo: pieper/live
+    - repo: GitHwwb/plumbline
+    - repo: kelpschd/TrainTracks
+    - repo: timjrobinson/geothermal-simulation
+    - repo: chourroutm/forbuilder
+    - repo: vandeplaslab/image2image-io
+    - repo: darosio/nima_io
+    - repo: girochat/napari-crop-tool
+    - repo:     noheton/shepard
+    - repo: cloudvoyant/codevoyant
+    - repo: canpute/simplezarr
+    - repo: xX-its-amit-Xx/volumetric-qc
+    - repo: gcharvin/detecdiv-hub
+    - repo: cheeseman-lab/goudacell
+    - repo: SamanthaKraft/NIFTI-TO-ZARR
+
+
+- name: Not really OME-Zarr
+  packages:
+    - repo: NixOS/nixpkgs
+    - repo: TimePath/nixpkgs-vendored
+    - repo: MiniHarinn/nixpkgs-ci-test
+    - repo: ciscoriordan/mednext-vs-umamba-scroll
+    - repo: Rafael-Silva-Oliveira/rafael-silva-oliveira.github.io
