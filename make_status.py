@@ -14,7 +14,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import Dict, List, Optional, Callable
-from yaml import load, dump, Loader
+from yaml import load, dump, Loader, Dumper
 import requests
 from tqdm import tqdm
 
@@ -497,7 +497,8 @@ def process_package(package: dict) -> None:
         package["user"], package["name"], local_session
     )
     if commit_activity:
-        package["commit_activity"] = commit_activity
+        # Named so the YAML explains itself: 52 weekly commit counts, oldest first.
+        package["weekly_commits_52w_oldest_first"] = commit_activity
 
     disabled_workflows = disabled_inactive_workflows(workflows)
     if disabled_workflows:
@@ -549,7 +550,17 @@ snapshot = {
     "packages": all_packages,
 }
 
+def represent_list(dumper: Dumper, value: list):
+    # Scalar-only lists (the 52-week series, topics, tags) on one line; lists of
+    # dicts such as `packages` stay in block style.
+    flow = all(not isinstance(item, (dict, list)) for item in value)
+    return dumper.represent_sequence("tag:yaml.org,2002:seq", value, flow_style=flow)
+
+
+Dumper.add_representer(list, represent_list)
+
 with open("generated.yml", "w") as generated_output:
-    dump(snapshot, generated_output)
+    # The wide width stops PyYAML from wrapping those one-line lists again.
+    dump(snapshot, generated_output, Dumper=Dumper, width=float("inf"))
 
 print(f"\nWrote generated.yml with {len(all_packages)} packages.", file=sys.stderr)

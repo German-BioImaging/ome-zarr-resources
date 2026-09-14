@@ -417,7 +417,7 @@
         tr.appendChild(createLastCommitCell(pkg.last_commit, pkg.disabled_workflows, pkg.repo, pkg.workflow_run_status));
         tr.appendChild(createLastReleaseCell(pkg.last_release));
         tr.appendChild(createTopicsCell(repoInfo.topics));
-        tr.appendChild(createActivityCell(pkg.commit_activity));
+        tr.appendChild(createActivityCell(pkg.weekly_commits_52w_oldest_first));
 
         return tr;
       }
