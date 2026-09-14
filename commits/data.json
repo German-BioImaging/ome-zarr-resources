@@ -1,9 +1,429 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-07T01:40:48+00:00",
+  "generated": "2026-09-14T01:42:19+00:00",
   "recent_days": 10,
-  "total_commits": 1879,
+  "total_commits": 1949,
   "commits": [
+    {
+      "commit_date": "2026-09-13T22:01:30.000+08:00",
+      "author": "ferventrain",
+      "repository": "ferventrain/Yifu",
+      "commit_url": "https://github.com/ferventrain/Yifu/commit/838e636b0140f0e368c8cca3a4af48c1c4803a17"
+    },
+    {
+      "commit_date": "2026-09-13T13:41:50.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/76b027faf0c723c528fb1168bac77a1ba4b108d7"
+    },
+    {
+      "commit_date": "2026-09-13T12:12:50.000+02:00",
+      "author": "korbinian90",
+      "repository": "niivue/niivue-vscode",
+      "commit_url": "https://github.com/niivue/niivue-vscode/commit/196074ab986d835c2e55477ef671b1e78b715bc6"
+    },
+    {
+      "commit_date": "2026-09-12T20:22:34.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/76b373e3b09e367ecd5358fc7800b484982270f4"
+    },
+    {
+      "commit_date": "2026-09-12T19:10:04.000-07:00",
+      "author": "lanesawyer",
+      "repository": "lanesawyer/bevy-data-explorer",
+      "commit_url": "https://github.com/lanesawyer/bevy-data-explorer/commit/54096c1f5777f8a45d68a8cb4f04dc3d35bdde36"
+    },
+    {
+      "commit_date": "2026-09-12T17:48:35.000+02:00",
+      "author": "AI Agent",
+      "repository": "ZMB-UZH/omero-docker-extended",
+      "commit_url": "https://github.com/ZMB-UZH/omero-docker-extended/commit/074c1b04920aa661685569182afb000474c7cfc8"
+    },
+    {
+      "commit_date": "2026-09-12T10:38:44.000+01:00",
+      "author": "Ron Finn",
+      "repository": "ronfinn/zarr-tree",
+      "commit_url": "https://github.com/ronfinn/zarr-tree/commit/f269189391d6976cff40f5d01f9823cfbb6a11b1"
+    },
+    {
+      "commit_date": "2026-09-12T03:02:06.000+02:00",
+      "author": "jwindhager",
+      "repository": "TissUUmaps/OMEZarrTileSource",
+      "commit_url": "https://github.com/TissUUmaps/OMEZarrTileSource/commit/b15faa14ba127745b30f46ccf9217ae741343581"
+    },
+    {
+      "commit_date": "2026-09-11T23:13:45.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/52b48383bd34f383cfa725f6f1f1515e39e88632"
+    },
+    {
+      "commit_date": "2026-09-11T22:03:30.000+10:00",
+      "author": "kadenpool",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/be09a85035059fd83471b1632b5898c62f2c65b1"
+    },
+    {
+      "commit_date": "2026-09-11T21:03:29.000+02:00",
+      "author": "jwindhager",
+      "repository": "TissUUmaps/OMEZarrTileSource",
+      "commit_url": "https://github.com/TissUUmaps/OMEZarrTileSource/commit/bce5b9651007aee02f06c874121d7764b0558478"
+    },
+    {
+      "commit_date": "2026-09-11T19:43:03.000-07:00",
+      "author": "Xander-git",
+      "repository": "exfab/PhenoTypic",
+      "commit_url": "https://github.com/exfab/PhenoTypic/commit/05f977a336ec4d9089b07594600fec161c5f2594"
+    },
+    {
+      "commit_date": "2026-09-11T17:16:29.000-07:00",
+      "author": "lanesawyer",
+      "repository": "lanesawyer/bevy-data-explorer",
+      "commit_url": "https://github.com/lanesawyer/bevy-data-explorer/commit/03d7f986a70ae6c0ab7947d901fda530f36a72df"
+    },
+    {
+      "commit_date": "2026-09-11T12:31:21.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/b8faf4a8bcea95d3735449369c06242814778852"
+    },
+    {
+      "commit_date": "2026-09-11T12:25:55.000-07:00",
+      "author": "lanesawyer",
+      "repository": "lanesawyer/bevy-data-explorer",
+      "commit_url": "https://github.com/lanesawyer/bevy-data-explorer/commit/d3b6c69642e3c0afa66bb29047082919c2884d94"
+    },
+    {
+      "commit_date": "2026-09-11T12:24:17.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/2ca52ac6c9a48f4bc1f9d1e09b0d4708b15c5789"
+    },
+    {
+      "commit_date": "2026-09-11T12:04:19.000+01:00",
+      "author": "Helfrid",
+      "repository": "HocheggerLab/omero-screen",
+      "commit_url": "https://github.com/HocheggerLab/omero-screen/commit/710be7e40ff8058709287c9a4282eb1d1e9de49c"
+    },
+    {
+      "commit_date": "2026-09-11T11:03:47.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/90f0340a370da4536aa9d7285868bbde6291d9c7"
+    },
+    {
+      "commit_date": "2026-09-11T10:57:26.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/fair-segmentation",
+      "commit_url": "https://github.com/NL-BioImaging/fair-segmentation/commit/3ec822a3f4739f20ca25b23b284ec5fbdb037e27"
+    },
+    {
+      "commit_date": "2026-09-11T10:47:09.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/b84954df99a92a31fe93644c91ee8e86dca14ef7"
+    },
+    {
+      "commit_date": "2026-09-11T10:24:56.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/39d0c933791d8e19fd0cb531ae0dc2f9eb3ef19a"
+    },
+    {
+      "commit_date": "2026-09-11T09:52:05.000+02:00",
+      "author": "tlambert03",
+      "repository": "imaging-formats/yaozarrs",
+      "commit_url": "https://github.com/imaging-formats/yaozarrs/commit/14b0ef5d358e7fa8420fe012dfe017c808eb836a"
+    },
+    {
+      "commit_date": "2026-09-11T06:32:09.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/e180a3b5b4a9768c1436c13c94619d0d89485a9b"
+    },
+    {
+      "commit_date": "2026-09-11T01:19:31.000-07:00",
+      "author": "lanesawyer",
+      "repository": "lanesawyer/bevy-data-explorer",
+      "commit_url": "https://github.com/lanesawyer/bevy-data-explorer/commit/aaeebd785795811465ae5d65c9da059ced12af10"
+    },
+    {
+      "commit_date": "2026-09-10T14:19:08.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/ba3da158f87000e3a1803b58e219fa5b3a58e752"
+    },
+    {
+      "commit_date": "2026-09-10T14:18:01.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/1a2c0c84b1a4cc668047be7a7b1a6e1144b8b400"
+    },
+    {
+      "commit_date": "2026-09-10T12:20:24.000+01:00",
+      "author": "ChaosFreak",
+      "repository": "sgsllc-jr/zarr-pyramid-audit",
+      "commit_url": "https://github.com/sgsllc-jr/zarr-pyramid-audit/commit/b3b258b0a57d86584d3623e3687d1d3294c3ebab"
+    },
+    {
+      "commit_date": "2026-09-10T12:07:55.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/23670660b0d05ee1facca928b37d0fe9407d2ac0"
+    },
+    {
+      "commit_date": "2026-09-10T10:50:39.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/f1525745f5509580749bdac38f49be51fbad2238"
+    },
+    {
+      "commit_date": "2026-09-09T20:05:44.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/c50455d201615f3ad98b4016a519460a334885e0"
+    },
+    {
+      "commit_date": "2026-09-09T19:35:43.000-07:00",
+      "author": "Xander-git",
+      "repository": "exfab/PhenoTypic",
+      "commit_url": "https://github.com/exfab/PhenoTypic/commit/52768c9a45de8620b3bb91e8c7de055a6ac8b19b"
+    },
+    {
+      "commit_date": "2026-09-09T19:35:18.000-07:00",
+      "author": "Xander-git",
+      "repository": "exfab/PhenoTypic",
+      "commit_url": "https://github.com/exfab/PhenoTypic/commit/8b60a9aa5831224e7c061834089e29a29e685ee9"
+    },
+    {
+      "commit_date": "2026-09-09T17:15:38.000+02:00",
+      "author": "normanrz",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/bf06012f1706a8aec14c0d4e03a9f46ad300ff22"
+    },
+    {
+      "commit_date": "2026-09-09T17:01:08.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "imagej/list-of-update-sites",
+      "commit_url": "https://github.com/imagej/list-of-update-sites/commit/30ee3bf042088e2587d54f9dc8d2e69721e8f752"
+    },
+    {
+      "commit_date": "2026-09-09T15:37:08.000-03:00",
+      "author": "lubianat",
+      "repository": "lubianat/pre-draft-ome-xml-in-oz-rfc",
+      "commit_url": "https://github.com/lubianat/pre-draft-ome-xml-in-oz-rfc/commit/326b57495c28c304ce43ada64c5eb82ae6bc3240"
+    },
+    {
+      "commit_date": "2026-09-09T13:11:41.000Z",
+      "author": "sittingmongoose",
+      "repository": "sittingmongoose/Puppet-Master",
+      "commit_url": "https://github.com/sittingmongoose/Puppet-Master/commit/423549b29e65fc7bb00268440c5a0a7554a3a3b0"
+    },
+    {
+      "commit_date": "2026-09-09T13:11:41.000Z",
+      "author": "sittingmongoose",
+      "repository": "sittingmongoose/Puppet-Master",
+      "commit_url": "https://github.com/sittingmongoose/Puppet-Master/commit/b32452559f0cde482b34674a4d9a81518bc75875"
+    },
+    {
+      "commit_date": "2026-09-09T13:06:56.000-07:00",
+      "author": "kevinjohncutler",
+      "repository": "kevinjohncutler/opencodecs",
+      "commit_url": "https://github.com/kevinjohncutler/opencodecs/commit/406bedffb4e57f0c20ebb860dda7367b6428f582"
+    },
+    {
+      "commit_date": "2026-09-09T13:06:30.000+02:00",
+      "author": "juliomateoslangerak",
+      "repository": "microscope-cockpit/cockpit",
+      "commit_url": "https://github.com/microscope-cockpit/cockpit/commit/8b2fa768fc32d91e18b826b6881a92031232aed6"
+    },
+    {
+      "commit_date": "2026-09-09T12:35:45.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/c1f8f5a1aee8d6a96e931d1a6da74588458d3847"
+    },
+    {
+      "commit_date": "2026-09-09T12:27:57.000-07:00",
+      "author": "dpshepherd",
+      "repository": "QI2lab/opm-processing-v2",
+      "commit_url": "https://github.com/QI2lab/opm-processing-v2/commit/b1b266926a509fa7bff5dbc4c047b84a0c36fb07"
+    },
+    {
+      "commit_date": "2026-09-09T11:58:39.000+09:00",
+      "author": "uekensp8",
+      "repository": "xrm-bl/ct-rec",
+      "commit_url": "https://github.com/xrm-bl/ct-rec/commit/5dab869b42894ff28801725f3fd9611b0e394d89"
+    },
+    {
+      "commit_date": "2026-09-09T10:55:50.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/508d36324a640e0459c05e6a285180c370a6db9a"
+    },
+    {
+      "commit_date": "2026-09-09T10:11:24.000-04:00",
+      "author": "stevevanhooser",
+      "repository": "VH-Lab/NDR-matlab",
+      "commit_url": "https://github.com/VH-Lab/NDR-matlab/commit/151ab327ec09e2cbff0b987ec2126dbc7a421d2b"
+    },
+    {
+      "commit_date": "2026-09-09T09:26:26.000-05:00",
+      "author": "EvanKrystofiak",
+      "repository": "EvanKrystofiak/pyclem3d",
+      "commit_url": "https://github.com/EvanKrystofiak/pyclem3d/commit/8c11b0a10141baa0f764315f5890f0b4300c5a4e"
+    },
+    {
+      "commit_date": "2026-09-09T09:24:14.000+01:00",
+      "author": "sbesson",
+      "repository": "glencoesoftware/omero-zarr-pixel-buffer",
+      "commit_url": "https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/fbc814c2041448b4a357381a926b09ade352ad02"
+    },
+    {
+      "commit_date": "2026-09-09T07:18:43.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/a1d2e2d6c2b1143b6da8b07615f616bfcd9ae926"
+    },
+    {
+      "commit_date": "2026-09-09T00:38:38.000+02:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/f705268cb1b93cbbfa6a77e2483eb112d551b2e4"
+    },
+    {
+      "commit_date": "2026-09-08T23:34:04.000+02:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/ce511c7902fd79d6e2cad065a2146f67070b8bf5"
+    },
+    {
+      "commit_date": "2026-09-08T23:20:01.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/7a1e9c5556115bf55bdfdc6730dcbc47da1beee6"
+    },
+    {
+      "commit_date": "2026-09-08T23:02:34.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/dc7de074e954d76c94624b4d7259a2bb2ea6cca9"
+    },
+    {
+      "commit_date": "2026-09-08T23:02:08.000+02:00",
+      "author": "ttendoscopie-creator",
+      "repository": "ttendoscopie-creator/ink-audit",
+      "commit_url": "https://github.com/ttendoscopie-creator/ink-audit/commit/b218ba7ca026e0ef5d18fa9b8e62048042e9bba1"
+    },
+    {
+      "commit_date": "2026-09-08T22:15:30.000+02:00",
+      "author": "imagejan",
+      "repository": "conda-forge/bioio-ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/bioio-ome-zarr-feedstock/commit/08e9716d31a98abdb2bc2d6ef3ae93756a23b042"
+    },
+    {
+      "commit_date": "2026-09-08T21:28:22.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/328a6c5915a11fdbe1041c6fc40a836715baf196"
+    },
+    {
+      "commit_date": "2026-09-08T20:17:49.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/5ca665fe98820d70eca488621bf2d4b2ba5395e5"
+    },
+    {
+      "commit_date": "2026-09-08T20:15:40.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/94600aa9a469ecce5556bb7409c8be2aaba5cd56"
+    },
+    {
+      "commit_date": "2026-09-08T20:06:12.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/63b7c820a7e52cb862f66faf347e96f068fcdcba"
+    },
+    {
+      "commit_date": "2026-09-08T19:59:59.000Z",
+      "author": "renovate[bot]",
+      "repository": "darosio/nima_io",
+      "commit_url": "https://github.com/darosio/nima_io/commit/d02be92b10fa48da4b0c65683e04d2395eada970"
+    },
+    {
+      "commit_date": "2026-09-08T17:32:41.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/1702d56efc59012679f1f67747151035225af435"
+    },
+    {
+      "commit_date": "2026-09-08T16:38:12.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/eb91dd63e4c1ea8300a41f2c6945fd2de186187c"
+    },
+    {
+      "commit_date": "2026-09-08T16:02:36.000+02:00",
+      "author": "nilsmechtel",
+      "repository": "bioimage-io/bioimage.io",
+      "commit_url": "https://github.com/bioimage-io/bioimage.io/commit/cd1180b1e754f6f06986b415007a8be3881c8472"
+    },
+    {
+      "commit_date": "2026-09-08T14:22:33.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/830da652ca43fee0e58c0d1c3e3c6c06de792d2e"
+    },
+    {
+      "commit_date": "2026-09-07T18:03:55.000+02:00",
+      "author": "karellopez",
+      "repository": "ANCPLabOldenburg/BIDS-Manager",
+      "commit_url": "https://github.com/ANCPLabOldenburg/BIDS-Manager/commit/3d0f88028078a8962b2dca2516fba095b500db8d"
+    },
+    {
+      "commit_date": "2026-09-07T16:45:12.000+02:00",
+      "author": "karellopez",
+      "repository": "karellopez/bidsval",
+      "commit_url": "https://github.com/karellopez/bidsval/commit/c4e0a4cacbe18e8c0c8beb8267a547b9573a1d9d"
+    },
+    {
+      "commit_date": "2026-09-07T16:29:03.000-04:00",
+      "author": "trissim",
+      "repository": "OpenHCSDev/PolyStore",
+      "commit_url": "https://github.com/OpenHCSDev/PolyStore/commit/259e86c31f858c9e0bd66dcedd1d8e6b7be99c40"
+    },
+    {
+      "commit_date": "2026-09-07T15:56:21.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/ac596e63614bf761cefe41a323d9808e6e2700f1"
+    },
+    {
+      "commit_date": "2026-09-07T15:20:56.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/9e24be88788dd9b9162fc945f0ee6003607e7367"
+    },
+    {
+      "commit_date": "2026-09-07T15:07:16.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/0a5b67dd3f464464eba8aff7a66deb0111cc4259"
+    },
+    {
+      "commit_date": "2026-09-07T12:56:46.000+02:00",
+      "author": "Tomatokeftes",
+      "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
+      "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/e4c0117d52e374e9783788fc2f7aa708bae5120f"
+    },
+    {
+      "commit_date": "2026-09-07T12:02:47.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/ca1432995e04e31c98a5eeb5b8f68dd225caab8b"
+    },
     {
       "commit_date": "2026-09-06T22:36:57.000Z",
       "author": "claude",
