@@ -14,7 +14,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import Dict, List, Optional, Callable
-from yaml import load, dump, Loader
+from yaml import load, dump, Loader, Dumper
 import requests
 from tqdm import tqdm
 
@@ -48,7 +48,31 @@ def throttled_request(
                 time.sleep(wait_time)
             _last_request_time = time.time()
 
-        resp = session.request(method, url, **kwargs)
+        try:
+            resp = session.request(method, url, **kwargs)
+        except requests.RequestException as exc:
+            # A dropped connection killed whole runs before; retry like a 429.
+            if attempt == max_retries - 1:
+                raise
+            wait = 2**attempt
+            print(
+                f"[CONNECTION ERROR] {url} - {exc}, "
+                f"attempt {attempt + 1}/{max_retries}, waiting {wait}s",
+                file=sys.stderr,
+            )
+            time.sleep(wait)
+            continue
+
+        # Stats endpoints answer 202 while GitHub builds the cache; retry briefly.
+        if resp.status_code == 202 and attempt < max_retries - 1:
+            wait = 2**attempt
+            print(
+                f"[STATS PENDING] {url} - attempt {attempt + 1}/{max_retries}, "
+                f"waiting {wait}s",
+                file=sys.stderr,
+            )
+            time.sleep(wait)
+            continue
 
         # Check for secondary rate limit
         if resp.status_code in (403, 429):
@@ -146,8 +170,10 @@ def check_response(
         print_rate_limit_info(response, context)
     return True
 
-with open("dashboard.yml") as f:
-    config = load(f, Loader=Loader)
+with open("selected.yml") as f:
+    from yaml import safe_load
+
+    config = safe_load(f)
 
 session = requests.Session()
 session.headers.update(
@@ -194,36 +220,54 @@ query($owner:String!,$name:String!){
 """
 
 
-def fetch_workflow_runs_status(
+def fetch_workflows(
     owner: str, repo: str, session: requests.Session
+) -> Optional[List[dict]]:
+    """
+    All workflows for a repo. Fetched once and reused by the run-status and the
+    disabled-by-inactivity checks, which used to request this list twice.
+    """
+    ctx = f"{owner}/{repo}"
+    page = 1
+    workflows: List[dict] = []
+    while True:
+        resp = throttled_request(
+            session,
+            "GET",
+            f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
+            params={"per_page": 100, "page": page},
+        )
+        if resp.status_code in (403, 404):
+            if resp.status_code == 403:
+                print(f"[{ctx}] Forbidden fetching workflows", file=sys.stderr)
+                print_rate_limit_info(resp, f"{ctx} workflows")
+            return None
+        if not resp.ok:
+            check_response(resp, f"{ctx} workflows")
+            return None
+        page_workflows = (resp.json() or {}).get("workflows") or []
+        workflows.extend(page_workflows)
+        if len(page_workflows) < 100:
+            return workflows
+        page += 1
+
+
+def fetch_workflow_runs_status(
+    owner: str,
+    repo: str,
+    session: requests.Session,
+    default_branch: Optional[str],
+    workflows: Optional[List[dict]],
 ) -> Optional[str]:
     """
     Fetch the status of the latest workflow runs for the default branch.
     Returns one of: SUCCESS, FAILURE, PENDING, NO_WORKFLOWS, or None if unknown.
     """
     ctx = f"{owner}/{repo}"
-
-    # Get the default branch name
-    repo_resp = throttled_request(
-        session, "GET", f"https://api.github.com/repos/{owner}/{repo}"
-    )
-    if not check_response(repo_resp, f"{ctx} repo"):
+    if workflows is None:
         return None
 
-    default_branch = repo_resp.json().get("default_branch")
-
-    # Get active workflows
     active_workflow_ids = set()
-    active_workflows_resp = throttled_request(
-        session,
-        "GET",
-        f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
-        params={"per_page": 100},
-    )
-    if not check_response(active_workflows_resp, f"{ctx} workflows"):
-        return None
-
-    workflows = active_workflows_resp.json().get("workflows", [])
     for workflow in workflows:
         if (workflow.get("state") or "").lower() == "active":
             workflow_id = workflow.get("id")
@@ -330,6 +374,7 @@ def fetch_repo_info(owner: str, repo: str, session: requests.Session) -> Optiona
         return None
     info = resp.json()
     return {
+        "default_branch": info.get("default_branch"),
         "created_at": info.get("created_at"),
         "updated_at": info.get("updated_at"),
         "open_issues": info.get("open_issues_count"),
@@ -338,6 +383,30 @@ def fetch_repo_info(owner: str, repo: str, session: requests.Session) -> Optiona
         "topics": info.get("topics", []),
         "size": info.get("size"),
     }
+
+
+def fetch_commit_activity(
+    owner: str, repo: str, session: requests.Session
+) -> Optional[List[int]]:
+    """
+    Commits per week for the last 52 weeks (oldest first) — the series behind the
+    sparkline GitHub shows on its own repo lists.
+    """
+    ctx = f"{owner}/{repo}"
+    resp = throttled_request(
+        session,
+        "GET",
+        f"https://api.github.com/repos/{owner}/{repo}/stats/commit_activity",
+    )
+    # 202: still warming up after the retries above. 204: empty repo.
+    if resp.status_code in (202, 204, 404):
+        return None
+    if not check_response(resp, f"{ctx} commit-activity"):
+        return None
+    weeks = resp.json()
+    if not isinstance(weeks, list):
+        return None
+    return [int(week.get("total") or 0) for week in weeks]
 
 
 def fetch_last_release_info(
@@ -371,44 +440,20 @@ def fetch_last_release_info(
     }
 
 
-def fetch_disabled_inactive_workflows(
-    owner: str, repo: str, session: requests.Session
-) -> List[str]:
+def disabled_inactive_workflows(workflows: Optional[List[dict]]) -> List[str]:
     """
-    Return names/paths for workflows auto-disabled due to inactivity.
+    Names/paths for workflows auto-disabled due to inactivity.
     """
-    ctx = f"{owner}/{repo}"
-    page = 1
     disabled: List[str] = []
-    while True:
-        resp = throttled_request(
-            session,
-            "GET",
-            f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
-            params={"per_page": 100, "page": page},
-        )
-        if resp.status_code in (403, 404):
-            if resp.status_code == 403:
-                print(f"[{ctx}] Forbidden fetching workflows", file=sys.stderr)
-                print_rate_limit_info(resp, f"{ctx} disabled-workflows")
-            break
-        if not resp.ok:
-            check_response(resp, f"{ctx} disabled-workflows")
-            break
-        data = resp.json() or {}
-        workflows = data.get("workflows") or []
-        for workflow in workflows:
-            if (workflow.get("state") or "").lower() == "disabled_inactivity":
-                label = (
-                    workflow.get("name")
-                    or workflow.get("path")
-                    or str(workflow.get("id") or "")
-                )
-                if label:
-                    disabled.append(label)
-        if len(workflows) < 100:
-            break
-        page += 1
+    for workflow in workflows or []:
+        if (workflow.get("state") or "").lower() == "disabled_inactivity":
+            label = (
+                workflow.get("name")
+                or workflow.get("path")
+                or str(workflow.get("id") or "")
+            )
+            if label:
+                disabled.append(label)
     return disabled
 
 
@@ -419,16 +464,22 @@ def process_package(package: dict) -> None:
     local_session = build_session()
     package["user"], package["name"] = package["repo"].split("/")
 
-    workflow_run_status = fetch_workflow_runs_status(
-        package["user"], package["name"], local_session
-    )
-    package["workflow_run_status"] = workflow_run_status
-
     repo_info = fetch_repo_info(package["user"], package["name"], local_session)
     if repo_info:
         package["repo_info"] = repo_info
     else:
         package["error"] = True
+
+    # Fetched once, used by both the status rollup and the disabled-workflow list.
+    workflows = fetch_workflows(package["user"], package["name"], local_session)
+
+    package["workflow_run_status"] = fetch_workflow_runs_status(
+        package["user"],
+        package["name"],
+        local_session,
+        (repo_info or {}).get("default_branch"),
+        workflows,
+    )
 
     last_commit_info = fetch_last_commit_info(
         package["user"], package["name"], local_session
@@ -442,16 +493,19 @@ def process_package(package: dict) -> None:
     if last_release_info:
         package["last_release"] = last_release_info
 
-    disabled_workflows = fetch_disabled_inactive_workflows(
+    commit_activity = fetch_commit_activity(
         package["user"], package["name"], local_session
     )
+    if commit_activity:
+        # Named so the YAML explains itself: 52 weekly commit counts, oldest first.
+        package["weekly_commits_52w_oldest_first"] = commit_activity
+
+    disabled_workflows = disabled_inactive_workflows(workflows)
     if disabled_workflows:
         package["disabled_workflows"] = disabled_workflows
 
 
-all_packages: List[dict] = []
-for section in config:
-    all_packages.extend(section["packages"])
+all_packages: List[dict] = config["packages"]
 
 print(f"Processing {len(all_packages)} packages with {MAX_WORKERS} workers...", file=sys.stderr)
 print(f"Request throttling: {REQUEST_DELAY}s minimum between requests", file=sys.stderr)
@@ -492,10 +546,21 @@ else:
 
 snapshot = {
     "generated_at": datetime.utcnow().isoformat() + "Z",
-    "sections": config,
+    "pool_count": config.get("pool_count", len(all_packages)),
+    "packages": all_packages,
 }
 
+def represent_list(dumper: Dumper, value: list):
+    # Scalar-only lists (the 52-week series, topics, tags) on one line; lists of
+    # dicts such as `packages` stay in block style.
+    flow = all(not isinstance(item, (dict, list)) for item in value)
+    return dumper.represent_sequence("tag:yaml.org,2002:seq", value, flow_style=flow)
+
+
+Dumper.add_representer(list, represent_list)
+
 with open("generated.yml", "w") as generated_output:
-    dump(snapshot, generated_output)
+    # The wide width stops PyYAML from wrapping those one-line lists again.
+    dump(snapshot, generated_output, Dumper=Dumper, width=float("inf"))
 
 print(f"\nWrote generated.yml with {len(all_packages)} packages.", file=sys.stderr)
