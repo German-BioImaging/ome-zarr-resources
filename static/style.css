@@ -229,3 +229,21 @@ a:hover {
   opacity: 0.45;
   pointer-events: none;
 }
+
+.activity-cell svg {
+  display: block;
+  overflow: visible;
+}
+
+.spark-line {
+  fill: none;
+  stroke: #2da44e;
+  stroke-width: 1.2;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.spark-area {
+  fill: rgba(45, 164, 78, 0.15);
+  stroke: none;
+}

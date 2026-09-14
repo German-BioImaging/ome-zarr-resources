@@ -63,6 +63,17 @@ def throttled_request(
             time.sleep(wait)
             continue
 
+        # Stats endpoints answer 202 while GitHub builds the cache; retry briefly.
+        if resp.status_code == 202 and attempt < max_retries - 1:
+            wait = 2**attempt
+            print(
+                f"[STATS PENDING] {url} - attempt {attempt + 1}/{max_retries}, "
+                f"waiting {wait}s",
+                file=sys.stderr,
+            )
+            time.sleep(wait)
+            continue
+
         # Check for secondary rate limit
         if resp.status_code in (403, 429):
             retry_after = resp.headers.get("Retry-After")
@@ -209,36 +220,54 @@ query($owner:String!,$name:String!){
 """
 
 
-def fetch_workflow_runs_status(
+def fetch_workflows(
     owner: str, repo: str, session: requests.Session
+) -> Optional[List[dict]]:
+    """
+    All workflows for a repo. Fetched once and reused by the run-status and the
+    disabled-by-inactivity checks, which used to request this list twice.
+    """
+    ctx = f"{owner}/{repo}"
+    page = 1
+    workflows: List[dict] = []
+    while True:
+        resp = throttled_request(
+            session,
+            "GET",
+            f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
+            params={"per_page": 100, "page": page},
+        )
+        if resp.status_code in (403, 404):
+            if resp.status_code == 403:
+                print(f"[{ctx}] Forbidden fetching workflows", file=sys.stderr)
+                print_rate_limit_info(resp, f"{ctx} workflows")
+            return None
+        if not resp.ok:
+            check_response(resp, f"{ctx} workflows")
+            return None
+        page_workflows = (resp.json() or {}).get("workflows") or []
+        workflows.extend(page_workflows)
+        if len(page_workflows) < 100:
+            return workflows
+        page += 1
+
+
+def fetch_workflow_runs_status(
+    owner: str,
+    repo: str,
+    session: requests.Session,
+    default_branch: Optional[str],
+    workflows: Optional[List[dict]],
 ) -> Optional[str]:
     """
     Fetch the status of the latest workflow runs for the default branch.
     Returns one of: SUCCESS, FAILURE, PENDING, NO_WORKFLOWS, or None if unknown.
     """
     ctx = f"{owner}/{repo}"
-
-    # Get the default branch name
-    repo_resp = throttled_request(
-        session, "GET", f"https://api.github.com/repos/{owner}/{repo}"
-    )
-    if not check_response(repo_resp, f"{ctx} repo"):
+    if workflows is None:
         return None
 
-    default_branch = repo_resp.json().get("default_branch")
-
-    # Get active workflows
     active_workflow_ids = set()
-    active_workflows_resp = throttled_request(
-        session,
-        "GET",
-        f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
-        params={"per_page": 100},
-    )
-    if not check_response(active_workflows_resp, f"{ctx} workflows"):
-        return None
-
-    workflows = active_workflows_resp.json().get("workflows", [])
     for workflow in workflows:
         if (workflow.get("state") or "").lower() == "active":
             workflow_id = workflow.get("id")
@@ -345,6 +374,7 @@ def fetch_repo_info(owner: str, repo: str, session: requests.Session) -> Optiona
         return None
     info = resp.json()
     return {
+        "default_branch": info.get("default_branch"),
         "created_at": info.get("created_at"),
         "updated_at": info.get("updated_at"),
         "open_issues": info.get("open_issues_count"),
@@ -353,6 +383,30 @@ def fetch_repo_info(owner: str, repo: str, session: requests.Session) -> Optiona
         "topics": info.get("topics", []),
         "size": info.get("size"),
     }
+
+
+def fetch_commit_activity(
+    owner: str, repo: str, session: requests.Session
+) -> Optional[List[int]]:
+    """
+    Commits per week for the last 52 weeks (oldest first) — the series behind the
+    sparkline GitHub shows on its own repo lists.
+    """
+    ctx = f"{owner}/{repo}"
+    resp = throttled_request(
+        session,
+        "GET",
+        f"https://api.github.com/repos/{owner}/{repo}/stats/commit_activity",
+    )
+    # 202: still warming up after the retries above. 204: empty repo.
+    if resp.status_code in (202, 204, 404):
+        return None
+    if not check_response(resp, f"{ctx} commit-activity"):
+        return None
+    weeks = resp.json()
+    if not isinstance(weeks, list):
+        return None
+    return [int(week.get("total") or 0) for week in weeks]
 
 
 def fetch_last_release_info(
@@ -386,44 +440,20 @@ def fetch_last_release_info(
     }
 
 
-def fetch_disabled_inactive_workflows(
-    owner: str, repo: str, session: requests.Session
-) -> List[str]:
+def disabled_inactive_workflows(workflows: Optional[List[dict]]) -> List[str]:
     """
-    Return names/paths for workflows auto-disabled due to inactivity.
+    Names/paths for workflows auto-disabled due to inactivity.
     """
-    ctx = f"{owner}/{repo}"
-    page = 1
     disabled: List[str] = []
-    while True:
-        resp = throttled_request(
-            session,
-            "GET",
-            f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
-            params={"per_page": 100, "page": page},
-        )
-        if resp.status_code in (403, 404):
-            if resp.status_code == 403:
-                print(f"[{ctx}] Forbidden fetching workflows", file=sys.stderr)
-                print_rate_limit_info(resp, f"{ctx} disabled-workflows")
-            break
-        if not resp.ok:
-            check_response(resp, f"{ctx} disabled-workflows")
-            break
-        data = resp.json() or {}
-        workflows = data.get("workflows") or []
-        for workflow in workflows:
-            if (workflow.get("state") or "").lower() == "disabled_inactivity":
-                label = (
-                    workflow.get("name")
-                    or workflow.get("path")
-                    or str(workflow.get("id") or "")
-                )
-                if label:
-                    disabled.append(label)
-        if len(workflows) < 100:
-            break
-        page += 1
+    for workflow in workflows or []:
+        if (workflow.get("state") or "").lower() == "disabled_inactivity":
+            label = (
+                workflow.get("name")
+                or workflow.get("path")
+                or str(workflow.get("id") or "")
+            )
+            if label:
+                disabled.append(label)
     return disabled
 
 
@@ -434,16 +464,22 @@ def process_package(package: dict) -> None:
     local_session = build_session()
     package["user"], package["name"] = package["repo"].split("/")
 
-    workflow_run_status = fetch_workflow_runs_status(
-        package["user"], package["name"], local_session
-    )
-    package["workflow_run_status"] = workflow_run_status
-
     repo_info = fetch_repo_info(package["user"], package["name"], local_session)
     if repo_info:
         package["repo_info"] = repo_info
     else:
         package["error"] = True
+
+    # Fetched once, used by both the status rollup and the disabled-workflow list.
+    workflows = fetch_workflows(package["user"], package["name"], local_session)
+
+    package["workflow_run_status"] = fetch_workflow_runs_status(
+        package["user"],
+        package["name"],
+        local_session,
+        (repo_info or {}).get("default_branch"),
+        workflows,
+    )
 
     last_commit_info = fetch_last_commit_info(
         package["user"], package["name"], local_session
@@ -457,9 +493,13 @@ def process_package(package: dict) -> None:
     if last_release_info:
         package["last_release"] = last_release_info
 
-    disabled_workflows = fetch_disabled_inactive_workflows(
+    commit_activity = fetch_commit_activity(
         package["user"], package["name"], local_session
     )
+    if commit_activity:
+        package["commit_activity"] = commit_activity
+
+    disabled_workflows = disabled_inactive_workflows(workflows)
     if disabled_workflows:
         package["disabled_workflows"] = disabled_workflows
 

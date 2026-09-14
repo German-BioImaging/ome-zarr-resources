@@ -53,6 +53,8 @@
         { text: '📝', title: 'Last commit' },
         { text: '📦', title: 'Last release' },
         { text: '🏷️', title: 'Topics' },
+        { text: '📈', title: 'Commits per week, last 52 weeks' },
+
       ];
 
       function emptyMarker() {
@@ -339,6 +341,44 @@
         return td;
       }
 
+      // GitHub-style commit sparkline: one polyline over the 52 weekly counts.
+      function createActivityCell(weeks) {
+        const td = document.createElement('td');
+        td.className = 'activity-cell';
+        if (!Array.isArray(weeks) || weeks.length < 2) {
+          td.dataset.order = normalizeSortValue(-1);
+          td.appendChild(emptyMarker());
+          return td;
+        }
+        const total = weeks.reduce((sum, n) => sum + n, 0);
+        td.dataset.order = normalizeSortValue(total);
+
+        const W = 80, H = 20, max = Math.max(...weeks, 1);
+        const x = i => (i / (weeks.length - 1)) * W;
+        const y = n => H - (n / max) * (H - 1);
+        const line = weeks.map((n, i) => `${x(i).toFixed(1)},${y(n).toFixed(1)}`).join(' ');
+
+        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+        svg.setAttribute('width', W);
+        svg.setAttribute('height', H);
+        svg.setAttribute('preserveAspectRatio', 'none');
+
+        const area = document.createElementNS(svg.namespaceURI, 'polygon');
+        area.setAttribute('points', `0,${H} ${line} ${W},${H}`);
+        area.setAttribute('class', 'spark-area');
+        svg.appendChild(area);
+
+        const path = document.createElementNS(svg.namespaceURI, 'polyline');
+        path.setAttribute('points', line);
+        path.setAttribute('class', 'spark-line');
+        svg.appendChild(path);
+
+        td.title = `${total} commits in the last ${weeks.length} weeks`;
+        td.appendChild(svg);
+        return td;
+      }
+
       function createTopicsCell(topics) {
         const td = document.createElement('td');
         td.className = 'topics-cell';
@@ -377,6 +417,8 @@
         tr.appendChild(createLastCommitCell(pkg.last_commit, pkg.disabled_workflows, pkg.repo, pkg.workflow_run_status));
         tr.appendChild(createLastReleaseCell(pkg.last_release));
         tr.appendChild(createTopicsCell(repoInfo.topics));
+        tr.appendChild(createActivityCell(pkg.commit_activity));
+
         return tr;
       }
 
