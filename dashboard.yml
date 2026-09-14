@@ -93,7 +93,6 @@
 - name: Integrative workflows
   packages:
     - repo: fractal-analytics-platform/fractal
-    - repo: BioVisionCenter/ngio
     - repo: ilastik/ilastik
     - repo: PolusAI/nyxus
     - repo: mastodon-sc/mastodon

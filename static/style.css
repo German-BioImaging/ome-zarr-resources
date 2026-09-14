@@ -192,3 +192,58 @@ a:hover {
   color: #d1242f;
   font-weight: 600;
 }
+#view-switch {
+  margin: 0.5rem 0 1rem;
+}
+
+#view-switch button {
+  padding: 0.3rem 0.8rem;
+  margin-right: 0.4rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+}
+
+#view-switch button.active {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+.group-nav {
+  margin-bottom: 1rem;
+}
+
+.group-nav a {
+  display: inline-block;
+  margin: 0 0.4rem 0.3rem 0;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.group-nav a.empty-group {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.activity-cell svg {
+  display: block;
+  overflow: visible;
+}
+
+.spark-line {
+  fill: none;
+  stroke: #2da44e;
+  stroke-width: 1.2;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.spark-area {
+  fill: rgba(45, 164, 78, 0.15);
+  stroke: none;
+}

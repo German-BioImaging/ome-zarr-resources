@@ -40,3 +40,6 @@
     - repo: MiniHarinn/nixpkgs-ci-test
     - repo: ciscoriordan/mednext-vs-umamba-scroll
     - repo: Rafael-Silva-Oliveira/rafael-silva-oliveira.github.io
+    - repo: conda-forge/feedstocks
+    - repo: galaxy-project/tools-iuc
+    - repo: omicverse/omicverse

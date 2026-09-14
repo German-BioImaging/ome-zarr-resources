@@ -160,7 +160,7 @@
         Aggregated from the
         <a href="https://docs.github.com/en/rest/search/search#search-commits"
           >GitHub commit search API</a
-        >, refreshed daily. 🆕 = repo not yet in the dashboard. Showing all commits, newest first.
+        >, refreshed daily. 🆕 = repo seen since the last weekly pool refresh. Showing all commits, newest first.
       </footer>
     </div>
 
@@ -185,41 +185,36 @@
         return m ? m[1].slice(0, 6) : "commit";
       };
 
-      // Parse dashboard.yml to extract known repositories
-      async function loadDashboardRepos() {
+      // Repos the dashboard already knows about: the weekly pool (which now absorbs
+      // this feed automatically) plus the explicit skip list. Anything outside both
+      // showed up since the last pool refresh — that is what 🆕 means.
+      async function loadKnownRepos() {
         try {
-          const response = await fetch("../dashboard.yml", { cache: "no-cache" });
+          const responses = await Promise.all([
+            fetch("../pool.yml", { cache: "no-cache" }),
+            fetch("../to_skip.yml", { cache: "no-cache" }),
+          ]);
+          if (!responses[0].ok) return null;
 
-          // parse also skip.yml
-          const skipResponse = await fetch("../to_skip.yml", { cache: "no-cache" });
-
-          if (!response.ok) return new Set();
-
-          const yamlText = await response.text();
-          const skipText = await skipResponse.text();
-
-          const totalText = yamlText + "\n" + skipText;
+          const texts = await Promise.all(responses.map(r => (r.ok ? r.text() : "")));
           const repos = new Set();
-
           // Simple YAML parsing for the repo structure
-          const lines = totalText.split('\n');
-          for (const line of lines) {
-            const match = line.match(/^\s*- repo:\s*(\S+)/);
-            if (match) {
-              repos.add(match[1]);
-            }
+          for (const line of texts.join("\n").split("\n")) {
+            const match = line.match(/^\s*-?\s*repo:\s*['"]?([^'"\s]+)/);
+            // GitHub slugs are case-insensitive; compare lowercased.
+            if (match) repos.add(match[1].toLowerCase());
           }
-
           return repos;
         } catch (e) {
-          console.warn("Couldn't load dashboard.yml:", e);
-          return new Set();
+          console.warn("Couldn't load pool.yml:", e);
+          return null;
         }
       }
 
       async function render(data) {
-        // Load known repositories from dashboard
-        const knownRepos = await loadDashboardRepos();
+        // null = list unavailable; badge nothing rather than badge everything.
+        const knownRepos = await loadKnownRepos();
+        const isKnown = repo => !knownRepos || knownRepos.has(repo.toLowerCase());
 
         const gen = new Date(data.generated);
         const total = data.total_commits ?? data.commits.length;
@@ -232,7 +227,7 @@
         }
 
         for (const repo of allRepos) {
-          if (!knownRepos.has(repo)) {
+          if (!isKnown(repo)) {
             newRepoCount++;
           }
         }
@@ -270,9 +265,8 @@
             const rows = repoList
               .map(([name, commits]) => {
                 const repoUrl = `https://github.com/${name}`;
-                const isNew = !knownRepos.has(name);
-                const newBadge = isNew
-                  ? ` <span class="new-indicator" title="New repository - not yet in dashboard.yml">✨🆕✨</span>`
+                const newBadge = !isKnown(name)
+                  ? ` <span class="new-indicator" title="New repository - seen since the last weekly pool refresh">✨🆕✨</span>`
                   : '';
                 const links = commits
                   .map(
