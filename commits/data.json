@@ -1,9 +1,117 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-17T01:38:04+00:00",
+  "generated": "2026-09-18T01:36:43+00:00",
   "recent_days": 10,
-  "total_commits": 1991,
+  "total_commits": 2015,
   "commits": [
+    {
+      "commit_date": "2026-09-17T23:04:16.000+01:00",
+      "author": "balbasty",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/28564eae047d02ffe1db2cb1fe11f16fc5f9c874"
+    },
+    {
+      "commit_date": "2026-09-17T22:35:27.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/bda65092dd5f87be680c38716340a8954cea6207"
+    },
+    {
+      "commit_date": "2026-09-17T19:52:59.000+01:00",
+      "author": "balbasty",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/6061a6eaccc466e977d3a779f7955db75f8edc27"
+    },
+    {
+      "commit_date": "2026-09-17T17:28:15.000Z",
+      "author": "claude",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/d5315fe4b2aa7c94f4b0a0b8a0d06bd7ca9d5cff"
+    },
+    {
+      "commit_date": "2026-09-17T17:22:35.000+01:00",
+      "author": "balbasty",
+      "repository": "neuroscales/abczarr",
+      "commit_url": "https://github.com/neuroscales/abczarr/commit/4c03cc2f285a023164c18dceefa76a9e282c18b7"
+    },
+    {
+      "commit_date": "2026-09-17T17:17:03.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/SlicerOMEZarr",
+      "commit_url": "https://github.com/fideus-labs/SlicerOMEZarr/commit/b04f2008fde32c86b98c0f3999f6c43c7743fabe"
+    },
+    {
+      "commit_date": "2026-09-17T16:31:15.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/f54572afbc55fc43c16e225898cc39e5dcc68643"
+    },
+    {
+      "commit_date": "2026-09-17T16:31:07.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/5e7f97c5fe02aec4db968547e54d0ff35335c7dd"
+    },
+    {
+      "commit_date": "2026-09-17T15:07:41.000+02:00",
+      "author": "sebi06",
+      "repository": "sebi06/czitools",
+      "commit_url": "https://github.com/sebi06/czitools/commit/6c3bf9c4c44a79a16f46fab962d6298686c65556"
+    },
+    {
+      "commit_date": "2026-09-17T15:00:09.000+02:00",
+      "author": "Tomatokeftes",
+      "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
+      "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/4e90242f6cfd70aac8b4eb3928e4d2924284c9f0"
+    },
+    {
+      "commit_date": "2026-09-17T14:01:28.000-07:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/6f0ecb41d9467ffdda621516def9bda57d0caec7"
+    },
+    {
+      "commit_date": "2026-09-17T13:29:30.000+02:00",
+      "author": "jacopoabramo",
+      "repository": "redsun-acquisition/ome-tiled",
+      "commit_url": "https://github.com/redsun-acquisition/ome-tiled/commit/0c8a33055e63dd8069afbe2fcafea6ac191ccc31"
+    },
+    {
+      "commit_date": "2026-09-17T12:30:31.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/8a8b967911e133bb3634e2a7ebf8176cf69f674c"
+    },
+    {
+      "commit_date": "2026-09-17T11:59:20.000Z",
+      "author": "aschampion",
+      "repository": "e11bio/prepipe-containers",
+      "commit_url": "https://github.com/e11bio/prepipe-containers/commit/b7b5f281fdc5a621f8ddc1a0e4142835917638a0"
+    },
+    {
+      "commit_date": "2026-09-17T11:04:14.000+02:00",
+      "author": "ekatrukha",
+      "repository": "UU-cellbiology/bigvolumebrowser",
+      "commit_url": "https://github.com/UU-cellbiology/bigvolumebrowser/commit/48150b9f85c7500cb9751bb0305e170960230e64"
+    },
+    {
+      "commit_date": "2026-09-17T11:03:51.000-03:00",
+      "author": "lubianat",
+      "repository": "lubianat/ome-zarr-video-docs",
+      "commit_url": "https://github.com/lubianat/ome-zarr-video-docs/commit/1f3c05d6526cef0bbd4687e1931abd8cef4682f3"
+    },
+    {
+      "commit_date": "2026-09-17T10:57:26.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/qupath-extension-qpsc",
+      "commit_url": "https://github.com/uw-loci/qupath-extension-qpsc/commit/beaa19e2698261fd731c6399bb9d28882aaaae6f"
+    },
+    {
+      "commit_date": "2026-09-17T10:54:32.000-03:00",
+      "author": "lubianat",
+      "repository": "lubianat/ome-zarr-video-docs",
+      "commit_url": "https://github.com/lubianat/ome-zarr-video-docs/commit/b45df7b858846359b2a6a4f706fc621a782483a3"
+    },
     {
       "commit_date": "2026-09-17T10:52:58.000+10:00",
       "author": "schienstockd",
@@ -17,10 +125,46 @@
       "commit_url": "https://github.com/schienstockd/cecelia/commit/051e0b26eadf233f4f95f2e5463e10d23b17a2b3"
     },
     {
+      "commit_date": "2026-09-17T09:37:41.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/fa646cfe1bce232fc0b072008329dd3f31448a02"
+    },
+    {
+      "commit_date": "2026-09-17T09:21:43.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/d96b9de72fa1b5846e0601e04f6a9373e2eb89b2"
+    },
+    {
+      "commit_date": "2026-09-17T09:13:22.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/563be834254dbf89b604daf02fe302be942d0c3f"
+    },
+    {
+      "commit_date": "2026-09-17T08:56:24.000+02:00",
+      "author": "jacopoabramo",
+      "repository": "redsun-acquisition/ome-tiled",
+      "commit_url": "https://github.com/redsun-acquisition/ome-tiled/commit/3d302d02a729fae0e3dbf4321a31b6eea23ac226"
+    },
+    {
+      "commit_date": "2026-09-17T07:13:05.000Z",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/dfc3589991a0bba023f6a205ac1ed1640713b287"
+    },
+    {
       "commit_date": "2026-09-16T23:34:54.000+03:00",
       "author": "AndreasHad04",
       "repository": "AndreasHad04/villa-apple-silicon",
       "commit_url": "https://github.com/AndreasHad04/villa-apple-silicon/commit/880e0b7a08743678364c7dfb8053b2ec8e27a52e"
+    },
+    {
+      "commit_date": "2026-09-16T20:02:03.000-07:00",
+      "author": "lanesawyer",
+      "repository": "lanesawyer/bevy-data-explorer",
+      "commit_url": "https://github.com/lanesawyer/bevy-data-explorer/commit/00cedc187f35e83564786b7ad12c6502e0525cef"
     },
     {
       "commit_date": "2026-09-16T16:29:23.000+10:00",
