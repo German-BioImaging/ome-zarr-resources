@@ -1,9 +1,129 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-18T01:36:43+00:00",
+  "generated": "2026-09-19T01:36:30+00:00",
   "recent_days": 10,
-  "total_commits": 2015,
+  "total_commits": 2039,
   "commits": [
+    {
+      "commit_date": "2026-09-18T22:18:32.000+02:00",
+      "author": "jacopoabramo",
+      "repository": "redsun-acquisition/ome-tiled",
+      "commit_url": "https://github.com/redsun-acquisition/ome-tiled/commit/c9b29d06e4910297c4cb99b45931918c44a72f32"
+    },
+    {
+      "commit_date": "2026-09-18T22:14:17.000+02:00",
+      "author": "jacopoabramo",
+      "repository": "redsun-acquisition/ome-tiled",
+      "commit_url": "https://github.com/redsun-acquisition/ome-tiled/commit/8d4033c68595ce8027f3b86d76600b16afc4db27"
+    },
+    {
+      "commit_date": "2026-09-18T19:57:24.000Z",
+      "author": "carshadi",
+      "repository": "AllenNeuralDynamics/aind-bigstitcher-qc",
+      "commit_url": "https://github.com/AllenNeuralDynamics/aind-bigstitcher-qc/commit/c2e97b02ca78906671aacc5a8a033a7ee66ebc98"
+    },
+    {
+      "commit_date": "2026-09-18T19:12:00.000+09:00",
+      "author": "inutano",
+      "repository": "biohackathon-japan/BH26-OME-ZARR-IIIF",
+      "commit_url": "https://github.com/biohackathon-japan/BH26-OME-ZARR-IIIF/commit/25d5febe09826f671e2451b5b8a44d735c3e3859"
+    },
+    {
+      "commit_date": "2026-09-18T18:50:21.000+02:00",
+      "author": "tlambert03",
+      "repository": "pymmcore-plus/ome-writers",
+      "commit_url": "https://github.com/pymmcore-plus/ome-writers/commit/ba0f638c9191a66f4667ce8e86030a9265ecb67f"
+    },
+    {
+      "commit_date": "2026-09-18T17:20:36.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-node_attrs",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-node_attrs/commit/f21c2e0e21959679dc7fe8fa5bdd1dc5eae91123"
+    },
+    {
+      "commit_date": "2026-09-18T17:07:22.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/c59057af68e69158a2efde0679bfbccf99ebf797"
+    },
+    {
+      "commit_date": "2026-09-18T17:02:55.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/8f9ffd17f7f314de4dd646abd906ac6738fa7340"
+    },
+    {
+      "commit_date": "2026-09-18T15:58:27.000-04:00",
+      "author": "carshadi",
+      "repository": "AllenNeuralDynamics/aind-bigstitcher-qc",
+      "commit_url": "https://github.com/AllenNeuralDynamics/aind-bigstitcher-qc/commit/5c2817f55dacb43324c5db782c73474e604e7337"
+    },
+    {
+      "commit_date": "2026-09-18T15:04:03.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/shrimPy",
+      "commit_url": "https://github.com/czbiohub-sf/shrimPy/commit/fd0ff6c72cc87841f6ee760413715fe45c0e7f5a"
+    },
+    {
+      "commit_date": "2026-09-18T13:42:56.000+02:00",
+      "author": "jwindhager",
+      "repository": "TissUUmaps/TissUUmaps4",
+      "commit_url": "https://github.com/TissUUmaps/TissUUmaps4/commit/078a0174e10c3b5e215f490da9057d6a35cc5f3f"
+    },
+    {
+      "commit_date": "2026-09-18T13:33:25.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-node_attrs",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-node_attrs/commit/2f9e2170590422eaacb0ef04444de0845f7bc10d"
+    },
+    {
+      "commit_date": "2026-09-18T13:06:37.000-03:00",
+      "author": "lubianat",
+      "repository": "lubianat/ome-zarr-video-docs",
+      "commit_url": "https://github.com/lubianat/ome-zarr-video-docs/commit/5fc4752f3b900cccc78442cea98e42c2bbbe808b"
+    },
+    {
+      "commit_date": "2026-09-18T11:33:49.000+02:00",
+      "author": "tischi",
+      "repository": "mobie/mobie-io",
+      "commit_url": "https://github.com/mobie/mobie-io/commit/9b0396f3893e6f64373c79ef6198eff5d8db96e5"
+    },
+    {
+      "commit_date": "2026-09-18T10:27:07.000-07:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/f2dc0adb8197b8ee8ac85af27f8b1e449e339408"
+    },
+    {
+      "commit_date": "2026-09-18T08:27:33.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/bc77259ca35d6b4e95c74ec3c196983fa93be759"
+    },
+    {
+      "commit_date": "2026-09-18T08:22:15.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/4bce0a7538ba6807fc8ff595729ed90c4e9602e1"
+    },
+    {
+      "commit_date": "2026-09-18T07:31:32.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/2cc635fa9e70ca9a588a53cc25742aa02af3e727"
+    },
+    {
+      "commit_date": "2026-09-18T07:22:37.000-07:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/3bbf73cb189428106b7468a929fc7f1207115089"
+    },
+    {
+      "commit_date": "2026-09-18T05:17:54.000-07:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/816ed1c30987f81dff9cb1766685b8eec118430c"
+    },
     {
       "commit_date": "2026-09-17T23:04:16.000+01:00",
       "author": "balbasty",
@@ -17,10 +137,22 @@
       "commit_url": "https://github.com/fideus-labs/KonfAI/commit/bda65092dd5f87be680c38716340a8954cea6207"
     },
     {
+      "commit_date": "2026-09-17T22:24:24.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/8c739b3a5fd68d8ce75e6048cb48373855b22228"
+    },
+    {
       "commit_date": "2026-09-17T19:52:59.000+01:00",
       "author": "balbasty",
       "repository": "neuroscales/brainhops",
       "commit_url": "https://github.com/neuroscales/brainhops/commit/6061a6eaccc466e977d3a779f7955db75f8edc27"
+    },
+    {
+      "commit_date": "2026-09-17T18:54:59.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/7126371c9d34bb54e1f13c958d2f7ba751eb75bd"
     },
     {
       "commit_date": "2026-09-17T17:28:15.000Z",
@@ -75,6 +207,18 @@
       "author": "jacopoabramo",
       "repository": "redsun-acquisition/ome-tiled",
       "commit_url": "https://github.com/redsun-acquisition/ome-tiled/commit/0c8a33055e63dd8069afbe2fcafea6ac191ccc31"
+    },
+    {
+      "commit_date": "2026-09-17T13:04:33.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "mobie/mobie-io",
+      "commit_url": "https://github.com/mobie/mobie-io/commit/c353b363be5c33581fb4205a33b4356bc6426031"
+    },
+    {
+      "commit_date": "2026-09-17T13:04:05.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "mobie/mobie-io",
+      "commit_url": "https://github.com/mobie/mobie-io/commit/cbcc0d65a5eef1b50af48a3527a62fa9d4c46855"
     },
     {
       "commit_date": "2026-09-17T12:30:31.000+02:00",
