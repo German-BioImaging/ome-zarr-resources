@@ -1,9 +1,69 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-21T01:43:04+00:00",
+  "generated": "2026-09-22T01:37:38+00:00",
   "recent_days": 10,
-  "total_commits": 2053,
+  "total_commits": 2063,
   "commits": [
+    {
+      "commit_date": "2026-09-21T18:18:10.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/opm-toolset",
+      "commit_url": "https://github.com/embl-ic/opm-toolset/commit/6bc2c3c98b29c4f610252e2f49bb92c6ad3ac5ec"
+    },
+    {
+      "commit_date": "2026-09-21T18:18:09.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/opm-toolset",
+      "commit_url": "https://github.com/embl-ic/opm-toolset/commit/de1ca7097aa4c744eb8680b8ff9172033bf9f88c"
+    },
+    {
+      "commit_date": "2026-09-21T17:17:53.000+02:00",
+      "author": "TorecLuik",
+      "repository": "NL-BioImaging/NL-BIOMERO",
+      "commit_url": "https://github.com/NL-BioImaging/NL-BIOMERO/commit/bc2ce60e7b0aec5eec2c76b017da64ba4e8b4097"
+    },
+    {
+      "commit_date": "2026-09-21T16:42:28.000+02:00",
+      "author": "jacopoabramo",
+      "repository": "redsun-acquisition/redsun",
+      "commit_url": "https://github.com/redsun-acquisition/redsun/commit/d88484e76028609a33a1b55ec17d6ba515b2d7c9"
+    },
+    {
+      "commit_date": "2026-09-21T14:00:25.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/qupath-extension-image-export-toolkit",
+      "commit_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/commit/7dc59f46addd3c09dd0877d4106598d0b327f9bc"
+    },
+    {
+      "commit_date": "2026-09-21T11:50:40.000-07:00",
+      "author": "lanesawyer",
+      "repository": "lanesawyer/bevy-data-explorer",
+      "commit_url": "https://github.com/lanesawyer/bevy-data-explorer/commit/d57e6ed66e71a9dcd0002fb2c9a96acf4753154b"
+    },
+    {
+      "commit_date": "2026-09-21T11:47:00.000-04:00",
+      "author": "donglaiw",
+      "repository": "PytorchConnectomics/pytorch_connectomics",
+      "commit_url": "https://github.com/PytorchConnectomics/pytorch_connectomics/commit/5ef062051f953b0e9550be657573c614cf7c04b6"
+    },
+    {
+      "commit_date": "2026-09-21T11:43:59.000-05:00",
+      "author": "grahamfindlay",
+      "repository": "CSC-UW/samoffs-workspace",
+      "commit_url": "https://github.com/CSC-UW/samoffs-workspace/commit/be10d9f37d8787c6722cf063d20778aa7dc790ca"
+    },
+    {
+      "commit_date": "2026-09-21T11:12:23.000-04:00",
+      "author": "Donglai Wei",
+      "repository": "PytorchConnectomics/pytorch_connectomics",
+      "commit_url": "https://github.com/PytorchConnectomics/pytorch_connectomics/commit/c8d6fdbda9b878ac7965a47cec938f78d311a569"
+    },
+    {
+      "commit_date": "2026-09-21T07:07:02.000-05:00",
+      "author": "Andrew-Keenlyside",
+      "repository": "BRIDGE-Neuroscience/ChunkReg",
+      "commit_url": "https://github.com/BRIDGE-Neuroscience/ChunkReg/commit/da1db227c190433a15873b24b6c400ad7ea5b4fc"
+    },
     {
       "commit_date": "2026-09-21T00:14:21.000+05:30",
       "author": "debanjangangopadhyay",
