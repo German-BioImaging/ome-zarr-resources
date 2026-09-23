@@ -1,9 +1,117 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-22T01:37:38+00:00",
+  "generated": "2026-09-23T01:37:24+00:00",
   "recent_days": 10,
-  "total_commits": 2063,
+  "total_commits": 2084,
   "commits": [
+    {
+      "commit_date": "2026-09-23T02:22:34.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/SlicerOMEZarr",
+      "commit_url": "https://github.com/fideus-labs/SlicerOMEZarr/commit/c4a80ac8e78210a2979f6f6b9d7f152b1b6869c5"
+    },
+    {
+      "commit_date": "2026-09-23T01:22:10.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/SlicerOMEZarr",
+      "commit_url": "https://github.com/fideus-labs/SlicerOMEZarr/commit/b0399ead4b6586c73377fd7d8ee7d8518757e072"
+    },
+    {
+      "commit_date": "2026-09-22T22:55:25.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/opm-toolset",
+      "commit_url": "https://github.com/embl-ic/opm-toolset/commit/e1b1a57be538b1697795b11e5f8e3fa63fdf7b1e"
+    },
+    {
+      "commit_date": "2026-09-22T22:19:44.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/opm-toolset",
+      "commit_url": "https://github.com/embl-ic/opm-toolset/commit/d72ce4d4b935edb38acd176de13070c0275570f3"
+    },
+    {
+      "commit_date": "2026-09-22T21:57:50.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/opm-toolset",
+      "commit_url": "https://github.com/embl-ic/opm-toolset/commit/8d55a4ee9de697b88bc2da6d140430b54d60d38c"
+    },
+    {
+      "commit_date": "2026-09-22T20:55:58.000+08:00",
+      "author": "hyyunn00",
+      "repository": "hyyunn00/hyyunn-Signal_Analyzer",
+      "commit_url": "https://github.com/hyyunn00/hyyunn-Signal_Analyzer/commit/988ec81d51f829cd448b083886c382546f271b76"
+    },
+    {
+      "commit_date": "2026-09-22T18:25:35.000+02:00",
+      "author": "TorecLuik",
+      "repository": "NL-BioImaging/NL-BIOMERO",
+      "commit_url": "https://github.com/NL-BioImaging/NL-BIOMERO/commit/eca92d8d7b73201177594b4464799dfd60f57aba"
+    },
+    {
+      "commit_date": "2026-09-22T17:00:47.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/opm-toolset",
+      "commit_url": "https://github.com/embl-ic/opm-toolset/commit/a0ac27f67a30a7bc9398b4efc35f283615768c22"
+    },
+    {
+      "commit_date": "2026-09-22T15:19:54.000-04:00",
+      "author": "donglaiw",
+      "repository": "PytorchConnectomics/pytorch_connectomics",
+      "commit_url": "https://github.com/PytorchConnectomics/pytorch_connectomics/commit/25c09182c87117c535ee8fbe31f96ad37b16c176"
+    },
+    {
+      "commit_date": "2026-09-22T12:59:43.000Z",
+      "author": "lguerard",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/4d035496d3ecd129f51133bd701207d7ee01c0e8"
+    },
+    {
+      "commit_date": "2026-09-22T12:30:12.000+02:00",
+      "author": "tlambert03",
+      "repository": "tlambert03/nd2",
+      "commit_url": "https://github.com/tlambert03/nd2/commit/c01f58fcbb4f2456eb6d41e71a8a6445c8d2b8b6"
+    },
+    {
+      "commit_date": "2026-09-22T11:49:33.000+02:00",
+      "author": "tlambert03",
+      "repository": "tlambert03/nd2",
+      "commit_url": "https://github.com/tlambert03/nd2/commit/c2be7c4500c67423fb3db7944308e2e899928834"
+    },
+    {
+      "commit_date": "2026-09-22T09:51:18.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/af9daaf9f69f4b3e0bfaa8b20bf43e2e96c84f0a"
+    },
+    {
+      "commit_date": "2026-09-22T09:19:22.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/3147a92a9d018b99294e5e39344ea818fb3830ed"
+    },
+    {
+      "commit_date": "2026-09-22T08:51:09.000Z",
+      "author": "claude",
+      "repository": "azzindani/Carys",
+      "commit_url": "https://github.com/azzindani/Carys/commit/8f272b6bb1221df8992319618ea36c6eb7220900"
+    },
+    {
+      "commit_date": "2026-09-22T00:33:03.000Z",
+      "author": "pbieberstein",
+      "repository": "Genentech/scallops",
+      "commit_url": "https://github.com/Genentech/scallops/commit/6e21f0fc909cafbc140475ad233b8f42403febf4"
+    },
+    {
+      "commit_date": "2026-09-21T23:13:42.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/59697ca23dd6e50ddb3dd7bdc456b72a188b4892"
+    },
+    {
+      "commit_date": "2026-09-21T23:12:40.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/acqstore",
+      "commit_url": "https://github.com/mapmanager/acqstore/commit/ec2ac0205598e5dbbf9cc64ed738ac07204c93db"
+    },
     {
       "commit_date": "2026-09-21T18:18:10.000+02:00",
       "author": "hzqfox",
@@ -35,6 +143,18 @@
       "commit_url": "https://github.com/uw-loci/qupath-extension-image-export-toolkit/commit/7dc59f46addd3c09dd0877d4106598d0b327f9bc"
     },
     {
+      "commit_date": "2026-09-21T12:53:55.000-04:00",
+      "author": "cudmore",
+      "repository": "mapmanager/cloudscope-web",
+      "commit_url": "https://github.com/mapmanager/cloudscope-web/commit/8ff8c72e09876336c5c14ea8f15afdac4da51b63"
+    },
+    {
+      "commit_date": "2026-09-21T12:27:02.000Z",
+      "author": "claude",
+      "repository": "azzindani/Carys",
+      "commit_url": "https://github.com/azzindani/Carys/commit/a9936a525f9e2a1623bcedd3d3feefa2cd24fe12"
+    },
+    {
       "commit_date": "2026-09-21T11:50:40.000-07:00",
       "author": "lanesawyer",
       "repository": "lanesawyer/bevy-data-explorer",
@@ -57,6 +177,12 @@
       "author": "Donglai Wei",
       "repository": "PytorchConnectomics/pytorch_connectomics",
       "commit_url": "https://github.com/PytorchConnectomics/pytorch_connectomics/commit/c8d6fdbda9b878ac7965a47cec938f78d311a569"
+    },
+    {
+      "commit_date": "2026-09-21T11:03:16.000+02:00",
+      "author": "gcharvin",
+      "repository": "gcharvin/detecdiv-hub",
+      "commit_url": "https://github.com/gcharvin/detecdiv-hub/commit/a34c85387505c4a774b271ee9fc988b56649bd61"
     },
     {
       "commit_date": "2026-09-21T07:07:02.000-05:00",
