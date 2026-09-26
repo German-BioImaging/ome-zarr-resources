@@ -1,9 +1,189 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-25T01:36:48+00:00",
+  "generated": "2026-09-26T01:36:40+00:00",
   "recent_days": 10,
-  "total_commits": 2122,
+  "total_commits": 2158,
   "commits": [
+    {
+      "commit_date": "2026-09-25T18:27:33.000-06:00",
+      "author": "bscott711",
+      "repository": "bscott711/bioimaging",
+      "commit_url": "https://github.com/bscott711/bioimaging/commit/876016593dbacc5aecd21bd2ca1d98a59a7f52ac"
+    },
+    {
+      "commit_date": "2026-09-25T17:52:01.000-04:00",
+      "author": "thewtex",
+      "repository": "InsightSoftwareConsortium/ITKElastix",
+      "commit_url": "https://github.com/InsightSoftwareConsortium/ITKElastix/commit/e7c71abedeefd52aa48d0f408a2c78383c63d848"
+    },
+    {
+      "commit_date": "2026-09-25T17:07:32.000-05:00",
+      "author": "bscott",
+      "repository": "bscott711/bioimaging",
+      "commit_url": "https://github.com/bscott711/bioimaging/commit/6724f2a8ddec80904ee1f47af1601525ecf52f8c"
+    },
+    {
+      "commit_date": "2026-09-25T17:01:08.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/303ddc04683f18f4e71ef258f6e5e281fb0f8ed8"
+    },
+    {
+      "commit_date": "2026-09-25T16:55:41.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/c518a6ab63c85d64628da1a9fd5f7d7db81b559d"
+    },
+    {
+      "commit_date": "2026-09-25T16:47:13.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/7341f79b9ad659f1316b4120ad7a111e8b63befa"
+    },
+    {
+      "commit_date": "2026-09-25T16:38:40.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/e6304a8f31f58fd3008f01e78f347b74cbcc386d"
+    },
+    {
+      "commit_date": "2026-09-25T16:31:51.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/5e170018192ecea5affd651f0d6a5f032d82d43a"
+    },
+    {
+      "commit_date": "2026-09-25T15:44:38.000+02:00",
+      "author": "cavenel",
+      "repository": "TissUUmaps/TissUUmaps4",
+      "commit_url": "https://github.com/TissUUmaps/TissUUmaps4/commit/e4085b9f2eef569c7385cd37fe1d408c6c8928ff"
+    },
+    {
+      "commit_date": "2026-09-25T15:16:35.000-07:00",
+      "author": "thewtex",
+      "repository": "InsightSoftwareConsortium/ITKElastix",
+      "commit_url": "https://github.com/InsightSoftwareConsortium/ITKElastix/commit/1230e59d4acad76d8a97154001433bdb9a0fed67"
+    },
+    {
+      "commit_date": "2026-09-25T13:20:07.000Z",
+      "author": "azzindani",
+      "repository": "azzindani/Carys",
+      "commit_url": "https://github.com/azzindani/Carys/commit/022c4060e33bab933b845aa3061677b99919bcb0"
+    },
+    {
+      "commit_date": "2026-09-25T13:06:09.000+03:00",
+      "author": "junelsolis",
+      "repository": "Turku-BioImaging/ome-zarr-io",
+      "commit_url": "https://github.com/Turku-BioImaging/ome-zarr-io/commit/932d6de78743902b867a5acf499f0fe4d3645bd2"
+    },
+    {
+      "commit_date": "2026-09-25T12:12:01.000+01:00",
+      "author": "will-moore",
+      "repository": "ome/figure",
+      "commit_url": "https://github.com/ome/figure/commit/f40079a1176e19360b2e0694d8ddb36536b0e460"
+    },
+    {
+      "commit_date": "2026-09-25T11:58:24.000-07:00",
+      "author": "dyf",
+      "repository": "AllenNeuralDynamics/atlas-assets",
+      "commit_url": "https://github.com/AllenNeuralDynamics/atlas-assets/commit/45dd42342f6bd700b02aba7ae4eade5e4cd6cc62"
+    },
+    {
+      "commit_date": "2026-09-25T11:58:06.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/dcf5c493d10467b70e74804c3677d94899e9fce2"
+    },
+    {
+      "commit_date": "2026-09-25T10:29:18.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/171eabbd31c521917de7f20923ff40e4bcd55cb0"
+    },
+    {
+      "commit_date": "2026-09-25T10:09:55.000+01:00",
+      "author": "Andrew-Keenlyside",
+      "repository": "Andrew-Keenlyside/pyDVC",
+      "commit_url": "https://github.com/Andrew-Keenlyside/pyDVC/commit/51da3906aca3d53962617749c40710544e0b54cb"
+    },
+    {
+      "commit_date": "2026-09-25T10:02:03.000-04:00",
+      "author": "donglaiw",
+      "repository": "PytorchConnectomics/pytc_glancer",
+      "commit_url": "https://github.com/PytorchConnectomics/pytc_glancer/commit/c3ed4c978005da2b972ac5a0d7b3b4d359ebf6d3"
+    },
+    {
+      "commit_date": "2026-09-25T10:01:27.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/2ec3a26d8fcbcacfdbcf97a7374fe40d443bc33c"
+    },
+    {
+      "commit_date": "2026-09-25T09:54:17.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/ae77d23b6fcacf6cb50220a77a77b9aa1b9c3419"
+    },
+    {
+      "commit_date": "2026-09-25T09:52:10.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/f6fa110a62781b98c973ff4b26a55312c39989aa"
+    },
+    {
+      "commit_date": "2026-09-25T09:50:47.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/opm-toolset",
+      "commit_url": "https://github.com/embl-ic/opm-toolset/commit/00e0b1c2e899ac1fa8673bc3b15bd4e5f42c72f0"
+    },
+    {
+      "commit_date": "2026-09-25T09:49:38.000+02:00",
+      "author": "hzqfox",
+      "repository": "embl-ic/opm-toolset",
+      "commit_url": "https://github.com/embl-ic/opm-toolset/commit/bc0d7eeb38cd0d3ba3a964be29af5b38c5f6deaf"
+    },
+    {
+      "commit_date": "2026-09-25T09:40:32.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/c4cf8aabe18f87e1826fc659d81792e1ec06822e"
+    },
+    {
+      "commit_date": "2026-09-25T09:24:37.000+05:30",
+      "author": "ashfaq-9393",
+      "repository": "ashfaq-9393/ome-zarr-convertor",
+      "commit_url": "https://github.com/ashfaq-9393/ome-zarr-convertor/commit/2b9a4fe9f027305bbd7be51012cb2f4fcd6d9147"
+    },
+    {
+      "commit_date": "2026-09-25T09:24:03.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/ec38e7f9e8a45d52da8831b7d83e3505feb407a6"
+    },
+    {
+      "commit_date": "2026-09-25T09:05:08.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/dd0da7693722d6bf5d2d66bedb66abcf890455d1"
+    },
+    {
+      "commit_date": "2026-09-25T09:05:08.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/79603c221d8a7cc338ebceba29ccecebaf90c183"
+    },
+    {
+      "commit_date": "2026-09-25T09:05:08.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/2da6ceb4a5d1ef0bb1f6cd2609b17a1f7b4efbf0"
+    },
+    {
+      "commit_date": "2026-09-25T08:48:55.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/fcc0c59cae7bf1dd96f5438e56c04cdb3b80bcd9"
+    },
     {
       "commit_date": "2026-09-24T23:56:31.000Z",
       "author": "vortx-jaya",
@@ -11,10 +191,22 @@
       "commit_url": "https://github.com/Vortx-AI/emem/commit/8a1890e8429ca48b5194b292be24cd1f858c02ab"
     },
     {
+      "commit_date": "2026-09-24T22:36:28.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/95570e8879820ee44a578dd3db6a4f535cdf19c6"
+    },
+    {
       "commit_date": "2026-09-24T22:29:15.000+02:00",
       "author": "cavenel",
       "repository": "TissUUmaps/TissUUmaps4",
       "commit_url": "https://github.com/TissUUmaps/TissUUmaps4/commit/7898022156f890cc804752b16b444ac7b821dc7b"
+    },
+    {
+      "commit_date": "2026-09-24T22:22:23.000-07:00",
+      "author": "lanesawyer",
+      "repository": "lanesawyer/bevy-data-explorer",
+      "commit_url": "https://github.com/lanesawyer/bevy-data-explorer/commit/b6bf48a015b0deba22ef69a357f5cd7cab56b527"
     },
     {
       "commit_date": "2026-09-24T18:33:51.000+02:00",
@@ -63,6 +255,12 @@
       "author": "thewtex",
       "repository": "InsightSoftwareConsortium/ITKElastix",
       "commit_url": "https://github.com/InsightSoftwareConsortium/ITKElastix/commit/cece64373651f61e2559ba6917f07f553c5bfe29"
+    },
+    {
+      "commit_date": "2026-09-24T17:38:15.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/917f00e3bbfa95ea09281557abf1e4c5721e2dda"
     },
     {
       "commit_date": "2026-09-24T17:36:01.000+02:00",
@@ -119,6 +317,12 @@
       "commit_url": "https://github.com/bscott711/opym/commit/0273b50042a4193a3d9a2602a9c961af4a9cebd8"
     },
     {
+      "commit_date": "2026-09-24T13:37:21.000+02:00",
+      "author": "junelsolis",
+      "repository": "Turku-BioImaging/ome-zarr-io",
+      "commit_url": "https://github.com/Turku-BioImaging/ome-zarr-io/commit/9e60933fcc1fd43eb716bad170867478dfd0bcc4"
+    },
+    {
       "commit_date": "2026-09-24T13:26:19.000-04:00",
       "author": "chourroutm",
       "repository": "chourroutm/ome-zarr-tools",
@@ -135,6 +339,18 @@
       "author": "folterj",
       "repository": "NL-BioImaging/biomero-converter",
       "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/bea4bc1ecbcb7068b36de48631484f77fecba0f4"
+    },
+    {
+      "commit_date": "2026-09-24T11:35:04.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/f6b16bb90be183b37a82f16c763461a022e8ae49"
+    },
+    {
+      "commit_date": "2026-09-24T11:34:00.000+03:00",
+      "author": "junelsolis",
+      "repository": "Turku-BioImaging/ome-zarr-io",
+      "commit_url": "https://github.com/Turku-BioImaging/ome-zarr-io/commit/d99391c1586fb5554ff3d405020e8e686fd259d4"
     },
     {
       "commit_date": "2026-09-24T11:05:52.000+03:00",
