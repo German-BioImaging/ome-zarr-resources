@@ -1,4 +1,4 @@
-generated_at: '2026-09-26T06:27:35.403084Z'
+generated_at: '2026-09-27T06:28:52.225887Z'
 packages:
 - last_commit:
     author: sbesson
@@ -25,7 +25,7 @@ packages:
   stars: 428
   tags: []
   user: ome
-  weekly_commits_52w_oldest_first: [4, 2, 2, 3, 7, 4, 5, 6, 0, 2, 4, 0, 0, 0, 7, 5, 8, 5, 2, 9, 0, 10, 2, 3, 5, 3, 0, 0, 0, 0, 1, 0, 6, 1, 2, 9, 5, 0, 6, 2, 1, 1, 1, 5, 3, 6, 1, 6, 10, 5, 11, 5]
+  weekly_commits_52w_oldest_first: [2, 2, 3, 7, 4, 5, 6, 0, 2, 4, 0, 0, 0, 7, 5, 8, 5, 2, 9, 0, 10, 2, 3, 5, 3, 0, 0, 0, 0, 1, 0, 6, 1, 2, 9, 5, 0, 6, 2, 1, 1, 1, 5, 3, 6, 1, 6, 10, 5, 11, 5, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: jo-mueller
@@ -52,7 +52,7 @@ packages:
   stars: 258
   tags: [ome-zarr]
   user: ome
-  weekly_commits_52w_oldest_first: [7, 5, 2, 3, 7, 0, 0, 0, 0, 0, 0, 1, 1, 0, 4, 4, 1, 58, 24, 10, 54, 3, 15, 29, 10, 10, 11, 20, 1, 6, 5, 14, 23, 9, 24, 8, 11, 2, 19, 18, 2, 0, 15, 23, 33, 9, 12, 6, 9, 13, 8, 10]
+  weekly_commits_52w_oldest_first: [5, 2, 3, 7, 0, 0, 0, 0, 0, 0, 1, 1, 0, 4, 4, 1, 58, 24, 10, 54, 3, 15, 29, 10, 10, 11, 20, 1, 6, 5, 14, 23, 9, 24, 8, 11, 2, 19, 18, 2, 0, 15, 23, 33, 9, 12, 6, 9, 13, 8, 10, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: joshmoore
@@ -106,8 +106,8 @@ packages:
   stars: 134
   tags: [ome-zarr]
   user: multiview-stitcher
-  weekly_commits_52w_oldest_first: [0, 13, 33, 0, 13, 5, 0, 1, 0, 5, 0, 0, 4, 0, 1, 5, 13, 39, 0, 10, 0, 0, 5, 3, 7, 6, 2, 19, 3, 38, 18, 19, 31, 48, 52, 11, 0, 0, 17, 0, 20, 6, 1, 0, 40, 2, 0, 2, 4, 0, 0, 0]
-  workflow_run_status: FAILURE
+  weekly_commits_52w_oldest_first: [13, 33, 0, 13, 5, 0, 1, 0, 5, 0, 0, 4, 0, 1, 5, 13, 39, 0, 10, 0, 0, 5, 3, 7, 6, 2, 19, 3, 38, 18, 19, 31, 48, 52, 11, 0, 0, 17, 0, 20, 6, 1, 0, 40, 2, 0, 2, 4, 0, 0, 0, 0]
+  workflow_run_status: SUCCESS
 - last_commit:
     author: melissalinkert
     date: '2026-09-18'
@@ -133,7 +133,7 @@ packages:
   stars: 111
   tags: [ome-zarr-converter]
   user: glencoesoftware
-  weekly_commits_52w_oldest_first: [2, 0, 4, 1, 0, 2, 0, 0, 0, 4, 5, 2, 0, 0, 0, 1, 0, 6, 0, 1, 0, 0, 1, 4, 8, 6, 6, 0, 8, 3, 0, 1, 1, 1, 3, 1, 0, 0, 3, 3, 0, 0, 1, 2, 5, 1, 1, 8, 3, 4, 3, 0]
+  weekly_commits_52w_oldest_first: [0, 4, 1, 0, 2, 0, 0, 0, 4, 5, 2, 0, 0, 0, 1, 0, 6, 0, 1, 0, 0, 1, 4, 8, 6, 6, 0, 8, 3, 0, 1, 1, 1, 3, 1, 0, 0, 3, 3, 0, 0, 1, 2, 5, 1, 1, 8, 3, 4, 3, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: thewtex
@@ -213,7 +213,7 @@ packages:
   stars: 56
   tags: [ome-zarr-converter, ome-zarr]
   user: czbiohub-sf
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 1, 4, 0, 3, 0, 0, 2, 1, 3, 2, 0, 4, 1, 1, 0, 1, 2, 2, 0, 1, 3, 0, 2, 3, 3, 4, 3, 1, 2, 2, 2, 2, 3, 1]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 1, 4, 0, 3, 0, 0, 2, 1, 3, 2, 0, 4, 1, 1, 0, 1, 2, 2, 0, 1, 3, 0, 2, 3, 3, 4, 3, 1, 2, 2, 2, 2, 3, 1, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: jo-mueller
@@ -267,7 +267,7 @@ packages:
   stars: 53
   tags: [ome-zarr]
   user: pymmcore-plus
-  weekly_commits_52w_oldest_first: [1, 0, 5, 0, 1, 0, 0, 0, 4, 0, 0, 4, 3, 0, 4, 1, 0, 1, 4, 2, 8, 9, 13, 6, 4, 2, 6, 1, 1, 0, 1, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 3, 0]
+  weekly_commits_52w_oldest_first: [0, 5, 0, 1, 0, 0, 0, 4, 0, 0, 4, 3, 0, 4, 1, 0, 1, 4, 2, 8, 9, 13, 6, 4, 2, 6, 1, 1, 0, 1, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: lorenzocerrone
@@ -294,7 +294,7 @@ packages:
   stars: 51
   tags: [ome-zarr]
   user: biovisioncenter
-  weekly_commits_52w_oldest_first: [0, 2, 0, 1, 0, 5, 5, 7, 14, 25, 11, 1, 0, 0, 5, 0, 5, 14, 17, 3, 5, 4, 0, 4, 15, 17, 2, 1, 7, 0, 1, 0, 0, 16, 11, 0, 7, 2, 0, 19, 12, 0, 0, 40, 12, 37, 50, 14, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [2, 0, 1, 0, 5, 5, 7, 14, 25, 11, 1, 0, 0, 5, 0, 5, 14, 17, 3, 5, 4, 0, 4, 15, 17, 2, 1, 7, 0, 1, 0, 0, 16, 11, 0, 7, 2, 0, 19, 12, 0, 0, 40, 12, 37, 50, 14, 0, 0, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: jo-mueller
@@ -321,7 +321,7 @@ packages:
   stars: 39
   tags: [ome-zarr]
   user: ome-zarr-models
-  weekly_commits_52w_oldest_first: [6, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 6, 2, 3, 0, 0, 3, 2, 0, 0, 0, 3, 0, 1, 6, 0, 4, 7, 1, 0, 3, 7, 9, 2, 0, 5, 3, 6, 0, 0, 7, 0, 7, 0, 0, 1, 2, 0, 0, 2]
+  weekly_commits_52w_oldest_first: [2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 6, 2, 3, 0, 0, 3, 2, 0, 0, 0, 3, 0, 1, 6, 0, 4, 7, 1, 0, 3, 7, 9, 2, 0, 5, 3, 6, 0, 0, 7, 0, 7, 0, 0, 1, 2, 0, 0, 2, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: bugraoezdemir
@@ -348,7 +348,7 @@ packages:
   stars: 32
   tags: [ome-zarr-converter, ome-zarr]
   user: euro-bioimaging
-  weekly_commits_52w_oldest_first: [0, 0, 0, 10, 0, 10, 2, 3, 5, 0, 2, 6, 0, 0, 0, 13, 60, 22, 0, 0, 6, 1, 4, 0, 5, 4, 1, 17, 13, 0, 4, 6, 0, 0, 7, 0, 2, 2, 6, 10, 0, 0, 0, 3, 0, 0, 1, 4, 9, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 10, 0, 10, 2, 3, 5, 0, 2, 6, 0, 0, 0, 13, 60, 22, 0, 0, 6, 1, 4, 0, 5, 4, 1, 17, 13, 0, 4, 6, 0, 0, 7, 0, 2, 2, 6, 10, 0, 0, 0, 3, 0, 0, 1, 4, 9, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: bugraoezdemir
@@ -402,7 +402,7 @@ packages:
   stars: 31
   tags: [ome-zarr]
   user: janeliascicomp
-  weekly_commits_52w_oldest_first: [41, 0, 4, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 21, 0, 2, 14, 0, 0, 0, 16, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 4, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 21, 0, 2, 14, 0, 0, 0, 16, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: allison-truhlar
@@ -429,7 +429,7 @@ packages:
   stars: 29
   tags: [ome-zarr]
   user: janeliascicomp
-  weekly_commits_52w_oldest_first: [37, 81, 113, 75, 50, 44, 16, 64, 20, 13, 52, 41, 2, 1, 72, 48, 31, 18, 62, 92, 28, 39, 68, 31, 53, 59, 3, 82, 48, 16, 42, 49, 19, 24, 13, 17, 14, 73, 52, 98, 19, 19, 27, 23, 5, 1, 1, 47, 33, 10, 2, 0]
+  weekly_commits_52w_oldest_first: [81, 113, 75, 50, 44, 16, 64, 20, 13, 52, 41, 2, 1, 72, 48, 31, 18, 62, 92, 28, 39, 68, 31, 53, 59, 3, 82, 48, 16, 42, 49, 19, 24, 13, 17, 14, 73, 52, 98, 19, 19, 27, 23, 5, 1, 1, 47, 33, 10, 2, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: dstansby
@@ -452,7 +452,7 @@ packages:
   stars: 28
   tags: [ome-zarr]
   user: ome-zarr-models
-  weekly_commits_52w_oldest_first: [1, 4, 4, 1, 3, 33, 0, 0, 0, 3, 0, 0, 0, 0, 0, 2, 0, 0, 0, 4, 0, 0, 0, 2, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 1, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [4, 4, 1, 3, 33, 0, 0, 0, 3, 0, 0, 0, 0, 0, 2, 0, 0, 0, 4, 0, 0, 0, 2, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 1, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: lorenzocerrone
@@ -479,7 +479,7 @@ packages:
   stars: 28
   tags: [ome-zarr-converter, ome-zarr]
   user: fractal-analytics-platform
-  weekly_commits_52w_oldest_first: [0, 2, 1, 1, 1, 1, 1, 3, 3, 8, 1, 2, 0, 0, 0, 7, 16, 2, 3, 0, 55, 45, 0, 24, 38, 9, 2, 2, 1, 3, 0, 1, 0, 0, 1, 0, 0, 0, 21, 1, 4, 7, 0, 0, 0, 0, 7, 3, 1, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [2, 1, 1, 1, 1, 1, 3, 3, 8, 1, 2, 0, 0, 0, 7, 16, 2, 3, 0, 55, 45, 0, 24, 38, 9, 2, 2, 1, 3, 0, 1, 0, 0, 1, 0, 0, 0, 21, 1, 4, 7, 0, 0, 0, 0, 7, 3, 1, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: mbstadler
@@ -533,7 +533,7 @@ packages:
   stars: 22
   tags: []
   user: ome
-  weekly_commits_52w_oldest_first: [0, 0, 0, 6, 1, 5, 0, 4, 8, 19, 29, 27, 0, 0, 2, 4, 14, 19, 39, 11, 0, 21, 17, 2, 10, 13, 3, 3, 8, 14, 1, 0, 0, 1, 0, 0, 0, 3, 0, 0, 0, 0, 1, 0, 1, 3, 4, 0, 0, 2, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 6, 1, 5, 0, 4, 8, 19, 29, 27, 0, 0, 2, 4, 14, 19, 39, 11, 0, 21, 17, 2, 10, 13, 3, 3, 8, 14, 1, 0, 0, 1, 0, 0, 0, 3, 0, 0, 0, 0, 1, 0, 1, 3, 4, 0, 0, 2, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: will-moore
@@ -560,7 +560,7 @@ packages:
   stars: 22
   tags: [ome-zarr-converter]
   user: ome
-  weekly_commits_52w_oldest_first: [0, 0, 1, 0, 0, 2, 0, 2, 0, 2, 0, 0, 0, 0, 0, 1, 1, 2, 11, 0, 3, 5, 1, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 3, 4, 2, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 1, 0, 0, 2, 0, 2, 0, 2, 0, 0, 0, 0, 0, 1, 1, 2, 11, 0, 3, 5, 1, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 3, 4, 2, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: bogovicj
@@ -583,7 +583,7 @@ packages:
   stars: 21
   tags: [ome-zarr-converter]
   user: saalfeldlab
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 13, 2, 3, 1, 3, 0, 6, 0, 0, 0, 1, 1, 0, 3, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 13, 2, 3, 1, 3, 0, 6, 0, 0, 0, 1, 1, 0, 3, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: will-moore
@@ -610,7 +610,7 @@ packages:
   stars: 21
   tags: [ome-zarr-converter]
   user: ome
-  weekly_commits_52w_oldest_first: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: imagejan
@@ -664,7 +664,7 @@ packages:
   stars: 14
   tags: [Core]
   user: ome
-  weekly_commits_52w_oldest_first: [0, 1, 1, 4, 0, 1, 0, 9, 2, 2, 0, 14, 0, 0, 5, 10, 25, 14, 25, 5, 8, 2, 11, 4, 3, 6, 18, 0, 0, 7, 6, 0, 0, 6, 0, 0, 6, 8, 18, 33, 1, 8, 0, 1, 0, 1, 0, 5, 0, 1, 3, 0]
+  weekly_commits_52w_oldest_first: [1, 1, 4, 0, 1, 0, 9, 2, 2, 0, 14, 0, 0, 5, 10, 25, 14, 25, 5, 8, 2, 11, 4, 3, 6, 18, 0, 0, 7, 6, 0, 0, 6, 0, 0, 6, 8, 18, 33, 1, 8, 0, 1, 0, 1, 0, 5, 0, 1, 3, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: tlambert03
@@ -691,8 +691,8 @@ packages:
   stars: 12
   tags: [ome-zarr]
   user: pymmcore-plus
-  weekly_commits_52w_oldest_first: [1, 1, 1, 2, 2, 0, 0, 2, 0, 2, 0, 0, 0, 0, 5, 0, 14, 19, 10, 3, 4, 12, 5, 0, 0, 3, 2, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
-  workflow_run_status: FAILURE
+  weekly_commits_52w_oldest_first: [1, 1, 2, 2, 0, 0, 2, 0, 2, 0, 0, 0, 0, 5, 0, 14, 19, 10, 3, 4, 12, 5, 0, 0, 3, 2, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  workflow_run_status: SUCCESS
 - last_commit:
     author: will-moore
     date: '2026-09-16'
@@ -718,7 +718,7 @@ packages:
   stars: 12
   tags: [ome-zarr]
   user: ome
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 4, 3, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 2, 0, 1, 10, 2, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 1, 0, 4, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 4, 3, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 2, 0, 1, 10, 2, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 1, 0, 4, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: akhanf
@@ -745,7 +745,7 @@ packages:
   stars: 11
   tags: [ome-zarr]
   user: khanlab
-  weekly_commits_52w_oldest_first: [20, 7, 5, 9, 19, 0, 29, 41, 34, 4, 0, 12, 0, 0, 0, 0, 0, 0, 0, 5, 13, 0, 8, 13, 1, 0, 3, 0, 0, 2, 19, 24, 24, 7, 9, 20, 0, 0, 0, 0, 0, 4, 7, 3, 2, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [7, 5, 9, 19, 0, 29, 41, 34, 4, 0, 12, 0, 0, 0, 0, 0, 0, 0, 5, 13, 0, 8, 13, 1, 0, 3, 0, 0, 2, 19, 24, 24, 7, 9, 20, 0, 0, 0, 0, 0, 4, 7, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: thewtex
@@ -796,7 +796,7 @@ packages:
   stars: 10
   tags: []
   user: ome
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 5, 2, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 5, 2, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: NO_WORKFLOWS
 - last_commit:
     author: krokicki
@@ -823,6 +823,7 @@ packages:
   stars: 7
   tags: [ome-zarr-converter]
   user: janeliascicomp
+  weekly_commits_52w_oldest_first: [0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: NO_WORKFLOWS
 - last_commit:
     author: folterj
@@ -845,7 +846,7 @@ packages:
   stars: 7
   tags: [ome-zarr-converter]
   user: franciscrickinstitute
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 0, 1, 0, 0, 0, 0, 0, 0, 1]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: btbest
@@ -868,7 +869,7 @@ packages:
   stars: 6
   tags: [ome-zarr]
   user: ilastik
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 25, 3, 6, 6, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 4, 8, 14, 24, 12, 6, 8, 5, 10, 6, 7, 8, 15, 17, 10, 9, 20, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 25, 3, 6, 6, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 4, 8, 14, 24, 12, 6, 8, 5, 10, 6, 7, 8, 15, 17, 10, 9, 20, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: lorenzocerrone
@@ -895,7 +896,7 @@ packages:
   stars: 6
   tags: [ome-zarr-converter, ome-zarr]
   user: biovisioncenter
-  weekly_commits_52w_oldest_first: [0, 0, 0, 4, 0, 3, 0, 0, 0, 0, 10, 12, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 1, 5, 7, 1, 1, 1, 0, 13, 3, 0, 12, 3, 9, 5, 1, 1, 31, 0, 0, 0, 6, 0, 5, 4, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 4, 0, 3, 0, 0, 0, 0, 10, 12, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 1, 5, 7, 1, 1, 1, 0, 13, 3, 0, 12, 3, 9, 5, 1, 1, 31, 0, 0, 0, 6, 0, 5, 4, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: dstansby
@@ -922,7 +923,7 @@ packages:
   stars: 4
   tags: [ome-zarr]
   user: ome-zarr-models
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 0, 0, 0, 0, 0, 0, 0, 29, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 0, 0, 0, 0, 0, 0, 0, 29, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: CraigMyles
@@ -949,7 +950,6 @@ packages:
   stars: 4
   tags: [ome-zarr]
   user: craigmyles
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 8, 3, 0, 1, 0, 1, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: camlloyd
@@ -976,7 +976,7 @@ packages:
   stars: 3
   tags: [ome-zarr-converter, ome-zarr]
   user: camlloyd
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 17, 0, 1, 2, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 17, 0, 1, 2, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: kabilar
@@ -999,7 +999,6 @@ packages:
   stars: 3
   tags: [ome-zarr]
   user: german-bioimaging
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 29, 1, 1, 0, 0, 3, 4, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: lorenzocerrone
@@ -1026,7 +1025,7 @@ packages:
   stars: 3
   tags: [ome-zarr-converter, ome-zarr]
   user: fractal-analytics-platform
-  weekly_commits_52w_oldest_first: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 0, 1, 11, 10, 14, 10, 5, 0, 1, 0, 2, 0, 19, 13, 7, 12, 2, 0, 3, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 0, 1, 11, 10, 14, 10, 5, 0, 1, 0, 2, 0, 19, 13, 7, 12, 2, 0, 3, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - disabled_workflows: [repo2docker]
   last_commit:
@@ -1077,7 +1076,7 @@ packages:
   stars: 1
   tags: [ome-zarr-converter, ome-zarr]
   user: leukemia-kispi
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 8, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 8, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: Ron Finn
@@ -1104,7 +1103,7 @@ packages:
   stars: 1
   tags: [ome-zarr]
   user: ronfinn
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 22, 17, 3, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 22, 17, 3, 0, 0, 0]
   workflow_run_status: SUCCESS
 - disabled_workflows: [cflite-batch, CI, conformance-latest]
   last_commit:
@@ -1132,7 +1131,7 @@ packages:
   stars: 1
   tags: [ome-zarr]
   user: kharchenkolab
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: NO_WORKFLOWS
 - last_commit:
     author: simaopseixas
@@ -1159,7 +1158,7 @@ packages:
   stars: 1
   tags: [ome-zarr]
   user: simaopseixas
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 5, 86, 31, 0, 15, 17, 0, 16, 5, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 5, 86, 31, 0, 15, 17, 0, 16, 5, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: NO_WORKFLOWS
 - last_commit:
     author: assadiab
@@ -1186,7 +1185,7 @@ packages:
   stars: 0
   tags: [ome-zarr]
   user: assadiab
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 14, 0, 10, 7, 0, 0, 5, 13, 20, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 14, 0, 10, 7, 0, 0, 5, 13, 20, 0, 0, 0, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: alex1075
@@ -1213,7 +1212,7 @@ packages:
   stars: 0
   tags: [ome-zarr]
   user: flimkit
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: assadiab
@@ -1240,7 +1239,7 @@ packages:
   stars: 0
   tags: [ome-zarr]
   user: assadiab
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 14, 0, 10, 7, 0, 0, 5, 13, 20, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 14, 0, 10, 7, 0, 0, 5, 13, 20, 0, 0, 0, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: lorenzocerrone
@@ -1267,7 +1266,7 @@ packages:
   stars: 0
   tags: [ome-zarr-converter, ome-zarr]
   user: fractal-analytics-platform
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 3, 6, 1, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 3, 6, 1, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: lorenzocerrone
@@ -1294,7 +1293,7 @@ packages:
   stars: 0
   tags: [ome-zarr-converter, ome-zarr]
   user: fractal-analytics-platform
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 6, 8, 2, 8, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 6, 8, 2, 8, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: brisvag
@@ -1312,11 +1311,11 @@ packages:
     created_at: '2018-08-13T01:12:28Z'
     default_branch: main
     description: 'napari: a fast, interactive, multi-dimensional image viewer for python'
-    open_issues: 1260
+    open_issues: 1265
     size: 91181
-    stargazers_count: 2765
+    stargazers_count: 2766
     topics: [napari, numpy, python, visualization]
-    updated_at: '2026-09-26T05:30:59Z'
+    updated_at: '2026-09-27T02:20:16Z'
   section: Discovered (OME-Zarr commits)
   stars: 2757
   tags: []
@@ -1335,7 +1334,7 @@ packages:
     created_at: '2017-08-07T21:49:09Z'
     default_branch: main
     description: A registry of publicly available datasets on AWS
-    open_issues: 119
+    open_issues: 120
     size: 13155
     stargazers_count: 1788
     topics: []
@@ -1344,7 +1343,7 @@ packages:
   stars: 1779
   tags: []
   user: awslabs
-  weekly_commits_52w_oldest_first: [16, 5, 17, 20, 42, 9, 16, 24, 9, 43, 34, 25, 5, 5, 30, 20, 20, 9, 23, 15, 12, 9, 13, 17, 15, 7, 12, 22, 26, 20, 17, 20, 22, 21, 8, 58, 35, 23, 10, 10, 14, 25, 10, 9, 14, 15, 25, 15, 12, 17, 24, 65]
+  weekly_commits_52w_oldest_first: [5, 17, 20, 42, 9, 16, 24, 9, 43, 34, 25, 5, 5, 30, 20, 20, 9, 23, 15, 12, 9, 13, 17, 15, 7, 12, 22, 26, 20, 17, 20, 22, 21, 8, 58, 35, 23, 10, 10, 14, 25, 10, 9, 14, 15, 25, 15, 12, 17, 24, 65, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: petebankhead
@@ -1385,16 +1384,16 @@ packages:
     created_at: '2016-05-27T02:37:25Z'
     default_branch: master
     description: WebGL-based viewer for volumetric data
-    open_issues: 238
+    open_issues: 239
     size: 16335
-    stargazers_count: 1539
+    stargazers_count: 1540
     topics: []
-    updated_at: '2026-09-25T16:59:14Z'
+    updated_at: '2026-09-26T15:32:25Z'
   section: Zarr viewers
   stars: 1374
   tags: []
   user: google
-  weekly_commits_52w_oldest_first: [2, 4, 0, 1, 0, 4, 0, 1, 1, 6, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 3, 2, 7, 1, 3, 5, 0, 3, 9, 1, 7, 5, 1, 3, 5, 0, 4, 2, 1, 0, 4, 0, 3, 3, 0, 1, 1]
+  weekly_commits_52w_oldest_first: [4, 0, 1, 0, 4, 0, 1, 1, 6, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 3, 2, 7, 1, 3, 5, 0, 3, 9, 1, 7, 5, 1, 3, 5, 0, 4, 2, 1, 0, 4, 0, 3, 3, 0, 1, 1, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: Starlitnightly
@@ -1414,21 +1413,21 @@ packages:
     description: A python library for multi omics included bulk, single cell and spatial RNA-seq analysis.
     open_issues: 10
     size: 128825
-    stargazers_count: 1210
+    stargazers_count: 1211
     topics: [bioinformatics, bulk-rna-seq, omics, single-cell]
-    updated_at: '2026-09-25T05:51:15Z'
+    updated_at: '2026-09-26T06:49:54Z'
   section: Discovered (OME-Zarr commits)
   stars: 1194
   tags: []
   user: omicverse
-  weekly_commits_52w_oldest_first: [3, 0, 2, 23, 34, 53, 82, 14, 6, 2, 0, 1, 2, 1, 5, 1, 14, 17, 10, 12, 19, 17, 35, 44, 36, 141, 53, 63, 102, 59, 40, 9, 0, 108, 86, 23, 24, 2, 4, 7, 16, 4, 19, 40, 0, 11, 0, 8, 12, 12, 10, 4]
+  weekly_commits_52w_oldest_first: [0, 2, 23, 34, 53, 82, 14, 6, 2, 0, 1, 2, 1, 5, 1, 14, 17, 10, 12, 19, 17, 35, 44, 36, 141, 53, 63, 102, 59, 40, 9, 0, 108, 86, 23, 24, 2, 4, 7, 16, 4, 19, 40, 0, 11, 0, 8, 12, 12, 10, 4, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: ibgreen
     date: '2026-09-26'
-    sha: 982f76a216ddd6a6633c8fdc5f1de8085ca485e6
+    sha: da8e45bbc9089182d16c3fbbee4b7124679fd336
     status: SUCCESS
-    url: https://github.com/visgl/loaders.gl/commit/982f76a216ddd6a6633c8fdc5f1de8085ca485e6
+    url: https://github.com/visgl/loaders.gl/commit/da8e45bbc9089182d16c3fbbee4b7124679fd336
   last_release:
     date: '2026-09-25'
     tag_name: v5.0.0-alpha.7
@@ -1439,16 +1438,16 @@ packages:
     created_at: '2018-09-07T20:56:02Z'
     default_branch: master
     description: 'Loaders for big data visualization. Website:'
-    open_issues: 20
-    size: 362759
+    open_issues: 19
+    size: 362320
     stargazers_count: 855
     topics: [3d-tiles, apache-arrow, apache-parquet, basis, csv, draco, geoarrow, geoparquet, gltf, i3s, javascript, las, loaders, nodejs, obj, ply, streaming, wkb, wkt, workers]
-    updated_at: '2026-09-26T01:28:04Z'
+    updated_at: '2026-09-26T12:48:43Z'
   section: Discovered (OME-Zarr commits)
   stars: 853
   tags: []
   user: visgl
-  weekly_commits_52w_oldest_first: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3, 37, 0, 0, 4, 0, 1, 15, 0, 1, 8, 2, 2, 9, 0, 2, 7, 22, 22, 5, 8, 2, 5, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 23, 34, 45, 38, 264, 30, 11, 39, 24]
+  weekly_commits_52w_oldest_first: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3, 37, 0, 0, 4, 0, 1, 15, 0, 1, 8, 2, 2, 9, 0, 2, 7, 22, 22, 5, 8, 2, 5, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 23, 34, 45, 38, 264, 30, 11, 39, 28]
   workflow_run_status: FAILURE
 - last_commit:
     author: SharoonSharif
@@ -1466,16 +1465,16 @@ packages:
     created_at: '2025-02-10T22:27:39Z'
     default_branch: main
     description: 'Toolkit for large-scale whole-slide image processing. '
-    open_issues: 44
+    open_issues: 45
     size: 3528
-    stargazers_count: 636
+    stargazers_count: 638
     topics: [deep-learning, foundation-model, foundation-models-for-pathology, histology, pathology, whole-slide-image]
-    updated_at: '2026-09-25T13:53:04Z'
+    updated_at: '2026-09-26T15:44:08Z'
   section: Other tools (to curate)
   stars: 627
   tags: []
   user: mahmoodlab
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 4, 0, 0, 2, 1, 2, 0, 2, 0, 2, 0, 1, 1, 0, 1, 0, 4, 1, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 4, 0, 0, 2, 1, 2, 0, 2, 0, 2, 0, 1, 1, 0, 1, 0, 4, 1, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: thewtex
@@ -1493,7 +1492,7 @@ packages:
     created_at: '2018-02-15T01:43:39Z'
     default_branch: main
     description: An elegant Python interface for visualization on the web platform to interactively generate insights into multidimensional images, point sets, and geometry.
-    open_issues: 128
+    open_issues: 127
     size: 80606
     stargazers_count: 624
     topics: [image-analysis, imaging, insight-toolkit, itk, jupyter, jupyter-widget, jupyterlab-extension, kitware, medical-visualization, meshes, open-science, open-source, point-cloud, python, reproducible-research, scientific-computing, scientific-visualization]
@@ -1502,7 +1501,7 @@ packages:
   stars: 624
   tags: []
   user: insightsoftwareconsortium
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: neurolabusc
@@ -1529,7 +1528,7 @@ packages:
   stars: 491
   tags: []
   user: niivue
-  weekly_commits_52w_oldest_first: [0, 7, 6, 13, 8, 10, 6, 46, 0, 14, 23, 6, 20, 3, 4, 21, 12, 22, 58, 25, 5, 9, 2, 8, 0, 2, 1, 9, 3, 11, 3, 1, 3, 4, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [7, 6, 13, 8, 10, 6, 46, 0, 14, 23, 6, 20, 3, 4, 21, 12, 22, 58, 25, 5, 9, 2, 8, 0, 2, 1, 9, 3, 11, 3, 1, 3, 4, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: Nanguage
@@ -1538,9 +1537,9 @@ packages:
     status: FAILURE
     url: https://github.com/aristoteleo/PantheonOS/commit/5d3d459ac5752ed9d39432232d76ad1581296012
   last_release:
-    date: '2026-09-25'
-    tag_name: fleet-v0.5.0-model.4
-    url: https://github.com/aristoteleo/PantheonOS/releases/tag/fleet-v0.5.0-model.4
+    date: '2026-09-26'
+    tag_name: fleet-v0.5.0-model.5
+    url: https://github.com/aristoteleo/PantheonOS/releases/tag/fleet-v0.5.0-model.5
   name: pantheonos
   repo: aristoteleo/pantheonos
   repo_info:
@@ -1548,15 +1547,15 @@ packages:
     default_branch: main
     description: A general, evolvable, and distributed agent framework & harness for data science.
     open_issues: 24
-    size: 383464
-    stargazers_count: 487
+    size: 383887
+    stargazers_count: 488
     topics: [agent, ai, ai-agents, bioclaw, bioinformatics, biology, claw, data-science, harness, harness-engineering, llm, llm-evolution, pantheonclaw, pantheonos, singlecell, spatial-transcriptomics]
-    updated_at: '2026-09-23T21:10:10Z'
+    updated_at: '2026-09-26T21:01:31Z'
   section: Discovered (OME-Zarr commits)
   stars: 485
   tags: []
   user: aristoteleo
-  weekly_commits_52w_oldest_first: [7, 4, 3, 5, 5, 35, 4, 7, 6, 23, 42, 31, 5, 16, 25, 38, 16, 4, 12, 27, 4, 11, 72, 20, 22, 16, 58, 39, 31, 33, 47, 13, 7, 12, 26, 16, 35, 30, 24, 51, 45, 19, 2, 4, 9, 25, 14, 1, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [4, 3, 5, 5, 35, 4, 7, 6, 23, 42, 31, 5, 16, 25, 38, 16, 4, 12, 27, 4, 11, 72, 20, 22, 16, 58, 39, 31, 33, 47, 13, 7, 12, 26, 16, 35, 30, 24, 51, 45, 19, 2, 4, 9, 25, 14, 1, 0, 0, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: dependabot[bot]
@@ -1583,7 +1582,7 @@ packages:
   stars: 407
   tags: []
   user: ilastik
-  weekly_commits_52w_oldest_first: [10, 10, 1, 1, 5, 5, 0, 1, 3, 6, 4, 8, 9, 0, 2, 3, 0, 1, 11, 4, 2, 5, 0, 0, 9, 2, 7, 0, 2, 0, 9, 0, 5, 13, 6, 8, 0, 7, 0, 0, 2, 4, 0, 1, 3, 0, 0, 0, 0, 1, 1, 3]
+  weekly_commits_52w_oldest_first: [10, 1, 1, 5, 5, 0, 1, 3, 6, 4, 8, 9, 0, 2, 3, 0, 1, 11, 4, 2, 5, 0, 0, 9, 2, 7, 0, 2, 0, 9, 0, 5, 13, 6, 8, 0, 7, 0, 0, 2, 4, 0, 1, 3, 0, 0, 0, 0, 1, 1, 3, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: VenishPaneliya
@@ -1664,7 +1663,7 @@ packages:
   stars: 362
   tags: []
   user: hms-dbmi
-  weekly_commits_52w_oldest_first: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 5, 0, 0, 4, 0, 0, 0, 1, 1, 1, 2, 2, 4, 0, 0, 2, 0, 0, 4, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 3]
+  weekly_commits_52w_oldest_first: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 5, 0, 0, 4, 0, 0, 0, 1, 1, 1, 2, 2, 4, 0, 0, 2, 0, 0, 4, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 3, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: Mr-Milk
@@ -1691,14 +1690,14 @@ packages:
   stars: 324
   tags: []
   user: rendeirolab
-  weekly_commits_52w_oldest_first: [7, 1, 1, 2, 0, 0, 8, 0, 3, 2, 0, 0, 0, 4, 11, 4, 2, 0, 0, 0, 1, 3, 0, 1, 0, 1, 1, 2, 1, 1, 0, 2, 3, 3, 5, 3, 1, 5, 1, 1, 0, 0, 1, 1, 0, 0, 0, 9, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [1, 1, 2, 0, 0, 8, 0, 3, 2, 0, 0, 0, 4, 11, 4, 2, 0, 0, 0, 1, 3, 0, 1, 0, 1, 1, 2, 1, 1, 0, 2, 3, 3, 5, 3, 1, 5, 1, 1, 0, 0, 1, 1, 0, 0, 0, 9, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
-    author: marktsuchida
+    author: github-actions[bot]
     date: '2026-09-26'
-    sha: c693a865801f623eef2a146fd8a740b19c196612
+    sha: 0b356d17d29d078c8cdb3ce963ad18b32a9da4a9
     status: SUCCESS
-    url: https://github.com/micro-manager/micro-manager/commit/c693a865801f623eef2a146fd8a740b19c196612
+    url: https://github.com/micro-manager/micro-manager/commit/0b356d17d29d078c8cdb3ce963ad18b32a9da4a9
   name: micro-manager
   repo: micro-manager/micro-manager
   repo_info:
@@ -1709,12 +1708,12 @@ packages:
     size: 311385
     stargazers_count: 323
     topics: []
-    updated_at: '2026-09-26T04:10:43Z'
+    updated_at: '2026-09-26T21:34:05Z'
   section: Discovered (OME-Zarr commits)
   stars: 322
   tags: []
   user: micro-manager
-  weekly_commits_52w_oldest_first: [9, 4, 21, 33, 16, 8, 25, 10, 8, 2, 25, 22, 21, 2, 3, 25, 41, 20, 13, 19, 44, 55, 55, 45, 63, 35, 16, 15, 34, 13, 31, 21, 25, 27, 62, 31, 19, 36, 32, 14, 19, 37, 25, 22, 36, 12, 13, 8, 2, 3, 15, 5]
+  weekly_commits_52w_oldest_first: [4, 21, 33, 16, 8, 25, 10, 8, 2, 25, 22, 21, 2, 3, 25, 41, 20, 13, 19, 44, 55, 55, 45, 63, 35, 16, 15, 34, 13, 31, 21, 25, 27, 62, 31, 19, 36, 32, 14, 19, 37, 25, 22, 36, 12, 13, 8, 2, 3, 15, 6, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: royerloic
@@ -1741,6 +1740,7 @@ packages:
   stars: 302
   tags: []
   user: royerlab
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: quentinblampey
@@ -1767,7 +1767,7 @@ packages:
   stars: 291
   tags: []
   user: prism-oncology
-  weekly_commits_52w_oldest_first: [10, 4, 11, 21, 13, 38, 6, 18, 2, 20, 5, 5, 0, 0, 6, 0, 0, 0, 0, 10, 2, 6, 8, 3, 21, 6, 17, 8, 8, 4, 0, 0, 0, 1, 9, 3, 1, 5, 4, 1, 5, 2, 0, 0, 0, 0, 1, 3, 12, 1, 3, 0]
+  weekly_commits_52w_oldest_first: [4, 11, 21, 13, 38, 6, 18, 2, 20, 5, 5, 0, 0, 6, 0, 0, 0, 0, 10, 2, 6, 8, 3, 21, 6, 17, 8, 8, 4, 0, 0, 0, 1, 9, 3, 1, 5, 4, 1, 5, 2, 0, 0, 0, 0, 1, 3, 12, 1, 3, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: JoOkuma
@@ -1794,7 +1794,7 @@ packages:
   stars: 208
   tags: []
   user: royerlab
-  weekly_commits_52w_oldest_first: [1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3, 2, 1, 0, 0, 0, 0, 3, 1, 0, 2, 0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3, 2, 1, 0, 0, 0, 0, 3, 1, 0, 2, 0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: SantaMcCloud
@@ -1812,12 +1812,12 @@ packages:
     size: 1871650
     stargazers_count: 201
     topics: [hacktoberfest, iuc, tools, toolshed, usegalaxy, wrappers]
-    updated_at: '2026-09-24T11:39:55Z'
+    updated_at: '2026-09-26T18:11:11Z'
   section: Discovered (OME-Zarr commits)
   stars: 201
   tags: []
   user: galaxyproject
-  weekly_commits_52w_oldest_first: [68, 89, 31, 30, 67, 39, 33, 30, 26, 68, 47, 50, 10, 1, 33, 50, 62, 52, 138, 53, 80, 49, 45, 95, 37, 60, 28, 9, 29, 24, 36, 34, 20, 68, 89, 35, 72, 72, 24, 15, 24, 22, 15, 29, 31, 20, 15, 29, 22, 21, 15, 15]
+  weekly_commits_52w_oldest_first: [89, 31, 30, 67, 39, 33, 30, 26, 68, 47, 50, 10, 1, 33, 50, 62, 52, 138, 53, 80, 49, 45, 95, 37, 60, 28, 9, 29, 24, 36, 34, 20, 68, 89, 35, 72, 72, 24, 15, 24, 22, 15, 29, 31, 20, 15, 29, 22, 21, 15, 15, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: Donglai Wei
@@ -1844,7 +1844,7 @@ packages:
   stars: 200
   tags: []
   user: pytorchconnectomics
-  weekly_commits_52w_oldest_first: [18, 8, 11, 18, 17, 3, 14, 2, 8, 15, 8, 3, 0, 0, 0, 0, 3, 0, 1, 50, 22, 24, 7, 32, 21, 32, 9, 0, 1, 0, 28, 21, 29, 39, 11, 5, 16, 5, 2, 1, 0, 1, 19, 28, 1, 6, 23, 15, 12, 7, 3, 46]
+  weekly_commits_52w_oldest_first: [8, 11, 18, 17, 3, 14, 2, 8, 15, 8, 3, 0, 0, 0, 0, 3, 0, 1, 50, 22, 24, 7, 32, 21, 32, 9, 0, 1, 0, 28, 21, 29, 39, 11, 5, 16, 5, 2, 1, 0, 1, 19, 28, 1, 6, 23, 15, 12, 7, 3, 46, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: will-moore
@@ -1867,7 +1867,7 @@ packages:
   stars: 199
   tags: []
   user: hms-dbmi
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 2, 0, 15, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 2, 0, 15, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: IgorTatarnikov
@@ -1894,7 +1894,7 @@ packages:
   stars: 186
   tags: []
   user: brainglobe
-  weekly_commits_52w_oldest_first: [0, 1, 0, 0, 1, 2, 1, 0, 1, 2, 1, 4, 0, 0, 1, 2, 0, 4, 5, 2, 2, 0, 1, 1, 1, 0, 1, 1, 0, 1, 2, 1, 0, 2, 3, 2, 0, 1, 0, 0, 3, 2, 6, 2, 5, 7, 3, 1, 0, 8, 0, 3]
+  weekly_commits_52w_oldest_first: [1, 0, 0, 1, 2, 1, 0, 1, 2, 1, 4, 0, 0, 1, 2, 0, 4, 5, 2, 2, 0, 1, 1, 1, 0, 1, 1, 0, 1, 2, 1, 0, 2, 3, 2, 0, 1, 0, 0, 3, 2, 6, 2, 5, 7, 3, 1, 0, 8, 0, 3, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: hotzenklotz
@@ -1912,8 +1912,8 @@ packages:
     created_at: '2012-05-14T16:26:17Z'
     default_branch: master
     description: Visualize, share and annotate your large 3D images online
-    open_issues: 323
-    size: 869331
+    open_issues: 325
+    size: 869340
     stargazers_count: 184
     topics: [connectomics, em, hacktoberfest, microscopy, microscopy-images, neurobiology, reconstruction]
     updated_at: '2026-09-25T11:32:18Z'
@@ -1921,7 +1921,7 @@ packages:
   stars: 183
   tags: []
   user: scalableminds
-  weekly_commits_52w_oldest_first: [14, 12, 12, 8, 14, 15, 21, 10, 14, 6, 26, 14, 0, 1, 17, 20, 16, 27, 21, 29, 15, 32, 29, 20, 22, 13, 27, 20, 18, 23, 21, 27, 3, 21, 9, 30, 25, 22, 45, 25, 24, 33, 34, 15, 27, 38, 13, 33, 29, 27, 4, 38]
+  weekly_commits_52w_oldest_first: [12, 12, 8, 14, 15, 21, 10, 14, 6, 26, 14, 0, 1, 17, 20, 16, 27, 21, 29, 15, 32, 29, 20, 22, 13, 27, 20, 18, 23, 21, 27, 3, 21, 9, 30, 25, 22, 45, 25, 24, 33, 34, 15, 27, 38, 13, 33, 29, 27, 4, 38, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: aafkegros
@@ -1948,7 +1948,7 @@ packages:
   stars: 160
   tags: []
   user: aafkegros
-  weekly_commits_52w_oldest_first: [9, 6, 7, 0, 3, 5, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 0, 4, 0, 0, 0, 12, 49, 7, 3, 24, 10, 15, 23, 27, 4, 1, 0, 18, 0, 0, 0, 0, 6, 5, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [6, 7, 0, 3, 5, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 0, 4, 0, 0, 0, 12, 49, 7, 3, 24, 10, 15, 23, 27, 4, 1, 0, 18, 0, 0, 0, 0, 6, 5, 0, 0, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: stain
@@ -1995,14 +1995,14 @@ packages:
     description: Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.
     open_issues: 7
     size: 41253
-    stargazers_count: 161
+    stargazers_count: 162
     topics: [niches, self-supervised-learning, spatial-domains, spatial-omics, spatial-transcriptomics]
-    updated_at: '2026-09-25T19:24:17Z'
+    updated_at: '2026-09-26T13:33:48Z'
   section: Depend on OME-Zarr Py
   stars: 155
   tags: []
   user: prism-oncology
-  weekly_commits_52w_oldest_first: [1, 2, 3, 1, 1, 0, 0, 4, 5, 3, 4, 0, 0, 0, 1, 5, 0, 18, 21, 5, 2, 7, 2, 5, 6, 0, 4, 8, 28, 12, 28, 13, 3, 27, 8, 9, 12, 27, 5, 0, 7, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0]
+  weekly_commits_52w_oldest_first: [2, 3, 1, 1, 0, 0, 4, 5, 3, 4, 0, 0, 0, 1, 5, 0, 18, 21, 5, 2, 7, 2, 5, 6, 0, 4, 8, 28, 12, 28, 13, 3, 27, 8, 9, 12, 27, 5, 0, 7, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: BrianWhitneyAI
@@ -2020,7 +2020,7 @@ packages:
     created_at: '2022-08-12T16:43:43Z'
     default_branch: main
     description: Image reading, metadata management, and image writing for Microscopy images in Python
-    open_issues: 14
+    open_issues: 15
     size: 10462
     stargazers_count: 132
     topics: [aicsimageio, dask, image-metadata, microscopy, python, scientific-computing, scientific-formats, xarray]
@@ -2029,7 +2029,7 @@ packages:
   stars: 131
   tags: []
   user: bioio-devs
-  weekly_commits_52w_oldest_first: [1, 0, 3, 0, 0, 0, 0, 4, 1, 8, 9, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4, 0, 1, 6, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 2, 2, 2, 2, 0, 0, 2, 2, 0]
+  weekly_commits_52w_oldest_first: [0, 3, 0, 0, 0, 0, 4, 1, 8, 9, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4, 0, 1, 6, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 2, 2, 2, 2, 0, 0, 2, 2, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: ajitjohnson
@@ -2056,7 +2056,7 @@ packages:
   stars: 116
   tags: []
   user: labsyspharm
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: danilexn
@@ -2110,7 +2110,7 @@ packages:
   stars: 112
   tags: []
   user: mannlabs
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 19, 13, 0, 0, 0, 1, 0, 2, 0, 2, 3, 6, 31, 9, 51, 1, 1, 35, 17, 16, 1, 5, 17, 0, 3, 9, 9, 21, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 4, 0, 2, 0, 4, 0, 0, 3]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 19, 13, 0, 0, 0, 1, 0, 2, 0, 2, 3, 6, 31, 9, 51, 1, 1, 35, 17, 16, 1, 5, 17, 0, 3, 9, 9, 21, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 4, 0, 2, 0, 4, 0, 0, 3, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: frasercl
@@ -2137,7 +2137,7 @@ packages:
   stars: 106
   tags: []
   user: allen-cell-animated
-  weekly_commits_52w_oldest_first: [13, 0, 8, 1, 3, 0, 6, 2, 3, 2, 0, 3, 0, 0, 0, 1, 4, 1, 0, 8, 0, 1, 11, 0, 0, 6, 0, 14, 25, 18, 1, 4, 2, 4, 0, 2, 3, 2, 5, 2, 1, 13, 10, 7, 16, 13, 6, 14, 10, 4, 21, 1]
+  weekly_commits_52w_oldest_first: [0, 8, 1, 3, 0, 6, 2, 3, 2, 0, 3, 0, 0, 0, 1, 4, 1, 0, 8, 0, 1, 11, 0, 0, 6, 0, 14, 25, 18, 1, 4, 2, 4, 0, 2, 3, 2, 5, 2, 1, 13, 10, 7, 16, 13, 6, 14, 10, 4, 21, 1, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: ieivanov
@@ -2156,7 +2156,7 @@ packages:
     default_branch: main
     description: computer vision models for single-cell phenotyping
     open_issues: 68
-    size: 146363
+    size: 146783
     stargazers_count: 104
     topics: [bioimage-analysis, computer-vision, image-translation, machine-learning, representation-learning]
     updated_at: '2026-09-11T23:55:12Z'
@@ -2164,7 +2164,7 @@ packages:
   stars: 103
   tags: []
   user: mehta-lab
-  weekly_commits_52w_oldest_first: [3, 2, 5, 3, 2, 4, 1, 1, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 4, 3, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [2, 5, 3, 2, 4, 1, 1, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 4, 3, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: axelalmet
@@ -2187,7 +2187,7 @@ packages:
   stars: 91
   tags: []
   user: axelalmet
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 1, 14, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 1, 14, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: NO_WORKFLOWS
 - last_commit:
     author: biocontainers-automerge-bot[bot]
@@ -2205,12 +2205,11 @@ packages:
     size: 12414
     stargazers_count: 87
     topics: [containers, docker]
-    updated_at: '2026-09-25T00:39:50Z'
+    updated_at: '2026-09-26T18:11:58Z'
   section: Discovered (OME-Zarr commits)
   stars: 87
   tags: []
   user: biocontainers
-  weekly_commits_52w_oldest_first: [14, 6, 3, 1, 4, 12, 6, 7, 5, 0, 24, 23, 2, 2, 8, 5, 8, 7, 8, 3, 14, 4, 6, 19, 19, 18, 3, 3, 12, 4, 6, 12, 10, 6, 8, 6, 9, 12, 8, 12, 6, 7, 9, 5, 27, 12, 13, 12, 14, 11, 22, 11]
   workflow_run_status: FAILURE
 - last_commit:
     author: tinevez
@@ -2237,7 +2236,7 @@ packages:
   stars: 84
   tags: []
   user: mastodon-sc
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: tlambert03
@@ -2264,7 +2263,7 @@ packages:
   stars: 81
   tags: []
   user: tlambert03
-  weekly_commits_52w_oldest_first: [0, 0, 9, 1, 0, 0, 0, 0, 4, 5, 0, 4, 0, 0, 8, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 2, 0, 0, 0, 3]
+  weekly_commits_52w_oldest_first: [0, 9, 1, 0, 0, 0, 0, 4, 5, 0, 4, 0, 0, 8, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 2, 0, 0, 0, 3, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: MeyerBender
@@ -2291,7 +2290,7 @@ packages:
   stars: 81
   tags: []
   user: sagar87
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 6, 0, 1, 0, 8, 1, 2, 5, 0, 2, 0, 10, 0, 1, 0, 1, 0, 0, 0, 0, 0, 3, 5, 0, 1, 2, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 6, 0, 1, 0, 8, 1, 2, 5, 0, 2, 0, 10, 0, 1, 0, 1, 0, 0, 0, 0, 0, 3, 5, 0, 1, 2, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: apodeme
@@ -2318,7 +2317,7 @@ packages:
   stars: 78
   tags: []
   user: alexcoulton
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 9, 6, 9, 1, 0, 0, 3, 6, 16, 4, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 9, 6, 9, 1, 0, 0, 3, 6, 16, 4, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: ArneDefauw
@@ -2337,7 +2336,7 @@ packages:
     default_branch: main
     description: Single-cell spatial omics analysis that makes you happy!
     open_issues: 29
-    size: 1047962
+    size: 1047993
     stargazers_count: 75
     topics: [analysis-framework, bioinformatics, hpc, machine-learning, microscopy, spatial, spatial-omics, spatialdata]
     updated_at: '2026-09-23T08:09:12Z'
@@ -2345,14 +2344,14 @@ packages:
   stars: 73
   tags: []
   user: saeyslab
-  weekly_commits_52w_oldest_first: [2, 0, 0, 0, 1, 0, 2, 1, 2, 2, 4, 1, 0, 0, 2, 3, 2, 1, 3, 2, 0, 5, 5, 5, 9, 3, 3, 1, 2, 3, 0, 1, 0, 1, 4, 4, 0, 2, 1, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 1, 0, 2, 1, 2, 2, 4, 1, 0, 0, 2, 3, 2, 1, 3, 2, 0, 5, 5, 5, 9, 3, 3, 1, 2, 3, 0, 1, 0, 1, 4, 4, 0, 2, 1, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: conda-forge-webservices[bot]
-    date: '2026-09-26'
-    sha: 76c32549e7fa233759c9bb33b3429204f4373b3b
+    date: '2026-09-27'
+    sha: 80b5e05f75c1ad335e1d965d6a02f73d2573e1c8
     status: null
-    url: https://github.com/conda-forge/feedstocks/commit/76c32549e7fa233759c9bb33b3429204f4373b3b
+    url: https://github.com/conda-forge/feedstocks/commit/80b5e05f75c1ad335e1d965d6a02f73d2573e1c8
   name: feedstocks
   repo: conda-forge/feedstocks
   repo_info:
@@ -2360,15 +2359,15 @@ packages:
     default_branch: main
     description: All conda-forge feedstocks, in one convenient place
     open_issues: 0
-    size: 2057139
+    size: 2050838
     stargazers_count: 72
     topics: []
-    updated_at: '2026-09-26T06:25:57Z'
+    updated_at: '2026-09-27T06:25:55Z'
   section: Discovered (OME-Zarr commits)
   stars: 72
   tags: []
   user: conda-forge
-  weekly_commits_52w_oldest_first: [1758, 1709, 1523, 1502, 1855, 1803, 1520, 1536, 1773, 1944, 1555, 1839, 786, 817, 1411, 1432, 1486, 1577, 1833, 1709, 1666, 1752, 1584, 1626, 1810, 1756, 1562, 1566, 1798, 1651, 1628, 1425, 1557, 1884, 1496, 1747, 1743, 1775, 1796, 1631, 1589, 1822, 1438, 1671, 1580, 1559, 1987, 1564, 2187, 2131, 1661, 1965]
+  weekly_commits_52w_oldest_first: [1709, 1523, 1502, 1855, 1803, 1520, 1536, 1773, 1944, 1555, 1839, 786, 817, 1411, 1432, 1486, 1577, 1833, 1709, 1666, 1752, 1584, 1626, 1810, 1756, 1562, 1566, 1798, 1651, 1628, 1425, 1557, 1884, 1496, 1747, 1743, 1775, 1796, 1631, 1589, 1822, 1438, 1671, 1580, 1559, 1987, 1564, 2187, 2131, 1661, 2167, 41]
   workflow_run_status: NO_WORKFLOWS
 - last_commit:
     author: prete
@@ -2422,7 +2421,7 @@ packages:
   stars: 67
   tags: []
   user: vitessce
-  weekly_commits_52w_oldest_first: [0, 0, 2, 0, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 3, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 4, 0, 0, 1]
+  weekly_commits_52w_oldest_first: [0, 2, 0, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 3, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 4, 0, 0, 1, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: cornhundred
@@ -2440,8 +2439,8 @@ packages:
     created_at: '2024-03-26T15:21:56Z'
     default_branch: main
     description: Spatial and multiomic visualization and analysis library
-    open_issues: 62
-    size: 1553840
+    open_issues: 64
+    size: 1556102
     stargazers_count: 60
     topics: []
     updated_at: '2026-09-08T17:57:36Z'
@@ -2449,14 +2448,14 @@ packages:
   stars: 60
   tags: []
   user: broadinstitute
-  weekly_commits_52w_oldest_first: [7, 6, 1, 0, 0, 1, 4, 0, 3, 1, 2, 7, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 3, 3, 2, 0, 2, 1, 5, 5, 2, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [6, 1, 0, 0, 1, 4, 0, 3, 1, 2, 7, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 3, 3, 2, 0, 2, 1, 5, 5, 2, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: MPanknin
-    date: '2026-09-25'
-    sha: 3b2dc935b4b469ca5de8287ebada70f864e7dead
+    date: '2026-09-26'
+    sha: b53a570827bb21e929bfc05bfb6fdde33c2e5eeb
     status: SUCCESS
-    url: https://github.com/MPanknin/kiln-render/commit/3b2dc935b4b469ca5de8287ebada70f864e7dead
+    url: https://github.com/MPanknin/kiln-render/commit/b53a570827bb21e929bfc05bfb6fdde33c2e5eeb
   name: kiln-render
   repo: mpanknin/kiln-render
   repo_info:
@@ -2464,15 +2463,15 @@ packages:
     default_branch: main
     description: A WebGPU-native out-of-core rendering system for large virtualized volumetric data.
     open_issues: 4
-    size: 12460
+    size: 18570
     stargazers_count: 62
     topics: [large-scale-dataset, out-of-core, raymarching, virtual-texturing, volume-rendering, webgpu, wgsl]
-    updated_at: '2026-09-25T15:37:31Z'
+    updated_at: '2026-09-26T14:34:14Z'
   section: Zarr viewers
   stars: 59
   tags: []
   user: mpanknin
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 2, 2, 1, 0, 2, 2, 2, 1, 1, 3, 3, 1, 9, 2, 1, 1, 2, 12, 7, 3, 0, 0, 14, 1, 7, 0, 0, 0, 0, 0, 10, 9, 1, 0, 0, 0, 0, 0, 1, 0, 16, 7]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 2, 4, 2, 2, 1, 0, 2, 2, 2, 1, 1, 3, 3, 1, 9, 2, 1, 1, 2, 12, 7, 3, 0, 0, 14, 1, 7, 0, 0, 0, 0, 0, 10, 9, 1, 0, 0, 0, 0, 0, 1, 0, 16, 10, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: a-r-d
@@ -2526,7 +2525,7 @@ packages:
   stars: 59
   tags: []
   user: insightsoftwareconsortium
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 16, 16, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3, 3, 8, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 16, 16, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3, 3, 8, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: kentstephen
@@ -2553,7 +2552,7 @@ packages:
   stars: 53
   tags: []
   user: xqlsystems
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 3, 1, 0, 0, 0, 1, 1, 2, 3, 1, 0, 2, 4, 0, 2, 0, 0, 0, 2, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 3, 1, 0, 0, 0, 1, 1, 2, 3, 1, 0, 2, 4, 0, 2, 0, 0, 0, 2, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: GeertvanGeest
@@ -2603,7 +2602,7 @@ packages:
   stars: 49
   tags: []
   user: fractal-analytics-platform
-  weekly_commits_52w_oldest_first: [75, 0, 9, 22, 1, 13, 4, 8, 23, 9, 3, 4, 1, 1, 3, 3, 4, 0, 1, 0, 0, 3, 1, 0, 1, 17, 11, 0, 3, 0, 5, 5, 6, 3, 2, 1, 13, 11, 27, 13, 2, 3, 35, 12, 2, 0, 1, 5, 1, 3, 0, 1]
+  weekly_commits_52w_oldest_first: [0, 9, 22, 1, 13, 4, 8, 23, 9, 3, 4, 1, 1, 3, 3, 4, 0, 1, 0, 0, 3, 1, 0, 1, 17, 11, 0, 3, 0, 5, 5, 6, 3, 2, 1, 13, 11, 27, 13, 2, 3, 35, 12, 2, 0, 1, 5, 1, 3, 0, 1, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: nvladimus
