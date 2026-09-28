@@ -1,14 +1,62 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-27T01:43:50+00:00",
+  "generated": "2026-09-28T01:47:43+00:00",
   "recent_days": 10,
-  "total_commits": 2166,
+  "total_commits": 2174,
   "commits": [
+    {
+      "commit_date": "2026-09-28T01:54:09.000+02:00",
+      "author": "frauzufall",
+      "repository": "ida-mdc/workshop-visualization",
+      "commit_url": "https://github.com/ida-mdc/workshop-visualization/commit/3db945ca152881889966a97cb81084b542618ed4"
+    },
+    {
+      "commit_date": "2026-09-28T00:04:28.000+02:00",
+      "author": "frauzufall",
+      "repository": "ida-mdc/workshop-visualization",
+      "commit_url": "https://github.com/ida-mdc/workshop-visualization/commit/8d66f7c95458eb60fa958899c50e935f0db7fb3a"
+    },
+    {
+      "commit_date": "2026-09-27T22:00:23.000+02:00",
+      "author": "ekatrukha",
+      "repository": "UU-cellbiology/bigvolumebrowser",
+      "commit_url": "https://github.com/UU-cellbiology/bigvolumebrowser/commit/f7d571ae1d8315c333cfa4e3611f79ee190e9214"
+    },
+    {
+      "commit_date": "2026-09-27T19:28:35.000+02:00",
+      "author": "frauzufall",
+      "repository": "ida-mdc/workshop-visualization",
+      "commit_url": "https://github.com/ida-mdc/workshop-visualization/commit/9521c9c8f57be828da091ecb2daa15cf2c071687"
+    },
+    {
+      "commit_date": "2026-09-27T17:37:05.000+02:00",
+      "author": "lazarusA",
+      "repository": "lazarusA/octant",
+      "commit_url": "https://github.com/lazarusA/octant/commit/6f39d42a61cbb91eb42a8c048181a8004aaf42d4"
+    },
+    {
+      "commit_date": "2026-09-27T13:32:50.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/qupath-extension-qpsc",
+      "commit_url": "https://github.com/uw-loci/qupath-extension-qpsc/commit/933e25fef2dd2429933504d6c152e09665892866"
+    },
+    {
+      "commit_date": "2026-09-26T17:41:37.000-04:00",
+      "author": "arvinhm",
+      "repository": "arvinhm/FluoroView",
+      "commit_url": "https://github.com/arvinhm/FluoroView/commit/cb69476d578859023ca5a2b66e978b30c6de3e90"
+    },
     {
       "commit_date": "2026-09-26T17:04:19.000Z",
       "author": "claude",
       "repository": "Waltham-Data-Science/NDI-python",
       "commit_url": "https://github.com/Waltham-Data-Science/NDI-python/commit/e8ea1b790b194cbeff550039b2b0a05952c7f66a"
+    },
+    {
+      "commit_date": "2026-09-26T14:28:56.000+02:00",
+      "author": "dfrkp",
+      "repository": "cytario/cytario-web",
+      "commit_url": "https://github.com/cytario/cytario-web/commit/5b04fc993c3feb6e1b4acffcb48ae8da412044f6"
     },
     {
       "commit_date": "2026-09-26T09:47:11.000-04:00",
