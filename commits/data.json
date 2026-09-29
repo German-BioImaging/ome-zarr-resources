@@ -1,9 +1,45 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-28T01:47:43+00:00",
+  "generated": "2026-09-29T01:43:32+00:00",
   "recent_days": 10,
-  "total_commits": 2174,
+  "total_commits": 2180,
   "commits": [
+    {
+      "commit_date": "2026-09-28T15:34:48.000+01:00",
+      "author": "Andrew-Keenlyside",
+      "repository": "Andrew-Keenlyside/zvDVC",
+      "commit_url": "https://github.com/Andrew-Keenlyside/zvDVC/commit/2b40659c7032df993f0ea6e2bf10e2a0f4c198ee"
+    },
+    {
+      "commit_date": "2026-09-28T15:01:27.000-04:00",
+      "author": "ckmah",
+      "repository": "ckmah/spatial-rx",
+      "commit_url": "https://github.com/ckmah/spatial-rx/commit/6e969fa94d79bbfd0ca9eab0102a519a44899503"
+    },
+    {
+      "commit_date": "2026-09-28T14:59:27.000-04:00",
+      "author": "ckmah",
+      "repository": "ckmah/spatial-rx",
+      "commit_url": "https://github.com/ckmah/spatial-rx/commit/161566995c3177ae4b0d6ef723ea98cdbb2f014d"
+    },
+    {
+      "commit_date": "2026-09-28T14:49:14.000-04:00",
+      "author": "ckmah",
+      "repository": "ckmah/spatial-rx",
+      "commit_url": "https://github.com/ckmah/spatial-rx/commit/53333451372271199d99acb49789c6c9ef0ea9bb"
+    },
+    {
+      "commit_date": "2026-09-28T11:56:30.000-04:00",
+      "author": "Donglai Wei",
+      "repository": "PytorchConnectomics/pytorch_connectomics",
+      "commit_url": "https://github.com/PytorchConnectomics/pytorch_connectomics/commit/710fdbfec464f8f8e4513662ae1dff81c4af0513"
+    },
+    {
+      "commit_date": "2026-09-28T09:53:18.000-04:00",
+      "author": "allison-truhlar",
+      "repository": "JaneliaSciComp/mrc-ng-server",
+      "commit_url": "https://github.com/JaneliaSciComp/mrc-ng-server/commit/1be19c4ad9630533cba39e654c9ababd75181b80"
+    },
     {
       "commit_date": "2026-09-28T01:54:09.000+02:00",
       "author": "frauzufall",
