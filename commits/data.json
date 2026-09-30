@@ -1,14 +1,122 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-29T01:43:32+00:00",
+  "generated": "2026-09-30T01:46:35+00:00",
   "recent_days": 10,
-  "total_commits": 2180,
+  "total_commits": 2199,
   "commits": [
+    {
+      "commit_date": "2026-09-29T19:42:29.000+02:00",
+      "author": "joshmoore",
+      "repository": "ome/ngff",
+      "commit_url": "https://github.com/ome/ngff/commit/b3d2b4636c5ffa86060f15691815b49a28bbbbdc"
+    },
+    {
+      "commit_date": "2026-09-29T13:58:47.000-04:00",
+      "author": "trissim",
+      "repository": "OpenHCSDev/openhcs",
+      "commit_url": "https://github.com/OpenHCSDev/openhcs/commit/495864490d88443a97261070269f3b20d82e1d5f"
+    },
+    {
+      "commit_date": "2026-09-29T13:55:56.000-04:00",
+      "author": "trissim",
+      "repository": "OpenHCSDev/PolyStore",
+      "commit_url": "https://github.com/OpenHCSDev/PolyStore/commit/f94bbbe8631a4c78f7ceaec72fb99671b58c9a18"
+    },
+    {
+      "commit_date": "2026-09-29T13:43:09.000+01:00",
+      "author": "Andrew-Keenlyside",
+      "repository": "Andrew-Keenlyside/zvDVC",
+      "commit_url": "https://github.com/Andrew-Keenlyside/zvDVC/commit/acaba9b5000110f9786dfdd2fb215901cbab3b3d"
+    },
+    {
+      "commit_date": "2026-09-29T12:22:47.000+02:00",
+      "author": "RAHoebe",
+      "repository": "Cellular-Imaging-Amsterdam-UMC/cisegmentation",
+      "commit_url": "https://github.com/Cellular-Imaging-Amsterdam-UMC/cisegmentation/commit/9c92730fd0ff003d1665302e7c0ab123658b41a7"
+    },
+    {
+      "commit_date": "2026-09-29T12:15:03.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/86a99eb753c9303acd9496330b85d6b64aa29170"
+    },
+    {
+      "commit_date": "2026-09-29T10:14:10.000+01:00",
+      "author": "Andrew-Keenlyside",
+      "repository": "Andrew-Keenlyside/zvDVC",
+      "commit_url": "https://github.com/Andrew-Keenlyside/zvDVC/commit/1d1be0225548a08efd11f46ecc56ed7ec1f7aad0"
+    },
+    {
+      "commit_date": "2026-09-29T09:44:55.000+01:00",
+      "author": "alex1075",
+      "repository": "FLIMKit/FLIMKit",
+      "commit_url": "https://github.com/FLIMKit/FLIMKit/commit/daa82f49be305e495eff0e6e2ae0cd713103e1c1"
+    },
+    {
+      "commit_date": "2026-09-29T09:40:21.000+02:00",
+      "author": "cavenel",
+      "repository": "cavenel/Serve_nginx",
+      "commit_url": "https://github.com/cavenel/Serve_nginx/commit/db68aaebceb6e6dac2e095e70387b94f2a6e4adb"
+    },
+    {
+      "commit_date": "2026-09-29T09:14:57.000+01:00",
+      "author": "alanocallaghan",
+      "repository": "ome/ome-zarr-py",
+      "commit_url": "https://github.com/ome/ome-zarr-py/commit/fe32146205356b4e482bcca1b97738f54cfeba1f"
+    },
+    {
+      "commit_date": "2026-09-29T08:54:36.000+02:00",
+      "author": "RAHoebe",
+      "repository": "Cellular-Imaging-Amsterdam-UMC/cisegmentation",
+      "commit_url": "https://github.com/Cellular-Imaging-Amsterdam-UMC/cisegmentation/commit/7fe3491deb64b3d02a52c0c28ca05f778c99027e"
+    },
+    {
+      "commit_date": "2026-09-29T06:11:29.000+01:00",
+      "author": "balbasty",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/47bc230acef95933b3599b04f5d31098710b706b"
+    },
+    {
+      "commit_date": "2026-09-29T05:28:48.000-04:00",
+      "author": "trissim",
+      "repository": "OpenHCSDev/PolyStore",
+      "commit_url": "https://github.com/OpenHCSDev/PolyStore/commit/11269ed252a2d307b6be2131c512beaad6317b4b"
+    },
+    {
+      "commit_date": "2026-09-29T01:17:58.000-04:00",
+      "author": "davidackerman",
+      "repository": "yuriyzubov/chunkmirage",
+      "commit_url": "https://github.com/yuriyzubov/chunkmirage/commit/53a7e3de4e4a9ac02bc4c0776a9f5a9e51b6383a"
+    },
+    {
+      "commit_date": "2026-09-28T23:14:33.000-04:00",
+      "author": "davidackerman",
+      "repository": "yuriyzubov/chunkmirage",
+      "commit_url": "https://github.com/yuriyzubov/chunkmirage/commit/484a7c4ef89ed6f5b00339dbe43f4cc5e38ff91e"
+    },
+    {
+      "commit_date": "2026-09-28T22:51:35.000-04:00",
+      "author": "davidackerman",
+      "repository": "yuriyzubov/chunkmirage",
+      "commit_url": "https://github.com/yuriyzubov/chunkmirage/commit/f10364b126d1ed9f448a58b8b878daedc5ce74c0"
+    },
+    {
+      "commit_date": "2026-09-28T16:04:37.000+01:00",
+      "author": "alanocallaghan",
+      "repository": "ome/ome-zarr-py",
+      "commit_url": "https://github.com/ome/ome-zarr-py/commit/4255fb83cf6a5ec8accca9a4aa6bef4742660d63"
+    },
     {
       "commit_date": "2026-09-28T15:34:48.000+01:00",
       "author": "Andrew-Keenlyside",
       "repository": "Andrew-Keenlyside/zvDVC",
       "commit_url": "https://github.com/Andrew-Keenlyside/zvDVC/commit/2b40659c7032df993f0ea6e2bf10e2a0f4c198ee"
+    },
+    {
+      "commit_date": "2026-09-28T15:27:12.000-04:00",
+      "author": "oliverolejar",
+      "repository": "khanlab/SPIMquant",
+      "commit_url": "https://github.com/khanlab/SPIMquant/commit/c07a585c42fd07b62bfd73f77b435935579a39ba"
     },
     {
       "commit_date": "2026-09-28T15:01:27.000-04:00",
@@ -33,6 +141,12 @@
       "author": "Donglai Wei",
       "repository": "PytorchConnectomics/pytorch_connectomics",
       "commit_url": "https://github.com/PytorchConnectomics/pytorch_connectomics/commit/710fdbfec464f8f8e4513662ae1dff81c4af0513"
+    },
+    {
+      "commit_date": "2026-09-28T11:17:53.000-04:00",
+      "author": "Arshya-Guru",
+      "repository": "khanlab/SPIMquant",
+      "commit_url": "https://github.com/khanlab/SPIMquant/commit/c15f553a4c4cc37728f2e79cb5a50c6aa35bb3f6"
     },
     {
       "commit_date": "2026-09-28T09:53:18.000-04:00",
