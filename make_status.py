@@ -547,6 +547,8 @@ else:
 snapshot = {
     "generated_at": datetime.utcnow().isoformat() + "Z",
     "pool_count": config.get("pool_count", len(all_packages)),
+    # Counted over the whole pool by pick_top.py; omitted if it predates that.
+    **({"tagged_count": config["tagged_count"]} if "tagged_count" in config else {}),
     "packages": all_packages,
 }
 
