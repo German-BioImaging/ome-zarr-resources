@@ -1,14 +1,146 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-09-30T01:46:35+00:00",
+  "generated": "2026-10-01T01:49:59+00:00",
   "recent_days": 10,
-  "total_commits": 2199,
+  "total_commits": 2221,
   "commits": [
+    {
+      "commit_date": "2026-09-30T20:39:42.000Z",
+      "author": "claude",
+      "repository": "imcf/napari-chunked-regionprops",
+      "commit_url": "https://github.com/imcf/napari-chunked-regionprops/commit/418102df19636333478333d47f65a2307d613d4d"
+    },
+    {
+      "commit_date": "2026-09-30T19:18:12.000+02:00",
+      "author": "BioMarco",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/d08fa94d56c5e197f23408d1a39c78419146f311"
+    },
+    {
+      "commit_date": "2026-09-30T15:26:12.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/c45d0752e109b6c3818c39fa1cab7b50846acee1"
+    },
+    {
+      "commit_date": "2026-09-30T15:08:11.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/shrimPy",
+      "commit_url": "https://github.com/czbiohub-sf/shrimPy/commit/664f1573c3a3fe7fbb0a23c0955363d9f4abe92f"
+    },
+    {
+      "commit_date": "2026-09-30T15:05:04.000-04:00",
+      "author": "ckmah",
+      "repository": "ckmah/milume",
+      "commit_url": "https://github.com/ckmah/milume/commit/770f8cb5381e678e0c9dc420b034b915a34b1dc1"
+    },
+    {
+      "commit_date": "2026-09-30T14:52:28.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/shrimPy",
+      "commit_url": "https://github.com/czbiohub-sf/shrimPy/commit/8086a39fcb6140eb181f15a8fa0840a41b7b1747"
+    },
+    {
+      "commit_date": "2026-09-30T14:14:36.000+02:00",
+      "author": "jluethi",
+      "repository": "fractal-analytics-platform/ngff-rfc8-viewer",
+      "commit_url": "https://github.com/fractal-analytics-platform/ngff-rfc8-viewer/commit/4dd9cda5cba73c396a3218ce2f64b2ecc7e49cdb"
+    },
+    {
+      "commit_date": "2026-09-30T13:08:48.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/0a24f3d0d763f44215425f39ad12675b61a4db04"
+    },
+    {
+      "commit_date": "2026-09-30T12:02:27.000+01:00",
+      "author": "will-moore",
+      "repository": "BioNGFF/ome-zarr.js",
+      "commit_url": "https://github.com/BioNGFF/ome-zarr.js/commit/331556397671562ccad3c5a986192c2a84c1d0c2"
+    },
+    {
+      "commit_date": "2026-09-30T11:57:05.000+01:00",
+      "author": "will-moore",
+      "repository": "BioNGFF/ome-zarr.js",
+      "commit_url": "https://github.com/BioNGFF/ome-zarr.js/commit/c6165c494ba17547679c323c4a95a5ee661a796e"
+    },
+    {
+      "commit_date": "2026-09-30T11:55:36.000+02:00",
+      "author": "cavenel",
+      "repository": "TissUUmaps/TissUUmaps",
+      "commit_url": "https://github.com/TissUUmaps/TissUUmaps/commit/4104c1cf4bc79ed7afa57e1c4ee7109291cd1d11"
+    },
+    {
+      "commit_date": "2026-09-30T11:47:39.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/a0d53f04086001984ec8c5e9b5d636ff83435cc0"
+    },
+    {
+      "commit_date": "2026-09-30T10:13:56.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/04e38e2cd2b70a56354f057960997415fb7491f9"
+    },
+    {
+      "commit_date": "2026-09-30T09:49:10.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/348789482341aeb741e1c3bc9ce8bb28fe9126e8"
+    },
+    {
+      "commit_date": "2026-09-30T09:34:49.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/9ed206d1633d18e0551ca2539f59a4c2a71cc4c9"
+    },
+    {
+      "commit_date": "2026-09-30T09:15:32.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/c687650cc7205935b50adc9b8345dcff817143b5"
+    },
+    {
+      "commit_date": "2026-09-30T08:18:41.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/d52ff0a22ec4227d6df70195f080cc9e929879be"
+    },
+    {
+      "commit_date": "2026-09-30T06:21:14.000-07:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/4039fbf54fc31fe6a38ae1b60bdc7cb8b42c0c20"
+    },
+    {
+      "commit_date": "2026-09-30T06:00:18.000-07:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/982b93beee9b3366fabbb26a69d61fdb385e3d8a"
+    },
+    {
+      "commit_date": "2026-09-30T01:32:22.000Z",
+      "author": "github-actions[bot]",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/3350c595f7e85b18ca9eb0eae1ce226930a97d82"
+    },
+    {
+      "commit_date": "2026-09-29T23:05:10.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/8c5de5aaee060a5223d34de96ac4b810f4a77731"
+    },
     {
       "commit_date": "2026-09-29T19:42:29.000+02:00",
       "author": "joshmoore",
       "repository": "ome/ngff",
       "commit_url": "https://github.com/ome/ngff/commit/b3d2b4636c5ffa86060f15691815b49a28bbbbdc"
+    },
+    {
+      "commit_date": "2026-09-29T17:52:28.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/93c85279248805186c936fbccba6f403affd6558"
     },
     {
       "commit_date": "2026-09-29T13:58:47.000-04:00",
