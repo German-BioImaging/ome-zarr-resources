@@ -218,6 +218,7 @@ def main() -> None:
                 "repo": slug,
                 "stars": d["stars"],
                 "tags": tags_for(slug, d["topics"]),
+                "topics": d["topics"],
                 "section": d["section"],
                 "selected": slug in selected_slugs,
             }

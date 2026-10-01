@@ -451,7 +451,7 @@
         table.className = 'repo-table';
         const thead = document.createElement('thead');
         const tr = document.createElement('tr');
-        ['Owner', 'Name', '⭐', 'Tags', 'Section', 'Tracked daily'].forEach(text => {
+        ['Owner', 'Name', '⭐', '🏷️ Topics', 'Section', 'Tracked daily'].forEach(text => {
           const th = document.createElement('th');
           th.textContent = text;
           tr.appendChild(th);
@@ -463,20 +463,18 @@
         packages.forEach(pkg => {
           const [owner, name] = pkg.repo.split('/');
           const row = document.createElement('tr');
-          [owner, null, String(pkg.stars ?? ''), (pkg.tags || []).join(', '),
-            pkg.section || '', pkg.selected ? '✅' : ''].forEach((text, i) => {
-            const td = document.createElement('td');
-            if (i === 1) {
-              const link = document.createElement('a');
-              link.href = 'https://github.com/' + pkg.repo;
-              link.target = '_blank';
-              link.textContent = name;
-              td.appendChild(link);
-            } else {
-              td.textContent = text;
-            }
-            row.appendChild(td);
-          });
+          row.appendChild(createTextCell(owner));
+          const nameCell = document.createElement('td');
+          const link = document.createElement('a');
+          link.href = 'https://github.com/' + pkg.repo;
+          link.target = '_blank';
+          link.textContent = name;
+          nameCell.appendChild(link);
+          row.appendChild(nameCell);
+          row.appendChild(createTextCell(pkg.stars, 'meta-cell', Number(pkg.stars)));
+          row.appendChild(createTopicsCell(pkg.topics));
+          row.appendChild(createTextCell(pkg.section));
+          row.appendChild(createTextCell(pkg.selected ? '✅' : ''));
           tbody.appendChild(row);
         });
         table.appendChild(tbody);
