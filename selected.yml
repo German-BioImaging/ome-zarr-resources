@@ -1,463 +1,404 @@
 generated_at: '2026-09-28T05:10:43.221947Z'
-pool_count: 728
 packages:
 - repo: ome/bioformats
+  section: Zarr readers & writers
   stars: 429
   tags: []
-  section: Zarr readers & writers
 - repo: ome/ome-zarr-py
+  section: Zarr readers & writers
   stars: 259
-  tags:
-  - ome-zarr
-  section: Zarr readers & writers
+  tags: [ome-zarr]
 - repo: ome/ngff
+  section: Core
   stars: 171
-  tags:
-  - Core
-  section: Core
+  tags: [Core]
 - repo: multiview-stitcher/multiview-stitcher
-  stars: 134
-  tags:
-  - ome-zarr
   section: Integrative workflows
+  stars: 134
+  tags: [ome-zarr]
 - repo: glencoesoftware/bioformats2raw
+  section: Zarr converters
   stars: 111
-  tags:
-  - ome-zarr-converter
-  section: Zarr converters
+  tags: [ome-zarr-converter]
 - repo: fideus-labs/ngff-zarr
+  section: Zarr readers & writers
   stars: 73
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
-  section: Zarr readers & writers
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: spatial-image/multiscale-spatial-image
+  section: Zarr converters
   stars: 58
-  tags:
-  - ome-zarr-converter
-  section: Zarr converters
+  tags: [ome-zarr-converter]
 - repo: ome/napari-ome-zarr
+  section: Zarr viewers
   stars: 56
   tags: []
-  section: Zarr viewers
 - repo: czbiohub-sf/iohub
+  section: Zarr readers & writers
   stars: 56
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
-  section: Zarr readers & writers
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: pymmcore-plus/pymmcore-plus
+  section: Discovered (OME-Zarr commits)
   stars: 55
-  tags:
-  - ome-zarr
-  section: Discovered (OME-Zarr commits)
+  tags: [ome-zarr]
 - repo: biovisioncenter/ngio
+  section: Zarr readers & writers
   stars: 52
-  tags:
-  - ome-zarr
-  section: Zarr readers & writers
+  tags: [ome-zarr]
 - repo: ome-zarr-models/ome-zarr-models-py
+  section: Zarr validation
   stars: 39
-  tags:
-  - ome-zarr
-  section: Zarr validation
+  tags: [ome-zarr]
 - repo: euro-bioimaging/eubi-bridge
+  section: Zarr converters
   stars: 32
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
-  section: Zarr converters
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: euro-bioimaging/batchconvert
-  stars: 31
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
   section: Zarr converters
+  stars: 31
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: janeliascicomp/zarrcade
+  section: Gallery-like displays
   stars: 31
-  tags:
-  - ome-zarr
-  section: Gallery-like displays
+  tags: [ome-zarr]
 - repo: janeliascicomp/fileglancer
-  stars: 30
-  tags:
-  - ome-zarr
   section: Gallery-like displays
+  stars: 30
+  tags: [ome-zarr]
 - repo: ome-zarr-models/ome-zarr-book
-  stars: 28
-  tags:
-  - ome-zarr
   section: Discovered (OME-Zarr commits)
+  stars: 28
+  tags: [ome-zarr]
 - repo: fractal-analytics-platform/fractal-tasks-core
+  section: Discovered (OME-Zarr commits)
   stars: 28
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
-  section: Discovered (OME-Zarr commits)
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: fmicompbio/ez_zarr
+  section: Zarr readers & writers
   stars: 24
-  tags:
-  - ome-zarr
-  section: Zarr readers & writers
+  tags: [ome-zarr]
 - repo: ome/omero-figure
+  section: Other tools (to curate)
   stars: 22
   tags: []
-  section: Other tools (to curate)
 - repo: ome/omero-cli-zarr
+  section: Depend on OME-Zarr Py
   stars: 22
-  tags:
-  - ome-zarr-converter
-  section: Depend on OME-Zarr Py
+  tags: [ome-zarr-converter]
 - repo: saalfeldlab/n5-ij
-  stars: 21
-  tags:
-  - ome-zarr-converter
   section: Zarr viewers
-- repo: ome/ome2024-ngff-challenge
   stars: 21
-  tags:
-  - ome-zarr-converter
+  tags: [ome-zarr-converter]
+- repo: ome/ome2024-ngff-challenge
   section: Discovered (OME-Zarr commits)
+  stars: 21
+  tags: [ome-zarr-converter]
 - repo: fmi-faim/faim-ipa
-  stars: 20
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
   section: Depend on OME-Zarr Py
+  stars: 20
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: ome/ngff-spec
-  stars: 14
-  tags:
-  - Core
   section: Core
+  stars: 14
+  tags: [Core]
 - repo: pymmcore-plus/ome-writers
-  stars: 13
-  tags:
-  - ome-zarr
   section: Zarr readers & writers
+  stars: 13
+  tags: [ome-zarr]
 - repo: ome/ome-ngff-validator
-  stars: 12
-  tags:
-  - ome-zarr
   section: Zarr validation
+  stars: 12
+  tags: [ome-zarr]
 - repo: khanlab/zarrnii
-  stars: 11
-  tags:
-  - ome-zarr
   section: Other tools (to curate)
+  stars: 11
+  tags: [ome-zarr]
 - repo: insightsoftwareconsortium/itkioomezarrngff
-  stars: 10
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
   section: Zarr converters
+  stars: 10
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: ome/omero-guide-python
+  section: Discovered (OME-Zarr commits)
   stars: 10
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: bioimagetools/ome-zarr-fiji-java
-  stars: 8
-  tags:
-  - ome-zarr
   section: Zarr viewers
+  stars: 8
+  tags: [ome-zarr]
 - repo: janeliascicomp/nf-omezarr
-  stars: 7
-  tags:
-  - ome-zarr-converter
   section: Zarr converters
+  stars: 7
+  tags: [ome-zarr-converter]
 - repo: franciscrickinstitute/omeslicc
-  stars: 7
-  tags:
-  - ome-zarr-converter
   section: Depend on OME-Zarr Py
+  stars: 7
+  tags: [ome-zarr-converter]
 - repo: ilastik/clearscale
-  stars: 6
-  tags:
-  - ome-zarr
   section: Other tools (to curate)
+  stars: 6
+  tags: [ome-zarr]
 - repo: biovisioncenter/ome-zarr-converters-tools
+  section: Other tools (to curate)
   stars: 6
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
-  section: Other tools (to curate)
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: camlloyd/kfb2zarr
-  stars: 4
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
   section: Zarr converters
+  stars: 4
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: ome-zarr-models/ome-zarrpari
-  stars: 4
-  tags:
-  - ome-zarr
   section: Other tools (to curate)
+  stars: 4
+  tags: [ome-zarr]
 - repo: craigmyles/raw2features
+  section: Discovered (OME-Zarr commits)
   stars: 4
-  tags:
-  - ome-zarr
-  section: Discovered (OME-Zarr commits)
+  tags: [ome-zarr]
 - repo: german-bioimaging/ome-zarr-acknowledgments
-  stars: 3
-  tags:
-  - ome-zarr
   section: Other tools (to curate)
-- repo: fractal-analytics-platform/fractal-uzh-converters
   stars: 3
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
+  tags: [ome-zarr]
+- repo: fractal-analytics-platform/fractal-uzh-converters
   section: Discovered (OME-Zarr commits)
+  stars: 3
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: ome/omero-guide-fiji
+  section: Discovered (OME-Zarr commits)
   stars: 2
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: leukemia-kispi/operetta-compose
-  stars: 1
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
   section: Depend on OME-Zarr Py
+  stars: 1
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: ronfinn/zarr-tree
-  stars: 1
-  tags:
-  - ome-zarr
   section: Discovered (OME-Zarr commits)
+  stars: 1
+  tags: [ome-zarr]
 - repo: kharchenkolab/libzarr
-  stars: 1
-  tags:
-  - ome-zarr
   section: Discovered (OME-Zarr commits)
+  stars: 1
+  tags: [ome-zarr]
 - repo: simaopseixas/alm-file-converter
+  section: Discovered (OME-Zarr commits)
   stars: 1
-  tags:
-  - ome-zarr
-  section: Discovered (OME-Zarr commits)
+  tags: [ome-zarr]
 - repo: assadiab/viewer_interactif
-  stars: 0
-  tags:
-  - ome-zarr
   section: Other tools (to curate)
-- repo: turku-bioimaging/ome-zarr-io
   stars: 0
-  tags:
-  - ome-zarr
+  tags: [ome-zarr]
+- repo: turku-bioimaging/ome-zarr-io
   section: Discovered (OME-Zarr commits)
+  stars: 0
+  tags: [ome-zarr]
 - repo: ome/figure
+  section: Discovered (OME-Zarr commits)
   stars: 0
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: fideus-labs/impact-reg-ooc-demo
-  stars: 0
-  tags:
-  - ome-zarr
   section: Discovered (OME-Zarr commits)
+  stars: 0
+  tags: [ome-zarr]
 - repo: flimkit/flimkit-zstack-explorer
-  stars: 0
-  tags:
-  - ome-zarr
   section: Discovered (OME-Zarr commits)
+  stars: 0
+  tags: [ome-zarr]
 - repo: assadiab/interactive-zarr-explorer
-  stars: 0
-  tags:
-  - ome-zarr
   section: Discovered (OME-Zarr commits)
+  stars: 0
+  tags: [ome-zarr]
 - repo: fractal-analytics-platform/fractal-nd2-converters
-  stars: 0
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
   section: Discovered (OME-Zarr commits)
+  stars: 0
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: fractal-analytics-platform/fractal-lif-converters
-  stars: 0
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
   section: Discovered (OME-Zarr commits)
+  stars: 0
+  tags: [ome-zarr-converter, ome-zarr]
 - repo: napari/napari
+  section: Discovered (OME-Zarr commits)
   stars: 2766
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: awslabs/open-data-registry
+  section: Discovered (OME-Zarr commits)
   stars: 1788
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: google/neuroglancer
+  section: Zarr viewers
   stars: 1542
   tags: []
-  section: Zarr viewers
 - repo: qupath/qupath
+  section: Zarr viewers
   stars: 1451
   tags: []
-  section: Zarr viewers
 - repo: visgl/loaders.gl
+  section: Discovered (OME-Zarr commits)
   stars: 855
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: mahmoodlab/trident
+  section: Other tools (to curate)
   stars: 638
   tags: []
-  section: Other tools (to curate)
 - repo: insightsoftwareconsortium/itkwidgets
+  section: Zarr viewers
   stars: 624
   tags: []
-  section: Zarr viewers
 - repo: niivue/niivue
+  section: Discovered (OME-Zarr commits)
   stars: 497
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: aristoteleo/pantheonos
+  section: Discovered (OME-Zarr commits)
   stars: 488
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: ilastik/ilastik
+  section: Integrative workflows
   stars: 408
   tags: []
-  section: Integrative workflows
 - repo: scverse/spatialdata
+  section: Standards and extensions
   stars: 396
   tags: []
-  section: Standards and extensions
 - repo: bids-standard/bids-specification
+  section: Standards and extensions
   stars: 369
   tags: []
-  section: Standards and extensions
 - repo: hms-dbmi/viv
+  section: Zarr viewers
   stars: 364
   tags: []
-  section: Zarr viewers
 - repo: rendeirolab/lazyslide
+  section: Depend on OME-Zarr Py
   stars: 325
   tags: []
-  section: Depend on OME-Zarr Py
 - repo: micro-manager/micro-manager
+  section: Discovered (OME-Zarr commits)
   stars: 323
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: royerlab/napari-chatgpt
+  section: Depend on OME-Zarr Py
   stars: 303
   tags: []
-  section: Depend on OME-Zarr Py
 - repo: prism-oncology/sopa
+  section: Other tools (to curate)
   stars: 293
   tags: []
-  section: Other tools (to curate)
 - repo: insightsoftwareconsortium/itkelastix
+  section: Discovered (OME-Zarr commits)
   stars: 285
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: royerlab/ultrack
+  section: Depend on OME-Zarr Py
   stars: 209
   tags: []
-  section: Depend on OME-Zarr Py
 - repo: pytorchconnectomics/pytorch_connectomics
+  section: Discovered (OME-Zarr commits)
   stars: 201
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: galaxyproject/tools-iuc
+  section: Discovered (OME-Zarr commits)
   stars: 201
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: hms-dbmi/vizarr
+  section: Zarr viewers
   stars: 199
   tags: []
-  section: Zarr viewers
 - repo: brainglobe/brainglobe-atlasapi
+  section: Discovered (OME-Zarr commits)
   stars: 187
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: scalableminds/webknossos
+  section: Zarr viewers
   stars: 184
   tags: []
-  section: Zarr viewers
 - repo: researchobject/ro-crate
+  section: Extended metadata frameworks
   stars: 163
   tags: []
-  section: Extended metadata frameworks
 - repo: prism-oncology/novae
+  section: Depend on OME-Zarr Py
   stars: 162
   tags: []
-  section: Depend on OME-Zarr Py
 - repo: aafkegros/microscopynodes
+  section: Zarr viewers
   stars: 161
   tags: []
-  section: Zarr viewers
 - repo: bioio-devs/bioio
+  section: Zarr readers & writers
   stars: 132
   tags: []
-  section: Zarr readers & writers
 - repo: labsyspharm/scimap
+  section: Depend on OME-Zarr Py
   stars: 116
   tags: []
-  section: Depend on OME-Zarr Py
 - repo: rajewsky-lab/openst
+  section: Depend on OME-Zarr Py
   stars: 116
   tags: []
-  section: Depend on OME-Zarr Py
 - repo: mannlabs/scportrait
+  section: Depend on OME-Zarr Py
   stars: 113
   tags: []
-  section: Depend on OME-Zarr Py
 - repo: allen-cell-animated/vole-core
+  section: Zarr viewers
   stars: 107
   tags: []
-  section: Zarr viewers
 - repo: mehta-lab/viscy
+  section: Other tools (to curate)
   stars: 104
   tags: []
-  section: Other tools (to curate)
 - repo: axelalmet/flowsig
+  section: Depend on OME-Zarr Py
   stars: 91
   tags: []
-  section: Depend on OME-Zarr Py
 - repo: biocontainers/multi-package-containers
+  section: Discovered (OME-Zarr commits)
   stars: 87
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: mastodon-sc/mastodon
+  section: Integrative workflows
   stars: 84
   tags: []
-  section: Integrative workflows
 - repo: tlambert03/nd2
-  stars: 81
-  tags: []
   section: Zarr converters
-- repo: sagar87/spatialproteomics
   stars: 81
   tags: []
+- repo: sagar87/spatialproteomics
   section: Depend on OME-Zarr Py
+  stars: 81
+  tags: []
 - repo: alexcoulton/odon
+  section: Zarr viewers
   stars: 78
   tags: []
-  section: Zarr viewers
 - repo: saeyslab/harpy
+  section: Depend on OME-Zarr Py
   stars: 75
   tags: []
-  section: Depend on OME-Zarr Py
 - repo: haniffalab/webatlas-pipeline
+  section: Depend on OME-Zarr Py
   stars: 71
   tags: []
-  section: Depend on OME-Zarr Py
 - repo: vitessce/vitessce-python
+  section: Discovered (OME-Zarr commits)
   stars: 67
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: mpanknin/kiln-render
+  section: Zarr viewers
   stars: 62
   tags: []
-  section: Zarr viewers
 - repo: vortx-ai/emem
+  section: Discovered (OME-Zarr commits)
   stars: 61
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: broadinstitute/celldega
+  section: Discovered (OME-Zarr commits)
   stars: 60
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: xqlsystems/duckdb-zarr
+  section: Discovered (OME-Zarr commits)
   stars: 59
   tags: []
-  section: Discovered (OME-Zarr commits)
 - repo: insightsoftwareconsortium/itksphinxexamples
+  section: Discovered (OME-Zarr commits)
   stars: 59
   tags: []
-  section: Discovered (OME-Zarr commits)
+pool_count: 728
+tagged_count: 47

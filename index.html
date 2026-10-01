@@ -14,16 +14,11 @@
 <body>
   <div id="wrapper">
     <h1>OME-Zarr Resources Dashboard</h1>
-    <p class="subtitle">OME-Zarr-related projects (<a href="https://github.com/German-BioImaging/ome-zarr-resources"
-        target="_blank">source</a>).
-    </p>
     <p> Check also the latest <a href="./commits/">OME-Zarr commits</a> on GitHub. </p>
-    <p id="generated-at" class="meta-cell"></p>
-    <p id="total_count" class="meta-cell"></p>
     <div id="error" class="error-note" style="display:none;"></div>
     <div id="view-switch">
-      <button type="button" data-view="all" class="active">All repos</button>
-      <button type="button" data-view="tags">By tag</button>
+      <button type="button" data-view="tags" class="active">By topic</button>
+      <button type="button" data-view="all">All repos</button>
       <button type="button" data-view="manual">Manual sections</button>
       <button type="button" data-view="pool" id="pool-btn"
         title="Only the selected repos get the daily deep scan (commits, releases, CI); the rest of the pool is refreshed weekly with star counts only.">Full pool</button>
@@ -33,7 +28,13 @@
         <p class="meta-cell">Loading dashboard...</p>
       </div>
     </div>
+    <footer id="page-footer">
+      <span id="total_count"></span>
+      <span id="generated-at" class="footer-wide"></span>
+      <a href="https://github.com/German-BioImaging/ome-zarr-resources" target="_blank">source</a>
+    </footer>
   </div>
+
   <noscript>
     <div class="section-card error-note">Enable JavaScript to view the dashboard.</div>
   </noscript>
@@ -451,7 +452,7 @@
         table.className = 'repo-table';
         const thead = document.createElement('thead');
         const tr = document.createElement('tr');
-        ['Owner', 'Name', '⭐', 'Tags', 'Section', 'Tracked daily'].forEach(text => {
+        ['Owner', 'Name', '⭐', '🏷️ Topics', 'Section', 'Tracked daily'].forEach(text => {
           const th = document.createElement('th');
           th.textContent = text;
           tr.appendChild(th);
@@ -463,20 +464,18 @@
         packages.forEach(pkg => {
           const [owner, name] = pkg.repo.split('/');
           const row = document.createElement('tr');
-          [owner, null, String(pkg.stars ?? ''), (pkg.tags || []).join(', '),
-            pkg.section || '', pkg.selected ? '✅' : ''].forEach((text, i) => {
-            const td = document.createElement('td');
-            if (i === 1) {
-              const link = document.createElement('a');
-              link.href = 'https://github.com/' + pkg.repo;
-              link.target = '_blank';
-              link.textContent = name;
-              td.appendChild(link);
-            } else {
-              td.textContent = text;
-            }
-            row.appendChild(td);
-          });
+          row.appendChild(createTextCell(owner));
+          const nameCell = document.createElement('td');
+          const link = document.createElement('a');
+          link.href = 'https://github.com/' + pkg.repo;
+          link.target = '_blank';
+          link.textContent = name;
+          nameCell.appendChild(link);
+          row.appendChild(nameCell);
+          row.appendChild(createTextCell(pkg.stars, 'meta-cell', Number(pkg.stars)));
+          row.appendChild(createTopicsCell(pkg.topics));
+          row.appendChild(createTextCell(pkg.section));
+          row.appendChild(createTextCell(pkg.selected ? '✅' : ''));
           tbody.appendChild(row);
         });
         table.appendChild(tbody);
@@ -502,6 +501,8 @@
         card.className = 'section-card';
         card.appendChild(buildPoolTable(poolPackages));
         sectionsEl.appendChild(card);
+        groupObserver?.disconnect();
+        measureHeader();
         enhanceTables();
       }
 
@@ -510,38 +511,109 @@
       }
 
       // Jump links, so the tracked tags are visible even when a group is empty.
-      function buildNav(names, counts) {
+      function goToGroup(anchor) {
+        history.replaceState(history.state, '', '?view=' + currentView + '#' + anchor);
+        document.getElementById(anchor)?.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      function buildNav(names, counts, chips) {
         const nav = document.createElement('div');
         nav.className = 'group-nav';
+
+        // Chips on wide screens; a native picker on phones, where a row of chips
+        // either wraps into a wall or turns into a scroll strip nobody notices.
+        const chipRow = document.createElement('div');
+        chipRow.className = 'group-chips';
+        const select = document.createElement('select');
+        select.className = 'group-select';
+        select.setAttribute('aria-label', 'Jump to a group');
+
         names.forEach(name => {
           const count = counts[name] || 0;
+          const anchor = slugify(name);
+
           const link = document.createElement('a');
-          link.href = '#' + slugify(name);
+          // Shareable href, but clicking stays on the page instead of reloading.
+          link.href = '?view=' + currentView + '#' + anchor;
+          link.addEventListener('click', ev => {
+            ev.preventDefault();
+            goToGroup(anchor);
+          });
           link.textContent = name + ' (' + count + ')';
+          if (count) chips.set(anchor, link);
           if (!count) {
             link.className = 'empty-group';
             link.removeAttribute('href');
             link.setAttribute('aria-disabled', 'true');
             link.tabIndex = -1;
           }
-          nav.appendChild(link);
+          chipRow.appendChild(link);
+
+          const option = document.createElement('option');
+          option.value = anchor;
+          option.textContent = name + ' (' + count + ')';
+          option.disabled = !count;
+          select.appendChild(option);
         });
+
+        select.addEventListener('change', () => goToGroup(select.value));
+        nav.appendChild(chipRow);
+        nav.appendChild(select);
         return nav;
       }
+
+      const DEFAULT_VIEW = 'tags';
+      let currentView = DEFAULT_VIEW;
+      let groupObserver = null;
 
       function renderGroups(names, groupOf, packages) {
         const counts = {};
         names.forEach(name => { counts[name] = packages.filter(p => groupOf(p, name)).length; });
-        sectionsEl.appendChild(buildNav(names, counts));
+        const chips = new Map();
+        sectionsEl.appendChild(buildNav(names, counts, chips));
         names.forEach(name => {
           if (!counts[name]) return;
           const card = buildSection(name, packages.filter(p => groupOf(p, name)));
           card.id = slugify(name);
           sectionsEl.appendChild(card);
         });
+        measureHeader();
+        trackCurrentGroup(chips);
+      }
+
+      // The pinned nav's height drives the anchor offsets (--nav-h).
+      function measureHeader() {
+        const nav = sectionsEl.querySelector('.group-nav');
+        document.documentElement.style.setProperty(
+          '--nav-h', (nav ? nav.offsetHeight : 0) + 'px');
+      }
+
+      // Highlight the chip of whichever group sits just under the pinned header.
+      function trackCurrentGroup(chips) {
+        groupObserver?.disconnect();
+        if (!chips.size || !window.IntersectionObserver) return;
+        const headerH = sectionsEl.querySelector('.group-nav')?.offsetHeight || 0;
+        // Several cards can straddle the band; the topmost one wins.
+        const order = Array.from(chips.keys());
+        const visible = new Set();
+        groupObserver = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) visible.add(entry.target.id);
+            else visible.delete(entry.target.id);
+          });
+          const current = order.find(id => visible.has(id));
+          chips.forEach((chip, id) => chip.classList.toggle('current', id === current));
+          const select = sectionsEl.querySelector('.group-select');
+          if (select && current) select.value = current;
+        }, { rootMargin: `-${headerH + 4}px 0px -60% 0px` });
+        chips.forEach((chip, id) => {
+          const card = document.getElementById(id);
+          if (card) groupObserver.observe(card);
+        });
       }
 
       function renderView(view, packages) {
+        currentView = view;
         sectionsEl.innerHTML = '';
         if (view === 'tags') {
           renderGroups(TAG_ORDER, (p, tag) => (p.tags || []).includes(tag), packages);
@@ -556,6 +628,8 @@
           return;
         } else {
           sectionsEl.appendChild(buildSection('All repos', packages));
+          groupObserver?.disconnect();
+          measureHeader();
         }
         enhanceTables();
       }
@@ -567,7 +641,7 @@
           const formatted = Number.isNaN(d.getTime())
             ? data.generated_at
             : d.toISOString().slice(0, 16).replace('T', ' ');
-          generatedAtEl.textContent = 'Generated at ' + formatted;
+          generatedAtEl.textContent = '⏱ ' + formatted;
         } else {
           generatedAtEl.textContent = '';
         }
@@ -575,26 +649,63 @@
           (a, b) => (b.repo_info?.stargazers_count || 0) - (a.repo_info?.stargazers_count || 0));
 
         const poolCount = data.pool_count || packages.length;
-        totalCountEl.innerHTML = '';
-        totalCountEl.append('Deep-scanned daily: ' + packages.length + ' of ');
-        const poolLink = document.createElement('a');
-        poolLink.href = '#';
-        poolLink.textContent = poolCount + ' tracked repos';
-        poolLink.title = document.getElementById('pool-btn').title;
-        poolLink.addEventListener('click', ev => {
-          ev.preventDefault();
-          document.getElementById('pool-btn').click();
-        });
-        totalCountEl.appendChild(poolLink);
+        const taggedCount = data.tagged_count
+          ?? packages.filter(p => (p.tags || []).length).length;
 
-        document.querySelectorAll('#view-switch button').forEach(btn => {
-          btn.addEventListener('click', () => {
-            document.querySelectorAll('#view-switch button').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            renderView(btn.dataset.view, packages);
+        totalCountEl.innerHTML = '';
+        // Each number links to the view it describes.
+        const stat = (icon, value, label, view, title) => {
+          const span = document.createElement('span');
+          span.className = 'footer-stat';
+          const link = document.createElement('a');
+          link.href = view === DEFAULT_VIEW ? location.pathname : '?view=' + view;
+          link.textContent = icon + ' ' + value;
+          link.title = title;
+          link.addEventListener('click', ev => {
+            ev.preventDefault();
+            document.querySelector('#view-switch [data-view="' + view + '"]').click();
           });
+          span.appendChild(link);
+          const labelEl = document.createElement('span');
+          labelEl.className = 'footer-wide';
+          labelEl.textContent = ' ' + label;
+          span.appendChild(labelEl);
+          return span;
+        };
+        totalCountEl.appendChild(stat('🏷️', taggedCount, 'with a tracked topic', 'tags',
+          'Repos carrying one of the tracked ome-zarr-* topics — grouped in the By topic view'));
+        totalCountEl.appendChild(stat('🔍', packages.length, 'deep-scanned daily', 'all',
+          'Repos scanned daily for commits, releases and CI'));
+        totalCountEl.appendChild(stat('📦', poolCount, 'tracked in total', 'pool',
+          document.getElementById('pool-btn').title));
+
+        const buttons = Array.from(document.querySelectorAll('#view-switch button'));
+        const views = buttons.map(b => b.dataset.view);
+
+        // ?view=<name> so a view can be linked and survives reload / back.
+        function showView(view, { push = false } = {}) {
+          if (!views.includes(view)) view = DEFAULT_VIEW;
+          buttons.forEach(b => b.classList.toggle('active', b.dataset.view === view));
+          if (push) {
+            const url = view === DEFAULT_VIEW ? location.pathname : '?view=' + view;
+            history.pushState({ view }, '', url);
+          }
+          renderView(view, packages);
+          // Groups render only now, so an #anchor from the URL needs a nudge.
+          if (location.hash) {
+            document.getElementById(location.hash.slice(1))?.scrollIntoView();
+          }
+        }
+
+        buttons.forEach(btn => {
+          btn.addEventListener('click', () => showView(btn.dataset.view, { push: true }));
         });
-        renderView('all', packages);
+        window.addEventListener('resize', measureHeader);
+        window.addEventListener('popstate', () => {
+          showView(new URLSearchParams(location.search).get('view') || DEFAULT_VIEW);
+        });
+
+        showView(new URLSearchParams(location.search).get('view') || DEFAULT_VIEW);
       }
 
       function enhanceTables() {

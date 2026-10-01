@@ -2632,3 +2632,4 @@ packages:
   weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 16, 16, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3, 3, 8, 0, 0]
   workflow_run_status: FAILURE
 pool_count: 728
+tagged_count: 47

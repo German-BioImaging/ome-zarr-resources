@@ -195,15 +195,22 @@ def main() -> None:
             print(f"  {p['repo']} ({p['stars']}⭐)")
 
     now = datetime.utcnow().isoformat() + "Z"
+    pool_tags = {slug: tags_for(slug, d["topics"]) for slug, d in info.items()}
     with open("selected.yml", "w") as f:
         dump(
-            {"generated_at": now, "pool_count": len(info), "packages": packages},
+            {
+                "generated_at": now,
+                "pool_count": len(info),
+                "tagged_count": sum(1 for p in pool_tags.values() if p),
+                "packages": packages,
+            },
             f,
             sort_keys=False,
         )
 
-    # The full pool, stars only: cheap to keep, and it is what the site links to
-    # when explaining why just 100 repos get the daily deep scan.
+    # The full pool: stars and topics, already in hand from the weekly query — no
+    # extra requests. It is what the site links to when explaining why just 100
+    # repos get the daily deep scan.
     selected_slugs = {p["repo"] for p in packages}
     pool = sorted(
         (
@@ -211,6 +218,7 @@ def main() -> None:
                 "repo": slug,
                 "stars": d["stars"],
                 "tags": tags_for(slug, d["topics"]),
+                "topics": d["topics"],
                 "section": d["section"],
                 "selected": slug in selected_slugs,
             }

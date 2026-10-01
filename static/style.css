@@ -16,11 +16,6 @@ h1 {
   margin-bottom: 8px;
 }
 
-.subtitle {
-  margin-top: 0;
-  margin-bottom: 28px;
-  color: #57606a;
-}
 
 .section-card {
   background: #fff;
@@ -211,8 +206,36 @@ a:hover {
   border-color: #333;
 }
 
+/* The only pinned element: the group chips / picker. */
 .group-nav {
+  position: sticky;
+  top: 0;
+  z-index: 2;
   margin-bottom: 1rem;
+  padding: 0.4rem 0 0.3rem;
+  background: #f6f8fa;
+}
+
+/* Anchors must land below the pinned nav, not under it. */
+.section-card {
+  scroll-margin-top: calc(var(--nav-h, 2.5rem) + 8px);
+}
+
+.group-select {
+  display: none;
+  width: 100%;
+  max-width: 420px;
+  padding: 0.4rem 0.5rem;
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.group-nav a.current {
+  background: #333;
+  color: #fff;
+  border-color: #333;
 }
 
 .group-nav a {
@@ -246,4 +269,47 @@ a:hover {
 .spark-area {
   fill: rgba(45, 164, 78, 0.15);
   stroke: none;
+}
+
+/* Thin status bar, always on screen. */
+#page-footer {
+  position: fixed;
+  inset: auto 0 0 0;
+  background: #fff;
+  border-top: 1px solid #d0d7de;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  color: #57606a;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body {
+  padding-bottom: 32px; /* room for the fixed footer */
+}
+
+.footer-stat + .footer-stat::before,
+#page-footer > span + span::before,
+#page-footer > span + a::before {
+  content: " · ";
+  color: #8c959f;
+}
+
+/* Narrow screens keep the numbers, drop the words. */
+@media (max-width: 600px) {
+  .footer-wide {
+    display: none;
+  }
+
+  /* A native picker beats a wall of chips on a phone. */
+  .group-chips {
+    display: none;
+  }
+
+  .group-select {
+    display: block;
+    margin: 0 auto;
+  }
 }
