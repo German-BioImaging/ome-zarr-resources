@@ -211,8 +211,36 @@ a:hover {
   border-color: #333;
 }
 
+/* The only pinned element: the group chips / picker. */
 .group-nav {
+  position: sticky;
+  top: 0;
+  z-index: 2;
   margin-bottom: 1rem;
+  padding: 0.4rem 0 0.3rem;
+  background: #f6f8fa;
+}
+
+/* Anchors must land below the pinned nav, not under it. */
+.section-card {
+  scroll-margin-top: calc(var(--nav-h, 2.5rem) + 8px);
+}
+
+.group-select {
+  display: none;
+  width: 100%;
+  max-width: 420px;
+  padding: 0.4rem 0.5rem;
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.group-nav a.current {
+  background: #333;
+  color: #fff;
+  border-color: #333;
 }
 
 .group-nav a {

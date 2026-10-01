@@ -500,6 +500,8 @@
         card.className = 'section-card';
         card.appendChild(buildPoolTable(poolPackages));
         sectionsEl.appendChild(card);
+        groupObserver?.disconnect();
+        measureHeader();
         enhanceTables();
       }
 
@@ -508,38 +510,109 @@
       }
 
       // Jump links, so the tracked tags are visible even when a group is empty.
-      function buildNav(names, counts) {
+      function goToGroup(anchor) {
+        history.replaceState(history.state, '', '?view=' + currentView + '#' + anchor);
+        document.getElementById(anchor)?.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      function buildNav(names, counts, chips) {
         const nav = document.createElement('div');
         nav.className = 'group-nav';
+
+        // Chips on wide screens; a native picker on phones, where a row of chips
+        // either wraps into a wall or turns into a scroll strip nobody notices.
+        const chipRow = document.createElement('div');
+        chipRow.className = 'group-chips';
+        const select = document.createElement('select');
+        select.className = 'group-select';
+        select.setAttribute('aria-label', 'Jump to a group');
+
         names.forEach(name => {
           const count = counts[name] || 0;
+          const anchor = slugify(name);
+
           const link = document.createElement('a');
-          link.href = '#' + slugify(name);
+          // Shareable href, but clicking stays on the page instead of reloading.
+          link.href = '?view=' + currentView + '#' + anchor;
+          link.addEventListener('click', ev => {
+            ev.preventDefault();
+            goToGroup(anchor);
+          });
           link.textContent = name + ' (' + count + ')';
+          if (count) chips.set(anchor, link);
           if (!count) {
             link.className = 'empty-group';
             link.removeAttribute('href');
             link.setAttribute('aria-disabled', 'true');
             link.tabIndex = -1;
           }
-          nav.appendChild(link);
+          chipRow.appendChild(link);
+
+          const option = document.createElement('option');
+          option.value = anchor;
+          option.textContent = name + ' (' + count + ')';
+          option.disabled = !count;
+          select.appendChild(option);
         });
+
+        select.addEventListener('change', () => goToGroup(select.value));
+        nav.appendChild(chipRow);
+        nav.appendChild(select);
         return nav;
       }
+
+      const DEFAULT_VIEW = 'tags';
+      let currentView = DEFAULT_VIEW;
+      let groupObserver = null;
 
       function renderGroups(names, groupOf, packages) {
         const counts = {};
         names.forEach(name => { counts[name] = packages.filter(p => groupOf(p, name)).length; });
-        sectionsEl.appendChild(buildNav(names, counts));
+        const chips = new Map();
+        sectionsEl.appendChild(buildNav(names, counts, chips));
         names.forEach(name => {
           if (!counts[name]) return;
           const card = buildSection(name, packages.filter(p => groupOf(p, name)));
           card.id = slugify(name);
           sectionsEl.appendChild(card);
         });
+        measureHeader();
+        trackCurrentGroup(chips);
+      }
+
+      // The pinned nav's height drives the anchor offsets (--nav-h).
+      function measureHeader() {
+        const nav = sectionsEl.querySelector('.group-nav');
+        document.documentElement.style.setProperty(
+          '--nav-h', (nav ? nav.offsetHeight : 0) + 'px');
+      }
+
+      // Highlight the chip of whichever group sits just under the pinned header.
+      function trackCurrentGroup(chips) {
+        groupObserver?.disconnect();
+        if (!chips.size || !window.IntersectionObserver) return;
+        const headerH = sectionsEl.querySelector('.group-nav')?.offsetHeight || 0;
+        // Several cards can straddle the band; the topmost one wins.
+        const order = Array.from(chips.keys());
+        const visible = new Set();
+        groupObserver = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) visible.add(entry.target.id);
+            else visible.delete(entry.target.id);
+          });
+          const current = order.find(id => visible.has(id));
+          chips.forEach((chip, id) => chip.classList.toggle('current', id === current));
+          const select = sectionsEl.querySelector('.group-select');
+          if (select && current) select.value = current;
+        }, { rootMargin: `-${headerH + 4}px 0px -60% 0px` });
+        chips.forEach((chip, id) => {
+          const card = document.getElementById(id);
+          if (card) groupObserver.observe(card);
+        });
       }
 
       function renderView(view, packages) {
+        currentView = view;
         sectionsEl.innerHTML = '';
         if (view === 'tags') {
           renderGroups(TAG_ORDER, (p, tag) => (p.tags || []).includes(tag), packages);
@@ -554,6 +627,8 @@
           return;
         } else {
           sectionsEl.appendChild(buildSection('All repos', packages));
+          groupObserver?.disconnect();
+          measureHeader();
         }
         enhanceTables();
       }
