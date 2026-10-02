@@ -1,9 +1,141 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-01T01:49:59+00:00",
+  "generated": "2026-10-02T01:44:23+00:00",
   "recent_days": 10,
-  "total_commits": 2221,
+  "total_commits": 2253,
   "commits": [
+    {
+      "commit_date": "2026-10-01T17:50:29.000+01:00",
+      "author": "will-moore",
+      "repository": "ome/ome-ngff-validator",
+      "commit_url": "https://github.com/ome/ome-ngff-validator/commit/c43ccbe4edf74e098c0af52175f4150537fe7c27"
+    },
+    {
+      "commit_date": "2026-10-01T16:42:56.000+02:00",
+      "author": "postnubilaphoebus",
+      "repository": "postnubilaphoebus/Penumbria",
+      "commit_url": "https://github.com/postnubilaphoebus/Penumbria/commit/85b09b7cc7a7d8e490257cf7776fbd374f84288f"
+    },
+    {
+      "commit_date": "2026-10-01T16:05:23.000-04:00",
+      "author": "Harrison-Oatman",
+      "repository": "Harrison-Oatman/PyCLM",
+      "commit_url": "https://github.com/Harrison-Oatman/PyCLM/commit/b56a7a847bd6eb29e91c9bfc31d3183f2c931d7f"
+    },
+    {
+      "commit_date": "2026-10-01T15:50:34.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/aada1ce616d93bc19c5681953145d119c98a1275"
+    },
+    {
+      "commit_date": "2026-10-01T14:50:26.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/4dc47f2f0ce1fc4664704890135c11deaa0ae58c"
+    },
+    {
+      "commit_date": "2026-10-01T14:49:32.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/d334930faeec19a0ffddf337346acfc6b4b37bc8"
+    },
+    {
+      "commit_date": "2026-10-01T14:22:20.000+02:00",
+      "author": "postnubilaphoebus",
+      "repository": "postnubilaphoebus/Penumbria",
+      "commit_url": "https://github.com/postnubilaphoebus/Penumbria/commit/bb4b8f8597048eabce35cd736e51af5597093973"
+    },
+    {
+      "commit_date": "2026-10-01T14:16:57.000-03:00",
+      "author": "lubianat",
+      "repository": "German-BioImaging/ome-zarr-resources",
+      "commit_url": "https://github.com/German-BioImaging/ome-zarr-resources/commit/d6fdf8ab06038d5c3ebb96932f5639e9f10d1381"
+    },
+    {
+      "commit_date": "2026-10-01T11:18:20.000Z",
+      "author": "dependabot[bot]",
+      "repository": "WayScience/ome-arrow",
+      "commit_url": "https://github.com/WayScience/ome-arrow/commit/ba7c02d8e2ba4f0e50f2ab09f1311bf18000bfcb"
+    },
+    {
+      "commit_date": "2026-10-01T10:48:09.000-07:00",
+      "author": "muratmaga",
+      "repository": "muratmaga/omezarr-converter",
+      "commit_url": "https://github.com/muratmaga/omezarr-converter/commit/765cd89d59b37cd1a51f8220601fe6691a7c198e"
+    },
+    {
+      "commit_date": "2026-10-01T10:45:27.000+02:00",
+      "author": "Mr-Milk",
+      "repository": "rendeirolab/wsidata",
+      "commit_url": "https://github.com/rendeirolab/wsidata/commit/d3b1fdef10c3d7ceaad5114c4aebe8699e6fed47"
+    },
+    {
+      "commit_date": "2026-10-01T09:27:02.000+01:00",
+      "author": "will-moore",
+      "repository": "ome/ome-zarr-py",
+      "commit_url": "https://github.com/ome/ome-zarr-py/commit/11966503ea940e580d9d275f4fbef2913cc12225"
+    },
+    {
+      "commit_date": "2026-10-01T07:01:38.000Z",
+      "author": "claude",
+      "repository": "Svyable/zarr-pyramid-audit",
+      "commit_url": "https://github.com/Svyable/zarr-pyramid-audit/commit/ee0e469a2343134bbc71b4a7ddfb1beef45c669f"
+    },
+    {
+      "commit_date": "2026-10-01T06:44:52.000Z",
+      "author": "claude",
+      "repository": "Svyable/zarr-pyramid-audit",
+      "commit_url": "https://github.com/Svyable/zarr-pyramid-audit/commit/d9fb7102f2511e38294fa45c6a8fe34cfe7c2364"
+    },
+    {
+      "commit_date": "2026-10-01T04:44:37.000Z",
+      "author": "claude",
+      "repository": "Svyable/zarr-pyramid-audit",
+      "commit_url": "https://github.com/Svyable/zarr-pyramid-audit/commit/fdbf3b78d3b876e6723b6ca7a9a8257a88ae3164"
+    },
+    {
+      "commit_date": "2026-10-01T04:37:37.000-05:00",
+      "author": "kabilar",
+      "repository": "ome/ngff",
+      "commit_url": "https://github.com/ome/ngff/commit/a23b22d8b0fd215571088a3762feab2079ce1ef1"
+    },
+    {
+      "commit_date": "2026-10-01T03:26:54.000Z",
+      "author": "claude",
+      "repository": "Svyable/scrollq",
+      "commit_url": "https://github.com/Svyable/scrollq/commit/a500b68397d13486ce9545faa134baf73ca43006"
+    },
+    {
+      "commit_date": "2026-10-01T02:37:36.000Z",
+      "author": "claude",
+      "repository": "Svyable/scrollq",
+      "commit_url": "https://github.com/Svyable/scrollq/commit/9c32d8336bc7d9a823b1a789f088c0b80055fb48"
+    },
+    {
+      "commit_date": "2026-10-01T02:22:31.000Z",
+      "author": "claude",
+      "repository": "Svyable/scrollq",
+      "commit_url": "https://github.com/Svyable/scrollq/commit/eb141004b54b280a2203a21f890c6f0c36dceda2"
+    },
+    {
+      "commit_date": "2026-09-30T23:24:22.000-04:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/cellmap-flow",
+      "commit_url": "https://github.com/janelia-cellmap/cellmap-flow/commit/b14499e0f9afe428e9ee10c82f7553741a14758e"
+    },
+    {
+      "commit_date": "2026-09-30T22:53:55.000-04:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/cellmap-flow",
+      "commit_url": "https://github.com/janelia-cellmap/cellmap-flow/commit/c7915e9f7e3d9bf58108f9ee0a9e4b3bdd013f9b"
+    },
+    {
+      "commit_date": "2026-09-30T22:53:41.000-05:00",
+      "author": "Svyable",
+      "repository": "Svyable/scrollq",
+      "commit_url": "https://github.com/Svyable/scrollq/commit/d95dcdb9db1cd156c6649c03e0b0a3434009c5c9"
+    },
     {
       "commit_date": "2026-09-30T20:39:42.000Z",
       "author": "claude",
@@ -11,10 +143,22 @@
       "commit_url": "https://github.com/imcf/napari-chunked-regionprops/commit/418102df19636333478333d47f65a2307d613d4d"
     },
     {
+      "commit_date": "2026-09-30T19:31:41.000Z",
+      "author": "claude",
+      "repository": "thomdehoog/ZMART-viewer",
+      "commit_url": "https://github.com/thomdehoog/ZMART-viewer/commit/ab978b344eed8d1c022779d9158af51f8deaa764"
+    },
+    {
       "commit_date": "2026-09-30T19:18:12.000+02:00",
       "author": "BioMarco",
       "repository": "ScrollPrize/villa",
       "commit_url": "https://github.com/ScrollPrize/villa/commit/d08fa94d56c5e197f23408d1a39c78419146f311"
+    },
+    {
+      "commit_date": "2026-09-30T16:48:46.000-04:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/cellmap-flow",
+      "commit_url": "https://github.com/janelia-cellmap/cellmap-flow/commit/1fc77dbb59975b3d9ee4a60c4daf1e2e9ae2eacb"
     },
     {
       "commit_date": "2026-09-30T15:26:12.000+02:00",
@@ -47,10 +191,34 @@
       "commit_url": "https://github.com/fractal-analytics-platform/ngff-rfc8-viewer/commit/4dd9cda5cba73c396a3218ce2f64b2ecc7e49cdb"
     },
     {
+      "commit_date": "2026-09-30T13:58:29.000-04:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/cellmap-flow",
+      "commit_url": "https://github.com/janelia-cellmap/cellmap-flow/commit/b952b5cbbf5599a5c8ad8533b7d8f4c4e5e42553"
+    },
+    {
       "commit_date": "2026-09-30T13:08:48.000+02:00",
       "author": "folterj",
       "repository": "ccp-volume-em/muvis-align",
       "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/0a24f3d0d763f44215425f39ad12675b61a4db04"
+    },
+    {
+      "commit_date": "2026-09-30T12:45:51.000+01:00",
+      "author": "will-moore",
+      "repository": "ome/ome-ngff-validator",
+      "commit_url": "https://github.com/ome/ome-ngff-validator/commit/41ff9256819d3d5672154587f8809122405c20e0"
+    },
+    {
+      "commit_date": "2026-09-30T12:22:48.000-04:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/cellmap-flow",
+      "commit_url": "https://github.com/janelia-cellmap/cellmap-flow/commit/76975e23fe0145d8d9afd8c9a8a7289405536126"
+    },
+    {
+      "commit_date": "2026-09-30T12:07:07.000-07:00",
+      "author": "Demian Vladi",
+      "repository": "PolusAI/nyxus",
+      "commit_url": "https://github.com/PolusAI/nyxus/commit/8ec6b03c800d6bc8232e589348418dd5682d4b11"
     },
     {
       "commit_date": "2026-09-30T12:02:27.000+01:00",
@@ -75,6 +243,24 @@
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/a0d53f04086001984ec8c5e9b5d636ff83435cc0"
+    },
+    {
+      "commit_date": "2026-09-30T11:21:24.000-04:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/cellmap-flow",
+      "commit_url": "https://github.com/janelia-cellmap/cellmap-flow/commit/3c39acff5407045c03e57ebfdccf15ce099f534c"
+    },
+    {
+      "commit_date": "2026-09-30T11:12:56.000-04:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/cellmap-flow",
+      "commit_url": "https://github.com/janelia-cellmap/cellmap-flow/commit/f9a80cfc9cc1013273e025428dd0304e2ef0bc31"
+    },
+    {
+      "commit_date": "2026-09-30T10:17:15.000-05:00",
+      "author": "Svyable",
+      "repository": "Svyable/zarr-pyramid-audit",
+      "commit_url": "https://github.com/Svyable/zarr-pyramid-audit/commit/fbf14ea88dcfecc22172dce32d7888d7fa422a80"
     },
     {
       "commit_date": "2026-09-30T10:13:56.000+02:00",
@@ -123,6 +309,12 @@
       "author": "github-actions[bot]",
       "repository": "neurodesk/webapps",
       "commit_url": "https://github.com/neurodesk/webapps/commit/3350c595f7e85b18ca9eb0eae1ce226930a97d82"
+    },
+    {
+      "commit_date": "2026-09-29T23:58:45.000-04:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/cellmap-flow",
+      "commit_url": "https://github.com/janelia-cellmap/cellmap-flow/commit/788fa1dd40d12f14f2c33377d084016923d10721"
     },
     {
       "commit_date": "2026-09-29T23:05:10.000-04:00",
