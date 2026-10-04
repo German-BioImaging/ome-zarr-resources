@@ -1,9 +1,105 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-03T01:40:19+00:00",
+  "generated": "2026-10-04T02:14:55+00:00",
   "recent_days": 10,
-  "total_commits": 2276,
+  "total_commits": 2292,
   "commits": [
+    {
+      "commit_date": "2026-10-04T01:38:50.000+02:00",
+      "author": "balwierz",
+      "repository": "balwierz/vv",
+      "commit_url": "https://github.com/balwierz/vv/commit/e918b230c507e641da4db3ce72ced7acabe421bd"
+    },
+    {
+      "commit_date": "2026-10-03T21:21:38.000-04:00",
+      "author": "cdrake",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/6e9b2b7bc1cc4611cb48f27c07fe0c49d1927423"
+    },
+    {
+      "commit_date": "2026-10-03T18:58:24.000+02:00",
+      "author": "Mr-Milk",
+      "repository": "rendeirolab/lazyslide-tutorials",
+      "commit_url": "https://github.com/rendeirolab/lazyslide-tutorials/commit/14ce1971ecf76b002bb8cc81816b2027af5e6f13"
+    },
+    {
+      "commit_date": "2026-10-03T18:53:10.000+02:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/821078e5e40bdecc245f172d8498dc2a417aa069"
+    },
+    {
+      "commit_date": "2026-10-03T18:33:48.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/c621fa29577e44a26f259a7a2a747a7a9854d39d"
+    },
+    {
+      "commit_date": "2026-10-03T18:21:03.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/0f5ef85f3a818c90612cbcdf24ac8f576b07284a"
+    },
+    {
+      "commit_date": "2026-10-03T18:20:35.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/eaa480f978cbbd715ab6e0c80957e20da7bf5b09"
+    },
+    {
+      "commit_date": "2026-10-03T18:20:34.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/c156726c1269d21bad8a754feb0bbe6d46a41710"
+    },
+    {
+      "commit_date": "2026-10-03T18:14:01.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/ccf7fcf3995559af6ffe7483bb03538712f8345a"
+    },
+    {
+      "commit_date": "2026-10-03T17:37:19.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/98cd4a3eee971b8c0776f018c5caad3ef70c503b"
+    },
+    {
+      "commit_date": "2026-10-03T17:32:48.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/c73720b080b804d308b10a8e1774db90a17ee85e"
+    },
+    {
+      "commit_date": "2026-10-03T17:11:32.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/f9f2155a1bffce5a4c893b8b82e80ac452f282d6"
+    },
+    {
+      "commit_date": "2026-10-03T12:54:26.000+10:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/9b3946f5ccf5a26610ec8d4aa813b97defe9ad43"
+    },
+    {
+      "commit_date": "2026-10-03T09:53:29.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/6b2b998ea055d409d239590f3629310cf2fadcc6"
+    },
+    {
+      "commit_date": "2026-10-03T09:53:29.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/85d3276a2bf624884269866f35989401993cf9df"
+    },
+    {
+      "commit_date": "2026-10-03T00:55:51.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/Flamingo_Control",
+      "commit_url": "https://github.com/uw-loci/Flamingo_Control/commit/9baaaba05e486ebb2a146fe8fe690de054223906"
+    },
     {
       "commit_date": "2026-10-02T22:36:20.000Z",
       "author": "claude",
