@@ -1,14 +1,38 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-04T02:14:55+00:00",
+  "generated": "2026-10-05T01:51:08+00:00",
   "recent_days": 10,
-  "total_commits": 2292,
+  "total_commits": 2296,
   "commits": [
+    {
+      "commit_date": "2026-10-04T17:40:19.000+08:00",
+      "author": "tangmc0210",
+      "repository": "HuangLab-PKU/PRISM-Code",
+      "commit_url": "https://github.com/HuangLab-PKU/PRISM-Code/commit/ab7b72ddc4c14ffa10de94d3ee70150be0df9c35"
+    },
+    {
+      "commit_date": "2026-10-04T15:33:46.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/5bffda417eecbda06058cd76cdf327d3c2e8902c"
+    },
     {
       "commit_date": "2026-10-04T01:38:50.000+02:00",
       "author": "balwierz",
       "repository": "balwierz/vv",
       "commit_url": "https://github.com/balwierz/vv/commit/e918b230c507e641da4db3ce72ced7acabe421bd"
+    },
+    {
+      "commit_date": "2026-10-04T01:14:02.000-07:00",
+      "author": "kevinjohncutler",
+      "repository": "kevinjohncutler/opencodecs",
+      "commit_url": "https://github.com/kevinjohncutler/opencodecs/commit/22844fc22d22133e4605d7ec6239b41c2f6c77fe"
+    },
+    {
+      "commit_date": "2026-10-04T00:26:53.000-07:00",
+      "author": "kevinjohncutler",
+      "repository": "kevinjohncutler/opencodecs",
+      "commit_url": "https://github.com/kevinjohncutler/opencodecs/commit/87b41bff134cb626680726afa212282e65bf9bf7"
     },
     {
       "commit_date": "2026-10-03T21:21:38.000-04:00",
