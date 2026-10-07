@@ -1,9 +1,111 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-06T01:43:18+00:00",
+  "generated": "2026-10-07T01:48:39+00:00",
   "recent_days": 10,
-  "total_commits": 2305,
+  "total_commits": 2324,
   "commits": [
+    {
+      "commit_date": "2026-10-06T20:15:41.000+02:00",
+      "author": "jo-mueller",
+      "repository": "ome/napari-ome-zarr",
+      "commit_url": "https://github.com/ome/napari-ome-zarr/commit/d82adba4cf6cfe415027ea6f35733129992eb9d7"
+    },
+    {
+      "commit_date": "2026-10-06T19:29:18.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/004bfd9c0c74b1fac5ef518ebfbcd21b5bd8acc2"
+    },
+    {
+      "commit_date": "2026-10-06T19:19:18.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/ffd888a5d4cbcbbcf1fea655818c18955569e21d"
+    },
+    {
+      "commit_date": "2026-10-06T16:17:37.000+02:00",
+      "author": "Bisaloo",
+      "repository": "Huber-group-EMBL/romeo",
+      "commit_url": "https://github.com/Huber-group-EMBL/romeo/commit/6137a238569d759070c0752bc6c49a89cf7b0819"
+    },
+    {
+      "commit_date": "2026-10-06T14:16:51.000+02:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/906d2c032ab9f52dd9da51e2c33226488dd7e190"
+    },
+    {
+      "commit_date": "2026-10-06T13:20:04.000+01:00",
+      "author": "AlexBecalick",
+      "repository": "bourdenxlab/MerXen",
+      "commit_url": "https://github.com/bourdenxlab/MerXen/commit/dbb0a9da2745525654fc48ba96c7e67bd3619430"
+    },
+    {
+      "commit_date": "2026-10-06T13:09:17.000-06:00",
+      "author": "fwkoch",
+      "repository": "scipy-conference/scipy_proceedings",
+      "commit_url": "https://github.com/scipy-conference/scipy_proceedings/commit/597f7df21672ec5e0a6a390d782441b864ea4b9a"
+    },
+    {
+      "commit_date": "2026-10-06T12:21:56.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony-snouty",
+      "commit_url": "https://github.com/ferrinm/zarrmony-snouty/commit/b8a422b7a790614f234f3945b2dfc6f67f649040"
+    },
+    {
+      "commit_date": "2026-10-06T11:55:52.000+02:00",
+      "author": "junelsolis",
+      "repository": "Turku-BioImaging/ome-zarr-io",
+      "commit_url": "https://github.com/Turku-BioImaging/ome-zarr-io/commit/1736aa6db84dbdfa679f39997f480e0cb133fc37"
+    },
+    {
+      "commit_date": "2026-10-06T09:15:10.000+02:00",
+      "author": "jo-mueller",
+      "repository": "conda-forge/ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/ome-zarr-feedstock/commit/ef72c17f1071e4ddc2bcf034ed9859eed2097235"
+    },
+    {
+      "commit_date": "2026-10-06T08:57:11.000+02:00",
+      "author": "LabTelc",
+      "repository": "vilifo/volume-gallery",
+      "commit_url": "https://github.com/vilifo/volume-gallery/commit/d8471b31aed2a83c9d5f9abd093ac9629ba9ad86"
+    },
+    {
+      "commit_date": "2026-10-06T08:57:02.000+02:00",
+      "author": "LabTelc",
+      "repository": "vilifo/volume-gallery",
+      "commit_url": "https://github.com/vilifo/volume-gallery/commit/81c528de549f8d15a619fcceb731d7e116c52c69"
+    },
+    {
+      "commit_date": "2026-10-06T08:53:32.000+02:00",
+      "author": "LabTelc",
+      "repository": "vilifo/volume-gallery",
+      "commit_url": "https://github.com/vilifo/volume-gallery/commit/794efa43999e0842188c54ea9634df3d9a6baf29"
+    },
+    {
+      "commit_date": "2026-10-06T07:38:30.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-pr_info/commit/ac92a30c6f1830a14a3e1b6d91ca75b4aadce720"
+    },
+    {
+      "commit_date": "2026-10-06T07:17:46.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-node_attrs",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-node_attrs/commit/1c7b69a08a10c8d7fbb8840c73f3bb75ece58c1e"
+    },
+    {
+      "commit_date": "2026-10-06T07:15:29.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/86330f45e8ce353f0ff22836ff97dca5b20b5227"
+    },
+    {
+      "commit_date": "2026-10-05T23:59:46.000-07:00",
+      "author": "uermel",
+      "repository": "copick/copick",
+      "commit_url": "https://github.com/copick/copick/commit/7611879ebb94ddaa2c4b288970d46a70cd7d913e"
+    },
     {
       "commit_date": "2026-10-05T20:57:33.000Z",
       "author": "conda-forge-bot-data-manager[bot]",
@@ -21,6 +123,12 @@
       "author": "conda-forge-bot-data-manager[bot]",
       "repository": "conda-forge/conda-forge-bot-data-versions",
       "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-versions/commit/44fc7ee667587163f93fdfca94d5eff79c2f1170"
+    },
+    {
+      "commit_date": "2026-10-05T14:37:24.000+02:00",
+      "author": "jo-mueller",
+      "repository": "ome/napari-ome-zarr",
+      "commit_url": "https://github.com/ome/napari-ome-zarr/commit/9494c14db67eca6e63894f2e6b57264cdc36f0df"
     },
     {
       "commit_date": "2026-10-05T13:50:52.000+02:00",
@@ -51,6 +159,12 @@
       "author": "conda-forge-bot-data-manager[bot]",
       "repository": "conda-forge/conda-forge-bot-data-versions",
       "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-versions/commit/0c3da99d5535b7b77a351c35aee3ecfdb8f1b0c0"
+    },
+    {
+      "commit_date": "2026-10-05T11:09:17.000+02:00",
+      "author": "jo-mueller",
+      "repository": "ome/napari-ome-zarr",
+      "commit_url": "https://github.com/ome/napari-ome-zarr/commit/09c3c6f521e0f39a11f985f0083cbea138574a23"
     },
     {
       "commit_date": "2026-10-04T23:01:21.000-05:00",
