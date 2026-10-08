@@ -1,9 +1,309 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-07T01:48:39+00:00",
+  "generated": "2026-10-08T01:49:08+00:00",
   "recent_days": 10,
-  "total_commits": 2324,
+  "total_commits": 2377,
   "commits": [
+    {
+      "commit_date": "2026-10-08T03:25:52.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/vzip",
+      "commit_url": "https://github.com/d-v-b/vzip/commit/d76ce817279d975defddab2e5952f8c3a894ffb1"
+    },
+    {
+      "commit_date": "2026-10-08T03:25:52.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/vzip",
+      "commit_url": "https://github.com/d-v-b/vzip/commit/77ac49e0393927c79a20fbf813b5080d7f1fd3b5"
+    },
+    {
+      "commit_date": "2026-10-08T03:25:51.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/vzip",
+      "commit_url": "https://github.com/d-v-b/vzip/commit/21ac22e45113401d41c3f0163a6d6144c4477e94"
+    },
+    {
+      "commit_date": "2026-10-08T03:25:51.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/vzip",
+      "commit_url": "https://github.com/d-v-b/vzip/commit/9e07bfad79ebd90511aa244b5da13e10ee8f54d2"
+    },
+    {
+      "commit_date": "2026-10-08T03:25:50.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/vzip",
+      "commit_url": "https://github.com/d-v-b/vzip/commit/2fb0ead2bc4c1013835c0260eb7d172799bba7fb"
+    },
+    {
+      "commit_date": "2026-10-08T03:25:50.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/vzip",
+      "commit_url": "https://github.com/d-v-b/vzip/commit/d6f3b3a528c27bcecbd9929ecf261682058d4f16"
+    },
+    {
+      "commit_date": "2026-10-07T20:32:36.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/a4ac42c5619b32ca01cc4366cc5a2413e1bbc1fe"
+    },
+    {
+      "commit_date": "2026-10-07T19:03:44.000Z",
+      "author": "claude",
+      "repository": "thomdehoog/ZMART-viewer",
+      "commit_url": "https://github.com/thomdehoog/ZMART-viewer/commit/dac779e1738af1994a7c9af93ef1b71fd80dda7d"
+    },
+    {
+      "commit_date": "2026-10-07T18:17:44.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/0bf9b1703378200698761eec595633b1907a0d7d"
+    },
+    {
+      "commit_date": "2026-10-07T18:02:27.000+02:00",
+      "author": "RAHoebe",
+      "repository": "Cellular-Imaging-Amsterdam-UMC/cisegmentation",
+      "commit_url": "https://github.com/Cellular-Imaging-Amsterdam-UMC/cisegmentation/commit/ae876b2f9e7cf9532709a5bfc772c47fe1b36906"
+    },
+    {
+      "commit_date": "2026-10-07T17:43:56.000-04:00",
+      "author": "ebremer",
+      "repository": "ebremer/falcon",
+      "commit_url": "https://github.com/ebremer/falcon/commit/7fb984d0fd0782818a66bfa6be4f6a5a48bb6f2e"
+    },
+    {
+      "commit_date": "2026-10-07T15:33:19.000-04:00",
+      "author": "ebremer",
+      "repository": "ebremer/falcon",
+      "commit_url": "https://github.com/ebremer/falcon/commit/0f1869540bb75a0269825d26e21308f9203deef6"
+    },
+    {
+      "commit_date": "2026-10-07T15:28:37.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/iohub",
+      "commit_url": "https://github.com/czbiohub-sf/iohub/commit/d1f9e89294529d365719cf87a9b29622ca77a992"
+    },
+    {
+      "commit_date": "2026-10-07T15:03:43.000+01:00",
+      "author": "will-moore",
+      "repository": "conda-forge/ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/ome-zarr-feedstock/commit/c20644b5d1bee1f48d79521de667189eecc5aa54"
+    },
+    {
+      "commit_date": "2026-10-07T14:32:58.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-pr_info/commit/606476adb1671002e18a810fa2630ce43dbab2b5"
+    },
+    {
+      "commit_date": "2026-10-07T14:26:49.000-04:00",
+      "author": "ebremer",
+      "repository": "ebremer/falcon",
+      "commit_url": "https://github.com/ebremer/falcon/commit/48b04cc9a83217f850dc979d58433706fb4f7a61"
+    },
+    {
+      "commit_date": "2026-10-07T14:06:58.000-07:00",
+      "author": "thewtex",
+      "repository": "InsightSoftwareConsortium/ITKElastix",
+      "commit_url": "https://github.com/InsightSoftwareConsortium/ITKElastix/commit/7a319403936dd64765837e3b2b7ba3377cb7ae78"
+    },
+    {
+      "commit_date": "2026-10-07T14:06:02.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-node_attrs",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-node_attrs/commit/95d71875932f3ae0e68dd55a35f4ac7f5937d7b1"
+    },
+    {
+      "commit_date": "2026-10-07T14:04:17.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-pr_info/commit/3ad0ff3c50d9e2ea63720a3ba4ad1b14d46e6a6a"
+    },
+    {
+      "commit_date": "2026-10-07T14:03:55.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/79545388c4581e0d08f5de77c1ed07c06870336d"
+    },
+    {
+      "commit_date": "2026-10-07T14:00:27.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-pr_info/commit/7175db37448512bdbfbacca309f66f3a4bebc03a"
+    },
+    {
+      "commit_date": "2026-10-07T13:46:16.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-version_pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-version_pr_info/commit/7ba7629c6f988867c49cca92c7cdc2019c84b83d"
+    },
+    {
+      "commit_date": "2026-10-07T13:45:14.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-version_pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-version_pr_info/commit/07a864a7590e05eac9ecfefa21bcc164712fdd5d"
+    },
+    {
+      "commit_date": "2026-10-07T13:44:02.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/d1f2605b14c789d544aadc6d5c7524ae0812579c"
+    },
+    {
+      "commit_date": "2026-10-07T13:28:14.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/470a05bb62679db00286c1a2b9668cb762f97851"
+    },
+    {
+      "commit_date": "2026-10-07T13:24:32.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/789a42619a8b64c52fe1ea61cb1d36e6e2c6320d"
+    },
+    {
+      "commit_date": "2026-10-07T13:21:13.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-versions",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-versions/commit/8d19ee473da170cd26094578380070db5618dda7"
+    },
+    {
+      "commit_date": "2026-10-07T12:51:25.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-versions",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-versions/commit/2b2bfb7126d4ce5ac3562a568eea6558a1bf8f48"
+    },
+    {
+      "commit_date": "2026-10-07T12:48:21.000-07:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/5be95966803e734b1f5cda4ea7e96edc7ac0d44c"
+    },
+    {
+      "commit_date": "2026-10-07T12:42:38.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/0d0d32bc9031a217dc62ef5b481de4770c8b1eea"
+    },
+    {
+      "commit_date": "2026-10-07T12:20:59.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/cdc18a5ca25b958376eba6e1c6346ee9f7e359c5"
+    },
+    {
+      "commit_date": "2026-10-07T12:06:22.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/2753c809e3065bf574e04c33f37f77653b005e50"
+    },
+    {
+      "commit_date": "2026-10-07T10:12:00.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/51d0bb384fac1ff78f0064fda23b5f8f29d4191f"
+    },
+    {
+      "commit_date": "2026-10-07T10:06:28.000-07:00",
+      "author": "Richard Zimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/56949b0fa14a032d13152a59948979c6b27ea8eb"
+    },
+    {
+      "commit_date": "2026-10-07T10:05:22.000-07:00",
+      "author": "Richard Zimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/261c11cced2e686f3a2309b78056e1a18ec696de"
+    },
+    {
+      "commit_date": "2026-10-07T09:55:32.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/93586ab710be1f456765ce749fb2676efd11c44c"
+    },
+    {
+      "commit_date": "2026-10-07T09:55:29.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/37e97588d9a138c61b7da75d0c0012ce10a0b4ee"
+    },
+    {
+      "commit_date": "2026-10-07T09:40:50.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/5c0bf72fc49cc73399aed53bb5e7152eeed6b5db"
+    },
+    {
+      "commit_date": "2026-10-07T09:28:58.000-07:00",
+      "author": "Richard Zimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/574b078f08b74c0aba1236b3dec3b5c02d03c7b8"
+    },
+    {
+      "commit_date": "2026-10-07T09:28:06.000+02:00",
+      "author": "normanrz",
+      "repository": "scalableminds/webknossos",
+      "commit_url": "https://github.com/scalableminds/webknossos/commit/6b6964d610c3918db4172f8ff2cbf4a230c1bbed"
+    },
+    {
+      "commit_date": "2026-10-07T09:09:09.000-07:00",
+      "author": "Richard Zimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/e130ec2d464269a60b4731f07a94be20978a414f"
+    },
+    {
+      "commit_date": "2026-10-07T08:17:26.000-07:00",
+      "author": "richardzimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/d5087875141504be5f89dfb9493eaca33c41db8d"
+    },
+    {
+      "commit_date": "2026-10-07T07:10:46.000-07:00",
+      "author": "Richard Zimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/a81c13159878474e62b94c7baa11c1e36544c0ce"
+    },
+    {
+      "commit_date": "2026-10-07T05:58:22.000-07:00",
+      "author": "Richard Zimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/d4c6adc4562f6fee11e2068806616040787251a5"
+    },
+    {
+      "commit_date": "2026-10-07T05:37:07.000-07:00",
+      "author": "Richard Zimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/2175e3db6acd6beeb65893858a67db6b09ac0f59"
+    },
+    {
+      "commit_date": "2026-10-07T05:36:37.000-07:00",
+      "author": "Richard Zimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/4c57bbc20bf5df671ea5df8e45cd08291d1ab0f4"
+    },
+    {
+      "commit_date": "2026-10-07T00:13:44.000-07:00",
+      "author": "Richard Zimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/017dd911b2a0f8b51f283de6e70e3633dffdf698"
+    },
+    {
+      "commit_date": "2026-10-06T22:57:10.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/83fc1f27884154a8d7a638907ce2f693bb519b3f"
+    },
+    {
+      "commit_date": "2026-10-06T22:42:45.000-04:00",
+      "author": "thewtex",
+      "repository": "InsightSoftwareConsortium/ITKElastix",
+      "commit_url": "https://github.com/InsightSoftwareConsortium/ITKElastix/commit/133abc47eaf10f27e2324c496e8ac30bcd2ec8e6"
+    },
+    {
+      "commit_date": "2026-10-06T22:04:00.000-04:00",
+      "author": "MicTott",
+      "repository": "MicTott/spatialscape",
+      "commit_url": "https://github.com/MicTott/spatialscape/commit/51f2c4dc9389d379dda40abd147cddcda2275310"
+    },
     {
       "commit_date": "2026-10-06T20:15:41.000+02:00",
       "author": "jo-mueller",
@@ -33,6 +333,18 @@
       "author": "stefanhahmann",
       "repository": "BioImageTools/ome-zarr-fiji-java",
       "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/906d2c032ab9f52dd9da51e2c33226488dd7e190"
+    },
+    {
+      "commit_date": "2026-10-06T14:12:23.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/d99f3c49bd80a9daa567f4685513ec319fe3e201"
+    },
+    {
+      "commit_date": "2026-10-06T13:51:10.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/b09b2feb3f4cac6cd464085a00d0ebe73fc7066d"
     },
     {
       "commit_date": "2026-10-06T13:20:04.000+01:00",
@@ -105,6 +417,12 @@
       "author": "uermel",
       "repository": "copick/copick",
       "commit_url": "https://github.com/copick/copick/commit/7611879ebb94ddaa2c4b288970d46a70cd7d913e"
+    },
+    {
+      "commit_date": "2026-10-05T21:43:40.000-07:00",
+      "author": "Xander-git",
+      "repository": "exfab/PhenoTypic",
+      "commit_url": "https://github.com/exfab/PhenoTypic/commit/24b6fece395706971107de3e61e12ba6f720e8f7"
     },
     {
       "commit_date": "2026-10-05T20:57:33.000Z",
