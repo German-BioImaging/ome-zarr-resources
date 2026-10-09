@@ -1,9 +1,63 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-08T01:49:08+00:00",
+  "generated": "2026-10-09T01:51:15+00:00",
   "recent_days": 10,
-  "total_commits": 2377,
+  "total_commits": 2389,
   "commits": [
+    {
+      "commit_date": "2026-10-08T23:06:32.000+02:00",
+      "author": "thomdehoog",
+      "repository": "thomdehoog/ZMART-viewer",
+      "commit_url": "https://github.com/thomdehoog/ZMART-viewer/commit/c5aa4f263b3a468df47ec4eddb316099c40d442b"
+    },
+    {
+      "commit_date": "2026-10-08T20:40:54.000+02:00",
+      "author": "maartenpaul",
+      "repository": "Leiden-Cell-Observatory/omero_annotate_ai",
+      "commit_url": "https://github.com/Leiden-Cell-Observatory/omero_annotate_ai/commit/c7c2da1389e11fac4274b2b13961bc514fa9c221"
+    },
+    {
+      "commit_date": "2026-10-08T17:28:11.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/iohub",
+      "commit_url": "https://github.com/czbiohub-sf/iohub/commit/52b29ed00faa25ec5009f0a43bb446cd7938cedf"
+    },
+    {
+      "commit_date": "2026-10-08T14:47:34.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/32737538c5131888a608ab0564a47e2a9f801575"
+    },
+    {
+      "commit_date": "2026-10-08T14:02:14.000+01:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/23f22722272eb2956fe613d8956ca96bc56bea99"
+    },
+    {
+      "commit_date": "2026-10-08T12:58:53.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/4f173d87788147cadb2d23785d0b842382fbcf1f"
+    },
+    {
+      "commit_date": "2026-10-08T12:58:52.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/494a235ad15b49c29f533630a9f8ba96ef3505cd"
+    },
+    {
+      "commit_date": "2026-10-08T10:45:30.000-04:00",
+      "author": "tferr",
+      "repository": "morphonets/SNT",
+      "commit_url": "https://github.com/morphonets/SNT/commit/900f8aa3b1ffebd310704ca4bc7c718a2b80a678"
+    },
+    {
+      "commit_date": "2026-10-08T09:22:58.000-04:00",
+      "author": "tferr",
+      "repository": "morphonets/SNT",
+      "commit_url": "https://github.com/morphonets/SNT/commit/838a2312964985f9a87f90af8fe66e9f6ce2b8bc"
+    },
     {
       "commit_date": "2026-10-08T03:25:52.000+02:00",
       "author": "d-v-b",
@@ -39,6 +93,24 @@
       "author": "d-v-b",
       "repository": "d-v-b/vzip",
       "commit_url": "https://github.com/d-v-b/vzip/commit/d6f3b3a528c27bcecbd9929ecf261682058d4f16"
+    },
+    {
+      "commit_date": "2026-10-08T02:31:48.000-07:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/873906d5f6419c3fcdce6f38fe3ad847d8dc5d73"
+    },
+    {
+      "commit_date": "2026-10-07T21:33:31.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/49a38922b8922b3561388c5d1745296abe65734a"
+    },
+    {
+      "commit_date": "2026-10-07T21:32:46.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/f046ad6a73a6cd78b300010b7369ec64ff64046c"
     },
     {
       "commit_date": "2026-10-07T20:32:36.000-04:00",
