@@ -1,14 +1,104 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-09T01:51:15+00:00",
+  "generated": "2026-10-10T01:47:34+00:00",
   "recent_days": 10,
-  "total_commits": 2389,
+  "total_commits": 2404,
   "commits": [
+    {
+      "commit_date": "2026-10-09T18:29:17.000-07:00",
+      "author": "thewtex",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/d1e7160f06c21d752738cbb36f1507fe54256218"
+    },
+    {
+      "commit_date": "2026-10-09T16:55:22.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/f4f3c46c197ccd45e28a6db38951ee98a32f4108"
+    },
+    {
+      "commit_date": "2026-10-09T16:45:47.000-04:00",
+      "author": "jiyuuchc",
+      "repository": "biopb/biopb-napari-widget",
+      "commit_url": "https://github.com/biopb/biopb-napari-widget/commit/959d291b4e7c4af1bd982870b58d19612cdd513b"
+    },
+    {
+      "commit_date": "2026-10-09T16:35:04.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/4ce6370aa9fa5d74bd5ee777611c5e2c781d8750"
+    },
+    {
+      "commit_date": "2026-10-09T16:18:32.000+02:00",
+      "author": "rensutheart",
+      "repository": "rensutheart/vipp-mkdocs",
+      "commit_url": "https://github.com/rensutheart/vipp-mkdocs/commit/8f02f7fdd19e021ebc93cd901d6feb6abdb2f762"
+    },
+    {
+      "commit_date": "2026-10-09T15:53:37.000+02:00",
+      "author": "rensutheart",
+      "repository": "rensutheart/vipp-mkdocs",
+      "commit_url": "https://github.com/rensutheart/vipp-mkdocs/commit/11401ee0c5d234ae83e9b4832b1e88d3025078ae"
+    },
+    {
+      "commit_date": "2026-10-09T15:32:14.000+01:00",
+      "author": "mwinding",
+      "repository": "mwinding/em-pipe",
+      "commit_url": "https://github.com/mwinding/em-pipe/commit/9c8013fc34da36749d6e286f1c8afc3d0307def4"
+    },
+    {
+      "commit_date": "2026-10-09T15:17:03.000+02:00",
+      "author": "rensutheart",
+      "repository": "rensutheart/napari-vipp",
+      "commit_url": "https://github.com/rensutheart/napari-vipp/commit/9202e4af66a4e21f0e3c07ee90d82b0a2f853668"
+    },
+    {
+      "commit_date": "2026-10-09T14:15:40.000Z",
+      "author": "claude",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/9ed9339f07cac3b4b3ac6326c41bfdb4e047b615"
+    },
+    {
+      "commit_date": "2026-10-09T12:35:39.000+02:00",
+      "author": "flevet",
+      "repository": "flevet/PoCA",
+      "commit_url": "https://github.com/flevet/PoCA/commit/d164beb054118d62b7f830d33b46cedbe0e3250c"
+    },
+    {
+      "commit_date": "2026-10-09T08:55:48.000-04:00",
+      "author": "LossFunctions",
+      "repository": "LossFunctions/vesuvius-tiff-source-preservation",
+      "commit_url": "https://github.com/LossFunctions/vesuvius-tiff-source-preservation/commit/0b04be8bcc058a198c5eef4b02e63561be4be28b"
+    },
+    {
+      "commit_date": "2026-10-09T07:05:11.000-07:00",
+      "author": "dpshepherd",
+      "repository": "QI2lab/opm-processing-v2",
+      "commit_url": "https://github.com/QI2lab/opm-processing-v2/commit/049c19c5eb14e13a5d416de08f89e598b42b9918"
+    },
+    {
+      "commit_date": "2026-10-09T01:09:22.000-07:00",
+      "author": "richardzimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/d4b87f0bb32adc2cc25dbce93596b5a3a9ceb0dd"
+    },
+    {
+      "commit_date": "2026-10-09T00:39:10.000-07:00",
+      "author": "jcooperkai-sys",
+      "repository": "jcooperkai-sys/Scan-Quality-Map",
+      "commit_url": "https://github.com/jcooperkai-sys/Scan-Quality-Map/commit/77939246928393bbb29fd5af1015de66ce38e1c5"
+    },
     {
       "commit_date": "2026-10-08T23:06:32.000+02:00",
       "author": "thomdehoog",
       "repository": "thomdehoog/ZMART-viewer",
       "commit_url": "https://github.com/thomdehoog/ZMART-viewer/commit/c5aa4f263b3a468df47ec4eddb316099c40d442b"
+    },
+    {
+      "commit_date": "2026-10-08T22:24:16.000-07:00",
+      "author": "richardzimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/b4dc7748728db0305014b4a59e547cff17fe6b83"
     },
     {
       "commit_date": "2026-10-08T20:40:54.000+02:00",
