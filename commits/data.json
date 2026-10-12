@@ -1,9 +1,69 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-11T01:49:41+00:00",
+  "generated": "2026-10-12T01:55:35+00:00",
   "recent_days": 10,
-  "total_commits": 2425,
+  "total_commits": 2439,
   "commits": [
+    {
+      "commit_date": "2026-10-12T11:18:29.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/caf52d3b6b31779383c6003a6c278eb1a8e5ff34"
+    },
+    {
+      "commit_date": "2026-10-12T00:33:01.000Z",
+      "author": "claude",
+      "repository": "Waltham-Data-Science/NDI-python",
+      "commit_url": "https://github.com/Waltham-Data-Science/NDI-python/commit/03e5f268f645da0e0ffc1c853b3ea8a896a66ba7"
+    },
+    {
+      "commit_date": "2026-10-11T22:31:13.000+02:00",
+      "author": "curlh",
+      "repository": "Experimental-Microscopy-Lab/ScopeWriter",
+      "commit_url": "https://github.com/Experimental-Microscopy-Lab/ScopeWriter/commit/440cddd262973028aadd17b5c469615d6787b048"
+    },
+    {
+      "commit_date": "2026-10-11T22:21:38.000+02:00",
+      "author": "curlh",
+      "repository": "Experimental-Microscopy-Lab/ScopeWriter",
+      "commit_url": "https://github.com/Experimental-Microscopy-Lab/ScopeWriter/commit/855ea84a7370b651e65b7dfb02c95d6519b37adb"
+    },
+    {
+      "commit_date": "2026-10-11T21:47:30.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/d4214f920bfef16549073bc3082ea3376e45958d"
+    },
+    {
+      "commit_date": "2026-10-11T18:38:42.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/16d8597094c2959f3667c8dbd327d9e049bc3ae5"
+    },
+    {
+      "commit_date": "2026-10-11T17:26:11.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/f877d9362b84c9ffd3017c147c675e0270d144d4"
+    },
+    {
+      "commit_date": "2026-10-11T17:20:55.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/vzip",
+      "commit_url": "https://github.com/d-v-b/vzip/commit/db221f20296f0f5390d79d9050ff1c95d01f33ba"
+    },
+    {
+      "commit_date": "2026-10-11T13:48:02.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/vzip",
+      "commit_url": "https://github.com/d-v-b/vzip/commit/91755cf990e55ea2269bc3bdd6c5776e9cb9d616"
+    },
+    {
+      "commit_date": "2026-10-11T13:16:20.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/2d68e232be31c81a3bfe9d99b035ae806d0b8eeb"
+    },
     {
       "commit_date": "2026-10-10T22:34:39.000+11:00",
       "author": "schienstockd",
@@ -101,6 +161,12 @@
       "commit_url": "https://github.com/Experimental-Microscopy-Lab/ScopeWriter/commit/2c35954936de12ca5b94c320ad0b3dfb0a0837b2"
     },
     {
+      "commit_date": "2026-10-10T12:26:59.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/e7f386bcda2bbc3fb4e9e36e727bc2e8a538d50d"
+    },
+    {
       "commit_date": "2026-10-10T09:27:52.000-07:00",
       "author": "delnatan",
       "repository": "delnatan/pyvistra",
@@ -113,10 +179,28 @@
       "commit_url": "https://github.com/ckmah/milume/commit/770faaa9175471701dbc9740144178543e8bbf6e"
     },
     {
+      "commit_date": "2026-10-10T02:55:50.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/2ea009385198eba157126eea385ddd052c80046f"
+    },
+    {
+      "commit_date": "2026-10-09T21:54:54.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/a86c77c8d760f3d11e1e751a99798e2537b1ca7a"
+    },
+    {
       "commit_date": "2026-10-09T20:53:21.000+11:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/8ae66046d3073b06d7d65688237882513cae964c"
+    },
+    {
+      "commit_date": "2026-10-09T20:44:43.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/3575e18279b1390e249b452703f7c5d521869bbf"
     },
     {
       "commit_date": "2026-10-09T18:29:17.000-07:00",
