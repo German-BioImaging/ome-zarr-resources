@@ -1,9 +1,105 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-12T01:55:35+00:00",
+  "generated": "2026-10-13T01:53:14+00:00",
   "recent_days": 10,
-  "total_commits": 2439,
+  "total_commits": 2457,
   "commits": [
+    {
+      "commit_date": "2026-10-13T09:58:11.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/2ec51208d51398e5fb3e4a28e48b9ede61747e9f"
+    },
+    {
+      "commit_date": "2026-10-12T20:09:26.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/vzip",
+      "commit_url": "https://github.com/d-v-b/vzip/commit/97858fcdc06fb5f6381a2e24137f6a6655ea038b"
+    },
+    {
+      "commit_date": "2026-10-12T19:20:03.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/0e3470d72be9677b7b177245696e38ecbda66fe4"
+    },
+    {
+      "commit_date": "2026-10-12T17:59:37.000+03:00",
+      "author": "CVasilopoulos",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/ba2bf755e0aa5072ceffcef5b58d8af46e2e452a"
+    },
+    {
+      "commit_date": "2026-10-12T15:56:09.000+01:00",
+      "author": "will-moore",
+      "repository": "conda-forge/napari-ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/napari-ome-zarr-feedstock/commit/3261d811339f05e65b5ca4e9dc1c8194d9894cbf"
+    },
+    {
+      "commit_date": "2026-10-12T15:55:19.000Z",
+      "author": "claude",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/0bc0a15f8fb5407043aa60244c5924ce77c3500b"
+    },
+    {
+      "commit_date": "2026-10-12T15:21:38.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-pr_info/commit/43a9368d040a46fe0f1f8c3078be1d6d79464f18"
+    },
+    {
+      "commit_date": "2026-10-12T15:10:03.000Z",
+      "author": "LaBlueberryPie",
+      "repository": "LaBlueberryPie/apok-eval",
+      "commit_url": "https://github.com/LaBlueberryPie/apok-eval/commit/d5007ec57f4803002a63840944aa57eb05b73f07"
+    },
+    {
+      "commit_date": "2026-10-12T14:59:46.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-node_attrs",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-node_attrs/commit/d411470a5f2c8c18d6a94eb1febfd52f3f4794e0"
+    },
+    {
+      "commit_date": "2026-10-12T14:56:27.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/75008cb03fa33668dda3218e060baa6e6122067a"
+    },
+    {
+      "commit_date": "2026-10-12T14:50:38.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/eaf357b1a70983522eef33e6f11c15dd1889999e"
+    },
+    {
+      "commit_date": "2026-10-12T14:15:53.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/16f6c6547226f9511d3f23bf7a7a79415498292e"
+    },
+    {
+      "commit_date": "2026-10-12T13:45:42.000+02:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/9acff16a543b5c95f4ba5c1cf721c8b648235336"
+    },
+    {
+      "commit_date": "2026-10-12T13:10:05.000Z",
+      "author": "claude",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/7549cb927bfa01808867adfc96bf686d3ef53721"
+    },
+    {
+      "commit_date": "2026-10-12T11:55:47.000-04:00",
+      "author": "joshua-gould",
+      "repository": "Genentech/scallops",
+      "commit_url": "https://github.com/Genentech/scallops/commit/a40c7ae33b0c53b928d620efeafaca6db98db2bb"
+    },
+    {
+      "commit_date": "2026-10-12T11:25:01.000+02:00",
+      "author": "rutgerkok",
+      "repository": "jvzonlab/OrganoidTracker",
+      "commit_url": "https://github.com/jvzonlab/OrganoidTracker/commit/385e4c395c62ee4d7bc2086b252847a03809061a"
+    },
     {
       "commit_date": "2026-10-12T11:18:29.000+11:00",
       "author": "schienstockd",
@@ -11,10 +107,22 @@
       "commit_url": "https://github.com/schienstockd/cecelia/commit/caf52d3b6b31779383c6003a6c278eb1a8e5ff34"
     },
     {
+      "commit_date": "2026-10-12T10:11:16.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/vzip",
+      "commit_url": "https://github.com/d-v-b/vzip/commit/cb19c358fe9b3b41855d7b247ffe8227362b5215"
+    },
+    {
       "commit_date": "2026-10-12T00:33:01.000Z",
       "author": "claude",
       "repository": "Waltham-Data-Science/NDI-python",
       "commit_url": "https://github.com/Waltham-Data-Science/NDI-python/commit/03e5f268f645da0e0ffc1c853b3ea8a896a66ba7"
+    },
+    {
+      "commit_date": "2026-10-11T23:56:06.000-07:00",
+      "author": "antonrmolina",
+      "repository": "nucleus-eng/devstudio-board",
+      "commit_url": "https://github.com/nucleus-eng/devstudio-board/commit/54c823cfd88dc3606d5a2f2e559a854bd4ea934b"
     },
     {
       "commit_date": "2026-10-11T22:31:13.000+02:00",
