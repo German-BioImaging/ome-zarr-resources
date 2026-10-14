@@ -1,14 +1,134 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-13T01:53:14+00:00",
+  "generated": "2026-10-14T01:35:25+00:00",
   "recent_days": 10,
-  "total_commits": 2457,
+  "total_commits": 2477,
   "commits": [
+    {
+      "commit_date": "2026-10-13T23:32:13.000Z",
+      "author": "TAUIL-Abd-Elilah",
+      "repository": "TAUIL-Abd-Elilah/spiral-winding-audit",
+      "commit_url": "https://github.com/TAUIL-Abd-Elilah/spiral-winding-audit/commit/a3d08719760315b3a39b13ceb6658ed0051f160a"
+    },
+    {
+      "commit_date": "2026-10-13T20:39:29.000-04:00",
+      "author": "stevevanhooser",
+      "repository": "VH-Lab/NDI-matlab",
+      "commit_url": "https://github.com/VH-Lab/NDI-matlab/commit/d292984fe2d4b743a692f961ad1789a0e9c9e52a"
+    },
+    {
+      "commit_date": "2026-10-13T19:28:03.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/778cd1854c78045e7132c180d794e02733acc1eb"
+    },
+    {
+      "commit_date": "2026-10-13T18:56:23.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/0399c1179492fb30927e8d1ab92ce6232ff5ba01"
+    },
+    {
+      "commit_date": "2026-10-13T18:34:55.000+02:00",
+      "author": "LJatLIM",
+      "repository": "Laboratory-Imaging/limnd2",
+      "commit_url": "https://github.com/Laboratory-Imaging/limnd2/commit/ede7e4c8b510d5c23e21e13ac089921745f59262"
+    },
+    {
+      "commit_date": "2026-10-13T18:29:27.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/1b7c28be479a019d578c8e5e72dc38fb80ad9b08"
+    },
+    {
+      "commit_date": "2026-10-13T16:33:33.000Z",
+      "author": "claude",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/1f9af7ffcaa1e4e784f736431585788c34d74daf"
+    },
+    {
+      "commit_date": "2026-10-13T16:14:02.000Z",
+      "author": "claude",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/c808a3af229e7a3249d2d2ca2c8e9a035449677c"
+    },
+    {
+      "commit_date": "2026-10-13T15:06:59.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/3150607e5ecf0612e9d85acd2dca55734823948a"
+    },
+    {
+      "commit_date": "2026-10-13T13:46:15.000-04:00",
+      "author": "allison714",
+      "repository": "allison714/ExpandedBrainQuant",
+      "commit_url": "https://github.com/allison714/ExpandedBrainQuant/commit/190b49c50aca75f4953b2c3ac02c8547f60302c1"
+    },
+    {
+      "commit_date": "2026-10-13T12:11:15.000+01:00",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/66d44de97a6737453a3be3910d73a29851e02970"
+    },
+    {
+      "commit_date": "2026-10-13T12:10:31.000Z",
+      "author": "Copilot",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/66ff758c1c7b1d658590c2b115c978bb6cf8adb8"
+    },
+    {
+      "commit_date": "2026-10-13T11:52:33.000+02:00",
+      "author": "MPanknin",
+      "repository": "MPanknin/kiln-render",
+      "commit_url": "https://github.com/MPanknin/kiln-render/commit/219d1fe4fec29f50236f65c69d35dbc219af87a1"
+    },
+    {
+      "commit_date": "2026-10-13T11:49:33.000+01:00",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/c060e1dd00badb23a1d53c634e0ef969b0127264"
+    },
+    {
+      "commit_date": "2026-10-13T11:43:58.000+01:00",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/9c0d221ddbd3a5fe461112293627e4def73810f0"
+    },
+    {
+      "commit_date": "2026-10-13T11:08:52.000+02:00",
+      "author": "sebi06",
+      "repository": "sebi06/czitools",
+      "commit_url": "https://github.com/sebi06/czitools/commit/e06f3706691a3f975ba984f7a414a66601f957e3"
+    },
+    {
+      "commit_date": "2026-10-13T10:19:05.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/6e36eb0df58280b4012ad2b1fa36c98e0bb5284d"
+    },
     {
       "commit_date": "2026-10-13T09:58:11.000+11:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/2ec51208d51398e5fb3e4a28e48b9ede61747e9f"
+    },
+    {
+      "commit_date": "2026-10-13T09:32:48.000-03:00",
+      "author": "lubianat",
+      "repository": "lubianat/rfc7-example",
+      "commit_url": "https://github.com/lubianat/rfc7-example/commit/f43a0fed4d20ad938549bf31ab899ece62c16f64"
+    },
+    {
+      "commit_date": "2026-10-12T22:17:44.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/6ab74900fd70c0d729e0ec3f272b5b6040a5b607"
+    },
+    {
+      "commit_date": "2026-10-12T22:09:07.000-05:00",
+      "author": "nikitinvv",
+      "repository": "tomography/tomocupy",
+      "commit_url": "https://github.com/tomography/tomocupy/commit/063b0ff148a4edf6795a558fefc8cb22bad2f12e"
     },
     {
       "commit_date": "2026-10-12T20:09:26.000+02:00",
