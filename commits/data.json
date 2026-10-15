@@ -1,14 +1,98 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-14T01:35:25+00:00",
+  "generated": "2026-10-15T01:36:59+00:00",
   "recent_days": 10,
-  "total_commits": 2477,
+  "total_commits": 2495,
   "commits": [
+    {
+      "commit_date": "2026-10-14T19:31:01.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/chimerax-ngff",
+      "commit_url": "https://github.com/bscott711/chimerax-ngff/commit/373685a137094d1e20c7e9430b9298e4e503c8a1"
+    },
+    {
+      "commit_date": "2026-10-14T18:54:50.000-06:00",
+      "author": "bscott711",
+      "repository": "bscott711/chimerax-ngff",
+      "commit_url": "https://github.com/bscott711/chimerax-ngff/commit/1b62f41836d7703d183395fd8509fe6c07c5d9d4"
+    },
+    {
+      "commit_date": "2026-10-14T17:56:53.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/fair-metadata-integration",
+      "commit_url": "https://github.com/NL-BioImaging/fair-metadata-integration/commit/a07c7bd0dd57036c5cab71c9fc77063a7f0c4ae7"
+    },
+    {
+      "commit_date": "2026-10-14T17:44:36.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-template-container",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-template-container/commit/b377291fcac3e978b6ce7439d01776df4c1dec7d"
+    },
+    {
+      "commit_date": "2026-10-14T17:35:44.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/f523d5e401cfe627c189413220045170af95dfa9"
+    },
+    {
+      "commit_date": "2026-10-14T17:35:44.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/81dcc32b77b545c26b2a82277431436ec4cbaa73"
+    },
+    {
+      "commit_date": "2026-10-14T16:56:53.000Z",
+      "author": "github-actions[bot]",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/d926b1947cf0739d4fcf9de0677d83b419a3ba75"
+    },
+    {
+      "commit_date": "2026-10-14T16:09:56.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-template-container",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-template-container/commit/cca07c1847dc138ea1bd7eee5d181447414a559a"
+    },
+    {
+      "commit_date": "2026-10-14T15:26:53.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-template-container",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-template-container/commit/9423d0259d52afe0e7166a1816109833e6f2f33b"
+    },
+    {
+      "commit_date": "2026-10-14T15:20:04.000Z",
+      "author": "ChaseHendrick",
+      "repository": "ChaseHendrick/Scrolls",
+      "commit_url": "https://github.com/ChaseHendrick/Scrolls/commit/beb0ad86a3ad19185633157c19ee4e0fdbd4b380"
+    },
+    {
+      "commit_date": "2026-10-14T14:40:35.000+02:00",
+      "author": "lazarusA",
+      "repository": "lazarusA/octant",
+      "commit_url": "https://github.com/lazarusA/octant/commit/cf4aa28670bf1889e6d0bef70c045865f25f79ac"
+    },
+    {
+      "commit_date": "2026-10-14T11:53:27.000Z",
+      "author": "sfc0324",
+      "repository": "sfc0324/zarrsweep",
+      "commit_url": "https://github.com/sfc0324/zarrsweep/commit/d29de2de8ffdc05cf9f4a3c09e094a9f4af273d1"
+    },
+    {
+      "commit_date": "2026-10-14T01:20:59.000Z",
+      "author": "claude",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/e74d1ea0e4cbc11a95459a961e84e1f1acddf9cb"
+    },
     {
       "commit_date": "2026-10-13T23:32:13.000Z",
       "author": "TAUIL-Abd-Elilah",
       "repository": "TAUIL-Abd-Elilah/spiral-winding-audit",
       "commit_url": "https://github.com/TAUIL-Abd-Elilah/spiral-winding-audit/commit/a3d08719760315b3a39b13ceb6658ed0051f160a"
+    },
+    {
+      "commit_date": "2026-10-13T22:38:07.000-07:00",
+      "author": "peter-grotz",
+      "repository": "peter-grotz/exaspim-axon-segmentation",
+      "commit_url": "https://github.com/peter-grotz/exaspim-axon-segmentation/commit/05a4f63cd010aa4e6bb0d2a999e55fc0539cf067"
     },
     {
       "commit_date": "2026-10-13T20:39:29.000-04:00",
@@ -39,6 +123,30 @@
       "author": "d-v-b",
       "repository": "d-v-b/refkv",
       "commit_url": "https://github.com/d-v-b/refkv/commit/1b7c28be479a019d578c8e5e72dc38fb80ad9b08"
+    },
+    {
+      "commit_date": "2026-10-13T17:41:03.000Z",
+      "author": "claude",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/67a66f0ff98b39967c6dc05223868cb829bb4602"
+    },
+    {
+      "commit_date": "2026-10-13T17:41:03.000Z",
+      "author": "claude",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/885be040c91a928ebd1f21222226be11c1b3c991"
+    },
+    {
+      "commit_date": "2026-10-13T17:31:47.000Z",
+      "author": "claude",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/1279e3439d7c9abaa1db52b239384177e8bc8d1a"
+    },
+    {
+      "commit_date": "2026-10-13T17:31:36.000Z",
+      "author": "claude",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/5b51bf4b5f6c9c199f9bc8c1b0fa90eea6ca4494"
     },
     {
       "commit_date": "2026-10-13T16:33:33.000Z",
