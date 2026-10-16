@@ -1,14 +1,128 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-15T01:36:59+00:00",
+  "generated": "2026-10-16T01:36:27+00:00",
   "recent_days": 10,
-  "total_commits": 2495,
+  "total_commits": 2516,
   "commits": [
+    {
+      "commit_date": "2026-10-16T12:18:27.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/e89e0c11322339bc1cb469acf1d638df65b6ac3c"
+    },
+    {
+      "commit_date": "2026-10-16T12:10:06.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/5340febf04b720e1fa9b8c9d11174d5df2f07c86"
+    },
+    {
+      "commit_date": "2026-10-16T10:06:50.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/47aceca054345f6a737853be60bd88bda59002bb"
+    },
+    {
+      "commit_date": "2026-10-15T20:24:28.000+02:00",
+      "author": "grinic",
+      "repository": "embl-mif/pymif",
+      "commit_url": "https://github.com/embl-mif/pymif/commit/b1d568358305d5fe28c25ce1e29477eb9bffc64b"
+    },
+    {
+      "commit_date": "2026-10-15T18:05:03.000+02:00",
+      "author": "lorenzocerrone",
+      "repository": "BioVisionCenter/ome-zarr-converters-tools",
+      "commit_url": "https://github.com/BioVisionCenter/ome-zarr-converters-tools/commit/e761df05136e46f405e1cb2b637b3843c13a3e78"
+    },
+    {
+      "commit_date": "2026-10-15T17:47:22.000-04:00",
+      "author": "jmdelahanty",
+      "repository": "jmdelahanty/metazebrobot",
+      "commit_url": "https://github.com/jmdelahanty/metazebrobot/commit/78889a806c316dae5d155fa39e816809f736fda3"
+    },
+    {
+      "commit_date": "2026-10-15T17:24:10.000+01:00",
+      "author": "balbasty",
+      "repository": "neuroscales/nifti-zarr-py",
+      "commit_url": "https://github.com/neuroscales/nifti-zarr-py/commit/05606f1e8fc161da72a23a434656086da9aaf4cb"
+    },
+    {
+      "commit_date": "2026-10-15T17:18:01.000-07:00",
+      "author": "ieivanov",
+      "repository": "mehta-lab/waveorder",
+      "commit_url": "https://github.com/mehta-lab/waveorder/commit/8d796509b88bafc46a31b81889f6b8034a9050db"
+    },
+    {
+      "commit_date": "2026-10-15T16:40:07.000-07:00",
+      "author": "uermel",
+      "repository": "copick/copick-easymode",
+      "commit_url": "https://github.com/copick/copick-easymode/commit/f3f43a0b33282d6a3f52c2c691048169059444c2"
+    },
+    {
+      "commit_date": "2026-10-15T16:25:08.000-04:00",
+      "author": "skysky2333",
+      "repository": "skysky2333/stainID",
+      "commit_url": "https://github.com/skysky2333/stainID/commit/901f28dc068479ac16524fd1a412e0462bc18d5c"
+    },
+    {
+      "commit_date": "2026-10-15T14:39:09.000+02:00",
+      "author": "grinic",
+      "repository": "embl-mif/pymif",
+      "commit_url": "https://github.com/embl-mif/pymif/commit/fd187cc61e7e5da0b6929419fb6c59733d4dcdd1"
+    },
+    {
+      "commit_date": "2026-10-15T14:03:16.000-04:00",
+      "author": "tferr",
+      "repository": "morphonets/SNT",
+      "commit_url": "https://github.com/morphonets/SNT/commit/92a6c7c14986d22e135870719186b6c8d99b38bc"
+    },
+    {
+      "commit_date": "2026-10-15T11:51:08.000-04:00",
+      "author": "allison-truhlar",
+      "repository": "JaneliaSciComp/fileglancer",
+      "commit_url": "https://github.com/JaneliaSciComp/fileglancer/commit/0449b20d87d52cd5492c965cca00cc25b8600a10"
+    },
+    {
+      "commit_date": "2026-10-15T10:09:45.000+02:00",
+      "author": "Tomatokeftes",
+      "repository": "M4i-Imaging-Mass-Spectrometry/thyra",
+      "commit_url": "https://github.com/M4i-Imaging-Mass-Spectrometry/thyra/commit/4c73c248ad367e27e8e8ff1023b402b38d703ae6"
+    },
+    {
+      "commit_date": "2026-10-15T09:22:32.000-04:00",
+      "author": "satra",
+      "repository": "neuroscales/nifti-zarr-py",
+      "commit_url": "https://github.com/neuroscales/nifti-zarr-py/commit/8f415322e538c52eb31e8fc169a6f003664a2eeb"
+    },
+    {
+      "commit_date": "2026-10-15T09:10:31.000-04:00",
+      "author": "satra",
+      "repository": "neuroscales/nifti-zarr-py",
+      "commit_url": "https://github.com/neuroscales/nifti-zarr-py/commit/bf80affe71d31d0a3f571c52556bb8e0648e2b18"
+    },
+    {
+      "commit_date": "2026-10-14T22:30:59.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/c7133723748f4d475ac02a8e2b852b3877bc85cf"
+    },
+    {
+      "commit_date": "2026-10-14T20:45:14.000-04:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/cellmap-flow",
+      "commit_url": "https://github.com/janelia-cellmap/cellmap-flow/commit/e81d7c244642a4ade06cebfa3ed5f2dc8e45f578"
+    },
     {
       "commit_date": "2026-10-14T19:31:01.000-05:00",
       "author": "bscott711",
       "repository": "bscott711/chimerax-ngff",
       "commit_url": "https://github.com/bscott711/chimerax-ngff/commit/373685a137094d1e20c7e9430b9298e4e503c8a1"
+    },
+    {
+      "commit_date": "2026-10-14T19:23:15.000-07:00",
+      "author": "tylere",
+      "repository": "source-cooperative/zarr-viewer",
+      "commit_url": "https://github.com/source-cooperative/zarr-viewer/commit/52cb87c7818a577de2953e82cbb89bd51058a6af"
     },
     {
       "commit_date": "2026-10-14T18:54:50.000-06:00",
@@ -21,6 +135,12 @@
       "author": "folterj",
       "repository": "NL-BioImaging/fair-metadata-integration",
       "commit_url": "https://github.com/NL-BioImaging/fair-metadata-integration/commit/a07c7bd0dd57036c5cab71c9fc77063a7f0c4ae7"
+    },
+    {
+      "commit_date": "2026-10-14T17:49:23.000+02:00",
+      "author": "dv-bt",
+      "repository": "fractal-analytics-platform/fractal-facs-tasks",
+      "commit_url": "https://github.com/fractal-analytics-platform/fractal-facs-tasks/commit/2fbca5304cd0cfd8a3f729d8618a13c432646d83"
     },
     {
       "commit_date": "2026-10-14T17:44:36.000+02:00",
@@ -75,6 +195,12 @@
       "author": "sfc0324",
       "repository": "sfc0324/zarrsweep",
       "commit_url": "https://github.com/sfc0324/zarrsweep/commit/d29de2de8ffdc05cf9f4a3c09e094a9f4af273d1"
+    },
+    {
+      "commit_date": "2026-10-14T10:00:46.000-04:00",
+      "author": "allison-truhlar",
+      "repository": "JaneliaSciComp/fileglancer",
+      "commit_url": "https://github.com/JaneliaSciComp/fileglancer/commit/12787392eb781a1ef8e3d901bdb14852276316ba"
     },
     {
       "commit_date": "2026-10-14T01:20:59.000Z",
