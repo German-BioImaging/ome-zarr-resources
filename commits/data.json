@@ -1,9 +1,93 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-16T01:36:27+00:00",
+  "generated": "2026-10-17T01:34:22+00:00",
   "recent_days": 10,
-  "total_commits": 2516,
+  "total_commits": 2533,
   "commits": [
+    {
+      "commit_date": "2026-10-16T17:21:04.000+01:00",
+      "author": "balbasty",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/ffa4f96b035ed74f1afb722ac71ed7f0c494a6a1"
+    },
+    {
+      "commit_date": "2026-10-16T16:40:23.000+02:00",
+      "author": "Lumen3D Developer",
+      "repository": "nutchaxo/lumen3D",
+      "commit_url": "https://github.com/nutchaxo/lumen3D/commit/66166871caede45760e5e7511b3ea02daba0dbd3"
+    },
+    {
+      "commit_date": "2026-10-16T15:53:56.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/a1eeadb6bff0ccbddeb3e9597113f0ba51ace625"
+    },
+    {
+      "commit_date": "2026-10-16T15:23:12.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/cc584b5b595f003e13cc1d22d4886c79d36c4908"
+    },
+    {
+      "commit_date": "2026-10-16T15:03:45.000+02:00",
+      "author": "tischi",
+      "repository": "NEUBIAS/training-resources",
+      "commit_url": "https://github.com/NEUBIAS/training-resources/commit/6f2c1a6365f0230df98273ff99422d4b89d8f3f7"
+    },
+    {
+      "commit_date": "2026-10-16T14:44:03.000+02:00",
+      "author": "lorenzocerrone",
+      "repository": "fractal-analytics-platform/fractal-uzh-converters",
+      "commit_url": "https://github.com/fractal-analytics-platform/fractal-uzh-converters/commit/fcf525449cccb34fedcc6ea25dfd8db8af6a31fb"
+    },
+    {
+      "commit_date": "2026-10-16T14:42:53.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/iohub",
+      "commit_url": "https://github.com/czbiohub-sf/iohub/commit/c9832a7675e0fb997a27db2796623d19b7dc9f1a"
+    },
+    {
+      "commit_date": "2026-10-16T14:38:32.000+02:00",
+      "author": "lorenzocerrone",
+      "repository": "fractal-analytics-platform/fractal-uzh-converters",
+      "commit_url": "https://github.com/fractal-analytics-platform/fractal-uzh-converters/commit/3bfb88a6de9529e1dddc39d2d8d240f9ccdb5a05"
+    },
+    {
+      "commit_date": "2026-10-16T14:02:50.000-04:00",
+      "author": "davidackerman",
+      "repository": "JaneliaSciComp/chunkmirage",
+      "commit_url": "https://github.com/JaneliaSciComp/chunkmirage/commit/8714e0a567e04639f016b8d73a3064ae33d739ca"
+    },
+    {
+      "commit_date": "2026-10-16T13:53:14.000-04:00",
+      "author": "davidackerman",
+      "repository": "JaneliaSciComp/chunkmirage",
+      "commit_url": "https://github.com/JaneliaSciComp/chunkmirage/commit/74ba52ed09270931861d6255879a4ced4c002f9a"
+    },
+    {
+      "commit_date": "2026-10-16T13:13:46.000+02:00",
+      "author": "lazarusA",
+      "repository": "lazarusA/octant",
+      "commit_url": "https://github.com/lazarusA/octant/commit/a9a0396316827a4a4d288c612405e36ee8b18b0a"
+    },
+    {
+      "commit_date": "2026-10-16T12:59:03.000-07:00",
+      "author": "tayllatheodoro",
+      "repository": "czbiohub-sf/biahub",
+      "commit_url": "https://github.com/czbiohub-sf/biahub/commit/249cff5f2d4c10b89fc13054f6354c69588687b4"
+    },
+    {
+      "commit_date": "2026-10-16T12:57:11.000+01:00",
+      "author": "mwinding",
+      "repository": "mwinding/em-pipe",
+      "commit_url": "https://github.com/mwinding/em-pipe/commit/21fe7450cdedda8717e3ebb680ed648036ab486f"
+    },
+    {
+      "commit_date": "2026-10-16T12:31:13.000-04:00",
+      "author": "davidackerman",
+      "repository": "JaneliaSciComp/chunkmirage",
+      "commit_url": "https://github.com/JaneliaSciComp/chunkmirage/commit/20be6c6a11d577831306c303cc86960984927a1e"
+    },
     {
       "commit_date": "2026-10-16T12:18:27.000+11:00",
       "author": "schienstockd",
@@ -17,10 +101,28 @@
       "commit_url": "https://github.com/schienstockd/cecelia/commit/5340febf04b720e1fa9b8c9d11174d5df2f07c86"
     },
     {
+      "commit_date": "2026-10-16T11:20:06.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/chimerax-ngff",
+      "commit_url": "https://github.com/bscott711/chimerax-ngff/commit/8109fff6c938e8ef262d197bca111f83d205b70c"
+    },
+    {
       "commit_date": "2026-10-16T10:06:50.000+11:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/47aceca054345f6a737853be60bd88bda59002bb"
+    },
+    {
+      "commit_date": "2026-10-16T09:47:35.000+02:00",
+      "author": "flevet",
+      "repository": "flevet/PoCA",
+      "commit_url": "https://github.com/flevet/PoCA/commit/efeb3111c56e2bce2a7ee8d24d2edc7cd8603740"
+    },
+    {
+      "commit_date": "2026-10-15T20:47:57.000-05:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/211c06ef6dc5bf33011c96d5184349137c398ede"
     },
     {
       "commit_date": "2026-10-15T20:24:28.000+02:00",
