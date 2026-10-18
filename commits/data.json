@@ -1,9 +1,57 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-17T01:34:22+00:00",
+  "generated": "2026-10-18T01:37:19+00:00",
   "recent_days": 10,
-  "total_commits": 2533,
+  "total_commits": 2541,
   "commits": [
+    {
+      "commit_date": "2026-10-17T18:26:55.000-04:00",
+      "author": "aaronkanzer",
+      "repository": "Scigantic/scigantic-headers",
+      "commit_url": "https://github.com/Scigantic/scigantic-headers/commit/906f77c13114fd54caf86d1f0a565d66f50bb9ff"
+    },
+    {
+      "commit_date": "2026-10-17T17:13:59.000+02:00",
+      "author": "Lumen3D Developer",
+      "repository": "nutchaxo/lumen3D",
+      "commit_url": "https://github.com/nutchaxo/lumen3D/commit/2ee24ea18d010c0f373bb99f3cdf875b40bf7fff"
+    },
+    {
+      "commit_date": "2026-10-17T16:44:36.000+02:00",
+      "author": "Lumen3D Developer",
+      "repository": "nutchaxo/lumen3D",
+      "commit_url": "https://github.com/nutchaxo/lumen3D/commit/9d29561c7db0fd8f9fbc4d8a23e9b715f971c00c"
+    },
+    {
+      "commit_date": "2026-10-17T15:26:56.000+02:00",
+      "author": "lazarusA",
+      "repository": "lazarusA/octant",
+      "commit_url": "https://github.com/lazarusA/octant/commit/2c207be730f4793041910ea0d7a6a2c395137bd3"
+    },
+    {
+      "commit_date": "2026-10-17T15:26:23.000-04:00",
+      "author": "alexvpickering",
+      "repository": "hms-dbmi-cellenics/pipeline",
+      "commit_url": "https://github.com/hms-dbmi-cellenics/pipeline/commit/3cb81f914f79b0cfffe9050d7a835a983230306c"
+    },
+    {
+      "commit_date": "2026-10-17T14:58:38.000-04:00",
+      "author": "alexvpickering",
+      "repository": "hms-dbmi-cellenics/pipeline",
+      "commit_url": "https://github.com/hms-dbmi-cellenics/pipeline/commit/2de6f457ad8943e4dca5a7e8133c68e84c133bf0"
+    },
+    {
+      "commit_date": "2026-10-17T00:03:07.000+02:00",
+      "author": "Lumen3D Developer",
+      "repository": "nutchaxo/lumen3D",
+      "commit_url": "https://github.com/nutchaxo/lumen3D/commit/aa40f48202427d2db12ae1eb221d58263a6c7e13"
+    },
+    {
+      "commit_date": "2026-10-16T19:12:14.000-04:00",
+      "author": "wenhaozhang0066",
+      "repository": "wenhaozhang0066/SlideTwin",
+      "commit_url": "https://github.com/wenhaozhang0066/SlideTwin/commit/6bae503761378b8491ed11779416a15b38076855"
+    },
     {
       "commit_date": "2026-10-16T17:21:04.000+01:00",
       "author": "balbasty",
