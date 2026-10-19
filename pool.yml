@@ -1,7 +1,7 @@
-generated_at: '2026-10-12T05:17:29.881930Z'
+generated_at: '2026-10-19T05:10:20.782164Z'
 packages:
 - repo: napari/napari
-  stars: 2777
+  stars: 2783
   tags: []
   topics:
   - napari
@@ -11,19 +11,19 @@ packages:
   section: Discovered (OME-Zarr commits)
   selected: true
 - repo: awslabs/open-data-registry
-  stars: 1802
+  stars: 1806
   tags: []
   topics: []
   section: Discovered (OME-Zarr commits)
   selected: true
 - repo: google/neuroglancer
-  stars: 1561
+  stars: 1564
   tags: []
   topics: []
   section: Zarr viewers
   selected: true
 - repo: qupath/qupath
-  stars: 1460
+  stars: 1464
   tags: []
   topics:
   - bioimage-informatics
@@ -71,7 +71,7 @@ packages:
   section: Discovered (OME-Zarr commits)
   selected: true
 - repo: mahmoodlab/trident
-  stars: 642
+  stars: 646
   tags: []
   topics:
   - deep-learning
@@ -118,7 +118,7 @@ packages:
   section: Discovered (OME-Zarr commits)
   selected: true
 - repo: aristoteleo/pantheonos
-  stars: 488
+  stars: 490
   tags: []
   topics:
   - pantheonos
@@ -156,7 +156,7 @@ packages:
   section: Zarr readers & writers
   selected: true
 - repo: ilastik/ilastik
-  stars: 409
+  stars: 411
   tags: []
   topics:
   - ilastik
@@ -166,7 +166,7 @@ packages:
   section: Integrative workflows
   selected: true
 - repo: scverse/spatialdata
-  stars: 399
+  stars: 402
   tags: []
   topics:
   - scverse
@@ -186,7 +186,7 @@ packages:
   section: Standards and extensions
   selected: true
 - repo: hms-dbmi/viv
-  stars: 367
+  stars: 368
   tags: []
   topics:
   - hubmap
@@ -199,7 +199,7 @@ packages:
   section: Zarr viewers
   selected: true
 - repo: rendeirolab/lazyslide
-  stars: 328
+  stars: 332
   tags: []
   topics:
   - deep-learning
@@ -218,7 +218,7 @@ packages:
   section: Depend on OME-Zarr Py
   selected: true
 - repo: micro-manager/micro-manager
-  stars: 325
+  stars: 326
   tags: []
   topics: []
   section: Discovered (OME-Zarr commits)
@@ -242,7 +242,7 @@ packages:
   section: Other tools (to curate)
   selected: true
 - repo: insightsoftwareconsortium/itkelastix
-  stars: 287
+  stars: 290
   tags: []
   topics:
   - itk
@@ -291,7 +291,7 @@ packages:
   section: Discovered (OME-Zarr commits)
   selected: true
 - repo: galaxyproject/tools-iuc
-  stars: 201
+  stars: 202
   tags: []
   topics:
   - usegalaxy
@@ -313,7 +313,7 @@ packages:
   section: Zarr viewers
   selected: true
 - repo: brainglobe/brainglobe-atlasapi
-  stars: 187
+  stars: 189
   tags: []
   topics:
   - neuroscience
@@ -339,7 +339,7 @@ packages:
   section: Zarr viewers
   selected: true
 - repo: ome/ngff
-  stars: 175
+  stars: 177
   tags:
   - Core
   topics:
@@ -362,7 +362,7 @@ packages:
   section: Extended metadata frameworks
   selected: true
 - repo: aafkegros/microscopynodes
-  stars: 162
+  stars: 163
   tags: []
   topics:
   - blender
@@ -433,7 +433,7 @@ packages:
   section: Depend on OME-Zarr Py
   selected: true
 - repo: glencoesoftware/bioformats2raw
-  stars: 113
+  stars: 114
   tags:
   - ome-zarr-converter
   topics:
@@ -468,7 +468,7 @@ packages:
   section: Other tools (to curate)
   selected: true
 - repo: axelalmet/flowsig
-  stars: 91
+  stars: 92
   tags: []
   topics: []
   section: Depend on OME-Zarr Py
@@ -497,6 +497,12 @@ packages:
   - imglib2
   section: Integrative workflows
   selected: true
+- repo: sagar87/spatialproteomics
+  stars: 83
+  tags: []
+  topics: []
+  section: Depend on OME-Zarr Py
+  selected: true
 - repo: tlambert03/nd2
   stars: 81
   tags: []
@@ -507,20 +513,14 @@ packages:
   - microscopy
   section: Zarr converters
   selected: true
-- repo: sagar87/spatialproteomics
-  stars: 81
-  tags: []
-  topics: []
-  section: Depend on OME-Zarr Py
-  selected: true
 - repo: alexcoulton/odon
-  stars: 78
+  stars: 80
   tags: []
   topics: []
   section: Zarr viewers
   selected: true
 - repo: saeyslab/harpy
-  stars: 75
+  stars: 77
   tags: []
   topics:
   - analysis-framework
@@ -532,9 +532,15 @@ packages:
   - spatial-omics
   - spatialdata
   section: Depend on OME-Zarr Py
-  selected: true
+  selected: false
+- repo: broadinstitute/celldega
+  stars: 76
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
 - repo: fideus-labs/ngff-zarr
-  stars: 73
+  stars: 74
   tags:
   - ome-zarr-converter
   - ome-zarr
@@ -554,9 +560,9 @@ packages:
   topics:
   - rse
   section: Depend on OME-Zarr Py
-  selected: true
+  selected: false
 - repo: vortx-ai/emem
-  stars: 67
+  stars: 71
   tags: []
   topics:
   - long-term-memory
@@ -566,7 +572,6 @@ packages:
   - ed25519
   - llm-tools
   - provenance
-  - rust
   - transparency-log
   - agent-collaboration
   - agent-communication
@@ -574,7 +579,6 @@ packages:
   - agent-coordination
   - cryptography
   - deterministic
-  - deterministic-ai
   - gemini-cli-extension
   - mcp-server
   - verifiable-memory
@@ -594,14 +598,18 @@ packages:
   - hidivelab
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: broadinstitute/celldega
+- repo: xqlsystems/duckdb-zarr
   stars: 66
   tags: []
-  topics: []
+  topics:
+  - duckdb
+  - sql
+  - xarray
+  - zarr
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: mpanknin/kiln-render
-  stars: 64
+  stars: 65
   tags:
   - ome-zarr
   topics:
@@ -619,14 +627,10 @@ packages:
   - scientific-visualization
   section: Zarr viewers
   selected: true
-- repo: xqlsystems/duckdb-zarr
-  stars: 63
+- repo: neubias/training-resources
+  stars: 65
   tags: []
-  topics:
-  - duckdb
-  - sql
-  - xarray
-  - zarr
+  topics: []
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: morphonets/snt
@@ -753,7 +757,7 @@ packages:
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: elixir-europe-training/elixir-sco-spatial-omics
-  stars: 50
+  stars: 51
   tags: []
   topics: []
   section: Depend on OME-Zarr Py
@@ -815,18 +819,29 @@ packages:
   topics: []
   section: Discovered (OME-Zarr commits)
   selected: false
+- repo: taylor-ccb-group/mdv
+  stars: 42
+  tags: []
+  topics: []
+  section: Depend on OME-Zarr Py
+  selected: false
 - repo: glencoesoftware/ngff-converter
   stars: 40
   tags: []
   topics: []
   section: Zarr converters (with a UI)
   selected: false
-- repo: taylor-ccb-group/mdv
+- repo: ome-zarr-models/ome-zarr-models-py
   stars: 40
-  tags: []
-  topics: []
-  section: Depend on OME-Zarr Py
-  selected: false
+  tags:
+  - ome-zarr
+  topics:
+  - ngff
+  - ome
+  - ome-zarr
+  - zarr
+  section: Zarr validation
+  selected: true
 - repo: microscope-cockpit/cockpit
   stars: 40
   tags: []
@@ -843,17 +858,6 @@ packages:
   - lightsheet
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: ome-zarr-models/ome-zarr-models-py
-  stars: 39
-  tags:
-  - ome-zarr
-  topics:
-  - ngff
-  - ome
-  - ome-zarr
-  - zarr
-  section: Zarr validation
-  selected: true
 - repo: ufish-team/u-fish
   stars: 35
   tags: []
@@ -885,7 +889,7 @@ packages:
   section: Other tools (to curate)
   selected: false
 - repo: rendeirolab/wsidata
-  stars: 33
+  stars: 34
   tags: []
   topics:
   - deep-learning
@@ -899,6 +903,12 @@ packages:
   tags: []
   topics: []
   section: Depend on OME-Zarr Py
+  selected: false
+- repo: aicell-lab/imagej.js
+  stars: 33
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
   selected: false
 - repo: euro-bioimaging/eubi-bridge
   stars: 32
@@ -919,17 +929,17 @@ packages:
   - ngff
   section: Zarr converters
   selected: true
+- repo: cephla-lab/squid
+  stars: 32
+  tags: []
+  topics: []
+  section: Microscope acquisition software
+  selected: false
 - repo: allencell/cyto-dl
   stars: 32
   tags: []
   topics: []
   section: Depend on OME-Zarr Py
-  selected: false
-- repo: aicell-lab/imagej.js
-  stars: 32
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
   selected: false
 - repo: euro-bioimaging/batchconvert
   stars: 31
@@ -960,12 +970,6 @@ packages:
   - webapp
   section: Gallery-like displays
   selected: true
-- repo: cephla-lab/squid
-  stars: 31
-  tags: []
-  topics: []
-  section: Microscope acquisition software
-  selected: false
 - repo: neurodata/brainlit
   stars: 31
   tags: []
@@ -994,6 +998,12 @@ packages:
   topics: []
   section: Integrative workflows
   selected: false
+- repo: craigmyles/surgen-dataset
+  stars: 30
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
 - repo: hms-dbmi-cellenics/ui
   stars: 30
   tags: []
@@ -1007,10 +1017,13 @@ packages:
   - hidivelab
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: craigmyles/surgen-dataset
+- repo: tomography/tomocupy
   stars: 29
   tags: []
-  topics: []
+  topics:
+  - xray
+  - tomography
+  - gpu
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: niivue/mono
@@ -1066,7 +1079,7 @@ packages:
   section: Discovered (OME-Zarr commits)
   selected: true
 - repo: royerlab/hoct
-  stars: 25
+  stars: 26
   tags: []
   topics: []
   section: Other tools (to curate)
@@ -1089,7 +1102,31 @@ packages:
   - zarr
   - ecuypers-group
   - m4i-cuypers-group
+  - ion-mobility
+  - pasef
+  - timstof
   section: Other tools (to curate)
+  selected: false
+- repo: saezlab/annnet
+  stars: 25
+  tags: []
+  topics:
+  - annotations
+  - computational-biology
+  - graph
+  - graph-data
+  - graph-datastructures
+  - hypergraph
+  - interoperability
+  - multilayer-networks
+  - network-analysis
+  - networks-biology
+  - python
+  - scientific-computing
+  - scientific-software
+  - sparse-matrix
+  - systems-biology
+  section: Depend on OME-Zarr Py
   selected: false
 - repo: fmicompbio/ez_zarr
   stars: 24
@@ -1169,6 +1206,19 @@ packages:
   topics: []
   section: Discovered (OME-Zarr commits)
   selected: false
+- repo: saalfeldlab/n5-ij
+  stars: 22
+  tags:
+  - ome-zarr-converter
+  topics:
+  - fiji
+  - fiji-plugin
+  - hdf5
+  - n5
+  - ome-zarr-converter
+  - zarr
+  section: Zarr viewers
+  selected: true
 - repo: alleninstitute/biofile-finder
   stars: 22
   tags: []
@@ -1224,44 +1274,42 @@ packages:
   - image-processing
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: saalfeldlab/n5-ij
-  stars: 21
-  tags:
-  - ome-zarr-converter
+- repo: ckmah/milume
+  stars: 22
+  tags: []
   topics:
-  - fiji
-  - fiji-plugin
-  - hdf5
-  - n5
-  - ome-zarr-converter
-  - zarr
-  section: Zarr viewers
-  selected: true
+  - anywidget
+  - bioinformatics
+  - computational-biology
+  - marimo
+  - scientific-visualization
+  - single-cell
+  - spatial-omics
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: ckmah/spatial-rx
+  stars: 22
+  tags: []
+  topics:
+  - anywidget
+  - bioinformatics
+  - computational-biology
+  - marimo
+  - scientific-visualization
+  - single-cell
+  - spatial-omics
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: arjunrajlaboratory/nimbusimage
+  stars: 22
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
 - repo: bioimagetools/ome-zarr-image-analysis-nextflow
   stars: 21
   tags: []
   topics: []
-  section: Depend on OME-Zarr Py
-  selected: false
-- repo: saezlab/annnet
-  stars: 21
-  tags: []
-  topics:
-  - annotations
-  - computational-biology
-  - graph
-  - graph-data
-  - graph-datastructures
-  - hypergraph
-  - interoperability
-  - multilayer-networks
-  - network-analysis
-  - networks-biology
-  - python
-  - scientific-computing
-  - scientific-software
-  - sparse-matrix
-  - systems-biology
   section: Depend on OME-Zarr Py
   selected: false
 - repo: napari/npe2
@@ -1270,12 +1318,6 @@ packages:
   topics:
   - napari
   - plugins
-  section: Discovered (OME-Zarr commits)
-  selected: false
-- repo: arjunrajlaboratory/nimbusimage
-  stars: 21
-  tags: []
-  topics: []
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: ome/ome2024-ngff-challenge
@@ -1315,19 +1357,6 @@ packages:
   topics: []
   section: Depend on OME-Zarr Py
   selected: false
-- repo: ckmah/milume
-  stars: 20
-  tags: []
-  topics:
-  - anywidget
-  - bioinformatics
-  - computational-biology
-  - marimo
-  - scientific-visualization
-  - single-cell
-  - spatial-omics
-  section: Discovered (OME-Zarr commits)
-  selected: false
 - repo: flimkit/flimkit
   stars: 20
   tags: []
@@ -1346,19 +1375,6 @@ packages:
   - ifli
   - flimkit
   - flimkit-plugin
-  section: Discovered (OME-Zarr commits)
-  selected: false
-- repo: ckmah/spatial-rx
-  stars: 20
-  tags: []
-  topics:
-  - anywidget
-  - bioinformatics
-  - computational-biology
-  - marimo
-  - scientific-visualization
-  - single-cell
-  - spatial-omics
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: idr/idr-notebooks
@@ -1381,6 +1397,14 @@ packages:
   topics: []
   section: Other tools (to curate)
   selected: false
+- repo: source-cooperative/zarr-viewer
+  stars: 19
+  tags: []
+  topics:
+  - zarr
+  - icechunk
+  section: Discovered (OME-Zarr commits)
+  selected: false
 - repo: multiview-stitcher/napari-stitcher
   stars: 19
   tags: []
@@ -1394,7 +1418,7 @@ packages:
   - tiles
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: source-cooperative/zarr-viewer
+- repo: source-cooperative/geozarr-viewer
   stars: 19
   tags: []
   topics:
@@ -1402,12 +1426,10 @@ packages:
   - icechunk
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: source-cooperative/geozarr-viewer
+- repo: wulinteousa2-hash/napari-sam3-assistant
   stars: 19
   tags: []
-  topics:
-  - zarr
-  - icechunk
+  topics: []
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: imcf/patchworks
@@ -1433,12 +1455,6 @@ packages:
   topics: []
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: wulinteousa2-hash/napari-sam3-assistant
-  stars: 18
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
 - repo: jiayusupku/splisosm
   stars: 18
   tags: []
@@ -1456,13 +1472,6 @@ packages:
   tags: []
   topics: []
   section: Other tools (to curate)
-  selected: false
-- repo: fideus-labs/konfai
-  stars: 16
-  tags: []
-  topics:
-  - deep-learning
-  section: Discovered (OME-Zarr commits)
   selected: false
 - repo: lazarusa/octant
   stars: 16
@@ -1482,6 +1491,19 @@ packages:
   - omero
   section: Discovered (OME-Zarr commits)
   selected: true
+- repo: vh-lab/ndi-matlab
+  stars: 16
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: fideus-labs/konfai
+  stars: 16
+  tags: []
+  topics:
+  - deep-learning
+  section: Discovered (OME-Zarr commits)
+  selected: false
 - repo: polusai/bfio
   stars: 15
   tags: []
@@ -1592,6 +1614,15 @@ packages:
   topics: []
   section: Depend on OME-Zarr Py
   selected: false
+- repo: theislab/interscale
+  stars: 13
+  tags: []
+  topics:
+  - cell-cell-communication
+  - spatial-transcriptomics
+  - graph-transformer
+  section: Depend on OME-Zarr Py
+  selected: false
 - repo: tissuumaps/tissuumaps
   stars: 13
   tags: []
@@ -1618,14 +1649,23 @@ packages:
   topics: []
   section: Other tools (to curate)
   selected: false
-- repo: theislab/interscale
+- repo: sounio-lang/sounio
   stars: 12
   tags: []
   topics:
-  - cell-cell-communication
-  - spatial-transcriptomics
-  - graph-transformer
-  section: Depend on OME-Zarr Py
+  - algebraic-effects
+  - compiler
+  - egraph
+  - formal-verification
+  - non-associative-algebra
+  - octonions
+  - programming-language
+  - scientific-computing
+  - self-hosting
+  - systems-programming
+  - uncertainty-propagation
+  - epistemic-computing
+  section: Discovered (OME-Zarr commits)
   selected: false
 - repo: khanlab/zarrnii
   stars: 11
@@ -1773,6 +1813,12 @@ packages:
   - open-source
   section: Discovered (OME-Zarr commits)
   selected: false
+- repo: structuralneurobiologylab/moss
+  stars: 10
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
 - repo: ome/omero-guide-python
   stars: 10
   tags: []
@@ -1783,24 +1829,6 @@ packages:
   stars: 10
   tags: []
   topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
-- repo: sounio-lang/sounio
-  stars: 10
-  tags: []
-  topics:
-  - algebraic-effects
-  - compiler
-  - egraph
-  - formal-verification
-  - non-associative-algebra
-  - octonions
-  - programming-language
-  - scientific-computing
-  - self-hosting
-  - systems-programming
-  - uncertainty-propagation
-  - epistemic-computing
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: bioio-devs/bioio-conversion
@@ -1850,6 +1878,15 @@ packages:
   - bioinformatics-tool
   - single-cell-omics
   section: Depend on OME-Zarr Py
+  selected: false
+- repo: janelia-cellmap/cellmap-flow
+  stars: 9
+  tags: []
+  topics:
+  - machine-learning
+  - neuroglancer
+  - segmentation
+  section: Discovered (OME-Zarr commits)
   selected: false
 - repo: imagej/list-of-update-sites
   stars: 9
@@ -1954,15 +1991,6 @@ packages:
   - visualizations
   section: Depend on OME-Zarr Py
   selected: false
-- repo: janelia-cellmap/cellmap-flow
-  stars: 8
-  tags: []
-  topics:
-  - machine-learning
-  - neuroglancer
-  - segmentation
-  section: Discovered (OME-Zarr commits)
-  selected: false
 - repo: nclack/damacy
   stars: 8
   tags: []
@@ -2022,6 +2050,12 @@ packages:
   topics: []
   section: Rendering libraries
   selected: false
+- repo: huber-group-embl/romeo
+  stars: 7
+  tags: []
+  topics: []
+  section: Other tools (to curate)
+  selected: false
 - repo: wayscience/duckdb_zarr
   stars: 7
   tags: []
@@ -2067,6 +2101,12 @@ packages:
   topics: []
   section: Depend on OME-Zarr Py
   selected: false
+- repo: neuroscales/nifti-zarr-py
+  stars: 7
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
 - repo: franciscrickinstitute/aiod_napari
   stars: 7
   tags: []
@@ -2078,6 +2118,12 @@ packages:
   tags: []
   topics: []
   section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: grinic/pymif
+  stars: 6
+  tags: []
+  topics: []
+  section: Zarr converters
   selected: false
 - repo: biologytools/zarr.net
   stars: 6
@@ -2103,12 +2149,6 @@ packages:
   - metadata
   section: Other tools (to curate)
   selected: true
-- repo: huber-group-embl/romeo
-  stars: 6
-  tags: []
-  topics: []
-  section: Other tools (to curate)
-  selected: false
 - repo: biovisioncenter/ome-zarr-converters-tools
   stars: 6
   tags:
@@ -2149,6 +2189,12 @@ packages:
   tags: []
   topics: []
   section: Depend on OME-Zarr Py
+  selected: false
+- repo: embl-mif/pymif
+  stars: 6
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
   selected: false
 - repo: rensutheart/napari-vipp
   stars: 6
@@ -2253,12 +2299,6 @@ packages:
   - tensorflow
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: structuralneurobiologylab/moss
-  stars: 6
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
 - repo: khanlab/spimprep
   stars: 6
   tags: []
@@ -2349,6 +2389,37 @@ packages:
   - docker
   section: Depend on OME-Zarr Py
   selected: false
+- repo: greenpolo/langslice
+  stars: 5
+  tags: []
+  topics:
+  - brain-atlas
+  - brainglobe
+  - histology
+  - image-registration
+  - neuroscience
+  - vision-language-model
+  - abba
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: neurodesk/webapps
+  stars: 5
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: d-v-b/refkv
+  stars: 5
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: d-v-b/vzip
+  stars: 5
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
 - repo: huanglab-pku/prism-code
   stars: 5
   tags: []
@@ -2408,12 +2479,6 @@ packages:
   - ome-zarr-converter
   section: Zarr converters
   selected: true
-- repo: grinic/pymif
-  stars: 4
-  tags: []
-  topics: []
-  section: Zarr converters
-  selected: false
 - repo: openssbd/zallery
   stars: 4
   tags: []
@@ -2514,12 +2579,6 @@ packages:
   - deep-learning
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: neurodesk/webapps
-  stars: 4
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
 - repo: leiden-cell-observatory/omero_annotate_ai
   stars: 4
   tags: []
@@ -2573,6 +2632,22 @@ packages:
   - zarr
   section: Discovered (OME-Zarr commits)
   selected: true
+- repo: atultiwari/awesome-ai-pathology
+  stars: 4
+  tags: []
+  topics:
+  - awesome
+  - awesome-list
+  - computational-pathology
+  - digital-pathology
+  - foundation-models
+  - histopathology
+  - medical-ai
+  - pathology
+  - qupath
+  - whole-slide-imaging
+  section: Discovered (OME-Zarr commits)
+  selected: false
 - repo: janelia-cellmap/cellmap-analyze
   stars: 4
   tags: []
@@ -2733,7 +2808,18 @@ packages:
   topics: []
   section: Depend on OME-Zarr Py
   selected: false
-- repo: d-v-b/vzip
+- repo: fractal-analytics-platform/fractal-uzh-converters
+  stars: 3
+  tags:
+  - ome-zarr-converter
+  - ome-zarr
+  topics:
+  - ome-ngff
+  - ome-zarr
+  - ome-zarr-converter
+  section: Discovered (OME-Zarr commits)
+  selected: true
+- repo: laboratory-imaging/limnd2
   stars: 3
   tags: []
   topics: []
@@ -2837,12 +2923,6 @@ packages:
   - zarr
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: laboratory-imaging/limnd2
-  stars: 3
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
 - repo: uermel/chimerax-ome-zarr
   stars: 3
   tags: []
@@ -2871,33 +2951,6 @@ packages:
   stars: 3
   tags: []
   topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
-- repo: fractal-analytics-platform/fractal-uzh-converters
-  stars: 3
-  tags:
-  - ome-zarr-converter
-  - ome-zarr
-  topics:
-  - ome-ngff
-  - ome-zarr
-  - ome-zarr-converter
-  section: Discovered (OME-Zarr commits)
-  selected: true
-- repo: atultiwari/awesome-ai-pathology
-  stars: 3
-  tags: []
-  topics:
-  - awesome
-  - awesome-list
-  - computational-pathology
-  - digital-pathology
-  - foundation-models
-  - histopathology
-  - medical-ai
-  - pathology
-  - qupath
-  - whole-slide-imaging
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: kennethjyang/pinpoint-v
@@ -3096,6 +3149,26 @@ packages:
   topics: []
   section: Depend on OME-Zarr Py
   selected: false
+- repo: wenhaozhang0066/slidetwin
+  stars: 2
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: janeliascicomp/chunkmirage
+  stars: 2
+  tags:
+  - ome-zarr
+  topics:
+  - fiji
+  - microscopy
+  - n5
+  - napari
+  - neuroglancer
+  - ome-zarr
+  - zarr
+  section: Discovered (OME-Zarr commits)
+  selected: true
 - repo: delnatan/pyvistra
   stars: 2
   tags: []
@@ -3114,6 +3187,20 @@ packages:
   topics: []
   section: Discovered (OME-Zarr commits)
   selected: false
+- repo: yuriyzubov/chunkmirage
+  stars: 2
+  tags:
+  - ome-zarr
+  topics:
+  - fiji
+  - microscopy
+  - n5
+  - napari
+  - neuroglancer
+  - ome-zarr
+  - zarr
+  section: Discovered (OME-Zarr commits)
+  selected: true
 - repo: allenneuraldynamics/atlas-assets
   stars: 2
   tags: []
@@ -3274,6 +3361,21 @@ packages:
   topics: []
   section: Other tools (to curate)
   selected: false
+- repo: assadiab/viewer_interactif
+  stars: 1
+  tags:
+  - ome-zarr
+  topics:
+  - bioimaging
+  - ome-zarr
+  - viewer
+  - image-analysis
+  - ngff
+  - react
+  - typescript
+  - volume-rendering
+  section: Other tools (to curate)
+  selected: true
 - repo: alexander-zangl/retina-track
   stars: 1
   tags: []
@@ -3409,6 +3511,12 @@ packages:
   topics: []
   section: Depend on OME-Zarr Py
   selected: false
+- repo: axelalmet/senid
+  stars: 1
+  tags: []
+  topics: []
+  section: Depend on OME-Zarr Py
+  selected: false
 - repo: bgruening/example_zarr
   stars: 1
   tags: []
@@ -3511,7 +3619,25 @@ packages:
   topics: []
   section: Depend on OME-Zarr Py
   selected: false
-- repo: ryan-eastman/c_elegans_germline_masking_and_spot_counting
+- repo: mwinding/em-pipe
+  stars: 1
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: dschaub95/nebius-hackathon
+  stars: 1
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: bscott711/opym
+  stars: 1
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: nirmallab/plexora
   stars: 1
   tags: []
   topics: []
@@ -3523,7 +3649,45 @@ packages:
   topics: []
   section: Discovered (OME-Zarr commits)
   selected: false
+- repo: allison714/expandedbrainquant
+  stars: 1
+  tags: []
+  topics:
+  - connectomics
+  - expansion-microscopy
+  - neuroglancer
+  - pan-exm
+  - python
+  - synapse-analysis
+  - zarr
+  - antibody-labelling
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: experimental-microscopy-lab/scopewriter
+  stars: 1
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: thomdehoog/zmart-viewer
+  stars: 1
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: ryan-eastman/c_elegans_germline_masking_and_spot_counting
+  stars: 1
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
 - repo: openreadout/openreadout
+  stars: 1
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: cellular-imaging-amsterdam-umc/cisegmentation
   stars: 1
   tags: []
   topics: []
@@ -3549,12 +3713,6 @@ packages:
   - python
   section: Discovered (OME-Zarr commits)
   selected: true
-- repo: yuriyzubov/chunkmirage
-  stars: 1
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
 - repo: svyable/zarr-pyramid-audit
   stars: 1
   tags: []
@@ -3578,12 +3736,6 @@ packages:
   - ome-zarr
   section: Discovered (OME-Zarr commits)
   selected: true
-- repo: bscott711/opym
-  stars: 1
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
 - repo: uw-loci/qupath-extension-qpsc
   stars: 1
   tags: []
@@ -3736,6 +3888,21 @@ packages:
   topics: []
   section: Discovered (OME-Zarr commits)
   selected: false
+- repo: assadiab/interactive-zarr-explorer
+  stars: 1
+  tags:
+  - ome-zarr
+  topics:
+  - bioimaging
+  - ome-zarr
+  - viewer
+  - image-analysis
+  - ngff
+  - react
+  - typescript
+  - volume-rendering
+  section: Discovered (OME-Zarr commits)
+  selected: true
 - repo: oleksiievetsno/scapecontrol
   stars: 1
   tags: []
@@ -3994,21 +4161,6 @@ packages:
   topics: []
   section: Other tools (to curate)
   selected: false
-- repo: assadiab/viewer_interactif
-  stars: 0
-  tags:
-  - ome-zarr
-  topics:
-  - bioimaging
-  - ome-zarr
-  - viewer
-  - image-analysis
-  - ngff
-  - react
-  - typescript
-  - volume-rendering
-  section: Other tools (to curate)
-  selected: true
 - repo: pennsieve/nifti-to-zarr-conversion
   stars: 0
   tags: []
@@ -4331,12 +4483,6 @@ packages:
   topics: []
   section: Depend on OME-Zarr Py
   selected: false
-- repo: axelalmet/senid
-  stars: 0
-  tags: []
-  topics: []
-  section: Depend on OME-Zarr Py
-  selected: false
 - repo: bilalahmed15/ai-setter
   stars: 0
   tags: []
@@ -4653,25 +4799,150 @@ packages:
   topics: []
   section: Depend on OME-Zarr Py
   selected: false
+- repo: urlagentfoo/pharos
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: science-works/rtw-2026-pharos
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: scigantic/scigantic-headers
+  stars: 0
+  tags: []
+  topics:
+  - bioinformatics
+  - cryo-em
+  - file-formats
+  - parser
+  - scientific-computing
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: nutchaxo/lumen3d
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: neuroscales/brainhops
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: bscott711/chimerax-ngff
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: jmdelahanty/metazebrobot
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: copick/copick-easymode
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: skysky2333/stainid
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: nl-bioimaging/fair-metadata-integration
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: fractal-analytics-platform/fractal-facs-tasks
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: nl-bioimaging/biomero-template-container
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: chasehendrick/scrolls
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: sfc0324/zarrsweep
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: tauil-abd-elilah/spiral-winding-audit
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: peter-grotz/exaspim-axon-segmentation
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: cellgeni/explorer
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: lubianat/rfc7-example
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: conda-forge/napari-ome-zarr-feedstock
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: conda-forge/conda-forge-bot-data-pr_info
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: lablueberrypie/apok-eval
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: conda-forge/conda-forge-bot-data-node_attrs
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
 - repo: waltham-data-science/ndi-python
   stars: 0
   tags: []
   topics: []
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: experimental-microscopy-lab/scopewriter
-  stars: 0
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
-- repo: nirmallab/plexora
-  stars: 0
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
-- repo: thomdehoog/zmart-viewer
+- repo: nucleus-eng/devstudio-board
   stars: 0
   tags: []
   topics: []
@@ -4684,18 +4955,6 @@ packages:
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: rensutheart/vipp-mkdocs
-  stars: 0
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
-- repo: mwinding/em-pipe
-  stars: 0
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
-- repo: neuroscales/brainhops
   stars: 0
   tags: []
   topics: []
@@ -4719,12 +4978,6 @@ packages:
   - vesuvius-challenge
   section: Discovered (OME-Zarr commits)
   selected: true
-- repo: cellular-imaging-amsterdam-umc/cisegmentation
-  stars: 0
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
 - repo: ebremer/falcon
   stars: 0
   tags: []
@@ -4732,18 +4985,6 @@ packages:
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: conda-forge/ome-zarr-feedstock
-  stars: 0
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
-- repo: conda-forge/conda-forge-bot-data-pr_info
-  stars: 0
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
-- repo: conda-forge/conda-forge-bot-data-node_attrs
   stars: 0
   tags: []
   topics: []
@@ -5289,28 +5530,7 @@ packages:
   topics: []
   section: Discovered (OME-Zarr commits)
   selected: false
-- repo: assadiab/interactive-zarr-explorer
-  stars: 0
-  tags:
-  - ome-zarr
-  topics:
-  - bioimaging
-  - ome-zarr
-  - viewer
-  - image-analysis
-  - ngff
-  - react
-  - typescript
-  - volume-rendering
-  section: Discovered (OME-Zarr commits)
-  selected: true
 - repo: tomnicholas/icechunk-datacollections
-  stars: 0
-  tags: []
-  topics: []
-  section: Discovered (OME-Zarr commits)
-  selected: false
-- repo: conda-forge/napari-ome-zarr-feedstock
   stars: 0
   tags: []
   topics: []
@@ -5762,6 +5982,12 @@ packages:
   section: Discovered (OME-Zarr commits)
   selected: false
 - repo: cosmic-foundry/cosmic-foundry
+  stars: 0
+  tags: []
+  topics: []
+  section: Discovered (OME-Zarr commits)
+  selected: false
+- repo: smith6jt-cop/islet-explorer-senior
   stars: 0
   tags: []
   topics: []
