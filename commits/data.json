@@ -1,9 +1,99 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-18T01:37:19+00:00",
+  "generated": "2026-10-19T01:41:38+00:00",
   "recent_days": 10,
-  "total_commits": 2541,
+  "total_commits": 2562,
   "commits": [
+    {
+      "commit_date": "2026-10-18T21:46:47.000+01:00",
+      "author": "mwinding",
+      "repository": "mwinding/em-pipe",
+      "commit_url": "https://github.com/mwinding/em-pipe/commit/a0d4c6810af4d58c67c2c88d7d0b4560c79c5316"
+    },
+    {
+      "commit_date": "2026-10-18T21:14:28.000+02:00",
+      "author": "maltekuehl",
+      "repository": "dschaub95/nebius-hackathon",
+      "commit_url": "https://github.com/dschaub95/nebius-hackathon/commit/c4e2dd2ace460924f7d2fc7b0656b64f5420085d"
+    },
+    {
+      "commit_date": "2026-10-18T19:37:56.000+03:00",
+      "author": "BiologyTools",
+      "repository": "BiologyTools/Zarr.NET",
+      "commit_url": "https://github.com/BiologyTools/Zarr.NET/commit/8cc931f24a3872345f4a271405052539bbcd8e10"
+    },
+    {
+      "commit_date": "2026-10-18T15:11:09.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/8f658cf9f894d2fae6828ba572a06aefd6f048d7"
+    },
+    {
+      "commit_date": "2026-10-18T15:10:30.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/47299ebe3bb3230c75bc985172b024350b731b73"
+    },
+    {
+      "commit_date": "2026-10-18T15:04:54.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/4e330da9698ab84865baa44ae81a340c957237f8"
+    },
+    {
+      "commit_date": "2026-10-18T15:03:34.000-04:00",
+      "author": "greenpolo",
+      "repository": "greenpolo/LangSlice",
+      "commit_url": "https://github.com/greenpolo/LangSlice/commit/824a1a184c7d9aabb62fbe1c0e1bd890c1ee229a"
+    },
+    {
+      "commit_date": "2026-10-18T14:51:44.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/b452b4a38d460937292d1ae4ce1568ef05e9e7c1"
+    },
+    {
+      "commit_date": "2026-10-18T12:45:52.000+02:00",
+      "author": "maltekuehl",
+      "repository": "dschaub95/nebius-hackathon",
+      "commit_url": "https://github.com/dschaub95/nebius-hackathon/commit/5c7e43b445496fc06b65b2624206a6f4f70a3dae"
+    },
+    {
+      "commit_date": "2026-10-18T12:08:36.000+02:00",
+      "author": "maltekuehl",
+      "repository": "dschaub95/nebius-hackathon",
+      "commit_url": "https://github.com/dschaub95/nebius-hackathon/commit/f7151c99a1d75465de053dcc8224ca983712abaa"
+    },
+    {
+      "commit_date": "2026-10-18T00:58:19.000+01:00",
+      "author": "mwinding",
+      "repository": "mwinding/em-pipe",
+      "commit_url": "https://github.com/mwinding/em-pipe/commit/562061896caaf5ea0793643f593666380885686c"
+    },
+    {
+      "commit_date": "2026-10-17T22:41:14.000+01:00",
+      "author": "UrlAgentFoo",
+      "repository": "UrlAgentFoo/Pharos",
+      "commit_url": "https://github.com/UrlAgentFoo/Pharos/commit/32e708bb26f3ea7ae49585a4fe6ef0ece09fc36e"
+    },
+    {
+      "commit_date": "2026-10-17T22:41:14.000+01:00",
+      "author": "UrlAgentFoo",
+      "repository": "science-works/rtw-2026-pharos",
+      "commit_url": "https://github.com/science-works/rtw-2026-pharos/commit/32e708bb26f3ea7ae49585a4fe6ef0ece09fc36e"
+    },
+    {
+      "commit_date": "2026-10-17T22:29:09.000+01:00",
+      "author": "UrlAgentFoo",
+      "repository": "UrlAgentFoo/Pharos",
+      "commit_url": "https://github.com/UrlAgentFoo/Pharos/commit/883c213b1152dd08a97541e7904a1a1640c8d87c"
+    },
+    {
+      "commit_date": "2026-10-17T22:29:09.000+01:00",
+      "author": "UrlAgentFoo",
+      "repository": "science-works/rtw-2026-pharos",
+      "commit_url": "https://github.com/science-works/rtw-2026-pharos/commit/883c213b1152dd08a97541e7904a1a1640c8d87c"
+    },
     {
       "commit_date": "2026-10-17T18:26:55.000-04:00",
       "author": "aaronkanzer",
@@ -39,6 +129,42 @@
       "author": "alexvpickering",
       "repository": "hms-dbmi-cellenics/pipeline",
       "commit_url": "https://github.com/hms-dbmi-cellenics/pipeline/commit/2de6f457ad8943e4dca5a7e8133c68e84c133bf0"
+    },
+    {
+      "commit_date": "2026-10-17T10:47:44.000+01:00",
+      "author": "UrlAgentFoo",
+      "repository": "UrlAgentFoo/Pharos",
+      "commit_url": "https://github.com/UrlAgentFoo/Pharos/commit/040db5da6fa01dab7ff05b30c9fec9f39f533b1d"
+    },
+    {
+      "commit_date": "2026-10-17T10:47:44.000+01:00",
+      "author": "UrlAgentFoo",
+      "repository": "science-works/rtw-2026-pharos",
+      "commit_url": "https://github.com/science-works/rtw-2026-pharos/commit/040db5da6fa01dab7ff05b30c9fec9f39f533b1d"
+    },
+    {
+      "commit_date": "2026-10-17T10:18:02.000+01:00",
+      "author": "UrlAgentFoo",
+      "repository": "science-works/rtw-2026-pharos",
+      "commit_url": "https://github.com/science-works/rtw-2026-pharos/commit/a6ab376a6b6fa900ea17e555a20d7cc27ea703e6"
+    },
+    {
+      "commit_date": "2026-10-17T10:18:02.000+01:00",
+      "author": "UrlAgentFoo",
+      "repository": "UrlAgentFoo/Pharos",
+      "commit_url": "https://github.com/UrlAgentFoo/Pharos/commit/a6ab376a6b6fa900ea17e555a20d7cc27ea703e6"
+    },
+    {
+      "commit_date": "2026-10-17T08:50:07.000+01:00",
+      "author": "UrlAgentFoo",
+      "repository": "UrlAgentFoo/Pharos",
+      "commit_url": "https://github.com/UrlAgentFoo/Pharos/commit/39ecdebf3389087e91a81e3e228e858378c7a756"
+    },
+    {
+      "commit_date": "2026-10-17T08:50:07.000+01:00",
+      "author": "UrlAgentFoo",
+      "repository": "science-works/rtw-2026-pharos",
+      "commit_url": "https://github.com/science-works/rtw-2026-pharos/commit/39ecdebf3389087e91a81e3e228e858378c7a756"
     },
     {
       "commit_date": "2026-10-17T00:03:07.000+02:00",
