@@ -1,9 +1,93 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-19T01:41:38+00:00",
+  "generated": "2026-10-20T01:38:03+00:00",
   "recent_days": 10,
-  "total_commits": 2562,
+  "total_commits": 2582,
   "commits": [
+    {
+      "commit_date": "2026-10-19T16:28:10.000+02:00",
+      "author": "konstibob",
+      "repository": "zarr-developers/zarr-java",
+      "commit_url": "https://github.com/zarr-developers/zarr-java/commit/09973e41aa701de0538b0883139730430936009f"
+    },
+    {
+      "commit_date": "2026-10-19T16:24:17.000+02:00",
+      "author": "hotzenklotz",
+      "repository": "scalableminds/webknossos",
+      "commit_url": "https://github.com/scalableminds/webknossos/commit/251d57eaa321176181ef860b4fdf86e3e25867e1"
+    },
+    {
+      "commit_date": "2026-10-19T16:24:17.000+02:00",
+      "author": "hotzenklotz",
+      "repository": "scalableminds/webknossos",
+      "commit_url": "https://github.com/scalableminds/webknossos/commit/ee42ee152ccd0a231e6cc3f47c7355cc1ece7c4f"
+    },
+    {
+      "commit_date": "2026-10-19T15:14:15.000-05:00",
+      "author": "gamorosino",
+      "repository": "gamorosino/app-seg-eval-metrics",
+      "commit_url": "https://github.com/gamorosino/app-seg-eval-metrics/commit/ddb840ef525f63581456fcb6f708adf5f0a041b9"
+    },
+    {
+      "commit_date": "2026-10-19T12:31:28.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/af69cca2ce302ab59a212b4e582e8c815e6920ac"
+    },
+    {
+      "commit_date": "2026-10-19T12:28:57.000+02:00",
+      "author": "alandolt",
+      "repository": "pertzlab/faro",
+      "commit_url": "https://github.com/pertzlab/faro/commit/4ea5e72f1e0a581e7134f0c93e8e802a4616ff87"
+    },
+    {
+      "commit_date": "2026-10-19T12:01:55.000+02:00",
+      "author": "almarklein",
+      "repository": "canpute/simplezarr",
+      "commit_url": "https://github.com/canpute/simplezarr/commit/96bde6653ab380ac2e59b340ac9cd3a7b35926d1"
+    },
+    {
+      "commit_date": "2026-10-19T12:01:16.000-04:00",
+      "author": "belkassaby",
+      "repository": "TheJacksonLaboratory/sci-image-visualizer",
+      "commit_url": "https://github.com/TheJacksonLaboratory/sci-image-visualizer/commit/9abcca28bb30479e06a6e115d2297e3f3cea6f49"
+    },
+    {
+      "commit_date": "2026-10-19T11:39:47.000-04:00",
+      "author": "belkassaby",
+      "repository": "TheJacksonLaboratory/sci-image-visualizer",
+      "commit_url": "https://github.com/TheJacksonLaboratory/sci-image-visualizer/commit/970797df72313633a960c0b8cc172f9949f10bf4"
+    },
+    {
+      "commit_date": "2026-10-19T11:05:27.000-04:00",
+      "author": "belkassaby",
+      "repository": "TheJacksonLaboratory/sci-image-visualizer",
+      "commit_url": "https://github.com/TheJacksonLaboratory/sci-image-visualizer/commit/b807439f1cd2f0de774fdb9a1b3d78cb1ffdaf00"
+    },
+    {
+      "commit_date": "2026-10-19T05:15:20.000+01:00",
+      "author": "Andrew-Keenlyside",
+      "repository": "BRIDGE-Neuroscience/ChunkReg",
+      "commit_url": "https://github.com/BRIDGE-Neuroscience/ChunkReg/commit/e8cf805b4ed65aec9459c1fdb960d213e0409409"
+    },
+    {
+      "commit_date": "2026-10-19T04:23:32.000+01:00",
+      "author": "Andrew-Keenlyside",
+      "repository": "BRIDGE-Neuroscience/ChunkReg",
+      "commit_url": "https://github.com/BRIDGE-Neuroscience/ChunkReg/commit/569fab1ee4691965e44822c1044f894a167038f8"
+    },
+    {
+      "commit_date": "2026-10-19T00:33:13.000-04:00",
+      "author": "gdevenyi",
+      "repository": "CoBrALab/libBIDS.sh",
+      "commit_url": "https://github.com/CoBrALab/libBIDS.sh/commit/0b1b00bcff96e025d470b92068476d436a172383"
+    },
+    {
+      "commit_date": "2026-10-19T00:05:54.000-04:00",
+      "author": "yarikoptic",
+      "repository": "con/talks",
+      "commit_url": "https://github.com/con/talks/commit/70b24e6468882e1e170bcb5cd65799315b3666c4"
+    },
     {
       "commit_date": "2026-10-18T21:46:47.000+01:00",
       "author": "mwinding",
@@ -17,10 +101,46 @@
       "commit_url": "https://github.com/dschaub95/nebius-hackathon/commit/c4e2dd2ace460924f7d2fc7b0656b64f5420085d"
     },
     {
+      "commit_date": "2026-10-18T20:49:10.000+02:00",
+      "author": "alandolt",
+      "repository": "pertzlab/faro",
+      "commit_url": "https://github.com/pertzlab/faro/commit/6b73475700e9268e5c14a50654fcbaa01f5e1b65"
+    },
+    {
       "commit_date": "2026-10-18T19:37:56.000+03:00",
       "author": "BiologyTools",
       "repository": "BiologyTools/Zarr.NET",
       "commit_url": "https://github.com/BiologyTools/Zarr.NET/commit/8cc931f24a3872345f4a271405052539bbcd8e10"
+    },
+    {
+      "commit_date": "2026-10-18T18:23:44.000+02:00",
+      "author": "alandolt",
+      "repository": "pertzlab/faro",
+      "commit_url": "https://github.com/pertzlab/faro/commit/b0f63b15a2168e1eeaf8b7509bcb51f0f6e13701"
+    },
+    {
+      "commit_date": "2026-10-18T18:21:50.000+02:00",
+      "author": "mahogny",
+      "repository": "henriksson-lab/blockflow",
+      "commit_url": "https://github.com/henriksson-lab/blockflow/commit/d1d47ff1de6dec1992dca29e6ff9e1950829859e"
+    },
+    {
+      "commit_date": "2026-10-18T16:52:03.000+02:00",
+      "author": "alandolt",
+      "repository": "pertzlab/faro",
+      "commit_url": "https://github.com/pertzlab/faro/commit/a6ba2e2f08ade4c3fec2443bede0fc3d8987e39c"
+    },
+    {
+      "commit_date": "2026-10-18T16:27:03.000+02:00",
+      "author": "alandolt",
+      "repository": "pertzlab/faro",
+      "commit_url": "https://github.com/pertzlab/faro/commit/c3d892caa5c5bbe7361db8c203eacd5a31ca79ed"
+    },
+    {
+      "commit_date": "2026-10-18T15:58:31.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/bd13f16b593cea3877c6054bfe20cee6dbc811fd"
     },
     {
       "commit_date": "2026-10-18T15:11:09.000-04:00",
