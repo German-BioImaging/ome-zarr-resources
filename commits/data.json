@@ -1,9 +1,177 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-21T01:38:53+00:00",
+  "generated": "2026-10-22T01:38:38+00:00",
   "recent_days": 10,
-  "total_commits": 2605,
+  "total_commits": 2637,
   "commits": [
+    {
+      "commit_date": "2026-10-22T10:00:48.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/b6e000eeb1ff171bb971b5980841485f8104b8f1"
+    },
+    {
+      "commit_date": "2026-10-22T09:54:19.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/408d234c6bc75d5afbbdf3e2bf08aec24cef64ba"
+    },
+    {
+      "commit_date": "2026-10-22T09:49:58.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/f7ef1621def2615c10620414e547e990949bf04c"
+    },
+    {
+      "commit_date": "2026-10-21T23:38:45.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/850969d09399bae44ae65fec421b5226e0123fa4"
+    },
+    {
+      "commit_date": "2026-10-21T23:18:44.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/8ab760f881bd3dff84c3eef86a7e1f761c519225"
+    },
+    {
+      "commit_date": "2026-10-21T19:28:58.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/5b4307322d1fcb27d0ead91023343c23896903e9"
+    },
+    {
+      "commit_date": "2026-10-21T17:13:54.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/fair-metadata-integration",
+      "commit_url": "https://github.com/NL-BioImaging/fair-metadata-integration/commit/a2b510ab2c474bac24f31dd9f2fe37ad612fd0dd"
+    },
+    {
+      "commit_date": "2026-10-21T16:53:57.000+02:00",
+      "author": "anwai98",
+      "repository": "computational-cell-analytics/beghin-organoid-tools",
+      "commit_url": "https://github.com/computational-cell-analytics/beghin-organoid-tools/commit/82960cc3d3d0adf97fd0025fdb1b8a7617ee86a4"
+    },
+    {
+      "commit_date": "2026-10-21T16:22:46.000+02:00",
+      "author": "mahesh-panchal",
+      "repository": "mahesh-panchal/nf-icechunk-records",
+      "commit_url": "https://github.com/mahesh-panchal/nf-icechunk-records/commit/35ce0d67adead46b1b839a0578dee74db5798911"
+    },
+    {
+      "commit_date": "2026-10-21T15:15:44.000Z",
+      "author": "claude",
+      "repository": "VH-Lab/NDR-python",
+      "commit_url": "https://github.com/VH-Lab/NDR-python/commit/6065b04363104fb86c744e4ecccec1c0d31c5d57"
+    },
+    {
+      "commit_date": "2026-10-21T15:14:47.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/968c96705949e3c8f753c4338693391ecb734a5f"
+    },
+    {
+      "commit_date": "2026-10-21T15:06:10.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/e19de7fd84613cd4600a9a9c196b72dc5dc081f6"
+    },
+    {
+      "commit_date": "2026-10-21T15:01:36.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/47e55b1ba54d1a8c315b53398009fa6d4a505f30"
+    },
+    {
+      "commit_date": "2026-10-21T14:46:58.000Z",
+      "author": "claude",
+      "repository": "VH-Lab/NDR-python",
+      "commit_url": "https://github.com/VH-Lab/NDR-python/commit/d20440886ccdbc52cd36631e61bb7435798d81d2"
+    },
+    {
+      "commit_date": "2026-10-21T13:48:46.000-04:00",
+      "author": "maynardt",
+      "repository": "maynardt/platpy",
+      "commit_url": "https://github.com/maynardt/platpy/commit/f0317969666b744a65b25e80d335cea9cbf2d1a2"
+    },
+    {
+      "commit_date": "2026-10-21T13:37:11.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/6b0f0aaa1ab9b4b19bc148e2b6acaedd996baaa8"
+    },
+    {
+      "commit_date": "2026-10-21T13:18:16.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/f824b18876f3a9b90ae79f39ae2c878be4be4a57"
+    },
+    {
+      "commit_date": "2026-10-21T12:53:26.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/a1d73a73562503bfa22073ec7116cde0fe3a89bd"
+    },
+    {
+      "commit_date": "2026-10-21T12:26:03.000+02:00",
+      "author": "almarklein",
+      "repository": "canpute/simplezarr",
+      "commit_url": "https://github.com/canpute/simplezarr/commit/3f7d5045747316e216464979e7e06cf273845c84"
+    },
+    {
+      "commit_date": "2026-10-21T12:19:40.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/e1a6ee884bea7fe8ed416c45a9c3c654939179a5"
+    },
+    {
+      "commit_date": "2026-10-21T12:12:44.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/cb04f82324cc882c20d56b336f03464335c8385d"
+    },
+    {
+      "commit_date": "2026-10-21T12:05:57.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/48150b6c59b57a52e612cf1218a5cbc7e36ce1e7"
+    },
+    {
+      "commit_date": "2026-10-21T11:44:45.000-04:00",
+      "author": "stevevanhooser",
+      "repository": "VH-Lab/NDR-python",
+      "commit_url": "https://github.com/VH-Lab/NDR-python/commit/321d31e77ad7742731850a1b21c2146ee4486601"
+    },
+    {
+      "commit_date": "2026-10-21T11:34:39.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/0ce91cc9a5148da575417d755ac4ede8f191a776"
+    },
+    {
+      "commit_date": "2026-10-21T11:13:07.000-07:00",
+      "author": "Carrotizer",
+      "repository": "chanzuckerberg/dynamic-cell-atlas-specs",
+      "commit_url": "https://github.com/chanzuckerberg/dynamic-cell-atlas-specs/commit/3e14615dcd6891f8cceecfaf7a956116d16246a6"
+    },
+    {
+      "commit_date": "2026-10-21T09:08:30.000+02:00",
+      "author": "RAHoebe",
+      "repository": "NL-BioImaging/BIOMERO.ZarrViewer",
+      "commit_url": "https://github.com/NL-BioImaging/BIOMERO.ZarrViewer/commit/5337b2cc86dc15c3b2618b12a82848abc24eb808"
+    },
+    {
+      "commit_date": "2026-10-21T08:37:29.000+01:00",
+      "author": "sbesson",
+      "repository": "glencoesoftware/omero-zarr-pixel-buffer",
+      "commit_url": "https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/dff567ba194d214120190f4a1f2e641f46429c14"
+    },
+    {
+      "commit_date": "2026-10-20T23:30:21.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/8c2c012f1a09dd61ddad6eb00f50341d8e2a7c20"
+    },
     {
       "commit_date": "2026-10-20T23:13:50.000+02:00",
       "author": "lednicky-t",
@@ -11,10 +179,22 @@
       "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/434dc0df9753e3feeb5b1f5909636015a57bdd6d"
     },
     {
+      "commit_date": "2026-10-20T22:13:29.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/e42bcce2f325ee21f703ab6c25ef5f877c339964"
+    },
+    {
       "commit_date": "2026-10-20T20:39:18.000+03:00",
       "author": "IvanHCenalmor",
       "repository": "CellMigrationLab/morphobricks-preprocessing",
       "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/904c65a54f98d30152aee421ca2b311e9fb1ca80"
+    },
+    {
+      "commit_date": "2026-10-20T19:01:09.000-04:00",
+      "author": "maynardt",
+      "repository": "maynardt/platpy",
+      "commit_url": "https://github.com/maynardt/platpy/commit/d6b07950ce051fa31618570dfb132a2d9899d33a"
     },
     {
       "commit_date": "2026-10-20T17:00:03.000+02:00",
@@ -117,6 +297,18 @@
       "author": "kresnajenie",
       "repository": "kresnajenie/merfisheyes",
       "commit_url": "https://github.com/kresnajenie/merfisheyes/commit/58bbb55a78a6713f5202d552fd86e3abb22011cf"
+    },
+    {
+      "commit_date": "2026-10-19T22:33:37.000-04:00",
+      "author": "Einar Olafsson",
+      "repository": "EinarOlafsson/spacr",
+      "commit_url": "https://github.com/EinarOlafsson/spacr/commit/39effa6b808c315b5366d7bff6576c11ea6cabb0"
+    },
+    {
+      "commit_date": "2026-10-19T22:33:37.000-04:00",
+      "author": "Einar Olafsson",
+      "repository": "EinarOlafsson/spacr",
+      "commit_url": "https://github.com/EinarOlafsson/spacr/commit/39646cf7067ab7646724f51df703583c9e5cbfeb"
     },
     {
       "commit_date": "2026-10-19T19:00:25.000-07:00",
