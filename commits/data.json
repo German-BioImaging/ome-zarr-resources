@@ -1,9 +1,81 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-22T01:38:38+00:00",
+  "generated": "2026-10-23T01:39:31+00:00",
   "recent_days": 10,
-  "total_commits": 2637,
+  "total_commits": 2649,
   "commits": [
+    {
+      "commit_date": "2026-10-22T18:14:52.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/fair-segmentation",
+      "commit_url": "https://github.com/NL-BioImaging/fair-segmentation/commit/d2d1d86675f3f86496e88721df61589c1b249f03"
+    },
+    {
+      "commit_date": "2026-10-22T18:14:22.000+01:00",
+      "author": "sophiamaedler",
+      "repository": "MannLabs/scPortrait",
+      "commit_url": "https://github.com/MannLabs/scPortrait/commit/0ec31b5be648d22af0d46eebcbb0df890637ee2a"
+    },
+    {
+      "commit_date": "2026-10-22T16:05:12.000+03:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/06f10ba6adeab3ea83cb703ad8d40472692ce1a5"
+    },
+    {
+      "commit_date": "2026-10-22T15:50:03.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/3289335f94278f13d39aba6fe99ab16c80e1e68d"
+    },
+    {
+      "commit_date": "2026-10-22T15:49:30.000+02:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/dc0b2031e4e159ff64f3856e32e027b57f3c50c4"
+    },
+    {
+      "commit_date": "2026-10-22T15:27:31.000+08:00",
+      "author": "ferventrain",
+      "repository": "ferventrain/Yifu",
+      "commit_url": "https://github.com/ferventrain/Yifu/commit/c7f9f261de89fcdfa094a0ed2b83c6b7324f33f4"
+    },
+    {
+      "commit_date": "2026-10-22T15:11:34.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/fair-segmentation",
+      "commit_url": "https://github.com/NL-BioImaging/fair-segmentation/commit/60e3a1f10bf4b81f5f7046c631c40e85d3e0f5f5"
+    },
+    {
+      "commit_date": "2026-10-22T14:54:19.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/fair-segmentation",
+      "commit_url": "https://github.com/NL-BioImaging/fair-segmentation/commit/bcd78ea31ade0c9b663fa63c497528f3ebac39e6"
+    },
+    {
+      "commit_date": "2026-10-22T14:36:21.000+01:00",
+      "author": "balbasty",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/3b82fde253af1271895f52d10973ed5cf3325db3"
+    },
+    {
+      "commit_date": "2026-10-22T11:45:01.000+02:00",
+      "author": "flevet",
+      "repository": "flevet/PoCA",
+      "commit_url": "https://github.com/flevet/PoCA/commit/e33d48d69f16ee9e0638d73da9a92dd2c14ec077"
+    },
+    {
+      "commit_date": "2026-10-22T10:45:23.000-07:00",
+      "author": "dpshepherd",
+      "repository": "QI2lab/opm-processing-v2",
+      "commit_url": "https://github.com/QI2lab/opm-processing-v2/commit/3c60e82f2edce3b1750674dee5a345220f441000"
+    },
+    {
+      "commit_date": "2026-10-22T10:32:32.000+02:00",
+      "author": "Bugra Oezdemir",
+      "repository": "Euro-BioImaging/EuBI-Bridge",
+      "commit_url": "https://github.com/Euro-BioImaging/EuBI-Bridge/commit/c4a72ef03eb64b00ccc630a20136e0b0a6f7aeda"
+    },
     {
       "commit_date": "2026-10-22T10:00:48.000+11:00",
       "author": "schienstockd",
