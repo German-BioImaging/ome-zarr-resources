@@ -1,9 +1,123 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-23T01:39:31+00:00",
+  "generated": "2026-10-24T01:37:02+00:00",
   "recent_days": 10,
-  "total_commits": 2649,
+  "total_commits": 2673,
   "commits": [
+    {
+      "commit_date": "2026-10-23T20:52:17.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/01c42006ea4d592c70b2a22bad50fca54106ad52"
+    },
+    {
+      "commit_date": "2026-10-23T20:09:54.000+02:00",
+      "author": "Bugra Oezdemir",
+      "repository": "Euro-BioImaging/EuBI-Bridge",
+      "commit_url": "https://github.com/Euro-BioImaging/EuBI-Bridge/commit/8317e65105103a913c08059db52a18c51594146c"
+    },
+    {
+      "commit_date": "2026-10-23T19:24:41.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/7d051e397e25207e79d478787e9840b032f9230d"
+    },
+    {
+      "commit_date": "2026-10-23T18:45:02.000+02:00",
+      "author": "RAHoebe",
+      "repository": "NL-BioImaging/BIOMERO.ZarrViewer",
+      "commit_url": "https://github.com/NL-BioImaging/BIOMERO.ZarrViewer/commit/3dd4d842db1ceda67ee808585a84e99108354050"
+    },
+    {
+      "commit_date": "2026-10-23T18:12:16.000+02:00",
+      "author": "dv-bt",
+      "repository": "fractal-analytics-platform/fractal-facs-tasks",
+      "commit_url": "https://github.com/fractal-analytics-platform/fractal-facs-tasks/commit/a0782d9523d16c769667290626025e98a8a1cca8"
+    },
+    {
+      "commit_date": "2026-10-23T17:48:02.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/biahub",
+      "commit_url": "https://github.com/czbiohub-sf/biahub/commit/816fbf7d304d0382020f25bdebda711a8cec3728"
+    },
+    {
+      "commit_date": "2026-10-23T17:42:23.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/biahub",
+      "commit_url": "https://github.com/czbiohub-sf/biahub/commit/dd42cc0f9d32a558056ca9bbad540b113667f764"
+    },
+    {
+      "commit_date": "2026-10-23T17:36:34.000-07:00",
+      "author": "ieivanov",
+      "repository": "czbiohub-sf/biahub",
+      "commit_url": "https://github.com/czbiohub-sf/biahub/commit/db247c7e6487ce8884c9ad733688d759edb0bcbe"
+    },
+    {
+      "commit_date": "2026-10-23T16:08:26.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/SPIMquant",
+      "commit_url": "https://github.com/khanlab/SPIMquant/commit/f313a8c5826b52c46e69c9dc90d2963930dd7331"
+    },
+    {
+      "commit_date": "2026-10-23T11:42:35.000-04:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/0d83f44f7be688c7753da459ddfff067c5018012"
+    },
+    {
+      "commit_date": "2026-10-23T11:24:17.000+02:00",
+      "author": "fedasevich",
+      "repository": "fedasevich/parfocal",
+      "commit_url": "https://github.com/fedasevich/parfocal/commit/a7e55de8eca36e58fdbc35bf6be9e050a45586d5"
+    },
+    {
+      "commit_date": "2026-10-23T11:02:21.000-04:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/434dd2ab25c2f45ed6fd7cb767c3b6803842b00a"
+    },
+    {
+      "commit_date": "2026-10-23T10:42:19.000+02:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/fair-segmentation",
+      "commit_url": "https://github.com/NL-BioImaging/fair-segmentation/commit/c570f10f75144e4cd8c2be74a2c602e4cc061ccd"
+    },
+    {
+      "commit_date": "2026-10-23T10:40:56.000+02:00",
+      "author": "lazarusA",
+      "repository": "lazarusA/octant",
+      "commit_url": "https://github.com/lazarusA/octant/commit/a334e15ccfbf69a9f1282bc7e085db5a107aa2d8"
+    },
+    {
+      "commit_date": "2026-10-23T08:07:07.000-04:00",
+      "author": "MicTott",
+      "repository": "MicTott/spatialscape",
+      "commit_url": "https://github.com/MicTott/spatialscape/commit/4677c7d35fd50c58ba6b680711a33a9744f5e4ed"
+    },
+    {
+      "commit_date": "2026-10-23T04:29:58.000-04:00",
+      "author": "ChaseHendrick",
+      "repository": "ChaseHendrick/Scrolls",
+      "commit_url": "https://github.com/ChaseHendrick/Scrolls/commit/53b1dd066e97ead7d6d485fa2f50afeedecaad78"
+    },
+    {
+      "commit_date": "2026-10-23T01:06:50.000-04:00",
+      "author": "chourroutm",
+      "repository": "chourroutm/ome-zarr-masker",
+      "commit_url": "https://github.com/chourroutm/ome-zarr-masker/commit/42cff9727173a9364fb09aa7be0c987547a4f0c9"
+    },
+    {
+      "commit_date": "2026-10-22T22:57:34.000-04:00",
+      "author": "chourroutm",
+      "repository": "chourroutm/ome-zarr-masker",
+      "commit_url": "https://github.com/chourroutm/ome-zarr-masker/commit/1c5a663a7b180a193313ffcd01c9329d2adcde4d"
+    },
+    {
+      "commit_date": "2026-10-22T22:34:13.000-04:00",
+      "author": "chourroutm",
+      "repository": "chourroutm/ome-zarr-masker",
+      "commit_url": "https://github.com/chourroutm/ome-zarr-masker/commit/250a74ead9691efc4459465cf78b3449df4da391"
+    },
     {
       "commit_date": "2026-10-22T18:14:52.000+02:00",
       "author": "folterj",
@@ -15,6 +129,12 @@
       "author": "sophiamaedler",
       "repository": "MannLabs/scPortrait",
       "commit_url": "https://github.com/MannLabs/scPortrait/commit/0ec31b5be648d22af0d46eebcbb0df890637ee2a"
+    },
+    {
+      "commit_date": "2026-10-22T17:18:48.000-04:00",
+      "author": "chourroutm",
+      "repository": "chourroutm/ome-zarr-masker",
+      "commit_url": "https://github.com/chourroutm/ome-zarr-masker/commit/dc6a097c7a3e5f00ae929b2f8f6130254da5efc3"
     },
     {
       "commit_date": "2026-10-22T16:05:12.000+03:00",
@@ -53,16 +173,40 @@
       "commit_url": "https://github.com/NL-BioImaging/fair-segmentation/commit/bcd78ea31ade0c9b663fa63c497528f3ebac39e6"
     },
     {
+      "commit_date": "2026-10-22T14:49:29.000+02:00",
+      "author": "Bugra Oezdemir",
+      "repository": "Euro-BioImaging/EuBI-Bridge",
+      "commit_url": "https://github.com/Euro-BioImaging/EuBI-Bridge/commit/2b88c120b99ed74b4e19642d52eb5fd9c8611381"
+    },
+    {
       "commit_date": "2026-10-22T14:36:21.000+01:00",
       "author": "balbasty",
       "repository": "neuroscales/brainhops",
       "commit_url": "https://github.com/neuroscales/brainhops/commit/3b82fde253af1271895f52d10973ed5cf3325db3"
     },
     {
+      "commit_date": "2026-10-22T14:26:55.000+02:00",
+      "author": "Bugra Oezdemir",
+      "repository": "Euro-BioImaging/EuBI-Bridge",
+      "commit_url": "https://github.com/Euro-BioImaging/EuBI-Bridge/commit/1efb6135a3c558f6a2fa4ab93d567735da951d55"
+    },
+    {
+      "commit_date": "2026-10-22T14:12:10.000-04:00",
+      "author": "MicTott",
+      "repository": "MicTott/spatialscape",
+      "commit_url": "https://github.com/MicTott/spatialscape/commit/164216dd77e7a7bc6aacfb3508875ca519bfedba"
+    },
+    {
       "commit_date": "2026-10-22T11:45:01.000+02:00",
       "author": "flevet",
       "repository": "flevet/PoCA",
       "commit_url": "https://github.com/flevet/PoCA/commit/e33d48d69f16ee9e0638d73da9a92dd2c14ec077"
+    },
+    {
+      "commit_date": "2026-10-22T11:29:54.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/a20b35d579c6f631eb1728315ead433757d5cc9e"
     },
     {
       "commit_date": "2026-10-22T10:45:23.000-07:00",
