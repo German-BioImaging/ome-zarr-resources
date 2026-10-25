@@ -1,9 +1,45 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-24T01:37:02+00:00",
+  "generated": "2026-10-25T01:38:10+00:00",
   "recent_days": 10,
-  "total_commits": 2673,
+  "total_commits": 2680,
   "commits": [
+    {
+      "commit_date": "2026-10-24T18:48:33.000+02:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/680680df95c1a8b45bc59fb5625c976c6546bb72"
+    },
+    {
+      "commit_date": "2026-10-24T15:29:56.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/f839a337e2adcce27f8d7dfa70671eb16f230416"
+    },
+    {
+      "commit_date": "2026-10-24T14:51:18.000+02:00",
+      "author": "maxxrichard",
+      "repository": "maxxrichard/PhenoScope",
+      "commit_url": "https://github.com/maxxrichard/PhenoScope/commit/dddc1eb62df014459dcad16e6232de3528bc0eba"
+    },
+    {
+      "commit_date": "2026-10-24T14:20:57.000Z",
+      "author": "claude",
+      "repository": "winfrees/Napari-iOS-clone",
+      "commit_url": "https://github.com/winfrees/Napari-iOS-clone/commit/c430166e40b50b363f05dea04e88abf7125348a9"
+    },
+    {
+      "commit_date": "2026-10-24T14:19:11.000Z",
+      "author": "claude",
+      "repository": "winfrees/Napari-iOS-clone",
+      "commit_url": "https://github.com/winfrees/Napari-iOS-clone/commit/b326f74f92b5f6956803e8b5d15ad1f245526b25"
+    },
+    {
+      "commit_date": "2026-10-24T10:50:55.000-04:00",
+      "author": "ChaseHendrick",
+      "repository": "ChaseHendrick/Scrolls",
+      "commit_url": "https://github.com/ChaseHendrick/Scrolls/commit/688b9e847d78943c43145c00cc14a0701af76f8c"
+    },
     {
       "commit_date": "2026-10-23T20:52:17.000+02:00",
       "author": "d-v-b",
@@ -15,6 +51,12 @@
       "author": "Bugra Oezdemir",
       "repository": "Euro-BioImaging/EuBI-Bridge",
       "commit_url": "https://github.com/Euro-BioImaging/EuBI-Bridge/commit/8317e65105103a913c08059db52a18c51594146c"
+    },
+    {
+      "commit_date": "2026-10-23T20:06:50.000-07:00",
+      "author": "uermel",
+      "repository": "copick/copick-dag",
+      "commit_url": "https://github.com/copick/copick-dag/commit/9eabccde012099f9df138f7a5f7dcba58cdafd85"
     },
     {
       "commit_date": "2026-10-23T19:24:41.000+02:00",
