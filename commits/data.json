@@ -1,9 +1,141 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-25T01:38:10+00:00",
+  "generated": "2026-10-26T01:41:37+00:00",
   "recent_days": 10,
-  "total_commits": 2680,
+  "total_commits": 2704,
   "commits": [
+    {
+      "commit_date": "2026-10-25T21:16:14.000-04:00",
+      "author": "Joost Wagenaar",
+      "repository": "Pennsieve/packages-service",
+      "commit_url": "https://github.com/Pennsieve/packages-service/commit/fd89b449df349cfd812ac10f319d20b2dc158189"
+    },
+    {
+      "commit_date": "2026-10-25T19:43:08.000-04:00",
+      "author": "jwagenaar",
+      "repository": "Pennsieve/packages-service",
+      "commit_url": "https://github.com/Pennsieve/packages-service/commit/d374ff1a33e601b4e2254ce614cbc50bd70a9a04"
+    },
+    {
+      "commit_date": "2026-10-25T18:30:16.000+01:00",
+      "author": "RAHoebe",
+      "repository": "Cellular-Imaging-Amsterdam-UMC/ciseg-wevisonevl",
+      "commit_url": "https://github.com/Cellular-Imaging-Amsterdam-UMC/ciseg-wevisonevl/commit/7f3df5d5b1b97ba272947687658071e0cddf8c2b"
+    },
+    {
+      "commit_date": "2026-10-25T18:10:13.000-04:00",
+      "author": "Joost Wagenaar",
+      "repository": "Pennsieve/packages-service",
+      "commit_url": "https://github.com/Pennsieve/packages-service/commit/ba4f8fc836e9fe4ea9ffd8b8f02aecc6a3d8ce01"
+    },
+    {
+      "commit_date": "2026-10-25T17:13:09.000+08:00",
+      "author": "Mocondo842",
+      "repository": "Mocondo842/Fiji-Web",
+      "commit_url": "https://github.com/Mocondo842/Fiji-Web/commit/bd5d072e5914742093859e3fa7b610ba59b7e73b"
+    },
+    {
+      "commit_date": "2026-10-25T14:47:15.000-07:00",
+      "author": "lucaswewa",
+      "repository": "lucaswewa/SpectrumIQ",
+      "commit_url": "https://github.com/lucaswewa/SpectrumIQ/commit/59493eb1b6d1b7bd2844aeca72f7263e7827fc82"
+    },
+    {
+      "commit_date": "2026-10-25T14:01:24.000-07:00",
+      "author": "lucaswewa",
+      "repository": "lucaswewa/SpectrumIQ",
+      "commit_url": "https://github.com/lucaswewa/SpectrumIQ/commit/1565ecee35f089ba8e4960fb55017c2cdbc83f45"
+    },
+    {
+      "commit_date": "2026-10-25T13:37:20.000-07:00",
+      "author": "lucaswewa",
+      "repository": "lucaswewa/SpectrumIQ",
+      "commit_url": "https://github.com/lucaswewa/SpectrumIQ/commit/ab59822f5ccdffa2802dc66421111c3e91c708ce"
+    },
+    {
+      "commit_date": "2026-10-25T12:59:37.000-07:00",
+      "author": "lucaswewa",
+      "repository": "lucaswewa/SpectrumIQ",
+      "commit_url": "https://github.com/lucaswewa/SpectrumIQ/commit/e94680bee6e3c07b71f1f74c9ed673f80b728f88"
+    },
+    {
+      "commit_date": "2026-10-25T12:43:41.000-07:00",
+      "author": "lucaswewa",
+      "repository": "lucaswewa/SpectrumIQ",
+      "commit_url": "https://github.com/lucaswewa/SpectrumIQ/commit/c7cdbe46ab1c492473df3d7939c547ba52fa58b6"
+    },
+    {
+      "commit_date": "2026-10-25T12:21:12.000-07:00",
+      "author": "lucaswewa",
+      "repository": "lucaswewa/SpectrumIQ",
+      "commit_url": "https://github.com/lucaswewa/SpectrumIQ/commit/f971f7444373bbfe95176851037a76465d5704e0"
+    },
+    {
+      "commit_date": "2026-10-25T10:59:23.000-04:00",
+      "author": "Joost Wagenaar",
+      "repository": "Pennsieve/packages-service",
+      "commit_url": "https://github.com/Pennsieve/packages-service/commit/50a178aa252ad632736edb7b01d8ae9924907042"
+    },
+    {
+      "commit_date": "2026-10-25T10:57:56.000-04:00",
+      "author": "Joost Wagenaar",
+      "repository": "Pennsieve/app-deploy-service",
+      "commit_url": "https://github.com/Pennsieve/app-deploy-service/commit/8981b761455079ebbf67b51819113ea14ec86b26"
+    },
+    {
+      "commit_date": "2026-10-25T10:56:22.000-04:00",
+      "author": "psobolewskiPhD",
+      "repository": "imaging-formats/bffile",
+      "commit_url": "https://github.com/imaging-formats/bffile/commit/b0012be05392c7052c528a5b8bdebf858dfc3e00"
+    },
+    {
+      "commit_date": "2026-10-25T10:10:03.000Z",
+      "author": "fabaff",
+      "repository": "NixOS/nixpkgs",
+      "commit_url": "https://github.com/NixOS/nixpkgs/commit/c4c044fb240dfdab7fe4ddfe0cac00923dc9aadb"
+    },
+    {
+      "commit_date": "2026-10-25T09:59:18.000-04:00",
+      "author": "Joost Wagenaar",
+      "repository": "Pennsieve/packages-service",
+      "commit_url": "https://github.com/Pennsieve/packages-service/commit/1205e8eee05d203d5514a93510ac3efd4979acc8"
+    },
+    {
+      "commit_date": "2026-10-25T09:19:10.000-04:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr-translations",
+      "commit_url": "https://github.com/EinarOlafsson/spacr-translations/commit/3f76a0e96f489019a003563b90ca26127cb21b86"
+    },
+    {
+      "commit_date": "2026-10-25T09:08:10.000-07:00",
+      "author": "David Kubala",
+      "repository": "DavesGames123/davesgames-site",
+      "commit_url": "https://github.com/DavesGames123/davesgames-site/commit/6090537a13c31fa31480bb42050f59d3f8aa3bba"
+    },
+    {
+      "commit_date": "2026-10-25T09:05:35.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/SPIMquant",
+      "commit_url": "https://github.com/khanlab/SPIMquant/commit/33dfc3ebbfc4a4ec8193d6c5fd404b1ce305ab52"
+    },
+    {
+      "commit_date": "2026-10-25T08:57:08.000-07:00",
+      "author": "David Kubala",
+      "repository": "DavesGames123/davesgames-site",
+      "commit_url": "https://github.com/DavesGames123/davesgames-site/commit/7a3a8615132517909472f7ec1f6364019a553d62"
+    },
+    {
+      "commit_date": "2026-10-25T08:52:04.000-07:00",
+      "author": "David Kubala",
+      "repository": "DavesGames123/davesgames-site",
+      "commit_url": "https://github.com/DavesGames123/davesgames-site/commit/473d98dea9b6aa2f4c6e1f6d22b99121ba70313a"
+    },
+    {
+      "commit_date": "2026-10-25T01:20:48.000+02:00",
+      "author": "fabaff",
+      "repository": "NixOS/nixpkgs",
+      "commit_url": "https://github.com/NixOS/nixpkgs/commit/7f5427cda9c410d4f637c7c2bdab1cef0a69db97"
+    },
     {
       "commit_date": "2026-10-24T18:48:33.000+02:00",
       "author": "d-v-b",
@@ -11,10 +143,22 @@
       "commit_url": "https://github.com/d-v-b/refkv/commit/680680df95c1a8b45bc59fb5625c976c6546bb72"
     },
     {
+      "commit_date": "2026-10-24T15:39:54.000Z",
+      "author": "joda01",
+      "repository": "evanalyzer/scopeio",
+      "commit_url": "https://github.com/evanalyzer/scopeio/commit/ab59cb863e79ea066b368a44473d50d45347f10a"
+    },
+    {
       "commit_date": "2026-10-24T15:29:56.000-04:00",
       "author": "ajitjohnson",
       "repository": "nirmallab/plexora",
       "commit_url": "https://github.com/nirmallab/plexora/commit/f839a337e2adcce27f8d7dfa70671eb16f230416"
+    },
+    {
+      "commit_date": "2026-10-24T15:17:08.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/SPIMquant",
+      "commit_url": "https://github.com/khanlab/SPIMquant/commit/41e6e5b90e1a1665f8ea5a9ac6f6c1ca9f27be5a"
     },
     {
       "commit_date": "2026-10-24T14:51:18.000+02:00",
