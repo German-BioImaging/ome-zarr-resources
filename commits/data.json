@@ -1,9 +1,135 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-26T01:41:37+00:00",
+  "generated": "2026-10-27T01:41:46+00:00",
   "recent_days": 10,
-  "total_commits": 2704,
+  "total_commits": 2725,
   "commits": [
+    {
+      "commit_date": "2026-10-27T08:15:06.000+11:00",
+      "author": "scottberry",
+      "repository": "berrygroup/blimp",
+      "commit_url": "https://github.com/berrygroup/blimp/commit/adc19e60f18f7363dfc1b843325b24bef7018286"
+    },
+    {
+      "commit_date": "2026-10-27T02:07:03.000+02:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/11241da5d817e592493b31bf50a58a2ad70ea589"
+    },
+    {
+      "commit_date": "2026-10-26T18:26:19.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/03f016d0ec1e6dfb225c430d343fa26fc974aa40"
+    },
+    {
+      "commit_date": "2026-10-26T18:20:24.000+01:00",
+      "author": "TorecLuik",
+      "repository": "NL-BioImaging/BIOMERO.shallower",
+      "commit_url": "https://github.com/NL-BioImaging/BIOMERO.shallower/commit/6dae0364637f74b2f162d0677f05a78f70240d76"
+    },
+    {
+      "commit_date": "2026-10-26T17:46:57.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/84ccc697c60bf0bc8491e0ea6b4f41cf3e9d02e3"
+    },
+    {
+      "commit_date": "2026-10-26T16:57:36.000+01:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/209b0efcee7b28839bd0f89dbd626a5744fc5adf"
+    },
+    {
+      "commit_date": "2026-10-26T14:43:36.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/0b48bd5b447a99836effcf1e5dd4080b76f0611f"
+    },
+    {
+      "commit_date": "2026-10-26T14:21:35.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/1274824e9bdd9919554470a2281aed09ff3c8782"
+    },
+    {
+      "commit_date": "2026-10-26T13:44:41.000-05:00",
+      "author": "bscott",
+      "repository": "bscott711/bioimaging",
+      "commit_url": "https://github.com/bscott711/bioimaging/commit/cb79b91d2c53b11629094d850217d51255c6b41d"
+    },
+    {
+      "commit_date": "2026-10-26T13:41:43.000Z",
+      "author": "IgorTatarnikov",
+      "repository": "brainglobe/scripts",
+      "commit_url": "https://github.com/brainglobe/scripts/commit/ac7ea729e9f888e47d9f05c6037a9087e5f5aab1"
+    },
+    {
+      "commit_date": "2026-10-26T12:59:41.000+01:00",
+      "author": "dv-bt",
+      "repository": "fractal-analytics-platform/fractal-facs-tasks",
+      "commit_url": "https://github.com/fractal-analytics-platform/fractal-facs-tasks/commit/508d6d130594a008f88cfaa140fb4e0990a5ac31"
+    },
+    {
+      "commit_date": "2026-10-26T12:58:28.000+11:00",
+      "author": "JurgenKriel",
+      "repository": "JurgenKriel/SMINT",
+      "commit_url": "https://github.com/JurgenKriel/SMINT/commit/a6a6251373f687bc57d2961a3d8c8582e3587353"
+    },
+    {
+      "commit_date": "2026-10-26T12:13:01.000Z",
+      "author": "bors",
+      "repository": "rust-lang/crates.io-index",
+      "commit_url": "https://github.com/rust-lang/crates.io-index/commit/43e2304afab903de04dcdde09ac65515908fe5ea"
+    },
+    {
+      "commit_date": "2026-10-26T11:41:27.000-03:00",
+      "author": "li-em",
+      "repository": "ome/ome-zarr-py",
+      "commit_url": "https://github.com/ome/ome-zarr-py/commit/494697a65b53199afb5ab688d7ff1804c1b96a4a"
+    },
+    {
+      "commit_date": "2026-10-26T11:40:45.000+11:00",
+      "author": "JurgenKriel",
+      "repository": "JurgenKriel/SMINT",
+      "commit_url": "https://github.com/JurgenKriel/SMINT/commit/91a6d62f5e83386ad0ead0935c337e1501772f17"
+    },
+    {
+      "commit_date": "2026-10-26T11:22:04.000+01:00",
+      "author": "schilling40",
+      "repository": "computational-cell-analytics/slurm-workflows",
+      "commit_url": "https://github.com/computational-cell-analytics/slurm-workflows/commit/d71cbee8672a468074c7892d9a8df3d33dcb3ec1"
+    },
+    {
+      "commit_date": "2026-10-26T10:50:19.000+01:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/465d57582797c301a3904713748cbab2289d18c0"
+    },
+    {
+      "commit_date": "2026-10-26T10:35:24.000Z",
+      "author": "petebankhead",
+      "repository": "qupath/qupath-imglib2",
+      "commit_url": "https://github.com/qupath/qupath-imglib2/commit/f6134ac912b5aa3fb148cd6570c91db465592827"
+    },
+    {
+      "commit_date": "2026-10-26T09:20:33.000+01:00",
+      "author": "victorcabre",
+      "repository": "qim-center/qim3d",
+      "commit_url": "https://github.com/qim-center/qim3d/commit/05098882e0a37c7bd51929f91a2cc82edd0ae2da"
+    },
+    {
+      "commit_date": "2026-10-26T07:53:04.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/41f45f6272d55708a263d4f938ca72398f465500"
+    },
+    {
+      "commit_date": "2026-10-26T07:22:11.000-06:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/267ace06192a36ec8fd487aa8046acfb59a69fc3"
+    },
     {
       "commit_date": "2026-10-25T21:16:14.000-04:00",
       "author": "Joost Wagenaar",
