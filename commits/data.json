@@ -1,9 +1,75 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-27T01:41:46+00:00",
+  "generated": "2026-10-28T01:23:47+00:00",
   "recent_days": 10,
-  "total_commits": 2725,
+  "total_commits": 2741,
   "commits": [
+    {
+      "commit_date": "2026-10-27T17:31:56.000+01:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/5737468186d58530bb25107384294c4d9e904c70"
+    },
+    {
+      "commit_date": "2026-10-27T15:56:32.000Z",
+      "author": "claude",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/6f4c06a5dddaa112d02cffc5290a089a7d3dec70"
+    },
+    {
+      "commit_date": "2026-10-27T15:28:52.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/ec7ebb7c0b789150ad46661029b78f090d293599"
+    },
+    {
+      "commit_date": "2026-10-27T15:09:45.000+01:00",
+      "author": "MPanknin",
+      "repository": "MPanknin/kiln-render",
+      "commit_url": "https://github.com/MPanknin/kiln-render/commit/1c62d7ac92cc0cc930dfb16ba58488ac48a0c409"
+    },
+    {
+      "commit_date": "2026-10-27T14:08:37.000+01:00",
+      "author": "oierlauzi",
+      "repository": "gigabit-clowns/vitrio",
+      "commit_url": "https://github.com/gigabit-clowns/vitrio/commit/310fed1afef934ebd446978e378a21b3d129e232"
+    },
+    {
+      "commit_date": "2026-10-27T12:49:16.000+01:00",
+      "author": "schilling40",
+      "repository": "computational-cell-analytics/slurm-workflows",
+      "commit_url": "https://github.com/computational-cell-analytics/slurm-workflows/commit/a8495bddfa2acb695d02bb5950015ae51440fa9b"
+    },
+    {
+      "commit_date": "2026-10-27T11:34:49.000+01:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/f3340b502092420f43321717548f46d9d9d2e89c"
+    },
+    {
+      "commit_date": "2026-10-27T11:25:48.000+01:00",
+      "author": "almarklein",
+      "repository": "canpute/simplezarr",
+      "commit_url": "https://github.com/canpute/simplezarr/commit/3d01d2da34aff5a578f7b2658f6fc7e17a994da6"
+    },
+    {
+      "commit_date": "2026-10-27T10:52:17.000+01:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/a953f98dd09befa20074848dc6511e4430b957c3"
+    },
+    {
+      "commit_date": "2026-10-27T10:25:04.000+02:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/55f10747df9db3fd21cd5cd6f12e1b5426c51f06"
+    },
+    {
+      "commit_date": "2026-10-27T10:10:07.000+02:00",
+      "author": "IvanHCenalmor",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/0894b59b2a799de878c54244e854d128743dd41f"
+    },
     {
       "commit_date": "2026-10-27T08:15:06.000+11:00",
       "author": "scottberry",
@@ -11,10 +77,40 @@
       "commit_url": "https://github.com/berrygroup/blimp/commit/adc19e60f18f7363dfc1b843325b24bef7018286"
     },
     {
+      "commit_date": "2026-10-27T05:55:28.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/bff743f75ab8df01b0f4f480a839e3abbfeb9ac3"
+    },
+    {
+      "commit_date": "2026-10-27T05:53:36.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/ef274a3d0b187ae49d35ed4d2cb57a635134b9a6"
+    },
+    {
       "commit_date": "2026-10-27T02:07:03.000+02:00",
       "author": "IvanHCenalmor",
       "repository": "CellMigrationLab/morphobricks-preprocessing",
       "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/11241da5d817e592493b31bf50a58a2ad70ea589"
+    },
+    {
+      "commit_date": "2026-10-27T01:44:30.000-07:00",
+      "author": "lucaswewa",
+      "repository": "lucaswewa/SpectrumIQ",
+      "commit_url": "https://github.com/lucaswewa/SpectrumIQ/commit/88236c4d938d931e9fd4fe5a33421d20b44c2dda"
+    },
+    {
+      "commit_date": "2026-10-27T00:41:00.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/SPIMquant",
+      "commit_url": "https://github.com/khanlab/SPIMquant/commit/c57da948fa955e725b742e45be2d2b85696a19cf"
+    },
+    {
+      "commit_date": "2026-10-27T00:16:41.000-04:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/ef8f31c4acc367fc663c5e7e440ff8512f0d539e"
     },
     {
       "commit_date": "2026-10-26T18:26:19.000-04:00",
