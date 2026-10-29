@@ -1,9 +1,99 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-28T01:23:47+00:00",
+  "generated": "2026-10-29T01:24:15+00:00",
   "recent_days": 10,
-  "total_commits": 2741,
+  "total_commits": 2761,
   "commits": [
+    {
+      "commit_date": "2026-10-29T00:15:01.000+01:00",
+      "author": "lazarusA",
+      "repository": "lazarusA/octant",
+      "commit_url": "https://github.com/lazarusA/octant/commit/c02f9fb9610107e5db5e0f8a9eed6e16ed1ebf67"
+    },
+    {
+      "commit_date": "2026-10-28T18:30:28.000+01:00",
+      "author": "TorecLuik",
+      "repository": "NL-BioImaging/NL-BIOMERO",
+      "commit_url": "https://github.com/NL-BioImaging/NL-BIOMERO/commit/8189beea08df0e33689fa63b7ac8e7b4a218210d"
+    },
+    {
+      "commit_date": "2026-10-28T17:39:51.000Z",
+      "author": "danifranco",
+      "repository": "BiaPyX/BiaPy",
+      "commit_url": "https://github.com/BiaPyX/BiaPy/commit/d7ffab306681f40a28f07c479e5786fb4e59e489"
+    },
+    {
+      "commit_date": "2026-10-28T16:16:33.000Z",
+      "author": "danifranco",
+      "repository": "BiaPyX/BiaPy",
+      "commit_url": "https://github.com/BiaPyX/BiaPy/commit/72c9c71f3c72abdb09ba35e179453a6e04c2b426"
+    },
+    {
+      "commit_date": "2026-10-28T15:02:47.000Z",
+      "author": "xinaesthete",
+      "repository": "Taylor-CCB-Group/SpatialData.js",
+      "commit_url": "https://github.com/Taylor-CCB-Group/SpatialData.js/commit/e84133978c5cbdc2376c085d17dc3903b26ded23"
+    },
+    {
+      "commit_date": "2026-10-28T14:41:50.000+01:00",
+      "author": "konstibob",
+      "repository": "scalableminds/webknossos-libs",
+      "commit_url": "https://github.com/scalableminds/webknossos-libs/commit/626ecded3b62bcf6a8429ad4f934df6390959617"
+    },
+    {
+      "commit_date": "2026-10-28T13:55:29.000+01:00",
+      "author": "lazarusA",
+      "repository": "lazarusA/octant",
+      "commit_url": "https://github.com/lazarusA/octant/commit/48eeaf391288ad6fe60b98a4975da0b7150abd6c"
+    },
+    {
+      "commit_date": "2026-10-28T13:41:45.000-04:00",
+      "author": "yuriyzubov",
+      "repository": "janelia-cellmap/zarrify",
+      "commit_url": "https://github.com/janelia-cellmap/zarrify/commit/db22be3fc0f94edd804a5995df0b078d8783abad"
+    },
+    {
+      "commit_date": "2026-10-28T12:51:53.000+01:00",
+      "author": "konstibob",
+      "repository": "scalableminds/webknossos-libs",
+      "commit_url": "https://github.com/scalableminds/webknossos-libs/commit/0460ec424dc0fecdbcb6de4ee0f5295559fd184f"
+    },
+    {
+      "commit_date": "2026-10-28T11:57:36.000+01:00",
+      "author": "d-v-b",
+      "repository": "zarr-developers/pydantic-zarr",
+      "commit_url": "https://github.com/zarr-developers/pydantic-zarr/commit/d11289a9f1e21d12e329cf55f809b3e8ad631ab5"
+    },
+    {
+      "commit_date": "2026-10-28T10:19:21.000-05:00",
+      "author": "cpsievert",
+      "repository": "posit-dev/py-shinywidgets",
+      "commit_url": "https://github.com/posit-dev/py-shinywidgets/commit/858482eb87f60c3bc0d74f42cff08922723eb72e"
+    },
+    {
+      "commit_date": "2026-10-28T10:14:44.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/80c37b75164f2e397177cbea0466da17a25a52cf"
+    },
+    {
+      "commit_date": "2026-10-28T08:47:47.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/c7b746c4c792db299a3b272ce3451bff89fa4a25"
+    },
+    {
+      "commit_date": "2026-10-28T04:54:16.000-05:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/flamingo-stitcher",
+      "commit_url": "https://github.com/uw-loci/flamingo-stitcher/commit/92ca9967a3785bfa5e7123dffa9d5acc58ec62f9"
+    },
+    {
+      "commit_date": "2026-10-27T23:07:55.000-07:00",
+      "author": "richardzimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/c837fdefaa69c5af9c36496262827299282af51e"
+    },
     {
       "commit_date": "2026-10-27T17:31:56.000+01:00",
       "author": "d-v-b",
@@ -29,10 +119,22 @@
       "commit_url": "https://github.com/MPanknin/kiln-render/commit/1c62d7ac92cc0cc930dfb16ba58488ac48a0c409"
     },
     {
+      "commit_date": "2026-10-27T15:09:45.000+01:00",
+      "author": "MPanknin",
+      "repository": "kilnrender/kiln-render",
+      "commit_url": "https://github.com/kilnrender/kiln-render/commit/1c62d7ac92cc0cc930dfb16ba58488ac48a0c409"
+    },
+    {
       "commit_date": "2026-10-27T14:08:37.000+01:00",
       "author": "oierlauzi",
       "repository": "gigabit-clowns/vitrio",
       "commit_url": "https://github.com/gigabit-clowns/vitrio/commit/310fed1afef934ebd446978e378a21b3d129e232"
+    },
+    {
+      "commit_date": "2026-10-27T13:19:36.000-07:00",
+      "author": "lucaswewa",
+      "repository": "lucaswewa/SpectrumIQ",
+      "commit_url": "https://github.com/lucaswewa/SpectrumIQ/commit/a66f8860ccf38ce9c0515a9a036f4d20a5d17bd7"
     },
     {
       "commit_date": "2026-10-27T12:49:16.000+01:00",
@@ -87,6 +189,24 @@
       "author": "claude",
       "repository": "CellMigrationLab/morphobricks-preprocessing",
       "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/ef274a3d0b187ae49d35ed4d2cb57a635134b9a6"
+    },
+    {
+      "commit_date": "2026-10-27T05:42:21.000-07:00",
+      "author": "richardzimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/6294b80cc63e78c0d780b4e5832d7b755de06e50"
+    },
+    {
+      "commit_date": "2026-10-27T05:42:21.000-07:00",
+      "author": "richardzimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/519ffddf5100352a97af14abb274135c274e489d"
+    },
+    {
+      "commit_date": "2026-10-27T05:42:21.000-07:00",
+      "author": "richardzimring",
+      "repository": "openreadout/openreadout",
+      "commit_url": "https://github.com/openreadout/openreadout/commit/9947d510b115e5688643c5e584c3cb58f8f62a87"
     },
     {
       "commit_date": "2026-10-27T02:07:03.000+02:00",
