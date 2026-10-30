@@ -1,14 +1,110 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-29T01:24:15+00:00",
+  "generated": "2026-10-30T01:24:37+00:00",
   "recent_days": 10,
-  "total_commits": 2761,
+  "total_commits": 2777,
   "commits": [
+    {
+      "commit_date": "2026-10-29T21:08:55.000+01:00",
+      "author": "tlambert03",
+      "repository": "imaging-formats/yaozarrs",
+      "commit_url": "https://github.com/imaging-formats/yaozarrs/commit/54e6ffeae1669cf22c92c94b76c05eff2ca62971"
+    },
+    {
+      "commit_date": "2026-10-29T21:04:46.000+01:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/78ec2e3bca45cf904b5eaebd9ef645b047680a12"
+    },
+    {
+      "commit_date": "2026-10-29T17:41:26.000+01:00",
+      "author": "sebi06",
+      "repository": "sebi06/czitools",
+      "commit_url": "https://github.com/sebi06/czitools/commit/9809d1c52f8f6281dc4e146fb7473ca63111cc44"
+    },
+    {
+      "commit_date": "2026-10-29T17:41:08.000-04:00",
+      "author": "haowjy",
+      "repository": "voluma-bio/voluma",
+      "commit_url": "https://github.com/voluma-bio/voluma/commit/4066a7fb29c82c2dd808db6d03b01cde484070b3"
+    },
+    {
+      "commit_date": "2026-10-29T16:23:17.000+01:00",
+      "author": "sebi06",
+      "repository": "sebi06/czitools",
+      "commit_url": "https://github.com/sebi06/czitools/commit/5b96d826d91eb7099c67ac5d353ef5bf8dd5f44b"
+    },
+    {
+      "commit_date": "2026-10-29T15:36:38.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/5a67ff679a9e13500c872c168d7dd58efd84a235"
+    },
+    {
+      "commit_date": "2026-10-29T15:21:16.000-04:00",
+      "author": "chintan-27",
+      "repository": "chintan-27/neurozarr",
+      "commit_url": "https://github.com/chintan-27/neurozarr/commit/5abcc3654f627332c5e9a3b71297983c39524e27"
+    },
+    {
+      "commit_date": "2026-10-29T15:09:39.000-04:00",
+      "author": "haowjy",
+      "repository": "voluma-bio/voluma",
+      "commit_url": "https://github.com/voluma-bio/voluma/commit/17bd63a325ab190f1e0a1ade050c1a705f48433d"
+    },
+    {
+      "commit_date": "2026-10-29T15:09:01.000-04:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr",
+      "commit_url": "https://github.com/EinarOlafsson/spacr/commit/cf4fddb5f9b7b105f206b94c84b16c12d125ff99"
+    },
+    {
+      "commit_date": "2026-10-29T14:14:22.000-07:00",
+      "author": "mtcaton",
+      "repository": "chanzuckerberg/dynamic-cell-atlas-specs",
+      "commit_url": "https://github.com/chanzuckerberg/dynamic-cell-atlas-specs/commit/31160de17c9370f953baaebe3e8ef00e2749ec4a"
+    },
+    {
+      "commit_date": "2026-10-29T13:05:03.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/53f9a0678d29006a9eb1547d5315a8121bc013fb"
+    },
+    {
+      "commit_date": "2026-10-29T12:35:37.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/920cb761d5f3f014d267371f24957df9837f2571"
+    },
+    {
+      "commit_date": "2026-10-29T12:27:56.000+01:00",
+      "author": "Bugra Oezdemir",
+      "repository": "Euro-BioImaging/EuBI-Bridge",
+      "commit_url": "https://github.com/Euro-BioImaging/EuBI-Bridge/commit/a29c372582e887870dfbdc85fc5068e909d0fee6"
+    },
+    {
+      "commit_date": "2026-10-29T12:12:15.000+01:00",
+      "author": "bugraoezdemir",
+      "repository": "Euro-BioImaging/ome_zarr_pyramid",
+      "commit_url": "https://github.com/Euro-BioImaging/ome_zarr_pyramid/commit/7e6e3a547b91a97a671d0ff7ca8fc56c6f61b8ed"
+    },
+    {
+      "commit_date": "2026-10-29T12:06:02.000+01:00",
+      "author": "Bugra Oezdemir",
+      "repository": "Euro-BioImaging/ome_zarr_pyramid",
+      "commit_url": "https://github.com/Euro-BioImaging/ome_zarr_pyramid/commit/d9979f05f79b74e90cb7186f03fafd2c22657a75"
+    },
     {
       "commit_date": "2026-10-29T00:15:01.000+01:00",
       "author": "lazarusA",
       "repository": "lazarusA/octant",
       "commit_url": "https://github.com/lazarusA/octant/commit/c02f9fb9610107e5db5e0f8a9eed6e16ed1ebf67"
+    },
+    {
+      "commit_date": "2026-10-28T22:12:30.000-04:00",
+      "author": "davidjurgens",
+      "repository": "davidjurgens/potato",
+      "commit_url": "https://github.com/davidjurgens/potato/commit/f778e6e31ee970f87e1efb5de5106a68c2cd21da"
     },
     {
       "commit_date": "2026-10-28T18:30:28.000+01:00",
