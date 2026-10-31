@@ -1,9 +1,207 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-30T01:24:37+00:00",
+  "generated": "2026-10-31T01:21:37+00:00",
   "recent_days": 10,
-  "total_commits": 2777,
+  "total_commits": 2813,
   "commits": [
+    {
+      "commit_date": "2026-10-31T06:57:30.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/d89dc8aa44c58171b5d51a7614e29392ed6ac4da"
+    },
+    {
+      "commit_date": "2026-10-31T02:30:09.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/b6975d810deabe3b9fe250c04a8ddbc6ccc4684a"
+    },
+    {
+      "commit_date": "2026-10-31T01:19:19.000+11:00",
+      "author": "Murdock Grewar",
+      "repository": "murdock-grewar/aprict",
+      "commit_url": "https://github.com/murdock-grewar/aprict/commit/36077d11bdbb7a58ddeb2e9c7c138540b66adac5"
+    },
+    {
+      "commit_date": "2026-10-31T01:11:57.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/11e3d865abedf6951db35c17fdc03dec7b0fad03"
+    },
+    {
+      "commit_date": "2026-10-30T22:53:37.000+11:00",
+      "author": "Murdock Grewar",
+      "repository": "murdock-grewar/aprict",
+      "commit_url": "https://github.com/murdock-grewar/aprict/commit/4aa5ac2576500c8527a60f4015aa07a3471ef204"
+    },
+    {
+      "commit_date": "2026-10-30T21:29:47.000+01:00",
+      "author": "tlambert03",
+      "repository": "imaging-formats/yaozarrs",
+      "commit_url": "https://github.com/imaging-formats/yaozarrs/commit/a0614db3bb162580d98af0c15d3d4812e5afd02f"
+    },
+    {
+      "commit_date": "2026-10-30T20:40:44.000+11:00",
+      "author": "JurgenKriel",
+      "repository": "JurgenKriel/macro_candi",
+      "commit_url": "https://github.com/JurgenKriel/macro_candi/commit/431f66ccdf6726976eddad3ce52fa8253469164d"
+    },
+    {
+      "commit_date": "2026-10-30T19:14:05.000Z",
+      "author": "balbasty",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/c91bec8ba97a59390c80f5aac869b20b2566a956"
+    },
+    {
+      "commit_date": "2026-10-30T18:58:10.000+01:00",
+      "author": "folterj",
+      "repository": "napari/napari",
+      "commit_url": "https://github.com/napari/napari/commit/b304b99dd04a78009c074bcc4980956b2f6f9af3"
+    },
+    {
+      "commit_date": "2026-10-30T18:17:13.000-04:00",
+      "author": "ChaseHendrick",
+      "repository": "ChaseHendrick/Scrolls",
+      "commit_url": "https://github.com/ChaseHendrick/Scrolls/commit/493cdcc89dc58ba23f533e6cfc1dc39bb9920547"
+    },
+    {
+      "commit_date": "2026-10-30T18:04:10.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/0e9cf9760e94324e6519b1b8369befab7271e436"
+    },
+    {
+      "commit_date": "2026-10-30T17:31:43.000-04:00",
+      "author": "Rano200",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/7b15472f95df9d310cf0500f4d0123d74e7cea8e"
+    },
+    {
+      "commit_date": "2026-10-30T16:36:28.000-04:00",
+      "author": "MicTott",
+      "repository": "MicTott/spatialscape",
+      "commit_url": "https://github.com/MicTott/spatialscape/commit/b0a8088e600d0c717f44e0d43a17a66308ed093a"
+    },
+    {
+      "commit_date": "2026-10-30T16:13:46.000+01:00",
+      "author": "schilling40",
+      "repository": "computational-cell-analytics/slurm-workflows",
+      "commit_url": "https://github.com/computational-cell-analytics/slurm-workflows/commit/4c570fce0913d4d3ba7b0289ea6056bacf1fd029"
+    },
+    {
+      "commit_date": "2026-10-30T15:19:45.000+01:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/099d5b267981d8f8ebb97469a023fa423e3987bd"
+    },
+    {
+      "commit_date": "2026-10-30T15:02:49.000Z",
+      "author": "balbasty",
+      "repository": "neuroscales/brainhops",
+      "commit_url": "https://github.com/neuroscales/brainhops/commit/ee3c1edf8f8e6248d8d8e0d6482d273f1150ce5a"
+    },
+    {
+      "commit_date": "2026-10-30T14:11:34.000-04:00",
+      "author": "Vasu Jaganath",
+      "repository": "PolusAI/sophios",
+      "commit_url": "https://github.com/PolusAI/sophios/commit/3f14788b2cec4eb0531fb813002a682a2526b3bd"
+    },
+    {
+      "commit_date": "2026-10-30T13:49:01.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/unstitched-tiles-storage",
+      "commit_url": "https://github.com/ccp-volume-em/unstitched-tiles-storage/commit/2d2e237b24c071613b31f2700810ea5f341c10cb"
+    },
+    {
+      "commit_date": "2026-10-30T13:25:58.000+01:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/2a4e19701924c6c9666951111f645382e9d575bd"
+    },
+    {
+      "commit_date": "2026-10-30T12:20:39.000+01:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/a05a259e21247c75669c75d8eadb6e7d2fa4995f"
+    },
+    {
+      "commit_date": "2026-10-30T12:08:55.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/e44bd9a868024a7e696f77ca9d0ce7d65f309eff"
+    },
+    {
+      "commit_date": "2026-10-30T11:45:56.000+11:00",
+      "author": "Murdock Grewar",
+      "repository": "murdock-grewar/aprict",
+      "commit_url": "https://github.com/murdock-grewar/aprict/commit/e41ba98615fbef540df52b2fec2358f8d0a29ac5"
+    },
+    {
+      "commit_date": "2026-10-30T11:28:47.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/6eb2c41c605abf3fa7ca1b4c2ce210c48d8ee378"
+    },
+    {
+      "commit_date": "2026-10-30T11:24:51.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/84bb2c748cb49ab316b768faace9d0819d10a4f1"
+    },
+    {
+      "commit_date": "2026-10-30T09:22:19.000+02:00",
+      "author": "guijacquemet",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/9452d1e2ccf5ee79b5cc98112db467b2d0d17b9a"
+    },
+    {
+      "commit_date": "2026-10-30T07:19:15.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/9c8af81eaecb8800887cbcfea2e1755be1ca4468"
+    },
+    {
+      "commit_date": "2026-10-30T07:13:55.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/c1100e1ed4839af6148689fecee23bee9e935ec3"
+    },
+    {
+      "commit_date": "2026-10-30T06:41:11.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/ea706fd28491a1378a63e92f81d494b9d229b0e2"
+    },
+    {
+      "commit_date": "2026-10-30T06:32:48.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/d8122693ad2713d119485d2185c2c51376af7a5f"
+    },
+    {
+      "commit_date": "2026-10-30T06:26:55.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/99b518d19fd6de13944941b0c1a9bea926e4efde"
+    },
+    {
+      "commit_date": "2026-10-29T23:04:35.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/5dc2ab04da0d9ea55b64dff96bb208af5c15e475"
+    },
+    {
+      "commit_date": "2026-10-29T22:06:03.000Z",
+      "author": "martlj",
+      "repository": "ccp-volume-em/vem-project-template",
+      "commit_url": "https://github.com/ccp-volume-em/vem-project-template/commit/1566197320295452db90050405e4e59f2726d908"
+    },
+    {
+      "commit_date": "2026-10-29T21:22:40.000Z",
+      "author": "ampagent",
+      "repository": "voluma-bio/voluma",
+      "commit_url": "https://github.com/voluma-bio/voluma/commit/33fb253a7188b90766d5872f3b90c70769cb6420"
+    },
     {
       "commit_date": "2026-10-29T21:08:55.000+01:00",
       "author": "tlambert03",
@@ -15,6 +213,18 @@
       "author": "lednicky-t",
       "repository": "lednicky-t/LSPR-Suite",
       "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/78ec2e3bca45cf904b5eaebd9ef645b047680a12"
+    },
+    {
+      "commit_date": "2026-10-29T20:24:43.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/699e5b46b7bfee3de5192fc59549ce4ae0828a9a"
+    },
+    {
+      "commit_date": "2026-10-29T20:09:18.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/be491917243080550354a01cae9628b5eb64aafe"
     },
     {
       "commit_date": "2026-10-29T17:41:26.000+01:00",
@@ -93,6 +303,12 @@
       "author": "Bugra Oezdemir",
       "repository": "Euro-BioImaging/ome_zarr_pyramid",
       "commit_url": "https://github.com/Euro-BioImaging/ome_zarr_pyramid/commit/d9979f05f79b74e90cb7186f03fafd2c22657a75"
+    },
+    {
+      "commit_date": "2026-10-29T09:27:12.000Z",
+      "author": "martlj",
+      "repository": "ccp-volume-em/vem-project-template",
+      "commit_url": "https://github.com/ccp-volume-em/vem-project-template/commit/7457b210d12e3111b83763d3e54a0b96a1a918cd"
     },
     {
       "commit_date": "2026-10-29T00:15:01.000+01:00",
