@@ -1,14 +1,134 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-10-31T01:21:37+00:00",
+  "generated": "2026-11-01T01:21:17+00:00",
   "recent_days": 10,
-  "total_commits": 2813,
+  "total_commits": 2834,
   "commits": [
+    {
+      "commit_date": "2026-11-01T00:24:48.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/b319b84b6ed2de46999d076f3cc9a2ba56c07e07"
+    },
+    {
+      "commit_date": "2026-10-31T23:58:16.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/52859aec229f34e48e9ad17e0351e6df8c79cb38"
+    },
+    {
+      "commit_date": "2026-10-31T23:33:54.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/580cdc76e00e7067d343436074ce6a05460156d4"
+    },
+    {
+      "commit_date": "2026-10-31T23:27:30.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/69991ce1e9fb54b4ead9956f901ecae886fb3b6f"
+    },
+    {
+      "commit_date": "2026-10-31T23:21:23.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/e7ce70b7af9d59a0d97c8c09ec5beff854c3e3a2"
+    },
+    {
+      "commit_date": "2026-10-31T21:01:20.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/ca029e6e77f3c217f15a1ce330621edf52a2efbb"
+    },
+    {
+      "commit_date": "2026-10-31T20:21:11.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/3490799c6c6ee784f3d138bf95314bde1cdc2ef1"
+    },
+    {
+      "commit_date": "2026-10-31T20:20:20.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/6f81b388e8661e5f275b8249d5fcb07b11d1963e"
+    },
+    {
+      "commit_date": "2026-10-31T19:28:45.000-04:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/6947c6542f0f0b8acd7f10d9088d6fc375c0dc4a"
+    },
+    {
+      "commit_date": "2026-10-31T19:28:11.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/411b306cc376f26fdc4c65ea6a4ad57167ff3fb3"
+    },
+    {
+      "commit_date": "2026-10-31T17:48:36.000+11:00",
+      "author": "Murdock Grewar",
+      "repository": "murdock-grewar/aprict",
+      "commit_url": "https://github.com/murdock-grewar/aprict/commit/8e35b608113cdfe53a40c8d17d37a6302f81937d"
+    },
+    {
+      "commit_date": "2026-10-31T15:25:36.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/440574189fc6413370db0e92b20b2bfe68ed2d48"
+    },
+    {
+      "commit_date": "2026-10-31T13:23:33.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/8fa266333ab40d9aa461452e435628892cad89d3"
+    },
+    {
+      "commit_date": "2026-10-31T13:11:08.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/3295784c63a99bfc6ba052dfd844998ae40afdc1"
+    },
+    {
+      "commit_date": "2026-10-31T10:26:42.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/unstitched-tiles-storage",
+      "commit_url": "https://github.com/ccp-volume-em/unstitched-tiles-storage/commit/2c0aaf87557151a05db751acb200bdb37bdbd20d"
+    },
+    {
+      "commit_date": "2026-10-31T09:39:19.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/unstitched-tiles-storage",
+      "commit_url": "https://github.com/ccp-volume-em/unstitched-tiles-storage/commit/652fd4d04ee03b2e235cadf95f96b19f357e3656"
+    },
+    {
+      "commit_date": "2026-10-31T08:26:10.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/unstitched-tiles-storage",
+      "commit_url": "https://github.com/ccp-volume-em/unstitched-tiles-storage/commit/1d53ee32c031af441370690a8f02d315081aa855"
+    },
     {
       "commit_date": "2026-10-31T06:57:30.000+08:00",
       "author": "formetaohy",
       "repository": "formetaohy/Grana",
       "commit_url": "https://github.com/formetaohy/Grana/commit/d89dc8aa44c58171b5d51a7614e29392ed6ac4da"
+    },
+    {
+      "commit_date": "2026-10-31T05:21:11.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/48e85e7b9f0baba6b325c80880cb100ae65add86"
+    },
+    {
+      "commit_date": "2026-10-31T04:54:02.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/65e85d201d9e2f3cb96ad07db542110cceb7ea75"
+    },
+    {
+      "commit_date": "2026-10-31T02:38:31.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/ca511496243ebe9a5f30e9ae5ac2b696b6b3883f"
     },
     {
       "commit_date": "2026-10-31T02:30:09.000+08:00",
@@ -27,6 +147,12 @@
       "author": "formetaohy",
       "repository": "formetaohy/Grana",
       "commit_url": "https://github.com/formetaohy/Grana/commit/11e3d865abedf6951db35c17fdc03dec7b0fad03"
+    },
+    {
+      "commit_date": "2026-10-30T23:30:38.000-07:00",
+      "author": "lucaswewa",
+      "repository": "lucaswewa/SpectrumIQ",
+      "commit_url": "https://github.com/lucaswewa/SpectrumIQ/commit/11cb2956baf09c31100fe200dbdbb3de591663db"
     },
     {
       "commit_date": "2026-10-30T22:53:37.000+11:00",
