@@ -1,18 +1,18 @@
-generated_at: '2026-10-26T05:11:13.883089Z'
-pool_count: 825
-tagged_count: 55
+generated_at: '2026-11-02T05:07:23.302422Z'
+pool_count: 847
+tagged_count: 58
 packages:
 - repo: ome/bioformats
-  stars: 433
+  stars: 434
   tags: []
   section: Zarr readers & writers
 - repo: ome/ome-zarr-py
-  stars: 262
+  stars: 263
   tags:
   - ome-zarr
   section: Zarr readers & writers
 - repo: ome/ngff
-  stars: 178
+  stars: 179
   tags:
   - Core
   section: Core
@@ -37,6 +37,11 @@ packages:
   tags:
   - ome-zarr
   section: Zarr viewers
+- repo: kilnrender/kiln-render
+  stars: 65
+  tags:
+  - ome-zarr
+  section: Discovered (OME-Zarr commits)
 - repo: spatial-image/multiscale-spatial-image
   stars: 58
   tags:
@@ -89,6 +94,11 @@ packages:
   tags:
   - ome-zarr
   section: Gallery-like displays
+- repo: scalableminds/webknossos-libs
+  stars: 29
+  tags:
+  - ome-zarr-converter
+  section: Discovered (OME-Zarr commits)
 - repo: ome-zarr-models/ome-zarr-book
   stars: 28
   tags:
@@ -155,6 +165,11 @@ packages:
   tags:
   - ome-zarr
   section: Other tools (to curate)
+- repo: bioimagetools/ome-zarr-fiji-java
+  stars: 10
+  tags:
+  - ome-zarr
+  section: Zarr viewers
 - repo: insightsoftwareconsortium/itkioomezarrngff
   stars: 10
   tags:
@@ -165,11 +180,6 @@ packages:
   stars: 10
   tags: []
   section: Discovered (OME-Zarr commits)
-- repo: bioimagetools/ome-zarr-fiji-java
-  stars: 8
-  tags:
-  - ome-zarr
-  section: Zarr viewers
 - repo: janeliascicomp/nf-omezarr
   stars: 7
   tags:
@@ -185,6 +195,11 @@ packages:
   tags:
   - ome-zarr-converter
   section: Depend on OME-Zarr Py
+- repo: euro-bioimaging/ome_zarr_pyramid
+  stars: 7
+  tags:
+  - ome-zarr
+  section: Discovered (OME-Zarr commits)
 - repo: biovisioncenter/ome-zarr-converters-tools
   stars: 6
   tags:
@@ -207,6 +222,16 @@ packages:
   tags:
   - ome-zarr
   section: Discovered (OME-Zarr commits)
+- repo: janeliascicomp/chunkmirage
+  stars: 4
+  tags:
+  - ome-zarr
+  section: Discovered (OME-Zarr commits)
+- repo: yuriyzubov/chunkmirage
+  stars: 4
+  tags:
+  - ome-zarr
+  section: Discovered (OME-Zarr commits)
 - repo: craigmyles/raw2features
   stars: 4
   tags:
@@ -221,16 +246,6 @@ packages:
   stars: 3
   tags:
   - ome-zarr-converter
-  - ome-zarr
-  section: Discovered (OME-Zarr commits)
-- repo: janeliascicomp/chunkmirage
-  stars: 3
-  tags:
-  - ome-zarr
-  section: Discovered (OME-Zarr commits)
-- repo: yuriyzubov/chunkmirage
-  stars: 3
-  tags:
   - ome-zarr
   section: Discovered (OME-Zarr commits)
 - repo: ome/omero-guide-fiji
@@ -315,31 +330,35 @@ packages:
   - ome-zarr
   section: Discovered (OME-Zarr commits)
 - repo: napari/napari
-  stars: 2786
+  stars: 2791
   tags: []
   section: Discovered (OME-Zarr commits)
 - repo: galaxyproject/galaxy
-  stars: 1883
+  stars: 1887
   tags: []
   section: Discovered (OME-Zarr commits)
 - repo: awslabs/open-data-registry
-  stars: 1814
+  stars: 1818
   tags: []
   section: Discovered (OME-Zarr commits)
 - repo: google/neuroglancer
-  stars: 1568
+  stars: 1578
   tags: []
   section: Zarr viewers
 - repo: qupath/qupath
-  stars: 1467
+  stars: 1469
   tags: []
   section: Zarr viewers
 - repo: visgl/loaders.gl
-  stars: 854
+  stars: 855
+  tags: []
+  section: Discovered (OME-Zarr commits)
+- repo: rust-lang/crates.io-index
+  stars: 757
   tags: []
   section: Discovered (OME-Zarr commits)
 - repo: mahmoodlab/trident
-  stars: 648
+  stars: 651
   tags: []
   section: Other tools (to curate)
 - repo: insightsoftwareconsortium/itkwidgets
@@ -347,51 +366,59 @@ packages:
   tags: []
   section: Zarr viewers
 - repo: niivue/niivue
-  stars: 503
+  stars: 505
   tags: []
   section: Discovered (OME-Zarr commits)
 - repo: aristoteleo/pantheonos
-  stars: 490
+  stars: 492
+  tags: []
+  section: Discovered (OME-Zarr commits)
+- repo: davidjurgens/potato
+  stars: 440
   tags: []
   section: Discovered (OME-Zarr commits)
 - repo: ilastik/ilastik
-  stars: 413
+  stars: 415
   tags: []
   section: Integrative workflows
 - repo: scverse/spatialdata
-  stars: 403
+  stars: 405
+  tags: []
+  section: Standards and extensions
+- repo: bids-standard/bids-specification
+  stars: 373
   tags: []
   section: Standards and extensions
 - repo: hms-dbmi/viv
-  stars: 371
+  stars: 372
   tags: []
   section: Zarr viewers
-- repo: bids-standard/bids-specification
-  stars: 370
-  tags: []
-  section: Standards and extensions
 - repo: rendeirolab/lazyslide
-  stars: 333
+  stars: 334
   tags: []
   section: Depend on OME-Zarr Py
 - repo: micro-manager/micro-manager
-  stars: 327
+  stars: 329
   tags: []
   section: Discovered (OME-Zarr commits)
 - repo: royerlab/napari-chatgpt
-  stars: 304
+  stars: 305
   tags: []
   section: Depend on OME-Zarr Py
 - repo: prism-oncology/sopa
-  stars: 296
+  stars: 298
   tags: []
   section: Other tools (to curate)
 - repo: insightsoftwareconsortium/itkelastix
-  stars: 290
+  stars: 291
   tags: []
   section: Discovered (OME-Zarr commits)
 - repo: scipy-conference/scipy_proceedings
   stars: 259
+  tags: []
+  section: Discovered (OME-Zarr commits)
+- repo: biapyx/biapy
+  stars: 215
   tags: []
   section: Discovered (OME-Zarr commits)
 - repo: royerlab/ultrack
@@ -415,11 +442,11 @@ packages:
   tags: []
   section: Discovered (OME-Zarr commits)
 - repo: scalableminds/webknossos
-  stars: 186
+  stars: 187
   tags: []
   section: Zarr viewers
 - repo: researchobject/ro-crate
-  stars: 165
+  stars: 166
   tags: []
   section: Extended metadata frameworks
 - repo: aafkegros/microscopynodes
@@ -427,11 +454,11 @@ packages:
   tags: []
   section: Zarr viewers
 - repo: prism-oncology/novae
-  stars: 163
+  stars: 164
   tags: []
   section: Depend on OME-Zarr Py
 - repo: bioio-devs/bioio
-  stars: 132
+  stars: 133
   tags: []
   section: Zarr readers & writers
 - repo: rajewsky-lab/openst
@@ -443,30 +470,6 @@ packages:
   tags: []
   section: Depend on OME-Zarr Py
 - repo: mannlabs/scportrait
-  stars: 113
-  tags: []
-  section: Depend on OME-Zarr Py
-- repo: allen-cell-animated/vole-core
-  stars: 107
-  tags: []
-  section: Zarr viewers
-- repo: mehta-lab/viscy
-  stars: 103
-  tags: []
-  section: Other tools (to curate)
-- repo: axelalmet/flowsig
-  stars: 92
-  tags: []
-  section: Depend on OME-Zarr Py
-- repo: biocontainers/multi-package-containers
-  stars: 87
-  tags: []
-  section: Discovered (OME-Zarr commits)
-- repo: mastodon-sc/mastodon
-  stars: 84
-  tags: []
-  section: Integrative workflows
-- repo: sagar87/spatialproteomics
-  stars: 84
+  stars: 115
   tags: []
   section: Depend on OME-Zarr Py
