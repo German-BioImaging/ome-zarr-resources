@@ -1,4 +1,4 @@
-generated_at: '2026-11-01T06:18:26.075576Z'
+generated_at: '2026-11-02T06:25:58.232314Z'
 packages:
 - last_commit:
     author: sbesson
@@ -22,7 +22,7 @@ packages:
     topics: [bio-formats, format-converter, format-reader, image, java, life-sciences-image, lightsheet, metadata, whole-slide-imaging, wsi]
     updated_at: '2026-10-28T06:43:50Z'
   section: Zarr readers & writers
-  stars: 433
+  stars: 434
   tags: []
   user: ome
   weekly_commits_52w_oldest_first: [5, 6, 0, 2, 4, 0, 0, 0, 7, 5, 8, 5, 2, 9, 0, 10, 2, 3, 5, 3, 0, 0, 0, 0, 1, 0, 6, 1, 2, 9, 5, 0, 6, 2, 2, 10, 1, 5, 3, 6, 1, 6, 10, 6, 13, 5, 15, 3, 2, 2, 0, 0]
@@ -43,23 +43,23 @@ packages:
     created_at: '2020-05-06T09:40:59Z'
     default_branch: master
     description: Implementation of next-generation file format (NGFF) specifications for storing bioimaging data in the cloud.
-    open_issues: 86
+    open_issues: 87
     size: 2700
     stargazers_count: 263
     topics: [ngff, ome, ome-zarr, zarr]
     updated_at: '2026-10-28T00:34:18Z'
   section: Zarr readers & writers
-  stars: 262
+  stars: 263
   tags: [ome-zarr]
   user: ome
   weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 1, 1, 0, 4, 4, 1, 58, 24, 10, 54, 3, 15, 29, 10, 10, 11, 20, 1, 6, 5, 14, 23, 9, 24, 8, 11, 2, 19, 18, 2, 0, 15, 23, 33, 9, 12, 6, 9, 14, 16, 30, 19, 3, 1, 1, 8, 0]
   workflow_run_status: SUCCESS
 - last_commit:
-    author: lubianat
-    date: '2026-10-23'
-    sha: 56e3d0a6310fcb32159d779b6b4fe1826a5693b8
+    author: bvquerfurth
+    date: '2026-11-01'
+    sha: 3b2fca3a879e8d75164cf95da03bf1d874af0954
     status: SUCCESS
-    url: https://github.com/ome/ngff/commit/56e3d0a6310fcb32159d779b6b4fe1826a5693b8
+    url: https://github.com/ome/ngff/commit/3b2fca3a879e8d75164cf95da03bf1d874af0954
   last_release:
     date: '2025-01-28'
     tag_name: 0.5.2
@@ -70,16 +70,16 @@ packages:
     created_at: '2020-11-17T14:55:39Z'
     default_branch: main
     description: Next-generation file format (NGFF) specifications for storing bioimaging data in the cloud.
-    open_issues: 136
-    size: 16595
+    open_issues: 135
+    size: 16598
     stargazers_count: 179
     topics: [bioimaging, cloud, data-science, file-formats, spec]
-    updated_at: '2026-10-30T11:30:01Z'
+    updated_at: '2026-11-01T09:30:22Z'
   section: Core
-  stars: 178
+  stars: 179
   tags: [Core]
   user: ome
-  weekly_commits_52w_oldest_first: [113, 13, 14, 3, 6, 19, 9, 4, 21, 18, 1, 6, 5, 0, 3, 7, 8, 16, 3, 1, 9, 2, 3, 1, 5, 3, 2, 4, 7, 23, 38, 15, 13, 14, 0, 2, 0, 19, 17, 14, 49, 16, 4, 8, 26, 0, 10, 1, 1, 6, 0, 0]
+  weekly_commits_52w_oldest_first: [113, 13, 14, 3, 6, 19, 9, 4, 21, 18, 1, 6, 5, 0, 3, 7, 8, 16, 3, 1, 9, 2, 3, 1, 5, 3, 2, 4, 7, 23, 38, 15, 13, 14, 0, 2, 0, 19, 17, 14, 49, 16, 4, 8, 26, 0, 10, 1, 1, 6, 0, 1]
   workflow_run_status: FAILURE
 - last_commit:
     author: m-albert
@@ -151,8 +151,8 @@ packages:
     created_at: '2022-09-27T00:37:16Z'
     default_branch: main
     description: A lean and kind Open Microscopy Environment (OME) Next Generation File Format (NGFF) Zarr implementation.
-    open_issues: 29
-    size: 17266
+    open_issues: 30
+    size: 17259
     stargazers_count: 74
     topics: [dask, imaging, medical, microscopy, ome-zarr, ome-zarr-converter, python]
     updated_at: '2026-10-30T18:57:37Z'
@@ -178,8 +178,8 @@ packages:
     created_at: '2026-02-26T10:50:58Z'
     default_branch: main
     description: A WebGPU-native out-of-core rendering system for large virtualized volumetric data.
-    open_issues: 0
-    size: 34791
+    open_issues: 1
+    size: 34407
     stargazers_count: 65
     topics: [bioimaging, large-scale-dataset, microscopy, ome-ngff, ome-zarr, out-of-core, raymarching, scientific-visualization, virtual-texturing, volume-rendering, webgpu, wgsl]
     updated_at: '2026-10-31T08:22:22Z'
@@ -187,6 +187,33 @@ packages:
   stars: 65
   tags: [ome-zarr]
   user: mpanknin
+  weekly_commits_52w_oldest_first: [0, 0, 2, 4, 2, 2, 1, 0, 2, 2, 2, 1, 1, 3, 3, 1, 9, 2, 1, 1, 2, 12, 7, 3, 0, 0, 14, 1, 7, 0, 0, 0, 0, 0, 10, 9, 1, 0, 0, 0, 0, 0, 1, 0, 16, 10, 10, 0, 12, 12, 12, 0]
+  workflow_run_status: SUCCESS
+- last_commit:
+    author: MPanknin
+    date: '2026-10-31'
+    sha: 34f3c65b4ce02e398e1d2592b5af439ed08818fd
+    status: SUCCESS
+    url: https://github.com/kilnrender/kiln-render/commit/34f3c65b4ce02e398e1d2592b5af439ed08818fd
+  last_release:
+    date: '2026-10-31'
+    tag_name: v0.6.1
+    url: https://github.com/kilnrender/kiln-render/releases/tag/v0.6.1
+  name: kiln-render
+  repo: kilnrender/kiln-render
+  repo_info:
+    created_at: '2026-02-26T10:50:58Z'
+    default_branch: main
+    description: A WebGPU-native out-of-core rendering system for large virtualized volumetric data.
+    open_issues: 1
+    size: 34407
+    stargazers_count: 65
+    topics: [bioimaging, large-scale-dataset, microscopy, ome-ngff, ome-zarr, out-of-core, raymarching, scientific-visualization, virtual-texturing, volume-rendering, webgpu, wgsl]
+    updated_at: '2026-10-31T08:22:22Z'
+  section: Discovered (OME-Zarr commits)
+  stars: 65
+  tags: [ome-zarr]
+  user: kilnrender
   weekly_commits_52w_oldest_first: [0, 0, 2, 4, 2, 2, 1, 0, 2, 2, 2, 1, 1, 3, 3, 1, 9, 2, 1, 1, 2, 12, 7, 3, 0, 0, 14, 1, 7, 0, 0, 0, 0, 0, 10, 9, 1, 0, 0, 0, 0, 0, 1, 0, 16, 10, 10, 0, 12, 12, 12, 0]
   workflow_run_status: SUCCESS
 - last_commit:
@@ -313,8 +340,8 @@ packages:
     created_at: '2024-07-08T08:18:08Z'
     default_branch: main
     description: ngio is a Python library to streamline OME-Zarr image analysis workflows.
-    open_issues: 10
-    size: 173772
+    open_issues: 12
+    size: 173787
     stargazers_count: 53
     topics: [ome-ngff, ome-zarr]
     updated_at: '2026-10-19T09:51:21Z'
@@ -325,11 +352,11 @@ packages:
   weekly_commits_52w_oldest_first: [5, 7, 14, 25, 11, 1, 0, 0, 5, 0, 5, 14, 17, 3, 5, 4, 0, 4, 15, 17, 2, 1, 7, 0, 1, 0, 0, 16, 11, 0, 7, 2, 0, 19, 12, 0, 0, 40, 12, 37, 50, 14, 0, 1, 0, 1, 2, 3, 5, 1, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
-    author: jo-mueller
-    date: '2026-10-10'
-    sha: c75f2277fe9e4563deb92c5f4835a83585c72325
+    author: Viicos
+    date: '2026-11-01'
+    sha: 5752f8969613486f973c965ee012a1f40fea5600
     status: SUCCESS
-    url: https://github.com/ome-zarr-py/ome-zarr-models-py/commit/c75f2277fe9e4563deb92c5f4835a83585c72325
+    url: https://github.com/ome-zarr-py/ome-zarr-models-py/commit/5752f8969613486f973c965ee012a1f40fea5600
   last_release:
     date: '2026-09-02'
     tag_name: v1.8.1
@@ -340,16 +367,16 @@ packages:
     created_at: '2024-11-20T10:56:54Z'
     default_branch: main
     description: A minimal Python package for reading, writing and validating OME-Zarr (meta)data
-    open_issues: 30
-    size: 2201
+    open_issues: 28
+    size: 2202
     stargazers_count: 40
     topics: [ngff, ome, ome-zarr, zarr]
-    updated_at: '2026-10-12T10:08:34Z'
+    updated_at: '2026-11-01T21:48:48Z'
   section: Zarr validation
   stars: 40
   tags: [ome-zarr]
   user: ome-zarr-models
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 1, 2, 0, 6, 2, 3, 0, 0, 3, 2, 0, 0, 0, 3, 0, 1, 6, 0, 4, 7, 1, 0, 3, 7, 9, 2, 0, 5, 3, 6, 0, 0, 7, 0, 7, 0, 0, 1, 2, 0, 0, 2, 0, 1, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 1, 2, 0, 6, 2, 3, 0, 0, 3, 2, 0, 0, 0, 3, 0, 1, 6, 0, 4, 7, 1, 0, 3, 7, 9, 2, 0, 5, 3, 6, 0, 0, 7, 0, 7, 0, 0, 1, 2, 0, 0, 2, 0, 1, 0, 0, 0, 1]
   workflow_run_status: SUCCESS
 - last_commit:
     author: bugraoezdemir
@@ -430,7 +457,7 @@ packages:
   stars: 31
   tags: [ome-zarr]
   user: janeliascicomp
-  weekly_commits_52w_oldest_first: [2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 21, 0, 2, 14, 0, 0, 0, 16, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 21, 0, 2, 14, 0, 0, 0, 16, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: allison-truhlar
@@ -460,6 +487,33 @@ packages:
   weekly_commits_52w_oldest_first: [16, 64, 20, 13, 52, 41, 2, 1, 72, 48, 31, 18, 62, 92, 28, 39, 68, 31, 53, 59, 3, 82, 48, 16, 42, 49, 19, 24, 13, 17, 14, 73, 52, 98, 19, 19, 27, 23, 48, 29, 25, 54, 33, 12, 30, 1, 31, 34, 22, 36, 38, 0]
   workflow_run_status: FAILURE
 - last_commit:
+    author: konstibob
+    date: '2026-10-28'
+    sha: 626ecded3b62bcf6a8429ad4f934df6390959617
+    status: SUCCESS
+    url: https://github.com/scalableminds/webknossos-libs/commit/626ecded3b62bcf6a8429ad4f934df6390959617
+  last_release:
+    date: '2026-10-26'
+    tag_name: v4.3.3
+    url: https://github.com/scalableminds/webknossos-libs/releases/tag/v4.3.3
+  name: webknossos-libs
+  repo: scalableminds/webknossos-libs
+  repo_info:
+    created_at: '2016-12-09T12:20:35Z'
+    default_branch: master
+    description: Python API and CLI tools for working with WEBKNOSSOS datasets, annotations and server interactions. Includes converter to OME-Zarr.
+    open_issues: 76
+    size: 251036
+    stargazers_count: 29
+    topics: [hacktoberfest, ome-zarr-converter, volume-em, webknossos]
+    updated_at: '2026-10-28T13:41:58Z'
+  section: Discovered (OME-Zarr commits)
+  stars: 29
+  tags: [ome-zarr-converter]
+  user: scalableminds
+  weekly_commits_52w_oldest_first: [4, 1, 2, 1, 4, 5, 0, 0, 1, 5, 1, 1, 4, 1, 1, 5, 3, 9, 5, 0, 9, 1, 5, 8, 2, 1, 0, 1, 4, 3, 3, 3, 8, 0, 3, 0, 3, 2, 2, 5, 7, 8, 13, 7, 0, 6, 2, 12, 10, 5, 3, 0]
+  workflow_run_status: FAILURE
+- last_commit:
     author: dstansby
     date: '2026-08-28'
     sha: e82413d3e44a3483b45037d7ea261a422d55e14f
@@ -472,7 +526,7 @@ packages:
     default_branch: main
     description: An introduction to OME-Zarr for big bioimaging data
     open_issues: 20
-    size: 2189
+    size: 2191
     stargazers_count: 28
     topics: [bioimage-analysis, bioimaging, biology, ome-zarr]
     updated_at: '2026-09-29T09:43:47Z'
@@ -499,7 +553,7 @@ packages:
     default_branch: main
     description: Main tasks for the Fractal analytics platform
     open_issues: 15
-    size: 14224
+    size: 13574
     stargazers_count: 28
     topics: [ome-zarr, ome-zarr-converter]
     updated_at: '2026-10-29T10:17:08Z'
@@ -507,7 +561,7 @@ packages:
   stars: 28
   tags: [ome-zarr-converter, ome-zarr]
   user: fractal-analytics-platform
-  weekly_commits_52w_oldest_first: [1, 1, 3, 3, 8, 1, 2, 0, 0, 0, 7, 16, 2, 3, 0, 55, 45, 0, 24, 38, 9, 2, 2, 1, 3, 0, 1, 0, 0, 1, 0, 0, 0, 21, 1, 4, 7, 0, 0, 0, 0, 7, 3, 1, 0, 0, 0, 1, 0, 0, 0, 9]
+  weekly_commits_52w_oldest_first: [1, 3, 3, 8, 1, 2, 0, 0, 0, 7, 16, 2, 3, 0, 55, 45, 0, 24, 38, 9, 2, 2, 1, 3, 0, 1, 0, 0, 1, 0, 0, 0, 21, 1, 4, 7, 0, 0, 0, 0, 7, 3, 1, 0, 0, 0, 1, 0, 0, 0, 9, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: mbstadler
@@ -665,14 +719,14 @@ packages:
   stars: 20
   tags: [ome-zarr-converter, ome-zarr]
   user: fmi-faim
-  weekly_commits_52w_oldest_first: [1, 1, 1, 1, 2, 1, 1, 0, 2, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [1, 1, 1, 2, 1, 1, 0, 2, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: lazarusA
-    date: '2026-10-31'
-    sha: a96a8a4a6ed85cede43a3bb0ce164c9ca08d7209
+    date: '2026-11-01'
+    sha: d08ae3299d7932ef12ba0af78612975d28eda2b7
     status: SUCCESS
-    url: https://github.com/lazarusA/octant/commit/a96a8a4a6ed85cede43a3bb0ce164c9ca08d7209
+    url: https://github.com/lazarusA/octant/commit/d08ae3299d7932ef12ba0af78612975d28eda2b7
   last_release:
     date: '2026-10-27'
     tag_name: v0.3.1
@@ -684,15 +738,15 @@ packages:
     default_branch: main
     description: "An interactive viewer for N-dimensional datasets, stored locally or in cloud object storage. Built in Rust with GPU rendering, available on desktop and in the browser. \U0001F980"
     open_issues: 10
-    size: 9088
+    size: 9200
     stargazers_count: 17
     topics: [geotiff, graphics, hdf5, healpix, icechunk, netcdf, ome-zarr, omero, visualization, wgpu, zarr]
-    updated_at: '2026-10-31T17:57:43Z'
+    updated_at: '2026-11-01T09:44:37Z'
   section: Discovered (OME-Zarr commits)
   stars: 17
   tags: [ome-zarr]
   user: lazarusa
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 95, 89, 24, 20, 5, 12, 8, 4, 11, 16, 18, 20, 14, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 95, 89, 24, 20, 5, 12, 8, 4, 11, 16, 18, 20, 14, 1]
   workflow_run_status: SUCCESS
 - last_commit:
     author: joshmoore
@@ -804,6 +858,33 @@ packages:
   weekly_commits_52w_oldest_first: [29, 41, 34, 4, 0, 12, 0, 0, 0, 0, 0, 0, 0, 5, 13, 0, 8, 13, 1, 0, 3, 0, 0, 2, 19, 24, 24, 7, 9, 20, 0, 0, 0, 0, 0, 4, 7, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 0]
   workflow_run_status: SUCCESS
 - last_commit:
+    author: stefanhahmann
+    date: '2026-10-30'
+    sha: 2a4e19701924c6c9666951111f645382e9d575bd
+    status: SUCCESS
+    url: https://github.com/BioImageTools/ome-zarr-fiji-java/commit/2a4e19701924c6c9666951111f645382e9d575bd
+  last_release:
+    date: '2026-10-30'
+    tag_name: ome-zarr-java-0.10.0
+    url: https://github.com/BioImageTools/ome-zarr-fiji-java/releases/tag/ome-zarr-java-0.10.0
+  name: ome-zarr-fiji-java
+  repo: bioimagetools/ome-zarr-fiji-java
+  repo_info:
+    created_at: '2025-01-16T12:13:37Z'
+    default_branch: main
+    description: 'Fiji/ImageJ plugin that brings OME-Zarr into everyday Fiji use: drag & drop, clipboard, menu and scripting, in ImageJ or BigDataViewer.'
+    open_issues: 22
+    size: 27541
+    stargazers_count: 10
+    topics: [bigdataviewer, fiji, imagej, imglib2, ome-zarr, zarr]
+    updated_at: '2026-10-31T05:50:33Z'
+  section: Zarr viewers
+  stars: 10
+  tags: [ome-zarr]
+  user: bioimagetools
+  weekly_commits_52w_oldest_first: [107, 9, 0, 0, 0, 0, 0, 0, 0, 17, 22, 6, 8, 17, 35, 29, 59, 12, 15, 44, 48, 0, 26, 6, 21, 19, 28, 48, 7, 19, 34, 37, 0, 0, 0, 0, 20, 0, 22, 17, 25, 46, 25, 50, 24, 29, 25, 20, 6, 18, 30, 0]
+  workflow_run_status: SUCCESS
+- last_commit:
     author: thewtex
     date: '2025-09-04'
     sha: 0aa5c3d72d878dc624269834b177c2a9980c14c6
@@ -854,33 +935,6 @@ packages:
   user: ome
   weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 5, 2, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: NO_WORKFLOWS
-- last_commit:
-    author: stefanhahmann
-    date: '2026-10-30'
-    sha: 2a4e19701924c6c9666951111f645382e9d575bd
-    status: SUCCESS
-    url: https://github.com/BioImageTools/ome-zarr-fiji-java/commit/2a4e19701924c6c9666951111f645382e9d575bd
-  last_release:
-    date: '2026-10-30'
-    tag_name: ome-zarr-java-0.10.0
-    url: https://github.com/BioImageTools/ome-zarr-fiji-java/releases/tag/ome-zarr-java-0.10.0
-  name: ome-zarr-fiji-java
-  repo: bioimagetools/ome-zarr-fiji-java
-  repo_info:
-    created_at: '2025-01-16T12:13:37Z'
-    default_branch: main
-    description: 'Fiji/ImageJ plugin that brings OME-Zarr into everyday Fiji use: drag & drop, clipboard, menu and scripting, in ImageJ or BigDataViewer.'
-    open_issues: 22
-    size: 27541
-    stargazers_count: 10
-    topics: [bigdataviewer, fiji, imagej, imglib2, ome-zarr, zarr]
-    updated_at: '2026-10-31T05:50:33Z'
-  section: Zarr viewers
-  stars: 8
-  tags: [ome-zarr]
-  user: bioimagetools
-  weekly_commits_52w_oldest_first: [107, 9, 0, 0, 0, 0, 0, 0, 0, 17, 22, 6, 8, 17, 35, 29, 59, 12, 15, 44, 48, 0, 26, 6, 21, 19, 28, 48, 7, 19, 34, 37, 0, 0, 0, 0, 20, 0, 22, 17, 25, 46, 25, 50, 24, 29, 25, 20, 6, 18, 30, 0]
-  workflow_run_status: SUCCESS
 - last_commit:
     author: krokicki
     date: '2026-04-14'
@@ -953,6 +1007,33 @@ packages:
   tags: [ome-zarr-converter]
   user: franciscrickinstitute
   weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  workflow_run_status: SUCCESS
+- last_commit:
+    author: bugraoezdemir
+    date: '2026-10-29'
+    sha: 7e6e3a547b91a97a671d0ff7ca8fc56c6f61b8ed
+    status: null
+    url: https://github.com/Euro-BioImaging/ome_zarr_pyramid/commit/7e6e3a547b91a97a671d0ff7ca8fc56c6f61b8ed
+  last_release:
+    date: '2026-10-29'
+    tag_name: v0.5.0
+    url: https://github.com/Euro-BioImaging/ome_zarr_pyramid/releases/tag/v0.5.0
+  name: ome_zarr_pyramid
+  repo: euro-bioimaging/ome_zarr_pyramid
+  repo_info:
+    created_at: '2023-07-10T13:59:50Z'
+    default_branch: main
+    description: null
+    open_issues: 0
+    size: 2148
+    stargazers_count: 7
+    topics: [bioimage-analysis, dask, image-processing, image-pyramid, microscopy, multiscale, ngff, ome-zarr, out-of-core, python, tensorstore, zarr]
+    updated_at: '2026-10-29T11:12:22Z'
+  section: Discovered (OME-Zarr commits)
+  stars: 7
+  tags: [ome-zarr]
+  user: euro-bioimaging
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 2, 7, 9, 3, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: lorenzocerrone
@@ -1037,26 +1118,80 @@ packages:
   workflow_run_status: SUCCESS
 - last_commit:
     author: clbarnes
-    date: '2026-10-29'
-    sha: d43847d36cffa5368523d44dbc5dfb2e796a5fbc
+    date: '2026-11-01'
+    sha: 077ebbe4e1996490516259d2c3ce40a055c72e04
     status: SUCCESS
-    url: https://github.com/German-BioImaging/oztest/commit/d43847d36cffa5368523d44dbc5dfb2e796a5fbc
+    url: https://github.com/German-BioImaging/oztest/commit/077ebbe4e1996490516259d2c3ce40a055c72e04
   name: oztest
   repo: german-bioimaging/oztest
   repo_info:
     created_at: '2026-06-19T16:12:37Z'
     default_branch: main
     description: 'WIP: Conformance test cases and tools for OME-Zarr'
-    open_issues: 9
-    size: 623
+    open_issues: 11
+    size: 624
     stargazers_count: 4
     topics: [ngff, ome-zarr, openmicroscopy, test]
-    updated_at: '2026-10-29T07:53:27Z'
+    updated_at: '2026-11-01T19:39:56Z'
   section: Discovered (OME-Zarr commits)
   stars: 4
   tags: [ome-zarr]
   user: german-bioimaging
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 1, 8, 12, 26, 6, 11, 0, 0, 2, 29, 18, 7, 8, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 1, 8, 12, 26, 6, 11, 0, 0, 2, 29, 18, 7, 8, 2]
+  workflow_run_status: SUCCESS
+- last_commit:
+    author: davidackerman
+    date: '2026-11-01'
+    sha: a0bf9da800b549ef63c2f9ca7bfed87b333b71e1
+    status: SUCCESS
+    url: https://github.com/JaneliaSciComp/chunkmirage/commit/a0bf9da800b549ef63c2f9ca7bfed87b333b71e1
+  last_release:
+    date: '2026-11-01'
+    tag_name: v0.1.0a6
+    url: https://github.com/JaneliaSciComp/chunkmirage/releases/tag/v0.1.0a6
+  name: chunkmirage
+  repo: janeliascicomp/chunkmirage
+  repo_info:
+    created_at: '2026-09-09T20:14:42Z'
+    default_branch: main
+    description: 'Serve virtual chunked arrays (Zarr, N5, precomputed) over HTTP: each chunk computed on request by a pipeline you can edit live.'
+    open_issues: 0
+    size: 17089
+    stargazers_count: 4
+    topics: [fiji, microscopy, n5, napari, neuroglancer, ome-zarr, zarr]
+    updated_at: '2026-11-01T22:46:25Z'
+  section: Discovered (OME-Zarr commits)
+  stars: 4
+  tags: [ome-zarr]
+  user: janeliascicomp
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 23, 94, 4, 40, 20, 8, 3]
+  workflow_run_status: SUCCESS
+- last_commit:
+    author: davidackerman
+    date: '2026-11-01'
+    sha: a0bf9da800b549ef63c2f9ca7bfed87b333b71e1
+    status: SUCCESS
+    url: https://github.com/JaneliaSciComp/chunkmirage/commit/a0bf9da800b549ef63c2f9ca7bfed87b333b71e1
+  last_release:
+    date: '2026-11-01'
+    tag_name: v0.1.0a6
+    url: https://github.com/JaneliaSciComp/chunkmirage/releases/tag/v0.1.0a6
+  name: chunkmirage
+  repo: yuriyzubov/chunkmirage
+  repo_info:
+    created_at: '2026-09-09T20:14:42Z'
+    default_branch: main
+    description: 'Serve virtual chunked arrays (Zarr, N5, precomputed) over HTTP: each chunk computed on request by a pipeline you can edit live.'
+    open_issues: 0
+    size: 17089
+    stargazers_count: 4
+    topics: [fiji, microscopy, n5, napari, neuroglancer, ome-zarr, zarr]
+    updated_at: '2026-11-01T22:46:25Z'
+  section: Discovered (OME-Zarr commits)
+  stars: 4
+  tags: [ome-zarr]
+  user: yuriyzubov
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 23, 94, 4, 40, 20, 8, 3]
   workflow_run_status: SUCCESS
 - last_commit:
     author: CraigMyles
@@ -1124,8 +1259,8 @@ packages:
     created_at: '2025-01-15T14:03:20Z'
     default_branch: main
     description: A collection of Fractal tasks to convert from several microscopes into OME-Zarr format.
-    open_issues: 2
-    size: 43042
+    open_issues: 3
+    size: 43174
     stargazers_count: 3
     topics: [ome-ngff, ome-zarr, ome-zarr-converter]
     updated_at: '2026-10-29T13:10:54Z'
@@ -1134,60 +1269,6 @@ packages:
   tags: [ome-zarr-converter, ome-zarr]
   user: fractal-analytics-platform
   weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 0, 1, 11, 10, 14, 10, 5, 0, 1, 0, 2, 0, 19, 13, 7, 12, 2, 0, 3, 6, 0, 0, 0, 12, 14, 5, 4, 0, 0, 0, 0, 0, 0, 8, 10, 2, 0]
-  workflow_run_status: SUCCESS
-- last_commit:
-    author: davidackerman
-    date: '2026-10-27'
-    sha: 1af765d58c8f0fea1562466a9ae1cd105ad71c13
-    status: SUCCESS
-    url: https://github.com/JaneliaSciComp/chunkmirage/commit/1af765d58c8f0fea1562466a9ae1cd105ad71c13
-  last_release:
-    date: '2026-10-23'
-    tag_name: v0.1.0a5
-    url: https://github.com/JaneliaSciComp/chunkmirage/releases/tag/v0.1.0a5
-  name: chunkmirage
-  repo: janeliascicomp/chunkmirage
-  repo_info:
-    created_at: '2026-09-09T20:14:42Z'
-    default_branch: main
-    description: 'Serve virtual chunked arrays (Zarr, N5, precomputed) over HTTP: each chunk computed on request by a pipeline you can edit live.'
-    open_issues: 1
-    size: 17496
-    stargazers_count: 4
-    topics: [fiji, microscopy, n5, napari, neuroglancer, ome-zarr, zarr]
-    updated_at: '2026-10-31T19:40:33Z'
-  section: Discovered (OME-Zarr commits)
-  stars: 3
-  tags: [ome-zarr]
-  user: janeliascicomp
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 23, 94, 4, 40, 20, 6, 0]
-  workflow_run_status: SUCCESS
-- last_commit:
-    author: davidackerman
-    date: '2026-10-27'
-    sha: 1af765d58c8f0fea1562466a9ae1cd105ad71c13
-    status: SUCCESS
-    url: https://github.com/JaneliaSciComp/chunkmirage/commit/1af765d58c8f0fea1562466a9ae1cd105ad71c13
-  last_release:
-    date: '2026-10-23'
-    tag_name: v0.1.0a5
-    url: https://github.com/JaneliaSciComp/chunkmirage/releases/tag/v0.1.0a5
-  name: chunkmirage
-  repo: yuriyzubov/chunkmirage
-  repo_info:
-    created_at: '2026-09-09T20:14:42Z'
-    default_branch: main
-    description: 'Serve virtual chunked arrays (Zarr, N5, precomputed) over HTTP: each chunk computed on request by a pipeline you can edit live.'
-    open_issues: 1
-    size: 17496
-    stargazers_count: 4
-    topics: [fiji, microscopy, n5, napari, neuroglancer, ome-zarr, zarr]
-    updated_at: '2026-10-31T19:40:33Z'
-  section: Discovered (OME-Zarr commits)
-  stars: 3
-  tags: [ome-zarr]
-  user: yuriyzubov
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 23, 94, 4, 40, 20, 6, 0]
   workflow_run_status: SUCCESS
 - disabled_workflows: [repo2docker]
   last_commit:
@@ -1615,23 +1696,23 @@ packages:
     created_at: '2018-08-13T01:12:28Z'
     default_branch: main
     description: 'napari: a fast, interactive, multi-dimensional image viewer for python'
-    open_issues: 1307
-    size: 92088
+    open_issues: 1313
+    size: 92082
     stargazers_count: 2791
     topics: [napari, numpy, python, visualization]
     updated_at: '2026-10-30T17:58:17Z'
   section: Discovered (OME-Zarr commits)
-  stars: 2786
+  stars: 2791
   tags: []
   user: napari
-  weekly_commits_52w_oldest_first: [1, 3, 2, 4, 12, 8, 16, 2, 8, 11, 13, 9, 20, 14, 17, 10, 13, 11, 13, 23, 5, 16, 9, 20, 8, 11, 15, 9, 7, 11, 8, 11, 4, 13, 18, 44, 9, 31, 28, 15, 38, 10, 12, 9, 1, 13, 22, 23, 23, 30, 38, 24]
+  weekly_commits_52w_oldest_first: [3, 2, 4, 12, 8, 16, 2, 8, 11, 13, 9, 20, 14, 17, 10, 13, 11, 13, 23, 5, 16, 9, 20, 8, 11, 15, 9, 7, 11, 8, 11, 4, 13, 18, 44, 9, 31, 28, 15, 38, 10, 12, 9, 1, 13, 22, 23, 23, 30, 38, 24, 0]
   workflow_run_status: FAILURE
 - last_commit:
-    author: nsoranzo
-    date: '2026-10-31'
-    sha: a16360489f976ef718a4c68ba92066e96bd3324e
+    author: jmchilton
+    date: '2026-11-01'
+    sha: 269efa7af5bebb2d9380a882fe3099a99bf25c20
     status: SUCCESS
-    url: https://github.com/galaxyproject/galaxy/commit/a16360489f976ef718a4c68ba92066e96bd3324e
+    url: https://github.com/galaxyproject/galaxy/commit/269efa7af5bebb2d9380a882fe3099a99bf25c20
   last_release:
     date: '2026-10-25'
     tag_name: v26.1.2
@@ -1642,16 +1723,16 @@ packages:
     created_at: '2015-02-23T14:18:06Z'
     default_branch: dev
     description: Data intensive science for everyone.
-    open_issues: 2845
-    size: 763742
+    open_issues: 2824
+    size: 764428
     stargazers_count: 1887
     topics: [bioinformatics, dna, genomics, hacktoberfest, ngs, pipeline, science, sequencing, usegalaxy, workflow, workflow-engine]
-    updated_at: '2026-10-31T20:17:05Z'
+    updated_at: '2026-11-01T19:43:55Z'
   section: Discovered (OME-Zarr commits)
-  stars: 1883
+  stars: 1887
   tags: []
   user: galaxyproject
-  weekly_commits_52w_oldest_first: [156, 186, 177, 152, 221, 146, 56, 59, 77, 140, 252, 218, 269, 328, 158, 267, 217, 314, 263, 291, 192, 195, 232, 221, 218, 203, 199, 296, 173, 194, 224, 256, 49, 100, 198, 230, 170, 193, 104, 100, 133, 161, 293, 246, 378, 643, 705, 765, 907, 862, 403, 0]
+  weekly_commits_52w_oldest_first: [156, 186, 177, 152, 221, 146, 56, 59, 77, 140, 252, 218, 269, 328, 158, 267, 217, 314, 263, 291, 193, 195, 232, 221, 218, 203, 199, 296, 173, 194, 224, 256, 49, 100, 198, 230, 170, 193, 104, 100, 133, 161, 293, 246, 378, 643, 707, 765, 907, 896, 468, 32]
   workflow_run_status: FAILURE
 - last_commit:
     author: cstner
@@ -1665,13 +1746,13 @@ packages:
     created_at: '2017-08-07T21:49:09Z'
     default_branch: main
     description: A registry of publicly available datasets on AWS
-    open_issues: 136
+    open_issues: 137
     size: 12912
-    stargazers_count: 1817
+    stargazers_count: 1818
     topics: []
-    updated_at: '2026-10-31T22:14:11Z'
+    updated_at: '2026-11-01T20:39:57Z'
   section: Discovered (OME-Zarr commits)
-  stars: 1814
+  stars: 1818
   tags: []
   user: awslabs
   weekly_commits_52w_oldest_first: [16, 24, 9, 43, 34, 25, 5, 5, 30, 20, 20, 9, 23, 15, 12, 9, 13, 17, 15, 7, 12, 22, 26, 20, 17, 20, 23, 21, 8, 59, 35, 23, 10, 11, 14, 25, 10, 10, 14, 16, 25, 15, 14, 18, 24, 69, 21, 7, 29, 22, 9, 0]
@@ -1694,7 +1775,7 @@ packages:
     topics: []
     updated_at: '2026-11-01T03:15:56Z'
   section: Zarr viewers
-  stars: 1568
+  stars: 1578
   tags: []
   user: google
   weekly_commits_52w_oldest_first: [0, 1, 1, 6, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 3, 2, 7, 1, 3, 5, 0, 3, 9, 1, 7, 5, 1, 3, 5, 0, 4, 2, 1, 0, 4, 0, 3, 3, 0, 1, 1, 1, 1, 3, 4, 4, 0]
@@ -1721,17 +1802,17 @@ packages:
     topics: [bioimage-analysis, bioimage-informatics, cell-analysis, cell-segmentation, computational-pathology, digital-pathology, groovy, histology, image-processing, imagej, javafx, machine-learning, opencv, pathology, tissue-microarray-analysis, whole-slide-imaging]
     updated_at: '2026-10-29T12:05:25Z'
   section: Zarr viewers
-  stars: 1467
+  stars: 1469
   tags: []
   user: qupath
   weekly_commits_52w_oldest_first: [4, 8, 3, 5, 5, 1, 0, 0, 7, 11, 13, 13, 3, 20, 6, 5, 5, 7, 1, 3, 4, 0, 0, 25, 4, 7, 21, 1, 9, 15, 19, 12, 6, 0, 3, 0, 1, 12, 17, 4, 9, 9, 18, 29, 15, 2, 0, 19, 17, 9, 4, 0]
   workflow_run_status: SUCCESS
 - last_commit:
-    author: dependabot[bot]
+    author: ibgreen
     date: '2026-11-01'
-    sha: 887d1a22f8964d51311f37037bb4d966eb7623bb
+    sha: a168860aedb3549ffe6bb15e16c06aadfc2889ff
     status: SUCCESS
-    url: https://github.com/visgl/loaders.gl/commit/887d1a22f8964d51311f37037bb4d966eb7623bb
+    url: https://github.com/visgl/loaders.gl/commit/a168860aedb3549ffe6bb15e16c06aadfc2889ff
   last_release:
     date: '2026-10-31'
     tag_name: v5.0.0-beta.2
@@ -1742,17 +1823,40 @@ packages:
     created_at: '2018-09-07T20:56:02Z'
     default_branch: master
     description: 'Loaders for big data visualization. Website:'
-    open_issues: 20
-    size: 412190
+    open_issues: 12
+    size: 412958
     stargazers_count: 855
     topics: [3d-tiles, apache-arrow, apache-parquet, basis, csv, draco, geoarrow, geoparquet, gltf, i3s, javascript, las, loaders, nodejs, obj, ply, streaming, wkb, wkt, workers]
-    updated_at: '2026-11-01T01:26:52Z'
+    updated_at: '2026-11-01T15:01:44Z'
   section: Discovered (OME-Zarr commits)
-  stars: 854
+  stars: 855
   tags: []
   user: visgl
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 3, 37, 0, 0, 4, 0, 1, 15, 0, 1, 8, 2, 2, 9, 0, 2, 7, 22, 22, 5, 8, 2, 5, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 23, 34, 45, 38, 264, 30, 11, 39, 28, 53, 84, 55, 29, 60, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 3, 37, 0, 0, 4, 0, 1, 15, 0, 1, 8, 2, 2, 9, 0, 2, 7, 22, 22, 5, 8, 2, 5, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 23, 34, 45, 38, 264, 30, 11, 39, 28, 53, 84, 55, 29, 60, 11]
   workflow_run_status: FAILURE
+- last_commit:
+    author: bors
+    date: '2026-11-02'
+    sha: 8452df120d4eb0494bc3cc3a89792da93798c627
+    status: null
+    url: https://github.com/rust-lang/crates.io-index/commit/8452df120d4eb0494bc3cc3a89792da93798c627
+  name: crates.io-index
+  repo: rust-lang/crates.io-index
+  repo_info:
+    created_at: '2014-11-04T23:26:38Z'
+    default_branch: master
+    description: Registry index for crates.io
+    open_issues: 2
+    size: 674593
+    stargazers_count: 757
+    topics: []
+    updated_at: '2026-11-02T06:25:13Z'
+  section: Discovered (OME-Zarr commits)
+  stars: 757
+  tags: []
+  user: rust-lang
+  weekly_commits_52w_oldest_first: [12318, 11542, 12755, 14377, 15387, 14909, 12691, 14216, 15203, 18383, 16398, 16591, 17034, 18313, 20950, 22331, 23351, 23173, 25820, 25767, 27989, 26814, 28191, 29889, 26620, 28397, 29726, 33772, 33901, 33522, 39958, 37198, 38161, 41297, 42080, 40885, 37051, 35087, 31152, 40803, 31860, 21667, 28639, 44339, 46465, 38346, 36759, 49588, 46419, 47919, 57381, 12858]
+  workflow_run_status: NO_WORKFLOWS
 - last_commit:
     author: guillaumejaume
     date: '2026-10-12'
@@ -1775,7 +1879,7 @@ packages:
     topics: [deep-learning, foundation-model, foundation-models-for-pathology, histology, pathology, whole-slide-image]
     updated_at: '2026-10-30T08:51:59Z'
   section: Other tools (to curate)
-  stars: 648
+  stars: 651
   tags: []
   user: mahmoodlab
   weekly_commits_52w_oldest_first: [0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 4, 0, 0, 2, 1, 2, 0, 2, 0, 2, 0, 1, 1, 0, 1, 0, 4, 1, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
@@ -1825,11 +1929,11 @@ packages:
     description: 'a WebGL2 based medical image viewer. Supports over 30 formats of volumes and meshes. '
     open_issues: 29
     size: 665234
-    stargazers_count: 504
+    stargazers_count: 505
     topics: [image, nifti, niivue, viewer, web, webgl2]
-    updated_at: '2026-10-28T00:45:37Z'
+    updated_at: '2026-11-01T21:06:27Z'
   section: Discovered (OME-Zarr commits)
-  stars: 503
+  stars: 505
   tags: []
   user: niivue
   weekly_commits_52w_oldest_first: [6, 46, 0, 14, 23, 6, 20, 3, 4, 21, 12, 22, 58, 25, 5, 9, 2, 8, 0, 2, 1, 9, 3, 11, 3, 1, 3, 4, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
@@ -1851,15 +1955,42 @@ packages:
     default_branch: main
     description: A general, evolvable, and distributed agent framework & harness for data science.
     open_issues: 25
-    size: 393433
+    size: 393689
     stargazers_count: 492
     topics: [agent, ai, ai-agents, bioclaw, bioinformatics, biology, claw, data-science, harness, harness-engineering, llm, llm-evolution, pantheonclaw, pantheonos, singlecell, spatial-transcriptomics]
     updated_at: '2026-10-29T06:35:40Z'
   section: Discovered (OME-Zarr commits)
-  stars: 490
+  stars: 492
   tags: []
   user: aristoteleo
   weekly_commits_52w_oldest_first: [4, 7, 6, 23, 42, 31, 5, 16, 25, 38, 16, 4, 12, 27, 4, 11, 72, 20, 22, 16, 58, 39, 31, 33, 47, 13, 7, 12, 26, 16, 35, 30, 24, 51, 45, 19, 2, 4, 9, 25, 14, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  workflow_run_status: FAILURE
+- last_commit:
+    author: davidjurgens
+    date: '2026-10-31'
+    sha: 4bf3e51666068052bdefdf43deee0d3462d2b2fa
+    status: FAILURE
+    url: https://github.com/davidjurgens/potato/commit/4bf3e51666068052bdefdf43deee0d3462d2b2fa
+  last_release:
+    date: '2026-10-29'
+    tag_name: v2.13.1
+    url: https://github.com/davidjurgens/potato/releases/tag/v2.13.1
+  name: potato
+  repo: davidjurgens/potato
+  repo_info:
+    created_at: '2020-04-23T16:49:28Z'
+    default_branch: master
+    description: 'potato: the portable annotation tool'
+    open_issues: 0
+    size: 147372
+    stargazers_count: 440
+    topics: [agentic-ai, agentic-workflow, agents, annotation, annotation-tool, audio, data-labeling, image, labeling-tool, nlp, speech, vision]
+    updated_at: '2026-11-01T06:43:36Z'
+  section: Discovered (OME-Zarr commits)
+  stars: 440
+  tags: []
+  user: davidjurgens
+  weekly_commits_52w_oldest_first: [0, 0, 0, 1, 0, 0, 0, 0, 3, 49, 29, 31, 31, 13, 14, 13, 18, 30, 24, 25, 8, 16, 13, 20, 0, 2, 3, 19, 19, 17, 12, 13, 45, 6, 16, 20, 4, 19, 3, 6, 14, 38, 53, 34, 8, 12, 4, 19, 21, 40, 27, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: k-dominik
@@ -1883,7 +2014,7 @@ packages:
     topics: [ilastik, machine-learning, python, qt]
     updated_at: '2026-10-30T13:44:44Z'
   section: Integrative workflows
-  stars: 413
+  stars: 415
   tags: []
   user: ilastik
   weekly_commits_52w_oldest_first: [0, 1, 3, 6, 4, 8, 9, 0, 2, 3, 0, 1, 11, 4, 2, 5, 0, 0, 9, 2, 7, 0, 2, 0, 9, 0, 5, 13, 6, 8, 0, 7, 0, 0, 2, 4, 0, 1, 3, 0, 0, 0, 0, 1, 2, 3, 2, 2, 3, 0, 4, 0]
@@ -1906,14 +2037,41 @@ packages:
     description: An open and interoperable data framework for spatial omics data
     open_issues: 354
     size: 4161
-    stargazers_count: 404
+    stargazers_count: 405
     topics: [scverse, spatial, spatial-analysis, spatial-data]
-    updated_at: '2026-10-30T14:14:21Z'
+    updated_at: '2026-11-01T21:47:50Z'
   section: Standards and extensions
-  stars: 403
+  stars: 405
   tags: []
   user: scverse
   weekly_commits_52w_oldest_first: [1, 1, 0, 0, 0, 2, 3, 7, 9, 1, 0, 7, 3, 4, 5, 3, 0, 1, 2, 1, 0, 0, 0, 0, 0, 8, 9, 4, 1, 0, 1, 0, 2, 1, 2, 0, 0, 0, 2, 2, 10, 12, 0, 2, 0, 2, 0, 1, 2, 1, 1, 0]
+  workflow_run_status: SUCCESS
+- last_commit:
+    author: effigies
+    date: '2026-10-21'
+    sha: 8973fdf11d3c6c8ce40fa7897dc712667b539b0e
+    status: SUCCESS
+    url: https://github.com/bids-standard/bids-specification/commit/8973fdf11d3c6c8ce40fa7897dc712667b539b0e
+  last_release:
+    date: '2026-09-29'
+    tag_name: v1.11.2
+    url: https://github.com/bids-standard/bids-specification/releases/tag/v1.11.2
+  name: bids-specification
+  repo: bids-standard/bids-specification
+  repo_info:
+    created_at: '2018-09-26T17:35:34Z'
+    default_branch: master
+    description: Brain Imaging Data Structure (BIDS) Specification
+    open_issues: 370
+    size: 22157
+    stargazers_count: 373
+    topics: [bids, data-standards, neuroimaging, standards]
+    updated_at: '2026-10-31T05:51:44Z'
+  section: Standards and extensions
+  stars: 373
+  tags: []
+  user: bids-standard
+  weekly_commits_52w_oldest_first: [3, 14, 5, 7, 4, 9, 0, 2, 2, 18, 17, 6, 10, 0, 9, 0, 0, 1, 0, 15, 5, 4, 5, 4, 0, 4, 2, 2, 0, 4, 0, 2, 1, 5, 2, 8, 9, 1, 1, 3, 7, 1, 1, 0, 1, 6, 7, 0, 2, 1, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: github-actions[bot]
@@ -1937,38 +2095,11 @@ packages:
     topics: [hidivelab, hubmap, imaging, ome-tiff, openmicroscopy, viv, zarr]
     updated_at: '2026-10-27T15:29:07Z'
   section: Zarr viewers
-  stars: 371
+  stars: 372
   tags: []
   user: hms-dbmi
   weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 1, 0, 0, 5, 0, 0, 4, 0, 0, 0, 1, 1, 1, 2, 2, 4, 0, 0, 2, 0, 0, 4, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0]
   workflow_run_status: FAILURE
-- last_commit:
-    author: effigies
-    date: '2026-10-21'
-    sha: 8973fdf11d3c6c8ce40fa7897dc712667b539b0e
-    status: SUCCESS
-    url: https://github.com/bids-standard/bids-specification/commit/8973fdf11d3c6c8ce40fa7897dc712667b539b0e
-  last_release:
-    date: '2026-09-29'
-    tag_name: v1.11.2
-    url: https://github.com/bids-standard/bids-specification/releases/tag/v1.11.2
-  name: bids-specification
-  repo: bids-standard/bids-specification
-  repo_info:
-    created_at: '2018-09-26T17:35:34Z'
-    default_branch: master
-    description: Brain Imaging Data Structure (BIDS) Specification
-    open_issues: 370
-    size: 22157
-    stargazers_count: 373
-    topics: [bids, data-standards, neuroimaging, standards]
-    updated_at: '2026-10-31T05:51:44Z'
-  section: Standards and extensions
-  stars: 370
-  tags: []
-  user: bids-standard
-  weekly_commits_52w_oldest_first: [2, 3, 14, 5, 7, 4, 9, 0, 2, 2, 18, 17, 6, 10, 0, 9, 0, 0, 1, 0, 15, 5, 4, 5, 4, 0, 4, 2, 2, 0, 4, 0, 2, 1, 5, 2, 8, 9, 1, 1, 3, 7, 1, 1, 0, 1, 6, 7, 0, 2, 1, 0]
-  workflow_run_status: SUCCESS
 - last_commit:
     author: Mr-Milk
     date: '2026-10-06'
@@ -1991,7 +2122,7 @@ packages:
     topics: [bioinformatics, cell-segmentation, computational-pathology, deep-learning, digital-pathology, foundation-models, histopathology, medical-imaging, pathology, python, scverse, spatialdata, whole-slide-imaging]
     updated_at: '2026-10-27T04:22:54Z'
   section: Depend on OME-Zarr Py
-  stars: 333
+  stars: 334
   tags: []
   user: rendeirolab
   weekly_commits_52w_oldest_first: [8, 0, 3, 2, 0, 0, 0, 4, 11, 4, 2, 0, 0, 0, 1, 3, 0, 1, 0, 1, 1, 2, 1, 1, 0, 2, 3, 3, 5, 3, 1, 5, 1, 1, 0, 0, 1, 1, 0, 0, 0, 9, 0, 0, 0, 0, 14, 4, 0, 0, 0, 0]
@@ -2014,7 +2145,7 @@ packages:
     topics: []
     updated_at: '2026-10-31T00:07:55Z'
   section: Discovered (OME-Zarr commits)
-  stars: 327
+  stars: 329
   tags: []
   user: micro-manager
   weekly_commits_52w_oldest_first: [25, 10, 8, 2, 25, 22, 21, 2, 3, 25, 41, 20, 13, 19, 44, 55, 55, 45, 63, 35, 16, 15, 34, 13, 31, 21, 25, 27, 62, 31, 19, 36, 32, 14, 19, 37, 25, 22, 36, 12, 13, 8, 2, 3, 15, 6, 4, 3, 2, 1, 7, 0]
@@ -2041,10 +2172,10 @@ packages:
     topics: []
     updated_at: '2026-10-28T12:45:09Z'
   section: Depend on OME-Zarr Py
-  stars: 304
+  stars: 305
   tags: []
   user: royerlab
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: alihamraoui
@@ -2068,7 +2199,7 @@ packages:
     topics: [multiplexed-imaging, pipeline, segmentation, spatial-omics, spatial-transcriptomics, spatialdata]
     updated_at: '2026-10-30T08:13:33Z'
   section: Other tools (to curate)
-  stars: 296
+  stars: 298
   tags: []
   user: prism-oncology
   weekly_commits_52w_oldest_first: [6, 18, 2, 20, 5, 5, 0, 0, 6, 0, 0, 0, 0, 10, 2, 6, 8, 3, 21, 6, 17, 8, 8, 4, 0, 0, 0, 1, 9, 3, 1, 5, 4, 1, 5, 2, 0, 0, 0, 0, 1, 3, 12, 1, 3, 0, 0, 2, 0, 6, 1, 0]
@@ -2095,7 +2226,7 @@ packages:
     topics: [itk, itk-module]
     updated_at: '2026-11-01T00:44:29Z'
   section: Discovered (OME-Zarr commits)
-  stars: 290
+  stars: 291
   tags: []
   user: insightsoftwareconsortium
   weekly_commits_52w_oldest_first: [0, 0, 0, 4, 4, 2, 0, 0, 0, 0, 0, 4, 3, 3, 1, 6, 1, 3, 4, 0, 0, 2, 1, 1, 0, 1, 1, 1, 0, 0, 0, 2, 0, 2, 1, 0, 1, 0, 2, 1, 1, 1, 4, 0, 16, 39, 10, 16, 2, 0, 0, 0]
@@ -2124,6 +2255,33 @@ packages:
   weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 2, 0, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 12, 6, 0]
   workflow_run_status: FAILURE
 - last_commit:
+    author: danifranco
+    date: '2026-11-01'
+    sha: 124337ac3ea8254163a45b4a888c88d74df5ef4b
+    status: null
+    url: https://github.com/BiaPyX/BiaPy/commit/124337ac3ea8254163a45b4a888c88d74df5ef4b
+  last_release:
+    date: '2026-09-10'
+    tag_name: v3.7.1
+    url: https://github.com/BiaPyX/BiaPy/releases/tag/v3.7.1
+  name: biapy
+  repo: biapyx/biapy
+  repo_info:
+    created_at: '2019-02-28T15:35:09Z'
+    default_branch: master
+    description: Open source Python library for building bioimage analysis pipelines
+    open_issues: 1
+    size: 1380395
+    stargazers_count: 215
+    topics: [biomedical-image-processing, classification, computer-vision, convolutional-neural-networks, deep-learning, denoising, image-processing, image-segmentation, instance-segmentation, machine-learning, medical-imaging, object-detection, python, pytorch, segmentation, self-supervised-learning, semantic-segmentation, super-resolution]
+    updated_at: '2026-11-01T18:27:39Z'
+  section: Discovered (OME-Zarr commits)
+  stars: 215
+  tags: []
+  user: biapyx
+  weekly_commits_52w_oldest_first: [5, 7, 12, 7, 34, 1, 0, 2, 0, 5, 7, 4, 26, 9, 5, 14, 11, 18, 8, 32, 41, 5, 4, 22, 19, 23, 8, 8, 7, 14, 15, 10, 6, 9, 2, 14, 12, 18, 8, 15, 7, 7, 10, 14, 6, 10, 8, 10, 7, 11, 14, 3]
+  workflow_run_status: FAILURE
+- last_commit:
     author: dependabot[bot]
     date: '2026-10-09'
     sha: ba73e3aa9ab9af857fa974300b57c1db3c8fdce1
@@ -2139,8 +2297,8 @@ packages:
     created_at: '2022-08-24T20:57:40Z'
     default_branch: main
     description: Cell tracking and segmentation software
-    open_issues: 73
-    size: 98924
+    open_issues: 74
+    size: 98934
     stargazers_count: 210
     topics: [cell-segmentation, cell-tracking, cell-tracking-challenge, gurobi]
     updated_at: '2026-10-09T23:16:57Z'
@@ -2178,28 +2336,28 @@ packages:
   weekly_commits_52w_oldest_first: [14, 2, 8, 15, 8, 3, 0, 0, 0, 0, 3, 0, 1, 50, 22, 23, 7, 30, 21, 32, 9, 0, 1, 0, 28, 21, 26, 38, 11, 5, 16, 5, 2, 1, 0, 1, 19, 28, 1, 6, 23, 15, 11, 7, 2, 19, 7, 0, 0, 4, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
-    author: nekrut
-    date: '2026-10-31'
-    sha: ad05c088ab654148c6f75165631e920b799ccba4
+    author: mvdbeek
+    date: '2026-11-01'
+    sha: 7aefd43d0291736c8ff6b5a30ab6ae59293cbac2
     status: SUCCESS
-    url: https://github.com/galaxyproject/tools-iuc/commit/ad05c088ab654148c6f75165631e920b799ccba4
+    url: https://github.com/galaxyproject/tools-iuc/commit/7aefd43d0291736c8ff6b5a30ab6ae59293cbac2
   name: tools-iuc
   repo: galaxyproject/tools-iuc
   repo_info:
     created_at: '2014-09-13T11:18:49Z'
     default_branch: main
     description: Tool Shed repositories maintained by the Intergalactic Utilities Commission
-    open_issues: 839
-    size: 1879349
+    open_issues: 832
+    size: 1879434
     stargazers_count: 202
     topics: [hacktoberfest, iuc, tools, toolshed, usegalaxy, wrappers]
-    updated_at: '2026-10-31T22:12:21Z'
+    updated_at: '2026-11-01T19:27:45Z'
   section: Discovered (OME-Zarr commits)
   stars: 202
   tags: []
   user: galaxyproject
-  weekly_commits_52w_oldest_first: [33, 30, 26, 68, 47, 50, 10, 1, 33, 50, 62, 52, 138, 53, 80, 49, 45, 95, 37, 60, 28, 9, 29, 24, 36, 34, 20, 68, 89, 35, 72, 72, 24, 15, 24, 22, 15, 29, 31, 20, 15, 29, 22, 21, 15, 15, 18, 18, 36, 69, 149, 0]
-  workflow_run_status: SUCCESS
+  weekly_commits_52w_oldest_first: [33, 30, 26, 68, 47, 50, 10, 1, 33, 50, 62, 52, 138, 53, 80, 49, 45, 95, 37, 60, 28, 9, 29, 24, 36, 34, 20, 68, 89, 35, 72, 72, 24, 15, 24, 22, 15, 29, 31, 20, 15, 29, 22, 21, 15, 15, 18, 18, 36, 69, 149, 7]
+  workflow_run_status: FAILURE
 - last_commit:
     author: will-moore
     date: '2026-04-16'
@@ -2221,7 +2379,7 @@ packages:
   stars: 201
   tags: []
   user: hms-dbmi
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 2, 0, 15, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 2, 0, 15, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   workflow_run_status: FAILURE
 - last_commit:
     author: kjungwoo5
@@ -2248,7 +2406,7 @@ packages:
   stars: 190
   tags: []
   user: brainglobe
-  weekly_commits_52w_oldest_first: [2, 1, 0, 1, 2, 1, 4, 0, 0, 1, 2, 0, 4, 5, 2, 2, 0, 1, 1, 1, 0, 1, 1, 0, 1, 2, 1, 0, 2, 3, 2, 0, 1, 0, 0, 3, 2, 6, 2, 5, 7, 3, 1, 0, 8, 0, 3, 8, 4, 4, 1, 0]
+  weekly_commits_52w_oldest_first: [1, 0, 1, 2, 1, 4, 0, 0, 1, 2, 0, 4, 5, 2, 2, 0, 1, 1, 1, 0, 1, 1, 0, 1, 2, 1, 0, 2, 3, 2, 0, 1, 0, 0, 3, 2, 6, 2, 5, 7, 3, 1, 0, 8, 0, 3, 8, 4, 4, 1, 0, 0]
   workflow_run_status: SUCCESS
 - last_commit:
     author: philippotto
@@ -2267,12 +2425,12 @@ packages:
     default_branch: master
     description: Visualize, share and annotate your large 3D images online
     open_issues: 322
-    size: 894167
+    size: 894735
     stargazers_count: 187
     topics: [connectomics, em, hacktoberfest, microscopy, microscopy-images, neurobiology, reconstruction]
     updated_at: '2026-10-30T10:39:27Z'
   section: Zarr viewers
-  stars: 186
+  stars: 187
   tags: []
   user: scalableminds
   weekly_commits_52w_oldest_first: [21, 10, 14, 6, 26, 14, 0, 1, 17, 20, 16, 27, 21, 29, 15, 32, 29, 20, 22, 13, 27, 20, 18, 23, 21, 27, 3, 21, 9, 30, 25, 22, 45, 25, 24, 33, 34, 15, 27, 38, 13, 33, 29, 27, 4, 38, 33, 51, 30, 112, 129, 0]
@@ -2293,13 +2451,13 @@ packages:
     created_at: '2019-02-13T10:04:36Z'
     default_branch: main
     description: Research Object Crate
-    open_issues: 152
+    open_issues: 153
     size: 31688
     stargazers_count: 166
     topics: [jsonld, linked-data, reproducibility, research-object, specification]
     updated_at: '2026-10-30T13:11:07Z'
   section: Extended metadata frameworks
-  stars: 165
+  stars: 166
   tags: []
   user: researchobject
   weekly_commits_52w_oldest_first: [6, 0, 3, 7, 0, 3, 0, 0, 10, 8, 0, 1, 1, 1, 0, 1, 3, 0, 0, 0, 3, 0, 1, 14, 0, 3, 1, 6, 1, 0, 2, 34, 17, 0, 0, 0, 0, 2, 2, 0, 0, 2, 0, 4, 1, 7, 1, 1, 2, 0, 12, 0]
@@ -2353,7 +2511,7 @@ packages:
     topics: [niches, self-supervised-learning, spatial-domains, spatial-omics, spatial-transcriptomics]
     updated_at: '2026-10-28T02:54:08Z'
   section: Depend on OME-Zarr Py
-  stars: 163
+  stars: 164
   tags: []
   user: prism-oncology
   weekly_commits_52w_oldest_first: [0, 4, 5, 3, 4, 0, 0, 0, 1, 5, 0, 18, 21, 5, 2, 7, 2, 5, 6, 0, 4, 8, 28, 12, 28, 13, 3, 27, 8, 9, 12, 27, 5, 0, 7, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]
@@ -2380,7 +2538,7 @@ packages:
     topics: [aicsimageio, dask, image-metadata, microscopy, python, scientific-computing, scientific-formats, xarray]
     updated_at: '2026-10-27T13:57:04Z'
   section: Zarr readers & writers
-  stars: 132
+  stars: 133
   tags: []
   user: bioio-devs
   weekly_commits_52w_oldest_first: [0, 4, 1, 8, 9, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4, 0, 1, 6, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 2, 2, 2, 2, 0, 0, 2, 2, 1, 1, 0, 1, 0, 0, 0]
@@ -2461,164 +2619,10 @@ packages:
     topics: [imaging, python, single-cell-analysis, single-cell-images]
     updated_at: '2026-11-01T03:09:30Z'
   section: Depend on OME-Zarr Py
-  stars: 113
+  stars: 115
   tags: []
   user: mannlabs
   weekly_commits_52w_oldest_first: [13, 0, 0, 0, 1, 0, 2, 0, 2, 3, 6, 31, 9, 51, 1, 1, 35, 17, 16, 1, 5, 17, 0, 3, 9, 9, 21, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 4, 0, 2, 0, 4, 0, 0, 3, 0, 0, 0, 4, 0, 0]
   workflow_run_status: FAILURE
-- last_commit:
-    author: dependabot[bot]
-    date: '2026-10-28'
-    sha: c9d4d4d66fcc9cdf087cb8bddd2c83e0e2ac4748
-    status: SUCCESS
-    url: https://github.com/AllenCell/vole-core/commit/c9d4d4d66fcc9cdf087cb8bddd2c83e0e2ac4748
-  last_release:
-    date: '2026-09-18'
-    tag_name: v4.10.2
-    url: https://github.com/AllenCell/vole-core/releases/tag/v4.10.2
-  name: vole-core
-  repo: allen-cell-animated/vole-core
-  repo_info:
-    created_at: '2018-05-23T18:34:11Z'
-    default_branch: main
-    description: core rendering canvas and data loading services for Vol-E volume viewer
-    open_issues: 66
-    size: 54207
-    stargazers_count: 107
-    topics: []
-    updated_at: '2026-10-28T23:04:44Z'
-  section: Zarr viewers
-  stars: 107
-  tags: []
-  user: allen-cell-animated
-  weekly_commits_52w_oldest_first: [6, 2, 3, 2, 0, 3, 0, 0, 0, 1, 4, 1, 0, 8, 0, 1, 11, 0, 0, 6, 0, 14, 25, 18, 1, 4, 2, 4, 0, 2, 3, 2, 5, 2, 1, 13, 10, 7, 16, 13, 6, 14, 10, 4, 21, 7, 0, 1, 2, 1, 1, 0]
-  workflow_run_status: SUCCESS
-- last_commit:
-    author: ieivanov
-    date: '2026-06-29'
-    sha: 4b62365c0df25929bffc7f01b3bb2d1c11d69cce
-    status: SUCCESS
-    url: https://github.com/mehta-lab/VisCy/commit/4b62365c0df25929bffc7f01b3bb2d1c11d69cce
-  last_release:
-    date: '2026-08-20'
-    tag_name: viscy-utils-v0.1.0
-    url: https://github.com/mehta-lab/VisCy/releases/tag/viscy-utils-v0.1.0
-  name: viscy
-  repo: mehta-lab/viscy
-  repo_info:
-    created_at: '2023-05-30T16:52:18Z'
-    default_branch: main
-    description: computer vision models for single-cell phenotyping
-    open_issues: 73
-    size: 156799
-    stargazers_count: 103
-    topics: [bioimage-analysis, computer-vision, image-translation, machine-learning, representation-learning]
-    updated_at: '2026-10-24T16:41:27Z'
-  section: Other tools (to curate)
-  stars: 103
-  tags: []
-  user: mehta-lab
-  weekly_commits_52w_oldest_first: [1, 1, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 4, 3, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-  workflow_run_status: SUCCESS
-- last_commit:
-    author: axelalmet
-    date: '2026-03-19'
-    sha: b06f98ebdc88cbc5f4ea8aa6fa113cf3a97de0d4
-    status: null
-    url: https://github.com/axelalmet/flowsig/commit/b06f98ebdc88cbc5f4ea8aa6fa113cf3a97de0d4
-  name: flowsig
-  repo: axelalmet/flowsig
-  repo_info:
-    created_at: '2023-07-07T21:57:27Z'
-    default_branch: main
-    description: Python package to find communication-driven intercellular flows from single-cell RNA-sequencing and spatial transcriptomics data.
-    open_issues: 33
-    size: 7201
-    stargazers_count: 93
-    topics: []
-    updated_at: '2026-10-28T02:52:31Z'
-  section: Depend on OME-Zarr Py
-  stars: 92
-  tags: []
-  user: axelalmet
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 1, 14, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-  workflow_run_status: NO_WORKFLOWS
-- last_commit:
-    author: biocontainers-automerge-bot[bot]
-    date: '2026-11-01'
-    sha: 2115c25759afbbcc8a65c4d1485d019e992ca6c5
-    status: SUCCESS
-    url: https://github.com/BioContainers/multi-package-containers/commit/2115c25759afbbcc8a65c4d1485d019e992ca6c5
-  name: multi-package-containers
-  repo: biocontainers/multi-package-containers
-  repo_info:
-    created_at: '2017-05-18T14:20:47Z'
-    default_branch: master
-    description: Testing building mulled containers for multi-requirement tools.
-    open_issues: 137
-    size: 12786
-    stargazers_count: 87
-    topics: [containers, docker]
-    updated_at: '2026-11-01T00:17:10Z'
-  section: Discovered (OME-Zarr commits)
-  stars: 87
-  tags: []
-  user: biocontainers
-  weekly_commits_52w_oldest_first: [6, 7, 5, 0, 24, 23, 2, 2, 8, 5, 8, 7, 8, 3, 14, 4, 6, 19, 19, 18, 3, 3, 12, 4, 6, 12, 10, 6, 8, 6, 9, 12, 8, 12, 6, 7, 9, 5, 27, 12, 13, 12, 14, 11, 22, 11, 4, 12, 17, 18, 17, 1]
-  workflow_run_status: SUCCESS
-- last_commit:
-    author: tinevez
-    date: '2026-09-03'
-    sha: a2592f51e18bc49104ab86591b1130f80d492dbe
-    status: FAILURE
-    url: https://github.com/mastodon-sc/mastodon/commit/a2592f51e18bc49104ab86591b1130f80d492dbe
-  last_release:
-    date: '2022-10-26'
-    tag_name: mastodon-1.0.0-beta-26
-    url: https://github.com/mastodon-sc/mastodon/releases/tag/mastodon-1.0.0-beta-26
-  name: mastodon
-  repo: mastodon-sc/mastodon
-  repo_info:
-    created_at: '2014-05-06T15:56:23Z'
-    default_branch: master
-    description: "Mastodon \u2013 a large-scale tracking and track-editing framework for large, multi-view images."
-    open_issues: 25
-    size: 26248
-    stargazers_count: 84
-    topics: [bioimage-analysis, cell-lineage, imglib2, interactive-analysis, interactive-visualizations, java, large-images, microscopy-images, tracking-algorithm, trackmate]
-    updated_at: '2026-09-08T10:22:10Z'
-  section: Integrative workflows
-  stars: 84
-  tags: []
-  user: mastodon-sc
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-  workflow_run_status: FAILURE
-- last_commit:
-    author: MeyerBender
-    date: '2026-10-26'
-    sha: 2a8ff158460bc5c58d0da227407740d68b0c7e41
-    status: SUCCESS
-    url: https://github.com/sagar87/spatialproteomics/commit/2a8ff158460bc5c58d0da227407740d68b0c7e41
-  last_release:
-    date: '2026-10-26'
-    tag_name: v0.9.0
-    url: https://github.com/sagar87/spatialproteomics/releases/tag/v0.9.0
-  name: spatialproteomics
-  repo: sagar87/spatialproteomics
-  repo_info:
-    created_at: '2022-08-12T07:02:40Z'
-    default_branch: main
-    description: 'Spatialproteomics is a light weight wrapper around xarray with the intention to facilitate the data exploration and analysis of highly multiplexed immunohistochemistry data. Docs available here:  https://sagar87.github.io/spatialproteomics/ .'
-    open_issues: 0
-    size: 617180
-    stargazers_count: 84
-    topics: []
-    updated_at: '2026-10-26T20:43:05Z'
-  section: Depend on OME-Zarr Py
-  stars: 84
-  tags: []
-  user: sagar87
-  weekly_commits_52w_oldest_first: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 6, 0, 1, 0, 8, 1, 2, 5, 0, 2, 0, 10, 0, 1, 0, 1, 0, 0, 0, 0, 0, 3, 5, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 9, 38, 0]
-  workflow_run_status: SUCCESS
-pool_count: 825
-tagged_count: 55
+pool_count: 847
+tagged_count: 58
