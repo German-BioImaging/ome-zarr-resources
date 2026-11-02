@@ -1,14 +1,122 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-01T01:21:17+00:00",
+  "generated": "2026-11-02T01:21:53+00:00",
   "recent_days": 10,
-  "total_commits": 2834,
+  "total_commits": 2854,
   "commits": [
+    {
+      "commit_date": "2026-11-02T11:58:50.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/7dd1192bba86ddd38c2ff50c7334551ed0e2c54a"
+    },
+    {
+      "commit_date": "2026-11-02T11:09:21.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/5e8d63dafb0246f79304713bb7a5dafeac33eb82"
+    },
+    {
+      "commit_date": "2026-11-01T20:44:16.000+01:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/04cec13fbb5aade5ff2e1b2661bd1ce948b177ed"
+    },
+    {
+      "commit_date": "2026-11-01T18:31:59.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/9c45408ab839657e4cea540dfc6561b096ee22b2"
+    },
+    {
+      "commit_date": "2026-11-01T18:06:13.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/973c4cae1412ab9bc78d972143fc465e646c4f77"
+    },
+    {
+      "commit_date": "2026-11-01T17:08:10.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/ecfc5af6e45116ca5aa10754e71e38a7bc136bfe"
+    },
+    {
+      "commit_date": "2026-11-01T17:03:54.000+01:00",
+      "author": "tlambert03",
+      "repository": "imaging-formats/yaozarrs",
+      "commit_url": "https://github.com/imaging-formats/yaozarrs/commit/ad2507119998f13a443c3c4577ef4031eeceb8e3"
+    },
+    {
+      "commit_date": "2026-11-01T16:59:24.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/88a14b837afba179f2f2d25489a2d52c277592b0"
+    },
+    {
+      "commit_date": "2026-11-01T16:00:55.000+01:00",
+      "author": "adamholda",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/f9f127e37fbaed4a122b690056a46fcc9fee0b29"
+    },
+    {
+      "commit_date": "2026-11-01T12:45:30.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/50572d97446566f3656bfa92b15722dc75c25234"
+    },
+    {
+      "commit_date": "2026-11-01T11:56:30.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/3c2802da07c5885b20b7ba3fd924ac4faf5ac2a1"
+    },
+    {
+      "commit_date": "2026-11-01T11:49:21.000+01:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/aec8a61879ba0a8e0cfcd8ce5cc49bde82a8cf8c"
+    },
+    {
+      "commit_date": "2026-11-01T11:36:20.000+01:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/0c29fb46a8cbe32b5b3a83aa065f2b16f69fd08a"
+    },
+    {
+      "commit_date": "2026-11-01T11:36:07.000+01:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/782144f85f9dcab210aec01691800c47f7f7822a"
+    },
+    {
+      "commit_date": "2026-11-01T11:34:38.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/7f5a71c35c76dec7b2f7ea92ecf849ca7b0de0e0"
+    },
+    {
+      "commit_date": "2026-11-01T08:18:17.000-06:00",
+      "author": "slchicoineau-creator",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/42ca8d73790f9b4dd482e903797178efa6013c06"
+    },
+    {
+      "commit_date": "2026-11-01T06:47:52.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/f4eec0a00bbc1448223207f994470c3d2a3062b5"
+    },
     {
       "commit_date": "2026-11-01T00:24:48.000+01:00",
       "author": "folterj",
       "repository": "ccp-volume-em/muvis-align",
       "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/b319b84b6ed2de46999d076f3cc9a2ba56c07e07"
+    },
+    {
+      "commit_date": "2026-11-01T00:03:41.000-05:00",
+      "author": "tkran2",
+      "repository": "tkran2/scrollscout",
+      "commit_url": "https://github.com/tkran2/scrollscout/commit/b07f5d0e9cdc0b3eb18d835b87c62f957d43ef5a"
     },
     {
       "commit_date": "2026-10-31T23:58:16.000+01:00",
@@ -33,6 +141,18 @@
       "author": "folterj",
       "repository": "ccp-volume-em/muvis-align",
       "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/e7ce70b7af9d59a0d97c8c09ec5beff854c3e3a2"
+    },
+    {
+      "commit_date": "2026-10-31T22:13:54.000-07:00",
+      "author": "hongquanli",
+      "repository": "Cephla-Lab/Squid",
+      "commit_url": "https://github.com/Cephla-Lab/Squid/commit/dceba3709a125d2047be4a850674b02300a0e043"
+    },
+    {
+      "commit_date": "2026-10-31T22:13:31.000-07:00",
+      "author": "hongquanli",
+      "repository": "Cephla-Lab/Squid",
+      "commit_url": "https://github.com/Cephla-Lab/Squid/commit/8a6fe436d07184e494fcd8c49b01d8ca5261316c"
     },
     {
       "commit_date": "2026-10-31T21:01:20.000-04:00",
