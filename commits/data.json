@@ -1,9 +1,225 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-02T01:21:53+00:00",
+  "generated": "2026-11-03T01:21:44+00:00",
   "recent_days": 10,
-  "total_commits": 2854,
+  "total_commits": 2907,
   "commits": [
+    {
+      "commit_date": "2026-11-03T12:01:21.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/3f5a85491074f3d2da0d05ebd2808f626b5cc14c"
+    },
+    {
+      "commit_date": "2026-11-03T12:01:17.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/90111d1aa9a8772382a3a4eda4c402a0bbdefbcf"
+    },
+    {
+      "commit_date": "2026-11-03T11:59:38.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/fa94c7a439492527c05091e6b5df6b6c214e2f5c"
+    },
+    {
+      "commit_date": "2026-11-03T11:57:56.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/754d9fc68599ba64a0424b272f807bf9f397b8ba"
+    },
+    {
+      "commit_date": "2026-11-03T00:48:30.000+01:00",
+      "author": "fedasevich",
+      "repository": "fedasevich/parfocal",
+      "commit_url": "https://github.com/fedasevich/parfocal/commit/3a45e60eab30098c937b3a8117e2eca6beac270e"
+    },
+    {
+      "commit_date": "2026-11-02T23:53:46.000+01:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/46c8ee0276ced5993dc22fd719596e1a188b5a99"
+    },
+    {
+      "commit_date": "2026-11-02T23:44:18.000+01:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/ff8c77247333f58a1385e22f0a7ed124bfcbaa9a"
+    },
+    {
+      "commit_date": "2026-11-02T23:39:42.000+02:00",
+      "author": "guijacquemet",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/af8f7695b1c4b6e30eb0f53b88c3ececb5cd6fde"
+    },
+    {
+      "commit_date": "2026-11-02T23:03:12.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/f55c642e0c35c29604de2fd18d7ad12fa4f8c6db"
+    },
+    {
+      "commit_date": "2026-11-02T22:50:52.000+01:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/aab8b8fbcab201ef79faa4f9ab19d62f9ec79108"
+    },
+    {
+      "commit_date": "2026-11-02T22:37:28.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/56df0d72e516c6e6c9a9ee3fa1996179456fc1eb"
+    },
+    {
+      "commit_date": "2026-11-02T21:47:31.000+01:00",
+      "author": "krokicki",
+      "repository": "JaneliaSciComp/mia-workflows",
+      "commit_url": "https://github.com/JaneliaSciComp/mia-workflows/commit/8c742e25b900d22f3ce9e6c1f89cf7b823f2bc91"
+    },
+    {
+      "commit_date": "2026-11-02T21:47:14.000+01:00",
+      "author": "krokicki",
+      "repository": "JaneliaSciComp/mia-snippets",
+      "commit_url": "https://github.com/JaneliaSciComp/mia-snippets/commit/56637261e1100eb1cbb20d1356cf6a4657260119"
+    },
+    {
+      "commit_date": "2026-11-02T20:36:07.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/7e23fda29c66025440475ec8c4e482930851ce41"
+    },
+    {
+      "commit_date": "2026-11-02T20:14:20.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/523c9517486e7dcb5b65d78632df591235b6417e"
+    },
+    {
+      "commit_date": "2026-11-02T20:09:13.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/58ab481b5ade13bd61bab58d3ec2f37b725786b4"
+    },
+    {
+      "commit_date": "2026-11-02T19:57:03.000+02:00",
+      "author": "guijacquemet",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/7f55ba13104e56e00eb19093978760c3e596ead9"
+    },
+    {
+      "commit_date": "2026-11-02T18:39:57.000+01:00",
+      "author": "lednicky-t",
+      "repository": "lednicky-t/LSPR-Suite",
+      "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/1d0e40b801f6102ec146326d169f65f88c3d5476"
+    },
+    {
+      "commit_date": "2026-11-02T18:04:54.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/19fb6bf4af1adeb31955ed548c829a696baf4ffc"
+    },
+    {
+      "commit_date": "2026-11-02T18:04:23.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/f7257b7b9477164c512d2b4ebebce18c4198b87d"
+    },
+    {
+      "commit_date": "2026-11-02T17:58:27.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/65e963c21363d88365734cfa95d081d369958f32"
+    },
+    {
+      "commit_date": "2026-11-02T17:43:37.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/434afbcbf9aee8e2c851ed606af712093891565f"
+    },
+    {
+      "commit_date": "2026-11-02T17:33:21.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/67bdea5a78d42c66e727cccfe3588c213968c988"
+    },
+    {
+      "commit_date": "2026-11-02T17:03:22.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/eeae9d0ae29d476015441ea4b88dad9fd35f4295"
+    },
+    {
+      "commit_date": "2026-11-02T16:59:53.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/8fdf7de62f8d0618bc154489054093b49261fc4d"
+    },
+    {
+      "commit_date": "2026-11-02T16:53:37.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/718e8b5bce8533dad3fade70a9317d28ce02145c"
+    },
+    {
+      "commit_date": "2026-11-02T16:53:33.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/418bbbd89e87f586eb4138f1aed555377564e44c"
+    },
+    {
+      "commit_date": "2026-11-02T16:43:20.000+01:00",
+      "author": "tlambert03",
+      "repository": "imaging-formats/yaozarrs",
+      "commit_url": "https://github.com/imaging-formats/yaozarrs/commit/82b2b4f436ec6bfd0b5b4599db61611d1c806645"
+    },
+    {
+      "commit_date": "2026-11-02T15:58:01.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/7e5ce9aa75a1b39872ea8634a724888d371c87a6"
+    },
+    {
+      "commit_date": "2026-11-02T15:52:16.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/e0e6c2098b20b70ee6cd764865fbab3bb36664aa"
+    },
+    {
+      "commit_date": "2026-11-02T15:51:22.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/9b20ee2f44fec88ad81476644766a7dd6a34a1b8"
+    },
+    {
+      "commit_date": "2026-11-02T15:04:47.000Z",
+      "author": "danifranco",
+      "repository": "BiaPyX/BiaPy-doc",
+      "commit_url": "https://github.com/BiaPyX/BiaPy-doc/commit/dd51960932fe22288d5d9509d4b7c2c03b738da1"
+    },
+    {
+      "commit_date": "2026-11-02T13:40:57.000Z",
+      "author": "Andrew-K-K",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/abd572b483387970ae348afdb948e0c14371e138"
+    },
+    {
+      "commit_date": "2026-11-02T13:36:11.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/053f5c71cb5e38da0d2d00efef9efb9bd2eaf9f0"
+    },
+    {
+      "commit_date": "2026-11-02T13:00:01.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/2c8695993cb1744a08dac87f149ea568bbbc0f39"
+    },
+    {
+      "commit_date": "2026-11-02T12:09:55.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/5e9b7f9258cc3932e3cd015874262d9dc38d4b27"
+    },
     {
       "commit_date": "2026-11-02T11:58:50.000+11:00",
       "author": "schienstockd",
@@ -15,6 +231,108 @@
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/5e8d63dafb0246f79304713bb7a5dafeac33eb82"
+    },
+    {
+      "commit_date": "2026-11-02T10:40:31.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/unstitched-tiles-storage",
+      "commit_url": "https://github.com/ccp-volume-em/unstitched-tiles-storage/commit/7ad5249c73ae5bd6778cd1e1cffeb925e10333c5"
+    },
+    {
+      "commit_date": "2026-11-02T09:48:03.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/0f08b0d41348ed26831349bbe9c7770e7d2648cf"
+    },
+    {
+      "commit_date": "2026-11-02T09:43:43.000+01:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/3a14b2f8a12109626b3a32b0332252f6979ba458"
+    },
+    {
+      "commit_date": "2026-11-02T09:22:33.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/823a7ca9f82c094c832d769cc6cdcb658411d14d"
+    },
+    {
+      "commit_date": "2026-11-02T08:31:21.000+01:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/d7abf64b93023ba427f8793d51f1af6241546ba1"
+    },
+    {
+      "commit_date": "2026-11-02T08:20:41.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/f41a638ae0217eb19fb6d2dceb38548b12bd6181"
+    },
+    {
+      "commit_date": "2026-11-02T07:48:21.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/c37d58f26de7c960779e6dd657d7022b75fc73b8"
+    },
+    {
+      "commit_date": "2026-11-02T07:30:10.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/2e1a956f4d469097b3046865fe458d5f439ba776"
+    },
+    {
+      "commit_date": "2026-11-02T07:23:07.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/66b080b7442d339e6328df00ad0b3403732f90f5"
+    },
+    {
+      "commit_date": "2026-11-02T06:19:20.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/cc0e116e040233870c98e91908b09da13368a813"
+    },
+    {
+      "commit_date": "2026-11-02T06:00:18.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/56310c3ec815f8715c4665b7f2e3d0476a555e6e"
+    },
+    {
+      "commit_date": "2026-11-02T04:24:11.000-05:00",
+      "author": "krokicki",
+      "repository": "JaneliaSciComp/mia-workflows",
+      "commit_url": "https://github.com/JaneliaSciComp/mia-workflows/commit/1d57f13ab222e43eea4faefcf2693b1a96222501"
+    },
+    {
+      "commit_date": "2026-11-02T03:37:25.000-05:00",
+      "author": "krokicki",
+      "repository": "JaneliaSciComp/mia-snippets",
+      "commit_url": "https://github.com/JaneliaSciComp/mia-snippets/commit/074e1433a49181df07308d885bde438da19e9723"
+    },
+    {
+      "commit_date": "2026-11-02T03:18:21.000-05:00",
+      "author": "krokicki",
+      "repository": "JaneliaSciComp/mia-snippets",
+      "commit_url": "https://github.com/JaneliaSciComp/mia-snippets/commit/b0afbb526c1f038bf453624fb8432d684e4260d6"
+    },
+    {
+      "commit_date": "2026-11-02T03:17:02.000-05:00",
+      "author": "krokicki",
+      "repository": "JaneliaSciComp/mia-workflows",
+      "commit_url": "https://github.com/JaneliaSciComp/mia-workflows/commit/044760ea32e2433f9443506f524f4f0f1727b925"
+    },
+    {
+      "commit_date": "2026-11-02T02:12:16.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/200a1fac2dc5e05e5e3e623ccf5835f27692e710"
+    },
+    {
+      "commit_date": "2026-11-02T00:43:14.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/c8ad3c8d30b79c2037e0f0dec81758cdb6d92dda"
     },
     {
       "commit_date": "2026-11-01T20:44:16.000+01:00",
