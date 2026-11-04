@@ -1,9 +1,201 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-03T01:21:44+00:00",
+  "generated": "2026-11-04T01:21:11+00:00",
   "recent_days": 10,
-  "total_commits": 2907,
+  "total_commits": 2959,
   "commits": [
+    {
+      "commit_date": "2026-11-04T09:41:00.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/fd94f5dc3d28e48dc4ef352e94bc6ff38b5ca00d"
+    },
+    {
+      "commit_date": "2026-11-04T00:52:21.000+01:00",
+      "author": "fedasevich",
+      "repository": "fedasevich/parfocal",
+      "commit_url": "https://github.com/fedasevich/parfocal/commit/4deb79997ac33217bf0474fc2510c5efd8bcf19c"
+    },
+    {
+      "commit_date": "2026-11-04T00:03:23.000Z",
+      "author": "ChaseHendrick",
+      "repository": "ChaseHendrick/Scrolls",
+      "commit_url": "https://github.com/ChaseHendrick/Scrolls/commit/de58225966b45034847a14ce67f593da367c5996"
+    },
+    {
+      "commit_date": "2026-11-03T23:43:23.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/de4491bbbd1ad681439af33d62161b9082b11dc1"
+    },
+    {
+      "commit_date": "2026-11-03T18:22:13.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/df8882ef6fc27f2702f100f16bffd4dc09876bf5"
+    },
+    {
+      "commit_date": "2026-11-03T18:03:32.000+01:00",
+      "author": "flevet",
+      "repository": "flevet/PoCA",
+      "commit_url": "https://github.com/flevet/PoCA/commit/8d2e8320f02c9402786cb46f6d0edfaea374b97c"
+    },
+    {
+      "commit_date": "2026-11-03T17:16:32.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/2e8a1e93264aca5408b000b1066e4b5ff7b70c05"
+    },
+    {
+      "commit_date": "2026-11-03T17:10:53.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/b81954b73794be2d7f55df29f8b19666a962fcb0"
+    },
+    {
+      "commit_date": "2026-11-03T16:59:22.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/a8252e3d8441c93a2a3ec59bae96769d46a44e41"
+    },
+    {
+      "commit_date": "2026-11-03T16:28:44.000+01:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ome-zarr-registration-tutorial",
+      "commit_url": "https://github.com/fideus-labs/ome-zarr-registration-tutorial/commit/23a35cc34980c95a5b10d3c7dd08389ef3065a60"
+    },
+    {
+      "commit_date": "2026-11-03T16:16:48.000+01:00",
+      "author": "vboussot",
+      "repository": "vboussot/mouse-brain-templates",
+      "commit_url": "https://github.com/vboussot/mouse-brain-templates/commit/522257f1c54429e3ea0931386e49c180bd6fc6cf"
+    },
+    {
+      "commit_date": "2026-11-03T16:16:45.000+01:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ome-zarr-registration-tutorial",
+      "commit_url": "https://github.com/fideus-labs/ome-zarr-registration-tutorial/commit/5746cb26a3cbc39eb25994a24b74b4b472fa468c"
+    },
+    {
+      "commit_date": "2026-11-03T15:51:04.000+01:00",
+      "author": "flevet",
+      "repository": "flevet/PoCA",
+      "commit_url": "https://github.com/flevet/PoCA/commit/1ec55951df96641c6d2bd3dff601d9a5558067a9"
+    },
+    {
+      "commit_date": "2026-11-03T15:46:36.000-05:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/mesh-n-bone",
+      "commit_url": "https://github.com/janelia-cellmap/mesh-n-bone/commit/28489f88cdb61fc535fb123f624d89065a46acbf"
+    },
+    {
+      "commit_date": "2026-11-03T15:22:53.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/b17c0f7bf7b4e7a007bf7706f888486b5ffba16a"
+    },
+    {
+      "commit_date": "2026-11-03T14:15:25.000+01:00",
+      "author": "BioinfoTongLI",
+      "repository": "BioImageTools/fractal-multistep-nextflow",
+      "commit_url": "https://github.com/BioImageTools/fractal-multistep-nextflow/commit/1de9a2e9d40beed97481be4506c2f344fd39ea74"
+    },
+    {
+      "commit_date": "2026-11-03T13:58:17.000-08:00",
+      "author": "uermel",
+      "repository": "copick/copick",
+      "commit_url": "https://github.com/copick/copick/commit/0fd3f71078fa475611296702aadbdc08505bd0ef"
+    },
+    {
+      "commit_date": "2026-11-03T13:58:17.000-08:00",
+      "author": "uermel",
+      "repository": "copick/copick",
+      "commit_url": "https://github.com/copick/copick/commit/21f04cafaa392e8b0529b6cb1ddf31c05ee2678f"
+    },
+    {
+      "commit_date": "2026-11-03T13:58:17.000-08:00",
+      "author": "uermel",
+      "repository": "copick/copick",
+      "commit_url": "https://github.com/copick/copick/commit/6e90af7d8395725d7ce94fff2825b61e10678462"
+    },
+    {
+      "commit_date": "2026-11-03T13:42:48.000-05:00",
+      "author": "mat10d",
+      "repository": "cheeseman-lab/brieflow",
+      "commit_url": "https://github.com/cheeseman-lab/brieflow/commit/2c6826c79ff31fd311374e6cc8b17b1f3a206d5c"
+    },
+    {
+      "commit_date": "2026-11-03T13:24:17.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/1f08c44b1faaa80160bcc15260ce1e9210858afd"
+    },
+    {
+      "commit_date": "2026-11-03T13:20:39.000-05:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/mesh-n-bone",
+      "commit_url": "https://github.com/janelia-cellmap/mesh-n-bone/commit/a6000ffb9f98d653d41388ceec6c98921f12bcff"
+    },
+    {
+      "commit_date": "2026-11-03T13:15:47.000+01:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ome-zarr-registration-tutorial",
+      "commit_url": "https://github.com/fideus-labs/ome-zarr-registration-tutorial/commit/013df465b662f5b3d38151b61df8585761656b46"
+    },
+    {
+      "commit_date": "2026-11-03T13:07:52.000-05:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/cellmap-flow",
+      "commit_url": "https://github.com/janelia-cellmap/cellmap-flow/commit/09841b49c8762adc09327ded1d2e952afdd9a9de"
+    },
+    {
+      "commit_date": "2026-11-03T13:05:41.000-05:00",
+      "author": "allison-truhlar",
+      "repository": "BioImageTools/capability-manifest",
+      "commit_url": "https://github.com/BioImageTools/capability-manifest/commit/4aae652254f73470938c725f6058276cee150122"
+    },
+    {
+      "commit_date": "2026-11-03T12:52:31.000-05:00",
+      "author": "davidackerman",
+      "repository": "JaneliaSciComp/chunkmirage",
+      "commit_url": "https://github.com/JaneliaSciComp/chunkmirage/commit/33ca8347b1e2107107a6ec02c84e19501fa712bb"
+    },
+    {
+      "commit_date": "2026-11-03T12:51:47.000-05:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/cellmap-analyze",
+      "commit_url": "https://github.com/janelia-cellmap/cellmap-analyze/commit/fbb59cc5f7f6b4c32e7e1ca5c89a29d8d421e1f5"
+    },
+    {
+      "commit_date": "2026-11-03T12:41:09.000-05:00",
+      "author": "mat10d",
+      "repository": "cheeseman-lab/brieflow",
+      "commit_url": "https://github.com/cheeseman-lab/brieflow/commit/d3e952d049e9057e8b0e9ad7e6f83a7a3b6e9a0c"
+    },
+    {
+      "commit_date": "2026-11-03T12:41:03.000-05:00",
+      "author": "davidackerman",
+      "repository": "janelia-cellmap/mesh-n-bone",
+      "commit_url": "https://github.com/janelia-cellmap/mesh-n-bone/commit/f985de6163405a9b662dc71c08110260d8d0f521"
+    },
+    {
+      "commit_date": "2026-11-03T12:25:04.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/9f244e9f8d3247d13f25c2dea0f80dc676a213b3"
+    },
+    {
+      "commit_date": "2026-11-03T12:14:32.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/4d0726ca587c76869dd849ec8c41fad1b04ad543"
+    },
+    {
+      "commit_date": "2026-11-03T12:03:29.000-05:00",
+      "author": "davidackerman",
+      "repository": "JaneliaSciComp/worldarray",
+      "commit_url": "https://github.com/JaneliaSciComp/worldarray/commit/89fd46c57de17a7adf2023b370cada61016c6cb9"
+    },
     {
       "commit_date": "2026-11-03T12:01:21.000+11:00",
       "author": "schienstockd",
@@ -29,10 +221,124 @@
       "commit_url": "https://github.com/schienstockd/cecelia/commit/754d9fc68599ba64a0424b272f807bf9f397b8ba"
     },
     {
+      "commit_date": "2026-11-03T11:56:54.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/14aa0c8219fba11184ec057768e88c52e7f6943e"
+    },
+    {
+      "commit_date": "2026-11-03T11:56:05.000-05:00",
+      "author": "allison-truhlar",
+      "repository": "BioImageTools/capability-manifest",
+      "commit_url": "https://github.com/BioImageTools/capability-manifest/commit/4a28112db7eb40a841e33bc1effb0e20f69c8166"
+    },
+    {
+      "commit_date": "2026-11-03T11:45:31.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/4c91156b9169b6710f3476839e5941e7a42d2890"
+    },
+    {
+      "commit_date": "2026-11-03T11:14:51.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/4ada991fd439d317894717d6b2dd7d19b146cbf2"
+    },
+    {
+      "commit_date": "2026-11-03T11:05:49.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/f4bee9ba715a1498363ea478884c0fc46bb72bac"
+    },
+    {
+      "commit_date": "2026-11-03T10:09:50.000-08:00",
+      "author": "uermel",
+      "repository": "czimaginginstitute/zarr-particle-tools",
+      "commit_url": "https://github.com/czimaginginstitute/zarr-particle-tools/commit/8fc41ce40d838f002c2ad19f697875a9317e64e4"
+    },
+    {
+      "commit_date": "2026-11-03T10:08:51.000-05:00",
+      "author": "claude",
+      "repository": "aqsnyder/scroll-label-snap",
+      "commit_url": "https://github.com/aqsnyder/scroll-label-snap/commit/65cd16746467cfb110992bd25fcd2d2f633be5a5"
+    },
+    {
+      "commit_date": "2026-11-03T08:57:30.000+01:00",
+      "author": "flevet",
+      "repository": "flevet/PoCA",
+      "commit_url": "https://github.com/flevet/PoCA/commit/85f0f2ccf207879bfd95d5d9fabb5e051bbf1b6f"
+    },
+    {
+      "commit_date": "2026-11-03T07:38:56.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/e0bb306605b57c01decc8f7ba6253d2b0a5cbead"
+    },
+    {
+      "commit_date": "2026-11-03T07:32:34.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/11162365391877190c44e836c20440e0abba9d0b"
+    },
+    {
+      "commit_date": "2026-11-03T06:58:32.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/6c8be5580b9f45de9c1c708a78ec19e9a8ce4a03"
+    },
+    {
+      "commit_date": "2026-11-03T06:29:49.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/7639e5c1aa20a121be35fe7f096e0e10396e7ac3"
+    },
+    {
+      "commit_date": "2026-11-03T06:16:48.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/23de0fa060e7fd90b344682a86603fcccda1a452"
+    },
+    {
+      "commit_date": "2026-11-03T02:37:41.000-05:00",
+      "author": "claude",
+      "repository": "aqsnyder/scroll-label-snap",
+      "commit_url": "https://github.com/aqsnyder/scroll-label-snap/commit/719c20a636990718be8cc4c392db994b38791f2a"
+    },
+    {
+      "commit_date": "2026-11-03T01:30:56.000-05:00",
+      "author": "claude",
+      "repository": "aqsnyder/scroll-label-snap",
+      "commit_url": "https://github.com/aqsnyder/scroll-label-snap/commit/c150b5c456f4bb459918a8a9d1d0fccf55ffec90"
+    },
+    {
       "commit_date": "2026-11-03T00:48:30.000+01:00",
       "author": "fedasevich",
       "repository": "fedasevich/parfocal",
       "commit_url": "https://github.com/fedasevich/parfocal/commit/3a45e60eab30098c937b3a8117e2eca6beac270e"
+    },
+    {
+      "commit_date": "2026-11-03T00:47:29.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/c98867e7475f28996a35bc213b54f76bfa3b3632"
+    },
+    {
+      "commit_date": "2026-11-03T00:38:14.000-05:00",
+      "author": "thewtex",
+      "repository": "InsightSoftwareConsortium/OMEZarrOpenSciVisDatasets",
+      "commit_url": "https://github.com/InsightSoftwareConsortium/OMEZarrOpenSciVisDatasets/commit/3f8847c2d84befdd13eb7671338f0d68797e84d9"
+    },
+    {
+      "commit_date": "2026-11-03T00:26:36.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/d1a62da3e87a9fd2045881aa75da62e9e603d557"
+    },
+    {
+      "commit_date": "2026-11-03T00:07:20.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/0920957e83709ed91cfa89087608c17d216429b4"
     },
     {
       "commit_date": "2026-11-02T23:53:46.000+01:00",
@@ -111,6 +417,12 @@
       "author": "lednicky-t",
       "repository": "lednicky-t/LSPR-Suite",
       "commit_url": "https://github.com/lednicky-t/LSPR-Suite/commit/1d0e40b801f6102ec146326d169f65f88c3d5476"
+    },
+    {
+      "commit_date": "2026-11-02T18:17:47.000-06:00",
+      "author": "Yenula-W",
+      "repository": "Yenula-W/microscopy-metadata-repair",
+      "commit_url": "https://github.com/Yenula-W/microscopy-metadata-repair/commit/820e38063b28ef6521134d3a5756b0c779215c2c"
     },
     {
       "commit_date": "2026-11-02T18:04:54.000Z",
