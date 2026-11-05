@@ -1,14 +1,128 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-04T01:21:11+00:00",
+  "generated": "2026-11-05T01:22:03+00:00",
   "recent_days": 10,
-  "total_commits": 2959,
+  "total_commits": 2978,
   "commits": [
+    {
+      "commit_date": "2026-11-05T00:13:16.000Z",
+      "author": "PTS-IT",
+      "repository": "pwrobinson70-netizen/vesuviusunet-pherc0139",
+      "commit_url": "https://github.com/pwrobinson70-netizen/vesuviusunet-pherc0139/commit/342d8360c524def7c61490e246201ddefb7d0a69"
+    },
+    {
+      "commit_date": "2026-11-04T21:13:23.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/e869785d207d67fa4c54c32bfff69401d2be6a0e"
+    },
+    {
+      "commit_date": "2026-11-04T18:22:00.000+01:00",
+      "author": "msschwartz21",
+      "repository": "live-image-tracking-tools/ctc-converter",
+      "commit_url": "https://github.com/live-image-tracking-tools/ctc-converter/commit/56ee7e367f6a89809ca779e8480aa30522ce8f3b"
+    },
+    {
+      "commit_date": "2026-11-04T17:09:44.000+01:00",
+      "author": "lazarusA",
+      "repository": "lazarusA/octant",
+      "commit_url": "https://github.com/lazarusA/octant/commit/dafb95a19c4413f4f4b9e0113ab2f984716e5b94"
+    },
+    {
+      "commit_date": "2026-11-04T16:59:39.000-06:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/qupath-extension-tiles-to-pyramid",
+      "commit_url": "https://github.com/uw-loci/qupath-extension-tiles-to-pyramid/commit/28b1ea1b119cb6979a6f315d2550f9e4df6de5c5"
+    },
+    {
+      "commit_date": "2026-11-04T16:40:10.000+01:00",
+      "author": "baigouy",
+      "repository": "baigouy/PyFigures",
+      "commit_url": "https://github.com/baigouy/PyFigures/commit/94e6b235e1220cce1eaeae26b6f01789a16dd733"
+    },
+    {
+      "commit_date": "2026-11-04T15:47:45.000+01:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/4004b8fd8403a9fb2034f45f8885eefd0aa5660f"
+    },
+    {
+      "commit_date": "2026-11-04T15:25:09.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/faa6ea980d3670c7869b79bf35a07db78cf96812"
+    },
+    {
+      "commit_date": "2026-11-04T15:18:28.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/34e85fafc6d65553c26567cdf667b4d1f53e296c"
+    },
+    {
+      "commit_date": "2026-11-04T15:01:59.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/4384a44cbdf766051e4c156793655c99ab18e5eb"
+    },
+    {
+      "commit_date": "2026-11-04T11:55:49.000+01:00",
+      "author": "gouttegd",
+      "repository": "ome/ngff-rfc8-revisions",
+      "commit_url": "https://github.com/ome/ngff-rfc8-revisions/commit/0dd2e05db8b18993725292e6c5dd0da6f51674fe"
+    },
+    {
+      "commit_date": "2026-11-04T10:52:37.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/edc37b93b32cfe7665c357c313e844db3012153f"
+    },
+    {
+      "commit_date": "2026-11-04T10:40:32.000-05:00",
+      "author": "allison-truhlar",
+      "repository": "JaneliaSciComp/fileglancer",
+      "commit_url": "https://github.com/JaneliaSciComp/fileglancer/commit/ea76a0058f9423b70aa2e28900d7e257736f7e72"
+    },
+    {
+      "commit_date": "2026-11-04T10:14:03.000+01:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/9dcbc4956e6e04679f3bf348d1450a0306668996"
+    },
+    {
+      "commit_date": "2026-11-04T10:09:07.000-05:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/13ecbe865dccaeb8026256a93001b14a16f6cee7"
+    },
     {
       "commit_date": "2026-11-04T09:41:00.000+11:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/fd94f5dc3d28e48dc4ef352e94bc6ff38b5ca00d"
+    },
+    {
+      "commit_date": "2026-11-04T07:05:33.000-05:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/647068b0b2a1817e88b6c838af99d7cc349515c4"
+    },
+    {
+      "commit_date": "2026-11-04T06:12:17.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/3328c3c10e13acf5f794e59239265adbd2b24ea8"
+    },
+    {
+      "commit_date": "2026-11-04T03:37:34.000-05:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/4bf56e771eca32b1365e83d701df076a2b980cf8"
+    },
+    {
+      "commit_date": "2026-11-04T01:14:59.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/76a28f663aad2a2d5d7a4a033f80e42845c7a510"
     },
     {
       "commit_date": "2026-11-04T00:52:21.000+01:00",
