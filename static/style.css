@@ -318,3 +318,9 @@ body {
 .languages-cell {
   white-space: nowrap;
 }
+
+#missing-note {
+  margin: 0 0 1rem;
+  color: #57606a;
+  font-size: 0.9em;
+}
