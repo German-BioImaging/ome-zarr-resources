@@ -31,6 +31,10 @@ MAINTAINED_TOPICS = [
 CORE_REPOS = ["ome/ngff", "ome/ngff-spec"]
 COMMITS_FILE = "commits/data.json"
 DISCOVERED_SECTION = "Discovered (OME-Zarr commits)"
+# Build and markup files say little about what a tool is written in.
+IGNORED_LANGUAGES = {"HTML", "CSS", "Shell", "Dockerfile", "Makefile", "Batchfile", "TeX"}
+SECOND_LANGUAGE_MIN_SHARE = 0.2
+MERGED_LANGUAGES = {"TypeScript": "JavaScript", "Svelte": "JavaScript"}
 
 
 def load_repos(path: str) -> Dict[str, str]:
@@ -74,7 +78,9 @@ def fetch_stars_and_topics(repos: List[str], session) -> Dict[str, dict]:
             owner, name = slug.split("/")
             parts.append(
                 f'r{i}: repository(owner:"{owner}",name:"{name}")'
-                "{ stargazerCount repositoryTopics(first:20){nodes{topic{name}}} }"
+                "{ stargazerCount repositoryTopics(first:20){nodes{topic{name}}} "
+                "languages(first:5,orderBy:{field:SIZE,direction:DESC})"
+                "{totalSize edges{size node{name}}} }"
             )
         resp = session.post(
             "https://api.github.com/graphql", json={"query": "{" + " ".join(parts) + "}"}
@@ -92,8 +98,24 @@ def fetch_stars_and_topics(repos: List[str], session) -> Dict[str, dict]:
                     n["topic"]["name"]
                     for n in (repo.get("repositoryTopics") or {}).get("nodes") or []
                 ],
+                "languages": top_languages(repo.get("languages") or {}),
             }
     return out
+
+
+def top_languages(languages: dict) -> List[str]:
+    """Main language, plus the runner-up if it is a real share of the code."""
+    total = languages.get("totalSize") or 0
+    sizes: Counter = Counter()
+    for edge in languages.get("edges") or []:
+        name = edge["node"]["name"]
+        if name not in IGNORED_LANGUAGES:
+            sizes[MERGED_LANGUAGES.get(name, name)] += edge["size"]
+    return [
+        name
+        for i, (name, size) in enumerate(sizes.most_common(2))
+        if i == 0 or size > SECOND_LANGUAGE_MIN_SHARE * total
+    ]
 
 
 def tags_for(slug: str, topics: List[str]) -> List[str]:
@@ -110,6 +132,7 @@ def select(info: Dict[str, dict], target: int = TARGET) -> List[dict]:
             "repo": slug,
             "stars": d["stars"],
             "tags": tags_for(slug, d["topics"]),
+            "languages": d.get("languages", []),
             "section": d.get("section", "Other"),
         }
         for slug, d in info.items()
@@ -148,6 +171,16 @@ def demo() -> None:
     assert select(info, target=1)[0]["repo"] in ("ome/quiet", "x/tagged")
     assert len(select(info, target=1)) == 2, "unconditional keeps may exceed target"
     assert tags_for("ome/ngff", []) == ["Core"]
+
+    def langs(**sizes):
+        edges = [{"size": v, "node": {"name": k}} for k, v in sizes.items()]
+        return {"totalSize": sum(sizes.values()), "edges": edges}
+
+    assert top_languages(langs(HTML=70, Python=10, Rust=20)) == ["Rust"], "20% is not enough"
+    assert top_languages(langs(Python=79, Rust=21)) == ["Python", "Rust"]
+    assert top_languages(langs(Python=50, TypeScript=30, Svelte=30)) == ["JavaScript", "Python"]
+    assert top_languages(langs(Shell=5)) == []
+    assert top_languages({}) == []
     print("ok")
 
 
@@ -219,6 +252,7 @@ def main() -> None:
                 "stars": d["stars"],
                 "tags": tags_for(slug, d["topics"]),
                 "topics": d["topics"],
+                "languages": d["languages"],
                 "section": d["section"],
                 "selected": slug in selected_slugs,
             }
