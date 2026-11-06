@@ -18,11 +18,13 @@
     <div id="error" class="error-note" style="display:none;"></div>
     <div id="view-switch">
       <button type="button" data-view="tags" class="active">By topic</button>
+      <button type="button" data-view="languages">By language</button>
       <button type="button" data-view="all">All repos</button>
       <button type="button" data-view="manual">Manual sections</button>
       <button type="button" data-view="pool" id="pool-btn"
         title="Only the selected repos get the daily deep scan (commits, releases, CI); the rest of the pool is refreshed weekly with star counts only.">Full pool</button>
     </div>
+    <p id="missing-note">Is your project missing here? Add an <code>ome-zarr</code> topic to it on GitHub.</p>
     <div id="sections">
       <div class="section-card">
         <p class="meta-cell">Loading dashboard...</p>
@@ -48,6 +50,7 @@
       const headers = [
         { text: 'Owner' },
         { text: 'Name' },
+        { text: '💻', title: 'Main languages' },
         { text: '⭐', title: 'Stargazers' },
         { text: '📬', title: 'Open issues + PRs' },
         { text: '🚀', title: 'Created' },
@@ -380,6 +383,40 @@
         return td;
       }
 
+      const LANGUAGE_EMOJIS = {
+        'Python': '🐍',
+        'JavaScript': '🟨',
+        'Jupyter Notebook': '📓',
+        'Java': '☕',
+        'Rust': '🦀',
+        'R': '📊',
+        'C++': '⚙️',
+        'C': '🔧',
+        'Nextflow': '🌊',
+        'Groovy': '🐘',
+        'MATLAB': '🧮',
+        'Julia': '🟣',
+      };
+      const MINOR_LANGUAGE_EMOJI = '🔹';
+
+      function createLanguagesCell(languages) {
+        const names = languages || [];
+        const td = document.createElement('td');
+        td.className = 'languages-cell';
+        // Not normalizeSortValue: that one is numeric, this column sorts by name.
+        td.dataset.order = names.join(' ');
+        if (!names.length) td.appendChild(emptyMarker());
+        names.forEach(name => {
+          const icon = document.createElement('span');
+          icon.textContent = LANGUAGE_EMOJIS[name] || MINOR_LANGUAGE_EMOJI;
+          icon.title = name;
+          icon.setAttribute('role', 'img');
+          icon.setAttribute('aria-label', name);
+          td.appendChild(icon);
+        });
+        return td;
+      }
+
       function createTopicsCell(topics) {
         const td = document.createElement('td');
         td.className = 'topics-cell';
@@ -412,6 +449,7 @@
         const tr = document.createElement('tr');
         tr.appendChild(createOwnerCell(pkg));
         tr.appendChild(createNameCell(pkg));
+        tr.appendChild(createLanguagesCell(pkg.languages));
         tr.appendChild(createTextCell(formatNumber(repoInfo.stargazers_count), 'meta-cell', Number(repoInfo.stargazers_count)));
         tr.appendChild(createTextCell(repoInfo.open_issues, 'meta-cell', Number(repoInfo.open_issues)));
         tr.appendChild(createTextCell(formatYear(repoInfo.created_at), 'meta-cell', Date.parse(repoInfo.created_at || '')));
@@ -452,7 +490,7 @@
         table.className = 'repo-table';
         const thead = document.createElement('thead');
         const tr = document.createElement('tr');
-        ['Owner', 'Name', '⭐', '🏷️ Topics', 'Section', 'Tracked daily'].forEach(text => {
+        ['Owner', 'Name', '💻', '⭐', '🏷️ Topics', 'Section', 'Tracked daily'].forEach(text => {
           const th = document.createElement('th');
           th.textContent = text;
           tr.appendChild(th);
@@ -472,6 +510,7 @@
           link.textContent = name;
           nameCell.appendChild(link);
           row.appendChild(nameCell);
+          row.appendChild(createLanguagesCell(pkg.languages));
           row.appendChild(createTextCell(pkg.stars, 'meta-cell', Number(pkg.stars)));
           row.appendChild(createTopicsCell(pkg.topics));
           row.appendChild(createTextCell(pkg.section));
@@ -490,9 +529,9 @@
         note.className = 'meta-cell';
         note.textContent = 'Every repo in the pool, stars only, refreshed weekly. '
           + 'The ✅ ones also get the daily deep scan (commits, releases, CI) — '
-          + 'that scan costs ~5 API calls per repo, so it is capped at the 100 '
-          + 'most relevant: all ome/* repos, all repos carrying a tracked tag, '
-          + 'then the most-starred.';
+          + 'that scan costs ~5 API calls per repo, so it covers only '
+          + 'the most relevant: all ome/* repos, all repos carrying a tracked tag, '
+          + 'and the 100 most-starred others, up to 200 in total.';
         sectionsEl.appendChild(note);
         if (!poolPackages) {
           poolPackages = (await fetchYaml('pool.yml')).packages || [];
@@ -617,6 +656,13 @@
         sectionsEl.innerHTML = '';
         if (view === 'tags') {
           renderGroups(TAG_ORDER, (p, tag) => (p.tags || []).includes(tag), packages);
+        } else if (view === 'languages') {
+          const counts = {};
+          packages.forEach(p => (p.languages || []).forEach(lang => {
+            counts[lang] = (counts[lang] || 0) + 1;
+          }));
+          const names = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+          renderGroups(names, (p, lang) => (p.languages || []).includes(lang), packages);
         } else if (view === 'manual') {
           const names = [];
           packages.forEach(p => {
