@@ -528,9 +528,9 @@
         note.className = 'meta-cell';
         note.textContent = 'Every repo in the pool, stars only, refreshed weekly. '
           + 'The ✅ ones also get the daily deep scan (commits, releases, CI) — '
-          + 'that scan costs ~5 API calls per repo, so it is capped at the 100 '
-          + 'most relevant: all ome/* repos, all repos carrying a tracked tag, '
-          + 'then the most-starred.';
+          + 'that scan costs ~5 API calls per repo, so it covers only '
+          + 'the most relevant: all ome/* repos, all repos carrying a tracked tag, '
+          + 'and the 100 most-starred others, up to 200 in total.';
         sectionsEl.appendChild(note);
         if (!poolPackages) {
           poolPackages = (await fetchYaml('pool.yml')).packages || [];

@@ -20,7 +20,8 @@ import requests
 from tqdm import tqdm
 from yaml import dump, safe_load
 
-TARGET = 100
+TOP_BY_STARS = 100
+MAX_SELECTED = 200
 MAINTAINED_TOPICS = [
     "ome-zarr-converter",
     "ome-zarr-viewer",
@@ -55,7 +56,7 @@ def discovered_repos(path: str = COMMITS_FILE) -> Dict[str, str]:
 
     The feed (commits/fetch.py, refreshed daily) already archives every repo with
     an OME-Zarr commit, so the pool can grow on its own: new repos only cost the
-    weekly stars query, and the daily deep scan is still capped at TARGET.
+    weekly stars query, and the daily deep scan is still capped at MAX_SELECTED.
     """
     if not Path(path).exists():
         return {}
@@ -124,9 +125,11 @@ def tags_for(slug: str, topics: List[str]) -> List[str]:
     return tags
 
 
-def select(info: Dict[str, dict], target: int = TARGET) -> List[dict]:
-    """ome/* and maintained-topic repos are kept unconditionally; the rest of the
-    slots go to the most-starred. May exceed `target` if the keeps alone do."""
+def select(
+    info: Dict[str, dict], top: int = TOP_BY_STARS, cap: int = MAX_SELECTED
+) -> List[dict]:
+    """ome/* and maintained-topic repos are kept unconditionally; the
+    `top` most-starred others join them, up to `cap`. The keeps alone may exceed it."""
     packages = [
         {
             "repo": slug,
@@ -141,7 +144,7 @@ def select(info: Dict[str, dict], target: int = TARGET) -> List[dict]:
     kept = [p for p in packages if p["repo"].startswith("ome/") or p["tags"]]
     kept_slugs = {p["repo"] for p in kept}
     rest = [p for p in packages if p["repo"] not in kept_slugs]
-    return kept + rest[: max(0, target - len(kept))]
+    return kept + rest[: min(top, max(0, cap - len(kept)))]
 
 
 def demo() -> None:
@@ -166,10 +169,10 @@ def demo() -> None:
         "x/popular": {"stars": 999, "topics": []},
         "x/meh": {"stars": 5, "topics": []},
     }
-    picked = {p["repo"] for p in select(info, target=3)}
+    picked = {p["repo"] for p in select(info, top=1)}
     assert picked == {"ome/quiet", "x/tagged", "x/popular"}, picked
-    assert select(info, target=1)[0]["repo"] in ("ome/quiet", "x/tagged")
-    assert len(select(info, target=1)) == 2, "unconditional keeps may exceed target"
+    assert len(select(info, top=5, cap=3)) == 3, "cap limits the top-by-stars"
+    assert len(select(info, cap=1)) == 2, "unconditional keeps may exceed cap"
     assert tags_for("ome/ngff", []) == ["Core"]
 
     def langs(**sizes):
