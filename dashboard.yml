@@ -9,6 +9,7 @@
 - name: Zarr viewers
 
   packages:
+    - repo: mobie/mobie-viewer-fiji
     - repo: mobie/mobie
     - repo: saalfeldlab/n5-ij
     - repo: BioImageTools/ome-zarr-fiji-java
@@ -47,6 +48,7 @@
 
 - name: Zarr readers & writers
   packages:
+    - repo: zarr-developers/zarr-java
     - repo: PolusAI/bfio
     - repo: BioImage-Archive/bia-zarr
     - repo: ome/bioformats
@@ -103,7 +105,6 @@
 - name: Extended metadata frameworks
   packages:
     - repo: clbarnes/zarr-convention-thumbnails
-    - repo: researchobject/ro-crate
     - repo: mlcommons/BioCroissant
 
 - name: Other tools (to curate)

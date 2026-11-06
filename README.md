@@ -10,13 +10,12 @@ Two runs, two costs:
 | status scan | daily 06:00 UTC | `make_status.py` | `selected.yml` | `generated.yml` |
 
 `pick_top.py` is cheap (stars + topics, batched GraphQL, ~4 requests for the whole
-pool). It picks ~100 repos: every `ome/*` repo and every repo tagged
+pool). It picks up to 200 repos: every `ome/*` repo and every repo tagged
 `ome-zarr`, `ome-zarr-converter`, `ome-zarr-viewer`, `ome-zarr-writer` or
-`ome-zarr-reader` is kept unconditionally, the rest of the slots go to the
-most-starred.
+`ome-zarr-reader` is kept unconditionally, plus the 100 most-starred others.
 
 `make_status.py` is expensive (~5 API calls per repo: commits, releases, workflows),
-so it only runs over those ~100.
+so it only runs over those.
 
 `index.html` reads `generated.yml` and offers four views: all repos, grouped by tag
 (`Core` = `ome/ngff` + `ome/ngff-spec`; a repo shows up in every tag it carries), or
