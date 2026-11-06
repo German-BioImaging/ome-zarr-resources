@@ -10,6 +10,8 @@
     - repo: fmi-faim/mozarrt
     - repo: mittoalb/ccfalign
     - repo: ScilifelabDataCentre/RDM-guidelines
+    - repo: researchobject/ro-crate
+    - repo: vortx-ai/emem
 
 - name: Somewhat OME-Zarr perhaps, just skip for now
   packages:
