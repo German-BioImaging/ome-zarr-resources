@@ -1,14 +1,164 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-06T01:22:04+00:00",
+  "generated": "2026-11-07T01:21:27+00:00",
   "recent_days": 10,
-  "total_commits": 3026,
+  "total_commits": 3051,
   "commits": [
+    {
+      "commit_date": "2026-11-07T09:42:05.000+11:00",
+      "author": "stebo85",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/832788777dc93155bb633326ff5754122b22adff"
+    },
+    {
+      "commit_date": "2026-11-07T05:00:01.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/aae6f42ff1edbe9ccd7189194fc5cfc2ad50a89a"
+    },
+    {
+      "commit_date": "2026-11-07T04:08:39.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/d032b8d7d7d1a05aed9e78e4492124d9f6956e47"
+    },
+    {
+      "commit_date": "2026-11-06T20:41:58.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/0972e6117b91b6a7bc5a59242f4a87c52740845f"
+    },
+    {
+      "commit_date": "2026-11-06T18:08:02.000+02:00",
+      "author": "guijacquemet",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/16fa29c4dc72f80a148c855156c9f2a8cf3c7a2b"
+    },
+    {
+      "commit_date": "2026-11-06T17:16:36.000+01:00",
+      "author": "konstibob",
+      "repository": "zarr-developers/zarr-java",
+      "commit_url": "https://github.com/zarr-developers/zarr-java/commit/bc37568ed4e12da77a0c8e406a54e6c03273823f"
+    },
+    {
+      "commit_date": "2026-11-06T17:05:38.000+01:00",
+      "author": "konstibob",
+      "repository": "zarr-developers/zarr-java",
+      "commit_url": "https://github.com/zarr-developers/zarr-java/commit/a69f2e80f2d7b6e815371b98b959b871e3ef77d3"
+    },
+    {
+      "commit_date": "2026-11-06T16:52:55.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/ffc69cb126b079b284910e2760b5b5879e199708"
+    },
+    {
+      "commit_date": "2026-11-06T16:47:38.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/07497b41c4d7312cf5e7a9c2494734393504fc87"
+    },
+    {
+      "commit_date": "2026-11-06T16:47:14.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/20f53d48415c9e807e4e32680e5412ba14199f4d"
+    },
+    {
+      "commit_date": "2026-11-06T16:41:49.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/f09bc2d6427db68cc7c198ff5b26e06c2d26ddc9"
+    },
+    {
+      "commit_date": "2026-11-06T16:04:47.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/75effe7b5213e541ac06eec3054e51e58df52e81"
+    },
+    {
+      "commit_date": "2026-11-06T14:47:22.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/e3098dd32b223700eb0f0839577a1492eb09c2ff"
+    },
+    {
+      "commit_date": "2026-11-06T14:03:09.000Z",
+      "author": "PolarBean",
+      "repository": "PolarBean/brainglobe-search",
+      "commit_url": "https://github.com/PolarBean/brainglobe-search/commit/fa13bfa92d48b7b753c8cd52228be65e2a5a1778"
+    },
+    {
+      "commit_date": "2026-11-06T13:40:30.000+01:00",
+      "author": "tischi",
+      "repository": "mobie/mobie.github.io",
+      "commit_url": "https://github.com/mobie/mobie.github.io/commit/115af15714dc0b1c6c5071cee13e138b8a8ae4c2"
+    },
+    {
+      "commit_date": "2026-11-06T13:13:42.000+01:00",
+      "author": "krokicki",
+      "repository": "BioImageTools/ome-zarr-skills",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-skills/commit/225b93fb699a2700b7e921108dc429f8810b1b0c"
+    },
+    {
+      "commit_date": "2026-11-06T12:11:50.000+01:00",
+      "author": "BioinfoTongLI",
+      "repository": "BioImageTools/ome-zarr-skills",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-skills/commit/d524d60305fb4bb8bdfc86ca6428c421dd76fc16"
+    },
+    {
+      "commit_date": "2026-11-06T11:50:10.000+01:00",
+      "author": "itallix",
+      "repository": "itallix/ome_render",
+      "commit_url": "https://github.com/itallix/ome_render/commit/1c290cc33c91e459030aa5462bc4cc67040367d0"
+    },
     {
       "commit_date": "2026-11-06T11:41:12.000+11:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/f771d83dbe12a449cd90350edd91475086d09670"
+    },
+    {
+      "commit_date": "2026-11-06T10:23:07.000+01:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/ome-zarr-registration-tutorial",
+      "commit_url": "https://github.com/fideus-labs/ome-zarr-registration-tutorial/commit/8a50f29c27205b659118959bd7f96a15756e6849"
+    },
+    {
+      "commit_date": "2026-11-06T09:31:26.000+01:00",
+      "author": "grinic",
+      "repository": "embl-mif/nf-modules",
+      "commit_url": "https://github.com/embl-mif/nf-modules/commit/310ea86416329fdf0ab88f24741b9b59ce247994"
+    },
+    {
+      "commit_date": "2026-11-06T09:07:57.000+01:00",
+      "author": "grinic",
+      "repository": "embl-mif/zarrsmith",
+      "commit_url": "https://github.com/embl-mif/zarrsmith/commit/0ad3278577cd8836f7ee164fb04d50d55ec074df"
+    },
+    {
+      "commit_date": "2026-11-06T08:58:36.000+01:00",
+      "author": "grinic",
+      "repository": "embl-mif/zarrsmith",
+      "commit_url": "https://github.com/embl-mif/zarrsmith/commit/c1333742c54d461222e9530b983f993fcee1e154"
+    },
+    {
+      "commit_date": "2026-11-06T08:38:41.000-05:00",
+      "author": "krokicki",
+      "repository": "BioImageTools/capability-manifest",
+      "commit_url": "https://github.com/BioImageTools/capability-manifest/commit/63158ade69bae62815e2151731d7dfd799634626"
+    },
+    {
+      "commit_date": "2026-11-06T08:10:08.000-05:00",
+      "author": "krokicki",
+      "repository": "BioImageTools/capability-manifest",
+      "commit_url": "https://github.com/BioImageTools/capability-manifest/commit/8be5349ca92b0d0f757055ba1b6e5a166b57206e"
+    },
+    {
+      "commit_date": "2026-11-06T06:21:16.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/4fe7fe42055d83ee010492dc064c328ad9ed088a"
     },
     {
       "commit_date": "2026-11-06T00:02:19.000+09:00",
