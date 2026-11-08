@@ -1,14 +1,110 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-07T01:21:27+00:00",
+  "generated": "2026-11-08T01:21:29+00:00",
   "recent_days": 10,
-  "total_commits": 3051,
+  "total_commits": 3072,
   "commits": [
+    {
+      "commit_date": "2026-11-08T03:08:30.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/20dff99c9e2d2feefbd4b8370b81218499f5bb45"
+    },
+    {
+      "commit_date": "2026-11-07T22:23:32.000+01:00",
+      "author": "bugraoezdemir",
+      "repository": "Euro-BioImaging/ome_zarr_pyramid",
+      "commit_url": "https://github.com/Euro-BioImaging/ome_zarr_pyramid/commit/bd1438d6acff811b752191f1ba56de4aefadea85"
+    },
+    {
+      "commit_date": "2026-11-07T19:57:32.000+01:00",
+      "author": "Bugra Oezdemir",
+      "repository": "Euro-BioImaging/EuBI-Bridge",
+      "commit_url": "https://github.com/Euro-BioImaging/EuBI-Bridge/commit/3f913808d819e7053d9abff4df7d614c91109630"
+    },
+    {
+      "commit_date": "2026-11-07T19:57:07.000+01:00",
+      "author": "Bugra Oezdemir",
+      "repository": "Euro-BioImaging/ome_zarr_pyramid",
+      "commit_url": "https://github.com/Euro-BioImaging/ome_zarr_pyramid/commit/31b2c01302a4e92503dd236dbe7d98c235656159"
+    },
+    {
+      "commit_date": "2026-11-07T19:19:06.000-05:00",
+      "author": "davidackerman",
+      "repository": "davidackerman/coresample",
+      "commit_url": "https://github.com/davidackerman/coresample/commit/f9a9b13042e4ab9474055972f7f5328582ab04ab"
+    },
+    {
+      "commit_date": "2026-11-07T18:33:08.000-05:00",
+      "author": "davidackerman",
+      "repository": "davidackerman/coresample",
+      "commit_url": "https://github.com/davidackerman/coresample/commit/144bf99975d3030aa26651d85432b1583ad0e31b"
+    },
+    {
+      "commit_date": "2026-11-07T17:23:08.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/fb0f2db2e942f24376a5810065d7b240643bc48f"
+    },
+    {
+      "commit_date": "2026-11-07T12:50:46.000+01:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/ee095aebb8401f510a614e0fee6dc5ab3f9e3934"
+    },
+    {
+      "commit_date": "2026-11-07T10:41:33.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/ae4201b957bce5b8d0f738ea896f8019548089d7"
+    },
     {
       "commit_date": "2026-11-07T09:42:05.000+11:00",
       "author": "stebo85",
       "repository": "neurodesk/webapps",
       "commit_url": "https://github.com/neurodesk/webapps/commit/832788777dc93155bb633326ff5754122b22adff"
+    },
+    {
+      "commit_date": "2026-11-07T08:40:49.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/82deda524b68f4822876f47329422aa01026ab6f"
+    },
+    {
+      "commit_date": "2026-11-07T08:17:27.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/4dacf4eecbb2e52be54f2ea4719c36f3bc55994d"
+    },
+    {
+      "commit_date": "2026-11-07T08:15:01.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/da4a8c661f1a6e23221e2025bfd9f36a45cc9cce"
+    },
+    {
+      "commit_date": "2026-11-07T08:01:09.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/cea369410d5fe1679b8533ed969cb3fb4440f506"
+    },
+    {
+      "commit_date": "2026-11-07T07:53:09.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/ba22659fc787d17dc0ef01719915ec0936cfeb2f"
+    },
+    {
+      "commit_date": "2026-11-07T05:20:37.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/afcb5446b3f4cbc01b5fd617f972e75f95b0da6b"
+    },
+    {
+      "commit_date": "2026-11-07T05:16:15.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/1a3d1ac73e2c100fce701311b91688f778cb0375"
     },
     {
       "commit_date": "2026-11-07T05:00:01.000+08:00",
@@ -23,10 +119,40 @@
       "commit_url": "https://github.com/formetaohy/Grana/commit/d032b8d7d7d1a05aed9e78e4492124d9f6956e47"
     },
     {
+      "commit_date": "2026-11-07T02:23:59.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/efe1a339e7c356253eb64d7c55a186ea5f67a094"
+    },
+    {
+      "commit_date": "2026-11-07T02:14:18.000-06:00",
+      "author": "bscott",
+      "repository": "bscott711/bioimaging",
+      "commit_url": "https://github.com/bscott711/bioimaging/commit/5415291a663f178bdc29491fc84dd5676ce9cfeb"
+    },
+    {
+      "commit_date": "2026-11-07T01:52:36.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/b0f41a2715f09d774e766cd4f7c07073878339b6"
+    },
+    {
+      "commit_date": "2026-11-06T21:32:15.000-05:00",
+      "author": "cgoina",
+      "repository": "JaneliaSciComp/zarr-tools",
+      "commit_url": "https://github.com/JaneliaSciComp/zarr-tools/commit/1f4a4d69e3a1d78c76fb66933ee0378c95d2489a"
+    },
+    {
       "commit_date": "2026-11-06T20:41:58.000+11:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/0972e6117b91b6a7bc5a59242f4a87c52740845f"
+    },
+    {
+      "commit_date": "2026-11-06T19:59:30.000-07:00",
+      "author": "bscott711",
+      "repository": "bscott711/opym",
+      "commit_url": "https://github.com/bscott711/opym/commit/67372ecce0a1caf431764361f87e0c9b2adda551"
     },
     {
       "commit_date": "2026-11-06T18:08:02.000+02:00",
