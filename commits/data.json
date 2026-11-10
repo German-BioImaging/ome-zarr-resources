@@ -1,9 +1,207 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-09T01:21:55+00:00",
+  "generated": "2026-11-10T01:21:32+00:00",
   "recent_days": 10,
-  "total_commits": 3101,
+  "total_commits": 3136,
   "commits": [
+    {
+      "commit_date": "2026-11-09T23:05:50.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/b1dd45c56668a959b7b9bfb60ee88d663336acb0"
+    },
+    {
+      "commit_date": "2026-11-09T23:04:56.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/9185130d5c7fba23373277c52e781490b1ad63e2"
+    },
+    {
+      "commit_date": "2026-11-09T21:37:22.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/6a7e08bcc1c2ddefd658aac41260ced459ab00e5"
+    },
+    {
+      "commit_date": "2026-11-09T21:15:57.000+01:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/ome-zarr-models-feedstock",
+      "commit_url": "https://github.com/conda-forge/ome-zarr-models-feedstock/commit/2a8a03023369774cae2f276974b1a05040114165"
+    },
+    {
+      "commit_date": "2026-11-09T20:39:46.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-pr_info/commit/49579420e68b6ccf03430971477800a3eb977fd7"
+    },
+    {
+      "commit_date": "2026-11-09T20:18:15.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-node_attrs",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-node_attrs/commit/ed185732b044fd8573ae481bcdd69d2d82bc5efe"
+    },
+    {
+      "commit_date": "2026-11-09T20:16:09.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/bff0797ec4239b57d8beba13c5a5f99a4107802f"
+    },
+    {
+      "commit_date": "2026-11-09T19:21:58.000+01:00",
+      "author": "m-albert",
+      "repository": "m-albert/fractal-ome-zarr-hcs-stitching",
+      "commit_url": "https://github.com/m-albert/fractal-ome-zarr-hcs-stitching/commit/e9f7fd1f062532495560c6523043a45b29306887"
+    },
+    {
+      "commit_date": "2026-11-09T17:42:18.000-05:00",
+      "author": "davidackerman",
+      "repository": "davidackerman/coresample",
+      "commit_url": "https://github.com/davidackerman/coresample/commit/d0f35ca31c0829e7255cd89c2eaea3b3a1056496"
+    },
+    {
+      "commit_date": "2026-11-09T17:26:51.000Z",
+      "author": "pmh47",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/c3d9da6fe42c3bb46fd2603ca060845d843296c3"
+    },
+    {
+      "commit_date": "2026-11-09T17:14:16.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/f0c1b3198cb48d9ac8569ac4ee457699a95975f0"
+    },
+    {
+      "commit_date": "2026-11-09T16:54:00.000-05:00",
+      "author": "davidackerman",
+      "repository": "davidackerman/coresample",
+      "commit_url": "https://github.com/davidackerman/coresample/commit/ad2fb7c2b9a650ec26ca88c0a00f380c97f8336f"
+    },
+    {
+      "commit_date": "2026-11-09T16:44:35.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/45468bab296ed38a616a352a4e4945a2434d2d9b"
+    },
+    {
+      "commit_date": "2026-11-09T16:34:19.000-05:00",
+      "author": "davidackerman",
+      "repository": "davidackerman/coresample",
+      "commit_url": "https://github.com/davidackerman/coresample/commit/075acaac837aa2480ff8626fcaa92e122f4cc402"
+    },
+    {
+      "commit_date": "2026-11-09T16:22:27.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-pr_info/commit/241c9d6b85ddfb18e3486d8d9bdf73b6903865a5"
+    },
+    {
+      "commit_date": "2026-11-09T15:50:47.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-version_pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-version_pr_info/commit/51de61e3b0e62f8ca6b852a223dc6f043eaf54b9"
+    },
+    {
+      "commit_date": "2026-11-09T15:48:10.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/fafdfaa1aadcd862258ae12572e265aa4f980be0"
+    },
+    {
+      "commit_date": "2026-11-09T14:58:40.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/96cc2ea82e488f71f40a3f3559340974e840512e"
+    },
+    {
+      "commit_date": "2026-11-09T14:39:08.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-versions",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-versions/commit/d36059d7d62c2359b28e3f31abfc3e35f119850f"
+    },
+    {
+      "commit_date": "2026-11-09T14:24:32.000+01:00",
+      "author": "normanrz",
+      "repository": "ome/ngff-rfc8-revisions",
+      "commit_url": "https://github.com/ome/ngff-rfc8-revisions/commit/4701200da995c74d30cf68955b011eec9b58c447"
+    },
+    {
+      "commit_date": "2026-11-09T13:47:47.000+09:00",
+      "author": "WhoSia",
+      "repository": "WhoSia/EPISTEME",
+      "commit_url": "https://github.com/WhoSia/EPISTEME/commit/fd4c96e99ad69372e607f0f5cf664a660c603f50"
+    },
+    {
+      "commit_date": "2026-11-09T13:42:42.000+09:00",
+      "author": "WhoSia",
+      "repository": "WhoSia/EPISTEME",
+      "commit_url": "https://github.com/WhoSia/EPISTEME/commit/1f231359bd22a6b54fb318dff03f8ccc1b3c0589"
+    },
+    {
+      "commit_date": "2026-11-09T13:17:52.000+01:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/1e383ad55ed6925c25b3437b929c480df6767115"
+    },
+    {
+      "commit_date": "2026-11-09T12:24:39.000+01:00",
+      "author": "lettyz3",
+      "repository": "napari/napari",
+      "commit_url": "https://github.com/napari/napari/commit/930b751fe5f9ea01a1efd616974a43d62b3c0113"
+    },
+    {
+      "commit_date": "2026-11-09T11:54:26.000+01:00",
+      "author": "grinic",
+      "repository": "embl-mif/zarrsmith",
+      "commit_url": "https://github.com/embl-mif/zarrsmith/commit/723be11fbdee063084a190971dbdf745b2283da1"
+    },
+    {
+      "commit_date": "2026-11-09T11:45:26.000+01:00",
+      "author": "vboussot",
+      "repository": "fideus-labs/KonfAI",
+      "commit_url": "https://github.com/fideus-labs/KonfAI/commit/4f03a9c2b2377daf529990eb69774cdf1d3ad1c4"
+    },
+    {
+      "commit_date": "2026-11-09T11:44:38.000+01:00",
+      "author": "grinic",
+      "repository": "embl-mif/zarrsmith",
+      "commit_url": "https://github.com/embl-mif/zarrsmith/commit/32892c54914b0e557a148fec210c55a161912cd6"
+    },
+    {
+      "commit_date": "2026-11-09T11:29:15.000-05:00",
+      "author": "StephanPreibisch",
+      "repository": "JaneliaSciComp/BigStitcher-Spark",
+      "commit_url": "https://github.com/JaneliaSciComp/BigStitcher-Spark/commit/53ea5e940fba0b4d752cc057b56ae2baa62b73de"
+    },
+    {
+      "commit_date": "2026-11-09T11:23:49.000-05:00",
+      "author": "StephanPreibisch",
+      "repository": "JaneliaSciComp/BigStitcher-Spark",
+      "commit_url": "https://github.com/JaneliaSciComp/BigStitcher-Spark/commit/3fa7ec8d92293e3a32be21529d50e473fd30bcf0"
+    },
+    {
+      "commit_date": "2026-11-09T10:13:37.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/e46c021eafb4bb4b4bae04c50c58e7074ece5a31"
+    },
+    {
+      "commit_date": "2026-11-09T09:18:33.000+01:00",
+      "author": "arora-bharti",
+      "repository": "ome/ome-zarr-py",
+      "commit_url": "https://github.com/ome/ome-zarr-py/commit/9d4534a3c81b32fa616e79a899de805499a1ea90"
+    },
+    {
+      "commit_date": "2026-11-09T08:38:55.000+01:00",
+      "author": "weber8thomas",
+      "repository": "spectio-org/spectio",
+      "commit_url": "https://github.com/spectio-org/spectio/commit/cfa7d64d97d5294aa82f1295ed9a79c7509b6506"
+    },
+    {
+      "commit_date": "2026-11-09T06:09:38.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/75fc31762f85a616f6a68bdeb996d2c05f49a1a6"
+    },
     {
       "commit_date": "2026-11-08T22:55:53.000+01:00",
       "author": "vboussot",
@@ -21,6 +219,12 @@
       "author": "vboussot",
       "repository": "fideus-labs/KonfAI",
       "commit_url": "https://github.com/fideus-labs/KonfAI/commit/f3deaa6c4b2bf40fe7f44df5e48f9bfefc09d49a"
+    },
+    {
+      "commit_date": "2026-11-08T21:25:22.000-05:00",
+      "author": "davidackerman",
+      "repository": "davidackerman/coresample",
+      "commit_url": "https://github.com/davidackerman/coresample/commit/16e68f8ea4d3eedf02d789f78b9a4ed7d2edb34a"
     },
     {
       "commit_date": "2026-11-08T21:10:38.000+01:00",
@@ -75,6 +279,12 @@
       "author": "lazarusA",
       "repository": "lazarusA/octant",
       "commit_url": "https://github.com/lazarusA/octant/commit/2fe78679a1e0666cb3ef4382b65944f02dbc9354"
+    },
+    {
+      "commit_date": "2026-11-08T17:11:28.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/62b29fdb42dbcc2fb62a41d0c7be5ecfdc7f4591"
     },
     {
       "commit_date": "2026-11-08T15:51:55.000+11:00",
