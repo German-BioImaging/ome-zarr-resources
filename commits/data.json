@@ -1,9 +1,285 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-10T01:21:32+00:00",
+  "generated": "2026-11-11T01:21:51+00:00",
   "recent_days": 10,
-  "total_commits": 3136,
+  "total_commits": 3187,
   "commits": [
+    {
+      "commit_date": "2026-11-10T23:35:24.000+01:00",
+      "author": "jan-glx",
+      "repository": "scverse/spatialdata",
+      "commit_url": "https://github.com/scverse/spatialdata/commit/786864e7ecd00d1c9e98a748463adf1da29de882"
+    },
+    {
+      "commit_date": "2026-11-10T23:32:59.000Z",
+      "author": "NickCao",
+      "repository": "NixOS/nixpkgs",
+      "commit_url": "https://github.com/NixOS/nixpkgs/commit/d9658a9fb48fefb9cdaa9ff37176bec3a84e2db2"
+    },
+    {
+      "commit_date": "2026-11-10T22:21:43.000Z",
+      "author": "r-ryantm",
+      "repository": "NixOS/nixpkgs",
+      "commit_url": "https://github.com/NixOS/nixpkgs/commit/672cece2113c8062784af19ebc32c19bb5b76d6e"
+    },
+    {
+      "commit_date": "2026-11-10T21:24:10.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/b71ffc88209d8b688139901beccea4bf2bb15d11"
+    },
+    {
+      "commit_date": "2026-11-10T19:24:30.000+01:00",
+      "author": "weber8thomas",
+      "repository": "spectio-org/spectio",
+      "commit_url": "https://github.com/spectio-org/spectio/commit/9789b3a1f9b3fe39c73b01071fc879008380a7ca"
+    },
+    {
+      "commit_date": "2026-11-10T17:44:34.000+01:00",
+      "author": "ytsimon2004",
+      "repository": "ytsimon2004/regrender",
+      "commit_url": "https://github.com/ytsimon2004/regrender/commit/cc815d6f6458aa37f3c7aa226cce529ad3db04ca"
+    },
+    {
+      "commit_date": "2026-11-10T16:55:21.000+01:00",
+      "author": "grinic",
+      "repository": "embl-mif/nf-modules",
+      "commit_url": "https://github.com/embl-mif/nf-modules/commit/7c6c89b38f034e685b786ec689780393cfb5079d"
+    },
+    {
+      "commit_date": "2026-11-10T16:37:43.000+01:00",
+      "author": "weber8thomas",
+      "repository": "spectio-org/spectio",
+      "commit_url": "https://github.com/spectio-org/spectio/commit/ba7ada8f03d0e2a556f3879045c96fb59586c29b"
+    },
+    {
+      "commit_date": "2026-11-10T16:09:20.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/bee8d1f228f2ed4f2350cdf04fac5189cbf0718f"
+    },
+    {
+      "commit_date": "2026-11-10T15:52:48.000+01:00",
+      "author": "tlambert03",
+      "repository": "imaging-formats/yaozarrs",
+      "commit_url": "https://github.com/imaging-formats/yaozarrs/commit/6b07afb2a5ab274c15abaf802247d0ed982a939d"
+    },
+    {
+      "commit_date": "2026-11-10T15:39:01.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/dab729116352cf1f7331d6f7dec0b322b43f9560"
+    },
+    {
+      "commit_date": "2026-11-10T15:35:20.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/fb697edda49b11ac2aa442061893c9986c22a00c"
+    },
+    {
+      "commit_date": "2026-11-10T14:32:41.000+01:00",
+      "author": "bugraoezdemir",
+      "repository": "Euro-BioImaging/EuBI-Bridge",
+      "commit_url": "https://github.com/Euro-BioImaging/EuBI-Bridge/commit/5af70ad6001ce86fc94e019316b9b9001e42103b"
+    },
+    {
+      "commit_date": "2026-11-10T14:28:18.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/cf56260fac045e201db6253d6b9236f3293f8d4f"
+    },
+    {
+      "commit_date": "2026-11-10T14:18:27.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/f8d08917cd5ced40316db6ee9c4f2bcd2e898050"
+    },
+    {
+      "commit_date": "2026-11-10T14:17:08.000+01:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/bilayers-auto-container",
+      "commit_url": "https://github.com/NL-BioImaging/bilayers-auto-container/commit/da09404ae763a4673bf6833e9623816bce87f7c6"
+    },
+    {
+      "commit_date": "2026-11-10T14:15:28.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/ad7797a6da0c97acb40893f4a7114d9eaca643fb"
+    },
+    {
+      "commit_date": "2026-11-10T14:14:44.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/d5b633934172e65446e9f7e793a9fb1e8923eec5"
+    },
+    {
+      "commit_date": "2026-11-10T14:14:38.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/fab34ef347d5fa3717c4ad498897f356ea4670c5"
+    },
+    {
+      "commit_date": "2026-11-10T14:14:07.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/95f9fe3c213cb787b575fdf58c4c1120ab191706"
+    },
+    {
+      "commit_date": "2026-11-10T14:13:43.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/2dea4add8faaf5cf739672cf0d9f73ded1469cf3"
+    },
+    {
+      "commit_date": "2026-11-10T14:09:57.000-06:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/flamingo-stitcher",
+      "commit_url": "https://github.com/uw-loci/flamingo-stitcher/commit/0d2d17764fcea55a92512148d936a4f18eb0bf1b"
+    },
+    {
+      "commit_date": "2026-11-10T13:53:28.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/CellPatcher",
+      "commit_url": "https://github.com/CellMigrationLab/CellPatcher/commit/958a353beda23ca7727e3b13d16a865b91b76f67"
+    },
+    {
+      "commit_date": "2026-11-10T13:49:16.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/c9ab2f9a829268f435257f0677ec03798146a028"
+    },
+    {
+      "commit_date": "2026-11-10T13:48:43.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/2238ca698d09bba0ae9203e299713d55f1a9f6f2"
+    },
+    {
+      "commit_date": "2026-11-10T12:56:42.000+01:00",
+      "author": "lazarusA",
+      "repository": "lazarusA/octant",
+      "commit_url": "https://github.com/lazarusA/octant/commit/0a476ed3f79cb055baa06230f5540c6d480c7afe"
+    },
+    {
+      "commit_date": "2026-11-10T12:19:51.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/c97fc2838244a5b5d41e678592706e6ead6d24ac"
+    },
+    {
+      "commit_date": "2026-11-10T12:18:41.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/9bb75e0fd494507d9f07383c5dfd49fd8b1a781b"
+    },
+    {
+      "commit_date": "2026-11-10T12:09:25.000+10:00",
+      "author": "stebo85",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/bed79412e5ef21199416aa366573d7c05aace7be"
+    },
+    {
+      "commit_date": "2026-11-10T12:07:10.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/412e79262778db48d8ab35402e54d6665fbf0844"
+    },
+    {
+      "commit_date": "2026-11-10T11:46:23.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/f157352b903da40394a55395628e27d1484733c7"
+    },
+    {
+      "commit_date": "2026-11-10T11:38:08.000-06:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/flamingo-stitcher",
+      "commit_url": "https://github.com/uw-loci/flamingo-stitcher/commit/0264ed9254221c585cc3e926eedce10a3a366543"
+    },
+    {
+      "commit_date": "2026-11-10T11:28:38.000+01:00",
+      "author": "bugraoezdemir",
+      "repository": "Euro-BioImaging/ome_zarr_pyramid",
+      "commit_url": "https://github.com/Euro-BioImaging/ome_zarr_pyramid/commit/3a088fbedfee0acf57f40924c2b3abde7b1cdd2e"
+    },
+    {
+      "commit_date": "2026-11-10T11:20:49.000+01:00",
+      "author": "bugraoezdemir",
+      "repository": "Euro-BioImaging/ome_zarr_pyramid",
+      "commit_url": "https://github.com/Euro-BioImaging/ome_zarr_pyramid/commit/abc8418d08d6a60f7de12d133b218fe7d0ff97e1"
+    },
+    {
+      "commit_date": "2026-11-10T11:06:28.000Z",
+      "author": "sea-shunned",
+      "repository": "FrancisCrickInstitute/aiod_utils",
+      "commit_url": "https://github.com/FrancisCrickInstitute/aiod_utils/commit/07138d3550ec11be368fb497207760b5c24ca9f5"
+    },
+    {
+      "commit_date": "2026-11-10T11:01:53.000-06:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/qupath-extension-tiles-to-pyramid",
+      "commit_url": "https://github.com/uw-loci/qupath-extension-tiles-to-pyramid/commit/95512f1eef5905a56c80a87bcc6ee424b6827f37"
+    },
+    {
+      "commit_date": "2026-11-10T10:59:20.000+01:00",
+      "author": "bugraoezdemir",
+      "repository": "Euro-BioImaging/ome_zarr_pyramid",
+      "commit_url": "https://github.com/Euro-BioImaging/ome_zarr_pyramid/commit/08fae1bf24d63d02ec783a909bd984062e52766d"
+    },
+    {
+      "commit_date": "2026-11-10T10:46:15.000+01:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/0b8ce2a42c1f7dbec0e67ad58db0451d059d79a1"
+    },
+    {
+      "commit_date": "2026-11-10T09:08:39.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/98a9adbe3e22545d140409aa763cd180d6dea248"
+    },
+    {
+      "commit_date": "2026-11-10T08:58:26.000-05:00",
+      "author": "aaronkanzer",
+      "repository": "ome/ome-zarr-py",
+      "commit_url": "https://github.com/ome/ome-zarr-py/commit/742e91875933400e843d95669ac563f9dd849383"
+    },
+    {
+      "commit_date": "2026-11-10T08:16:38.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/80d6f9f304859b015bdcc6890f9d2d140a17280e"
+    },
+    {
+      "commit_date": "2026-11-10T03:36:28.000+01:00",
+      "author": "fedasevich",
+      "repository": "fedasevich/parfocal",
+      "commit_url": "https://github.com/fedasevich/parfocal/commit/9ac8ce65b03202ab6ee823811d21be34a2f67ef3"
+    },
+    {
+      "commit_date": "2026-11-10T02:18:04.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/6f899df38d8e157858fc8ec4112123316f70653d"
+    },
+    {
+      "commit_date": "2026-11-10T01:27:01.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/f8ce8eeddb488a31985a8d0dabecb2fb2b532f26"
+    },
+    {
+      "commit_date": "2026-11-09T23:24:44.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/fe57a13def589c50986dda502ded954efe674d9b"
+    },
+    {
+      "commit_date": "2026-11-09T23:20:22.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/2b5724c60811df8a6e186bb45da00fed6da86237"
+    },
     {
       "commit_date": "2026-11-09T23:05:50.000+08:00",
       "author": "formetaohy",
@@ -23,6 +299,12 @@
       "commit_url": "https://github.com/cellgeni/explorer/commit/6a7e08bcc1c2ddefd658aac41260ced459ab00e5"
     },
     {
+      "commit_date": "2026-11-09T21:27:13.000+01:00",
+      "author": "grinic",
+      "repository": "embl-mif/nf-modules",
+      "commit_url": "https://github.com/embl-mif/nf-modules/commit/bb55c5df5cd9f8ac7919d8739f6a2ac9ea35efef"
+    },
+    {
       "commit_date": "2026-11-09T21:15:57.000+01:00",
       "author": "regro-cf-autotick-bot",
       "repository": "conda-forge/ome-zarr-models-feedstock",
@@ -33,6 +315,12 @@
       "author": "conda-forge-bot-data-manager[bot]",
       "repository": "conda-forge/conda-forge-bot-data-pr_info",
       "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-pr_info/commit/49579420e68b6ccf03430971477800a3eb977fd7"
+    },
+    {
+      "commit_date": "2026-11-09T20:21:01.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/ff1922b0fc9c83cd5bfe5691b8d993764611258d"
     },
     {
       "commit_date": "2026-11-09T20:18:15.000Z",
@@ -59,10 +347,22 @@
       "commit_url": "https://github.com/davidackerman/coresample/commit/d0f35ca31c0829e7255cd89c2eaea3b3a1056496"
     },
     {
+      "commit_date": "2026-11-09T17:41:42.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/efb6b015129f179166af1e919c340d3381fe58dd"
+    },
+    {
       "commit_date": "2026-11-09T17:26:51.000Z",
       "author": "pmh47",
       "repository": "ScrollPrize/villa",
       "commit_url": "https://github.com/ScrollPrize/villa/commit/c3d9da6fe42c3bb46fd2603ca060845d843296c3"
+    },
+    {
+      "commit_date": "2026-11-09T17:22:10.000Z",
+      "author": "Andrew-Keenlyside",
+      "repository": "AllenInstitute/ngplatform",
+      "commit_url": "https://github.com/AllenInstitute/ngplatform/commit/ecddcd7224536f5f2d7605f04b974fd2f33f9351"
     },
     {
       "commit_date": "2026-11-09T17:14:16.000Z",
@@ -105,6 +405,12 @@
       "author": "formetaohy",
       "repository": "formetaohy/Grana",
       "commit_url": "https://github.com/formetaohy/Grana/commit/fafdfaa1aadcd862258ae12572e265aa4f980be0"
+    },
+    {
+      "commit_date": "2026-11-09T15:39:52.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/0bcded27756e01380a0fd83416bcc83d4c53836a"
     },
     {
       "commit_date": "2026-11-09T14:58:40.000+08:00",
