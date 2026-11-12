@@ -1,9 +1,159 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-11T01:21:51+00:00",
+  "generated": "2026-11-12T01:21:42+00:00",
   "recent_days": 10,
-  "total_commits": 3187,
+  "total_commits": 3215,
   "commits": [
+    {
+      "commit_date": "2026-11-12T11:11:09.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/163e7574a3b34f32f025a202892ff3be82ab0575"
+    },
+    {
+      "commit_date": "2026-11-12T11:01:59.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/1ab1b9e3a5775a7f0f92da2553e23052343a54aa"
+    },
+    {
+      "commit_date": "2026-11-12T10:01:48.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/ef25c4cc971add16268ae28b7b33c607df49632c"
+    },
+    {
+      "commit_date": "2026-11-11T20:01:33.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/b0fc10a0f53950ca3c88c37f512682a9710e5321"
+    },
+    {
+      "commit_date": "2026-11-11T17:26:57.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/cfb59aaad92c97e5714e183c5a44b40c30315f95"
+    },
+    {
+      "commit_date": "2026-11-11T16:21:43.000-05:00",
+      "author": "ianhi",
+      "repository": "earth-mover/minus-80",
+      "commit_url": "https://github.com/earth-mover/minus-80/commit/fd6e04f5dc626817eef2519c23dc5bd2cfc9be91"
+    },
+    {
+      "commit_date": "2026-11-11T16:00:06.000+01:00",
+      "author": "folterj",
+      "repository": "Cellular-Imaging-Amsterdam-UMC/bilayers_Measurements-CellProfiler",
+      "commit_url": "https://github.com/Cellular-Imaging-Amsterdam-UMC/bilayers_Measurements-CellProfiler/commit/a8ce2a648543043b6dacfbfc24e44f710ad61334"
+    },
+    {
+      "commit_date": "2026-11-11T15:37:45.000-05:00",
+      "author": "ianhi",
+      "repository": "earth-mover/minus-80",
+      "commit_url": "https://github.com/earth-mover/minus-80/commit/1e7a111cb3fe86cf9fc58ad1cbea3b2c57ef36cb"
+    },
+    {
+      "commit_date": "2026-11-11T15:21:51.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/c2724456b73b69fcb306f252a9e91796d7e673cc"
+    },
+    {
+      "commit_date": "2026-11-11T15:08:57.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/037a5d5fee50c43227a0251385df58d7c0680425"
+    },
+    {
+      "commit_date": "2026-11-11T14:17:43.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/39a3ef34b490b761dcf75e14bd7abc3315a92e40"
+    },
+    {
+      "commit_date": "2026-11-11T13:54:18.000+01:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/5859fb3b736ad6c1f7fbb028a869d899684c1f98"
+    },
+    {
+      "commit_date": "2026-11-11T12:53:09.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/c706daeec8516c5a797472a92d0f4ad68233fc61"
+    },
+    {
+      "commit_date": "2026-11-11T11:40:53.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/c4a26491ab89b7970d456da603d08d0827fa3ece"
+    },
+    {
+      "commit_date": "2026-11-11T11:03:32.000-05:00",
+      "author": "davidackerman",
+      "repository": "davidackerman/coresample",
+      "commit_url": "https://github.com/davidackerman/coresample/commit/4aec83191244e9b7766d654672ec04958b94c54f"
+    },
+    {
+      "commit_date": "2026-11-11T10:59:25.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/0f54154ad0bb2b3befe51f4b866a130530404f68"
+    },
+    {
+      "commit_date": "2026-11-11T10:19:55.000+01:00",
+      "author": "weber8thomas",
+      "repository": "spectio-org/spectio",
+      "commit_url": "https://github.com/spectio-org/spectio/commit/ac276bca71c1fa09e2295a1415778f3d2942a1ad"
+    },
+    {
+      "commit_date": "2026-11-11T10:10:34.000+01:00",
+      "author": "Steven Wohl",
+      "repository": "srwohl/tango-ucx-benchmarks",
+      "commit_url": "https://github.com/srwohl/tango-ucx-benchmarks/commit/dcbb0e28ba7ac74399280c4a5c31899dc76cc0d3"
+    },
+    {
+      "commit_date": "2026-11-11T09:59:48.000-05:00",
+      "author": "Joost Wagenaar",
+      "repository": "Pennsieve/pennsieve-app",
+      "commit_url": "https://github.com/Pennsieve/pennsieve-app/commit/7a26fe2fbc16a3162f21a7b24d2e735408b6f0e2"
+    },
+    {
+      "commit_date": "2026-11-11T09:23:54.000+01:00",
+      "author": "weber8thomas",
+      "repository": "spectio-org/spectio",
+      "commit_url": "https://github.com/spectio-org/spectio/commit/927c993df69df97840cfa9e38d6e22662475d3e3"
+    },
+    {
+      "commit_date": "2026-11-11T08:48:39.000+01:00",
+      "author": "weber8thomas",
+      "repository": "spectio-org/spectio",
+      "commit_url": "https://github.com/spectio-org/spectio/commit/ac4043591630634f428437a683683c16c705d917"
+    },
+    {
+      "commit_date": "2026-11-11T08:24:08.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/49d38ef99ee62c986d01c5e14d77c7fbc30dd12e"
+    },
+    {
+      "commit_date": "2026-11-11T07:29:04.000-05:00",
+      "author": "skyward7187",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/f0e441016900cb946bc3861025eca3a7cc2aae19"
+    },
+    {
+      "commit_date": "2026-11-11T06:33:47.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/8bec9073f6b32e87b70b1ccbd4232e3d42e3e2c2"
+    },
+    {
+      "commit_date": "2026-11-10T23:53:32.000-06:00",
+      "author": "grahamfindlay",
+      "repository": "CSC-UW/cnpix-local-sleep",
+      "commit_url": "https://github.com/CSC-UW/cnpix-local-sleep/commit/64d0635281629e9c99849fb371b0d43a05f3c2ca"
+    },
     {
       "commit_date": "2026-11-10T23:35:24.000+01:00",
       "author": "jan-glx",
@@ -15,6 +165,18 @@
       "author": "NickCao",
       "repository": "NixOS/nixpkgs",
       "commit_url": "https://github.com/NixOS/nixpkgs/commit/d9658a9fb48fefb9cdaa9ff37176bec3a84e2db2"
+    },
+    {
+      "commit_date": "2026-11-10T23:22:15.000-05:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/ec47464f75979d7ade733307eb2b482bd27fa09a"
+    },
+    {
+      "commit_date": "2026-11-10T23:09:44.000Z",
+      "author": "github-actions[bot]",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/4ea2143167495fcda2f38d8d3dd5ef1158b1b0f1"
     },
     {
       "commit_date": "2026-11-10T22:21:43.000Z",
@@ -51,6 +213,12 @@
       "author": "weber8thomas",
       "repository": "spectio-org/spectio",
       "commit_url": "https://github.com/spectio-org/spectio/commit/ba7ada8f03d0e2a556f3879045c96fb59586c29b"
+    },
+    {
+      "commit_date": "2026-11-10T16:30:40.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/a5ddc50bcb996634bbfb53d43c414ecc59eabd1f"
     },
     {
       "commit_date": "2026-11-10T16:09:20.000-05:00",
