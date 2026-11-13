@@ -1,9 +1,99 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-12T01:21:42+00:00",
+  "generated": "2026-11-13T01:21:30+00:00",
   "recent_days": 10,
-  "total_commits": 3215,
+  "total_commits": 3242,
   "commits": [
+    {
+      "commit_date": "2026-11-13T09:53:01.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/a90c5aa45e284a71e7cdecc1069ef233379ada80"
+    },
+    {
+      "commit_date": "2026-11-12T17:00:12.000+01:00",
+      "author": "TorecLuik",
+      "repository": "NL-BioImaging/BIOMERO.shallower",
+      "commit_url": "https://github.com/NL-BioImaging/BIOMERO.shallower/commit/642d17a39b09aceeb0cc25ee5dc080909298c4f7"
+    },
+    {
+      "commit_date": "2026-11-12T15:29:03.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/51c4b9bfc9141ef4a1d728c64aaecf8efc7738ca"
+    },
+    {
+      "commit_date": "2026-11-12T14:09:57.000-05:00",
+      "author": "akhanf",
+      "repository": "khanlab/SPIMquant",
+      "commit_url": "https://github.com/khanlab/SPIMquant/commit/c99c1efb817c3aaea1adfd27146b1ed2a1109f0e"
+    },
+    {
+      "commit_date": "2026-11-12T13:33:58.000+01:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/OMERO.biomero",
+      "commit_url": "https://github.com/NL-BioImaging/OMERO.biomero/commit/afebac40316f4d3e0f871c88bdc910ed98ab755e"
+    },
+    {
+      "commit_date": "2026-11-12T13:33:28.000+01:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/NL-BIOMERO",
+      "commit_url": "https://github.com/NL-BioImaging/NL-BIOMERO/commit/512a0e19382447e9cfe9473ad52eb2b27afb010c"
+    },
+    {
+      "commit_date": "2026-11-12T13:31:30.000Z",
+      "author": "itallix",
+      "repository": "open-edge-platform/geti",
+      "commit_url": "https://github.com/open-edge-platform/geti/commit/dd685fba180f138b36c66cc1580fec8c506c2508"
+    },
+    {
+      "commit_date": "2026-11-12T12:34:52.000-08:00",
+      "author": "warbol",
+      "repository": "focolab/vizi-website",
+      "commit_url": "https://github.com/focolab/vizi-website/commit/ed48f7a9be4efb888c1139e7937050559809cef0"
+    },
+    {
+      "commit_date": "2026-11-12T12:15:47.000-05:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/1f0504b01eb912c09ae59e170920fc40917a17aa"
+    },
+    {
+      "commit_date": "2026-11-12T12:13:29.000-05:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/ae6a4ec69f6ab8701034f6355a94a60a40ef0e26"
+    },
+    {
+      "commit_date": "2026-11-12T11:58:56.000+01:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/7750818a5f4681a7f7c83a35083ca8e7a2427801"
+    },
+    {
+      "commit_date": "2026-11-12T11:55:55.000+01:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/04019bf229cad7286f61c831fb31d8d206b9ac9b"
+    },
+    {
+      "commit_date": "2026-11-12T11:48:39.000-05:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/6d4d0434caa868406a42c016ac158a10df545198"
+    },
+    {
+      "commit_date": "2026-11-12T11:43:38.000-05:00",
+      "author": "akhanf",
+      "repository": "khanlab/zarrnii",
+      "commit_url": "https://github.com/khanlab/zarrnii/commit/e0c9f22a42e2920d6cf87054831568a3ccfb8ac4"
+    },
+    {
+      "commit_date": "2026-11-12T11:27:18.000+01:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/e4a045108ba42b1b3de5ccb3d153a1220e250181"
+    },
     {
       "commit_date": "2026-11-12T11:11:09.000+11:00",
       "author": "schienstockd",
@@ -17,10 +107,82 @@
       "commit_url": "https://github.com/schienstockd/cecelia/commit/1ab1b9e3a5775a7f0f92da2553e23052343a54aa"
     },
     {
+      "commit_date": "2026-11-12T10:03:30.000-05:00",
+      "author": "NickAkhmetov",
+      "repository": "hubmapconsortium/portal-containers",
+      "commit_url": "https://github.com/hubmapconsortium/portal-containers/commit/fd37cc24a2ced7cbbd4f6527a56f11645b4370c9"
+    },
+    {
       "commit_date": "2026-11-12T10:01:48.000+11:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/ef25c4cc971add16268ae28b7b33c607df49632c"
+    },
+    {
+      "commit_date": "2026-11-12T08:28:50.000+01:00",
+      "author": "CamachoDejay",
+      "repository": "CCI-GU-Sweden/napari-atlas-cci",
+      "commit_url": "https://github.com/CCI-GU-Sweden/napari-atlas-cci/commit/9b36327cd83a70eafc215a3aa9df71f3fce1db72"
+    },
+    {
+      "commit_date": "2026-11-12T07:43:37.000-05:00",
+      "author": "akhanf",
+      "repository": "khanlab/SPIMquant",
+      "commit_url": "https://github.com/khanlab/SPIMquant/commit/85b2ce308c5dfaf1165a5992743ab917d7cad43b"
+    },
+    {
+      "commit_date": "2026-11-12T07:22:47.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/6a151b88e14727199b4a3a7f4afdcf90a09fabc9"
+    },
+    {
+      "commit_date": "2026-11-12T06:31:05.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/4862550db4a7d46d707ae731bb730391d3f5d75a"
+    },
+    {
+      "commit_date": "2026-11-12T05:44:02.000+02:00",
+      "author": "guijacquemet",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/682e14ee89e12bec1877b7ebba1745f843c136d5"
+    },
+    {
+      "commit_date": "2026-11-12T05:01:06.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/72f47f2acbd4fd3eeadaa04ec5e1cf7cd97b70ed"
+    },
+    {
+      "commit_date": "2026-11-12T04:06:51.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/124452798d310835826bd59545c7f5c5af669212"
+    },
+    {
+      "commit_date": "2026-11-12T02:25:13.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/1f5dc172fc01529d5aa30bb96e6d2bd9966ea777"
+    },
+    {
+      "commit_date": "2026-11-12T02:09:53.000-08:00",
+      "author": "MattHazard",
+      "repository": "abcucberkeley/Parallel_Fiji_Visualizer",
+      "commit_url": "https://github.com/abcucberkeley/Parallel_Fiji_Visualizer/commit/33d861232a46f0946d51e7aa60fa8ee341a2da37"
+    },
+    {
+      "commit_date": "2026-11-11T22:28:45.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/9a02c1647f51e5648c3f667622bc7b99557a1f1d"
+    },
+    {
+      "commit_date": "2026-11-11T21:01:10.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/8eb4bf799ffcdd5bf7edcb8ef91c7722e420598f"
     },
     {
       "commit_date": "2026-11-11T20:01:33.000+11:00",
