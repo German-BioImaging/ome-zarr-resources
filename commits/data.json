@@ -1,14 +1,182 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-14T01:21:49+00:00",
+  "generated": "2026-11-15T01:21:27+00:00",
   "recent_days": 10,
-  "total_commits": 3265,
+  "total_commits": 3293,
   "commits": [
+    {
+      "commit_date": "2026-11-14T20:10:41.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/6cf87fa03a588e80d2fc9a0c33def60e0c73e622"
+    },
+    {
+      "commit_date": "2026-11-14T19:33:58.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/b4348e80173ad777c93146e4aea473f5b6c776cf"
+    },
+    {
+      "commit_date": "2026-11-14T19:27:00.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/41443645fca6c031d9a022a8ddc9671bebea8903"
+    },
+    {
+      "commit_date": "2026-11-14T19:19:43.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/351bc1f82b9a4d8a3bd14aa62d5bea8cf86c34d1"
+    },
+    {
+      "commit_date": "2026-11-14T19:18:51.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/09ba53c409b4b2d9142174d7ba98fb62cb84c755"
+    },
+    {
+      "commit_date": "2026-11-14T19:10:25.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/e6b8e66aeededa8ef6c87c7f891eb7c8c2008094"
+    },
+    {
+      "commit_date": "2026-11-14T17:58:20.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/6faacbe69cdb4eea0604b06629d2cb530f492c9e"
+    },
+    {
+      "commit_date": "2026-11-14T16:40:27.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/bd268b6cc95c06a05b73cf8ecef4164a67b72392"
+    },
+    {
+      "commit_date": "2026-11-14T15:25:19.000-06:00",
+      "author": "mittoalb",
+      "repository": "mittoalb/zview",
+      "commit_url": "https://github.com/mittoalb/zview/commit/7125af4dbcec1641fa5dc1e880f104a46a1fa633"
+    },
+    {
+      "commit_date": "2026-11-14T15:05:45.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/5085667d11eaaafd97e2ffaf4516253e32e3f99a"
+    },
+    {
+      "commit_date": "2026-11-14T14:30:02.000+01:00",
+      "author": "fedasevich",
+      "repository": "fedasevich/parfocal",
+      "commit_url": "https://github.com/fedasevich/parfocal/commit/6410f4134c4cdda013ccf73abb461b14b4f59a47"
+    },
+    {
+      "commit_date": "2026-11-14T14:16:25.000-06:00",
+      "author": "mittoalb",
+      "repository": "mittoalb/DataTools",
+      "commit_url": "https://github.com/mittoalb/DataTools/commit/ee519707b0813a12ebf37c02920f2d47fb56700b"
+    },
+    {
+      "commit_date": "2026-11-14T14:05:04.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/404043e392c3b8c24bf6bf0dc9210761e5e81afa"
+    },
+    {
+      "commit_date": "2026-11-14T13:59:03.000+01:00",
+      "author": "fedasevich",
+      "repository": "fedasevich/parfocal",
+      "commit_url": "https://github.com/fedasevich/parfocal/commit/f590958d9f7fb4419744b42525fd4a6b8c9ad875"
+    },
+    {
+      "commit_date": "2026-11-14T13:44:25.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/9df074af6315b1aaccc79fbc6410c7117552b1ab"
+    },
+    {
+      "commit_date": "2026-11-14T13:36:31.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/f451071d2434bbf5f25f31d9b2bb33faaed0f06c"
+    },
+    {
+      "commit_date": "2026-11-14T12:58:55.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/f5733b6f68c17e9329213619e7d248a1053beff4"
+    },
     {
       "commit_date": "2026-11-14T11:53:28.000+11:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/bca521c37a20407be2bc66fed2d00cc239a62846"
+    },
+    {
+      "commit_date": "2026-11-14T11:12:04.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/982ce5867fb49ff616d73db12b09da8de3349727"
+    },
+    {
+      "commit_date": "2026-11-14T11:01:57.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/a36e94dbc6828eee7faf0734b156f881e2c59ae6"
+    },
+    {
+      "commit_date": "2026-11-14T09:34:46.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/847623a6d0f0684d36f2cd7755cd2831c4958335"
+    },
+    {
+      "commit_date": "2026-11-14T09:13:58.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/MorphoBricks-Spec",
+      "commit_url": "https://github.com/CellMigrationLab/MorphoBricks-Spec/commit/179dc5cb97292c9289ab75c7044f81e113da4fd5"
+    },
+    {
+      "commit_date": "2026-11-14T08:41:09.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/756da60c7e68f575fb27ee0fbdf433e2fac937bc"
+    },
+    {
+      "commit_date": "2026-11-14T08:38:09.000-05:00",
+      "author": "cdrake",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/749a5d50d855f4b18ae10143e20b62db38cea24d"
+    },
+    {
+      "commit_date": "2026-11-14T00:35:02.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/d7ba159df922b6f1ad2fe7aa58fba2bb6feb90ee"
+    },
+    {
+      "commit_date": "2026-11-13T23:15:08.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/57f6fa9b03e7fe336a7a1c940303d7c8a2516c0a"
+    },
+    {
+      "commit_date": "2026-11-13T22:56:04.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/bd6f89bf7f039f5db5b836875e43cb59ff06f419"
+    },
+    {
+      "commit_date": "2026-11-13T21:45:12.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/d4fb6ee6d85736a7b264ef3901991ca75ab6a774"
+    },
+    {
+      "commit_date": "2026-11-13T21:14:13.000-05:00",
+      "author": "hongquanli",
+      "repository": "Cephla-Lab/Squid",
+      "commit_url": "https://github.com/Cephla-Lab/Squid/commit/b67a679cf3729b5ecfdcbd68e3fabeeea1c29262"
     },
     {
       "commit_date": "2026-11-13T17:11:00.000-08:00",
