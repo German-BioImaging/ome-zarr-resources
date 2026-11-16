@@ -1,9 +1,135 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-15T01:21:27+00:00",
+  "generated": "2026-11-16T01:24:42+00:00",
   "recent_days": 10,
-  "total_commits": 3293,
+  "total_commits": 3315,
   "commits": [
+    {
+      "commit_date": "2026-11-16T01:41:47.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/670fb6ec649785935cedf1996d05115137009ddd"
+    },
+    {
+      "commit_date": "2026-11-15T22:51:00.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/f1aade54b5a0b7597fb9d6eba65c89cf9551fbde"
+    },
+    {
+      "commit_date": "2026-11-15T22:47:43.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/0d38210e15aad3e2dfc5838dfaace49800536883"
+    },
+    {
+      "commit_date": "2026-11-15T20:42:39.000+01:00",
+      "author": "JeppeKlitgaard",
+      "repository": "JeppeKlitgaard/ezhpcy",
+      "commit_url": "https://github.com/JeppeKlitgaard/ezhpcy/commit/5ed246adc9208c763965bfae736a26bfa0f6eab0"
+    },
+    {
+      "commit_date": "2026-11-15T20:19:33.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/8afa45721e0a1cdee69a923b61aa94058d6bb735"
+    },
+    {
+      "commit_date": "2026-11-15T20:00:18.000+01:00",
+      "author": "jonasteuwen",
+      "repository": "NKI-AI/fastslide",
+      "commit_url": "https://github.com/NKI-AI/fastslide/commit/f3f5c4c50e9379e0c296c42d6904846b166592fc"
+    },
+    {
+      "commit_date": "2026-11-15T19:55:39.000+01:00",
+      "author": "jonasteuwen",
+      "repository": "NKI-AI/fastslide",
+      "commit_url": "https://github.com/NKI-AI/fastslide/commit/18c51452a2e41ad5cd01ac993005bfbee1d897fb"
+    },
+    {
+      "commit_date": "2026-11-15T19:51:38.000+01:00",
+      "author": "jonasteuwen",
+      "repository": "NKI-AI/fastslide",
+      "commit_url": "https://github.com/NKI-AI/fastslide/commit/b340694aa679f8de66dd513eeb43199fd624bb58"
+    },
+    {
+      "commit_date": "2026-11-15T19:29:47.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/16746c628404d066f05a730d71c069057833a50c"
+    },
+    {
+      "commit_date": "2026-11-15T19:03:55.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/b46f4f9710a79465fedaddd167658c1603661c2e"
+    },
+    {
+      "commit_date": "2026-11-15T16:12:28.000Z",
+      "author": "mia-autodev[bot]",
+      "repository": "JaneliaSciComp/mia-snippets",
+      "commit_url": "https://github.com/JaneliaSciComp/mia-snippets/commit/880bb636bf01a27f02cbbb7857cedcbbb14e933a"
+    },
+    {
+      "commit_date": "2026-11-15T15:09:12.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/c51722eedf7f907aca9ed71b6fb87035229479b7"
+    },
+    {
+      "commit_date": "2026-11-15T14:50:34.000Z",
+      "author": "mia-autodev[bot]",
+      "repository": "JaneliaSciComp/mia-snippets",
+      "commit_url": "https://github.com/JaneliaSciComp/mia-snippets/commit/c90cba29b0d08e8edfb4f6f5a6bcf52d082d069b"
+    },
+    {
+      "commit_date": "2026-11-15T12:31:28.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/MorphoBricks-Spec",
+      "commit_url": "https://github.com/CellMigrationLab/MorphoBricks-Spec/commit/2b5450b3fa3b2a4a0ca56195478920b198a2bf1b"
+    },
+    {
+      "commit_date": "2026-11-15T12:15:43.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/c9d824a992f7d34fcd9cf1eb9ece07b4c43f3de7"
+    },
+    {
+      "commit_date": "2026-11-15T08:53:17.000-05:00",
+      "author": "SamanthaKraft",
+      "repository": "Pennsieve/Pennsieve-Visualization",
+      "commit_url": "https://github.com/Pennsieve/Pennsieve-Visualization/commit/24a552d21ff01a9e18f86b5c7d1ae23963f8392c"
+    },
+    {
+      "commit_date": "2026-11-15T07:58:40.000-05:00",
+      "author": "SamanthaKraft",
+      "repository": "Pennsieve/Pennsieve-Visualization",
+      "commit_url": "https://github.com/Pennsieve/Pennsieve-Visualization/commit/caac73404a133ee037479b684f7bac0df7df4cde"
+    },
+    {
+      "commit_date": "2026-11-15T05:47:30.000+01:00",
+      "author": "fedasevich",
+      "repository": "fedasevich/parfocal",
+      "commit_url": "https://github.com/fedasevich/parfocal/commit/cfe3800cb3aaa2675c3b34e5653ca6d767650b25"
+    },
+    {
+      "commit_date": "2026-11-15T05:37:42.000-05:00",
+      "author": "Joost Wagenaar",
+      "repository": "Pennsieve/pennsieve-app",
+      "commit_url": "https://github.com/Pennsieve/pennsieve-app/commit/3c2fffbf81820ed4434b485f09a822c125d5f116"
+    },
+    {
+      "commit_date": "2026-11-15T05:11:50.000+01:00",
+      "author": "fedasevich",
+      "repository": "fedasevich/parfocal",
+      "commit_url": "https://github.com/fedasevich/parfocal/commit/00fb11629d6bcf16fae51531bfcee1ac7cfc2482"
+    },
+    {
+      "commit_date": "2026-11-15T01:07:32.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/bad7be2e1fb38813ef4b94d19e30f4873fb6629f"
+    },
     {
       "commit_date": "2026-11-14T20:10:41.000Z",
       "author": "prete",
@@ -69,6 +195,12 @@
       "author": "fedasevich",
       "repository": "fedasevich/parfocal",
       "commit_url": "https://github.com/fedasevich/parfocal/commit/6410f4134c4cdda013ccf73abb461b14b4f59a47"
+    },
+    {
+      "commit_date": "2026-11-14T14:25:35.000-05:00",
+      "author": "neurolabusc",
+      "repository": "niivue/mono",
+      "commit_url": "https://github.com/niivue/mono/commit/037aab97c14f9dae0859a1758a9d6aa0c838a8e5"
     },
     {
       "commit_date": "2026-11-14T14:16:25.000-06:00",
