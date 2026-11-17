@@ -1,14 +1,152 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-16T01:24:42+00:00",
+  "generated": "2026-11-17T01:22:47+00:00",
   "recent_days": 10,
-  "total_commits": 3315,
+  "total_commits": 3338,
   "commits": [
+    {
+      "commit_date": "2026-11-16T21:47:53.000+01:00",
+      "author": "hendrikschilling",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/8be8ae6124b7b91ab801414e50417541085db9dd"
+    },
+    {
+      "commit_date": "2026-11-16T16:36:24.000+01:00",
+      "author": "jluethi",
+      "repository": "fractal-napari-plugins-collection/napari-ome-zarr-navigator",
+      "commit_url": "https://github.com/fractal-napari-plugins-collection/napari-ome-zarr-navigator/commit/ff6c5b69be5bc2ac298ec5c84dfecb5d51d6a08b"
+    },
+    {
+      "commit_date": "2026-11-16T16:11:32.000+01:00",
+      "author": "jluethi",
+      "repository": "fractal-napari-plugins-collection/napari-ome-zarr-navigator",
+      "commit_url": "https://github.com/fractal-napari-plugins-collection/napari-ome-zarr-navigator/commit/2f3f7d1e1f5c24f63f90de1c1005c4537c7f3736"
+    },
+    {
+      "commit_date": "2026-11-16T16:10:46.000-05:00",
+      "author": "nexusai-kevin",
+      "repository": "nexusai-kevin/vesuvius-ink-bench",
+      "commit_url": "https://github.com/nexusai-kevin/vesuvius-ink-bench/commit/4b9407ade6378113d1d0bee359d85dd10f589b2f"
+    },
+    {
+      "commit_date": "2026-11-16T16:09:43.000+01:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/2b19080f621ed2b830dfc22354d154ac54a34b64"
+    },
+    {
+      "commit_date": "2026-11-16T14:56:44.000+01:00",
+      "author": "jluethi",
+      "repository": "fractal-napari-plugins-collection/napari-ome-zarr-navigator",
+      "commit_url": "https://github.com/fractal-napari-plugins-collection/napari-ome-zarr-navigator/commit/0abbded6b63962a3d7ef90424b2b9d5fd5e2e6e5"
+    },
+    {
+      "commit_date": "2026-11-16T14:34:04.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/1d48be797b716a06a854515a10542c5655b04847"
+    },
+    {
+      "commit_date": "2026-11-16T14:29:00.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/867fca8dfecbbe05bc97a89030e0a283515d1ce2"
+    },
+    {
+      "commit_date": "2026-11-16T14:08:53.000+01:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/a79b48cb69de3cd2149d459335953975e091de54"
+    },
+    {
+      "commit_date": "2026-11-16T14:08:52.000+01:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/a224a04c928af99b21fbca3ae4bec673780eec71"
+    },
+    {
+      "commit_date": "2026-11-16T13:46:56.000+01:00",
+      "author": "lorenzocerrone",
+      "repository": "BioVisionCenter/ngio",
+      "commit_url": "https://github.com/BioVisionCenter/ngio/commit/7f576cbdfacb3ceec71aac3ed1d2fa6c26f46c52"
+    },
+    {
+      "commit_date": "2026-11-16T13:38:37.000+01:00",
+      "author": "lorenzocerrone",
+      "repository": "BioVisionCenter/ngio",
+      "commit_url": "https://github.com/BioVisionCenter/ngio/commit/4d7f6dc37e2d53fe7045e8a50376144a4ca79459"
+    },
+    {
+      "commit_date": "2026-11-16T11:31:21.000-03:00",
+      "author": "lubianat",
+      "repository": "German-BioImaging/ome-zarr-stories",
+      "commit_url": "https://github.com/German-BioImaging/ome-zarr-stories/commit/880f7da42dc9cdb0d74e480fb35dff98a3b0bbb4"
+    },
+    {
+      "commit_date": "2026-11-16T10:29:31.000+01:00",
+      "author": "jrudolph",
+      "repository": "jrudolph/vesuvius-gui",
+      "commit_url": "https://github.com/jrudolph/vesuvius-gui/commit/56408b3eeb33789206b5ecdd2d3311a7d6119917"
+    },
+    {
+      "commit_date": "2026-11-16T10:11:12.000+01:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/c847daa2e3cc933910258fc873660850e25aeba6"
+    },
+    {
+      "commit_date": "2026-11-16T10:06:30.000+01:00",
+      "author": "hotzenklotz",
+      "repository": "scalableminds/webknossos",
+      "commit_url": "https://github.com/scalableminds/webknossos/commit/e666152b10694886b4b3352c32ff87c5f06af48b"
+    },
+    {
+      "commit_date": "2026-11-16T09:24:00.000-03:00",
+      "author": "lubianat",
+      "repository": "German-BioImaging/ome-zarr-stories",
+      "commit_url": "https://github.com/German-BioImaging/ome-zarr-stories/commit/acfa45c8af55f95b6a7cb615947c66e327700fc9"
+    },
+    {
+      "commit_date": "2026-11-16T09:20:53.000-03:00",
+      "author": "lubianat",
+      "repository": "German-BioImaging/ome-zarr-stories",
+      "commit_url": "https://github.com/German-BioImaging/ome-zarr-stories/commit/b0ffdb40767b8de0565078d7c37da0a0225b299e"
+    },
+    {
+      "commit_date": "2026-11-16T09:13:33.000-03:00",
+      "author": "lubianat",
+      "repository": "German-BioImaging/ome-zarr-stories",
+      "commit_url": "https://github.com/German-BioImaging/ome-zarr-stories/commit/431c84694805f5703a65baf08f8117391ea4c5d7"
+    },
+    {
+      "commit_date": "2026-11-16T09:01:06.000+01:00",
+      "author": "d-v-b",
+      "repository": "ome-zarr-py/ome-zarr-models-py",
+      "commit_url": "https://github.com/ome-zarr-py/ome-zarr-models-py/commit/70656fdacfa893f23d3598845588c321ac1b37f6"
+    },
+    {
+      "commit_date": "2026-11-16T08:34:02.000-03:00",
+      "author": "lubianat",
+      "repository": "German-BioImaging/ome-zarr-stories",
+      "commit_url": "https://github.com/German-BioImaging/ome-zarr-stories/commit/3faa58f0e9fde19593835491490a5d02ac04d8e8"
+    },
+    {
+      "commit_date": "2026-11-16T05:03:04.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/bf31848bdfa30cdab294a2466abafcf77f4d648b"
+    },
     {
       "commit_date": "2026-11-16T01:41:47.000+11:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/670fb6ec649785935cedf1996d05115137009ddd"
+    },
+    {
+      "commit_date": "2026-11-15T23:17:56.000-05:00",
+      "author": "ajitjohnson",
+      "repository": "nirmallab/plexora",
+      "commit_url": "https://github.com/nirmallab/plexora/commit/24484c2866305a173b70caab50ffbd7cdef40eef"
     },
     {
       "commit_date": "2026-11-15T22:51:00.000Z",
