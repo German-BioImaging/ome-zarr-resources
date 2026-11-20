@@ -1,9 +1,165 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-19T01:21:55+00:00",
+  "generated": "2026-11-20T01:21:45+00:00",
   "recent_days": 10,
-  "total_commits": 3404,
+  "total_commits": 3431,
   "commits": [
+    {
+      "commit_date": "2026-11-20T05:57:13.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/95e71b34a5a1ced5a25bd6ce67677e3daa99d2c1"
+    },
+    {
+      "commit_date": "2026-11-20T05:31:29.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/a6a9d6a3e16a8e305d7fa0d2f3920e54d94cb9bd"
+    },
+    {
+      "commit_date": "2026-11-19T20:50:32.000+01:00",
+      "author": "maartenpaul",
+      "repository": "Leiden-Cell-Observatory/omero_annotate_ai",
+      "commit_url": "https://github.com/Leiden-Cell-Observatory/omero_annotate_ai/commit/83aeb1b57ef5783f81fbfe87c8dd385fab2387f1"
+    },
+    {
+      "commit_date": "2026-11-19T20:46:20.000+08:00",
+      "author": "IOL0ol1",
+      "repository": "IOL0ol1/OpenSlideSharp",
+      "commit_url": "https://github.com/IOL0ol1/OpenSlideSharp/commit/97db750bd6936fbf1d285ba4728ed3e6b7bd9e50"
+    },
+    {
+      "commit_date": "2026-11-19T20:43:21.000+01:00",
+      "author": "maartenpaul",
+      "repository": "Leiden-Cell-Observatory/omero_annotate_ai",
+      "commit_url": "https://github.com/Leiden-Cell-Observatory/omero_annotate_ai/commit/806499a50520dd7409409d13918127bfeaa15a6d"
+    },
+    {
+      "commit_date": "2026-11-19T20:28:26.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/6a9a736a26fc1b095ed7c1bbfbace97ab4eddf10"
+    },
+    {
+      "commit_date": "2026-11-19T20:14:44.000+01:00",
+      "author": "maartenpaul",
+      "repository": "Leiden-Cell-Observatory/omero_annotate_ai",
+      "commit_url": "https://github.com/Leiden-Cell-Observatory/omero_annotate_ai/commit/ee4d93ef85857f006b946a0050cf173de3277c34"
+    },
+    {
+      "commit_date": "2026-11-19T19:32:44.000+08:00",
+      "author": "IOL0ol1",
+      "repository": "IOL0ol1/OpenSlideSharp",
+      "commit_url": "https://github.com/IOL0ol1/OpenSlideSharp/commit/f8c8528c123854a96c7c5c2eb0c86bb162653df6"
+    },
+    {
+      "commit_date": "2026-11-19T19:18:48.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/c35e78c966afbe1159da21c2a6fe6fc4681f4733"
+    },
+    {
+      "commit_date": "2026-11-19T17:58:14.000Z",
+      "author": "carshadi",
+      "repository": "AllenNeuralDynamics/aind-bigstitcher-qc",
+      "commit_url": "https://github.com/AllenNeuralDynamics/aind-bigstitcher-qc/commit/e080536ff95d7e6c8584fe29bf0a923cde79c711"
+    },
+    {
+      "commit_date": "2026-11-19T17:20:01.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/dd754a65fc2f11ae8eb48ef3bed067485454ec87"
+    },
+    {
+      "commit_date": "2026-11-19T14:43:31.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/fdba3348c9a6b8f600232f12ca7cac95e8741c8c"
+    },
+    {
+      "commit_date": "2026-11-19T13:15:38.000-05:00",
+      "author": "carshadi",
+      "repository": "AllenNeuralDynamics/aind-bigstitcher-qc",
+      "commit_url": "https://github.com/AllenNeuralDynamics/aind-bigstitcher-qc/commit/7101e18f07d834c26b0535043bd837566a36eb50"
+    },
+    {
+      "commit_date": "2026-11-19T13:12:05.000-06:00",
+      "author": "MichaelSNelson",
+      "repository": "uw-loci/qupath-extension-tiles-to-pyramid",
+      "commit_url": "https://github.com/uw-loci/qupath-extension-tiles-to-pyramid/commit/52a30bc597b1421d39c9ad0f77557816665fcc89"
+    },
+    {
+      "commit_date": "2026-11-19T11:42:07.000-07:00",
+      "author": "dpshepherd",
+      "repository": "QI2lab/napari-localize-psf",
+      "commit_url": "https://github.com/QI2lab/napari-localize-psf/commit/efbf9b61a465c612e5cf3d226a3c7d374b8ef8f0"
+    },
+    {
+      "commit_date": "2026-11-19T11:37:01.000-07:00",
+      "author": "dpshepherd",
+      "repository": "QI2lab/localize-psf",
+      "commit_url": "https://github.com/QI2lab/localize-psf/commit/d82a923566500801189f469ed3bdbe96746769f0"
+    },
+    {
+      "commit_date": "2026-11-19T11:33:36.000-05:00",
+      "author": "jesusdpa1",
+      "repository": "neuro-kitchen/lucem",
+      "commit_url": "https://github.com/neuro-kitchen/lucem/commit/576907e8fb3d404588bf8df7ff9abb2cd1c75451"
+    },
+    {
+      "commit_date": "2026-11-19T11:26:47.000-05:00",
+      "author": "sameeul",
+      "repository": "PolusAI/bfio",
+      "commit_url": "https://github.com/PolusAI/bfio/commit/c013e1eeadc7726dd2d6c9e1cd65ae1903468677"
+    },
+    {
+      "commit_date": "2026-11-19T11:08:39.000-05:00",
+      "author": "sameeul",
+      "repository": "sameeul/polus-test-data",
+      "commit_url": "https://github.com/sameeul/polus-test-data/commit/c5630e67ba6394b9abf73dbb85ac1fdce4b50528"
+    },
+    {
+      "commit_date": "2026-11-19T10:46:27.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/e3029f72f0ef4be450e896616ebbdeffbf67a985"
+    },
+    {
+      "commit_date": "2026-11-19T09:57:12.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/2b537629f3471ddf013cf87446f4e7f99a90254d"
+    },
+    {
+      "commit_date": "2026-11-19T09:55:08.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/0c69c52269ab8d27fa4b846c771879870fe300c3"
+    },
+    {
+      "commit_date": "2026-11-19T09:55:07.000Z",
+      "author": "claude",
+      "repository": "imcf/patchworks",
+      "commit_url": "https://github.com/imcf/patchworks/commit/4c7b00ac92ff2fd6fafa84d0ec075c5b42912669"
+    },
+    {
+      "commit_date": "2026-11-19T04:50:30.000-05:00",
+      "author": "psobolewskiPhD",
+      "repository": "napari/napari",
+      "commit_url": "https://github.com/napari/napari/commit/76a9407be59dfc7b416a8ca48411e12505f9b1b7"
+    },
+    {
+      "commit_date": "2026-11-19T03:01:10.000-05:00",
+      "author": "sameeul",
+      "repository": "PolusAI/bfiocpp",
+      "commit_url": "https://github.com/PolusAI/bfiocpp/commit/f06e7b652c69f7f6203c7e2f9ec11673f2341806"
+    },
+    {
+      "commit_date": "2026-11-19T02:57:58.000-05:00",
+      "author": "sameeul",
+      "repository": "sameeul/polus-test-data",
+      "commit_url": "https://github.com/sameeul/polus-test-data/commit/9ec79af23d155a2bdb74823fa6fc6f204bbe2ca4"
+    },
     {
       "commit_date": "2026-11-18T19:13:55.000+08:00",
       "author": "formetaohy",
@@ -165,6 +321,12 @@
       "author": "conda-forge-webservices[bot]",
       "repository": "conda-forge/feedstocks",
       "commit_url": "https://github.com/conda-forge/feedstocks/commit/4652e8f7d6186caf01fbc7dde119626cf221a947"
+    },
+    {
+      "commit_date": "2026-11-18T08:21:55.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/23ef2057038a4911cbd501fb275fd8c6fe8cca99"
     },
     {
       "commit_date": "2026-11-18T07:10:14.000Z",
