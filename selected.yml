@@ -1,9 +1,9 @@
-generated_at: '2026-11-16T05:08:48.459353Z'
-pool_count: 894
-tagged_count: 65
+generated_at: '2026-11-23T05:08:33.960140Z'
+pool_count: 918
+tagged_count: 69
 packages:
 - repo: ome/bioformats
-  stars: 435
+  stars: 436
   tags: []
   languages:
   - Java
@@ -103,6 +103,13 @@ packages:
   languages:
   - Python
   section: Zarr validation
+- repo: ome-zarr-py/ome-zarr-models-py
+  stars: 40
+  tags:
+  - ome-zarr
+  languages:
+  - Python
+  section: Discovered (OME-Zarr commits)
 - repo: insightsoftwareconsortium/omezarropenscivisdatasets
   stars: 35
   tags:
@@ -172,6 +179,13 @@ packages:
   languages:
   - Python
   section: Zarr readers & writers
+- repo: lazarusa/octant
+  stars: 23
+  tags:
+  - ome-zarr
+  languages:
+  - Rust
+  section: Discovered (OME-Zarr commits)
 - repo: saalfeldlab/n5-ij
   stars: 22
   tags:
@@ -208,15 +222,8 @@ packages:
   languages:
   - Python
   section: Depend on OME-Zarr Py
-- repo: lazarusa/octant
-  stars: 20
-  tags:
-  - ome-zarr
-  languages:
-  - Rust
-  section: Discovered (OME-Zarr commits)
 - repo: fideus-labs/konfai
-  stars: 17
+  stars: 18
   tags:
   - ome-zarr
   languages:
@@ -229,6 +236,13 @@ packages:
   languages:
   - Python
   section: Core
+- repo: bioimagetools/ome-zarr-fiji-java
+  stars: 13
+  tags:
+  - ome-zarr
+  languages:
+  - Java
+  section: Zarr viewers
 - repo: pymmcore-plus/ome-writers
   stars: 13
   tags:
@@ -236,6 +250,13 @@ packages:
   languages:
   - Python
   section: Zarr readers & writers
+- repo: khanlab/zarrnii
+  stars: 13
+  tags:
+  - ome-zarr
+  languages:
+  - Python
+  section: Other tools (to curate)
 - repo: ome/ome-ngff-validator
   stars: 12
   tags:
@@ -251,20 +272,6 @@ packages:
   languages:
   - C++
   section: Zarr converters
-- repo: khanlab/zarrnii
-  stars: 11
-  tags:
-  - ome-zarr
-  languages:
-  - Python
-  section: Other tools (to curate)
-- repo: bioimagetools/ome-zarr-fiji-java
-  stars: 10
-  tags:
-  - ome-zarr
-  languages:
-  - Java
-  section: Zarr viewers
 - repo: ome/omero-guide-python
   stars: 10
   tags: []
@@ -287,6 +294,13 @@ packages:
   - Python
   - JavaScript
   section: Discovered (OME-Zarr commits)
+- repo: ilastik/clearscale
+  stars: 8
+  tags:
+  - ome-zarr
+  languages:
+  - Python
+  section: Other tools (to curate)
 - repo: janeliascicomp/nf-omezarr
   stars: 7
   tags:
@@ -302,13 +316,6 @@ packages:
   languages:
   - Python
   section: Zarr converters
-- repo: ilastik/clearscale
-  stars: 7
-  tags:
-  - ome-zarr
-  languages:
-  - Python
-  section: Other tools (to curate)
 - repo: franciscrickinstitute/omeslicc
   stars: 7
   tags:
@@ -396,6 +403,13 @@ packages:
   - JavaScript
   - Python
   section: Other tools (to curate)
+- repo: neuro-kitchen/lucem
+  stars: 3
+  tags:
+  - ome-zarr
+  languages:
+  - Rust
+  section: Discovered (OME-Zarr commits)
 - repo: fractal-analytics-platform/fractal-uzh-converters
   stars: 3
   tags:
@@ -489,6 +503,13 @@ packages:
   languages:
   - Python
   section: Discovered (OME-Zarr commits)
+- repo: atomcrtr/vesuvius-data-explorer-atom
+  stars: 0
+  tags:
+  - ome-zarr
+  languages:
+  - Python
+  section: Discovered (OME-Zarr commits)
 - repo: jcooperkai-sys/scan-quality-map
   stars: 0
   tags:
@@ -504,6 +525,13 @@ packages:
   - Python
   section: Discovered (OME-Zarr commits)
 - repo: flimkit/flimkit-zstack-explorer
+  stars: 0
+  tags:
+  - ome-zarr
+  languages:
+  - Python
+  section: Discovered (OME-Zarr commits)
+- repo: myunghyunj/nd2wsi-viewer
   stars: 0
   tags:
   - ome-zarr
@@ -527,38 +555,38 @@ packages:
   - Python
   section: Discovered (OME-Zarr commits)
 - repo: napari/napari
-  stars: 2805
+  stars: 2811
   tags: []
   languages:
   - Python
   section: Discovered (OME-Zarr commits)
 - repo: galaxyproject/galaxy
-  stars: 1898
+  stars: 1901
   tags: []
   languages:
   - Python
   - JavaScript
   section: Discovered (OME-Zarr commits)
 - repo: awslabs/open-data-registry
-  stars: 1838
+  stars: 1842
   tags: []
   languages:
   - Python
   section: Discovered (OME-Zarr commits)
 - repo: google/neuroglancer
-  stars: 1583
+  stars: 1588
   tags: []
   languages:
   - JavaScript
   section: Zarr viewers
 - repo: qupath/qupath
-  stars: 1477
+  stars: 1478
   tags: []
   languages:
   - Java
   section: Zarr viewers
 - repo: open-edge-platform/geti
-  stars: 1375
+  stars: 1379
   tags: []
   languages:
   - Python
@@ -577,13 +605,13 @@ packages:
   - Tcl
   section: Discovered (OME-Zarr commits)
 - repo: mahmoodlab/trident
-  stars: 660
+  stars: 664
   tags: []
   languages:
   - Python
   section: Other tools (to curate)
 - repo: insightsoftwareconsortium/itkwidgets
-  stars: 625
+  stars: 624
   tags: []
   languages:
   - Python
@@ -595,13 +623,13 @@ packages:
   - JavaScript
   section: Discovered (OME-Zarr commits)
 - repo: aristoteleo/pantheonos
-  stars: 496
+  stars: 497
   tags: []
   languages:
   - Python
   section: Discovered (OME-Zarr commits)
 - repo: davidjurgens/potato
-  stars: 445
+  stars: 448
   tags: []
   languages:
   - Python
@@ -613,7 +641,7 @@ packages:
   - Python
   section: Integrative workflows
 - repo: scverse/spatialdata
-  stars: 410
+  stars: 408
   tags: []
   languages:
   - Python
@@ -625,13 +653,13 @@ packages:
   - Python
   section: Standards and extensions
 - repo: hms-dbmi/viv
-  stars: 374
+  stars: 373
   tags: []
   languages:
   - JavaScript
   section: Zarr viewers
 - repo: rendeirolab/lazyslide
-  stars: 334
+  stars: 333
   tags: []
   languages:
   - Python
@@ -655,7 +683,7 @@ packages:
   - Python
   section: Other tools (to curate)
 - repo: insightsoftwareconsortium/itkelastix
-  stars: 292
+  stars: 293
   tags: []
   languages:
   - JavaScript
@@ -668,7 +696,7 @@ packages:
   - Jupyter Notebook
   section: Discovered (OME-Zarr commits)
 - repo: biapyx/biapy
-  stars: 219
+  stars: 221
   tags: []
   languages:
   - Jupyter Notebook
@@ -698,7 +726,7 @@ packages:
   - JavaScript
   section: Zarr viewers
 - repo: brainglobe/brainglobe-atlasapi
-  stars: 190
+  stars: 191
   tags: []
   languages:
   - Python
@@ -710,24 +738,30 @@ packages:
   - JavaScript
   - Scala
   section: Zarr viewers
+- repo: prism-oncology/novae
+  stars: 167
+  tags: []
+  languages:
+  - Python
+  section: Depend on OME-Zarr Py
 - repo: aafkegros/microscopynodes
   stars: 165
   tags: []
   languages:
   - Python
   section: Zarr viewers
-- repo: prism-oncology/novae
-  stars: 165
-  tags: []
-  languages:
-  - Python
-  section: Depend on OME-Zarr Py
 - repo: bioio-devs/bioio
   stars: 135
   tags: []
   languages:
   - Python
   section: Zarr readers & writers
+- repo: imagingdatacommons/dicom-microscopy-viewer
+  stars: 130
+  tags: []
+  languages:
+  - JavaScript
+  section: Discovered (OME-Zarr commits)
 - repo: mannlabs/scportrait
   stars: 116
   tags: []
@@ -766,7 +800,7 @@ packages:
   - Python
   section: Depend on OME-Zarr Py
 - repo: saeyslab/harpy
-  stars: 88
+  stars: 90
   tags: []
   languages:
   - Python
@@ -797,7 +831,7 @@ packages:
   - Jupyter Notebook
   section: Discovered (OME-Zarr commits)
 - repo: tlambert03/nd2
-  stars: 81
+  stars: 82
   tags: []
   languages:
   - Python
@@ -814,17 +848,17 @@ packages:
   languages:
   - Python
   section: Depend on OME-Zarr Py
+- repo: xqlsystems/duckdb-zarr
+  stars: 70
+  tags: []
+  languages:
+  - Rust
+  - Python
+  section: Discovered (OME-Zarr commits)
 - repo: vitessce/vitessce-python
   stars: 67
   tags: []
   languages:
-  - Python
-  section: Discovered (OME-Zarr commits)
-- repo: xqlsystems/duckdb-zarr
-  stars: 66
-  tags: []
-  languages:
-  - Rust
   - Python
   section: Discovered (OME-Zarr commits)
 - repo: neubias/training-resources
@@ -846,14 +880,20 @@ packages:
   languages:
   - Jupyter Notebook
   section: Discovered (OME-Zarr commits)
+- repo: bids-standard/bids-matlab
+  stars: 58
+  tags: []
+  languages:
+  - MATLAB
+  section: Discovered (OME-Zarr commits)
 - repo: nki-ai/fastslide
-  stars: 56
+  stars: 57
   tags: []
   languages:
   - C++
   section: Discovered (OME-Zarr commits)
 - repo: neurodesk/webapps
-  stars: 55
+  stars: 57
   tags: []
   languages:
   - JavaScript
@@ -888,22 +928,28 @@ packages:
   languages:
   - Python
   section: Integrative workflows
+- repo: epfl-center-for-imaging/awesome-scientific-image-analysis
+  stars: 50
+  tags: []
+  languages: []
+  section: Discovered (OME-Zarr commits)
 - repo: mehta-lab/waveorder
   stars: 49
   tags: []
   languages:
   - Python
   section: Depend on OME-Zarr Py
-- repo: epfl-center-for-imaging/awesome-scientific-image-analysis
-  stars: 49
-  tags: []
-  languages: []
-  section: Discovered (OME-Zarr commits)
 - repo: zarr-developers/pydantic-zarr
   stars: 49
   tags: []
   languages:
   - Python
+  section: Discovered (OME-Zarr commits)
+- repo: aicell-lab/imagej.js
+  stars: 47
+  tags: []
+  languages:
+  - JavaScript
   section: Discovered (OME-Zarr commits)
 - repo: mobie/mobie-viewer-fiji
   stars: 46
@@ -923,20 +969,14 @@ packages:
   languages:
   - Python
   section: Discovered (OME-Zarr commits)
-- repo: a-r-d/purejsimage
-  stars: 45
-  tags: []
-  languages:
-  - JavaScript
-  section: Discovered (OME-Zarr commits)
 - repo: elementolab/utag
   stars: 44
   tags: []
   languages:
   - Python
   section: Depend on OME-Zarr Py
-- repo: aicell-lab/imagej.js
-  stars: 44
+- repo: a-r-d/purejsimage
+  stars: 43
   tags: []
   languages:
   - JavaScript
@@ -965,6 +1005,12 @@ packages:
   languages:
   - Python
   section: Discovered (OME-Zarr commits)
+- repo: rendeirolab/wsidata
+  stars: 36
+  tags: []
+  languages:
+  - Python
+  section: Depend on OME-Zarr Py
 - repo: cheeseman-lab/brieflow
   stars: 36
   tags: []
@@ -989,12 +1035,13 @@ packages:
   languages:
   - Python
   section: Depend on OME-Zarr Py
-- repo: rendeirolab/wsidata
+- repo: mictott/spatialscape
   stars: 35
   tags: []
   languages:
   - Python
-  section: Depend on OME-Zarr Py
+  - JavaScript
+  section: Discovered (OME-Zarr commits)
 - repo: janeliascicomp/multiview-reconstruction
   stars: 35
   tags: []
@@ -1025,55 +1072,49 @@ packages:
   languages:
   - JavaScript
   section: Discovered (OME-Zarr commits)
+- repo: craigmyles/surgen-dataset
+  stars: 33
+  tags: []
+  languages:
+  - Jupyter Notebook
+  section: Discovered (OME-Zarr commits)
 - repo: cephla-lab/squid
   stars: 32
   tags: []
   languages:
   - Python
   section: Microscope acquisition software
+- repo: niivue/mono
+  stars: 32
+  tags: []
+  languages:
+  - JavaScript
+  section: Discovered (OME-Zarr commits)
 - repo: janeliascicomp/bigstitcher-spark
   stars: 32
   tags: []
   languages:
   - Java
   section: Discovered (OME-Zarr commits)
-- repo: craigmyles/surgen-dataset
-  stars: 32
+- repo: polusai/nyxus
+  stars: 31
   tags: []
   languages:
-  - Jupyter Notebook
-  section: Discovered (OME-Zarr commits)
+  - C++
+  - Python
+  section: Integrative workflows
 - repo: neurodata/brainlit
   stars: 31
   tags: []
   languages:
   - Python
   section: Depend on OME-Zarr Py
-- repo: niivue/mono
-  stars: 31
-  tags: []
-  languages:
-  - JavaScript
-  section: Discovered (OME-Zarr commits)
 - repo: spatialpathology/insitupy
   stars: 31
   tags: []
   languages:
   - Python
   section: Discovered (OME-Zarr commits)
-- repo: keller-mark/pluot
-  stars: 31
-  tags: []
-  languages:
-  - Rust
-  section: Discovered (OME-Zarr commits)
-- repo: polusai/nyxus
-  stars: 30
-  tags: []
-  languages:
-  - C++
-  - Python
-  section: Integrative workflows
 - repo: tomography/tomocupy
   stars: 30
   tags: []
@@ -1085,6 +1126,12 @@ packages:
   tags: []
   languages:
   - JavaScript
+  section: Discovered (OME-Zarr commits)
+- repo: keller-mark/pluot
+  stars: 30
+  tags: []
+  languages:
+  - Rust
   section: Discovered (OME-Zarr commits)
 - repo: nl-bioimaging/biomero
   stars: 29
@@ -1112,24 +1159,6 @@ packages:
   section: Other tools (to curate)
 - repo: saezlab/annnet
   stars: 25
-  tags: []
-  languages:
-  - Python
-  section: Depend on OME-Zarr Py
-- repo: zarr-developers/zarr-java
-  stars: 24
-  tags: []
-  languages:
-  - Java
-  section: Zarr readers & writers
-- repo: imaging-formats/yaozarrs
-  stars: 24
-  tags: []
-  languages:
-  - Python
-  section: Zarr validation
-- repo: mercaderlabanatomy/napari-tmidas
-  stars: 24
   tags: []
   languages:
   - Python
