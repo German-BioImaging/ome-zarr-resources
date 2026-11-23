@@ -1,14 +1,104 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-22T01:21:50+00:00",
+  "generated": "2026-11-23T01:23:03+00:00",
   "recent_days": 10,
-  "total_commits": 3472,
+  "total_commits": 3491,
   "commits": [
+    {
+      "commit_date": "2026-11-22T22:38:17.000+01:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/aec6d3f523bc1c9c5a2025e1265031d5b071c0a7"
+    },
+    {
+      "commit_date": "2026-11-22T21:48:20.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/36f8db2a566528c2f034d789dfe6b4bc29c44f61"
+    },
+    {
+      "commit_date": "2026-11-22T20:15:10.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/c89d5e86de78e64706e5c9e595f8126067e2e6b1"
+    },
+    {
+      "commit_date": "2026-11-22T19:43:19.000+01:00",
+      "author": "lazarusA",
+      "repository": "lazarusA/octant",
+      "commit_url": "https://github.com/lazarusA/octant/commit/a9495bb815304fd3af873262b0c31ea6506cfbfa"
+    },
+    {
+      "commit_date": "2026-11-22T19:43:19.000+01:00",
+      "author": "lazarusA",
+      "repository": "lazarusA/octant",
+      "commit_url": "https://github.com/lazarusA/octant/commit/8ebd41678398b7456464d9ba3b91feb197e56a6d"
+    },
+    {
+      "commit_date": "2026-11-22T19:32:28.000Z",
+      "author": "Jonathan8520",
+      "repository": "Jonathan8520/vesuvius-ink-adapt",
+      "commit_url": "https://github.com/Jonathan8520/vesuvius-ink-adapt/commit/e2b3f5732b42b5511192e4980b82c26645f6c099"
+    },
+    {
+      "commit_date": "2026-11-22T18:11:50.000+01:00",
+      "author": "rmsreis",
+      "repository": "Advanced-EM/TEM-view",
+      "commit_url": "https://github.com/Advanced-EM/TEM-view/commit/7b90d729ff36b529c3095b697379770ccbfe6526"
+    },
+    {
+      "commit_date": "2026-11-22T18:01:45.000+01:00",
+      "author": "Arkajyoti Sarkar",
+      "repository": "arka2696/LightSheet_HPC",
+      "commit_url": "https://github.com/arka2696/LightSheet_HPC/commit/7615f111e38774583dfafa21ed32d8188f017da0"
+    },
+    {
+      "commit_date": "2026-11-22T14:58:32.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/b1e2944a77943c5d8279af72e5052093e20a41cd"
+    },
+    {
+      "commit_date": "2026-11-22T14:15:19.000+01:00",
+      "author": "d-v-b",
+      "repository": "d-v-b/refkv",
+      "commit_url": "https://github.com/d-v-b/refkv/commit/f6718976cf6ed3b697947c25cac035f969f365ef"
+    },
+    {
+      "commit_date": "2026-11-22T11:52:58.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/de7f844f67602474c637e6c37bed20b16e563873"
+    },
+    {
+      "commit_date": "2026-11-22T11:47:55.000+01:00",
+      "author": "rmsreis",
+      "repository": "Advanced-EM/TEM-view",
+      "commit_url": "https://github.com/Advanced-EM/TEM-view/commit/cba55f2a3a891bbadf9676c89dffca7bdc1ec88b"
+    },
+    {
+      "commit_date": "2026-11-22T09:24:08.000+01:00",
+      "author": "maartenpaul",
+      "repository": "maartenpaul/anybioimage",
+      "commit_url": "https://github.com/maartenpaul/anybioimage/commit/f6128737396a36839a18db3740f56a1fb0db0aa3"
+    },
+    {
+      "commit_date": "2026-11-22T08:33:17.000+01:00",
+      "author": "maartenpaul",
+      "repository": "maartenpaul/anybioimage",
+      "commit_url": "https://github.com/maartenpaul/anybioimage/commit/e2337db77e6abc5fdbc9178be0cb7300d38fbb52"
+    },
     {
       "commit_date": "2026-11-22T08:29:01.000+08:00",
       "author": "formetaohy",
       "repository": "formetaohy/Grana",
       "commit_url": "https://github.com/formetaohy/Grana/commit/4c0fe307d611456c297c320e6e285dfcfb8bf69b"
+    },
+    {
+      "commit_date": "2026-11-22T08:10:50.000-05:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr-translations",
+      "commit_url": "https://github.com/EinarOlafsson/spacr-translations/commit/bb1fbf01bac6592c0960179d003e776486f36f96"
     },
     {
       "commit_date": "2026-11-22T01:28:33.000+01:00",
@@ -23,10 +113,22 @@
       "commit_url": "https://github.com/kulvait/syscripts/commit/2576408eaaab478f9c6e937273ef041fe6f46401"
     },
     {
+      "commit_date": "2026-11-22T00:27:39.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/7188053340321ee006f6c7e8c78f57209d235e13"
+    },
+    {
       "commit_date": "2026-11-21T22:44:22.000+01:00",
       "author": "d-v-b",
       "repository": "d-v-b/refkv",
       "commit_url": "https://github.com/d-v-b/refkv/commit/3a28ac8b120fe9ae0e5946fdc7ef33794225aed9"
+    },
+    {
+      "commit_date": "2026-11-21T22:40:30.000-05:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr-translations",
+      "commit_url": "https://github.com/EinarOlafsson/spacr-translations/commit/93df19ae88a2c14bffde3e3c64051e86f718e5a0"
     },
     {
       "commit_date": "2026-11-21T22:37:02.000+02:00",
@@ -65,10 +167,22 @@
       "commit_url": "https://github.com/cellgeni/explorer/commit/52248523b0a62b36a4f5932a0d0c06504838a201"
     },
     {
+      "commit_date": "2026-11-21T22:04:49.000-05:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr-translations",
+      "commit_url": "https://github.com/EinarOlafsson/spacr-translations/commit/b8c0ce654d6e730c24b96889a58c89f53e4bab5b"
+    },
+    {
       "commit_date": "2026-11-21T21:34:12.000Z",
       "author": "claude",
       "repository": "Harrison-Oatman/PyCLM",
       "commit_url": "https://github.com/Harrison-Oatman/PyCLM/commit/6f276da0fb3b8278065d087b1bd3a6913d4ae014"
+    },
+    {
+      "commit_date": "2026-11-21T20:49:52.000-05:00",
+      "author": "EinarOlafsson",
+      "repository": "EinarOlafsson/spacr-translations",
+      "commit_url": "https://github.com/EinarOlafsson/spacr-translations/commit/595b14a161f127fce077c355bdb1e71bcdcec903"
     },
     {
       "commit_date": "2026-11-21T19:31:46.000Z",
