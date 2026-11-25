@@ -1,9 +1,249 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-24T01:22:49+00:00",
+  "generated": "2026-11-25T01:22:52+00:00",
   "recent_days": 10,
-  "total_commits": 3519,
+  "total_commits": 3559,
   "commits": [
+    {
+      "commit_date": "2026-11-25T06:52:54.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/b4dd51d1cd5162b64cf8fd9ed624019600580399"
+    },
+    {
+      "commit_date": "2026-11-25T00:11:47.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/ebbca0362a6afb87b93922e65a587d8df2ed81dd"
+    },
+    {
+      "commit_date": "2026-11-24T21:08:47.000+01:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/e32a8d4e78466fe76fbadd0abf5917fa96f272ca"
+    },
+    {
+      "commit_date": "2026-11-24T20:55:49.000+01:00",
+      "author": "macromeer",
+      "repository": "MercaderLabAnatomy/napari-tmidas",
+      "commit_url": "https://github.com/MercaderLabAnatomy/napari-tmidas/commit/b97ebd52f423e1c81d5de8b868b01115ccb0947f"
+    },
+    {
+      "commit_date": "2026-11-24T20:16:41.000+10:00",
+      "author": "stebo85",
+      "repository": "scigetorg/scidesktop",
+      "commit_url": "https://github.com/scigetorg/scidesktop/commit/2b51911ed3739bf4c3e42fb274dddd3adb5ea83d"
+    },
+    {
+      "commit_date": "2026-11-24T17:21:08.000Z",
+      "author": "folterj",
+      "repository": "ome-zarr-models/ome-zarrpari",
+      "commit_url": "https://github.com/ome-zarr-models/ome-zarrpari/commit/81883cc6a8e4fce400720fabfb6249c709a2dd9f"
+    },
+    {
+      "commit_date": "2026-11-24T16:50:04.000-05:00",
+      "author": "Arshya-Guru",
+      "repository": "Arshya-Guru/zarrnii-tools",
+      "commit_url": "https://github.com/Arshya-Guru/zarrnii-tools/commit/5e63b616cbb0ddb3c11ebfd0f48cb377f9672c21"
+    },
+    {
+      "commit_date": "2026-11-24T16:23:38.000+08:00",
+      "author": "LenisLin",
+      "repository": "LenisLin/CellWeft",
+      "commit_url": "https://github.com/LenisLin/CellWeft/commit/cc4222665da7fbf04edfca6edbb2937dbe991ed0"
+    },
+    {
+      "commit_date": "2026-11-24T16:23:37.000+08:00",
+      "author": "LenisLin",
+      "repository": "LenisLin/CellWeft",
+      "commit_url": "https://github.com/LenisLin/CellWeft/commit/746b98c9649dfd14313b1b30f91060398f2ab100"
+    },
+    {
+      "commit_date": "2026-11-24T15:39:14.000Z",
+      "author": "folterj",
+      "repository": "ome-zarr-models/ome-zarrpari",
+      "commit_url": "https://github.com/ome-zarr-models/ome-zarrpari/commit/3ae72ecaae60afb6b799ceff1114dda872bfd3db"
+    },
+    {
+      "commit_date": "2026-11-24T15:22:17.000Z",
+      "author": "folterj",
+      "repository": "ome-zarr-models/ome-zarrpari",
+      "commit_url": "https://github.com/ome-zarr-models/ome-zarrpari/commit/058bc1d2b8a8d65fcb0e552a454e69f5edec7ce8"
+    },
+    {
+      "commit_date": "2026-11-24T15:14:07.000Z",
+      "author": "folterj",
+      "repository": "ome-zarr-models/ome-zarrpari",
+      "commit_url": "https://github.com/ome-zarr-models/ome-zarrpari/commit/87b5f02050b81337aa3fc1d9bbb557d104c75a27"
+    },
+    {
+      "commit_date": "2026-11-24T14:58:08.000-05:00",
+      "author": "realjonnysax",
+      "repository": "realjonnysax/em-image-stitching",
+      "commit_url": "https://github.com/realjonnysax/em-image-stitching/commit/6999d7c4ac95995c5d895f49f657e24b180e4ded"
+    },
+    {
+      "commit_date": "2026-11-24T14:39:57.000Z",
+      "author": "folterj",
+      "repository": "ome-zarr-models/ome-zarrpari",
+      "commit_url": "https://github.com/ome-zarr-models/ome-zarrpari/commit/2fdc57cbe74c20567d332770f545004fdd4a11d1"
+    },
+    {
+      "commit_date": "2026-11-24T14:38:51.000-06:00",
+      "author": "francopestilli",
+      "repository": "brainlife/ezbids",
+      "commit_url": "https://github.com/brainlife/ezbids/commit/2682c41e5a47d392510dab6dc46a4016d3387b0e"
+    },
+    {
+      "commit_date": "2026-11-24T14:29:31.000+01:00",
+      "author": "ekatrukha",
+      "repository": "UU-cellbiology/bigvolumebrowser",
+      "commit_url": "https://github.com/UU-cellbiology/bigvolumebrowser/commit/3fb0fd36552bdafab0ba6868fc8915d67650ff54"
+    },
+    {
+      "commit_date": "2026-11-24T13:59:08.000+03:00",
+      "author": "mevlanayalcin",
+      "repository": "ScrollPrize/villa",
+      "commit_url": "https://github.com/ScrollPrize/villa/commit/3aa955678b14252c0284ac5d4d93e76fd30245ac"
+    },
+    {
+      "commit_date": "2026-11-24T13:07:27.000+01:00",
+      "author": "jonasteuwen",
+      "repository": "NKI-AI/fastslide",
+      "commit_url": "https://github.com/NKI-AI/fastslide/commit/be648f1217990393169432ada492d052794cfce6"
+    },
+    {
+      "commit_date": "2026-11-24T13:04:29.000-06:00",
+      "author": "francopestilli",
+      "repository": "brainlife/ezbids",
+      "commit_url": "https://github.com/brainlife/ezbids/commit/9782a2a8b01ef1e1aef6ad1cf270cdf4790f6eab"
+    },
+    {
+      "commit_date": "2026-11-24T12:47:40.000+02:00",
+      "author": "guijacquemet",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/a781a9cf4160f87f8d49e94b19709b210ea86c2c"
+    },
+    {
+      "commit_date": "2026-11-24T12:36:49.000-06:00",
+      "author": "francopestilli",
+      "repository": "brainlife/ezbids",
+      "commit_url": "https://github.com/brainlife/ezbids/commit/43d3e322e74972999c0c27e947c548f3d814e1db"
+    },
+    {
+      "commit_date": "2026-11-24T12:35:32.000-06:00",
+      "author": "francopestilli",
+      "repository": "brainlife/ezbids",
+      "commit_url": "https://github.com/brainlife/ezbids/commit/1b5afe24c2d8e5ca192095a53309438177089ee3"
+    },
+    {
+      "commit_date": "2026-11-24T12:30:50.000-06:00",
+      "author": "francopestilli",
+      "repository": "brainlife/ezbids",
+      "commit_url": "https://github.com/brainlife/ezbids/commit/2f7021b6033869fe327e07d72d04752b5ebab18b"
+    },
+    {
+      "commit_date": "2026-11-24T12:26:28.000-06:00",
+      "author": "francopestilli",
+      "repository": "brainlife/ezbids",
+      "commit_url": "https://github.com/brainlife/ezbids/commit/3e94a0d96e4346e1f40d43dddff9c1f4c1232b38"
+    },
+    {
+      "commit_date": "2026-11-24T12:09:03.000Z",
+      "author": "folterj",
+      "repository": "ome-zarr-models/ome-zarrpari",
+      "commit_url": "https://github.com/ome-zarr-models/ome-zarrpari/commit/c19f1fa4dbc4ea804ce7000a6ee1225712cc390c"
+    },
+    {
+      "commit_date": "2026-11-24T11:56:06.000Z",
+      "author": "folterj",
+      "repository": "ome-zarr-models/ome-zarrpari",
+      "commit_url": "https://github.com/ome-zarr-models/ome-zarrpari/commit/88a2556008af600082580cdc98fe31fed54514ac"
+    },
+    {
+      "commit_date": "2026-11-24T11:55:19.000-06:00",
+      "author": "francopestilli",
+      "repository": "brainlife/ezbids",
+      "commit_url": "https://github.com/brainlife/ezbids/commit/dde59651813f682ff1c932d5b1bfa4157f680e9a"
+    },
+    {
+      "commit_date": "2026-11-24T11:05:15.000-06:00",
+      "author": "francopestilli",
+      "repository": "brainlife/ezbids",
+      "commit_url": "https://github.com/brainlife/ezbids/commit/733c6e7b32f2c628e74710ba1da224086a9c6f33"
+    },
+    {
+      "commit_date": "2026-11-24T10:45:54.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/fd1f14388e68f908abb354c266b1b95fc1e4691c"
+    },
+    {
+      "commit_date": "2026-11-24T10:11:29.000-06:00",
+      "author": "francopestilli",
+      "repository": "brainlife/ezbids",
+      "commit_url": "https://github.com/brainlife/ezbids/commit/3eb03f7719f495e9d74a47387f73fde116102e80"
+    },
+    {
+      "commit_date": "2026-11-24T09:58:39.000-06:00",
+      "author": "francopestilli",
+      "repository": "brainlife/ezbids",
+      "commit_url": "https://github.com/brainlife/ezbids/commit/ac00970b355def4cb36214527e7a012dc34c6ad5"
+    },
+    {
+      "commit_date": "2026-11-24T09:42:25.000+01:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/7fc9b74fb23943fc9adca1fd6cea76a411ef18fc"
+    },
+    {
+      "commit_date": "2026-11-24T09:42:21.000+01:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/0ef459fd98be2845f5023b2116499eb81a1b96e9"
+    },
+    {
+      "commit_date": "2026-11-24T08:51:40.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/78f6c4446711529f516d653258d7e4becd346d2f"
+    },
+    {
+      "commit_date": "2026-11-24T08:47:02.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/b17c6942601a6c3bbceeaeec2f6eff84b9232a67"
+    },
+    {
+      "commit_date": "2026-11-24T07:59:11.000+02:00",
+      "author": "guijacquemet",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/1306a3c05de40ec792ca20c54607c251e40e0947"
+    },
+    {
+      "commit_date": "2026-11-24T07:54:20.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/9398510339c03fe00492446c4f797982abe46e5c"
+    },
+    {
+      "commit_date": "2026-11-24T06:17:43.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/f31794d323d18b847936f939c3098cf9255692b6"
+    },
+    {
+      "commit_date": "2026-11-24T06:16:22.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/ec782e67e964d0af9bea86a012abe6d9c756c6ad"
+    },
+    {
+      "commit_date": "2026-11-24T06:15:36.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/2393bcb6e21102923e6e4f767ab3363d6dde9241"
+    },
     {
       "commit_date": "2026-11-24T00:35:09.000Z",
       "author": "conda-forge-bot-data-manager[bot]",
