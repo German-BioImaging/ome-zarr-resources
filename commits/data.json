@@ -1,14 +1,218 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-25T01:22:52+00:00",
+  "generated": "2026-11-26T01:22:34+00:00",
   "recent_days": 10,
-  "total_commits": 3559,
+  "total_commits": 3593,
   "commits": [
+    {
+      "commit_date": "2026-11-26T01:10:32.000+10:00",
+      "author": "stebo85",
+      "repository": "neurodesk/webapps",
+      "commit_url": "https://github.com/neurodesk/webapps/commit/06f314d39e8e0752d9fe19fe22df0daae1d37060"
+    },
+    {
+      "commit_date": "2026-11-26T00:32:06.000+01:00",
+      "author": "jwindhager",
+      "repository": "TissUUmaps/TissUUmaps",
+      "commit_url": "https://github.com/TissUUmaps/TissUUmaps/commit/5cc3dd1875e84e8d88dabdb671cb8eb8039f8f29"
+    },
+    {
+      "commit_date": "2026-11-25T22:31:13.000+01:00",
+      "author": "nilsmechtel",
+      "repository": "aicell-lab/bioengine",
+      "commit_url": "https://github.com/aicell-lab/bioengine/commit/311131cc765b29e0171674255860f6be835b9ae5"
+    },
+    {
+      "commit_date": "2026-11-25T22:17:18.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/9bea6e608efe9aec0233cba1d03a46426f13591e"
+    },
+    {
+      "commit_date": "2026-11-25T21:46:12.000+01:00",
+      "author": "nilsmechtel",
+      "repository": "bioimage-io/bioimage.io",
+      "commit_url": "https://github.com/bioimage-io/bioimage.io/commit/3ece1d859b4795afe1e6cf5bd4e2bb26b2a20001"
+    },
+    {
+      "commit_date": "2026-11-25T21:12:23.000Z",
+      "author": "jameslehoux",
+      "repository": "BASE-Laboratory/OpenImpala-Hub",
+      "commit_url": "https://github.com/BASE-Laboratory/OpenImpala-Hub/commit/b9b0062179ceee1489b7225b5523ced845fc3365"
+    },
+    {
+      "commit_date": "2026-11-25T19:59:28.000Z",
+      "author": "jameslehoux",
+      "repository": "BASE-Laboratory/OpenImpala-Hub",
+      "commit_url": "https://github.com/BASE-Laboratory/OpenImpala-Hub/commit/1966d8bffaeb6ffec937a8e2cbc22bea74d4b59e"
+    },
+    {
+      "commit_date": "2026-11-25T19:40:09.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/a834424f47a24e8c2ab37d65dc0639e95f9352f3"
+    },
+    {
+      "commit_date": "2026-11-25T19:07:24.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/f8e493cc8b46ba38726eba9aa3b9f280dfeb537d"
+    },
+    {
+      "commit_date": "2026-11-25T18:48:31.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/24fefe14cbbfac54c893fed75a003ca0568ac6b5"
+    },
+    {
+      "commit_date": "2026-11-25T17:42:26.000+01:00",
+      "author": "cavenel",
+      "repository": "TissUUmaps/TissUUmaps",
+      "commit_url": "https://github.com/TissUUmaps/TissUUmaps/commit/02a0b23526bc424580dd1abcd33b62abb115c24d"
+    },
+    {
+      "commit_date": "2026-11-25T17:18:53.000+10:00",
+      "author": "stebo85",
+      "repository": "neurodesk/neurocontainers",
+      "commit_url": "https://github.com/neurodesk/neurocontainers/commit/0d2a93bb02ba99952a6dee729c9c0148228a37d3"
+    },
+    {
+      "commit_date": "2026-11-25T17:04:55.000+01:00",
+      "author": "schilling40",
+      "repository": "computational-cell-analytics/cochlea-net",
+      "commit_url": "https://github.com/computational-cell-analytics/cochlea-net/commit/b41f05846cd42bddf44a03bcb1864d3bb346543d"
+    },
+    {
+      "commit_date": "2026-11-25T14:39:49.000+01:00",
+      "author": "nilsmechtel",
+      "repository": "aicell-lab/bioengine",
+      "commit_url": "https://github.com/aicell-lab/bioengine/commit/afd1b0b7bc82d3a7d05cf8400327ac25484add4c"
+    },
+    {
+      "commit_date": "2026-11-25T14:15:45.000Z",
+      "author": "jameslehoux",
+      "repository": "BASE-Laboratory/OpenImpala-Hub",
+      "commit_url": "https://github.com/BASE-Laboratory/OpenImpala-Hub/commit/2d562169a049d65e8f4e9e3df3a5747fb943d2f6"
+    },
+    {
+      "commit_date": "2026-11-25T14:01:49.000+01:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/a2ae9535bd8e55e4b26d42de6355312e5d7169b9"
+    },
+    {
+      "commit_date": "2026-11-25T13:52:55.000+01:00",
+      "author": "stefanhahmann",
+      "repository": "BioImageTools/ome-zarr-fiji-java",
+      "commit_url": "https://github.com/BioImageTools/ome-zarr-fiji-java/commit/dbc06e522bae2a46a9b3eb167e0578c9a8032dc3"
+    },
+    {
+      "commit_date": "2026-11-25T13:07:22.000+01:00",
+      "author": "TorecLuik",
+      "repository": "NL-BioImaging/biomero-scripts",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-scripts/commit/a64041c1c9daf74234963d2db2cfe4a0a634db1a"
+    },
+    {
+      "commit_date": "2026-11-25T12:53:49.000Z",
+      "author": "leehart3000",
+      "repository": "leehart3000/zarrextract",
+      "commit_url": "https://github.com/leehart3000/zarrextract/commit/8dd3ebdf124a1bb3ea7b607805a8d9f473708086"
+    },
+    {
+      "commit_date": "2026-11-25T10:46:41.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-pr_info/commit/79358961be3e604b16ba96c12e0bb0dafc8a2bd6"
+    },
+    {
+      "commit_date": "2026-11-25T10:07:34.000+01:00",
+      "author": "nilsmechtel",
+      "repository": "bioimage-io/bioimage.io",
+      "commit_url": "https://github.com/bioimage-io/bioimage.io/commit/c07502429bc8c6764bec1374d5a14e68a4be3f66"
+    },
+    {
+      "commit_date": "2026-11-25T09:50:47.000+01:00",
+      "author": "jonasteuwen",
+      "repository": "NKI-AI/qupath-extension-fastslide",
+      "commit_url": "https://github.com/NKI-AI/qupath-extension-fastslide/commit/6c5d3698960a6d2397227dcbe5119640dc4e537a"
+    },
+    {
+      "commit_date": "2026-11-25T09:30:35.000+01:00",
+      "author": "imagejan",
+      "repository": "conda-forge/bioio-ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/bioio-ome-zarr-feedstock/commit/d864e4888c4ee8231774487128465b5da3a7d493"
+    },
+    {
+      "commit_date": "2026-11-25T09:20:10.000+01:00",
+      "author": "tischi",
+      "repository": "mobie/mobie-io",
+      "commit_url": "https://github.com/mobie/mobie-io/commit/001fc7e7f1001ccba92dbf473406265c58d8c33b"
+    },
+    {
+      "commit_date": "2026-11-25T08:48:05.000+01:00",
+      "author": "jonasteuwen",
+      "repository": "NKI-AI/qupath-extension-fastslide",
+      "commit_url": "https://github.com/NKI-AI/qupath-extension-fastslide/commit/6fff4fc2070c000710a231f2f278e85a5caa224e"
+    },
+    {
+      "commit_date": "2026-11-25T08:33:34.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/92473098be3344e6b225ba09163befe46de86315"
+    },
+    {
+      "commit_date": "2026-11-25T08:32:42.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-node_attrs",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-node_attrs/commit/28cda4cb76d137fe01e4bbb3960dd5d99cca108c"
+    },
+    {
+      "commit_date": "2026-11-25T08:30:48.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/462860ab1d27b51decb0b6a3a6f72e9ba71da156"
+    },
     {
       "commit_date": "2026-11-25T06:52:54.000+11:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/b4dd51d1cd5162b64cf8fd9ed624019600580399"
+    },
+    {
+      "commit_date": "2026-11-25T06:13:18.000+03:00",
+      "author": "Zaf4",
+      "repository": "datavil/cellestial",
+      "commit_url": "https://github.com/datavil/cellestial/commit/1a7947c33e610955bec1100f6d2842da21d9bf1c"
+    },
+    {
+      "commit_date": "2026-11-25T04:08:01.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-pr_info/commit/5874cf7d47e541d4833e3e3852c60cecc9fdf656"
+    },
+    {
+      "commit_date": "2026-11-25T03:25:07.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-version_pr_info",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-version_pr_info/commit/7a40afdfb88b9f3f35ac22656c9c540ba3ebdbd5"
+    },
+    {
+      "commit_date": "2026-11-25T03:18:00.000Z",
+      "author": "renovate[bot]",
+      "repository": "darosio/nima_io",
+      "commit_url": "https://github.com/darosio/nima_io/commit/b56c605a872a16065481561a385e45e9d18c1ecc"
+    },
+    {
+      "commit_date": "2026-11-25T01:22:03.000Z",
+      "author": "conda-forge-bot-data-manager[bot]",
+      "repository": "conda-forge/conda-forge-bot-data-versions",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data-versions/commit/b67d25a001b7250ac83914c94d5131beab819fa3"
+    },
+    {
+      "commit_date": "2026-11-25T00:31:33.000Z",
+      "author": "claude",
+      "repository": "CellMigrationLab/morphobricks-preprocessing",
+      "commit_url": "https://github.com/CellMigrationLab/morphobricks-preprocessing/commit/f7e1f58b4ef1d2d75b800db36474c6da38ee9d69"
     },
     {
       "commit_date": "2026-11-25T00:11:47.000+11:00",
