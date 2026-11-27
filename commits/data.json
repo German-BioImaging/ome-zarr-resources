@@ -1,9 +1,159 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-26T01:22:34+00:00",
+  "generated": "2026-11-27T01:22:39+00:00",
   "recent_days": 10,
-  "total_commits": 3593,
+  "total_commits": 3618,
   "commits": [
+    {
+      "commit_date": "2026-11-27T07:12:07.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/e2e073c8ab1e404472a8d67eeb89651c27f8192e"
+    },
+    {
+      "commit_date": "2026-11-26T21:21:00.000+01:00",
+      "author": "oierlauzi",
+      "repository": "gigabit-clowns/vitrio",
+      "commit_url": "https://github.com/gigabit-clowns/vitrio/commit/ccbc88091a0b3814c8256ca0756022e1fdce7615"
+    },
+    {
+      "commit_date": "2026-11-26T21:09:37.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/7395371f10f1c918d117d413c3f7d220b8147f3a"
+    },
+    {
+      "commit_date": "2026-11-26T20:46:09.000Z",
+      "author": "leehart3000",
+      "repository": "leehart3000/zarrextract",
+      "commit_url": "https://github.com/leehart3000/zarrextract/commit/4380d67a8a79a578a395f7ce3e4a2622e214e02e"
+    },
+    {
+      "commit_date": "2026-11-26T20:34:53.000Z",
+      "author": "leehart3000",
+      "repository": "leehart3000/zarrextract",
+      "commit_url": "https://github.com/leehart3000/zarrextract/commit/80b0ea1232a8bf6a4d220208633151c88a96b32c"
+    },
+    {
+      "commit_date": "2026-11-26T19:39:21.000+01:00",
+      "author": "nilsmechtel",
+      "repository": "aicell-lab/bioengine",
+      "commit_url": "https://github.com/aicell-lab/bioengine/commit/97a8be24061e1b2f773f03543ec4eabd2fa4f195"
+    },
+    {
+      "commit_date": "2026-11-26T17:13:21.000Z",
+      "author": "claude",
+      "repository": "balbasty/brainfilter",
+      "commit_url": "https://github.com/balbasty/brainfilter/commit/a13dcf0c9685b36f608e2ad10bc563d39970eb90"
+    },
+    {
+      "commit_date": "2026-11-26T17:11:54.000+01:00",
+      "author": "alandolt",
+      "repository": "pymmcore-plus/pymmcore-widgets",
+      "commit_url": "https://github.com/pymmcore-plus/pymmcore-widgets/commit/d547b181c7ed12760db2a0f8214b267f0e365d2f"
+    },
+    {
+      "commit_date": "2026-11-26T15:57:44.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/d885d2c6b1543444933c8050c822d0b236a64008"
+    },
+    {
+      "commit_date": "2026-11-26T15:55:58.000+01:00",
+      "author": "nilsmechtel",
+      "repository": "aicell-lab/bioengine",
+      "commit_url": "https://github.com/aicell-lab/bioengine/commit/55f740a2a1ce32b12fc070286da139fd92160b84"
+    },
+    {
+      "commit_date": "2026-11-26T15:26:11.000+01:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/5550a9285f87ed1dbcb08f62744cbc8226d22148"
+    },
+    {
+      "commit_date": "2026-11-26T14:58:40.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/1eddd69c5a193a9752bdaf34150fcc8fe2c0468e"
+    },
+    {
+      "commit_date": "2026-11-26T14:32:01.000+08:00",
+      "author": "formetaohy",
+      "repository": "formetaohy/Grana",
+      "commit_url": "https://github.com/formetaohy/Grana/commit/5d43c4e7f6b0cd5a74f354fc1fee37a1d716fb22"
+    },
+    {
+      "commit_date": "2026-11-26T14:31:07.000Z",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/648353f86b32d95dcb1a8d1eb1f79fa4724c0c06"
+    },
+    {
+      "commit_date": "2026-11-26T14:08:27.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/bb5ef67e3761f7d272ce12ab9b49f9ef00546a90"
+    },
+    {
+      "commit_date": "2026-11-26T14:07:23.000+01:00",
+      "author": "TorecLuik",
+      "repository": "NL-BioImaging/NL-BIOMERO",
+      "commit_url": "https://github.com/NL-BioImaging/NL-BIOMERO/commit/62141dcbbcf6596d7c62bf215813287c933cdbe6"
+    },
+    {
+      "commit_date": "2026-11-26T13:59:24.000+01:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/biomero-converter",
+      "commit_url": "https://github.com/NL-BioImaging/biomero-converter/commit/097a7399bd7170950a207e79e124fc6497a743cf"
+    },
+    {
+      "commit_date": "2026-11-26T13:23:15.000+01:00",
+      "author": "nilsmechtel",
+      "repository": "bioimage-io/bioimage.io",
+      "commit_url": "https://github.com/bioimage-io/bioimage.io/commit/0ffc81351b939835bfe3d84c904496867543fc1e"
+    },
+    {
+      "commit_date": "2026-11-26T13:15:18.000+01:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/fair-segmentation",
+      "commit_url": "https://github.com/NL-BioImaging/fair-segmentation/commit/fe2f5bb17c6943561755e914fbdcacb60e1ae29e"
+    },
+    {
+      "commit_date": "2026-11-26T11:57:48.000+01:00",
+      "author": "nilsmechtel",
+      "repository": "bioimage-io/bioimage.io",
+      "commit_url": "https://github.com/bioimage-io/bioimage.io/commit/2ec717fafe25aff0870ff26104a45a44493067d9"
+    },
+    {
+      "commit_date": "2026-11-26T11:35:21.000+01:00",
+      "author": "nilsmechtel",
+      "repository": "bioimage-io/bioimage.io",
+      "commit_url": "https://github.com/bioimage-io/bioimage.io/commit/cafd66daa846a87477efd3eb162bb9c70b0fc6d3"
+    },
+    {
+      "commit_date": "2026-11-26T11:16:47.000+01:00",
+      "author": "nilsmechtel",
+      "repository": "bioimage-io/bioimage.io",
+      "commit_url": "https://github.com/bioimage-io/bioimage.io/commit/489608509612c8c9d25c264ee2200eed4e25810d"
+    },
+    {
+      "commit_date": "2026-11-26T10:14:16.000Z",
+      "author": "yi sun",
+      "repository": "embl-cba/band-skills",
+      "commit_url": "https://github.com/embl-cba/band-skills/commit/fd7d39190bf5d755fe879156de960363ca4c48c0"
+    },
+    {
+      "commit_date": "2026-11-26T07:01:53.000+01:00",
+      "author": "nilsmechtel",
+      "repository": "bioimage-io/bioimage.io",
+      "commit_url": "https://github.com/bioimage-io/bioimage.io/commit/f8eb71f5d403b8f16777de77b26fb35df3043fe4"
+    },
+    {
+      "commit_date": "2026-11-26T01:58:35.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/5d485dfcccd4f3ae2278a76017f792c54fe79cee"
+    },
     {
       "commit_date": "2026-11-26T01:10:32.000+10:00",
       "author": "stebo85",
