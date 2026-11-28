@@ -1,14 +1,158 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-11-27T01:22:39+00:00",
+  "generated": "2026-11-28T01:22:47+00:00",
   "recent_days": 10,
-  "total_commits": 3618,
+  "total_commits": 3642,
   "commits": [
+    {
+      "commit_date": "2026-11-28T11:42:06.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/b4959cace60963f46de6c00984ab32bdf6802326"
+    },
+    {
+      "commit_date": "2026-11-28T00:26:32.000+01:00",
+      "author": "lazarusA",
+      "repository": "ndvis/octant-docs",
+      "commit_url": "https://github.com/ndvis/octant-docs/commit/4ced3e679d41963d1b3b9ce69d12a101c829f1a3"
+    },
+    {
+      "commit_date": "2026-11-28T00:00:36.000+01:00",
+      "author": "tristanmanchester",
+      "repository": "tristanmanchester/tomojax",
+      "commit_url": "https://github.com/tristanmanchester/tomojax/commit/880edb16a6b8f18c69a2fc0ca9d70cc4567e6dcd"
+    },
+    {
+      "commit_date": "2026-11-27T22:56:35.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/0b31090ce4427046bde52dec7febd928c55fa328"
+    },
+    {
+      "commit_date": "2026-11-27T21:52:59.000+01:00",
+      "author": "lazarusA",
+      "repository": "ndvis/octant-docs",
+      "commit_url": "https://github.com/ndvis/octant-docs/commit/85e9fe1b3955a711a2498a6b819e709d0792c6a7"
+    },
+    {
+      "commit_date": "2026-11-27T20:11:21.000+01:00",
+      "author": "tristanmanchester",
+      "repository": "tristanmanchester/tomojax",
+      "commit_url": "https://github.com/tristanmanchester/tomojax/commit/42b95928849a1663cdbc2e9eb87a224f6593b9e9"
+    },
+    {
+      "commit_date": "2026-11-27T17:36:34.000Z",
+      "author": "leehart3000",
+      "repository": "leehart3000/zarrextract",
+      "commit_url": "https://github.com/leehart3000/zarrextract/commit/e74c161a0c0a7554481895b4c8c04c56cbafc563"
+    },
+    {
+      "commit_date": "2026-11-27T17:28:14.000Z",
+      "author": "leehart3000",
+      "repository": "leehart3000/zarrextract",
+      "commit_url": "https://github.com/leehart3000/zarrextract/commit/8cceff2bfbe47c682feba081b0d60e4a1518dc4a"
+    },
+    {
+      "commit_date": "2026-11-27T15:30:34.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/13a3db99ffef2ff8c4d0406620a494d0fd03ad01"
+    },
+    {
+      "commit_date": "2026-11-27T15:12:59.000+11:00",
+      "author": "schienstockd",
+      "repository": "schienstockd/cecelia",
+      "commit_url": "https://github.com/schienstockd/cecelia/commit/290f438e6e4d9508debed0aa6253a57a75dae956"
+    },
+    {
+      "commit_date": "2026-11-27T14:24:15.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/f0669b05beb312670d4122e58ef39cf603fa6da6"
+    },
+    {
+      "commit_date": "2026-11-27T13:59:19.000Z",
+      "author": "jesusdpa1",
+      "repository": "neuro-kitchen/kitchen",
+      "commit_url": "https://github.com/neuro-kitchen/kitchen/commit/01a08df6601d4635d10097e54c380ad867e91f1e"
+    },
+    {
+      "commit_date": "2026-11-27T12:32:00.000+01:00",
+      "author": "folterj",
+      "repository": "ccp-volume-em/muvis-align",
+      "commit_url": "https://github.com/ccp-volume-em/muvis-align/commit/1075b754fc9402817109ee529d737aecbb76c641"
+    },
+    {
+      "commit_date": "2026-11-27T11:27:31.000Z",
+      "author": "prete",
+      "repository": "cellgeni/explorer",
+      "commit_url": "https://github.com/cellgeni/explorer/commit/a752ac199d3ca44db027492c56bf43ba6797bd23"
+    },
+    {
+      "commit_date": "2026-11-27T11:26:36.000Z",
+      "author": "leehart3000",
+      "repository": "leehart3000/zarrextract",
+      "commit_url": "https://github.com/leehart3000/zarrextract/commit/99352a70f951d051b1ea3852320125d11183dd36"
+    },
+    {
+      "commit_date": "2026-11-27T10:43:19.000+01:00",
+      "author": "schilling40",
+      "repository": "computational-cell-analytics/slurm-workflows",
+      "commit_url": "https://github.com/computational-cell-analytics/slurm-workflows/commit/ba826c4d333d55fe222440d351bc2a0bdf82d717"
+    },
+    {
+      "commit_date": "2026-11-27T10:25:11.000+01:00",
+      "author": "normanrz",
+      "repository": "scalableminds/webknossos",
+      "commit_url": "https://github.com/scalableminds/webknossos/commit/6c62198b64b7426c679b3ebbd281c4dbdfe0a1c9"
+    },
+    {
+      "commit_date": "2026-11-27T10:13:48.000-05:00",
+      "author": "akhanf",
+      "repository": "khanlab/mind-spim-qc",
+      "commit_url": "https://github.com/khanlab/mind-spim-qc/commit/2a30ed74db367b228b64b41d8fc791336e1e9338"
+    },
+    {
+      "commit_date": "2026-11-27T09:57:55.000+01:00",
+      "author": "schilling40",
+      "repository": "computational-cell-analytics/slurm-workflows",
+      "commit_url": "https://github.com/computational-cell-analytics/slurm-workflows/commit/1af56837e3ce3301c102301f0455462b9dd3829e"
+    },
+    {
+      "commit_date": "2026-11-27T09:44:13.000+01:00",
+      "author": "folterj",
+      "repository": "NL-BioImaging/fair-segmentation",
+      "commit_url": "https://github.com/NL-BioImaging/fair-segmentation/commit/89b4b8e946e3266b648fbd52252126f7b2676bc7"
+    },
+    {
+      "commit_date": "2026-11-27T09:25:31.000Z",
+      "author": "leehart3000",
+      "repository": "leehart3000/zarrextract",
+      "commit_url": "https://github.com/leehart3000/zarrextract/commit/b912cbca314077b8508ada4438ac7a736894f79f"
+    },
+    {
+      "commit_date": "2026-11-27T08:16:25.000-06:00",
+      "author": "moradology",
+      "repository": "moradology/cogzilla",
+      "commit_url": "https://github.com/moradology/cogzilla/commit/c74c2214b365f1f3bf548608c46a59f93f2c84b1"
+    },
+    {
+      "commit_date": "2026-11-27T08:05:01.000-05:00",
+      "author": "tlambert03",
+      "repository": "imaging-formats/yaozarrs",
+      "commit_url": "https://github.com/imaging-formats/yaozarrs/commit/4c5b289fe0f846d63887e69afef9c1dcb054bf51"
+    },
     {
       "commit_date": "2026-11-27T07:12:07.000+11:00",
       "author": "schienstockd",
       "repository": "schienstockd/cecelia",
       "commit_url": "https://github.com/schienstockd/cecelia/commit/e2e073c8ab1e404472a8d67eeb89651c27f8192e"
+    },
+    {
+      "commit_date": "2026-11-27T06:58:57.000Z",
+      "author": "claude",
+      "repository": "arnavhiteshpatel-cloud/playground",
+      "commit_url": "https://github.com/arnavhiteshpatel-cloud/playground/commit/deab961ecbe6d5564b6f585bd3f2c7ba2213754f"
     },
     {
       "commit_date": "2026-11-26T21:21:00.000+01:00",
